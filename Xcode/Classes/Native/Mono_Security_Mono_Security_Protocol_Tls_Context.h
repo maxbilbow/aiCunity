@@ -1,21 +1,21 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t720;
+struct ByteU5BU5D_t722;
 // Mono.Security.Protocol.Tls.TlsServerSettings
-struct TlsServerSettings_t1452;
+struct TlsServerSettings_t1454;
 // Mono.Security.Protocol.Tls.TlsClientSettings
-struct TlsClientSettings_t1453;
+struct TlsClientSettings_t1455;
 // Mono.Security.Protocol.Tls.SecurityParameters
-struct SecurityParameters_t1454;
+struct SecurityParameters_t1456;
 // Mono.Security.Protocol.Tls.CipherSuiteCollection
-struct CipherSuiteCollection_t1438;
+struct CipherSuiteCollection_t1440;
 // Mono.Security.Protocol.Tls.TlsStream
-struct TlsStream_t1448;
+struct TlsStream_t1450;
 // System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t1389;
+struct RandomNumberGenerator_t1391;
 // Mono.Security.Protocol.Tls.RecordProtocol
-struct RecordProtocol_t1445;
+struct RecordProtocol_t1447;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Protocol.Tls.SecurityProtocolType
@@ -27,28 +27,28 @@ struct RecordProtocol_t1445;
 // Mono.Security.Protocol.Tls.HandshakeState
 #include "Mono_Security_Mono_Security_Protocol_Tls_HandshakeState.h"
 // Mono.Security.Protocol.Tls.Context
-struct  Context_t1436  : public Object_t
+struct  Context_t1438  : public Object_t
 {
 	// Mono.Security.Protocol.Tls.SecurityProtocolType Mono.Security.Protocol.Tls.Context::securityProtocol
 	int32_t ___securityProtocol_0;
 	// System.Byte[] Mono.Security.Protocol.Tls.Context::sessionId
-	ByteU5BU5D_t720* ___sessionId_1;
+	ByteU5BU5D_t722* ___sessionId_1;
 	// Mono.Security.Protocol.Tls.SecurityCompressionType Mono.Security.Protocol.Tls.Context::compressionMethod
 	int32_t ___compressionMethod_2;
 	// Mono.Security.Protocol.Tls.TlsServerSettings Mono.Security.Protocol.Tls.Context::serverSettings
-	TlsServerSettings_t1452 * ___serverSettings_3;
+	TlsServerSettings_t1454 * ___serverSettings_3;
 	// Mono.Security.Protocol.Tls.TlsClientSettings Mono.Security.Protocol.Tls.Context::clientSettings
-	TlsClientSettings_t1453 * ___clientSettings_4;
+	TlsClientSettings_t1455 * ___clientSettings_4;
 	// Mono.Security.Protocol.Tls.SecurityParameters Mono.Security.Protocol.Tls.Context::current
-	SecurityParameters_t1454 * ___current_5;
+	SecurityParameters_t1456 * ___current_5;
 	// Mono.Security.Protocol.Tls.SecurityParameters Mono.Security.Protocol.Tls.Context::negotiating
-	SecurityParameters_t1454 * ___negotiating_6;
+	SecurityParameters_t1456 * ___negotiating_6;
 	// Mono.Security.Protocol.Tls.SecurityParameters Mono.Security.Protocol.Tls.Context::read
-	SecurityParameters_t1454 * ___read_7;
+	SecurityParameters_t1456 * ___read_7;
 	// Mono.Security.Protocol.Tls.SecurityParameters Mono.Security.Protocol.Tls.Context::write
-	SecurityParameters_t1454 * ___write_8;
+	SecurityParameters_t1456 * ___write_8;
 	// Mono.Security.Protocol.Tls.CipherSuiteCollection Mono.Security.Protocol.Tls.Context::supportedCiphers
-	CipherSuiteCollection_t1438 * ___supportedCiphers_9;
+	CipherSuiteCollection_t1440 * ___supportedCiphers_9;
 	// Mono.Security.Protocol.Tls.Handshake.HandshakeType Mono.Security.Protocol.Tls.Context::lastHandshakeMsg
 	uint8_t ___lastHandshakeMsg_10;
 	// Mono.Security.Protocol.Tls.HandshakeState Mono.Security.Protocol.Tls.Context::handshakeState
@@ -66,27 +66,27 @@ struct  Context_t1436  : public Object_t
 	// System.UInt64 Mono.Security.Protocol.Tls.Context::readSequenceNumber
 	uint64_t ___readSequenceNumber_17;
 	// System.Byte[] Mono.Security.Protocol.Tls.Context::clientRandom
-	ByteU5BU5D_t720* ___clientRandom_18;
+	ByteU5BU5D_t722* ___clientRandom_18;
 	// System.Byte[] Mono.Security.Protocol.Tls.Context::serverRandom
-	ByteU5BU5D_t720* ___serverRandom_19;
+	ByteU5BU5D_t722* ___serverRandom_19;
 	// System.Byte[] Mono.Security.Protocol.Tls.Context::randomCS
-	ByteU5BU5D_t720* ___randomCS_20;
+	ByteU5BU5D_t722* ___randomCS_20;
 	// System.Byte[] Mono.Security.Protocol.Tls.Context::randomSC
-	ByteU5BU5D_t720* ___randomSC_21;
+	ByteU5BU5D_t722* ___randomSC_21;
 	// System.Byte[] Mono.Security.Protocol.Tls.Context::masterSecret
-	ByteU5BU5D_t720* ___masterSecret_22;
+	ByteU5BU5D_t722* ___masterSecret_22;
 	// System.Byte[] Mono.Security.Protocol.Tls.Context::clientWriteKey
-	ByteU5BU5D_t720* ___clientWriteKey_23;
+	ByteU5BU5D_t722* ___clientWriteKey_23;
 	// System.Byte[] Mono.Security.Protocol.Tls.Context::serverWriteKey
-	ByteU5BU5D_t720* ___serverWriteKey_24;
+	ByteU5BU5D_t722* ___serverWriteKey_24;
 	// System.Byte[] Mono.Security.Protocol.Tls.Context::clientWriteIV
-	ByteU5BU5D_t720* ___clientWriteIV_25;
+	ByteU5BU5D_t722* ___clientWriteIV_25;
 	// System.Byte[] Mono.Security.Protocol.Tls.Context::serverWriteIV
-	ByteU5BU5D_t720* ___serverWriteIV_26;
+	ByteU5BU5D_t722* ___serverWriteIV_26;
 	// Mono.Security.Protocol.Tls.TlsStream Mono.Security.Protocol.Tls.Context::handshakeMessages
-	TlsStream_t1448 * ___handshakeMessages_27;
+	TlsStream_t1450 * ___handshakeMessages_27;
 	// System.Security.Cryptography.RandomNumberGenerator Mono.Security.Protocol.Tls.Context::random
-	RandomNumberGenerator_t1389 * ___random_28;
+	RandomNumberGenerator_t1391 * ___random_28;
 	// Mono.Security.Protocol.Tls.RecordProtocol Mono.Security.Protocol.Tls.Context::recordProtocol
-	RecordProtocol_t1445 * ___recordProtocol_29;
+	RecordProtocol_t1447 * ___recordProtocol_29;
 };

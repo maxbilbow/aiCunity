@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.AddComponentMenu
-struct AddComponentMenu_t564;
+struct AddComponentMenu_t566;
 // System.String
 struct String_t;
 
 // System.Void UnityEngine.AddComponentMenu::.ctor(System.String)
-extern "C" void AddComponentMenu__ctor_m3087 (AddComponentMenu_t564 * __this, String_t* ___menuName, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AddComponentMenu__ctor_m3098 (AddComponentMenu_t566 * __this, String_t* ___menuName, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.AddComponentMenu::.ctor(System.String,System.Int32)
-extern "C" void AddComponentMenu__ctor_m3140 (AddComponentMenu_t564 * __this, String_t* ___menuName, int32_t ___order, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void AddComponentMenu__ctor_m3151 (AddComponentMenu_t566 * __this, String_t* ___menuName, int32_t ___order, MethodInfo* method) IL2CPP_METHOD_ATTR;

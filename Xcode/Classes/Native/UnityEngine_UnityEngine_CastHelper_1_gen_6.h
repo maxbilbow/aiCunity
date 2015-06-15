@@ -7,7 +7,7 @@ struct Animator_t42;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.CastHelper`1<UnityEngine.Animator>
-struct  CastHelper_1_t2608 
+struct  CastHelper_1_t2610 
 {
 	// T UnityEngine.CastHelper`1<UnityEngine.Animator>::t
 	Animator_t42 * ___t_0;

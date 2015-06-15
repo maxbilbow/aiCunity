@@ -1407,19 +1407,19 @@ static Il2CppInterfaceOffsetPair AnchorsBase_t256_InterfacesOffsets[] =
 	{ &IConvertible_t225_0_0_0, 5},
 	{ &IComparable_t226_0_0_0, 21},
 };
-extern TypeInfo FlagsAttribute_t300_il2cpp_TypeInfo;
+extern TypeInfo FlagsAttribute_t302_il2cpp_TypeInfo;
 // System.FlagsAttribute
 #include "mscorlib_System_FlagsAttribute.h"
 // System.FlagsAttribute
 #include "mscorlib_System_FlagsAttributeMethodDeclarations.h"
-extern MethodInfo FlagsAttribute__ctor_m1354_MethodInfo;
+extern MethodInfo FlagsAttribute__ctor_m1365_MethodInfo;
 void AnchorsBase_t256_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		FlagsAttribute_t300 * tmp;
-		tmp = (FlagsAttribute_t300 *)il2cpp_codegen_object_new (&FlagsAttribute_t300_il2cpp_TypeInfo);
-		FlagsAttribute__ctor_m1354(tmp, &FlagsAttribute__ctor_m1354_MethodInfo);
+		FlagsAttribute_t302 * tmp;
+		tmp = (FlagsAttribute_t302 *)il2cpp_codegen_object_new (&FlagsAttribute_t302_il2cpp_TypeInfo);
+		FlagsAttribute__ctor_m1365(tmp, &FlagsAttribute__ctor_m1365_MethodInfo);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
@@ -2888,7 +2888,7 @@ static ParameterInfo CNAbstractController_t252_CNAbstractController_IsTouchCaptu
 	{"capturedTouch", 0, 134217754, &EmptyCustomAttributesCache, &Touch_t206_1_0_2},
 };
 extern Il2CppType Boolean_t202_0_0_0;
-extern void* RuntimeInvoker_Boolean_t202_TouchU26_t301 (MethodInfo* method, void* obj, void** args);
+extern void* RuntimeInvoker_Boolean_t202_TouchU26_t303 (MethodInfo* method, void* obj, void** args);
 // System.Boolean CNAbstractController::IsTouchCaptured(UnityEngine.Touch&)
 MethodInfo CNAbstractController_IsTouchCaptured_m1166_MethodInfo = 
 {
@@ -2896,7 +2896,7 @@ MethodInfo CNAbstractController_IsTouchCaptured_m1166_MethodInfo =
 	, (methodPointerType)&CNAbstractController_IsTouchCaptured_m1166/* method */
 	, &CNAbstractController_t252_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t202_0_0_0/* return_type */
-	, RuntimeInvoker_Boolean_t202_TouchU26_t301/* invoker_method */
+	, RuntimeInvoker_Boolean_t202_TouchU26_t303/* invoker_method */
 	, CNAbstractController_t252_CNAbstractController_IsTouchCaptured_m1166_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 452/* flags */
@@ -2941,21 +2941,21 @@ MethodInfo CNAbstractController_IsTouchInZone_m1167_MethodInfo =
 
 };
 extern Il2CppType Vector2_t13_0_0_0;
-static ParameterInfo CNAbstractController_t252_CNAbstractController_TweakControl_m1278_ParameterInfos[] = 
+static ParameterInfo CNAbstractController_t252_CNAbstractController_TweakControl_m1288_ParameterInfos[] = 
 {
 	{"touchPosition", 0, 134217756, &EmptyCustomAttributesCache, &Vector2_t13_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Vector2_t13 (MethodInfo* method, void* obj, void** args);
 // System.Void CNAbstractController::TweakControl(UnityEngine.Vector2)
-MethodInfo CNAbstractController_TweakControl_m1278_MethodInfo = 
+MethodInfo CNAbstractController_TweakControl_m1288_MethodInfo = 
 {
 	"TweakControl"/* name */
 	, NULL/* method */
 	, &CNAbstractController_t252_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Vector2_t13/* invoker_method */
-	, CNAbstractController_t252_CNAbstractController_TweakControl_m1278_ParameterInfos/* parameters */
+	, CNAbstractController_t252_CNAbstractController_TweakControl_m1288_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 1476/* flags */
 	, 0/* iflags */
@@ -3015,7 +3015,7 @@ static MethodInfo* CNAbstractController_t252_MethodInfos[] =
 	&CNAbstractController_TweakIfNeeded_m1165_MethodInfo,
 	&CNAbstractController_IsTouchCaptured_m1166_MethodInfo,
 	&CNAbstractController_IsTouchInZone_m1167_MethodInfo,
-	&CNAbstractController_TweakControl_m1278_MethodInfo,
+	&CNAbstractController_TweakControl_m1288_MethodInfo,
 	NULL
 };
 extern Il2CppType String_t_0_0_32849;
@@ -3504,31 +3504,31 @@ static bool CNAbstractController_t252_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern TypeInfo SerializeField_t228_il2cpp_TypeInfo;
-// UnityEngine.SerializeField
-#include "UnityEngine_UnityEngine_SerializeField.h"
-// UnityEngine.SerializeField
-#include "UnityEngine_UnityEngine_SerializeFieldMethodDeclarations.h"
-extern MethodInfo SerializeField__ctor_m1093_MethodInfo;
 extern TypeInfo HideInInspector_t238_il2cpp_TypeInfo;
 // UnityEngine.HideInInspector
 #include "UnityEngine_UnityEngine_HideInInspector.h"
 // UnityEngine.HideInInspector
 #include "UnityEngine_UnityEngine_HideInInspectorMethodDeclarations.h"
 extern MethodInfo HideInInspector__ctor_m1101_MethodInfo;
+extern TypeInfo SerializeField_t228_il2cpp_TypeInfo;
+// UnityEngine.SerializeField
+#include "UnityEngine_UnityEngine_SerializeField.h"
+// UnityEngine.SerializeField
+#include "UnityEngine_UnityEngine_SerializeFieldMethodDeclarations.h"
+extern MethodInfo SerializeField__ctor_m1093_MethodInfo;
 void CNAbstractController_t252_CustomAttributesCacheGenerator__anchor(CustomAttributesCache* cache)
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		SerializeField_t228 * tmp;
-		tmp = (SerializeField_t228 *)il2cpp_codegen_object_new (&SerializeField_t228_il2cpp_TypeInfo);
-		SerializeField__ctor_m1093(tmp, &SerializeField__ctor_m1093_MethodInfo);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-	{
 		HideInInspector_t238 * tmp;
 		tmp = (HideInInspector_t238 *)il2cpp_codegen_object_new (&HideInInspector_t238_il2cpp_TypeInfo);
 		HideInInspector__ctor_m1101(tmp, &HideInInspector__ctor_m1101_MethodInfo);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+	{
+		SerializeField_t228 * tmp;
+		tmp = (SerializeField_t228 *)il2cpp_codegen_object_new (&SerializeField_t228_il2cpp_TypeInfo);
+		SerializeField__ctor_m1093(tmp, &SerializeField__ctor_m1093_MethodInfo);
 		cache->attributes[1] = (Il2CppObject*)tmp;
 	}
 }
@@ -3536,15 +3536,15 @@ void CNAbstractController_t252_CustomAttributesCacheGenerator__axisNameX(CustomA
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		HideInInspector_t238 * tmp;
-		tmp = (HideInInspector_t238 *)il2cpp_codegen_object_new (&HideInInspector_t238_il2cpp_TypeInfo);
-		HideInInspector__ctor_m1101(tmp, &HideInInspector__ctor_m1101_MethodInfo);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-	{
 		SerializeField_t228 * tmp;
 		tmp = (SerializeField_t228 *)il2cpp_codegen_object_new (&SerializeField_t228_il2cpp_TypeInfo);
 		SerializeField__ctor_m1093(tmp, &SerializeField__ctor_m1093_MethodInfo);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+	{
+		HideInInspector_t238 * tmp;
+		tmp = (HideInInspector_t238 *)il2cpp_codegen_object_new (&HideInInspector_t238_il2cpp_TypeInfo);
+		HideInInspector__ctor_m1101(tmp, &HideInInspector__ctor_m1101_MethodInfo);
 		cache->attributes[1] = (Il2CppObject*)tmp;
 	}
 }
@@ -3568,15 +3568,15 @@ void CNAbstractController_t252_CustomAttributesCacheGenerator__touchZoneSize(Cus
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		HideInInspector_t238 * tmp;
-		tmp = (HideInInspector_t238 *)il2cpp_codegen_object_new (&HideInInspector_t238_il2cpp_TypeInfo);
-		HideInInspector__ctor_m1101(tmp, &HideInInspector__ctor_m1101_MethodInfo);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-	{
 		SerializeField_t228 * tmp;
 		tmp = (SerializeField_t228 *)il2cpp_codegen_object_new (&SerializeField_t228_il2cpp_TypeInfo);
 		SerializeField__ctor_m1093(tmp, &SerializeField__ctor_m1093_MethodInfo);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+	{
+		HideInInspector_t238 * tmp;
+		tmp = (HideInInspector_t238 *)il2cpp_codegen_object_new (&HideInInspector_t238_il2cpp_TypeInfo);
+		HideInInspector__ctor_m1101(tmp, &HideInInspector__ctor_m1101_MethodInfo);
 		cache->attributes[1] = (Il2CppObject*)tmp;
 	}
 }
@@ -4615,15 +4615,15 @@ void CNJoystick_t263_CustomAttributesCacheGenerator__dragRadius(CustomAttributes
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		HideInInspector_t238 * tmp;
-		tmp = (HideInInspector_t238 *)il2cpp_codegen_object_new (&HideInInspector_t238_il2cpp_TypeInfo);
-		HideInInspector__ctor_m1101(tmp, &HideInInspector__ctor_m1101_MethodInfo);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-	{
 		SerializeField_t228 * tmp;
 		tmp = (SerializeField_t228 *)il2cpp_codegen_object_new (&SerializeField_t228_il2cpp_TypeInfo);
 		SerializeField__ctor_m1093(tmp, &SerializeField__ctor_m1093_MethodInfo);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+	{
+		HideInInspector_t238 * tmp;
+		tmp = (HideInInspector_t238 *)il2cpp_codegen_object_new (&HideInInspector_t238_il2cpp_TypeInfo);
+		HideInInspector__ctor_m1101(tmp, &HideInInspector__ctor_m1101_MethodInfo);
 		cache->attributes[1] = (Il2CppObject*)tmp;
 	}
 }
@@ -4975,15 +4975,15 @@ void CNThrowableTouchpad_t264_CustomAttributesCacheGenerator__speedDecay(CustomA
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
-		HideInInspector_t238 * tmp;
-		tmp = (HideInInspector_t238 *)il2cpp_codegen_object_new (&HideInInspector_t238_il2cpp_TypeInfo);
-		HideInInspector__ctor_m1101(tmp, &HideInInspector__ctor_m1101_MethodInfo);
-		cache->attributes[0] = (Il2CppObject*)tmp;
-	}
-	{
 		SerializeField_t228 * tmp;
 		tmp = (SerializeField_t228 *)il2cpp_codegen_object_new (&SerializeField_t228_il2cpp_TypeInfo);
 		SerializeField__ctor_m1093(tmp, &SerializeField__ctor_m1093_MethodInfo);
+		cache->attributes[0] = (Il2CppObject*)tmp;
+	}
+	{
+		HideInInspector_t238 * tmp;
+		tmp = (HideInInspector_t238 *)il2cpp_codegen_object_new (&HideInInspector_t238_il2cpp_TypeInfo);
+		HideInInspector__ctor_m1101(tmp, &HideInInspector__ctor_m1101_MethodInfo);
 		cache->attributes[1] = (Il2CppObject*)tmp;
 	}
 }
@@ -5996,52 +5996,62 @@ FieldInfo RMXJoystick_t267____verticalAxisName_5_FieldInfo =
 
 };
 extern Il2CppType Vector3_t8_0_0_1;
-FieldInfo RMXJoystick_t267____m_StartPos_6_FieldInfo = 
+FieldInfo RMXJoystick_t267____origin_6_FieldInfo = 
+{
+	"origin"/* name */
+	, &Vector3_t8_0_0_1/* type */
+	, &RMXJoystick_t267_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXJoystick_t267, ___origin_6)/* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+extern Il2CppType Vector3_t8_0_0_1;
+FieldInfo RMXJoystick_t267____m_StartPos_7_FieldInfo = 
 {
 	"m_StartPos"/* name */
 	, &Vector3_t8_0_0_1/* type */
 	, &RMXJoystick_t267_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXJoystick_t267, ___m_StartPos_6)/* offset */
+	, offsetof(RMXJoystick_t267, ___m_StartPos_7)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Boolean_t202_0_0_1;
-FieldInfo RMXJoystick_t267____m_UseX_7_FieldInfo = 
+FieldInfo RMXJoystick_t267____m_UseX_8_FieldInfo = 
 {
 	"m_UseX"/* name */
 	, &Boolean_t202_0_0_1/* type */
 	, &RMXJoystick_t267_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXJoystick_t267, ___m_UseX_7)/* offset */
+	, offsetof(RMXJoystick_t267, ___m_UseX_8)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Boolean_t202_0_0_1;
-FieldInfo RMXJoystick_t267____m_UseY_8_FieldInfo = 
+FieldInfo RMXJoystick_t267____m_UseY_9_FieldInfo = 
 {
 	"m_UseY"/* name */
 	, &Boolean_t202_0_0_1/* type */
 	, &RMXJoystick_t267_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXJoystick_t267, ___m_UseY_8)/* offset */
+	, offsetof(RMXJoystick_t267, ___m_UseY_9)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType VirtualAxis_t45_0_0_1;
-FieldInfo RMXJoystick_t267____m_HorizontalVirtualAxis_9_FieldInfo = 
+FieldInfo RMXJoystick_t267____m_HorizontalVirtualAxis_10_FieldInfo = 
 {
 	"m_HorizontalVirtualAxis"/* name */
 	, &VirtualAxis_t45_0_0_1/* type */
 	, &RMXJoystick_t267_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXJoystick_t267, ___m_HorizontalVirtualAxis_9)/* offset */
+	, offsetof(RMXJoystick_t267, ___m_HorizontalVirtualAxis_10)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType VirtualAxis_t45_0_0_1;
-FieldInfo RMXJoystick_t267____m_VerticalVirtualAxis_10_FieldInfo = 
+FieldInfo RMXJoystick_t267____m_VerticalVirtualAxis_11_FieldInfo = 
 {
 	"m_VerticalVirtualAxis"/* name */
 	, &VirtualAxis_t45_0_0_1/* type */
 	, &RMXJoystick_t267_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXJoystick_t267, ___m_VerticalVirtualAxis_10)/* offset */
+	, offsetof(RMXJoystick_t267, ___m_VerticalVirtualAxis_11)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
@@ -6051,11 +6061,12 @@ static FieldInfo* RMXJoystick_t267_FieldInfos[] =
 	&RMXJoystick_t267____axesToUse_3_FieldInfo,
 	&RMXJoystick_t267____horizontalAxisName_4_FieldInfo,
 	&RMXJoystick_t267____verticalAxisName_5_FieldInfo,
-	&RMXJoystick_t267____m_StartPos_6_FieldInfo,
-	&RMXJoystick_t267____m_UseX_7_FieldInfo,
-	&RMXJoystick_t267____m_UseY_8_FieldInfo,
-	&RMXJoystick_t267____m_HorizontalVirtualAxis_9_FieldInfo,
-	&RMXJoystick_t267____m_VerticalVirtualAxis_10_FieldInfo,
+	&RMXJoystick_t267____origin_6_FieldInfo,
+	&RMXJoystick_t267____m_StartPos_7_FieldInfo,
+	&RMXJoystick_t267____m_UseX_8_FieldInfo,
+	&RMXJoystick_t267____m_UseY_9_FieldInfo,
+	&RMXJoystick_t267____m_HorizontalVirtualAxis_10_FieldInfo,
+	&RMXJoystick_t267____m_VerticalVirtualAxis_11_FieldInfo,
 	NULL
 };
 static const Il2CppType* RMXJoystick_t267_il2cpp_TypeInfo__nestedTypes[1] =
@@ -6166,7 +6177,7 @@ TypeInfo RMXJoystick_t267_il2cpp_TypeInfo =
 	, false/* is_blittable */
 	, 8/* method_count */
 	, 0/* property_count */
-	, 9/* field_count */
+	, 10/* field_count */
 	, 0/* event_count */
 	, 1/* nested_type_count */
 	, 7/* vtable_count */
@@ -6174,20 +6185,236 @@ TypeInfo RMXJoystick_t267_il2cpp_TypeInfo =
 	, 4/* interface_offsets_count */
 
 };
-// UnityStandardAssets.Utility.RMXSimpleMouse
-#include "AssemblyU2DCSharp_UnityStandardAssets_Utility_RMXSimpleMouse.h"
-// Metadata Definition UnityStandardAssets.Utility.RMXSimpleMouse
-extern TypeInfo RMXSimpleMouse_t268_il2cpp_TypeInfo;
-// UnityStandardAssets.Utility.RMXSimpleMouse
-#include "AssemblyU2DCSharp_UnityStandardAssets_Utility_RMXSimpleMouseMethodDeclarations.h"
+// UnityStandardAssets.CrossPlatformInput.RMXLookAround/AxisOption
+#include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_RMX_1.h"
+// Metadata Definition UnityStandardAssets.CrossPlatformInput.RMXLookAround/AxisOption
+extern TypeInfo AxisOption_t268_il2cpp_TypeInfo;
+// UnityStandardAssets.CrossPlatformInput.RMXLookAround/AxisOption
+#include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_RMX_1MethodDeclarations.h"
+static MethodInfo* AxisOption_t268_MethodInfos[] =
+{
+	NULL
+};
+extern Il2CppType Int32_t188_0_0_1542;
+FieldInfo AxisOption_t268____value___1_FieldInfo = 
+{
+	"value__"/* name */
+	, &Int32_t188_0_0_1542/* type */
+	, &AxisOption_t268_il2cpp_TypeInfo/* parent */
+	, offsetof(AxisOption_t268, ___value___1) + sizeof(Object_t)/* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+extern Il2CppType AxisOption_t268_0_0_32854;
+FieldInfo AxisOption_t268____Both_2_FieldInfo = 
+{
+	"Both"/* name */
+	, &AxisOption_t268_0_0_32854/* type */
+	, &AxisOption_t268_il2cpp_TypeInfo/* parent */
+	, 0 /*field is const -> no data*//* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+extern Il2CppType AxisOption_t268_0_0_32854;
+FieldInfo AxisOption_t268____OnlyHorizontal_3_FieldInfo = 
+{
+	"OnlyHorizontal"/* name */
+	, &AxisOption_t268_0_0_32854/* type */
+	, &AxisOption_t268_il2cpp_TypeInfo/* parent */
+	, 0 /*field is const -> no data*//* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+extern Il2CppType AxisOption_t268_0_0_32854;
+FieldInfo AxisOption_t268____OnlyVertical_4_FieldInfo = 
+{
+	"OnlyVertical"/* name */
+	, &AxisOption_t268_0_0_32854/* type */
+	, &AxisOption_t268_il2cpp_TypeInfo/* parent */
+	, 0 /*field is const -> no data*//* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+static FieldInfo* AxisOption_t268_FieldInfos[] =
+{
+	&AxisOption_t268____value___1_FieldInfo,
+	&AxisOption_t268____Both_2_FieldInfo,
+	&AxisOption_t268____OnlyHorizontal_3_FieldInfo,
+	&AxisOption_t268____OnlyVertical_4_FieldInfo,
+	NULL
+};
+static const int32_t AxisOption_t268____Both_2_DefaultValueData = 0;
+static Il2CppFieldDefaultValueEntry AxisOption_t268____Both_2_DefaultValue = 
+{
+	&AxisOption_t268____Both_2_FieldInfo/* field */
+	, { (char*)&AxisOption_t268____Both_2_DefaultValueData, &Int32_t188_0_0_0 }/* value */
+
+};
+static const int32_t AxisOption_t268____OnlyHorizontal_3_DefaultValueData = 1;
+static Il2CppFieldDefaultValueEntry AxisOption_t268____OnlyHorizontal_3_DefaultValue = 
+{
+	&AxisOption_t268____OnlyHorizontal_3_FieldInfo/* field */
+	, { (char*)&AxisOption_t268____OnlyHorizontal_3_DefaultValueData, &Int32_t188_0_0_0 }/* value */
+
+};
+static const int32_t AxisOption_t268____OnlyVertical_4_DefaultValueData = 2;
+static Il2CppFieldDefaultValueEntry AxisOption_t268____OnlyVertical_4_DefaultValue = 
+{
+	&AxisOption_t268____OnlyVertical_4_FieldInfo/* field */
+	, { (char*)&AxisOption_t268____OnlyVertical_4_DefaultValueData, &Int32_t188_0_0_0 }/* value */
+
+};
+static Il2CppFieldDefaultValueEntry* AxisOption_t268_FieldDefaultValues[] = 
+{
+	&AxisOption_t268____Both_2_DefaultValue,
+	&AxisOption_t268____OnlyHorizontal_3_DefaultValue,
+	&AxisOption_t268____OnlyVertical_4_DefaultValue,
+	NULL
+};
+static Il2CppMethodReference AxisOption_t268_VTable[] =
+{
+	&Enum_Equals_m1067_MethodInfo,
+	&Object_Finalize_m1068_MethodInfo,
+	&Enum_GetHashCode_m1069_MethodInfo,
+	&Enum_ToString_m1070_MethodInfo,
+	&Enum_ToString_m1071_MethodInfo,
+	&Enum_System_IConvertible_ToBoolean_m1072_MethodInfo,
+	&Enum_System_IConvertible_ToByte_m1073_MethodInfo,
+	&Enum_System_IConvertible_ToChar_m1074_MethodInfo,
+	&Enum_System_IConvertible_ToDateTime_m1075_MethodInfo,
+	&Enum_System_IConvertible_ToDecimal_m1076_MethodInfo,
+	&Enum_System_IConvertible_ToDouble_m1077_MethodInfo,
+	&Enum_System_IConvertible_ToInt16_m1078_MethodInfo,
+	&Enum_System_IConvertible_ToInt32_m1079_MethodInfo,
+	&Enum_System_IConvertible_ToInt64_m1080_MethodInfo,
+	&Enum_System_IConvertible_ToSByte_m1081_MethodInfo,
+	&Enum_System_IConvertible_ToSingle_m1082_MethodInfo,
+	&Enum_ToString_m1083_MethodInfo,
+	&Enum_System_IConvertible_ToType_m1084_MethodInfo,
+	&Enum_System_IConvertible_ToUInt16_m1085_MethodInfo,
+	&Enum_System_IConvertible_ToUInt32_m1086_MethodInfo,
+	&Enum_System_IConvertible_ToUInt64_m1087_MethodInfo,
+	&Enum_CompareTo_m1088_MethodInfo,
+	&Enum_GetTypeCode_m1089_MethodInfo,
+};
+static bool AxisOption_t268_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+};
+static Il2CppInterfaceOffsetPair AxisOption_t268_InterfacesOffsets[] = 
+{
+	{ &IFormattable_t224_0_0_0, 4},
+	{ &IConvertible_t225_0_0_0, 5},
+	{ &IComparable_t226_0_0_0, 21},
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern Il2CppType AxisOption_t268_0_0_0;
+extern Il2CppType AxisOption_t268_1_0_0;
+extern TypeInfo RMXLookAround_t269_il2cpp_TypeInfo;
+extern Il2CppType RMXLookAround_t269_0_0_0;
+const Il2CppTypeDefinitionMetadata AxisOption_t268_DefinitionMetadata = 
+{
+	&RMXLookAround_t269_0_0_0/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, AxisOption_t268_InterfacesOffsets/* interfaceOffsets */
+	, &Enum_t227_0_0_0/* parent */
+	, AxisOption_t268_VTable/* vtableMethods */
+	, AxisOption_t268_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+
+};
+TypeInfo AxisOption_t268_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "AxisOption"/* name */
+	, ""/* namespaze */
+	, AxisOption_t268_MethodInfos/* methods */
+	, NULL/* properties */
+	, AxisOption_t268_FieldInfos/* fields */
+	, NULL/* events */
+	, &Int32_t188_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, &AxisOption_t268_0_0_0/* byval_arg */
+	, &AxisOption_t268_1_0_0/* this_arg */
+	, &AxisOption_t268_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, AxisOption_t268_FieldDefaultValues/* field_def_values */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (AxisOption_t268)+ sizeof (Il2CppObject)/* instance_size */
+	, sizeof (AxisOption_t268)+ sizeof (Il2CppObject)/* actualSize */
+	, 0/* element_size */
+	, sizeof(int32_t)/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 258/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, true/* valuetype */
+	, false/* initialized */
+	, true/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 0/* method_count */
+	, 0/* property_count */
+	, 4/* field_count */
+	, 0/* event_count */
+	, 0/* nested_type_count */
+	, 23/* vtable_count */
+	, 0/* interfaces_count */
+	, 3/* interface_offsets_count */
+
+};
+// UnityStandardAssets.CrossPlatformInput.RMXLookAround
+#include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_RMX_2.h"
+// Metadata Definition UnityStandardAssets.CrossPlatformInput.RMXLookAround
+// UnityStandardAssets.CrossPlatformInput.RMXLookAround
+#include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_RMX_2MethodDeclarations.h"
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
-// System.Void UnityStandardAssets.Utility.RMXSimpleMouse::.ctor()
-MethodInfo RMXSimpleMouse__ctor_m1202_MethodInfo = 
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::.ctor()
+MethodInfo RMXLookAround__ctor_m1202_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&RMXSimpleMouse__ctor_m1202/* method */
-	, &RMXSimpleMouse_t268_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RMXLookAround__ctor_m1202/* method */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -6206,12 +6433,12 @@ MethodInfo RMXSimpleMouse__ctor_m1202_MethodInfo =
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
-// System.Void UnityStandardAssets.Utility.RMXSimpleMouse::Start()
-MethodInfo RMXSimpleMouse_Start_m1203_MethodInfo = 
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::OnEnable()
+MethodInfo RMXLookAround_OnEnable_m1203_MethodInfo = 
 {
-	"Start"/* name */
-	, (methodPointerType)&RMXSimpleMouse_Start_m1203/* method */
-	, &RMXSimpleMouse_t268_il2cpp_TypeInfo/* declaring_type */
+	"OnEnable"/* name */
+	, (methodPointerType)&RMXLookAround_OnEnable_m1203/* method */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -6230,12 +6457,12 @@ MethodInfo RMXSimpleMouse_Start_m1203_MethodInfo =
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
-// System.Void UnityStandardAssets.Utility.RMXSimpleMouse::Update()
-MethodInfo RMXSimpleMouse_Update_m1204_MethodInfo = 
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::Update()
+MethodInfo RMXLookAround_Update_m1204_MethodInfo = 
 {
 	"Update"/* name */
-	, (methodPointerType)&RMXSimpleMouse_Update_m1204/* method */
-	, &RMXSimpleMouse_t268_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&RMXLookAround_Update_m1204/* method */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -6252,135 +6479,339 @@ MethodInfo RMXSimpleMouse_Update_m1204_MethodInfo =
 	, NULL/* dummy */
 
 };
-static MethodInfo* RMXSimpleMouse_t268_MethodInfos[] =
+extern Il2CppType Single_t184_0_0_0;
+static ParameterInfo RMXLookAround_t269_RMXLookAround_HandleInput_m1205_ParameterInfos[] = 
 {
-	&RMXSimpleMouse__ctor_m1202_MethodInfo,
-	&RMXSimpleMouse_Start_m1203_MethodInfo,
-	&RMXSimpleMouse_Update_m1204_MethodInfo,
+	{"value", 0, 134217770, &EmptyCustomAttributesCache, &Single_t184_0_0_0},
+};
+extern Il2CppType Void_t183_0_0_0;
+extern void* RuntimeInvoker_Void_t183_Single_t184 (MethodInfo* method, void* obj, void** args);
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::HandleInput(System.Single)
+MethodInfo RMXLookAround_HandleInput_m1205_MethodInfo = 
+{
+	"HandleInput"/* name */
+	, (methodPointerType)&RMXLookAround_HandleInput_m1205/* method */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t183_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t183_Single_t184/* invoker_method */
+	, RMXLookAround_t269_RMXLookAround_HandleInput_m1205_ParameterInfos/* parameters */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 99/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern Il2CppType Vector3_t8_0_0_0;
+static ParameterInfo RMXLookAround_t269_RMXLookAround_UpdateVirtualAxes_m1206_ParameterInfos[] = 
+{
+	{"value", 0, 134217771, &EmptyCustomAttributesCache, &Vector3_t8_0_0_0},
+};
+extern Il2CppType Void_t183_0_0_0;
+extern void* RuntimeInvoker_Void_t183_Vector3_t8 (MethodInfo* method, void* obj, void** args);
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::UpdateVirtualAxes(UnityEngine.Vector3)
+MethodInfo RMXLookAround_UpdateVirtualAxes_m1206_MethodInfo = 
+{
+	"UpdateVirtualAxes"/* name */
+	, (methodPointerType)&RMXLookAround_UpdateVirtualAxes_m1206/* method */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t183_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t183_Vector3_t8/* invoker_method */
+	, RMXLookAround_t269_RMXLookAround_UpdateVirtualAxes_m1206_ParameterInfos/* parameters */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 100/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern Il2CppType Void_t183_0_0_0;
+extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::CreateVirtualAxes()
+MethodInfo RMXLookAround_CreateVirtualAxes_m1207_MethodInfo = 
+{
+	"CreateVirtualAxes"/* name */
+	, (methodPointerType)&RMXLookAround_CreateVirtualAxes_m1207/* method */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t183_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t183/* invoker_method */
+	, NULL/* parameters */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 101/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern Il2CppType PointerEventData_t46_0_0_0;
+static ParameterInfo RMXLookAround_t269_RMXLookAround_OnDrag_m1208_ParameterInfos[] = 
+{
+	{"data", 0, 134217772, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+};
+extern Il2CppType Void_t183_0_0_0;
+extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::OnDrag(UnityEngine.EventSystems.PointerEventData)
+MethodInfo RMXLookAround_OnDrag_m1208_MethodInfo = 
+{
+	"OnDrag"/* name */
+	, (methodPointerType)&RMXLookAround_OnDrag_m1208/* method */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t183_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
+	, RMXLookAround_t269_RMXLookAround_OnDrag_m1208_ParameterInfos/* parameters */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 102/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern Il2CppType PointerEventData_t46_0_0_0;
+static ParameterInfo RMXLookAround_t269_RMXLookAround_OnPointerUp_m1209_ParameterInfos[] = 
+{
+	{"data", 0, 134217773, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+};
+extern Il2CppType Void_t183_0_0_0;
+extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+MethodInfo RMXLookAround_OnPointerUp_m1209_MethodInfo = 
+{
+	"OnPointerUp"/* name */
+	, (methodPointerType)&RMXLookAround_OnPointerUp_m1209/* method */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t183_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
+	, RMXLookAround_t269_RMXLookAround_OnPointerUp_m1209_ParameterInfos/* parameters */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 103/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern Il2CppType PointerEventData_t46_0_0_0;
+static ParameterInfo RMXLookAround_t269_RMXLookAround_OnPointerDown_m1210_ParameterInfos[] = 
+{
+	{"data", 0, 134217774, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+};
+extern Il2CppType Void_t183_0_0_0;
+extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+MethodInfo RMXLookAround_OnPointerDown_m1210_MethodInfo = 
+{
+	"OnPointerDown"/* name */
+	, (methodPointerType)&RMXLookAround_OnPointerDown_m1210/* method */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t183_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
+	, RMXLookAround_t269_RMXLookAround_OnPointerDown_m1210_ParameterInfos/* parameters */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, 134/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 1/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 104/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern Il2CppType Void_t183_0_0_0;
+extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::OnDisable()
+MethodInfo RMXLookAround_OnDisable_m1211_MethodInfo = 
+{
+	"OnDisable"/* name */
+	, (methodPointerType)&RMXLookAround_OnDisable_m1211/* method */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t183_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t183/* invoker_method */
+	, NULL/* parameters */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 105/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static MethodInfo* RMXLookAround_t269_MethodInfos[] =
+{
+	&RMXLookAround__ctor_m1202_MethodInfo,
+	&RMXLookAround_OnEnable_m1203_MethodInfo,
+	&RMXLookAround_Update_m1204_MethodInfo,
+	&RMXLookAround_HandleInput_m1205_MethodInfo,
+	&RMXLookAround_UpdateVirtualAxes_m1206_MethodInfo,
+	&RMXLookAround_CreateVirtualAxes_m1207_MethodInfo,
+	&RMXLookAround_OnDrag_m1208_MethodInfo,
+	&RMXLookAround_OnPointerUp_m1209_MethodInfo,
+	&RMXLookAround_OnPointerDown_m1210_MethodInfo,
+	&RMXLookAround_OnDisable_m1211_MethodInfo,
 	NULL
 };
-extern Il2CppType Vector2_t13_0_0_6;
-FieldInfo RMXSimpleMouse_t268____rotationRange_2_FieldInfo = 
-{
-	"rotationRange"/* name */
-	, &Vector2_t13_0_0_6/* type */
-	, &RMXSimpleMouse_t268_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXSimpleMouse_t268, ___rotationRange_2)/* offset */
-	, &EmptyCustomAttributesCache/* custom_attributes_cache */
-
-};
 extern Il2CppType Single_t184_0_0_6;
-FieldInfo RMXSimpleMouse_t268____rotationSpeed_3_FieldInfo = 
+FieldInfo RMXLookAround_t269____speed_2_FieldInfo = 
 {
-	"rotationSpeed"/* name */
+	"speed"/* name */
 	, &Single_t184_0_0_6/* type */
-	, &RMXSimpleMouse_t268_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXSimpleMouse_t268, ___rotationSpeed_3)/* offset */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXLookAround_t269, ___speed_2)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-extern Il2CppType Single_t184_0_0_6;
-FieldInfo RMXSimpleMouse_t268____dampingTime_4_FieldInfo = 
+extern Il2CppType Int32_t188_0_0_6;
+FieldInfo RMXLookAround_t269____MovementRange_3_FieldInfo = 
 {
-	"dampingTime"/* name */
-	, &Single_t184_0_0_6/* type */
-	, &RMXSimpleMouse_t268_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXSimpleMouse_t268, ___dampingTime_4)/* offset */
+	"MovementRange"/* name */
+	, &Int32_t188_0_0_6/* type */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXLookAround_t269, ___MovementRange_3)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-extern Il2CppType Boolean_t202_0_0_6;
-FieldInfo RMXSimpleMouse_t268____autoZeroVerticalOnMobile_5_FieldInfo = 
+extern Il2CppType AxisOption_t268_0_0_6;
+FieldInfo RMXLookAround_t269____axesToUse_4_FieldInfo = 
 {
-	"autoZeroVerticalOnMobile"/* name */
-	, &Boolean_t202_0_0_6/* type */
-	, &RMXSimpleMouse_t268_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXSimpleMouse_t268, ___autoZeroVerticalOnMobile_5)/* offset */
+	"axesToUse"/* name */
+	, &AxisOption_t268_0_0_6/* type */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXLookAround_t269, ___axesToUse_4)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-extern Il2CppType Boolean_t202_0_0_6;
-FieldInfo RMXSimpleMouse_t268____autoZeroHorizontalOnMobile_6_FieldInfo = 
+extern Il2CppType String_t_0_0_6;
+FieldInfo RMXLookAround_t269____horizontalAxisName_5_FieldInfo = 
 {
-	"autoZeroHorizontalOnMobile"/* name */
-	, &Boolean_t202_0_0_6/* type */
-	, &RMXSimpleMouse_t268_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXSimpleMouse_t268, ___autoZeroHorizontalOnMobile_6)/* offset */
+	"horizontalAxisName"/* name */
+	, &String_t_0_0_6/* type */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXLookAround_t269, ___horizontalAxisName_5)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-extern Il2CppType Boolean_t202_0_0_6;
-FieldInfo RMXSimpleMouse_t268____relative_7_FieldInfo = 
+extern Il2CppType String_t_0_0_6;
+FieldInfo RMXLookAround_t269____verticalAxisName_6_FieldInfo = 
 {
-	"relative"/* name */
-	, &Boolean_t202_0_0_6/* type */
-	, &RMXSimpleMouse_t268_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXSimpleMouse_t268, ___relative_7)/* offset */
-	, &EmptyCustomAttributesCache/* custom_attributes_cache */
-
-};
-extern Il2CppType Vector3_t8_0_0_1;
-FieldInfo RMXSimpleMouse_t268____m_TargetAngles_8_FieldInfo = 
-{
-	"m_TargetAngles"/* name */
-	, &Vector3_t8_0_0_1/* type */
-	, &RMXSimpleMouse_t268_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXSimpleMouse_t268, ___m_TargetAngles_8)/* offset */
+	"verticalAxisName"/* name */
+	, &String_t_0_0_6/* type */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXLookAround_t269, ___verticalAxisName_6)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Vector3_t8_0_0_1;
-FieldInfo RMXSimpleMouse_t268____m_FollowAngles_9_FieldInfo = 
+FieldInfo RMXLookAround_t269____m_StartPos_7_FieldInfo = 
 {
-	"m_FollowAngles"/* name */
+	"m_StartPos"/* name */
 	, &Vector3_t8_0_0_1/* type */
-	, &RMXSimpleMouse_t268_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXSimpleMouse_t268, ___m_FollowAngles_9)/* offset */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXLookAround_t269, ___m_StartPos_7)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-extern Il2CppType Vector3_t8_0_0_1;
-FieldInfo RMXSimpleMouse_t268____m_FollowVelocity_10_FieldInfo = 
+extern Il2CppType Boolean_t202_0_0_1;
+FieldInfo RMXLookAround_t269____m_UseX_8_FieldInfo = 
 {
-	"m_FollowVelocity"/* name */
-	, &Vector3_t8_0_0_1/* type */
-	, &RMXSimpleMouse_t268_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXSimpleMouse_t268, ___m_FollowVelocity_10)/* offset */
+	"m_UseX"/* name */
+	, &Boolean_t202_0_0_1/* type */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXLookAround_t269, ___m_UseX_8)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-extern Il2CppType Quaternion_t10_0_0_1;
-FieldInfo RMXSimpleMouse_t268____m_OriginalRotation_11_FieldInfo = 
+extern Il2CppType Boolean_t202_0_0_1;
+FieldInfo RMXLookAround_t269____m_UseY_9_FieldInfo = 
 {
-	"m_OriginalRotation"/* name */
-	, &Quaternion_t10_0_0_1/* type */
-	, &RMXSimpleMouse_t268_il2cpp_TypeInfo/* parent */
-	, offsetof(RMXSimpleMouse_t268, ___m_OriginalRotation_11)/* offset */
+	"m_UseY"/* name */
+	, &Boolean_t202_0_0_1/* type */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXLookAround_t269, ___m_UseY_9)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-static FieldInfo* RMXSimpleMouse_t268_FieldInfos[] =
+extern Il2CppType VirtualAxis_t45_0_0_1;
+FieldInfo RMXLookAround_t269____m_HorizontalVirtualAxis_10_FieldInfo = 
 {
-	&RMXSimpleMouse_t268____rotationRange_2_FieldInfo,
-	&RMXSimpleMouse_t268____rotationSpeed_3_FieldInfo,
-	&RMXSimpleMouse_t268____dampingTime_4_FieldInfo,
-	&RMXSimpleMouse_t268____autoZeroVerticalOnMobile_5_FieldInfo,
-	&RMXSimpleMouse_t268____autoZeroHorizontalOnMobile_6_FieldInfo,
-	&RMXSimpleMouse_t268____relative_7_FieldInfo,
-	&RMXSimpleMouse_t268____m_TargetAngles_8_FieldInfo,
-	&RMXSimpleMouse_t268____m_FollowAngles_9_FieldInfo,
-	&RMXSimpleMouse_t268____m_FollowVelocity_10_FieldInfo,
-	&RMXSimpleMouse_t268____m_OriginalRotation_11_FieldInfo,
+	"m_HorizontalVirtualAxis"/* name */
+	, &VirtualAxis_t45_0_0_1/* type */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXLookAround_t269, ___m_HorizontalVirtualAxis_10)/* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+extern Il2CppType VirtualAxis_t45_0_0_1;
+FieldInfo RMXLookAround_t269____m_VerticalVirtualAxis_11_FieldInfo = 
+{
+	"m_VerticalVirtualAxis"/* name */
+	, &VirtualAxis_t45_0_0_1/* type */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXLookAround_t269, ___m_VerticalVirtualAxis_11)/* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+static FieldInfo* RMXLookAround_t269_FieldInfos[] =
+{
+	&RMXLookAround_t269____speed_2_FieldInfo,
+	&RMXLookAround_t269____MovementRange_3_FieldInfo,
+	&RMXLookAround_t269____axesToUse_4_FieldInfo,
+	&RMXLookAround_t269____horizontalAxisName_5_FieldInfo,
+	&RMXLookAround_t269____verticalAxisName_6_FieldInfo,
+	&RMXLookAround_t269____m_StartPos_7_FieldInfo,
+	&RMXLookAround_t269____m_UseX_8_FieldInfo,
+	&RMXLookAround_t269____m_UseY_9_FieldInfo,
+	&RMXLookAround_t269____m_HorizontalVirtualAxis_10_FieldInfo,
+	&RMXLookAround_t269____m_VerticalVirtualAxis_11_FieldInfo,
 	NULL
 };
-static Il2CppMethodReference RMXSimpleMouse_t268_VTable[] =
+static const Il2CppType* RMXLookAround_t269_il2cpp_TypeInfo__nestedTypes[1] =
+{
+	&AxisOption_t268_0_0_0,
+};
+static Il2CppMethodReference RMXLookAround_t269_VTable[] =
 {
 	&Object_Equals_m1090_MethodInfo,
 	&Object_Finalize_m1068_MethodInfo,
 	&Object_GetHashCode_m1091_MethodInfo,
 	&Object_ToString_m1092_MethodInfo,
 };
-static bool RMXSimpleMouse_t268_VTableIsGenericMethod[] =
+static bool RMXLookAround_t269_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -6388,37 +6819,36 @@ static bool RMXSimpleMouse_t268_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern Il2CppType RMXSimpleMouse_t268_0_0_0;
-extern Il2CppType RMXSimpleMouse_t268_1_0_0;
-struct RMXSimpleMouse_t268;
-const Il2CppTypeDefinitionMetadata RMXSimpleMouse_t268_DefinitionMetadata = 
+extern Il2CppType RMXLookAround_t269_1_0_0;
+struct RMXLookAround_t269;
+const Il2CppTypeDefinitionMetadata RMXLookAround_t269_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, NULL/* nestedTypes */
+	, RMXLookAround_t269_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &MonoBehaviour_t5_0_0_0/* parent */
-	, RMXSimpleMouse_t268_VTable/* vtableMethods */
-	, RMXSimpleMouse_t268_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, RMXLookAround_t269_VTable/* vtableMethods */
+	, RMXLookAround_t269_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 
 };
-TypeInfo RMXSimpleMouse_t268_il2cpp_TypeInfo = 
+TypeInfo RMXLookAround_t269_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
-	, "RMXSimpleMouse"/* name */
-	, "UnityStandardAssets.Utility"/* namespaze */
-	, RMXSimpleMouse_t268_MethodInfos/* methods */
+	, "RMXLookAround"/* name */
+	, "UnityStandardAssets.CrossPlatformInput"/* namespaze */
+	, RMXLookAround_t269_MethodInfos/* methods */
 	, NULL/* properties */
-	, RMXSimpleMouse_t268_FieldInfos/* fields */
+	, RMXLookAround_t269_FieldInfos/* fields */
 	, NULL/* events */
-	, &RMXSimpleMouse_t268_il2cpp_TypeInfo/* element_class */
+	, &RMXLookAround_t269_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
-	, &RMXSimpleMouse_t268_0_0_0/* byval_arg */
-	, &RMXSimpleMouse_t268_1_0_0/* this_arg */
-	, &RMXSimpleMouse_t268_DefinitionMetadata/* definitionMetadata */
+	, &RMXLookAround_t269_0_0_0/* byval_arg */
+	, &RMXLookAround_t269_1_0_0/* this_arg */
+	, &RMXLookAround_t269_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -6429,8 +6859,293 @@ TypeInfo RMXSimpleMouse_t268_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (RMXSimpleMouse_t268)/* instance_size */
-	, sizeof (RMXSimpleMouse_t268)/* actualSize */
+	, sizeof (RMXLookAround_t269)/* instance_size */
+	, sizeof (RMXLookAround_t269)/* actualSize */
+	, 0/* element_size */
+	, -1/* native_size */
+	, 0/* static_fields_size */
+	, 0/* thread_static_fields_size */
+	, -1/* thread_static_fields_offset */
+	, 1048577/* flags */
+	, 0/* rank */
+	, 0/* minimumAlignment */
+	, false/* valuetype */
+	, false/* initialized */
+	, false/* enumtype */
+	, false/* is_generic */
+	, false/* has_references */
+	, false/* init_pending */
+	, false/* size_inited */
+	, false/* has_finalize */
+	, false/* has_cctor */
+	, false/* is_blittable */
+	, 10/* method_count */
+	, 0/* property_count */
+	, 10/* field_count */
+	, 0/* event_count */
+	, 1/* nested_type_count */
+	, 4/* vtable_count */
+	, 0/* interfaces_count */
+	, 0/* interface_offsets_count */
+
+};
+// UnityStandardAssets.Utility.RMXSimpleMouse
+#include "AssemblyU2DCSharp_UnityStandardAssets_Utility_RMXSimpleMouse.h"
+// Metadata Definition UnityStandardAssets.Utility.RMXSimpleMouse
+extern TypeInfo RMXSimpleMouse_t270_il2cpp_TypeInfo;
+// UnityStandardAssets.Utility.RMXSimpleMouse
+#include "AssemblyU2DCSharp_UnityStandardAssets_Utility_RMXSimpleMouseMethodDeclarations.h"
+extern Il2CppType Void_t183_0_0_0;
+extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
+// System.Void UnityStandardAssets.Utility.RMXSimpleMouse::.ctor()
+MethodInfo RMXSimpleMouse__ctor_m1212_MethodInfo = 
+{
+	".ctor"/* name */
+	, (methodPointerType)&RMXSimpleMouse__ctor_m1212/* method */
+	, &RMXSimpleMouse_t270_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t183_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t183/* invoker_method */
+	, NULL/* parameters */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, 6278/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 106/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern Il2CppType Void_t183_0_0_0;
+extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
+// System.Void UnityStandardAssets.Utility.RMXSimpleMouse::Start()
+MethodInfo RMXSimpleMouse_Start_m1213_MethodInfo = 
+{
+	"Start"/* name */
+	, (methodPointerType)&RMXSimpleMouse_Start_m1213/* method */
+	, &RMXSimpleMouse_t270_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t183_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t183/* invoker_method */
+	, NULL/* parameters */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 107/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+extern Il2CppType Void_t183_0_0_0;
+extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
+// System.Void UnityStandardAssets.Utility.RMXSimpleMouse::Update()
+MethodInfo RMXSimpleMouse_Update_m1214_MethodInfo = 
+{
+	"Update"/* name */
+	, (methodPointerType)&RMXSimpleMouse_Update_m1214/* method */
+	, &RMXSimpleMouse_t270_il2cpp_TypeInfo/* declaring_type */
+	, &Void_t183_0_0_0/* return_type */
+	, RuntimeInvoker_Void_t183/* invoker_method */
+	, NULL/* parameters */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, 129/* flags */
+	, 0/* iflags */
+	, 255/* slot */
+	, 0/* parameters_count */
+	, false/* is_generic */
+	, false/* is_inflated */
+	, 108/* token */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* native_delegate_wrapper */
+	, NULL/* dummy */
+
+};
+static MethodInfo* RMXSimpleMouse_t270_MethodInfos[] =
+{
+	&RMXSimpleMouse__ctor_m1212_MethodInfo,
+	&RMXSimpleMouse_Start_m1213_MethodInfo,
+	&RMXSimpleMouse_Update_m1214_MethodInfo,
+	NULL
+};
+extern Il2CppType Vector2_t13_0_0_6;
+FieldInfo RMXSimpleMouse_t270____rotationRange_2_FieldInfo = 
+{
+	"rotationRange"/* name */
+	, &Vector2_t13_0_0_6/* type */
+	, &RMXSimpleMouse_t270_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXSimpleMouse_t270, ___rotationRange_2)/* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+extern Il2CppType Single_t184_0_0_6;
+FieldInfo RMXSimpleMouse_t270____rotationSpeed_3_FieldInfo = 
+{
+	"rotationSpeed"/* name */
+	, &Single_t184_0_0_6/* type */
+	, &RMXSimpleMouse_t270_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXSimpleMouse_t270, ___rotationSpeed_3)/* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+extern Il2CppType Single_t184_0_0_6;
+FieldInfo RMXSimpleMouse_t270____dampingTime_4_FieldInfo = 
+{
+	"dampingTime"/* name */
+	, &Single_t184_0_0_6/* type */
+	, &RMXSimpleMouse_t270_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXSimpleMouse_t270, ___dampingTime_4)/* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+extern Il2CppType Boolean_t202_0_0_6;
+FieldInfo RMXSimpleMouse_t270____autoZeroVerticalOnMobile_5_FieldInfo = 
+{
+	"autoZeroVerticalOnMobile"/* name */
+	, &Boolean_t202_0_0_6/* type */
+	, &RMXSimpleMouse_t270_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXSimpleMouse_t270, ___autoZeroVerticalOnMobile_5)/* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+extern Il2CppType Boolean_t202_0_0_6;
+FieldInfo RMXSimpleMouse_t270____autoZeroHorizontalOnMobile_6_FieldInfo = 
+{
+	"autoZeroHorizontalOnMobile"/* name */
+	, &Boolean_t202_0_0_6/* type */
+	, &RMXSimpleMouse_t270_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXSimpleMouse_t270, ___autoZeroHorizontalOnMobile_6)/* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+extern Il2CppType Vector3_t8_0_0_1;
+FieldInfo RMXSimpleMouse_t270____origin_7_FieldInfo = 
+{
+	"origin"/* name */
+	, &Vector3_t8_0_0_1/* type */
+	, &RMXSimpleMouse_t270_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXSimpleMouse_t270, ___origin_7)/* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+extern Il2CppType Vector3_t8_0_0_1;
+FieldInfo RMXSimpleMouse_t270____m_TargetAngles_8_FieldInfo = 
+{
+	"m_TargetAngles"/* name */
+	, &Vector3_t8_0_0_1/* type */
+	, &RMXSimpleMouse_t270_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXSimpleMouse_t270, ___m_TargetAngles_8)/* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+extern Il2CppType Vector3_t8_0_0_1;
+FieldInfo RMXSimpleMouse_t270____m_FollowAngles_9_FieldInfo = 
+{
+	"m_FollowAngles"/* name */
+	, &Vector3_t8_0_0_1/* type */
+	, &RMXSimpleMouse_t270_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXSimpleMouse_t270, ___m_FollowAngles_9)/* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+extern Il2CppType Vector3_t8_0_0_1;
+FieldInfo RMXSimpleMouse_t270____m_FollowVelocity_10_FieldInfo = 
+{
+	"m_FollowVelocity"/* name */
+	, &Vector3_t8_0_0_1/* type */
+	, &RMXSimpleMouse_t270_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXSimpleMouse_t270, ___m_FollowVelocity_10)/* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+extern Il2CppType Quaternion_t10_0_0_1;
+FieldInfo RMXSimpleMouse_t270____m_OriginalRotation_11_FieldInfo = 
+{
+	"m_OriginalRotation"/* name */
+	, &Quaternion_t10_0_0_1/* type */
+	, &RMXSimpleMouse_t270_il2cpp_TypeInfo/* parent */
+	, offsetof(RMXSimpleMouse_t270, ___m_OriginalRotation_11)/* offset */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+
+};
+static FieldInfo* RMXSimpleMouse_t270_FieldInfos[] =
+{
+	&RMXSimpleMouse_t270____rotationRange_2_FieldInfo,
+	&RMXSimpleMouse_t270____rotationSpeed_3_FieldInfo,
+	&RMXSimpleMouse_t270____dampingTime_4_FieldInfo,
+	&RMXSimpleMouse_t270____autoZeroVerticalOnMobile_5_FieldInfo,
+	&RMXSimpleMouse_t270____autoZeroHorizontalOnMobile_6_FieldInfo,
+	&RMXSimpleMouse_t270____origin_7_FieldInfo,
+	&RMXSimpleMouse_t270____m_TargetAngles_8_FieldInfo,
+	&RMXSimpleMouse_t270____m_FollowAngles_9_FieldInfo,
+	&RMXSimpleMouse_t270____m_FollowVelocity_10_FieldInfo,
+	&RMXSimpleMouse_t270____m_OriginalRotation_11_FieldInfo,
+	NULL
+};
+static Il2CppMethodReference RMXSimpleMouse_t270_VTable[] =
+{
+	&Object_Equals_m1090_MethodInfo,
+	&Object_Finalize_m1068_MethodInfo,
+	&Object_GetHashCode_m1091_MethodInfo,
+	&Object_ToString_m1092_MethodInfo,
+};
+static bool RMXSimpleMouse_t270_VTableIsGenericMethod[] =
+{
+	false,
+	false,
+	false,
+	false,
+};
+extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
+extern Il2CppType RMXSimpleMouse_t270_0_0_0;
+extern Il2CppType RMXSimpleMouse_t270_1_0_0;
+struct RMXSimpleMouse_t270;
+const Il2CppTypeDefinitionMetadata RMXSimpleMouse_t270_DefinitionMetadata = 
+{
+	NULL/* declaringType */
+	, NULL/* nestedTypes */
+	, NULL/* implementedInterfaces */
+	, NULL/* interfaceOffsets */
+	, &MonoBehaviour_t5_0_0_0/* parent */
+	, RMXSimpleMouse_t270_VTable/* vtableMethods */
+	, RMXSimpleMouse_t270_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NULL/* rgctxDefinition */
+
+};
+TypeInfo RMXSimpleMouse_t270_il2cpp_TypeInfo = 
+{
+	&g_AssemblyU2DCSharp_dll_Image/* image */
+	, NULL/* gc_desc */
+	, "RMXSimpleMouse"/* name */
+	, "UnityStandardAssets.Utility"/* namespaze */
+	, RMXSimpleMouse_t270_MethodInfos/* methods */
+	, NULL/* properties */
+	, RMXSimpleMouse_t270_FieldInfos/* fields */
+	, NULL/* events */
+	, &RMXSimpleMouse_t270_il2cpp_TypeInfo/* element_class */
+	, NULL/* vtable */
+	, &EmptyCustomAttributesCache/* custom_attributes_cache */
+	, &RMXSimpleMouse_t270_0_0_0/* byval_arg */
+	, &RMXSimpleMouse_t270_1_0_0/* this_arg */
+	, &RMXSimpleMouse_t270_DefinitionMetadata/* definitionMetadata */
+	, NULL/* runtimeMetadata */
+	, NULL/* generic_class */
+	, NULL/* generic_container */
+	, NULL/* field_def_values */
+	, NULL/* static_fields */
+	, NULL/* rgctx_data */
+	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
+	, (methodPointerType)NULL/* marshal_to_native_func */
+	, (methodPointerType)NULL/* marshal_from_native_func */
+	, (methodPointerType)NULL/* marshal_cleanup_func */
+	, sizeof (RMXSimpleMouse_t270)/* instance_size */
+	, sizeof (RMXSimpleMouse_t270)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6462,17 +7177,17 @@ TypeInfo RMXSimpleMouse_t268_il2cpp_TypeInfo =
 // NewBehaviourScript
 #include "AssemblyU2DCSharp_NewBehaviourScript.h"
 // Metadata Definition NewBehaviourScript
-extern TypeInfo NewBehaviourScript_t271_il2cpp_TypeInfo;
+extern TypeInfo NewBehaviourScript_t273_il2cpp_TypeInfo;
 // NewBehaviourScript
 #include "AssemblyU2DCSharp_NewBehaviourScriptMethodDeclarations.h"
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void NewBehaviourScript::.ctor()
-MethodInfo NewBehaviourScript__ctor_m1205_MethodInfo = 
+MethodInfo NewBehaviourScript__ctor_m1215_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&NewBehaviourScript__ctor_m1205/* method */
-	, &NewBehaviourScript_t271_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&NewBehaviourScript__ctor_m1215/* method */
+	, &NewBehaviourScript_t273_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -6483,7 +7198,7 @@ MethodInfo NewBehaviourScript__ctor_m1205_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 99/* token */
+	, 109/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -6492,11 +7207,11 @@ MethodInfo NewBehaviourScript__ctor_m1205_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void NewBehaviourScript::Start()
-MethodInfo NewBehaviourScript_Start_m1206_MethodInfo = 
+MethodInfo NewBehaviourScript_Start_m1216_MethodInfo = 
 {
 	"Start"/* name */
-	, (methodPointerType)&NewBehaviourScript_Start_m1206/* method */
-	, &NewBehaviourScript_t271_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&NewBehaviourScript_Start_m1216/* method */
+	, &NewBehaviourScript_t273_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -6507,7 +7222,7 @@ MethodInfo NewBehaviourScript_Start_m1206_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 100/* token */
+	, 110/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -6516,11 +7231,11 @@ MethodInfo NewBehaviourScript_Start_m1206_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void NewBehaviourScript::Update()
-MethodInfo NewBehaviourScript_Update_m1207_MethodInfo = 
+MethodInfo NewBehaviourScript_Update_m1217_MethodInfo = 
 {
 	"Update"/* name */
-	, (methodPointerType)&NewBehaviourScript_Update_m1207/* method */
-	, &NewBehaviourScript_t271_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&NewBehaviourScript_Update_m1217/* method */
+	, &NewBehaviourScript_t273_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -6531,7 +7246,7 @@ MethodInfo NewBehaviourScript_Update_m1207_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 101/* token */
+	, 111/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -6540,11 +7255,11 @@ MethodInfo NewBehaviourScript_Update_m1207_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void NewBehaviourScript::nextCamera()
-MethodInfo NewBehaviourScript_nextCamera_m1208_MethodInfo = 
+MethodInfo NewBehaviourScript_nextCamera_m1218_MethodInfo = 
 {
 	"nextCamera"/* name */
-	, (methodPointerType)&NewBehaviourScript_nextCamera_m1208/* method */
-	, &NewBehaviourScript_t271_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&NewBehaviourScript_nextCamera_m1218/* method */
+	, &NewBehaviourScript_t273_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -6555,28 +7270,28 @@ MethodInfo NewBehaviourScript_nextCamera_m1208_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 102/* token */
+	, 112/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType String_t_0_0_0;
-static ParameterInfo NewBehaviourScript_t271_NewBehaviourScript_move_m1209_ParameterInfos[] = 
+static ParameterInfo NewBehaviourScript_t273_NewBehaviourScript_move_m1219_ParameterInfos[] = 
 {
-	{"direction", 0, 134217770, &EmptyCustomAttributesCache, &String_t_0_0_0},
+	{"direction", 0, 134217775, &EmptyCustomAttributesCache, &String_t_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void NewBehaviourScript::move(System.String)
-MethodInfo NewBehaviourScript_move_m1209_MethodInfo = 
+MethodInfo NewBehaviourScript_move_m1219_MethodInfo = 
 {
 	"move"/* name */
-	, (methodPointerType)&NewBehaviourScript_move_m1209/* method */
-	, &NewBehaviourScript_t271_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&NewBehaviourScript_move_m1219/* method */
+	, &NewBehaviourScript_t273_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, NewBehaviourScript_t271_NewBehaviourScript_move_m1209_ParameterInfos/* parameters */
+	, NewBehaviourScript_t273_NewBehaviourScript_move_m1219_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -6584,74 +7299,74 @@ MethodInfo NewBehaviourScript_move_m1209_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 103/* token */
+	, 113/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static MethodInfo* NewBehaviourScript_t271_MethodInfos[] =
+static MethodInfo* NewBehaviourScript_t273_MethodInfos[] =
 {
-	&NewBehaviourScript__ctor_m1205_MethodInfo,
-	&NewBehaviourScript_Start_m1206_MethodInfo,
-	&NewBehaviourScript_Update_m1207_MethodInfo,
-	&NewBehaviourScript_nextCamera_m1208_MethodInfo,
-	&NewBehaviourScript_move_m1209_MethodInfo,
+	&NewBehaviourScript__ctor_m1215_MethodInfo,
+	&NewBehaviourScript_Start_m1216_MethodInfo,
+	&NewBehaviourScript_Update_m1217_MethodInfo,
+	&NewBehaviourScript_nextCamera_m1218_MethodInfo,
+	&NewBehaviourScript_move_m1219_MethodInfo,
 	NULL
 };
-extern Il2CppType CameraU5BU5D_t269_0_0_1;
-FieldInfo NewBehaviourScript_t271____cameras_2_FieldInfo = 
+extern Il2CppType CameraU5BU5D_t271_0_0_1;
+FieldInfo NewBehaviourScript_t273____cameras_2_FieldInfo = 
 {
 	"cameras"/* name */
-	, &CameraU5BU5D_t269_0_0_1/* type */
-	, &NewBehaviourScript_t271_il2cpp_TypeInfo/* parent */
-	, offsetof(NewBehaviourScript_t271, ___cameras_2)/* offset */
+	, &CameraU5BU5D_t271_0_0_1/* type */
+	, &NewBehaviourScript_t273_il2cpp_TypeInfo/* parent */
+	, offsetof(NewBehaviourScript_t273, ___cameras_2)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Int32_t188_0_0_1;
-FieldInfo NewBehaviourScript_t271____current_3_FieldInfo = 
+FieldInfo NewBehaviourScript_t273____current_3_FieldInfo = 
 {
 	"current"/* name */
 	, &Int32_t188_0_0_1/* type */
-	, &NewBehaviourScript_t271_il2cpp_TypeInfo/* parent */
-	, offsetof(NewBehaviourScript_t271, ___current_3)/* offset */
+	, &NewBehaviourScript_t273_il2cpp_TypeInfo/* parent */
+	, offsetof(NewBehaviourScript_t273, ___current_3)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-extern Il2CppType Dictionary_2_t270_0_0_17;
-extern CustomAttributesCache NewBehaviourScript_t271__CustomAttributeCache_U3CU3Ef__switch$map0;
-FieldInfo NewBehaviourScript_t271____U3CU3Ef__switch$map0_4_FieldInfo = 
+extern Il2CppType Dictionary_2_t272_0_0_17;
+extern CustomAttributesCache NewBehaviourScript_t273__CustomAttributeCache_U3CU3Ef__switch$map0;
+FieldInfo NewBehaviourScript_t273____U3CU3Ef__switch$map0_4_FieldInfo = 
 {
 	"<>f__switch$map0"/* name */
-	, &Dictionary_2_t270_0_0_17/* type */
-	, &NewBehaviourScript_t271_il2cpp_TypeInfo/* parent */
-	, offsetof(NewBehaviourScript_t271_StaticFields, ___U3CU3Ef__switch$map0_4)/* offset */
-	, &NewBehaviourScript_t271__CustomAttributeCache_U3CU3Ef__switch$map0/* custom_attributes_cache */
+	, &Dictionary_2_t272_0_0_17/* type */
+	, &NewBehaviourScript_t273_il2cpp_TypeInfo/* parent */
+	, offsetof(NewBehaviourScript_t273_StaticFields, ___U3CU3Ef__switch$map0_4)/* offset */
+	, &NewBehaviourScript_t273__CustomAttributeCache_U3CU3Ef__switch$map0/* custom_attributes_cache */
 
 };
-static FieldInfo* NewBehaviourScript_t271_FieldInfos[] =
+static FieldInfo* NewBehaviourScript_t273_FieldInfos[] =
 {
-	&NewBehaviourScript_t271____cameras_2_FieldInfo,
-	&NewBehaviourScript_t271____current_3_FieldInfo,
-	&NewBehaviourScript_t271____U3CU3Ef__switch$map0_4_FieldInfo,
+	&NewBehaviourScript_t273____cameras_2_FieldInfo,
+	&NewBehaviourScript_t273____current_3_FieldInfo,
+	&NewBehaviourScript_t273____U3CU3Ef__switch$map0_4_FieldInfo,
 	NULL
 };
-static Il2CppMethodReference NewBehaviourScript_t271_VTable[] =
+static Il2CppMethodReference NewBehaviourScript_t273_VTable[] =
 {
 	&Object_Equals_m1090_MethodInfo,
 	&Object_Finalize_m1068_MethodInfo,
 	&Object_GetHashCode_m1091_MethodInfo,
 	&Object_ToString_m1092_MethodInfo,
 };
-static bool NewBehaviourScript_t271_VTableIsGenericMethod[] =
+static bool NewBehaviourScript_t273_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-void NewBehaviourScript_t271_CustomAttributesCacheGenerator_U3CU3Ef__switch$map0(CustomAttributesCache* cache)
+void NewBehaviourScript_t273_CustomAttributesCacheGenerator_U3CU3Ef__switch$map0(CustomAttributesCache* cache)
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
@@ -6661,44 +7376,44 @@ void NewBehaviourScript_t271_CustomAttributesCacheGenerator_U3CU3Ef__switch$map0
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-CustomAttributesCache NewBehaviourScript_t271__CustomAttributeCache_U3CU3Ef__switch$map0 = {
+CustomAttributesCache NewBehaviourScript_t273__CustomAttributeCache_U3CU3Ef__switch$map0 = {
 1,
 NULL,
-&NewBehaviourScript_t271_CustomAttributesCacheGenerator_U3CU3Ef__switch$map0
+&NewBehaviourScript_t273_CustomAttributesCacheGenerator_U3CU3Ef__switch$map0
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern Il2CppType NewBehaviourScript_t271_0_0_0;
-extern Il2CppType NewBehaviourScript_t271_1_0_0;
-struct NewBehaviourScript_t271;
-extern CustomAttributesCache NewBehaviourScript_t271__CustomAttributeCache_U3CU3Ef__switch$map0;
-const Il2CppTypeDefinitionMetadata NewBehaviourScript_t271_DefinitionMetadata = 
+extern Il2CppType NewBehaviourScript_t273_0_0_0;
+extern Il2CppType NewBehaviourScript_t273_1_0_0;
+struct NewBehaviourScript_t273;
+extern CustomAttributesCache NewBehaviourScript_t273__CustomAttributeCache_U3CU3Ef__switch$map0;
+const Il2CppTypeDefinitionMetadata NewBehaviourScript_t273_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &MonoBehaviour_t5_0_0_0/* parent */
-	, NewBehaviourScript_t271_VTable/* vtableMethods */
-	, NewBehaviourScript_t271_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, NewBehaviourScript_t273_VTable/* vtableMethods */
+	, NewBehaviourScript_t273_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 
 };
-TypeInfo NewBehaviourScript_t271_il2cpp_TypeInfo = 
+TypeInfo NewBehaviourScript_t273_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "NewBehaviourScript"/* name */
 	, ""/* namespaze */
-	, NewBehaviourScript_t271_MethodInfos/* methods */
+	, NewBehaviourScript_t273_MethodInfos/* methods */
 	, NULL/* properties */
-	, NewBehaviourScript_t271_FieldInfos/* fields */
+	, NewBehaviourScript_t273_FieldInfos/* fields */
 	, NULL/* events */
-	, &NewBehaviourScript_t271_il2cpp_TypeInfo/* element_class */
+	, &NewBehaviourScript_t273_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
-	, &NewBehaviourScript_t271_0_0_0/* byval_arg */
-	, &NewBehaviourScript_t271_1_0_0/* this_arg */
-	, &NewBehaviourScript_t271_DefinitionMetadata/* definitionMetadata */
+	, &NewBehaviourScript_t273_0_0_0/* byval_arg */
+	, &NewBehaviourScript_t273_1_0_0/* this_arg */
+	, &NewBehaviourScript_t273_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -6709,11 +7424,11 @@ TypeInfo NewBehaviourScript_t271_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (NewBehaviourScript_t271)/* instance_size */
-	, sizeof (NewBehaviourScript_t271)/* actualSize */
+	, sizeof (NewBehaviourScript_t273)/* instance_size */
+	, sizeof (NewBehaviourScript_t273)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
-	, sizeof(NewBehaviourScript_t271_StaticFields)/* static_fields_size */
+	, sizeof(NewBehaviourScript_t273_StaticFields)/* static_fields_size */
 	, 0/* thread_static_fields_size */
 	, -1/* thread_static_fields_offset */
 	, 1048577/* flags */
@@ -6742,17 +7457,17 @@ TypeInfo NewBehaviourScript_t271_il2cpp_TypeInfo =
 // ActiveStateToggler
 #include "AssemblyU2DCSharp_ActiveStateToggler.h"
 // Metadata Definition ActiveStateToggler
-extern TypeInfo ActiveStateToggler_t272_il2cpp_TypeInfo;
+extern TypeInfo ActiveStateToggler_t274_il2cpp_TypeInfo;
 // ActiveStateToggler
 #include "AssemblyU2DCSharp_ActiveStateTogglerMethodDeclarations.h"
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void ActiveStateToggler::.ctor()
-MethodInfo ActiveStateToggler__ctor_m1210_MethodInfo = 
+MethodInfo ActiveStateToggler__ctor_m1220_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ActiveStateToggler__ctor_m1210/* method */
-	, &ActiveStateToggler_t272_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ActiveStateToggler__ctor_m1220/* method */
+	, &ActiveStateToggler_t274_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -6763,7 +7478,7 @@ MethodInfo ActiveStateToggler__ctor_m1210_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 104/* token */
+	, 114/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -6772,11 +7487,11 @@ MethodInfo ActiveStateToggler__ctor_m1210_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void ActiveStateToggler::ToggleActive()
-MethodInfo ActiveStateToggler_ToggleActive_m1211_MethodInfo = 
+MethodInfo ActiveStateToggler_ToggleActive_m1221_MethodInfo = 
 {
 	"ToggleActive"/* name */
-	, (methodPointerType)&ActiveStateToggler_ToggleActive_m1211/* method */
-	, &ActiveStateToggler_t272_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ActiveStateToggler_ToggleActive_m1221/* method */
+	, &ActiveStateToggler_t274_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -6787,26 +7502,26 @@ MethodInfo ActiveStateToggler_ToggleActive_m1211_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 105/* token */
+	, 115/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static MethodInfo* ActiveStateToggler_t272_MethodInfos[] =
+static MethodInfo* ActiveStateToggler_t274_MethodInfos[] =
 {
-	&ActiveStateToggler__ctor_m1210_MethodInfo,
-	&ActiveStateToggler_ToggleActive_m1211_MethodInfo,
+	&ActiveStateToggler__ctor_m1220_MethodInfo,
+	&ActiveStateToggler_ToggleActive_m1221_MethodInfo,
 	NULL
 };
-static Il2CppMethodReference ActiveStateToggler_t272_VTable[] =
+static Il2CppMethodReference ActiveStateToggler_t274_VTable[] =
 {
 	&Object_Equals_m1090_MethodInfo,
 	&Object_Finalize_m1068_MethodInfo,
 	&Object_GetHashCode_m1091_MethodInfo,
 	&Object_ToString_m1092_MethodInfo,
 };
-static bool ActiveStateToggler_t272_VTableIsGenericMethod[] =
+static bool ActiveStateToggler_t274_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -6814,37 +7529,37 @@ static bool ActiveStateToggler_t272_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern Il2CppType ActiveStateToggler_t272_0_0_0;
-extern Il2CppType ActiveStateToggler_t272_1_0_0;
-struct ActiveStateToggler_t272;
-const Il2CppTypeDefinitionMetadata ActiveStateToggler_t272_DefinitionMetadata = 
+extern Il2CppType ActiveStateToggler_t274_0_0_0;
+extern Il2CppType ActiveStateToggler_t274_1_0_0;
+struct ActiveStateToggler_t274;
+const Il2CppTypeDefinitionMetadata ActiveStateToggler_t274_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &MonoBehaviour_t5_0_0_0/* parent */
-	, ActiveStateToggler_t272_VTable/* vtableMethods */
-	, ActiveStateToggler_t272_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ActiveStateToggler_t274_VTable/* vtableMethods */
+	, ActiveStateToggler_t274_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 
 };
-TypeInfo ActiveStateToggler_t272_il2cpp_TypeInfo = 
+TypeInfo ActiveStateToggler_t274_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ActiveStateToggler"/* name */
 	, ""/* namespaze */
-	, ActiveStateToggler_t272_MethodInfos/* methods */
+	, ActiveStateToggler_t274_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* fields */
 	, NULL/* events */
-	, &ActiveStateToggler_t272_il2cpp_TypeInfo/* element_class */
+	, &ActiveStateToggler_t274_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
-	, &ActiveStateToggler_t272_0_0_0/* byval_arg */
-	, &ActiveStateToggler_t272_1_0_0/* this_arg */
-	, &ActiveStateToggler_t272_DefinitionMetadata/* definitionMetadata */
+	, &ActiveStateToggler_t274_0_0_0/* byval_arg */
+	, &ActiveStateToggler_t274_1_0_0/* this_arg */
+	, &ActiveStateToggler_t274_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -6855,8 +7570,8 @@ TypeInfo ActiveStateToggler_t272_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ActiveStateToggler_t272)/* instance_size */
-	, sizeof (ActiveStateToggler_t272)/* actualSize */
+	, sizeof (ActiveStateToggler_t274)/* instance_size */
+	, sizeof (ActiveStateToggler_t274)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -6888,17 +7603,17 @@ TypeInfo ActiveStateToggler_t272_il2cpp_TypeInfo =
 // ApplicationManager
 #include "AssemblyU2DCSharp_ApplicationManager.h"
 // Metadata Definition ApplicationManager
-extern TypeInfo ApplicationManager_t273_il2cpp_TypeInfo;
+extern TypeInfo ApplicationManager_t275_il2cpp_TypeInfo;
 // ApplicationManager
 #include "AssemblyU2DCSharp_ApplicationManagerMethodDeclarations.h"
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void ApplicationManager::.ctor()
-MethodInfo ApplicationManager__ctor_m1212_MethodInfo = 
+MethodInfo ApplicationManager__ctor_m1222_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ApplicationManager__ctor_m1212/* method */
-	, &ApplicationManager_t273_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ApplicationManager__ctor_m1222/* method */
+	, &ApplicationManager_t275_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -6909,7 +7624,7 @@ MethodInfo ApplicationManager__ctor_m1212_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 106/* token */
+	, 116/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -6918,11 +7633,11 @@ MethodInfo ApplicationManager__ctor_m1212_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void ApplicationManager::Quit()
-MethodInfo ApplicationManager_Quit_m1213_MethodInfo = 
+MethodInfo ApplicationManager_Quit_m1223_MethodInfo = 
 {
 	"Quit"/* name */
-	, (methodPointerType)&ApplicationManager_Quit_m1213/* method */
-	, &ApplicationManager_t273_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ApplicationManager_Quit_m1223/* method */
+	, &ApplicationManager_t275_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -6933,26 +7648,26 @@ MethodInfo ApplicationManager_Quit_m1213_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 107/* token */
+	, 117/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static MethodInfo* ApplicationManager_t273_MethodInfos[] =
+static MethodInfo* ApplicationManager_t275_MethodInfos[] =
 {
-	&ApplicationManager__ctor_m1212_MethodInfo,
-	&ApplicationManager_Quit_m1213_MethodInfo,
+	&ApplicationManager__ctor_m1222_MethodInfo,
+	&ApplicationManager_Quit_m1223_MethodInfo,
 	NULL
 };
-static Il2CppMethodReference ApplicationManager_t273_VTable[] =
+static Il2CppMethodReference ApplicationManager_t275_VTable[] =
 {
 	&Object_Equals_m1090_MethodInfo,
 	&Object_Finalize_m1068_MethodInfo,
 	&Object_GetHashCode_m1091_MethodInfo,
 	&Object_ToString_m1092_MethodInfo,
 };
-static bool ApplicationManager_t273_VTableIsGenericMethod[] =
+static bool ApplicationManager_t275_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -6960,37 +7675,37 @@ static bool ApplicationManager_t273_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern Il2CppType ApplicationManager_t273_0_0_0;
-extern Il2CppType ApplicationManager_t273_1_0_0;
-struct ApplicationManager_t273;
-const Il2CppTypeDefinitionMetadata ApplicationManager_t273_DefinitionMetadata = 
+extern Il2CppType ApplicationManager_t275_0_0_0;
+extern Il2CppType ApplicationManager_t275_1_0_0;
+struct ApplicationManager_t275;
+const Il2CppTypeDefinitionMetadata ApplicationManager_t275_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &MonoBehaviour_t5_0_0_0/* parent */
-	, ApplicationManager_t273_VTable/* vtableMethods */
-	, ApplicationManager_t273_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ApplicationManager_t275_VTable/* vtableMethods */
+	, ApplicationManager_t275_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 
 };
-TypeInfo ApplicationManager_t273_il2cpp_TypeInfo = 
+TypeInfo ApplicationManager_t275_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ApplicationManager"/* name */
 	, ""/* namespaze */
-	, ApplicationManager_t273_MethodInfos/* methods */
+	, ApplicationManager_t275_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* fields */
 	, NULL/* events */
-	, &ApplicationManager_t273_il2cpp_TypeInfo/* element_class */
+	, &ApplicationManager_t275_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
-	, &ApplicationManager_t273_0_0_0/* byval_arg */
-	, &ApplicationManager_t273_1_0_0/* this_arg */
-	, &ApplicationManager_t273_DefinitionMetadata/* definitionMetadata */
+	, &ApplicationManager_t275_0_0_0/* byval_arg */
+	, &ApplicationManager_t275_1_0_0/* this_arg */
+	, &ApplicationManager_t275_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7001,8 +7716,8 @@ TypeInfo ApplicationManager_t273_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ApplicationManager_t273)/* instance_size */
-	, sizeof (ApplicationManager_t273)/* actualSize */
+	, sizeof (ApplicationManager_t275)/* instance_size */
+	, sizeof (ApplicationManager_t275)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7034,17 +7749,17 @@ TypeInfo ApplicationManager_t273_il2cpp_TypeInfo =
 // ChangeColor
 #include "AssemblyU2DCSharp_ChangeColor.h"
 // Metadata Definition ChangeColor
-extern TypeInfo ChangeColor_t274_il2cpp_TypeInfo;
+extern TypeInfo ChangeColor_t276_il2cpp_TypeInfo;
 // ChangeColor
 #include "AssemblyU2DCSharp_ChangeColorMethodDeclarations.h"
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void ChangeColor::.ctor()
-MethodInfo ChangeColor__ctor_m1214_MethodInfo = 
+MethodInfo ChangeColor__ctor_m1224_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ChangeColor__ctor_m1214/* method */
-	, &ChangeColor_t274_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ChangeColor__ctor_m1224/* method */
+	, &ChangeColor_t276_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -7055,7 +7770,7 @@ MethodInfo ChangeColor__ctor_m1214_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 108/* token */
+	, 118/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7064,11 +7779,11 @@ MethodInfo ChangeColor__ctor_m1214_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void ChangeColor::OnEnable()
-MethodInfo ChangeColor_OnEnable_m1215_MethodInfo = 
+MethodInfo ChangeColor_OnEnable_m1225_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&ChangeColor_OnEnable_m1215/* method */
-	, &ChangeColor_t274_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ChangeColor_OnEnable_m1225/* method */
+	, &ChangeColor_t276_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -7079,28 +7794,28 @@ MethodInfo ChangeColor_OnEnable_m1215_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 109/* token */
+	, 119/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType Single_t184_0_0_0;
-static ParameterInfo ChangeColor_t274_ChangeColor_SetRed_m1216_ParameterInfos[] = 
+static ParameterInfo ChangeColor_t276_ChangeColor_SetRed_m1226_ParameterInfos[] = 
 {
-	{"value", 0, 134217771, &EmptyCustomAttributesCache, &Single_t184_0_0_0},
+	{"value", 0, 134217776, &EmptyCustomAttributesCache, &Single_t184_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Single_t184 (MethodInfo* method, void* obj, void** args);
 // System.Void ChangeColor::SetRed(System.Single)
-MethodInfo ChangeColor_SetRed_m1216_MethodInfo = 
+MethodInfo ChangeColor_SetRed_m1226_MethodInfo = 
 {
 	"SetRed"/* name */
-	, (methodPointerType)&ChangeColor_SetRed_m1216/* method */
-	, &ChangeColor_t274_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ChangeColor_SetRed_m1226/* method */
+	, &ChangeColor_t276_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Single_t184/* invoker_method */
-	, ChangeColor_t274_ChangeColor_SetRed_m1216_ParameterInfos/* parameters */
+	, ChangeColor_t276_ChangeColor_SetRed_m1226_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -7108,28 +7823,28 @@ MethodInfo ChangeColor_SetRed_m1216_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 110/* token */
+	, 120/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType Single_t184_0_0_0;
-static ParameterInfo ChangeColor_t274_ChangeColor_SetGreen_m1217_ParameterInfos[] = 
+static ParameterInfo ChangeColor_t276_ChangeColor_SetGreen_m1227_ParameterInfos[] = 
 {
-	{"value", 0, 134217772, &EmptyCustomAttributesCache, &Single_t184_0_0_0},
+	{"value", 0, 134217777, &EmptyCustomAttributesCache, &Single_t184_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Single_t184 (MethodInfo* method, void* obj, void** args);
 // System.Void ChangeColor::SetGreen(System.Single)
-MethodInfo ChangeColor_SetGreen_m1217_MethodInfo = 
+MethodInfo ChangeColor_SetGreen_m1227_MethodInfo = 
 {
 	"SetGreen"/* name */
-	, (methodPointerType)&ChangeColor_SetGreen_m1217/* method */
-	, &ChangeColor_t274_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ChangeColor_SetGreen_m1227/* method */
+	, &ChangeColor_t276_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Single_t184/* invoker_method */
-	, ChangeColor_t274_ChangeColor_SetGreen_m1217_ParameterInfos/* parameters */
+	, ChangeColor_t276_ChangeColor_SetGreen_m1227_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -7137,28 +7852,28 @@ MethodInfo ChangeColor_SetGreen_m1217_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 111/* token */
+	, 121/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType Single_t184_0_0_0;
-static ParameterInfo ChangeColor_t274_ChangeColor_SetBlue_m1218_ParameterInfos[] = 
+static ParameterInfo ChangeColor_t276_ChangeColor_SetBlue_m1228_ParameterInfos[] = 
 {
-	{"value", 0, 134217773, &EmptyCustomAttributesCache, &Single_t184_0_0_0},
+	{"value", 0, 134217778, &EmptyCustomAttributesCache, &Single_t184_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Single_t184 (MethodInfo* method, void* obj, void** args);
 // System.Void ChangeColor::SetBlue(System.Single)
-MethodInfo ChangeColor_SetBlue_m1218_MethodInfo = 
+MethodInfo ChangeColor_SetBlue_m1228_MethodInfo = 
 {
 	"SetBlue"/* name */
-	, (methodPointerType)&ChangeColor_SetBlue_m1218/* method */
-	, &ChangeColor_t274_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ChangeColor_SetBlue_m1228/* method */
+	, &ChangeColor_t276_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Single_t184/* invoker_method */
-	, ChangeColor_t274_ChangeColor_SetBlue_m1218_ParameterInfos/* parameters */
+	, ChangeColor_t276_ChangeColor_SetBlue_m1228_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -7166,7 +7881,7 @@ MethodInfo ChangeColor_SetBlue_m1218_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 112/* token */
+	, 122/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7174,22 +7889,22 @@ MethodInfo ChangeColor_SetBlue_m1218_MethodInfo =
 };
 extern Il2CppType Single_t184_0_0_0;
 extern Il2CppType Int32_t188_0_0_0;
-static ParameterInfo ChangeColor_t274_ChangeColor_OnValueChanged_m1219_ParameterInfos[] = 
+static ParameterInfo ChangeColor_t276_ChangeColor_OnValueChanged_m1229_ParameterInfos[] = 
 {
-	{"value", 0, 134217774, &EmptyCustomAttributesCache, &Single_t184_0_0_0},
-	{"channel", 1, 134217775, &EmptyCustomAttributesCache, &Int32_t188_0_0_0},
+	{"value", 0, 134217779, &EmptyCustomAttributesCache, &Single_t184_0_0_0},
+	{"channel", 1, 134217780, &EmptyCustomAttributesCache, &Int32_t188_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Single_t184_Int32_t188 (MethodInfo* method, void* obj, void** args);
 // System.Void ChangeColor::OnValueChanged(System.Single,System.Int32)
-MethodInfo ChangeColor_OnValueChanged_m1219_MethodInfo = 
+MethodInfo ChangeColor_OnValueChanged_m1229_MethodInfo = 
 {
 	"OnValueChanged"/* name */
-	, (methodPointerType)&ChangeColor_OnValueChanged_m1219/* method */
-	, &ChangeColor_t274_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ChangeColor_OnValueChanged_m1229/* method */
+	, &ChangeColor_t276_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Single_t184_Int32_t188/* invoker_method */
-	, ChangeColor_t274_ChangeColor_OnValueChanged_m1219_ParameterInfos/* parameters */
+	, ChangeColor_t276_ChangeColor_OnValueChanged_m1229_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -7197,28 +7912,28 @@ MethodInfo ChangeColor_OnValueChanged_m1219_MethodInfo =
 	, 2/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 113/* token */
+	, 123/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType PointerEventData_t46_0_0_0;
-static ParameterInfo ChangeColor_t274_ChangeColor_OnPointerClick_m1220_ParameterInfos[] = 
+static ParameterInfo ChangeColor_t276_ChangeColor_OnPointerClick_m1230_ParameterInfos[] = 
 {
-	{"data", 0, 134217776, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+	{"data", 0, 134217781, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void ChangeColor::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
-MethodInfo ChangeColor_OnPointerClick_m1220_MethodInfo = 
+MethodInfo ChangeColor_OnPointerClick_m1230_MethodInfo = 
 {
 	"OnPointerClick"/* name */
-	, (methodPointerType)&ChangeColor_OnPointerClick_m1220/* method */
-	, &ChangeColor_t274_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ChangeColor_OnPointerClick_m1230/* method */
+	, &ChangeColor_t276_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, ChangeColor_t274_ChangeColor_OnPointerClick_m1220_ParameterInfos/* parameters */
+	, ChangeColor_t276_ChangeColor_OnPointerClick_m1230_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -7226,33 +7941,33 @@ MethodInfo ChangeColor_OnPointerClick_m1220_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 114/* token */
+	, 124/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static MethodInfo* ChangeColor_t274_MethodInfos[] =
+static MethodInfo* ChangeColor_t276_MethodInfos[] =
 {
-	&ChangeColor__ctor_m1214_MethodInfo,
-	&ChangeColor_OnEnable_m1215_MethodInfo,
-	&ChangeColor_SetRed_m1216_MethodInfo,
-	&ChangeColor_SetGreen_m1217_MethodInfo,
-	&ChangeColor_SetBlue_m1218_MethodInfo,
-	&ChangeColor_OnValueChanged_m1219_MethodInfo,
-	&ChangeColor_OnPointerClick_m1220_MethodInfo,
+	&ChangeColor__ctor_m1224_MethodInfo,
+	&ChangeColor_OnEnable_m1225_MethodInfo,
+	&ChangeColor_SetRed_m1226_MethodInfo,
+	&ChangeColor_SetGreen_m1227_MethodInfo,
+	&ChangeColor_SetBlue_m1228_MethodInfo,
+	&ChangeColor_OnValueChanged_m1229_MethodInfo,
+	&ChangeColor_OnPointerClick_m1230_MethodInfo,
 	NULL
 };
-extern MethodInfo ChangeColor_OnPointerClick_m1220_MethodInfo;
-static Il2CppMethodReference ChangeColor_t274_VTable[] =
+extern MethodInfo ChangeColor_OnPointerClick_m1230_MethodInfo;
+static Il2CppMethodReference ChangeColor_t276_VTable[] =
 {
 	&Object_Equals_m1090_MethodInfo,
 	&Object_Finalize_m1068_MethodInfo,
 	&Object_GetHashCode_m1091_MethodInfo,
 	&Object_ToString_m1092_MethodInfo,
-	&ChangeColor_OnPointerClick_m1220_MethodInfo,
+	&ChangeColor_OnPointerClick_m1230_MethodInfo,
 };
-static bool ChangeColor_t274_VTableIsGenericMethod[] =
+static bool ChangeColor_t276_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7260,49 +7975,49 @@ static bool ChangeColor_t274_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern Il2CppType IPointerClickHandler_t302_0_0_0;
-static const Il2CppType* ChangeColor_t274_InterfacesTypeInfos[] = 
+extern Il2CppType IPointerClickHandler_t304_0_0_0;
+static const Il2CppType* ChangeColor_t276_InterfacesTypeInfos[] = 
 {
 	&IEventSystemHandler_t240_0_0_0,
-	&IPointerClickHandler_t302_0_0_0,
+	&IPointerClickHandler_t304_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ChangeColor_t274_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ChangeColor_t276_InterfacesOffsets[] = 
 {
 	{ &IEventSystemHandler_t240_0_0_0, 4},
-	{ &IPointerClickHandler_t302_0_0_0, 4},
+	{ &IPointerClickHandler_t304_0_0_0, 4},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern Il2CppType ChangeColor_t274_0_0_0;
-extern Il2CppType ChangeColor_t274_1_0_0;
-struct ChangeColor_t274;
-const Il2CppTypeDefinitionMetadata ChangeColor_t274_DefinitionMetadata = 
+extern Il2CppType ChangeColor_t276_0_0_0;
+extern Il2CppType ChangeColor_t276_1_0_0;
+struct ChangeColor_t276;
+const Il2CppTypeDefinitionMetadata ChangeColor_t276_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ChangeColor_t274_InterfacesTypeInfos/* implementedInterfaces */
-	, ChangeColor_t274_InterfacesOffsets/* interfaceOffsets */
+	, ChangeColor_t276_InterfacesTypeInfos/* implementedInterfaces */
+	, ChangeColor_t276_InterfacesOffsets/* interfaceOffsets */
 	, &MonoBehaviour_t5_0_0_0/* parent */
-	, ChangeColor_t274_VTable/* vtableMethods */
-	, ChangeColor_t274_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ChangeColor_t276_VTable/* vtableMethods */
+	, ChangeColor_t276_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 
 };
-TypeInfo ChangeColor_t274_il2cpp_TypeInfo = 
+TypeInfo ChangeColor_t276_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ChangeColor"/* name */
 	, ""/* namespaze */
-	, ChangeColor_t274_MethodInfos/* methods */
+	, ChangeColor_t276_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* fields */
 	, NULL/* events */
-	, &ChangeColor_t274_il2cpp_TypeInfo/* element_class */
+	, &ChangeColor_t276_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
-	, &ChangeColor_t274_0_0_0/* byval_arg */
-	, &ChangeColor_t274_1_0_0/* this_arg */
-	, &ChangeColor_t274_DefinitionMetadata/* definitionMetadata */
+	, &ChangeColor_t276_0_0_0/* byval_arg */
+	, &ChangeColor_t276_1_0_0/* this_arg */
+	, &ChangeColor_t276_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7313,8 +8028,8 @@ TypeInfo ChangeColor_t274_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ChangeColor_t274)/* instance_size */
-	, sizeof (ChangeColor_t274)/* actualSize */
+	, sizeof (ChangeColor_t276)/* instance_size */
+	, sizeof (ChangeColor_t276)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7346,17 +8061,17 @@ TypeInfo ChangeColor_t274_il2cpp_TypeInfo =
 // DragMe
 #include "AssemblyU2DCSharp_DragMe.h"
 // Metadata Definition DragMe
-extern TypeInfo DragMe_t276_il2cpp_TypeInfo;
+extern TypeInfo DragMe_t278_il2cpp_TypeInfo;
 // DragMe
 #include "AssemblyU2DCSharp_DragMeMethodDeclarations.h"
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void DragMe::.ctor()
-MethodInfo DragMe__ctor_m1221_MethodInfo = 
+MethodInfo DragMe__ctor_m1231_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DragMe__ctor_m1221/* method */
-	, &DragMe_t276_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DragMe__ctor_m1231/* method */
+	, &DragMe_t278_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -7367,28 +8082,28 @@ MethodInfo DragMe__ctor_m1221_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 115/* token */
+	, 125/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType PointerEventData_t46_0_0_0;
-static ParameterInfo DragMe_t276_DragMe_OnBeginDrag_m1222_ParameterInfos[] = 
+static ParameterInfo DragMe_t278_DragMe_OnBeginDrag_m1232_ParameterInfos[] = 
 {
-	{"eventData", 0, 134217777, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+	{"eventData", 0, 134217782, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void DragMe::OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
-MethodInfo DragMe_OnBeginDrag_m1222_MethodInfo = 
+MethodInfo DragMe_OnBeginDrag_m1232_MethodInfo = 
 {
 	"OnBeginDrag"/* name */
-	, (methodPointerType)&DragMe_OnBeginDrag_m1222/* method */
-	, &DragMe_t276_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DragMe_OnBeginDrag_m1232/* method */
+	, &DragMe_t278_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, DragMe_t276_DragMe_OnBeginDrag_m1222_ParameterInfos/* parameters */
+	, DragMe_t278_DragMe_OnBeginDrag_m1232_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -7396,28 +8111,28 @@ MethodInfo DragMe_OnBeginDrag_m1222_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 116/* token */
+	, 126/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType PointerEventData_t46_0_0_0;
-static ParameterInfo DragMe_t276_DragMe_OnDrag_m1223_ParameterInfos[] = 
+static ParameterInfo DragMe_t278_DragMe_OnDrag_m1233_ParameterInfos[] = 
 {
-	{"data", 0, 134217778, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+	{"data", 0, 134217783, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void DragMe::OnDrag(UnityEngine.EventSystems.PointerEventData)
-MethodInfo DragMe_OnDrag_m1223_MethodInfo = 
+MethodInfo DragMe_OnDrag_m1233_MethodInfo = 
 {
 	"OnDrag"/* name */
-	, (methodPointerType)&DragMe_OnDrag_m1223/* method */
-	, &DragMe_t276_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DragMe_OnDrag_m1233/* method */
+	, &DragMe_t278_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, DragMe_t276_DragMe_OnDrag_m1223_ParameterInfos/* parameters */
+	, DragMe_t278_DragMe_OnDrag_m1233_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -7425,28 +8140,28 @@ MethodInfo DragMe_OnDrag_m1223_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 117/* token */
+	, 127/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType PointerEventData_t46_0_0_0;
-static ParameterInfo DragMe_t276_DragMe_SetDraggedPosition_m1224_ParameterInfos[] = 
+static ParameterInfo DragMe_t278_DragMe_SetDraggedPosition_m1234_ParameterInfos[] = 
 {
-	{"data", 0, 134217779, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+	{"data", 0, 134217784, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void DragMe::SetDraggedPosition(UnityEngine.EventSystems.PointerEventData)
-MethodInfo DragMe_SetDraggedPosition_m1224_MethodInfo = 
+MethodInfo DragMe_SetDraggedPosition_m1234_MethodInfo = 
 {
 	"SetDraggedPosition"/* name */
-	, (methodPointerType)&DragMe_SetDraggedPosition_m1224/* method */
-	, &DragMe_t276_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DragMe_SetDraggedPosition_m1234/* method */
+	, &DragMe_t278_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, DragMe_t276_DragMe_SetDraggedPosition_m1224_ParameterInfos/* parameters */
+	, DragMe_t278_DragMe_SetDraggedPosition_m1234_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -7454,28 +8169,28 @@ MethodInfo DragMe_SetDraggedPosition_m1224_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 118/* token */
+	, 128/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType PointerEventData_t46_0_0_0;
-static ParameterInfo DragMe_t276_DragMe_OnEndDrag_m1225_ParameterInfos[] = 
+static ParameterInfo DragMe_t278_DragMe_OnEndDrag_m1235_ParameterInfos[] = 
 {
-	{"eventData", 0, 134217780, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+	{"eventData", 0, 134217785, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void DragMe::OnEndDrag(UnityEngine.EventSystems.PointerEventData)
-MethodInfo DragMe_OnEndDrag_m1225_MethodInfo = 
+MethodInfo DragMe_OnEndDrag_m1235_MethodInfo = 
 {
 	"OnEndDrag"/* name */
-	, (methodPointerType)&DragMe_OnEndDrag_m1225/* method */
-	, &DragMe_t276_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DragMe_OnEndDrag_m1235/* method */
+	, &DragMe_t278_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, DragMe_t276_DragMe_OnEndDrag_m1225_ParameterInfos/* parameters */
+	, DragMe_t278_DragMe_OnEndDrag_m1235_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -7483,7 +8198,7 @@ MethodInfo DragMe_OnEndDrag_m1225_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 119/* token */
+	, 129/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7491,41 +8206,41 @@ MethodInfo DragMe_OnEndDrag_m1225_MethodInfo =
 };
 extern Il2CppType GameObject_t92_0_0_0;
 extern Il2CppType GameObject_t92_0_0_0;
-static ParameterInfo DragMe_t276_DragMe_FindInParents_m1355_ParameterInfos[] = 
+static ParameterInfo DragMe_t278_DragMe_FindInParents_m1366_ParameterInfos[] = 
 {
-	{"go", 0, 134217781, &EmptyCustomAttributesCache, &GameObject_t92_0_0_0},
+	{"go", 0, 134217786, &EmptyCustomAttributesCache, &GameObject_t92_0_0_0},
 };
-extern Il2CppType DragMe_FindInParents_m1355_gp_0_0_0_0;
-extern Il2CppGenericContainer DragMe_FindInParents_m1355_Il2CppGenericContainer;
-extern TypeInfo DragMe_FindInParents_m1355_gp_T_0_il2cpp_TypeInfo;
+extern Il2CppType DragMe_FindInParents_m1366_gp_0_0_0_0;
+extern Il2CppGenericContainer DragMe_FindInParents_m1366_Il2CppGenericContainer;
+extern TypeInfo DragMe_FindInParents_m1366_gp_T_0_il2cpp_TypeInfo;
 extern Il2CppType Component_t185_0_0_0;
-static const Il2CppType* DragMe_FindInParents_m1355_gp_T_0_il2cpp_TypeInfo_constraints[] = { 
+static const Il2CppType* DragMe_FindInParents_m1366_gp_T_0_il2cpp_TypeInfo_constraints[] = { 
 &Component_t185_0_0_0 /* UnityEngine.Component */, 
  NULL };
-Il2CppGenericParamFull DragMe_FindInParents_m1355_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { { &DragMe_FindInParents_m1355_Il2CppGenericContainer, 0}, {NULL, "T", 0, 0, DragMe_FindInParents_m1355_gp_T_0_il2cpp_TypeInfo_constraints} };
-static Il2CppGenericParamFull* DragMe_FindInParents_m1355_Il2CppGenericParametersArray[1] = 
+Il2CppGenericParamFull DragMe_FindInParents_m1366_gp_T_0_il2cpp_TypeInfo_GenericParamFull = { { &DragMe_FindInParents_m1366_Il2CppGenericContainer, 0}, {NULL, "T", 0, 0, DragMe_FindInParents_m1366_gp_T_0_il2cpp_TypeInfo_constraints} };
+static Il2CppGenericParamFull* DragMe_FindInParents_m1366_Il2CppGenericParametersArray[1] = 
 {
-	&DragMe_FindInParents_m1355_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
+	&DragMe_FindInParents_m1366_gp_T_0_il2cpp_TypeInfo_GenericParamFull,
 };
-extern MethodInfo DragMe_FindInParents_m1355_MethodInfo;
-Il2CppGenericContainer DragMe_FindInParents_m1355_Il2CppGenericContainer = { { NULL, NULL }, NULL, &DragMe_FindInParents_m1355_MethodInfo, 1, 1, DragMe_FindInParents_m1355_Il2CppGenericParametersArray };
-extern Il2CppType DragMe_FindInParents_m1355_gp_0_0_0_0;
-extern Il2CppGenericMethod GameObject_GetComponent_TisT_t303_m1356_GenericMethod;
-static Il2CppRGCTXDefinition DragMe_FindInParents_m1355_RGCTXData[3] = 
+extern MethodInfo DragMe_FindInParents_m1366_MethodInfo;
+Il2CppGenericContainer DragMe_FindInParents_m1366_Il2CppGenericContainer = { { NULL, NULL }, NULL, &DragMe_FindInParents_m1366_MethodInfo, 1, 1, DragMe_FindInParents_m1366_Il2CppGenericParametersArray };
+extern Il2CppType DragMe_FindInParents_m1366_gp_0_0_0_0;
+extern Il2CppGenericMethod GameObject_GetComponent_TisT_t305_m1367_GenericMethod;
+static Il2CppRGCTXDefinition DragMe_FindInParents_m1366_RGCTXData[3] = 
 {
-	{ IL2CPP_RGCTX_DATA_CLASS, &DragMe_FindInParents_m1355_gp_0_0_0_0 }/* Class */,
-	{ IL2CPP_RGCTX_DATA_METHOD, &GameObject_GetComponent_TisT_t303_m1356_GenericMethod }/* Method */,
+	{ IL2CPP_RGCTX_DATA_CLASS, &DragMe_FindInParents_m1366_gp_0_0_0_0 }/* Class */,
+	{ IL2CPP_RGCTX_DATA_METHOD, &GameObject_GetComponent_TisT_t305_m1367_GenericMethod }/* Method */,
 	{IL2CPP_RGCTX_DATA_INVALID, NULL},
 };
 // T DragMe::FindInParents(UnityEngine.GameObject)
-MethodInfo DragMe_FindInParents_m1355_MethodInfo = 
+MethodInfo DragMe_FindInParents_m1366_MethodInfo = 
 {
 	"FindInParents"/* name */
 	, NULL/* method */
-	, &DragMe_t276_il2cpp_TypeInfo/* declaring_type */
-	, &DragMe_FindInParents_m1355_gp_0_0_0_0/* return_type */
+	, &DragMe_t278_il2cpp_TypeInfo/* declaring_type */
+	, &DragMe_FindInParents_m1366_gp_0_0_0_0/* return_type */
 	, NULL/* invoker_method */
-	, DragMe_t276_DragMe_FindInParents_m1355_ParameterInfos/* parameters */
+	, DragMe_t278_DragMe_FindInParents_m1366_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 150/* flags */
 	, 0/* iflags */
@@ -7533,73 +8248,73 @@ MethodInfo DragMe_FindInParents_m1355_MethodInfo =
 	, 1/* parameters_count */
 	, true/* is_generic */
 	, false/* is_inflated */
-	, 120/* token */
-	, DragMe_FindInParents_m1355_RGCTXData/* rgctx_data */
+	, 130/* token */
+	, DragMe_FindInParents_m1366_RGCTXData/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
-	, &DragMe_FindInParents_m1355_Il2CppGenericContainer/* genericContainer */
+	, &DragMe_FindInParents_m1366_Il2CppGenericContainer/* genericContainer */
 
 };
-static MethodInfo* DragMe_t276_MethodInfos[] =
+static MethodInfo* DragMe_t278_MethodInfos[] =
 {
-	&DragMe__ctor_m1221_MethodInfo,
-	&DragMe_OnBeginDrag_m1222_MethodInfo,
-	&DragMe_OnDrag_m1223_MethodInfo,
-	&DragMe_SetDraggedPosition_m1224_MethodInfo,
-	&DragMe_OnEndDrag_m1225_MethodInfo,
-	&DragMe_FindInParents_m1355_MethodInfo,
+	&DragMe__ctor_m1231_MethodInfo,
+	&DragMe_OnBeginDrag_m1232_MethodInfo,
+	&DragMe_OnDrag_m1233_MethodInfo,
+	&DragMe_SetDraggedPosition_m1234_MethodInfo,
+	&DragMe_OnEndDrag_m1235_MethodInfo,
+	&DragMe_FindInParents_m1366_MethodInfo,
 	NULL
 };
 extern Il2CppType Boolean_t202_0_0_6;
-FieldInfo DragMe_t276____dragOnSurfaces_2_FieldInfo = 
+FieldInfo DragMe_t278____dragOnSurfaces_2_FieldInfo = 
 {
 	"dragOnSurfaces"/* name */
 	, &Boolean_t202_0_0_6/* type */
-	, &DragMe_t276_il2cpp_TypeInfo/* parent */
-	, offsetof(DragMe_t276, ___dragOnSurfaces_2)/* offset */
+	, &DragMe_t278_il2cpp_TypeInfo/* parent */
+	, offsetof(DragMe_t278, ___dragOnSurfaces_2)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType GameObject_t92_0_0_1;
-FieldInfo DragMe_t276____m_DraggingIcon_3_FieldInfo = 
+FieldInfo DragMe_t278____m_DraggingIcon_3_FieldInfo = 
 {
 	"m_DraggingIcon"/* name */
 	, &GameObject_t92_0_0_1/* type */
-	, &DragMe_t276_il2cpp_TypeInfo/* parent */
-	, offsetof(DragMe_t276, ___m_DraggingIcon_3)/* offset */
+	, &DragMe_t278_il2cpp_TypeInfo/* parent */
+	, offsetof(DragMe_t278, ___m_DraggingIcon_3)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-extern Il2CppType RectTransform_t275_0_0_1;
-FieldInfo DragMe_t276____m_DraggingPlane_4_FieldInfo = 
+extern Il2CppType RectTransform_t277_0_0_1;
+FieldInfo DragMe_t278____m_DraggingPlane_4_FieldInfo = 
 {
 	"m_DraggingPlane"/* name */
-	, &RectTransform_t275_0_0_1/* type */
-	, &DragMe_t276_il2cpp_TypeInfo/* parent */
-	, offsetof(DragMe_t276, ___m_DraggingPlane_4)/* offset */
+	, &RectTransform_t277_0_0_1/* type */
+	, &DragMe_t278_il2cpp_TypeInfo/* parent */
+	, offsetof(DragMe_t278, ___m_DraggingPlane_4)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-static FieldInfo* DragMe_t276_FieldInfos[] =
+static FieldInfo* DragMe_t278_FieldInfos[] =
 {
-	&DragMe_t276____dragOnSurfaces_2_FieldInfo,
-	&DragMe_t276____m_DraggingIcon_3_FieldInfo,
-	&DragMe_t276____m_DraggingPlane_4_FieldInfo,
+	&DragMe_t278____dragOnSurfaces_2_FieldInfo,
+	&DragMe_t278____m_DraggingIcon_3_FieldInfo,
+	&DragMe_t278____m_DraggingPlane_4_FieldInfo,
 	NULL
 };
-extern MethodInfo DragMe_OnDrag_m1223_MethodInfo;
-extern MethodInfo DragMe_OnBeginDrag_m1222_MethodInfo;
-extern MethodInfo DragMe_OnEndDrag_m1225_MethodInfo;
-static Il2CppMethodReference DragMe_t276_VTable[] =
+extern MethodInfo DragMe_OnDrag_m1233_MethodInfo;
+extern MethodInfo DragMe_OnBeginDrag_m1232_MethodInfo;
+extern MethodInfo DragMe_OnEndDrag_m1235_MethodInfo;
+static Il2CppMethodReference DragMe_t278_VTable[] =
 {
 	&Object_Equals_m1090_MethodInfo,
 	&Object_Finalize_m1068_MethodInfo,
 	&Object_GetHashCode_m1091_MethodInfo,
 	&Object_ToString_m1092_MethodInfo,
-	&DragMe_OnDrag_m1223_MethodInfo,
-	&DragMe_OnBeginDrag_m1222_MethodInfo,
-	&DragMe_OnEndDrag_m1225_MethodInfo,
+	&DragMe_OnDrag_m1233_MethodInfo,
+	&DragMe_OnBeginDrag_m1232_MethodInfo,
+	&DragMe_OnEndDrag_m1235_MethodInfo,
 };
-static bool DragMe_t276_VTableIsGenericMethod[] =
+static bool DragMe_t278_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7609,27 +8324,27 @@ static bool DragMe_t276_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern Il2CppType IBeginDragHandler_t304_0_0_0;
-extern Il2CppType IEndDragHandler_t305_0_0_0;
-static const Il2CppType* DragMe_t276_InterfacesTypeInfos[] = 
+extern Il2CppType IBeginDragHandler_t306_0_0_0;
+extern Il2CppType IEndDragHandler_t307_0_0_0;
+static const Il2CppType* DragMe_t278_InterfacesTypeInfos[] = 
 {
 	&IEventSystemHandler_t240_0_0_0,
 	&IDragHandler_t242_0_0_0,
-	&IBeginDragHandler_t304_0_0_0,
-	&IEndDragHandler_t305_0_0_0,
+	&IBeginDragHandler_t306_0_0_0,
+	&IEndDragHandler_t307_0_0_0,
 };
-static Il2CppInterfaceOffsetPair DragMe_t276_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair DragMe_t278_InterfacesOffsets[] = 
 {
 	{ &IEventSystemHandler_t240_0_0_0, 4},
 	{ &IDragHandler_t242_0_0_0, 4},
-	{ &IBeginDragHandler_t304_0_0_0, 5},
-	{ &IEndDragHandler_t305_0_0_0, 6},
+	{ &IBeginDragHandler_t306_0_0_0, 5},
+	{ &IEndDragHandler_t307_0_0_0, 6},
 };
 extern TypeInfo Image_t64_il2cpp_TypeInfo;
 extern Il2CppType Image_t64_0_0_0;
 // UnityEngine.UI.Image
 #include "UnityEngine_UI_UnityEngine_UI_Image.h"
-void DragMe_t276_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void DragMe_t278_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
@@ -7639,44 +8354,44 @@ void DragMe_t276_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-CustomAttributesCache DragMe_t276__CustomAttributeCache = {
+CustomAttributesCache DragMe_t278__CustomAttributeCache = {
 1,
 NULL,
-&DragMe_t276_CustomAttributesCacheGenerator
+&DragMe_t278_CustomAttributesCacheGenerator
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern Il2CppType DragMe_t276_0_0_0;
-extern Il2CppType DragMe_t276_1_0_0;
-struct DragMe_t276;
-extern CustomAttributesCache DragMe_t276__CustomAttributeCache;
-const Il2CppTypeDefinitionMetadata DragMe_t276_DefinitionMetadata = 
+extern Il2CppType DragMe_t278_0_0_0;
+extern Il2CppType DragMe_t278_1_0_0;
+struct DragMe_t278;
+extern CustomAttributesCache DragMe_t278__CustomAttributeCache;
+const Il2CppTypeDefinitionMetadata DragMe_t278_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, DragMe_t276_InterfacesTypeInfos/* implementedInterfaces */
-	, DragMe_t276_InterfacesOffsets/* interfaceOffsets */
+	, DragMe_t278_InterfacesTypeInfos/* implementedInterfaces */
+	, DragMe_t278_InterfacesOffsets/* interfaceOffsets */
 	, &MonoBehaviour_t5_0_0_0/* parent */
-	, DragMe_t276_VTable/* vtableMethods */
-	, DragMe_t276_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, DragMe_t278_VTable/* vtableMethods */
+	, DragMe_t278_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 
 };
-TypeInfo DragMe_t276_il2cpp_TypeInfo = 
+TypeInfo DragMe_t278_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DragMe"/* name */
 	, ""/* namespaze */
-	, DragMe_t276_MethodInfos/* methods */
+	, DragMe_t278_MethodInfos/* methods */
 	, NULL/* properties */
-	, DragMe_t276_FieldInfos/* fields */
+	, DragMe_t278_FieldInfos/* fields */
 	, NULL/* events */
-	, &DragMe_t276_il2cpp_TypeInfo/* element_class */
+	, &DragMe_t278_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, &DragMe_t276__CustomAttributeCache/* custom_attributes_cache */
-	, &DragMe_t276_0_0_0/* byval_arg */
-	, &DragMe_t276_1_0_0/* this_arg */
-	, &DragMe_t276_DefinitionMetadata/* definitionMetadata */
+	, &DragMe_t278__CustomAttributeCache/* custom_attributes_cache */
+	, &DragMe_t278_0_0_0/* byval_arg */
+	, &DragMe_t278_1_0_0/* this_arg */
+	, &DragMe_t278_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7687,8 +8402,8 @@ TypeInfo DragMe_t276_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DragMe_t276)/* instance_size */
-	, sizeof (DragMe_t276)/* actualSize */
+	, sizeof (DragMe_t278)/* instance_size */
+	, sizeof (DragMe_t278)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -7720,17 +8435,17 @@ TypeInfo DragMe_t276_il2cpp_TypeInfo =
 // DragPanel
 #include "AssemblyU2DCSharp_DragPanel.h"
 // Metadata Definition DragPanel
-extern TypeInfo DragPanel_t277_il2cpp_TypeInfo;
+extern TypeInfo DragPanel_t279_il2cpp_TypeInfo;
 // DragPanel
 #include "AssemblyU2DCSharp_DragPanelMethodDeclarations.h"
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void DragPanel::.ctor()
-MethodInfo DragPanel__ctor_m1226_MethodInfo = 
+MethodInfo DragPanel__ctor_m1236_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DragPanel__ctor_m1226/* method */
-	, &DragPanel_t277_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DragPanel__ctor_m1236/* method */
+	, &DragPanel_t279_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -7741,7 +8456,7 @@ MethodInfo DragPanel__ctor_m1226_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 121/* token */
+	, 131/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7750,11 +8465,11 @@ MethodInfo DragPanel__ctor_m1226_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void DragPanel::Awake()
-MethodInfo DragPanel_Awake_m1227_MethodInfo = 
+MethodInfo DragPanel_Awake_m1237_MethodInfo = 
 {
 	"Awake"/* name */
-	, (methodPointerType)&DragPanel_Awake_m1227/* method */
-	, &DragPanel_t277_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DragPanel_Awake_m1237/* method */
+	, &DragPanel_t279_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -7765,28 +8480,28 @@ MethodInfo DragPanel_Awake_m1227_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 122/* token */
+	, 132/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType PointerEventData_t46_0_0_0;
-static ParameterInfo DragPanel_t277_DragPanel_OnPointerDown_m1228_ParameterInfos[] = 
+static ParameterInfo DragPanel_t279_DragPanel_OnPointerDown_m1238_ParameterInfos[] = 
 {
-	{"data", 0, 134217782, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+	{"data", 0, 134217787, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void DragPanel::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
-MethodInfo DragPanel_OnPointerDown_m1228_MethodInfo = 
+MethodInfo DragPanel_OnPointerDown_m1238_MethodInfo = 
 {
 	"OnPointerDown"/* name */
-	, (methodPointerType)&DragPanel_OnPointerDown_m1228/* method */
-	, &DragPanel_t277_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DragPanel_OnPointerDown_m1238/* method */
+	, &DragPanel_t279_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, DragPanel_t277_DragPanel_OnPointerDown_m1228_ParameterInfos/* parameters */
+	, DragPanel_t279_DragPanel_OnPointerDown_m1238_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -7794,28 +8509,28 @@ MethodInfo DragPanel_OnPointerDown_m1228_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 123/* token */
+	, 133/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType PointerEventData_t46_0_0_0;
-static ParameterInfo DragPanel_t277_DragPanel_OnDrag_m1229_ParameterInfos[] = 
+static ParameterInfo DragPanel_t279_DragPanel_OnDrag_m1239_ParameterInfos[] = 
 {
-	{"data", 0, 134217783, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+	{"data", 0, 134217788, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void DragPanel::OnDrag(UnityEngine.EventSystems.PointerEventData)
-MethodInfo DragPanel_OnDrag_m1229_MethodInfo = 
+MethodInfo DragPanel_OnDrag_m1239_MethodInfo = 
 {
 	"OnDrag"/* name */
-	, (methodPointerType)&DragPanel_OnDrag_m1229/* method */
-	, &DragPanel_t277_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DragPanel_OnDrag_m1239/* method */
+	, &DragPanel_t279_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, DragPanel_t277_DragPanel_OnDrag_m1229_ParameterInfos/* parameters */
+	, DragPanel_t279_DragPanel_OnDrag_m1239_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -7823,7 +8538,7 @@ MethodInfo DragPanel_OnDrag_m1229_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 124/* token */
+	, 134/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -7832,11 +8547,11 @@ MethodInfo DragPanel_OnDrag_m1229_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void DragPanel::ClampToWindow()
-MethodInfo DragPanel_ClampToWindow_m1230_MethodInfo = 
+MethodInfo DragPanel_ClampToWindow_m1240_MethodInfo = 
 {
 	"ClampToWindow"/* name */
-	, (methodPointerType)&DragPanel_ClampToWindow_m1230/* method */
-	, &DragPanel_t277_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DragPanel_ClampToWindow_m1240/* method */
+	, &DragPanel_t279_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -7847,81 +8562,81 @@ MethodInfo DragPanel_ClampToWindow_m1230_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 125/* token */
+	, 135/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static MethodInfo* DragPanel_t277_MethodInfos[] =
+static MethodInfo* DragPanel_t279_MethodInfos[] =
 {
-	&DragPanel__ctor_m1226_MethodInfo,
-	&DragPanel_Awake_m1227_MethodInfo,
-	&DragPanel_OnPointerDown_m1228_MethodInfo,
-	&DragPanel_OnDrag_m1229_MethodInfo,
-	&DragPanel_ClampToWindow_m1230_MethodInfo,
+	&DragPanel__ctor_m1236_MethodInfo,
+	&DragPanel_Awake_m1237_MethodInfo,
+	&DragPanel_OnPointerDown_m1238_MethodInfo,
+	&DragPanel_OnDrag_m1239_MethodInfo,
+	&DragPanel_ClampToWindow_m1240_MethodInfo,
 	NULL
 };
 extern Il2CppType Vector2_t13_0_0_1;
-FieldInfo DragPanel_t277____originalLocalPointerPosition_2_FieldInfo = 
+FieldInfo DragPanel_t279____originalLocalPointerPosition_2_FieldInfo = 
 {
 	"originalLocalPointerPosition"/* name */
 	, &Vector2_t13_0_0_1/* type */
-	, &DragPanel_t277_il2cpp_TypeInfo/* parent */
-	, offsetof(DragPanel_t277, ___originalLocalPointerPosition_2)/* offset */
+	, &DragPanel_t279_il2cpp_TypeInfo/* parent */
+	, offsetof(DragPanel_t279, ___originalLocalPointerPosition_2)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Vector3_t8_0_0_1;
-FieldInfo DragPanel_t277____originalPanelLocalPosition_3_FieldInfo = 
+FieldInfo DragPanel_t279____originalPanelLocalPosition_3_FieldInfo = 
 {
 	"originalPanelLocalPosition"/* name */
 	, &Vector3_t8_0_0_1/* type */
-	, &DragPanel_t277_il2cpp_TypeInfo/* parent */
-	, offsetof(DragPanel_t277, ___originalPanelLocalPosition_3)/* offset */
+	, &DragPanel_t279_il2cpp_TypeInfo/* parent */
+	, offsetof(DragPanel_t279, ___originalPanelLocalPosition_3)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-extern Il2CppType RectTransform_t275_0_0_1;
-FieldInfo DragPanel_t277____panelRectTransform_4_FieldInfo = 
+extern Il2CppType RectTransform_t277_0_0_1;
+FieldInfo DragPanel_t279____panelRectTransform_4_FieldInfo = 
 {
 	"panelRectTransform"/* name */
-	, &RectTransform_t275_0_0_1/* type */
-	, &DragPanel_t277_il2cpp_TypeInfo/* parent */
-	, offsetof(DragPanel_t277, ___panelRectTransform_4)/* offset */
+	, &RectTransform_t277_0_0_1/* type */
+	, &DragPanel_t279_il2cpp_TypeInfo/* parent */
+	, offsetof(DragPanel_t279, ___panelRectTransform_4)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-extern Il2CppType RectTransform_t275_0_0_1;
-FieldInfo DragPanel_t277____parentRectTransform_5_FieldInfo = 
+extern Il2CppType RectTransform_t277_0_0_1;
+FieldInfo DragPanel_t279____parentRectTransform_5_FieldInfo = 
 {
 	"parentRectTransform"/* name */
-	, &RectTransform_t275_0_0_1/* type */
-	, &DragPanel_t277_il2cpp_TypeInfo/* parent */
-	, offsetof(DragPanel_t277, ___parentRectTransform_5)/* offset */
+	, &RectTransform_t277_0_0_1/* type */
+	, &DragPanel_t279_il2cpp_TypeInfo/* parent */
+	, offsetof(DragPanel_t279, ___parentRectTransform_5)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-static FieldInfo* DragPanel_t277_FieldInfos[] =
+static FieldInfo* DragPanel_t279_FieldInfos[] =
 {
-	&DragPanel_t277____originalLocalPointerPosition_2_FieldInfo,
-	&DragPanel_t277____originalPanelLocalPosition_3_FieldInfo,
-	&DragPanel_t277____panelRectTransform_4_FieldInfo,
-	&DragPanel_t277____parentRectTransform_5_FieldInfo,
+	&DragPanel_t279____originalLocalPointerPosition_2_FieldInfo,
+	&DragPanel_t279____originalPanelLocalPosition_3_FieldInfo,
+	&DragPanel_t279____panelRectTransform_4_FieldInfo,
+	&DragPanel_t279____parentRectTransform_5_FieldInfo,
 	NULL
 };
-extern MethodInfo DragPanel_OnPointerDown_m1228_MethodInfo;
-extern MethodInfo DragPanel_OnDrag_m1229_MethodInfo;
-static Il2CppMethodReference DragPanel_t277_VTable[] =
+extern MethodInfo DragPanel_OnPointerDown_m1238_MethodInfo;
+extern MethodInfo DragPanel_OnDrag_m1239_MethodInfo;
+static Il2CppMethodReference DragPanel_t279_VTable[] =
 {
 	&Object_Equals_m1090_MethodInfo,
 	&Object_Finalize_m1068_MethodInfo,
 	&Object_GetHashCode_m1091_MethodInfo,
 	&Object_ToString_m1092_MethodInfo,
-	&DragPanel_OnPointerDown_m1228_MethodInfo,
-	&DragPanel_OnDrag_m1229_MethodInfo,
+	&DragPanel_OnPointerDown_m1238_MethodInfo,
+	&DragPanel_OnDrag_m1239_MethodInfo,
 };
-static bool DragPanel_t277_VTableIsGenericMethod[] =
+static bool DragPanel_t279_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -7930,50 +8645,50 @@ static bool DragPanel_t277_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* DragPanel_t277_InterfacesTypeInfos[] = 
+static const Il2CppType* DragPanel_t279_InterfacesTypeInfos[] = 
 {
 	&IPointerDownHandler_t239_0_0_0,
 	&IEventSystemHandler_t240_0_0_0,
 	&IDragHandler_t242_0_0_0,
 };
-static Il2CppInterfaceOffsetPair DragPanel_t277_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair DragPanel_t279_InterfacesOffsets[] = 
 {
 	{ &IPointerDownHandler_t239_0_0_0, 4},
 	{ &IEventSystemHandler_t240_0_0_0, 5},
 	{ &IDragHandler_t242_0_0_0, 5},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern Il2CppType DragPanel_t277_0_0_0;
-extern Il2CppType DragPanel_t277_1_0_0;
-struct DragPanel_t277;
-const Il2CppTypeDefinitionMetadata DragPanel_t277_DefinitionMetadata = 
+extern Il2CppType DragPanel_t279_0_0_0;
+extern Il2CppType DragPanel_t279_1_0_0;
+struct DragPanel_t279;
+const Il2CppTypeDefinitionMetadata DragPanel_t279_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, DragPanel_t277_InterfacesTypeInfos/* implementedInterfaces */
-	, DragPanel_t277_InterfacesOffsets/* interfaceOffsets */
+	, DragPanel_t279_InterfacesTypeInfos/* implementedInterfaces */
+	, DragPanel_t279_InterfacesOffsets/* interfaceOffsets */
 	, &MonoBehaviour_t5_0_0_0/* parent */
-	, DragPanel_t277_VTable/* vtableMethods */
-	, DragPanel_t277_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, DragPanel_t279_VTable/* vtableMethods */
+	, DragPanel_t279_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 
 };
-TypeInfo DragPanel_t277_il2cpp_TypeInfo = 
+TypeInfo DragPanel_t279_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DragPanel"/* name */
 	, ""/* namespaze */
-	, DragPanel_t277_MethodInfos/* methods */
+	, DragPanel_t279_MethodInfos/* methods */
 	, NULL/* properties */
-	, DragPanel_t277_FieldInfos/* fields */
+	, DragPanel_t279_FieldInfos/* fields */
 	, NULL/* events */
-	, &DragPanel_t277_il2cpp_TypeInfo/* element_class */
+	, &DragPanel_t279_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
-	, &DragPanel_t277_0_0_0/* byval_arg */
-	, &DragPanel_t277_1_0_0/* this_arg */
-	, &DragPanel_t277_DefinitionMetadata/* definitionMetadata */
+	, &DragPanel_t279_0_0_0/* byval_arg */
+	, &DragPanel_t279_1_0_0/* this_arg */
+	, &DragPanel_t279_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -7984,8 +8699,8 @@ TypeInfo DragPanel_t277_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DragPanel_t277)/* instance_size */
-	, sizeof (DragPanel_t277)/* actualSize */
+	, sizeof (DragPanel_t279)/* instance_size */
+	, sizeof (DragPanel_t279)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8017,17 +8732,17 @@ TypeInfo DragPanel_t277_il2cpp_TypeInfo =
 // DropMe
 #include "AssemblyU2DCSharp_DropMe.h"
 // Metadata Definition DropMe
-extern TypeInfo DropMe_t278_il2cpp_TypeInfo;
+extern TypeInfo DropMe_t280_il2cpp_TypeInfo;
 // DropMe
 #include "AssemblyU2DCSharp_DropMeMethodDeclarations.h"
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void DropMe::.ctor()
-MethodInfo DropMe__ctor_m1231_MethodInfo = 
+MethodInfo DropMe__ctor_m1241_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&DropMe__ctor_m1231/* method */
-	, &DropMe_t278_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DropMe__ctor_m1241/* method */
+	, &DropMe_t280_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -8038,7 +8753,7 @@ MethodInfo DropMe__ctor_m1231_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 126/* token */
+	, 136/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8047,11 +8762,11 @@ MethodInfo DropMe__ctor_m1231_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void DropMe::OnEnable()
-MethodInfo DropMe_OnEnable_m1232_MethodInfo = 
+MethodInfo DropMe_OnEnable_m1242_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&DropMe_OnEnable_m1232/* method */
-	, &DropMe_t278_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DropMe_OnEnable_m1242/* method */
+	, &DropMe_t280_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -8062,28 +8777,28 @@ MethodInfo DropMe_OnEnable_m1232_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 127/* token */
+	, 137/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType PointerEventData_t46_0_0_0;
-static ParameterInfo DropMe_t278_DropMe_OnDrop_m1233_ParameterInfos[] = 
+static ParameterInfo DropMe_t280_DropMe_OnDrop_m1243_ParameterInfos[] = 
 {
-	{"data", 0, 134217784, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+	{"data", 0, 134217789, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void DropMe::OnDrop(UnityEngine.EventSystems.PointerEventData)
-MethodInfo DropMe_OnDrop_m1233_MethodInfo = 
+MethodInfo DropMe_OnDrop_m1243_MethodInfo = 
 {
 	"OnDrop"/* name */
-	, (methodPointerType)&DropMe_OnDrop_m1233/* method */
-	, &DropMe_t278_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DropMe_OnDrop_m1243/* method */
+	, &DropMe_t280_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, DropMe_t278_DropMe_OnDrop_m1233_ParameterInfos/* parameters */
+	, DropMe_t280_DropMe_OnDrop_m1243_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -8091,28 +8806,28 @@ MethodInfo DropMe_OnDrop_m1233_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 128/* token */
+	, 138/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType PointerEventData_t46_0_0_0;
-static ParameterInfo DropMe_t278_DropMe_OnPointerEnter_m1234_ParameterInfos[] = 
+static ParameterInfo DropMe_t280_DropMe_OnPointerEnter_m1244_ParameterInfos[] = 
 {
-	{"data", 0, 134217785, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+	{"data", 0, 134217790, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void DropMe::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
-MethodInfo DropMe_OnPointerEnter_m1234_MethodInfo = 
+MethodInfo DropMe_OnPointerEnter_m1244_MethodInfo = 
 {
 	"OnPointerEnter"/* name */
-	, (methodPointerType)&DropMe_OnPointerEnter_m1234/* method */
-	, &DropMe_t278_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DropMe_OnPointerEnter_m1244/* method */
+	, &DropMe_t280_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, DropMe_t278_DropMe_OnPointerEnter_m1234_ParameterInfos/* parameters */
+	, DropMe_t280_DropMe_OnPointerEnter_m1244_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -8120,28 +8835,28 @@ MethodInfo DropMe_OnPointerEnter_m1234_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 129/* token */
+	, 139/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType PointerEventData_t46_0_0_0;
-static ParameterInfo DropMe_t278_DropMe_OnPointerExit_m1235_ParameterInfos[] = 
+static ParameterInfo DropMe_t280_DropMe_OnPointerExit_m1245_ParameterInfos[] = 
 {
-	{"data", 0, 134217786, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+	{"data", 0, 134217791, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void DropMe::OnPointerExit(UnityEngine.EventSystems.PointerEventData)
-MethodInfo DropMe_OnPointerExit_m1235_MethodInfo = 
+MethodInfo DropMe_OnPointerExit_m1245_MethodInfo = 
 {
 	"OnPointerExit"/* name */
-	, (methodPointerType)&DropMe_OnPointerExit_m1235/* method */
-	, &DropMe_t278_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&DropMe_OnPointerExit_m1245/* method */
+	, &DropMe_t280_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, DropMe_t278_DropMe_OnPointerExit_m1235_ParameterInfos/* parameters */
+	, DropMe_t280_DropMe_OnPointerExit_m1245_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -8149,28 +8864,28 @@ MethodInfo DropMe_OnPointerExit_m1235_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 130/* token */
+	, 140/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType PointerEventData_t46_0_0_0;
-static ParameterInfo DropMe_t278_DropMe_GetDropSprite_m1236_ParameterInfos[] = 
+static ParameterInfo DropMe_t280_DropMe_GetDropSprite_m1246_ParameterInfos[] = 
 {
-	{"data", 0, 134217787, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+	{"data", 0, 134217792, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
 };
-extern Il2CppType Sprite_t279_0_0_0;
+extern Il2CppType Sprite_t281_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (MethodInfo* method, void* obj, void** args);
 // UnityEngine.Sprite DropMe::GetDropSprite(UnityEngine.EventSystems.PointerEventData)
-MethodInfo DropMe_GetDropSprite_m1236_MethodInfo = 
+MethodInfo DropMe_GetDropSprite_m1246_MethodInfo = 
 {
 	"GetDropSprite"/* name */
-	, (methodPointerType)&DropMe_GetDropSprite_m1236/* method */
-	, &DropMe_t278_il2cpp_TypeInfo/* declaring_type */
-	, &Sprite_t279_0_0_0/* return_type */
+	, (methodPointerType)&DropMe_GetDropSprite_m1246/* method */
+	, &DropMe_t280_il2cpp_TypeInfo/* declaring_type */
+	, &Sprite_t281_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, DropMe_t278_DropMe_GetDropSprite_m1236_ParameterInfos/* parameters */
+	, DropMe_t280_DropMe_GetDropSprite_m1246_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -8178,84 +8893,84 @@ MethodInfo DropMe_GetDropSprite_m1236_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 131/* token */
+	, 141/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static MethodInfo* DropMe_t278_MethodInfos[] =
+static MethodInfo* DropMe_t280_MethodInfos[] =
 {
-	&DropMe__ctor_m1231_MethodInfo,
-	&DropMe_OnEnable_m1232_MethodInfo,
-	&DropMe_OnDrop_m1233_MethodInfo,
-	&DropMe_OnPointerEnter_m1234_MethodInfo,
-	&DropMe_OnPointerExit_m1235_MethodInfo,
-	&DropMe_GetDropSprite_m1236_MethodInfo,
+	&DropMe__ctor_m1241_MethodInfo,
+	&DropMe_OnEnable_m1242_MethodInfo,
+	&DropMe_OnDrop_m1243_MethodInfo,
+	&DropMe_OnPointerEnter_m1244_MethodInfo,
+	&DropMe_OnPointerExit_m1245_MethodInfo,
+	&DropMe_GetDropSprite_m1246_MethodInfo,
 	NULL
 };
 extern Il2CppType Image_t64_0_0_6;
-FieldInfo DropMe_t278____containerImage_2_FieldInfo = 
+FieldInfo DropMe_t280____containerImage_2_FieldInfo = 
 {
 	"containerImage"/* name */
 	, &Image_t64_0_0_6/* type */
-	, &DropMe_t278_il2cpp_TypeInfo/* parent */
-	, offsetof(DropMe_t278, ___containerImage_2)/* offset */
+	, &DropMe_t280_il2cpp_TypeInfo/* parent */
+	, offsetof(DropMe_t280, ___containerImage_2)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Image_t64_0_0_6;
-FieldInfo DropMe_t278____receivingImage_3_FieldInfo = 
+FieldInfo DropMe_t280____receivingImage_3_FieldInfo = 
 {
 	"receivingImage"/* name */
 	, &Image_t64_0_0_6/* type */
-	, &DropMe_t278_il2cpp_TypeInfo/* parent */
-	, offsetof(DropMe_t278, ___receivingImage_3)/* offset */
+	, &DropMe_t280_il2cpp_TypeInfo/* parent */
+	, offsetof(DropMe_t280, ___receivingImage_3)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Color_t79_0_0_1;
-FieldInfo DropMe_t278____normalColor_4_FieldInfo = 
+FieldInfo DropMe_t280____normalColor_4_FieldInfo = 
 {
 	"normalColor"/* name */
 	, &Color_t79_0_0_1/* type */
-	, &DropMe_t278_il2cpp_TypeInfo/* parent */
-	, offsetof(DropMe_t278, ___normalColor_4)/* offset */
+	, &DropMe_t280_il2cpp_TypeInfo/* parent */
+	, offsetof(DropMe_t280, ___normalColor_4)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Color_t79_0_0_6;
-FieldInfo DropMe_t278____highlightColor_5_FieldInfo = 
+FieldInfo DropMe_t280____highlightColor_5_FieldInfo = 
 {
 	"highlightColor"/* name */
 	, &Color_t79_0_0_6/* type */
-	, &DropMe_t278_il2cpp_TypeInfo/* parent */
-	, offsetof(DropMe_t278, ___highlightColor_5)/* offset */
+	, &DropMe_t280_il2cpp_TypeInfo/* parent */
+	, offsetof(DropMe_t280, ___highlightColor_5)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-static FieldInfo* DropMe_t278_FieldInfos[] =
+static FieldInfo* DropMe_t280_FieldInfos[] =
 {
-	&DropMe_t278____containerImage_2_FieldInfo,
-	&DropMe_t278____receivingImage_3_FieldInfo,
-	&DropMe_t278____normalColor_4_FieldInfo,
-	&DropMe_t278____highlightColor_5_FieldInfo,
+	&DropMe_t280____containerImage_2_FieldInfo,
+	&DropMe_t280____receivingImage_3_FieldInfo,
+	&DropMe_t280____normalColor_4_FieldInfo,
+	&DropMe_t280____highlightColor_5_FieldInfo,
 	NULL
 };
-extern MethodInfo DropMe_OnDrop_m1233_MethodInfo;
-extern MethodInfo DropMe_OnPointerEnter_m1234_MethodInfo;
-extern MethodInfo DropMe_OnPointerExit_m1235_MethodInfo;
-static Il2CppMethodReference DropMe_t278_VTable[] =
+extern MethodInfo DropMe_OnDrop_m1243_MethodInfo;
+extern MethodInfo DropMe_OnPointerEnter_m1244_MethodInfo;
+extern MethodInfo DropMe_OnPointerExit_m1245_MethodInfo;
+static Il2CppMethodReference DropMe_t280_VTable[] =
 {
 	&Object_Equals_m1090_MethodInfo,
 	&Object_Finalize_m1068_MethodInfo,
 	&Object_GetHashCode_m1091_MethodInfo,
 	&Object_ToString_m1092_MethodInfo,
-	&DropMe_OnDrop_m1233_MethodInfo,
-	&DropMe_OnPointerEnter_m1234_MethodInfo,
-	&DropMe_OnPointerExit_m1235_MethodInfo,
+	&DropMe_OnDrop_m1243_MethodInfo,
+	&DropMe_OnPointerEnter_m1244_MethodInfo,
+	&DropMe_OnPointerExit_m1245_MethodInfo,
 };
-static bool DropMe_t278_VTableIsGenericMethod[] =
+static bool DropMe_t280_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8265,55 +8980,55 @@ static bool DropMe_t278_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-extern Il2CppType IDropHandler_t306_0_0_0;
-extern Il2CppType IPointerEnterHandler_t307_0_0_0;
-extern Il2CppType IPointerExitHandler_t308_0_0_0;
-static const Il2CppType* DropMe_t278_InterfacesTypeInfos[] = 
+extern Il2CppType IDropHandler_t308_0_0_0;
+extern Il2CppType IPointerEnterHandler_t309_0_0_0;
+extern Il2CppType IPointerExitHandler_t310_0_0_0;
+static const Il2CppType* DropMe_t280_InterfacesTypeInfos[] = 
 {
 	&IEventSystemHandler_t240_0_0_0,
-	&IDropHandler_t306_0_0_0,
-	&IPointerEnterHandler_t307_0_0_0,
-	&IPointerExitHandler_t308_0_0_0,
+	&IDropHandler_t308_0_0_0,
+	&IPointerEnterHandler_t309_0_0_0,
+	&IPointerExitHandler_t310_0_0_0,
 };
-static Il2CppInterfaceOffsetPair DropMe_t278_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair DropMe_t280_InterfacesOffsets[] = 
 {
 	{ &IEventSystemHandler_t240_0_0_0, 4},
-	{ &IDropHandler_t306_0_0_0, 4},
-	{ &IPointerEnterHandler_t307_0_0_0, 5},
-	{ &IPointerExitHandler_t308_0_0_0, 6},
+	{ &IDropHandler_t308_0_0_0, 4},
+	{ &IPointerEnterHandler_t309_0_0_0, 5},
+	{ &IPointerExitHandler_t310_0_0_0, 6},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern Il2CppType DropMe_t278_0_0_0;
-extern Il2CppType DropMe_t278_1_0_0;
-struct DropMe_t278;
-const Il2CppTypeDefinitionMetadata DropMe_t278_DefinitionMetadata = 
+extern Il2CppType DropMe_t280_0_0_0;
+extern Il2CppType DropMe_t280_1_0_0;
+struct DropMe_t280;
+const Il2CppTypeDefinitionMetadata DropMe_t280_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, DropMe_t278_InterfacesTypeInfos/* implementedInterfaces */
-	, DropMe_t278_InterfacesOffsets/* interfaceOffsets */
+	, DropMe_t280_InterfacesTypeInfos/* implementedInterfaces */
+	, DropMe_t280_InterfacesOffsets/* interfaceOffsets */
 	, &MonoBehaviour_t5_0_0_0/* parent */
-	, DropMe_t278_VTable/* vtableMethods */
-	, DropMe_t278_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, DropMe_t280_VTable/* vtableMethods */
+	, DropMe_t280_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 
 };
-TypeInfo DropMe_t278_il2cpp_TypeInfo = 
+TypeInfo DropMe_t280_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "DropMe"/* name */
 	, ""/* namespaze */
-	, DropMe_t278_MethodInfos/* methods */
+	, DropMe_t280_MethodInfos/* methods */
 	, NULL/* properties */
-	, DropMe_t278_FieldInfos/* fields */
+	, DropMe_t280_FieldInfos/* fields */
 	, NULL/* events */
-	, &DropMe_t278_il2cpp_TypeInfo/* element_class */
+	, &DropMe_t280_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
-	, &DropMe_t278_0_0_0/* byval_arg */
-	, &DropMe_t278_1_0_0/* this_arg */
-	, &DropMe_t278_DefinitionMetadata/* definitionMetadata */
+	, &DropMe_t280_0_0_0/* byval_arg */
+	, &DropMe_t280_1_0_0/* this_arg */
+	, &DropMe_t280_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8324,8 +9039,8 @@ TypeInfo DropMe_t278_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (DropMe_t278)/* instance_size */
-	, sizeof (DropMe_t278)/* actualSize */
+	, sizeof (DropMe_t280)/* instance_size */
+	, sizeof (DropMe_t280)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8357,17 +9072,17 @@ TypeInfo DropMe_t278_il2cpp_TypeInfo =
 // PanelManager/<DisablePanelDeleyed>c__Iterator1
 #include "AssemblyU2DCSharp_PanelManager_U3CDisablePanelDeleyedU3Ec__I.h"
 // Metadata Definition PanelManager/<DisablePanelDeleyed>c__Iterator1
-extern TypeInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo;
+extern TypeInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo;
 // PanelManager/<DisablePanelDeleyed>c__Iterator1
 #include "AssemblyU2DCSharp_PanelManager_U3CDisablePanelDeleyedU3Ec__IMethodDeclarations.h"
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void PanelManager/<DisablePanelDeleyed>c__Iterator1::.ctor()
-MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1237_MethodInfo = 
+MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1247_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1237/* method */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1247/* method */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -8378,7 +9093,7 @@ MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1237_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 139/* token */
+	, 149/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8386,24 +9101,24 @@ MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1237_MethodInfo =
 };
 extern Il2CppType Object_t_0_0_0;
 extern void* RuntimeInvoker_Object_t (MethodInfo* method, void* obj, void** args);
-extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1238;
+extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1248;
 // System.Object PanelManager/<DisablePanelDeleyed>c__Iterator1::System.Collections.Generic.IEnumerator<object>.get_Current()
-MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1238_MethodInfo = 
+MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1248_MethodInfo = 
 {
 	"System.Collections.Generic.IEnumerator<object>.get_Current"/* name */
-	, (methodPointerType)&U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1238/* method */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1248/* method */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1238/* custom_attributes_cache */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1248/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
 	, 4/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 140/* token */
+	, 150/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8411,24 +9126,24 @@ MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnu
 };
 extern Il2CppType Object_t_0_0_0;
 extern void* RuntimeInvoker_Object_t (MethodInfo* method, void* obj, void** args);
-extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1239;
+extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1249;
 // System.Object PanelManager/<DisablePanelDeleyed>c__Iterator1::System.Collections.IEnumerator.get_Current()
-MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1239_MethodInfo = 
+MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1249_MethodInfo = 
 {
 	"System.Collections.IEnumerator.get_Current"/* name */
-	, (methodPointerType)&U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1239/* method */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1249/* method */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* declaring_type */
 	, &Object_t_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t/* invoker_method */
 	, NULL/* parameters */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1239/* custom_attributes_cache */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1249/* custom_attributes_cache */
 	, 2529/* flags */
 	, 0/* iflags */
 	, 5/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 141/* token */
+	, 151/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8437,11 +9152,11 @@ MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_
 extern Il2CppType Boolean_t202_0_0_0;
 extern void* RuntimeInvoker_Boolean_t202 (MethodInfo* method, void* obj, void** args);
 // System.Boolean PanelManager/<DisablePanelDeleyed>c__Iterator1::MoveNext()
-MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1240_MethodInfo = 
+MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1250_MethodInfo = 
 {
 	"MoveNext"/* name */
-	, (methodPointerType)&U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1240/* method */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1250/* method */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* declaring_type */
 	, &Boolean_t202_0_0_0/* return_type */
 	, RuntimeInvoker_Boolean_t202/* invoker_method */
 	, NULL/* parameters */
@@ -8452,7 +9167,7 @@ MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1240_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 142/* token */
+	, 152/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8460,24 +9175,24 @@ MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1240_MethodInfo =
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
-extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241;
+extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1251;
 // System.Void PanelManager/<DisablePanelDeleyed>c__Iterator1::Dispose()
-MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241_MethodInfo = 
+MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1251_MethodInfo = 
 {
 	"Dispose"/* name */
-	, (methodPointerType)&U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241/* method */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1251/* method */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241/* custom_attributes_cache */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1251/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
 	, 7/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 143/* token */
+	, 153/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8485,164 +9200,164 @@ MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241_MethodInfo =
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
-extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1242;
+extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1252;
 // System.Void PanelManager/<DisablePanelDeleyed>c__Iterator1::Reset()
-MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1242_MethodInfo = 
+MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1252_MethodInfo = 
 {
 	"Reset"/* name */
-	, (methodPointerType)&U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1242/* method */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1252/* method */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1242/* custom_attributes_cache */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1252/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
 	, 8/* slot */
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 144/* token */
+	, 154/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static MethodInfo* U3CDisablePanelDeleyedU3Ec__Iterator1_t281_MethodInfos[] =
+static MethodInfo* U3CDisablePanelDeleyedU3Ec__Iterator1_t283_MethodInfos[] =
 {
-	&U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1237_MethodInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1238_MethodInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1239_MethodInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1240_MethodInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241_MethodInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1242_MethodInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1247_MethodInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1248_MethodInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1249_MethodInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1250_MethodInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1251_MethodInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1252_MethodInfo,
 	NULL
 };
 extern Il2CppType Boolean_t202_0_0_3;
-FieldInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281____U3CclosedStateReachedU3E__0_0_FieldInfo = 
+FieldInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t283____U3CclosedStateReachedU3E__0_0_FieldInfo = 
 {
 	"<closedStateReached>__0"/* name */
 	, &Boolean_t202_0_0_3/* type */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* parent */
-	, offsetof(U3CDisablePanelDeleyedU3Ec__Iterator1_t281, ___U3CclosedStateReachedU3E__0_0)/* offset */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* parent */
+	, offsetof(U3CDisablePanelDeleyedU3Ec__Iterator1_t283, ___U3CclosedStateReachedU3E__0_0)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Boolean_t202_0_0_3;
-FieldInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281____U3CwantToCloseU3E__1_1_FieldInfo = 
+FieldInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t283____U3CwantToCloseU3E__1_1_FieldInfo = 
 {
 	"<wantToClose>__1"/* name */
 	, &Boolean_t202_0_0_3/* type */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* parent */
-	, offsetof(U3CDisablePanelDeleyedU3Ec__Iterator1_t281, ___U3CwantToCloseU3E__1_1)/* offset */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* parent */
+	, offsetof(U3CDisablePanelDeleyedU3Ec__Iterator1_t283, ___U3CwantToCloseU3E__1_1)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Animator_t42_0_0_3;
-FieldInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281____anim_2_FieldInfo = 
+FieldInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t283____anim_2_FieldInfo = 
 {
 	"anim"/* name */
 	, &Animator_t42_0_0_3/* type */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* parent */
-	, offsetof(U3CDisablePanelDeleyedU3Ec__Iterator1_t281, ___anim_2)/* offset */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* parent */
+	, offsetof(U3CDisablePanelDeleyedU3Ec__Iterator1_t283, ___anim_2)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Int32_t188_0_0_3;
-FieldInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281____$PC_3_FieldInfo = 
+FieldInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t283____$PC_3_FieldInfo = 
 {
 	"$PC"/* name */
 	, &Int32_t188_0_0_3/* type */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* parent */
-	, offsetof(U3CDisablePanelDeleyedU3Ec__Iterator1_t281, ___$PC_3)/* offset */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* parent */
+	, offsetof(U3CDisablePanelDeleyedU3Ec__Iterator1_t283, ___$PC_3)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Object_t_0_0_3;
-FieldInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281____$current_4_FieldInfo = 
+FieldInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t283____$current_4_FieldInfo = 
 {
 	"$current"/* name */
 	, &Object_t_0_0_3/* type */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* parent */
-	, offsetof(U3CDisablePanelDeleyedU3Ec__Iterator1_t281, ___$current_4)/* offset */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* parent */
+	, offsetof(U3CDisablePanelDeleyedU3Ec__Iterator1_t283, ___$current_4)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Animator_t42_0_0_3;
-FieldInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281____U3C$U3Eanim_5_FieldInfo = 
+FieldInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t283____U3C$U3Eanim_5_FieldInfo = 
 {
 	"<$>anim"/* name */
 	, &Animator_t42_0_0_3/* type */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* parent */
-	, offsetof(U3CDisablePanelDeleyedU3Ec__Iterator1_t281, ___U3C$U3Eanim_5)/* offset */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* parent */
+	, offsetof(U3CDisablePanelDeleyedU3Ec__Iterator1_t283, ___U3C$U3Eanim_5)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-extern Il2CppType PanelManager_t280_0_0_3;
-FieldInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281____U3CU3Ef__this_6_FieldInfo = 
+extern Il2CppType PanelManager_t282_0_0_3;
+FieldInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t283____U3CU3Ef__this_6_FieldInfo = 
 {
 	"<>f__this"/* name */
-	, &PanelManager_t280_0_0_3/* type */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* parent */
-	, offsetof(U3CDisablePanelDeleyedU3Ec__Iterator1_t281, ___U3CU3Ef__this_6)/* offset */
+	, &PanelManager_t282_0_0_3/* type */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* parent */
+	, offsetof(U3CDisablePanelDeleyedU3Ec__Iterator1_t283, ___U3CU3Ef__this_6)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-static FieldInfo* U3CDisablePanelDeleyedU3Ec__Iterator1_t281_FieldInfos[] =
+static FieldInfo* U3CDisablePanelDeleyedU3Ec__Iterator1_t283_FieldInfos[] =
 {
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_t281____U3CclosedStateReachedU3E__0_0_FieldInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_t281____U3CwantToCloseU3E__1_1_FieldInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_t281____anim_2_FieldInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_t281____$PC_3_FieldInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_t281____$current_4_FieldInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_t281____U3C$U3Eanim_5_FieldInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_t281____U3CU3Ef__this_6_FieldInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_t283____U3CclosedStateReachedU3E__0_0_FieldInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_t283____U3CwantToCloseU3E__1_1_FieldInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_t283____anim_2_FieldInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_t283____$PC_3_FieldInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_t283____$current_4_FieldInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_t283____U3C$U3Eanim_5_FieldInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_t283____U3CU3Ef__this_6_FieldInfo,
 	NULL
 };
-extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1238_MethodInfo;
-static PropertyInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281____System_Collections_Generic_IEnumeratorU3CobjectU3E_Current_PropertyInfo = 
+extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1248_MethodInfo;
+static PropertyInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t283____System_Collections_Generic_IEnumeratorU3CobjectU3E_Current_PropertyInfo = 
 {
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* parent */
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* parent */
 	, "System.Collections.Generic.IEnumerator<object>.Current"/* name */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1238_MethodInfo/* get */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1248_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1239_MethodInfo;
-static PropertyInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281____System_Collections_IEnumerator_Current_PropertyInfo = 
+extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1249_MethodInfo;
+static PropertyInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t283____System_Collections_IEnumerator_Current_PropertyInfo = 
 {
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* parent */
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* parent */
 	, "System.Collections.IEnumerator.Current"/* name */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1239_MethodInfo/* get */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1249_MethodInfo/* get */
 	, NULL/* set */
 	, 0/* attrs */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-static PropertyInfo* U3CDisablePanelDeleyedU3Ec__Iterator1_t281_PropertyInfos[] =
+static PropertyInfo* U3CDisablePanelDeleyedU3Ec__Iterator1_t283_PropertyInfos[] =
 {
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_t281____System_Collections_Generic_IEnumeratorU3CobjectU3E_Current_PropertyInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_t281____System_Collections_IEnumerator_Current_PropertyInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_t283____System_Collections_Generic_IEnumeratorU3CobjectU3E_Current_PropertyInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_t283____System_Collections_IEnumerator_Current_PropertyInfo,
 	NULL
 };
-extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1240_MethodInfo;
-extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241_MethodInfo;
-extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1242_MethodInfo;
-static Il2CppMethodReference U3CDisablePanelDeleyedU3Ec__Iterator1_t281_VTable[] =
+extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1250_MethodInfo;
+extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1251_MethodInfo;
+extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1252_MethodInfo;
+static Il2CppMethodReference U3CDisablePanelDeleyedU3Ec__Iterator1_t283_VTable[] =
 {
 	&Object_Equals_m1096_MethodInfo,
 	&Object_Finalize_m1068_MethodInfo,
 	&Object_GetHashCode_m1097_MethodInfo,
 	&Object_ToString_m1098_MethodInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1238_MethodInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1239_MethodInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1240_MethodInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241_MethodInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1242_MethodInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1248_MethodInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1249_MethodInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1250_MethodInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1251_MethodInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1252_MethodInfo,
 };
-static bool U3CDisablePanelDeleyedU3Ec__Iterator1_t281_VTableIsGenericMethod[] =
+static bool U3CDisablePanelDeleyedU3Ec__Iterator1_t283_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -8654,19 +9369,19 @@ static bool U3CDisablePanelDeleyedU3Ec__Iterator1_t281_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* U3CDisablePanelDeleyedU3Ec__Iterator1_t281_InterfacesTypeInfos[] = 
+static const Il2CppType* U3CDisablePanelDeleyedU3Ec__Iterator1_t283_InterfacesTypeInfos[] = 
 {
 	&IEnumerator_1_t246_0_0_0,
 	&IEnumerator_t106_0_0_0,
 	&IDisposable_t203_0_0_0,
 };
-static Il2CppInterfaceOffsetPair U3CDisablePanelDeleyedU3Ec__Iterator1_t281_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair U3CDisablePanelDeleyedU3Ec__Iterator1_t283_InterfacesOffsets[] = 
 {
 	{ &IEnumerator_1_t246_0_0_0, 4},
 	{ &IEnumerator_t106_0_0_0, 5},
 	{ &IDisposable_t203_0_0_0, 7},
 };
-void U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void U3CDisablePanelDeleyedU3Ec__Iterator1_t283_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
@@ -8676,7 +9391,7 @@ void U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator(C
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-void U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1238(CustomAttributesCache* cache)
+void U3CDisablePanelDeleyedU3Ec__Iterator1_t283_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1248(CustomAttributesCache* cache)
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
@@ -8686,7 +9401,7 @@ void U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator_U
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-void U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1239(CustomAttributesCache* cache)
+void U3CDisablePanelDeleyedU3Ec__Iterator1_t283_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1249(CustomAttributesCache* cache)
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
@@ -8696,7 +9411,7 @@ void U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator_U
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-void U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241(CustomAttributesCache* cache)
+void U3CDisablePanelDeleyedU3Ec__Iterator1_t283_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1251(CustomAttributesCache* cache)
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
@@ -8706,7 +9421,7 @@ void U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator_U
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-void U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1242(CustomAttributesCache* cache)
+void U3CDisablePanelDeleyedU3Ec__Iterator1_t283_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1252(CustomAttributesCache* cache)
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
@@ -8716,70 +9431,70 @@ void U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator_U
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache = {
+CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache = {
 1,
 NULL,
-&U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator
+&U3CDisablePanelDeleyedU3Ec__Iterator1_t283_CustomAttributesCacheGenerator
 };
-CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1238 = {
+CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1248 = {
 1,
 NULL,
-&U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1238
+&U3CDisablePanelDeleyedU3Ec__Iterator1_t283_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1248
 };
-CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1239 = {
+CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1249 = {
 1,
 NULL,
-&U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1239
+&U3CDisablePanelDeleyedU3Ec__Iterator1_t283_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1249
 };
-CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241 = {
+CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1251 = {
 1,
 NULL,
-&U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241
+&U3CDisablePanelDeleyedU3Ec__Iterator1_t283_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1251
 };
-CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1242 = {
+CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1252 = {
 1,
 NULL,
-&U3CDisablePanelDeleyedU3Ec__Iterator1_t281_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1242
+&U3CDisablePanelDeleyedU3Ec__Iterator1_t283_CustomAttributesCacheGenerator_U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1252
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern Il2CppType U3CDisablePanelDeleyedU3Ec__Iterator1_t281_0_0_0;
-extern Il2CppType U3CDisablePanelDeleyedU3Ec__Iterator1_t281_1_0_0;
-extern TypeInfo PanelManager_t280_il2cpp_TypeInfo;
-extern Il2CppType PanelManager_t280_0_0_0;
-struct U3CDisablePanelDeleyedU3Ec__Iterator1_t281;
-extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache;
-extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1238;
-extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1239;
-extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241;
-extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1242;
-const Il2CppTypeDefinitionMetadata U3CDisablePanelDeleyedU3Ec__Iterator1_t281_DefinitionMetadata = 
+extern Il2CppType U3CDisablePanelDeleyedU3Ec__Iterator1_t283_0_0_0;
+extern Il2CppType U3CDisablePanelDeleyedU3Ec__Iterator1_t283_1_0_0;
+extern TypeInfo PanelManager_t282_il2cpp_TypeInfo;
+extern Il2CppType PanelManager_t282_0_0_0;
+struct U3CDisablePanelDeleyedU3Ec__Iterator1_t283;
+extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache;
+extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1248;
+extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1249;
+extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1251;
+extern CustomAttributesCache U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache_U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1252;
+const Il2CppTypeDefinitionMetadata U3CDisablePanelDeleyedU3Ec__Iterator1_t283_DefinitionMetadata = 
 {
-	&PanelManager_t280_0_0_0/* declaringType */
+	&PanelManager_t282_0_0_0/* declaringType */
 	, NULL/* nestedTypes */
-	, U3CDisablePanelDeleyedU3Ec__Iterator1_t281_InterfacesTypeInfos/* implementedInterfaces */
-	, U3CDisablePanelDeleyedU3Ec__Iterator1_t281_InterfacesOffsets/* interfaceOffsets */
+	, U3CDisablePanelDeleyedU3Ec__Iterator1_t283_InterfacesTypeInfos/* implementedInterfaces */
+	, U3CDisablePanelDeleyedU3Ec__Iterator1_t283_InterfacesOffsets/* interfaceOffsets */
 	, &Object_t_0_0_0/* parent */
-	, U3CDisablePanelDeleyedU3Ec__Iterator1_t281_VTable/* vtableMethods */
-	, U3CDisablePanelDeleyedU3Ec__Iterator1_t281_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, U3CDisablePanelDeleyedU3Ec__Iterator1_t283_VTable/* vtableMethods */
+	, U3CDisablePanelDeleyedU3Ec__Iterator1_t283_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 
 };
-TypeInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo = 
+TypeInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "<DisablePanelDeleyed>c__Iterator1"/* name */
 	, ""/* namespaze */
-	, U3CDisablePanelDeleyedU3Ec__Iterator1_t281_MethodInfos/* methods */
-	, U3CDisablePanelDeleyedU3Ec__Iterator1_t281_PropertyInfos/* properties */
-	, U3CDisablePanelDeleyedU3Ec__Iterator1_t281_FieldInfos/* fields */
+	, U3CDisablePanelDeleyedU3Ec__Iterator1_t283_MethodInfos/* methods */
+	, U3CDisablePanelDeleyedU3Ec__Iterator1_t283_PropertyInfos/* properties */
+	, U3CDisablePanelDeleyedU3Ec__Iterator1_t283_FieldInfos/* fields */
 	, NULL/* events */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo/* element_class */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281__CustomAttributeCache/* custom_attributes_cache */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_0_0_0/* byval_arg */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_1_0_0/* this_arg */
-	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t281_DefinitionMetadata/* definitionMetadata */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283__CustomAttributeCache/* custom_attributes_cache */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_0_0_0/* byval_arg */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_1_0_0/* this_arg */
+	, &U3CDisablePanelDeleyedU3Ec__Iterator1_t283_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -8790,8 +9505,8 @@ TypeInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (U3CDisablePanelDeleyedU3Ec__Iterator1_t281)/* instance_size */
-	, sizeof (U3CDisablePanelDeleyedU3Ec__Iterator1_t281)/* actualSize */
+	, sizeof (U3CDisablePanelDeleyedU3Ec__Iterator1_t283)/* instance_size */
+	, sizeof (U3CDisablePanelDeleyedU3Ec__Iterator1_t283)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -8828,11 +9543,11 @@ TypeInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void PanelManager::.ctor()
-MethodInfo PanelManager__ctor_m1243_MethodInfo = 
+MethodInfo PanelManager__ctor_m1253_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&PanelManager__ctor_m1243/* method */
-	, &PanelManager_t280_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&PanelManager__ctor_m1253/* method */
+	, &PanelManager_t282_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -8843,7 +9558,7 @@ MethodInfo PanelManager__ctor_m1243_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 132/* token */
+	, 142/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8852,11 +9567,11 @@ MethodInfo PanelManager__ctor_m1243_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void PanelManager::OnEnable()
-MethodInfo PanelManager_OnEnable_m1244_MethodInfo = 
+MethodInfo PanelManager_OnEnable_m1254_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&PanelManager_OnEnable_m1244/* method */
-	, &PanelManager_t280_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&PanelManager_OnEnable_m1254/* method */
+	, &PanelManager_t282_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -8867,7 +9582,7 @@ MethodInfo PanelManager_OnEnable_m1244_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 133/* token */
+	, 143/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8875,21 +9590,21 @@ MethodInfo PanelManager_OnEnable_m1244_MethodInfo =
 };
 extern Il2CppType Animator_t42_0_0_0;
 extern Il2CppType Animator_t42_0_0_0;
-static ParameterInfo PanelManager_t280_PanelManager_OpenPanel_m1245_ParameterInfos[] = 
+static ParameterInfo PanelManager_t282_PanelManager_OpenPanel_m1255_ParameterInfos[] = 
 {
-	{"anim", 0, 134217788, &EmptyCustomAttributesCache, &Animator_t42_0_0_0},
+	{"anim", 0, 134217793, &EmptyCustomAttributesCache, &Animator_t42_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void PanelManager::OpenPanel(UnityEngine.Animator)
-MethodInfo PanelManager_OpenPanel_m1245_MethodInfo = 
+MethodInfo PanelManager_OpenPanel_m1255_MethodInfo = 
 {
 	"OpenPanel"/* name */
-	, (methodPointerType)&PanelManager_OpenPanel_m1245/* method */
-	, &PanelManager_t280_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&PanelManager_OpenPanel_m1255/* method */
+	, &PanelManager_t282_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, PanelManager_t280_PanelManager_OpenPanel_m1245_ParameterInfos/* parameters */
+	, PanelManager_t282_PanelManager_OpenPanel_m1255_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -8897,28 +9612,28 @@ MethodInfo PanelManager_OpenPanel_m1245_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 134/* token */
+	, 144/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType GameObject_t92_0_0_0;
-static ParameterInfo PanelManager_t280_PanelManager_FindFirstEnabledSelectable_m1246_ParameterInfos[] = 
+static ParameterInfo PanelManager_t282_PanelManager_FindFirstEnabledSelectable_m1256_ParameterInfos[] = 
 {
-	{"gameObject", 0, 134217789, &EmptyCustomAttributesCache, &GameObject_t92_0_0_0},
+	{"gameObject", 0, 134217794, &EmptyCustomAttributesCache, &GameObject_t92_0_0_0},
 };
 extern Il2CppType GameObject_t92_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (MethodInfo* method, void* obj, void** args);
 // UnityEngine.GameObject PanelManager::FindFirstEnabledSelectable(UnityEngine.GameObject)
-MethodInfo PanelManager_FindFirstEnabledSelectable_m1246_MethodInfo = 
+MethodInfo PanelManager_FindFirstEnabledSelectable_m1256_MethodInfo = 
 {
 	"FindFirstEnabledSelectable"/* name */
-	, (methodPointerType)&PanelManager_FindFirstEnabledSelectable_m1246/* method */
-	, &PanelManager_t280_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&PanelManager_FindFirstEnabledSelectable_m1256/* method */
+	, &PanelManager_t282_il2cpp_TypeInfo/* declaring_type */
 	, &GameObject_t92_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, PanelManager_t280_PanelManager_FindFirstEnabledSelectable_m1246_ParameterInfos/* parameters */
+	, PanelManager_t282_PanelManager_FindFirstEnabledSelectable_m1256_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 145/* flags */
 	, 0/* iflags */
@@ -8926,7 +9641,7 @@ MethodInfo PanelManager_FindFirstEnabledSelectable_m1246_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 135/* token */
+	, 145/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -8935,11 +9650,11 @@ MethodInfo PanelManager_FindFirstEnabledSelectable_m1246_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void PanelManager::CloseCurrent()
-MethodInfo PanelManager_CloseCurrent_m1247_MethodInfo = 
+MethodInfo PanelManager_CloseCurrent_m1257_MethodInfo = 
 {
 	"CloseCurrent"/* name */
-	, (methodPointerType)&PanelManager_CloseCurrent_m1247/* method */
-	, &PanelManager_t280_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&PanelManager_CloseCurrent_m1257/* method */
+	, &PanelManager_t282_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -8950,58 +9665,58 @@ MethodInfo PanelManager_CloseCurrent_m1247_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 136/* token */
+	, 146/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType Animator_t42_0_0_0;
-static ParameterInfo PanelManager_t280_PanelManager_DisablePanelDeleyed_m1248_ParameterInfos[] = 
+static ParameterInfo PanelManager_t282_PanelManager_DisablePanelDeleyed_m1258_ParameterInfos[] = 
 {
-	{"anim", 0, 134217790, &EmptyCustomAttributesCache, &Animator_t42_0_0_0},
+	{"anim", 0, 134217795, &EmptyCustomAttributesCache, &Animator_t42_0_0_0},
 };
 extern Il2CppType IEnumerator_t106_0_0_0;
 extern void* RuntimeInvoker_Object_t_Object_t (MethodInfo* method, void* obj, void** args);
-extern CustomAttributesCache PanelManager_t280__CustomAttributeCache_PanelManager_DisablePanelDeleyed_m1248;
+extern CustomAttributesCache PanelManager_t282__CustomAttributeCache_PanelManager_DisablePanelDeleyed_m1258;
 // System.Collections.IEnumerator PanelManager::DisablePanelDeleyed(UnityEngine.Animator)
-MethodInfo PanelManager_DisablePanelDeleyed_m1248_MethodInfo = 
+MethodInfo PanelManager_DisablePanelDeleyed_m1258_MethodInfo = 
 {
 	"DisablePanelDeleyed"/* name */
-	, (methodPointerType)&PanelManager_DisablePanelDeleyed_m1248/* method */
-	, &PanelManager_t280_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&PanelManager_DisablePanelDeleyed_m1258/* method */
+	, &PanelManager_t282_il2cpp_TypeInfo/* declaring_type */
 	, &IEnumerator_t106_0_0_0/* return_type */
 	, RuntimeInvoker_Object_t_Object_t/* invoker_method */
-	, PanelManager_t280_PanelManager_DisablePanelDeleyed_m1248_ParameterInfos/* parameters */
-	, &PanelManager_t280__CustomAttributeCache_PanelManager_DisablePanelDeleyed_m1248/* custom_attributes_cache */
+	, PanelManager_t282_PanelManager_DisablePanelDeleyed_m1258_ParameterInfos/* parameters */
+	, &PanelManager_t282__CustomAttributeCache_PanelManager_DisablePanelDeleyed_m1258/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
 	, 255/* slot */
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 137/* token */
+	, 147/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType GameObject_t92_0_0_0;
-static ParameterInfo PanelManager_t280_PanelManager_SetSelected_m1249_ParameterInfos[] = 
+static ParameterInfo PanelManager_t282_PanelManager_SetSelected_m1259_ParameterInfos[] = 
 {
-	{"go", 0, 134217791, &EmptyCustomAttributesCache, &GameObject_t92_0_0_0},
+	{"go", 0, 134217796, &EmptyCustomAttributesCache, &GameObject_t92_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void PanelManager::SetSelected(UnityEngine.GameObject)
-MethodInfo PanelManager_SetSelected_m1249_MethodInfo = 
+MethodInfo PanelManager_SetSelected_m1259_MethodInfo = 
 {
 	"SetSelected"/* name */
-	, (methodPointerType)&PanelManager_SetSelected_m1249/* method */
-	, &PanelManager_t280_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&PanelManager_SetSelected_m1259/* method */
+	, &PanelManager_t282_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, PanelManager_t280_PanelManager_SetSelected_m1249_ParameterInfos/* parameters */
+	, PanelManager_t282_PanelManager_SetSelected_m1259_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 129/* flags */
 	, 0/* iflags */
@@ -9009,132 +9724,132 @@ MethodInfo PanelManager_SetSelected_m1249_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 138/* token */
+	, 148/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static MethodInfo* PanelManager_t280_MethodInfos[] =
+static MethodInfo* PanelManager_t282_MethodInfos[] =
 {
-	&PanelManager__ctor_m1243_MethodInfo,
-	&PanelManager_OnEnable_m1244_MethodInfo,
-	&PanelManager_OpenPanel_m1245_MethodInfo,
-	&PanelManager_FindFirstEnabledSelectable_m1246_MethodInfo,
-	&PanelManager_CloseCurrent_m1247_MethodInfo,
-	&PanelManager_DisablePanelDeleyed_m1248_MethodInfo,
-	&PanelManager_SetSelected_m1249_MethodInfo,
+	&PanelManager__ctor_m1253_MethodInfo,
+	&PanelManager_OnEnable_m1254_MethodInfo,
+	&PanelManager_OpenPanel_m1255_MethodInfo,
+	&PanelManager_FindFirstEnabledSelectable_m1256_MethodInfo,
+	&PanelManager_CloseCurrent_m1257_MethodInfo,
+	&PanelManager_DisablePanelDeleyed_m1258_MethodInfo,
+	&PanelManager_SetSelected_m1259_MethodInfo,
 	NULL
 };
 extern Il2CppType String_t_0_0_32849;
-FieldInfo PanelManager_t280____k_OpenTransitionName_2_FieldInfo = 
+FieldInfo PanelManager_t282____k_OpenTransitionName_2_FieldInfo = 
 {
 	"k_OpenTransitionName"/* name */
 	, &String_t_0_0_32849/* type */
-	, &PanelManager_t280_il2cpp_TypeInfo/* parent */
+	, &PanelManager_t282_il2cpp_TypeInfo/* parent */
 	, 0 /*field is const -> no data*//* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType String_t_0_0_32849;
-FieldInfo PanelManager_t280____k_ClosedStateName_3_FieldInfo = 
+FieldInfo PanelManager_t282____k_ClosedStateName_3_FieldInfo = 
 {
 	"k_ClosedStateName"/* name */
 	, &String_t_0_0_32849/* type */
-	, &PanelManager_t280_il2cpp_TypeInfo/* parent */
+	, &PanelManager_t282_il2cpp_TypeInfo/* parent */
 	, 0 /*field is const -> no data*//* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Animator_t42_0_0_6;
-FieldInfo PanelManager_t280____initiallyOpen_4_FieldInfo = 
+FieldInfo PanelManager_t282____initiallyOpen_4_FieldInfo = 
 {
 	"initiallyOpen"/* name */
 	, &Animator_t42_0_0_6/* type */
-	, &PanelManager_t280_il2cpp_TypeInfo/* parent */
-	, offsetof(PanelManager_t280, ___initiallyOpen_4)/* offset */
+	, &PanelManager_t282_il2cpp_TypeInfo/* parent */
+	, offsetof(PanelManager_t282, ___initiallyOpen_4)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Int32_t188_0_0_1;
-FieldInfo PanelManager_t280____m_OpenParameterId_5_FieldInfo = 
+FieldInfo PanelManager_t282____m_OpenParameterId_5_FieldInfo = 
 {
 	"m_OpenParameterId"/* name */
 	, &Int32_t188_0_0_1/* type */
-	, &PanelManager_t280_il2cpp_TypeInfo/* parent */
-	, offsetof(PanelManager_t280, ___m_OpenParameterId_5)/* offset */
+	, &PanelManager_t282_il2cpp_TypeInfo/* parent */
+	, offsetof(PanelManager_t282, ___m_OpenParameterId_5)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Animator_t42_0_0_1;
-FieldInfo PanelManager_t280____m_Open_6_FieldInfo = 
+FieldInfo PanelManager_t282____m_Open_6_FieldInfo = 
 {
 	"m_Open"/* name */
 	, &Animator_t42_0_0_1/* type */
-	, &PanelManager_t280_il2cpp_TypeInfo/* parent */
-	, offsetof(PanelManager_t280, ___m_Open_6)/* offset */
+	, &PanelManager_t282_il2cpp_TypeInfo/* parent */
+	, offsetof(PanelManager_t282, ___m_Open_6)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType GameObject_t92_0_0_1;
-FieldInfo PanelManager_t280____m_PreviouslySelected_7_FieldInfo = 
+FieldInfo PanelManager_t282____m_PreviouslySelected_7_FieldInfo = 
 {
 	"m_PreviouslySelected"/* name */
 	, &GameObject_t92_0_0_1/* type */
-	, &PanelManager_t280_il2cpp_TypeInfo/* parent */
-	, offsetof(PanelManager_t280, ___m_PreviouslySelected_7)/* offset */
+	, &PanelManager_t282_il2cpp_TypeInfo/* parent */
+	, offsetof(PanelManager_t282, ___m_PreviouslySelected_7)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-static FieldInfo* PanelManager_t280_FieldInfos[] =
+static FieldInfo* PanelManager_t282_FieldInfos[] =
 {
-	&PanelManager_t280____k_OpenTransitionName_2_FieldInfo,
-	&PanelManager_t280____k_ClosedStateName_3_FieldInfo,
-	&PanelManager_t280____initiallyOpen_4_FieldInfo,
-	&PanelManager_t280____m_OpenParameterId_5_FieldInfo,
-	&PanelManager_t280____m_Open_6_FieldInfo,
-	&PanelManager_t280____m_PreviouslySelected_7_FieldInfo,
+	&PanelManager_t282____k_OpenTransitionName_2_FieldInfo,
+	&PanelManager_t282____k_ClosedStateName_3_FieldInfo,
+	&PanelManager_t282____initiallyOpen_4_FieldInfo,
+	&PanelManager_t282____m_OpenParameterId_5_FieldInfo,
+	&PanelManager_t282____m_Open_6_FieldInfo,
+	&PanelManager_t282____m_PreviouslySelected_7_FieldInfo,
 	NULL
 };
-static const uint16_t PanelManager_t280____k_OpenTransitionName_2_DefaultValueData[] = { 0x4F, 0x70, 0x65, 0x6E, 0x00 };
-static Il2CppFieldDefaultValueEntry PanelManager_t280____k_OpenTransitionName_2_DefaultValue = 
+static const uint16_t PanelManager_t282____k_OpenTransitionName_2_DefaultValueData[] = { 0x4F, 0x70, 0x65, 0x6E, 0x00 };
+static Il2CppFieldDefaultValueEntry PanelManager_t282____k_OpenTransitionName_2_DefaultValue = 
 {
-	&PanelManager_t280____k_OpenTransitionName_2_FieldInfo/* field */
-	, { (char*)&PanelManager_t280____k_OpenTransitionName_2_DefaultValueData, &String_t_0_0_0 }/* value */
+	&PanelManager_t282____k_OpenTransitionName_2_FieldInfo/* field */
+	, { (char*)&PanelManager_t282____k_OpenTransitionName_2_DefaultValueData, &String_t_0_0_0 }/* value */
 
 };
-static const uint16_t PanelManager_t280____k_ClosedStateName_3_DefaultValueData[] = { 0x43, 0x6C, 0x6F, 0x73, 0x65, 0x64, 0x00 };
-static Il2CppFieldDefaultValueEntry PanelManager_t280____k_ClosedStateName_3_DefaultValue = 
+static const uint16_t PanelManager_t282____k_ClosedStateName_3_DefaultValueData[] = { 0x43, 0x6C, 0x6F, 0x73, 0x65, 0x64, 0x00 };
+static Il2CppFieldDefaultValueEntry PanelManager_t282____k_ClosedStateName_3_DefaultValue = 
 {
-	&PanelManager_t280____k_ClosedStateName_3_FieldInfo/* field */
-	, { (char*)&PanelManager_t280____k_ClosedStateName_3_DefaultValueData, &String_t_0_0_0 }/* value */
+	&PanelManager_t282____k_ClosedStateName_3_FieldInfo/* field */
+	, { (char*)&PanelManager_t282____k_ClosedStateName_3_DefaultValueData, &String_t_0_0_0 }/* value */
 
 };
-static Il2CppFieldDefaultValueEntry* PanelManager_t280_FieldDefaultValues[] = 
+static Il2CppFieldDefaultValueEntry* PanelManager_t282_FieldDefaultValues[] = 
 {
-	&PanelManager_t280____k_OpenTransitionName_2_DefaultValue,
-	&PanelManager_t280____k_ClosedStateName_3_DefaultValue,
+	&PanelManager_t282____k_OpenTransitionName_2_DefaultValue,
+	&PanelManager_t282____k_ClosedStateName_3_DefaultValue,
 	NULL
 };
-static const Il2CppType* PanelManager_t280_il2cpp_TypeInfo__nestedTypes[1] =
+static const Il2CppType* PanelManager_t282_il2cpp_TypeInfo__nestedTypes[1] =
 {
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_t281_0_0_0,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_t283_0_0_0,
 };
-static Il2CppMethodReference PanelManager_t280_VTable[] =
+static Il2CppMethodReference PanelManager_t282_VTable[] =
 {
 	&Object_Equals_m1090_MethodInfo,
 	&Object_Finalize_m1068_MethodInfo,
 	&Object_GetHashCode_m1091_MethodInfo,
 	&Object_ToString_m1092_MethodInfo,
 };
-static bool PanelManager_t280_VTableIsGenericMethod[] =
+static bool PanelManager_t282_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-void PanelManager_t280_CustomAttributesCacheGenerator_PanelManager_DisablePanelDeleyed_m1248(CustomAttributesCache* cache)
+void PanelManager_t282_CustomAttributesCacheGenerator_PanelManager_DisablePanelDeleyed_m1258(CustomAttributesCache* cache)
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
@@ -9144,55 +9859,55 @@ void PanelManager_t280_CustomAttributesCacheGenerator_PanelManager_DisablePanelD
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-CustomAttributesCache PanelManager_t280__CustomAttributeCache_PanelManager_DisablePanelDeleyed_m1248 = {
+CustomAttributesCache PanelManager_t282__CustomAttributeCache_PanelManager_DisablePanelDeleyed_m1258 = {
 1,
 NULL,
-&PanelManager_t280_CustomAttributesCacheGenerator_PanelManager_DisablePanelDeleyed_m1248
+&PanelManager_t282_CustomAttributesCacheGenerator_PanelManager_DisablePanelDeleyed_m1258
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern Il2CppType PanelManager_t280_1_0_0;
-struct PanelManager_t280;
-extern CustomAttributesCache PanelManager_t280__CustomAttributeCache_PanelManager_DisablePanelDeleyed_m1248;
-const Il2CppTypeDefinitionMetadata PanelManager_t280_DefinitionMetadata = 
+extern Il2CppType PanelManager_t282_1_0_0;
+struct PanelManager_t282;
+extern CustomAttributesCache PanelManager_t282__CustomAttributeCache_PanelManager_DisablePanelDeleyed_m1258;
+const Il2CppTypeDefinitionMetadata PanelManager_t282_DefinitionMetadata = 
 {
 	NULL/* declaringType */
-	, PanelManager_t280_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
+	, PanelManager_t282_il2cpp_TypeInfo__nestedTypes/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &MonoBehaviour_t5_0_0_0/* parent */
-	, PanelManager_t280_VTable/* vtableMethods */
-	, PanelManager_t280_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, PanelManager_t282_VTable/* vtableMethods */
+	, PanelManager_t282_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 
 };
-TypeInfo PanelManager_t280_il2cpp_TypeInfo = 
+TypeInfo PanelManager_t282_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "PanelManager"/* name */
 	, ""/* namespaze */
-	, PanelManager_t280_MethodInfos/* methods */
+	, PanelManager_t282_MethodInfos/* methods */
 	, NULL/* properties */
-	, PanelManager_t280_FieldInfos/* fields */
+	, PanelManager_t282_FieldInfos/* fields */
 	, NULL/* events */
-	, &PanelManager_t280_il2cpp_TypeInfo/* element_class */
+	, &PanelManager_t282_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
-	, &PanelManager_t280_0_0_0/* byval_arg */
-	, &PanelManager_t280_1_0_0/* this_arg */
-	, &PanelManager_t280_DefinitionMetadata/* definitionMetadata */
+	, &PanelManager_t282_0_0_0/* byval_arg */
+	, &PanelManager_t282_1_0_0/* this_arg */
+	, &PanelManager_t282_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
-	, PanelManager_t280_FieldDefaultValues/* field_def_values */
+	, PanelManager_t282_FieldDefaultValues/* field_def_values */
 	, NULL/* static_fields */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* pinvoke_delegate_wrapper */
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (PanelManager_t280)/* instance_size */
-	, sizeof (PanelManager_t280)/* actualSize */
+	, sizeof (PanelManager_t282)/* instance_size */
+	, sizeof (PanelManager_t282)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9224,17 +9939,17 @@ TypeInfo PanelManager_t280_il2cpp_TypeInfo =
 // ResizePanel
 #include "AssemblyU2DCSharp_ResizePanel.h"
 // Metadata Definition ResizePanel
-extern TypeInfo ResizePanel_t282_il2cpp_TypeInfo;
+extern TypeInfo ResizePanel_t284_il2cpp_TypeInfo;
 // ResizePanel
 #include "AssemblyU2DCSharp_ResizePanelMethodDeclarations.h"
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void ResizePanel::.ctor()
-MethodInfo ResizePanel__ctor_m1250_MethodInfo = 
+MethodInfo ResizePanel__ctor_m1260_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ResizePanel__ctor_m1250/* method */
-	, &ResizePanel_t282_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ResizePanel__ctor_m1260/* method */
+	, &ResizePanel_t284_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -9245,7 +9960,7 @@ MethodInfo ResizePanel__ctor_m1250_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 145/* token */
+	, 155/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -9254,11 +9969,11 @@ MethodInfo ResizePanel__ctor_m1250_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void ResizePanel::Awake()
-MethodInfo ResizePanel_Awake_m1251_MethodInfo = 
+MethodInfo ResizePanel_Awake_m1261_MethodInfo = 
 {
 	"Awake"/* name */
-	, (methodPointerType)&ResizePanel_Awake_m1251/* method */
-	, &ResizePanel_t282_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ResizePanel_Awake_m1261/* method */
+	, &ResizePanel_t284_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -9269,28 +9984,28 @@ MethodInfo ResizePanel_Awake_m1251_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 146/* token */
+	, 156/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType PointerEventData_t46_0_0_0;
-static ParameterInfo ResizePanel_t282_ResizePanel_OnPointerDown_m1252_ParameterInfos[] = 
+static ParameterInfo ResizePanel_t284_ResizePanel_OnPointerDown_m1262_ParameterInfos[] = 
 {
-	{"data", 0, 134217792, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+	{"data", 0, 134217797, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void ResizePanel::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
-MethodInfo ResizePanel_OnPointerDown_m1252_MethodInfo = 
+MethodInfo ResizePanel_OnPointerDown_m1262_MethodInfo = 
 {
 	"OnPointerDown"/* name */
-	, (methodPointerType)&ResizePanel_OnPointerDown_m1252/* method */
-	, &ResizePanel_t282_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ResizePanel_OnPointerDown_m1262/* method */
+	, &ResizePanel_t284_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, ResizePanel_t282_ResizePanel_OnPointerDown_m1252_ParameterInfos/* parameters */
+	, ResizePanel_t284_ResizePanel_OnPointerDown_m1262_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -9298,28 +10013,28 @@ MethodInfo ResizePanel_OnPointerDown_m1252_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 147/* token */
+	, 157/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType PointerEventData_t46_0_0_0;
-static ParameterInfo ResizePanel_t282_ResizePanel_OnDrag_m1253_ParameterInfos[] = 
+static ParameterInfo ResizePanel_t284_ResizePanel_OnDrag_m1263_ParameterInfos[] = 
 {
-	{"data", 0, 134217793, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
+	{"data", 0, 134217798, &EmptyCustomAttributesCache, &PointerEventData_t46_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Object_t (MethodInfo* method, void* obj, void** args);
 // System.Void ResizePanel::OnDrag(UnityEngine.EventSystems.PointerEventData)
-MethodInfo ResizePanel_OnDrag_m1253_MethodInfo = 
+MethodInfo ResizePanel_OnDrag_m1263_MethodInfo = 
 {
 	"OnDrag"/* name */
-	, (methodPointerType)&ResizePanel_OnDrag_m1253/* method */
-	, &ResizePanel_t282_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ResizePanel_OnDrag_m1263/* method */
+	, &ResizePanel_t284_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Object_t/* invoker_method */
-	, ResizePanel_t282_ResizePanel_OnDrag_m1253_ParameterInfos/* parameters */
+	, ResizePanel_t284_ResizePanel_OnDrag_m1263_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 486/* flags */
 	, 0/* iflags */
@@ -9327,91 +10042,91 @@ MethodInfo ResizePanel_OnDrag_m1253_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 148/* token */
+	, 158/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static MethodInfo* ResizePanel_t282_MethodInfos[] =
+static MethodInfo* ResizePanel_t284_MethodInfos[] =
 {
-	&ResizePanel__ctor_m1250_MethodInfo,
-	&ResizePanel_Awake_m1251_MethodInfo,
-	&ResizePanel_OnPointerDown_m1252_MethodInfo,
-	&ResizePanel_OnDrag_m1253_MethodInfo,
+	&ResizePanel__ctor_m1260_MethodInfo,
+	&ResizePanel_Awake_m1261_MethodInfo,
+	&ResizePanel_OnPointerDown_m1262_MethodInfo,
+	&ResizePanel_OnDrag_m1263_MethodInfo,
 	NULL
 };
 extern Il2CppType Vector2_t13_0_0_6;
-FieldInfo ResizePanel_t282____minSize_2_FieldInfo = 
+FieldInfo ResizePanel_t284____minSize_2_FieldInfo = 
 {
 	"minSize"/* name */
 	, &Vector2_t13_0_0_6/* type */
-	, &ResizePanel_t282_il2cpp_TypeInfo/* parent */
-	, offsetof(ResizePanel_t282, ___minSize_2)/* offset */
+	, &ResizePanel_t284_il2cpp_TypeInfo/* parent */
+	, offsetof(ResizePanel_t284, ___minSize_2)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Vector2_t13_0_0_6;
-FieldInfo ResizePanel_t282____maxSize_3_FieldInfo = 
+FieldInfo ResizePanel_t284____maxSize_3_FieldInfo = 
 {
 	"maxSize"/* name */
 	, &Vector2_t13_0_0_6/* type */
-	, &ResizePanel_t282_il2cpp_TypeInfo/* parent */
-	, offsetof(ResizePanel_t282, ___maxSize_3)/* offset */
+	, &ResizePanel_t284_il2cpp_TypeInfo/* parent */
+	, offsetof(ResizePanel_t284, ___maxSize_3)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-extern Il2CppType RectTransform_t275_0_0_1;
-FieldInfo ResizePanel_t282____panelRectTransform_4_FieldInfo = 
+extern Il2CppType RectTransform_t277_0_0_1;
+FieldInfo ResizePanel_t284____panelRectTransform_4_FieldInfo = 
 {
 	"panelRectTransform"/* name */
-	, &RectTransform_t275_0_0_1/* type */
-	, &ResizePanel_t282_il2cpp_TypeInfo/* parent */
-	, offsetof(ResizePanel_t282, ___panelRectTransform_4)/* offset */
+	, &RectTransform_t277_0_0_1/* type */
+	, &ResizePanel_t284_il2cpp_TypeInfo/* parent */
+	, offsetof(ResizePanel_t284, ___panelRectTransform_4)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Vector2_t13_0_0_1;
-FieldInfo ResizePanel_t282____originalLocalPointerPosition_5_FieldInfo = 
+FieldInfo ResizePanel_t284____originalLocalPointerPosition_5_FieldInfo = 
 {
 	"originalLocalPointerPosition"/* name */
 	, &Vector2_t13_0_0_1/* type */
-	, &ResizePanel_t282_il2cpp_TypeInfo/* parent */
-	, offsetof(ResizePanel_t282, ___originalLocalPointerPosition_5)/* offset */
+	, &ResizePanel_t284_il2cpp_TypeInfo/* parent */
+	, offsetof(ResizePanel_t284, ___originalLocalPointerPosition_5)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Vector2_t13_0_0_1;
-FieldInfo ResizePanel_t282____originalSizeDelta_6_FieldInfo = 
+FieldInfo ResizePanel_t284____originalSizeDelta_6_FieldInfo = 
 {
 	"originalSizeDelta"/* name */
 	, &Vector2_t13_0_0_1/* type */
-	, &ResizePanel_t282_il2cpp_TypeInfo/* parent */
-	, offsetof(ResizePanel_t282, ___originalSizeDelta_6)/* offset */
+	, &ResizePanel_t284_il2cpp_TypeInfo/* parent */
+	, offsetof(ResizePanel_t284, ___originalSizeDelta_6)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-static FieldInfo* ResizePanel_t282_FieldInfos[] =
+static FieldInfo* ResizePanel_t284_FieldInfos[] =
 {
-	&ResizePanel_t282____minSize_2_FieldInfo,
-	&ResizePanel_t282____maxSize_3_FieldInfo,
-	&ResizePanel_t282____panelRectTransform_4_FieldInfo,
-	&ResizePanel_t282____originalLocalPointerPosition_5_FieldInfo,
-	&ResizePanel_t282____originalSizeDelta_6_FieldInfo,
+	&ResizePanel_t284____minSize_2_FieldInfo,
+	&ResizePanel_t284____maxSize_3_FieldInfo,
+	&ResizePanel_t284____panelRectTransform_4_FieldInfo,
+	&ResizePanel_t284____originalLocalPointerPosition_5_FieldInfo,
+	&ResizePanel_t284____originalSizeDelta_6_FieldInfo,
 	NULL
 };
-extern MethodInfo ResizePanel_OnPointerDown_m1252_MethodInfo;
-extern MethodInfo ResizePanel_OnDrag_m1253_MethodInfo;
-static Il2CppMethodReference ResizePanel_t282_VTable[] =
+extern MethodInfo ResizePanel_OnPointerDown_m1262_MethodInfo;
+extern MethodInfo ResizePanel_OnDrag_m1263_MethodInfo;
+static Il2CppMethodReference ResizePanel_t284_VTable[] =
 {
 	&Object_Equals_m1090_MethodInfo,
 	&Object_Finalize_m1068_MethodInfo,
 	&Object_GetHashCode_m1091_MethodInfo,
 	&Object_ToString_m1092_MethodInfo,
-	&ResizePanel_OnPointerDown_m1252_MethodInfo,
-	&ResizePanel_OnDrag_m1253_MethodInfo,
+	&ResizePanel_OnPointerDown_m1262_MethodInfo,
+	&ResizePanel_OnDrag_m1263_MethodInfo,
 };
-static bool ResizePanel_t282_VTableIsGenericMethod[] =
+static bool ResizePanel_t284_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -9420,50 +10135,50 @@ static bool ResizePanel_t282_VTableIsGenericMethod[] =
 	false,
 	false,
 };
-static const Il2CppType* ResizePanel_t282_InterfacesTypeInfos[] = 
+static const Il2CppType* ResizePanel_t284_InterfacesTypeInfos[] = 
 {
 	&IPointerDownHandler_t239_0_0_0,
 	&IEventSystemHandler_t240_0_0_0,
 	&IDragHandler_t242_0_0_0,
 };
-static Il2CppInterfaceOffsetPair ResizePanel_t282_InterfacesOffsets[] = 
+static Il2CppInterfaceOffsetPair ResizePanel_t284_InterfacesOffsets[] = 
 {
 	{ &IPointerDownHandler_t239_0_0_0, 4},
 	{ &IEventSystemHandler_t240_0_0_0, 5},
 	{ &IDragHandler_t242_0_0_0, 5},
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern Il2CppType ResizePanel_t282_0_0_0;
-extern Il2CppType ResizePanel_t282_1_0_0;
-struct ResizePanel_t282;
-const Il2CppTypeDefinitionMetadata ResizePanel_t282_DefinitionMetadata = 
+extern Il2CppType ResizePanel_t284_0_0_0;
+extern Il2CppType ResizePanel_t284_1_0_0;
+struct ResizePanel_t284;
+const Il2CppTypeDefinitionMetadata ResizePanel_t284_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
-	, ResizePanel_t282_InterfacesTypeInfos/* implementedInterfaces */
-	, ResizePanel_t282_InterfacesOffsets/* interfaceOffsets */
+	, ResizePanel_t284_InterfacesTypeInfos/* implementedInterfaces */
+	, ResizePanel_t284_InterfacesOffsets/* interfaceOffsets */
 	, &MonoBehaviour_t5_0_0_0/* parent */
-	, ResizePanel_t282_VTable/* vtableMethods */
-	, ResizePanel_t282_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ResizePanel_t284_VTable/* vtableMethods */
+	, ResizePanel_t284_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 
 };
-TypeInfo ResizePanel_t282_il2cpp_TypeInfo = 
+TypeInfo ResizePanel_t284_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ResizePanel"/* name */
 	, ""/* namespaze */
-	, ResizePanel_t282_MethodInfos/* methods */
+	, ResizePanel_t284_MethodInfos/* methods */
 	, NULL/* properties */
-	, ResizePanel_t282_FieldInfos/* fields */
+	, ResizePanel_t284_FieldInfos/* fields */
 	, NULL/* events */
-	, &ResizePanel_t282_il2cpp_TypeInfo/* element_class */
+	, &ResizePanel_t284_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
-	, &ResizePanel_t282_0_0_0/* byval_arg */
-	, &ResizePanel_t282_1_0_0/* this_arg */
-	, &ResizePanel_t282_DefinitionMetadata/* definitionMetadata */
+	, &ResizePanel_t284_0_0_0/* byval_arg */
+	, &ResizePanel_t284_1_0_0/* this_arg */
+	, &ResizePanel_t284_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -9474,8 +10189,8 @@ TypeInfo ResizePanel_t282_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ResizePanel_t282)/* instance_size */
-	, sizeof (ResizePanel_t282)/* actualSize */
+	, sizeof (ResizePanel_t284)/* instance_size */
+	, sizeof (ResizePanel_t284)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9507,17 +10222,17 @@ TypeInfo ResizePanel_t282_il2cpp_TypeInfo =
 // ScrollDetailTexture
 #include "AssemblyU2DCSharp_ScrollDetailTexture.h"
 // Metadata Definition ScrollDetailTexture
-extern TypeInfo ScrollDetailTexture_t283_il2cpp_TypeInfo;
+extern TypeInfo ScrollDetailTexture_t285_il2cpp_TypeInfo;
 // ScrollDetailTexture
 #include "AssemblyU2DCSharp_ScrollDetailTextureMethodDeclarations.h"
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void ScrollDetailTexture::.ctor()
-MethodInfo ScrollDetailTexture__ctor_m1254_MethodInfo = 
+MethodInfo ScrollDetailTexture__ctor_m1264_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ScrollDetailTexture__ctor_m1254/* method */
-	, &ScrollDetailTexture_t283_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ScrollDetailTexture__ctor_m1264/* method */
+	, &ScrollDetailTexture_t285_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -9528,7 +10243,7 @@ MethodInfo ScrollDetailTexture__ctor_m1254_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 149/* token */
+	, 159/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -9537,11 +10252,11 @@ MethodInfo ScrollDetailTexture__ctor_m1254_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void ScrollDetailTexture::OnEnable()
-MethodInfo ScrollDetailTexture_OnEnable_m1255_MethodInfo = 
+MethodInfo ScrollDetailTexture_OnEnable_m1265_MethodInfo = 
 {
 	"OnEnable"/* name */
-	, (methodPointerType)&ScrollDetailTexture_OnEnable_m1255/* method */
-	, &ScrollDetailTexture_t283_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ScrollDetailTexture_OnEnable_m1265/* method */
+	, &ScrollDetailTexture_t285_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -9552,7 +10267,7 @@ MethodInfo ScrollDetailTexture_OnEnable_m1255_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 150/* token */
+	, 160/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -9561,11 +10276,11 @@ MethodInfo ScrollDetailTexture_OnEnable_m1255_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void ScrollDetailTexture::OnDisable()
-MethodInfo ScrollDetailTexture_OnDisable_m1256_MethodInfo = 
+MethodInfo ScrollDetailTexture_OnDisable_m1266_MethodInfo = 
 {
 	"OnDisable"/* name */
-	, (methodPointerType)&ScrollDetailTexture_OnDisable_m1256/* method */
-	, &ScrollDetailTexture_t283_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ScrollDetailTexture_OnDisable_m1266/* method */
+	, &ScrollDetailTexture_t285_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -9576,7 +10291,7 @@ MethodInfo ScrollDetailTexture_OnDisable_m1256_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 151/* token */
+	, 161/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -9585,11 +10300,11 @@ MethodInfo ScrollDetailTexture_OnDisable_m1256_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void ScrollDetailTexture::Update()
-MethodInfo ScrollDetailTexture_Update_m1257_MethodInfo = 
+MethodInfo ScrollDetailTexture_Update_m1267_MethodInfo = 
 {
 	"Update"/* name */
-	, (methodPointerType)&ScrollDetailTexture_Update_m1257/* method */
-	, &ScrollDetailTexture_t283_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ScrollDetailTexture_Update_m1267/* method */
+	, &ScrollDetailTexture_t285_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -9600,116 +10315,116 @@ MethodInfo ScrollDetailTexture_Update_m1257_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 152/* token */
+	, 162/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static MethodInfo* ScrollDetailTexture_t283_MethodInfos[] =
+static MethodInfo* ScrollDetailTexture_t285_MethodInfos[] =
 {
-	&ScrollDetailTexture__ctor_m1254_MethodInfo,
-	&ScrollDetailTexture_OnEnable_m1255_MethodInfo,
-	&ScrollDetailTexture_OnDisable_m1256_MethodInfo,
-	&ScrollDetailTexture_Update_m1257_MethodInfo,
+	&ScrollDetailTexture__ctor_m1264_MethodInfo,
+	&ScrollDetailTexture_OnEnable_m1265_MethodInfo,
+	&ScrollDetailTexture_OnDisable_m1266_MethodInfo,
+	&ScrollDetailTexture_Update_m1267_MethodInfo,
 	NULL
 };
 extern Il2CppType Boolean_t202_0_0_6;
-FieldInfo ScrollDetailTexture_t283____uniqueMaterial_2_FieldInfo = 
+FieldInfo ScrollDetailTexture_t285____uniqueMaterial_2_FieldInfo = 
 {
 	"uniqueMaterial"/* name */
 	, &Boolean_t202_0_0_6/* type */
-	, &ScrollDetailTexture_t283_il2cpp_TypeInfo/* parent */
-	, offsetof(ScrollDetailTexture_t283, ___uniqueMaterial_2)/* offset */
+	, &ScrollDetailTexture_t285_il2cpp_TypeInfo/* parent */
+	, offsetof(ScrollDetailTexture_t285, ___uniqueMaterial_2)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Vector2_t13_0_0_6;
-FieldInfo ScrollDetailTexture_t283____scrollPerSecond_3_FieldInfo = 
+FieldInfo ScrollDetailTexture_t285____scrollPerSecond_3_FieldInfo = 
 {
 	"scrollPerSecond"/* name */
 	, &Vector2_t13_0_0_6/* type */
-	, &ScrollDetailTexture_t283_il2cpp_TypeInfo/* parent */
-	, offsetof(ScrollDetailTexture_t283, ___scrollPerSecond_3)/* offset */
+	, &ScrollDetailTexture_t285_il2cpp_TypeInfo/* parent */
+	, offsetof(ScrollDetailTexture_t285, ___scrollPerSecond_3)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Matrix4x4_t81_0_0_1;
-FieldInfo ScrollDetailTexture_t283____m_Matrix_4_FieldInfo = 
+FieldInfo ScrollDetailTexture_t285____m_Matrix_4_FieldInfo = 
 {
 	"m_Matrix"/* name */
 	, &Matrix4x4_t81_0_0_1/* type */
-	, &ScrollDetailTexture_t283_il2cpp_TypeInfo/* parent */
-	, offsetof(ScrollDetailTexture_t283, ___m_Matrix_4)/* offset */
+	, &ScrollDetailTexture_t285_il2cpp_TypeInfo/* parent */
+	, offsetof(ScrollDetailTexture_t285, ___m_Matrix_4)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Material_t75_0_0_1;
-FieldInfo ScrollDetailTexture_t283____mCopy_5_FieldInfo = 
+FieldInfo ScrollDetailTexture_t285____mCopy_5_FieldInfo = 
 {
 	"mCopy"/* name */
 	, &Material_t75_0_0_1/* type */
-	, &ScrollDetailTexture_t283_il2cpp_TypeInfo/* parent */
-	, offsetof(ScrollDetailTexture_t283, ___mCopy_5)/* offset */
+	, &ScrollDetailTexture_t285_il2cpp_TypeInfo/* parent */
+	, offsetof(ScrollDetailTexture_t285, ___mCopy_5)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Material_t75_0_0_1;
-FieldInfo ScrollDetailTexture_t283____mOriginal_6_FieldInfo = 
+FieldInfo ScrollDetailTexture_t285____mOriginal_6_FieldInfo = 
 {
 	"mOriginal"/* name */
 	, &Material_t75_0_0_1/* type */
-	, &ScrollDetailTexture_t283_il2cpp_TypeInfo/* parent */
-	, offsetof(ScrollDetailTexture_t283, ___mOriginal_6)/* offset */
+	, &ScrollDetailTexture_t285_il2cpp_TypeInfo/* parent */
+	, offsetof(ScrollDetailTexture_t285, ___mOriginal_6)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Image_t64_0_0_1;
-FieldInfo ScrollDetailTexture_t283____mSprite_7_FieldInfo = 
+FieldInfo ScrollDetailTexture_t285____mSprite_7_FieldInfo = 
 {
 	"mSprite"/* name */
 	, &Image_t64_0_0_1/* type */
-	, &ScrollDetailTexture_t283_il2cpp_TypeInfo/* parent */
-	, offsetof(ScrollDetailTexture_t283, ___mSprite_7)/* offset */
+	, &ScrollDetailTexture_t285_il2cpp_TypeInfo/* parent */
+	, offsetof(ScrollDetailTexture_t285, ___mSprite_7)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Material_t75_0_0_1;
-FieldInfo ScrollDetailTexture_t283____m_Mat_8_FieldInfo = 
+FieldInfo ScrollDetailTexture_t285____m_Mat_8_FieldInfo = 
 {
 	"m_Mat"/* name */
 	, &Material_t75_0_0_1/* type */
-	, &ScrollDetailTexture_t283_il2cpp_TypeInfo/* parent */
-	, offsetof(ScrollDetailTexture_t283, ___m_Mat_8)/* offset */
+	, &ScrollDetailTexture_t285_il2cpp_TypeInfo/* parent */
+	, offsetof(ScrollDetailTexture_t285, ___m_Mat_8)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-static FieldInfo* ScrollDetailTexture_t283_FieldInfos[] =
+static FieldInfo* ScrollDetailTexture_t285_FieldInfos[] =
 {
-	&ScrollDetailTexture_t283____uniqueMaterial_2_FieldInfo,
-	&ScrollDetailTexture_t283____scrollPerSecond_3_FieldInfo,
-	&ScrollDetailTexture_t283____m_Matrix_4_FieldInfo,
-	&ScrollDetailTexture_t283____mCopy_5_FieldInfo,
-	&ScrollDetailTexture_t283____mOriginal_6_FieldInfo,
-	&ScrollDetailTexture_t283____mSprite_7_FieldInfo,
-	&ScrollDetailTexture_t283____m_Mat_8_FieldInfo,
+	&ScrollDetailTexture_t285____uniqueMaterial_2_FieldInfo,
+	&ScrollDetailTexture_t285____scrollPerSecond_3_FieldInfo,
+	&ScrollDetailTexture_t285____m_Matrix_4_FieldInfo,
+	&ScrollDetailTexture_t285____mCopy_5_FieldInfo,
+	&ScrollDetailTexture_t285____mOriginal_6_FieldInfo,
+	&ScrollDetailTexture_t285____mSprite_7_FieldInfo,
+	&ScrollDetailTexture_t285____m_Mat_8_FieldInfo,
 	NULL
 };
-static Il2CppMethodReference ScrollDetailTexture_t283_VTable[] =
+static Il2CppMethodReference ScrollDetailTexture_t285_VTable[] =
 {
 	&Object_Equals_m1090_MethodInfo,
 	&Object_Finalize_m1068_MethodInfo,
 	&Object_GetHashCode_m1091_MethodInfo,
 	&Object_ToString_m1092_MethodInfo,
 };
-static bool ScrollDetailTexture_t283_VTableIsGenericMethod[] =
+static bool ScrollDetailTexture_t285_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-void ScrollDetailTexture_t283_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void ScrollDetailTexture_t285_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
@@ -9719,44 +10434,44 @@ void ScrollDetailTexture_t283_CustomAttributesCacheGenerator(CustomAttributesCac
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-CustomAttributesCache ScrollDetailTexture_t283__CustomAttributeCache = {
+CustomAttributesCache ScrollDetailTexture_t285__CustomAttributeCache = {
 1,
 NULL,
-&ScrollDetailTexture_t283_CustomAttributesCacheGenerator
+&ScrollDetailTexture_t285_CustomAttributesCacheGenerator
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern Il2CppType ScrollDetailTexture_t283_0_0_0;
-extern Il2CppType ScrollDetailTexture_t283_1_0_0;
-struct ScrollDetailTexture_t283;
-extern CustomAttributesCache ScrollDetailTexture_t283__CustomAttributeCache;
-const Il2CppTypeDefinitionMetadata ScrollDetailTexture_t283_DefinitionMetadata = 
+extern Il2CppType ScrollDetailTexture_t285_0_0_0;
+extern Il2CppType ScrollDetailTexture_t285_1_0_0;
+struct ScrollDetailTexture_t285;
+extern CustomAttributesCache ScrollDetailTexture_t285__CustomAttributeCache;
+const Il2CppTypeDefinitionMetadata ScrollDetailTexture_t285_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &MonoBehaviour_t5_0_0_0/* parent */
-	, ScrollDetailTexture_t283_VTable/* vtableMethods */
-	, ScrollDetailTexture_t283_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ScrollDetailTexture_t285_VTable/* vtableMethods */
+	, ScrollDetailTexture_t285_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 
 };
-TypeInfo ScrollDetailTexture_t283_il2cpp_TypeInfo = 
+TypeInfo ScrollDetailTexture_t285_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ScrollDetailTexture"/* name */
 	, ""/* namespaze */
-	, ScrollDetailTexture_t283_MethodInfos/* methods */
+	, ScrollDetailTexture_t285_MethodInfos/* methods */
 	, NULL/* properties */
-	, ScrollDetailTexture_t283_FieldInfos/* fields */
+	, ScrollDetailTexture_t285_FieldInfos/* fields */
 	, NULL/* events */
-	, &ScrollDetailTexture_t283_il2cpp_TypeInfo/* element_class */
+	, &ScrollDetailTexture_t285_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, &ScrollDetailTexture_t283__CustomAttributeCache/* custom_attributes_cache */
-	, &ScrollDetailTexture_t283_0_0_0/* byval_arg */
-	, &ScrollDetailTexture_t283_1_0_0/* this_arg */
-	, &ScrollDetailTexture_t283_DefinitionMetadata/* definitionMetadata */
+	, &ScrollDetailTexture_t285__CustomAttributeCache/* custom_attributes_cache */
+	, &ScrollDetailTexture_t285_0_0_0/* byval_arg */
+	, &ScrollDetailTexture_t285_1_0_0/* this_arg */
+	, &ScrollDetailTexture_t285_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -9767,8 +10482,8 @@ TypeInfo ScrollDetailTexture_t283_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ScrollDetailTexture_t283)/* instance_size */
-	, sizeof (ScrollDetailTexture_t283)/* actualSize */
+	, sizeof (ScrollDetailTexture_t285)/* instance_size */
+	, sizeof (ScrollDetailTexture_t285)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9800,17 +10515,17 @@ TypeInfo ScrollDetailTexture_t283_il2cpp_TypeInfo =
 // ShowSliderValue
 #include "AssemblyU2DCSharp_ShowSliderValue.h"
 // Metadata Definition ShowSliderValue
-extern TypeInfo ShowSliderValue_t284_il2cpp_TypeInfo;
+extern TypeInfo ShowSliderValue_t286_il2cpp_TypeInfo;
 // ShowSliderValue
 #include "AssemblyU2DCSharp_ShowSliderValueMethodDeclarations.h"
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void ShowSliderValue::.ctor()
-MethodInfo ShowSliderValue__ctor_m1258_MethodInfo = 
+MethodInfo ShowSliderValue__ctor_m1268_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&ShowSliderValue__ctor_m1258/* method */
-	, &ShowSliderValue_t284_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ShowSliderValue__ctor_m1268/* method */
+	, &ShowSliderValue_t286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -9821,28 +10536,28 @@ MethodInfo ShowSliderValue__ctor_m1258_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 153/* token */
+	, 163/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
 extern Il2CppType Single_t184_0_0_0;
-static ParameterInfo ShowSliderValue_t284_ShowSliderValue_UpdateLabel_m1259_ParameterInfos[] = 
+static ParameterInfo ShowSliderValue_t286_ShowSliderValue_UpdateLabel_m1269_ParameterInfos[] = 
 {
-	{"value", 0, 134217794, &EmptyCustomAttributesCache, &Single_t184_0_0_0},
+	{"value", 0, 134217799, &EmptyCustomAttributesCache, &Single_t184_0_0_0},
 };
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183_Single_t184 (MethodInfo* method, void* obj, void** args);
 // System.Void ShowSliderValue::UpdateLabel(System.Single)
-MethodInfo ShowSliderValue_UpdateLabel_m1259_MethodInfo = 
+MethodInfo ShowSliderValue_UpdateLabel_m1269_MethodInfo = 
 {
 	"UpdateLabel"/* name */
-	, (methodPointerType)&ShowSliderValue_UpdateLabel_m1259/* method */
-	, &ShowSliderValue_t284_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&ShowSliderValue_UpdateLabel_m1269/* method */
+	, &ShowSliderValue_t286_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183_Single_t184/* invoker_method */
-	, ShowSliderValue_t284_ShowSliderValue_UpdateLabel_m1259_ParameterInfos/* parameters */
+	, ShowSliderValue_t286_ShowSliderValue_UpdateLabel_m1269_ParameterInfos/* parameters */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 	, 134/* flags */
 	, 0/* iflags */
@@ -9850,84 +10565,84 @@ MethodInfo ShowSliderValue_UpdateLabel_m1259_MethodInfo =
 	, 1/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 154/* token */
+	, 164/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static MethodInfo* ShowSliderValue_t284_MethodInfos[] =
+static MethodInfo* ShowSliderValue_t286_MethodInfos[] =
 {
-	&ShowSliderValue__ctor_m1258_MethodInfo,
-	&ShowSliderValue_UpdateLabel_m1259_MethodInfo,
+	&ShowSliderValue__ctor_m1268_MethodInfo,
+	&ShowSliderValue_UpdateLabel_m1269_MethodInfo,
 	NULL
 };
-static Il2CppMethodReference ShowSliderValue_t284_VTable[] =
+static Il2CppMethodReference ShowSliderValue_t286_VTable[] =
 {
 	&Object_Equals_m1090_MethodInfo,
 	&Object_Finalize_m1068_MethodInfo,
 	&Object_GetHashCode_m1091_MethodInfo,
 	&Object_ToString_m1092_MethodInfo,
 };
-static bool ShowSliderValue_t284_VTableIsGenericMethod[] =
+static bool ShowSliderValue_t286_VTableIsGenericMethod[] =
 {
 	false,
 	false,
 	false,
 	false,
 };
-extern TypeInfo Text_t299_il2cpp_TypeInfo;
-extern Il2CppType Text_t299_0_0_0;
+extern TypeInfo Text_t301_il2cpp_TypeInfo;
+extern Il2CppType Text_t301_0_0_0;
 // UnityEngine.UI.Text
 #include "UnityEngine_UI_UnityEngine_UI_Text.h"
-void ShowSliderValue_t284_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+void ShowSliderValue_t286_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	cache->attributes = (Il2CppObject**)il2cpp_gc_alloc_fixed(sizeof(Object_t *) * cache->count, 0);
 	{
 		RequireComponent_t236 * tmp;
 		tmp = (RequireComponent_t236 *)il2cpp_codegen_object_new (&RequireComponent_t236_il2cpp_TypeInfo);
-		RequireComponent__ctor_m1100(tmp, il2cpp_codegen_type_get_object(&Text_t299_0_0_0), &RequireComponent__ctor_m1100_MethodInfo);
+		RequireComponent__ctor_m1100(tmp, il2cpp_codegen_type_get_object(&Text_t301_0_0_0), &RequireComponent__ctor_m1100_MethodInfo);
 		cache->attributes[0] = (Il2CppObject*)tmp;
 	}
 }
-CustomAttributesCache ShowSliderValue_t284__CustomAttributeCache = {
+CustomAttributesCache ShowSliderValue_t286__CustomAttributeCache = {
 1,
 NULL,
-&ShowSliderValue_t284_CustomAttributesCacheGenerator
+&ShowSliderValue_t286_CustomAttributesCacheGenerator
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern Il2CppType ShowSliderValue_t284_0_0_0;
-extern Il2CppType ShowSliderValue_t284_1_0_0;
-struct ShowSliderValue_t284;
-extern CustomAttributesCache ShowSliderValue_t284__CustomAttributeCache;
-const Il2CppTypeDefinitionMetadata ShowSliderValue_t284_DefinitionMetadata = 
+extern Il2CppType ShowSliderValue_t286_0_0_0;
+extern Il2CppType ShowSliderValue_t286_1_0_0;
+struct ShowSliderValue_t286;
+extern CustomAttributesCache ShowSliderValue_t286__CustomAttributeCache;
+const Il2CppTypeDefinitionMetadata ShowSliderValue_t286_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &MonoBehaviour_t5_0_0_0/* parent */
-	, ShowSliderValue_t284_VTable/* vtableMethods */
-	, ShowSliderValue_t284_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, ShowSliderValue_t286_VTable/* vtableMethods */
+	, ShowSliderValue_t286_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 
 };
-TypeInfo ShowSliderValue_t284_il2cpp_TypeInfo = 
+TypeInfo ShowSliderValue_t286_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "ShowSliderValue"/* name */
 	, ""/* namespaze */
-	, ShowSliderValue_t284_MethodInfos/* methods */
+	, ShowSliderValue_t286_MethodInfos/* methods */
 	, NULL/* properties */
 	, NULL/* fields */
 	, NULL/* events */
-	, &ShowSliderValue_t284_il2cpp_TypeInfo/* element_class */
+	, &ShowSliderValue_t286_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
-	, &ShowSliderValue_t284__CustomAttributeCache/* custom_attributes_cache */
-	, &ShowSliderValue_t284_0_0_0/* byval_arg */
-	, &ShowSliderValue_t284_1_0_0/* this_arg */
-	, &ShowSliderValue_t284_DefinitionMetadata/* definitionMetadata */
+	, &ShowSliderValue_t286__CustomAttributeCache/* custom_attributes_cache */
+	, &ShowSliderValue_t286_0_0_0/* byval_arg */
+	, &ShowSliderValue_t286_1_0_0/* this_arg */
+	, &ShowSliderValue_t286_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -9938,8 +10653,8 @@ TypeInfo ShowSliderValue_t284_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (ShowSliderValue_t284)/* instance_size */
-	, sizeof (ShowSliderValue_t284)/* actualSize */
+	, sizeof (ShowSliderValue_t286)/* instance_size */
+	, sizeof (ShowSliderValue_t286)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */
@@ -9971,17 +10686,17 @@ TypeInfo ShowSliderValue_t284_il2cpp_TypeInfo =
 // TiltWindow
 #include "AssemblyU2DCSharp_TiltWindow.h"
 // Metadata Definition TiltWindow
-extern TypeInfo TiltWindow_t285_il2cpp_TypeInfo;
+extern TypeInfo TiltWindow_t287_il2cpp_TypeInfo;
 // TiltWindow
 #include "AssemblyU2DCSharp_TiltWindowMethodDeclarations.h"
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void TiltWindow::.ctor()
-MethodInfo TiltWindow__ctor_m1260_MethodInfo = 
+MethodInfo TiltWindow__ctor_m1270_MethodInfo = 
 {
 	".ctor"/* name */
-	, (methodPointerType)&TiltWindow__ctor_m1260/* method */
-	, &TiltWindow_t285_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TiltWindow__ctor_m1270/* method */
+	, &TiltWindow_t287_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -9992,7 +10707,7 @@ MethodInfo TiltWindow__ctor_m1260_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 155/* token */
+	, 165/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10001,11 +10716,11 @@ MethodInfo TiltWindow__ctor_m1260_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void TiltWindow::Start()
-MethodInfo TiltWindow_Start_m1261_MethodInfo = 
+MethodInfo TiltWindow_Start_m1271_MethodInfo = 
 {
 	"Start"/* name */
-	, (methodPointerType)&TiltWindow_Start_m1261/* method */
-	, &TiltWindow_t285_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TiltWindow_Start_m1271/* method */
+	, &TiltWindow_t287_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -10016,7 +10731,7 @@ MethodInfo TiltWindow_Start_m1261_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 156/* token */
+	, 166/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
@@ -10025,11 +10740,11 @@ MethodInfo TiltWindow_Start_m1261_MethodInfo =
 extern Il2CppType Void_t183_0_0_0;
 extern void* RuntimeInvoker_Void_t183 (MethodInfo* method, void* obj, void** args);
 // System.Void TiltWindow::Update()
-MethodInfo TiltWindow_Update_m1262_MethodInfo = 
+MethodInfo TiltWindow_Update_m1272_MethodInfo = 
 {
 	"Update"/* name */
-	, (methodPointerType)&TiltWindow_Update_m1262/* method */
-	, &TiltWindow_t285_il2cpp_TypeInfo/* declaring_type */
+	, (methodPointerType)&TiltWindow_Update_m1272/* method */
+	, &TiltWindow_t287_il2cpp_TypeInfo/* declaring_type */
 	, &Void_t183_0_0_0/* return_type */
 	, RuntimeInvoker_Void_t183/* invoker_method */
 	, NULL/* parameters */
@@ -10040,75 +10755,75 @@ MethodInfo TiltWindow_Update_m1262_MethodInfo =
 	, 0/* parameters_count */
 	, false/* is_generic */
 	, false/* is_inflated */
-	, 157/* token */
+	, 167/* token */
 	, NULL/* rgctx_data */
 	, (methodPointerType)NULL/* native_delegate_wrapper */
 	, NULL/* dummy */
 
 };
-static MethodInfo* TiltWindow_t285_MethodInfos[] =
+static MethodInfo* TiltWindow_t287_MethodInfos[] =
 {
-	&TiltWindow__ctor_m1260_MethodInfo,
-	&TiltWindow_Start_m1261_MethodInfo,
-	&TiltWindow_Update_m1262_MethodInfo,
+	&TiltWindow__ctor_m1270_MethodInfo,
+	&TiltWindow_Start_m1271_MethodInfo,
+	&TiltWindow_Update_m1272_MethodInfo,
 	NULL
 };
 extern Il2CppType Vector2_t13_0_0_6;
-FieldInfo TiltWindow_t285____range_2_FieldInfo = 
+FieldInfo TiltWindow_t287____range_2_FieldInfo = 
 {
 	"range"/* name */
 	, &Vector2_t13_0_0_6/* type */
-	, &TiltWindow_t285_il2cpp_TypeInfo/* parent */
-	, offsetof(TiltWindow_t285, ___range_2)/* offset */
+	, &TiltWindow_t287_il2cpp_TypeInfo/* parent */
+	, offsetof(TiltWindow_t287, ___range_2)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Transform_t2_0_0_1;
-FieldInfo TiltWindow_t285____mTrans_3_FieldInfo = 
+FieldInfo TiltWindow_t287____mTrans_3_FieldInfo = 
 {
 	"mTrans"/* name */
 	, &Transform_t2_0_0_1/* type */
-	, &TiltWindow_t285_il2cpp_TypeInfo/* parent */
-	, offsetof(TiltWindow_t285, ___mTrans_3)/* offset */
+	, &TiltWindow_t287_il2cpp_TypeInfo/* parent */
+	, offsetof(TiltWindow_t287, ___mTrans_3)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Quaternion_t10_0_0_1;
-FieldInfo TiltWindow_t285____mStart_4_FieldInfo = 
+FieldInfo TiltWindow_t287____mStart_4_FieldInfo = 
 {
 	"mStart"/* name */
 	, &Quaternion_t10_0_0_1/* type */
-	, &TiltWindow_t285_il2cpp_TypeInfo/* parent */
-	, offsetof(TiltWindow_t285, ___mStart_4)/* offset */
+	, &TiltWindow_t287_il2cpp_TypeInfo/* parent */
+	, offsetof(TiltWindow_t287, ___mStart_4)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
 extern Il2CppType Vector2_t13_0_0_1;
-FieldInfo TiltWindow_t285____mRot_5_FieldInfo = 
+FieldInfo TiltWindow_t287____mRot_5_FieldInfo = 
 {
 	"mRot"/* name */
 	, &Vector2_t13_0_0_1/* type */
-	, &TiltWindow_t285_il2cpp_TypeInfo/* parent */
-	, offsetof(TiltWindow_t285, ___mRot_5)/* offset */
+	, &TiltWindow_t287_il2cpp_TypeInfo/* parent */
+	, offsetof(TiltWindow_t287, ___mRot_5)/* offset */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
 
 };
-static FieldInfo* TiltWindow_t285_FieldInfos[] =
+static FieldInfo* TiltWindow_t287_FieldInfos[] =
 {
-	&TiltWindow_t285____range_2_FieldInfo,
-	&TiltWindow_t285____mTrans_3_FieldInfo,
-	&TiltWindow_t285____mStart_4_FieldInfo,
-	&TiltWindow_t285____mRot_5_FieldInfo,
+	&TiltWindow_t287____range_2_FieldInfo,
+	&TiltWindow_t287____mTrans_3_FieldInfo,
+	&TiltWindow_t287____mStart_4_FieldInfo,
+	&TiltWindow_t287____mRot_5_FieldInfo,
 	NULL
 };
-static Il2CppMethodReference TiltWindow_t285_VTable[] =
+static Il2CppMethodReference TiltWindow_t287_VTable[] =
 {
 	&Object_Equals_m1090_MethodInfo,
 	&Object_Finalize_m1068_MethodInfo,
 	&Object_GetHashCode_m1091_MethodInfo,
 	&Object_ToString_m1092_MethodInfo,
 };
-static bool TiltWindow_t285_VTableIsGenericMethod[] =
+static bool TiltWindow_t287_VTableIsGenericMethod[] =
 {
 	false,
 	false,
@@ -10116,37 +10831,37 @@ static bool TiltWindow_t285_VTableIsGenericMethod[] =
 	false,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
-extern Il2CppType TiltWindow_t285_0_0_0;
-extern Il2CppType TiltWindow_t285_1_0_0;
-struct TiltWindow_t285;
-const Il2CppTypeDefinitionMetadata TiltWindow_t285_DefinitionMetadata = 
+extern Il2CppType TiltWindow_t287_0_0_0;
+extern Il2CppType TiltWindow_t287_1_0_0;
+struct TiltWindow_t287;
+const Il2CppTypeDefinitionMetadata TiltWindow_t287_DefinitionMetadata = 
 {
 	NULL/* declaringType */
 	, NULL/* nestedTypes */
 	, NULL/* implementedInterfaces */
 	, NULL/* interfaceOffsets */
 	, &MonoBehaviour_t5_0_0_0/* parent */
-	, TiltWindow_t285_VTable/* vtableMethods */
-	, TiltWindow_t285_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
+	, TiltWindow_t287_VTable/* vtableMethods */
+	, TiltWindow_t287_VTableIsGenericMethod/* vtableEntryIsGenericMethod */
 	, NULL/* rgctxDefinition */
 
 };
-TypeInfo TiltWindow_t285_il2cpp_TypeInfo = 
+TypeInfo TiltWindow_t287_il2cpp_TypeInfo = 
 {
 	&g_AssemblyU2DCSharp_dll_Image/* image */
 	, NULL/* gc_desc */
 	, "TiltWindow"/* name */
 	, ""/* namespaze */
-	, TiltWindow_t285_MethodInfos/* methods */
+	, TiltWindow_t287_MethodInfos/* methods */
 	, NULL/* properties */
-	, TiltWindow_t285_FieldInfos/* fields */
+	, TiltWindow_t287_FieldInfos/* fields */
 	, NULL/* events */
-	, &TiltWindow_t285_il2cpp_TypeInfo/* element_class */
+	, &TiltWindow_t287_il2cpp_TypeInfo/* element_class */
 	, NULL/* vtable */
 	, &EmptyCustomAttributesCache/* custom_attributes_cache */
-	, &TiltWindow_t285_0_0_0/* byval_arg */
-	, &TiltWindow_t285_1_0_0/* this_arg */
-	, &TiltWindow_t285_DefinitionMetadata/* definitionMetadata */
+	, &TiltWindow_t287_0_0_0/* byval_arg */
+	, &TiltWindow_t287_1_0_0/* this_arg */
+	, &TiltWindow_t287_DefinitionMetadata/* definitionMetadata */
 	, NULL/* runtimeMetadata */
 	, NULL/* generic_class */
 	, NULL/* generic_container */
@@ -10157,8 +10872,8 @@ TypeInfo TiltWindow_t285_il2cpp_TypeInfo =
 	, (methodPointerType)NULL/* marshal_to_native_func */
 	, (methodPointerType)NULL/* marshal_from_native_func */
 	, (methodPointerType)NULL/* marshal_cleanup_func */
-	, sizeof (TiltWindow_t285)/* instance_size */
-	, sizeof (TiltWindow_t285)/* actualSize */
+	, sizeof (TiltWindow_t287)/* instance_size */
+	, sizeof (TiltWindow_t287)/* actualSize */
 	, 0/* element_size */
 	, -1/* native_size */
 	, 0/* static_fields_size */

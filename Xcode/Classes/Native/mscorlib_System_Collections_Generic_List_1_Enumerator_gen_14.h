@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>
-struct List_1_t2985;
+struct List_1_t2987;
 // UnityEngine.UI.ICanvasElement
-struct ICanvasElement_t386;
+struct ICanvasElement_t388;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.ICanvasElement>
-struct  Enumerator_t2989 
+struct  Enumerator_t2991 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.ICanvasElement>::l
-	List_1_t2985 * ___l_0;
+	List_1_t2987 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.ICanvasElement>::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.ICanvasElement>::ver

@@ -3,6 +3,6 @@
 // System.Exception
 #include "mscorlib_System_Exception.h"
 // System.ApplicationException
-struct  ApplicationException_t1999  : public Exception_t204
+struct  ApplicationException_t2001  : public Exception_t204
 {
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.Slider/Direction
-struct Direction_t459;
+struct Direction_t461;
 

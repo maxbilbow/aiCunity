@@ -1,15 +1,15 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.TouchScreenKeyboard
-struct TouchScreenKeyboard_t431;
+struct TouchScreenKeyboard_t433;
 // UnityEngine.GUIContent
-struct GUIContent_t540;
+struct GUIContent_t542;
 // UnityEngine.GUIStyle
-struct GUIStyle_t684;
+struct GUIStyle_t686;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
-struct Dictionary_2_t877;
+struct Dictionary_2_t879;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Rect
@@ -19,10 +19,10 @@ struct Dictionary_2_t877;
 // UnityEngine.TextEditor/DblClickSnapping
 #include "UnityEngine_UnityEngine_TextEditor_DblClickSnapping.h"
 // UnityEngine.TextEditor
-struct  TextEditor_t539  : public Object_t
+struct  TextEditor_t541  : public Object_t
 {
 	// UnityEngine.TouchScreenKeyboard UnityEngine.TextEditor::keyboardOnScreen
-	TouchScreenKeyboard_t431 * ___keyboardOnScreen_0;
+	TouchScreenKeyboard_t433 * ___keyboardOnScreen_0;
 	// System.Int32 UnityEngine.TextEditor::pos
 	int32_t ___pos_1;
 	// System.Int32 UnityEngine.TextEditor::selectPos
@@ -30,9 +30,9 @@ struct  TextEditor_t539  : public Object_t
 	// System.Int32 UnityEngine.TextEditor::controlID
 	int32_t ___controlID_3;
 	// UnityEngine.GUIContent UnityEngine.TextEditor::content
-	GUIContent_t540 * ___content_4;
+	GUIContent_t542 * ___content_4;
 	// UnityEngine.GUIStyle UnityEngine.TextEditor::style
-	GUIStyle_t684 * ___style_5;
+	GUIStyle_t686 * ___style_5;
 	// UnityEngine.Rect UnityEngine.TextEditor::position
 	Rect_t260  ___position_6;
 	// System.Boolean UnityEngine.TextEditor::multiline
@@ -68,7 +68,7 @@ struct  TextEditor_t539  : public Object_t
 	// System.Int32 UnityEngine.TextEditor::oldSelectPos
 	int32_t ___oldSelectPos_22;
 };
-struct TextEditor_t539_StaticFields{
+struct TextEditor_t541_StaticFields{
 	// System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp> UnityEngine.TextEditor::s_Keyactions
-	Dictionary_2_t877 * ___s_Keyactions_23;
+	Dictionary_2_t879 * ___s_Keyactions_23;
 };

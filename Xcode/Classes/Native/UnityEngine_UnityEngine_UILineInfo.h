@@ -3,7 +3,7 @@
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.UILineInfo
-struct  UILineInfo_t542 
+struct  UILineInfo_t544 
 {
 	// System.Int32 UnityEngine.UILineInfo::startCharIdx
 	int32_t ___startCharIdx_0;

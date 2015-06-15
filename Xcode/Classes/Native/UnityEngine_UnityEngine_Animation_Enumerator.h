@@ -5,7 +5,7 @@ struct Animation_t213;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Animation/Enumerator
-struct  Enumerator_t763  : public Object_t
+struct  Enumerator_t765  : public Object_t
 {
 	// UnityEngine.Animation UnityEngine.Animation/Enumerator::m_Outer
 	Animation_t213 * ___m_Outer_0;

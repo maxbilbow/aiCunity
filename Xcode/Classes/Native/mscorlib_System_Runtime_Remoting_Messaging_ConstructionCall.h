@@ -1,21 +1,21 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Runtime.Remoting.Activation.IActivator
-struct IActivator_t1790;
+struct IActivator_t1792;
 // System.Object[]
 struct ObjectU5BU5D_t194;
 // System.Collections.IList
-struct IList_t1029;
+struct IList_t1031;
 // System.Type
 struct Type_t;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t270;
+struct Dictionary_2_t272;
 // System.Runtime.Remoting.Messaging.MethodCall
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodCall.h"
 // System.Runtime.Remoting.Messaging.ConstructionCall
-struct  ConstructionCall_t1792  : public MethodCall_t1819
+struct  ConstructionCall_t1794  : public MethodCall_t1821
 {
 	// System.Runtime.Remoting.Activation.IActivator System.Runtime.Remoting.Messaging.ConstructionCall::_activator
 	Object_t * ____activator_11;
@@ -30,7 +30,7 @@ struct  ConstructionCall_t1792  : public MethodCall_t1819
 	// System.Boolean System.Runtime.Remoting.Messaging.ConstructionCall::_isContextOk
 	bool ____isContextOk_16;
 };
-struct ConstructionCall_t1792_StaticFields{
+struct ConstructionCall_t1794_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Remoting.Messaging.ConstructionCall::<>f__switch$map20
-	Dictionary_2_t270 * ___U3CU3Ef__switch$map20_17;
+	Dictionary_2_t272 * ___U3CU3Ef__switch$map20_17;
 };

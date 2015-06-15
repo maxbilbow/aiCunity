@@ -26,25 +26,27 @@ extern TypeInfo CNThrowableTouchpad_t264_il2cpp_TypeInfo;
 extern TypeInfo CNTouchpad_t265_il2cpp_TypeInfo;
 extern TypeInfo AxisOption_t266_il2cpp_TypeInfo;
 extern TypeInfo RMXJoystick_t267_il2cpp_TypeInfo;
-extern TypeInfo RMXSimpleMouse_t268_il2cpp_TypeInfo;
-extern TypeInfo NewBehaviourScript_t271_il2cpp_TypeInfo;
-extern TypeInfo ActiveStateToggler_t272_il2cpp_TypeInfo;
-extern TypeInfo ApplicationManager_t273_il2cpp_TypeInfo;
-extern TypeInfo ChangeColor_t274_il2cpp_TypeInfo;
-extern TypeInfo DragMe_t276_il2cpp_TypeInfo;
-extern TypeInfo DragPanel_t277_il2cpp_TypeInfo;
-extern TypeInfo DropMe_t278_il2cpp_TypeInfo;
-extern TypeInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo;
-extern TypeInfo PanelManager_t280_il2cpp_TypeInfo;
-extern TypeInfo ResizePanel_t282_il2cpp_TypeInfo;
-extern TypeInfo ScrollDetailTexture_t283_il2cpp_TypeInfo;
-extern TypeInfo ShowSliderValue_t284_il2cpp_TypeInfo;
-extern TypeInfo TiltWindow_t285_il2cpp_TypeInfo;
+extern TypeInfo AxisOption_t268_il2cpp_TypeInfo;
+extern TypeInfo RMXLookAround_t269_il2cpp_TypeInfo;
+extern TypeInfo RMXSimpleMouse_t270_il2cpp_TypeInfo;
+extern TypeInfo NewBehaviourScript_t273_il2cpp_TypeInfo;
+extern TypeInfo ActiveStateToggler_t274_il2cpp_TypeInfo;
+extern TypeInfo ApplicationManager_t275_il2cpp_TypeInfo;
+extern TypeInfo ChangeColor_t276_il2cpp_TypeInfo;
+extern TypeInfo DragMe_t278_il2cpp_TypeInfo;
+extern TypeInfo DragPanel_t279_il2cpp_TypeInfo;
+extern TypeInfo DropMe_t280_il2cpp_TypeInfo;
+extern TypeInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo;
+extern TypeInfo PanelManager_t282_il2cpp_TypeInfo;
+extern TypeInfo ResizePanel_t284_il2cpp_TypeInfo;
+extern TypeInfo ScrollDetailTexture_t285_il2cpp_TypeInfo;
+extern TypeInfo ShowSliderValue_t286_il2cpp_TypeInfo;
+extern TypeInfo TiltWindow_t287_il2cpp_TypeInfo;
 #include "utils/RegisterRuntimeInitializeAndCleanup.h"
 #include <map>
 struct TypeInfo;
 struct MethodInfo;
-TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[27] = 
+TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[29] = 
 {
 	&U3CModuleU3E_t251_il2cpp_TypeInfo,
 	&CameraFollowExample_t253_il2cpp_TypeInfo,
@@ -58,20 +60,22 @@ TypeInfo* g_AssemblyU2DCSharp_Assembly_Types[27] =
 	&CNTouchpad_t265_il2cpp_TypeInfo,
 	&AxisOption_t266_il2cpp_TypeInfo,
 	&RMXJoystick_t267_il2cpp_TypeInfo,
-	&RMXSimpleMouse_t268_il2cpp_TypeInfo,
-	&NewBehaviourScript_t271_il2cpp_TypeInfo,
-	&ActiveStateToggler_t272_il2cpp_TypeInfo,
-	&ApplicationManager_t273_il2cpp_TypeInfo,
-	&ChangeColor_t274_il2cpp_TypeInfo,
-	&DragMe_t276_il2cpp_TypeInfo,
-	&DragPanel_t277_il2cpp_TypeInfo,
-	&DropMe_t278_il2cpp_TypeInfo,
-	&U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo,
-	&PanelManager_t280_il2cpp_TypeInfo,
-	&ResizePanel_t282_il2cpp_TypeInfo,
-	&ScrollDetailTexture_t283_il2cpp_TypeInfo,
-	&ShowSliderValue_t284_il2cpp_TypeInfo,
-	&TiltWindow_t285_il2cpp_TypeInfo,
+	&AxisOption_t268_il2cpp_TypeInfo,
+	&RMXLookAround_t269_il2cpp_TypeInfo,
+	&RMXSimpleMouse_t270_il2cpp_TypeInfo,
+	&NewBehaviourScript_t273_il2cpp_TypeInfo,
+	&ActiveStateToggler_t274_il2cpp_TypeInfo,
+	&ApplicationManager_t275_il2cpp_TypeInfo,
+	&ChangeColor_t276_il2cpp_TypeInfo,
+	&DragMe_t278_il2cpp_TypeInfo,
+	&DragPanel_t279_il2cpp_TypeInfo,
+	&DropMe_t280_il2cpp_TypeInfo,
+	&U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo,
+	&PanelManager_t282_il2cpp_TypeInfo,
+	&ResizePanel_t284_il2cpp_TypeInfo,
+	&ScrollDetailTexture_t285_il2cpp_TypeInfo,
+	&ShowSliderValue_t286_il2cpp_TypeInfo,
+	&TiltWindow_t287_il2cpp_TypeInfo,
 	NULL,
 };
 extern Il2CppImage g_AssemblyU2DCSharp_dll_Image;
@@ -87,7 +91,7 @@ Il2CppImage g_AssemblyU2DCSharp_dll_Image =
 	 "Assembly-CSharp.dll" ,
 	&g_AssemblyU2DCSharp_Assembly,
 	g_AssemblyU2DCSharp_Assembly_Types,
-	26,
+	28,
 	NULL,
 };
 static void s_AssemblyU2DCSharpRegistration()

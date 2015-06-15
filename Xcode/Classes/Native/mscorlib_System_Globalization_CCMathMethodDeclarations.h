@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Globalization.CCMath
-struct CCMath_t1664;
+struct CCMath_t1666;
 
 // System.Int32 System.Globalization.CCMath::div(System.Int32,System.Int32)
-extern "C" int32_t CCMath_div_m8773 (Object_t * __this /* static, unused */, int32_t ___x, int32_t ___y, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CCMath_div_m8784 (Object_t * __this /* static, unused */, int32_t ___x, int32_t ___y, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CCMath::mod(System.Int32,System.Int32)
-extern "C" int32_t CCMath_mod_m8774 (Object_t * __this /* static, unused */, int32_t ___x, int32_t ___y, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CCMath_mod_m8785 (Object_t * __this /* static, unused */, int32_t ___x, int32_t ___y, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Globalization.CCMath::div_mod(System.Int32&,System.Int32,System.Int32)
-extern "C" int32_t CCMath_div_mod_m8775 (Object_t * __this /* static, unused */, int32_t* ___remainder, int32_t ___x, int32_t ___y, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t CCMath_div_mod_m8786 (Object_t * __this /* static, unused */, int32_t* ___remainder, int32_t ___x, int32_t ___y, MethodInfo* method) IL2CPP_METHOD_ATTR;

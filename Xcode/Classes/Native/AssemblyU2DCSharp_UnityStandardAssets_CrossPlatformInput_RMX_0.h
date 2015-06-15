@@ -21,14 +21,16 @@ struct  RMXJoystick_t267  : public MonoBehaviour_t5
 	String_t* ___horizontalAxisName_4;
 	// System.String UnityStandardAssets.CrossPlatformInput.RMXJoystick::verticalAxisName
 	String_t* ___verticalAxisName_5;
+	// UnityEngine.Vector3 UnityStandardAssets.CrossPlatformInput.RMXJoystick::origin
+	Vector3_t8  ___origin_6;
 	// UnityEngine.Vector3 UnityStandardAssets.CrossPlatformInput.RMXJoystick::m_StartPos
-	Vector3_t8  ___m_StartPos_6;
+	Vector3_t8  ___m_StartPos_7;
 	// System.Boolean UnityStandardAssets.CrossPlatformInput.RMXJoystick::m_UseX
-	bool ___m_UseX_7;
+	bool ___m_UseX_8;
 	// System.Boolean UnityStandardAssets.CrossPlatformInput.RMXJoystick::m_UseY
-	bool ___m_UseY_8;
+	bool ___m_UseY_9;
 	// UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis UnityStandardAssets.CrossPlatformInput.RMXJoystick::m_HorizontalVirtualAxis
-	VirtualAxis_t45 * ___m_HorizontalVirtualAxis_9;
+	VirtualAxis_t45 * ___m_HorizontalVirtualAxis_10;
 	// UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis UnityStandardAssets.CrossPlatformInput.RMXJoystick::m_VerticalVirtualAxis
-	VirtualAxis_t45 * ___m_VerticalVirtualAxis_10;
+	VirtualAxis_t45 * ___m_VerticalVirtualAxis_11;
 };

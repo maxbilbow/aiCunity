@@ -5,7 +5,7 @@ struct String_t;
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Diagnostics.DebuggerDisplayAttribute
-struct  DebuggerDisplayAttribute_t1659  : public Attribute_t714
+struct  DebuggerDisplayAttribute_t1661  : public Attribute_t716
 {
 	// System.String System.Diagnostics.DebuggerDisplayAttribute::value
 	String_t* ___value_0;

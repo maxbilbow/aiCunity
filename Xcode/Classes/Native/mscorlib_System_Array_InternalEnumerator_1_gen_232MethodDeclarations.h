@@ -5,23 +5,23 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<System.Diagnostics.StackFrame>
-struct InternalEnumerator_1_t3703;
+struct InternalEnumerator_1_t3705;
 // System.Object
 struct Object_t;
 // System.Diagnostics.StackFrame
-struct StackFrame_t956;
+struct StackFrame_t958;
 // System.Array
 struct Array_t;
 
 // System.Void System.Array/InternalEnumerator`1<System.Diagnostics.StackFrame>::.ctor(System.Array)
 // System.Array/InternalEnumerator`1<System.Object>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_0MethodDeclarations.h"
-#define InternalEnumerator_1__ctor_m23154(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3703 *, Array_t *, MethodInfo*))InternalEnumerator_1__ctor_m12487_gshared)(__this, ___array, method)
+#define InternalEnumerator_1__ctor_m23165(__this, ___array, method) (( void (*) (InternalEnumerator_1_t3705 *, Array_t *, MethodInfo*))InternalEnumerator_1__ctor_m12498_gshared)(__this, ___array, method)
 // System.Object System.Array/InternalEnumerator`1<System.Diagnostics.StackFrame>::System.Collections.IEnumerator.get_Current()
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m23155(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3703 *, MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m12488_gshared)(__this, method)
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m23166(__this, method) (( Object_t * (*) (InternalEnumerator_1_t3705 *, MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m12499_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<System.Diagnostics.StackFrame>::Dispose()
-#define InternalEnumerator_1_Dispose_m23156(__this, method) (( void (*) (InternalEnumerator_1_t3703 *, MethodInfo*))InternalEnumerator_1_Dispose_m12489_gshared)(__this, method)
+#define InternalEnumerator_1_Dispose_m23167(__this, method) (( void (*) (InternalEnumerator_1_t3705 *, MethodInfo*))InternalEnumerator_1_Dispose_m12500_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<System.Diagnostics.StackFrame>::MoveNext()
-#define InternalEnumerator_1_MoveNext_m23157(__this, method) (( bool (*) (InternalEnumerator_1_t3703 *, MethodInfo*))InternalEnumerator_1_MoveNext_m12490_gshared)(__this, method)
+#define InternalEnumerator_1_MoveNext_m23168(__this, method) (( bool (*) (InternalEnumerator_1_t3705 *, MethodInfo*))InternalEnumerator_1_MoveNext_m12501_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<System.Diagnostics.StackFrame>::get_Current()
-#define InternalEnumerator_1_get_Current_m23158(__this, method) (( StackFrame_t956 * (*) (InternalEnumerator_1_t3703 *, MethodInfo*))InternalEnumerator_1_get_Current_m12491_gshared)(__this, method)
+#define InternalEnumerator_1_get_Current_m23169(__this, method) (( StackFrame_t958 * (*) (InternalEnumerator_1_t3705 *, MethodInfo*))InternalEnumerator_1_get_Current_m12502_gshared)(__this, method)

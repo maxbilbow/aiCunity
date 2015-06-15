@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UI.GridLayoutGroup/Axis
-struct Axis_t485;
+struct Axis_t487;
 

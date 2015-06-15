@@ -5,8 +5,8 @@
 // System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__27.h"
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
-struct  Enumerator_t3593 
+struct  Enumerator_t3595 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>::host_enumerator
-	Enumerator_t3594  ___host_enumerator_0;
+	Enumerator_t3596  ___host_enumerator_0;
 };

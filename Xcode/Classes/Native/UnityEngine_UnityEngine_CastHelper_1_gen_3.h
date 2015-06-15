@@ -7,7 +7,7 @@ struct CapsuleCollider_t36;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.CastHelper`1<UnityEngine.CapsuleCollider>
-struct  CastHelper_1_t2604 
+struct  CastHelper_1_t2606 
 {
 	// T UnityEngine.CastHelper`1<UnityEngine.CapsuleCollider>::t
 	CapsuleCollider_t36 * ___t_0;

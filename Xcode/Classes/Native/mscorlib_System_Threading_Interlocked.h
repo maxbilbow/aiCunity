@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Threading.Interlocked
-struct  Interlocked_t1978  : public Object_t
+struct  Interlocked_t1980  : public Object_t
 {
 };

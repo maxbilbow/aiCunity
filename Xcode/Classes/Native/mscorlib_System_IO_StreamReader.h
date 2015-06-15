@@ -1,28 +1,28 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t720;
+struct ByteU5BU5D_t722;
 // System.Char[]
-struct CharU5BU5D_t432;
+struct CharU5BU5D_t434;
 // System.Text.Encoding
-struct Encoding_t719;
+struct Encoding_t721;
 // System.Text.Decoder
-struct Decoder_t1677;
+struct Decoder_t1679;
 // System.IO.Stream
-struct Stream_t1446;
+struct Stream_t1448;
 // System.Text.StringBuilder
-struct StringBuilder_t515;
+struct StringBuilder_t517;
 // System.IO.StreamReader
-struct StreamReader_t1685;
+struct StreamReader_t1687;
 // System.IO.TextReader
 #include "mscorlib_System_IO_TextReader.h"
 // System.IO.StreamReader
-struct  StreamReader_t1685  : public TextReader_t1631
+struct  StreamReader_t1687  : public TextReader_t1633
 {
 	// System.Byte[] System.IO.StreamReader::input_buffer
-	ByteU5BU5D_t720* ___input_buffer_1;
+	ByteU5BU5D_t722* ___input_buffer_1;
 	// System.Char[] System.IO.StreamReader::decoded_buffer
-	CharU5BU5D_t432* ___decoded_buffer_2;
+	CharU5BU5D_t434* ___decoded_buffer_2;
 	// System.Int32 System.IO.StreamReader::decoded_count
 	int32_t ___decoded_count_3;
 	// System.Int32 System.IO.StreamReader::pos
@@ -32,19 +32,19 @@ struct  StreamReader_t1685  : public TextReader_t1631
 	// System.Int32 System.IO.StreamReader::do_checks
 	int32_t ___do_checks_6;
 	// System.Text.Encoding System.IO.StreamReader::encoding
-	Encoding_t719 * ___encoding_7;
+	Encoding_t721 * ___encoding_7;
 	// System.Text.Decoder System.IO.StreamReader::decoder
-	Decoder_t1677 * ___decoder_8;
+	Decoder_t1679 * ___decoder_8;
 	// System.IO.Stream System.IO.StreamReader::base_stream
-	Stream_t1446 * ___base_stream_9;
+	Stream_t1448 * ___base_stream_9;
 	// System.Boolean System.IO.StreamReader::mayBlock
 	bool ___mayBlock_10;
 	// System.Text.StringBuilder System.IO.StreamReader::line_builder
-	StringBuilder_t515 * ___line_builder_11;
+	StringBuilder_t517 * ___line_builder_11;
 	// System.Boolean System.IO.StreamReader::foundCR
 	bool ___foundCR_13;
 };
-struct StreamReader_t1685_StaticFields{
+struct StreamReader_t1687_StaticFields{
 	// System.IO.StreamReader System.IO.StreamReader::Null
-	StreamReader_t1685 * ___Null_12;
+	StreamReader_t1687 * ___Null_12;
 };

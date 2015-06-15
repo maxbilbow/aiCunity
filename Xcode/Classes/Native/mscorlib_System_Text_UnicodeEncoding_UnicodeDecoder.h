@@ -3,7 +3,7 @@
 // System.Text.Decoder
 #include "mscorlib_System_Text_Decoder.h"
 // System.Text.UnicodeEncoding/UnicodeDecoder
-struct  UnicodeDecoder_t1974  : public Decoder_t1677
+struct  UnicodeDecoder_t1976  : public Decoder_t1679
 {
 	// System.Boolean System.Text.UnicodeEncoding/UnicodeDecoder::bigEndian
 	bool ___bigEndian_2;

@@ -3,6 +3,6 @@
 // System.Collections.Generic.Comparer`1<System.DateTimeOffset>
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_36.h"
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.DateTimeOffset>
-struct  DefaultComparer_t3754  : public Comparer_1_t3753
+struct  DefaultComparer_t3756  : public Comparer_1_t3755
 {
 };

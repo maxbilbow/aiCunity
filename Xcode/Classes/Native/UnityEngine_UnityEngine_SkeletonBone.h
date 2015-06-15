@@ -9,7 +9,7 @@ struct String_t;
 // UnityEngine.Quaternion
 #include "UnityEngine_UnityEngine_Quaternion.h"
 // UnityEngine.SkeletonBone
-struct  SkeletonBone_t766 
+struct  SkeletonBone_t768 
 {
 	// System.String UnityEngine.SkeletonBone::name
 	String_t* ___name_0;
@@ -23,7 +23,7 @@ struct  SkeletonBone_t766
 	int32_t ___transformModified_4;
 };
 // Native definition for marshalling of: UnityEngine.SkeletonBone
-struct SkeletonBone_t766_marshaled
+struct SkeletonBone_t768_marshaled
 {
 	char* ___name_0;
 	Vector3_t8  ___position_1;

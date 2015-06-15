@@ -9,7 +9,7 @@ struct String_t;
 // System.Runtime.InteropServices.CharSet
 #include "mscorlib_System_Runtime_InteropServices_CharSet.h"
 // System.Runtime.InteropServices.DllImportAttribute
-struct  DllImportAttribute_t1545  : public Attribute_t714
+struct  DllImportAttribute_t1547  : public Attribute_t716
 {
 	// System.Runtime.InteropServices.CallingConvention System.Runtime.InteropServices.DllImportAttribute::CallingConvention
 	int32_t ___CallingConvention_0;

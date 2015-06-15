@@ -7,7 +7,7 @@ struct Dictionary_2_t66;
 // System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_6.h"
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>
-struct  Enumerator_t2653 
+struct  Enumerator_t2655 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::dictionary
 	Dictionary_2_t66 * ___dictionary_0;
@@ -16,5 +16,5 @@ struct  Enumerator_t2653
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::current
-	KeyValuePair_2_t2648  ___current_3;
+	KeyValuePair_2_t2650  ___current_3;
 };

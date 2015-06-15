@@ -22,9 +22,9 @@ struct String_t;
 #include "UnityEngine_UnityEngine_Touch.h"
 
 // System.Void UnityEngine.Input::.cctor()
-extern "C" void Input__cctor_m3846 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Input__cctor_m3857 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Input::GetKeyInt(System.Int32)
-extern "C" bool Input_GetKeyInt_m3847 (Object_t * __this /* static, unused */, int32_t ___key, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Input_GetKeyInt_m3858 (Object_t * __this /* static, unused */, int32_t ___key, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Input::GetAxis(System.String)
 extern "C" float Input_GetAxis_m778 (Object_t * __this /* static, unused */, String_t* ___axisName, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Input::GetAxisRaw(System.String)
@@ -46,24 +46,24 @@ extern "C" bool Input_GetMouseButtonUp_m612 (Object_t * __this /* static, unused
 // UnityEngine.Vector3 UnityEngine.Input::get_mousePosition()
 extern "C" Vector3_t8  Input_get_mousePosition_m783 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Input::get_mouseScrollDelta()
-extern "C" Vector2_t13  Input_get_mouseScrollDelta_m2622 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector2_t13  Input_get_mouseScrollDelta_m2633 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Input::get_mousePresent()
-extern "C" bool Input_get_mousePresent_m2640 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Input_get_mousePresent_m2651 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Input::get_acceleration()
 extern "C" Vector3_t8  Input_get_acceleration_m784 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Touch[] UnityEngine.Input::get_touches()
 extern "C" TouchU5BU5D_t205* Input_get_touches_m790 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Touch UnityEngine.Input::GetTouch(System.Int32)
-extern "C" Touch_t206  Input_GetTouch_m1271 (Object_t * __this /* static, unused */, int32_t ___index, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Touch_t206  Input_GetTouch_m1281 (Object_t * __this /* static, unused */, int32_t ___index, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Input::get_touchCount()
 extern "C" int32_t Input_get_touchCount_m789 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Input::get_touchSupported()
-extern "C" bool Input_get_touchSupported_m2658 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Input_get_touchSupported_m2669 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Input::set_imeCompositionMode(UnityEngine.IMECompositionMode)
-extern "C" void Input_set_imeCompositionMode_m2904 (Object_t * __this /* static, unused */, int32_t ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Input_set_imeCompositionMode_m2915 (Object_t * __this /* static, unused */, int32_t ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Input::get_compositionString()
-extern "C" String_t* Input_get_compositionString_m2829 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Input_get_compositionString_m2840 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Input::INTERNAL_set_compositionCursorPos(UnityEngine.Vector2&)
-extern "C" void Input_INTERNAL_set_compositionCursorPos_m3848 (Object_t * __this /* static, unused */, Vector2_t13 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Input_INTERNAL_set_compositionCursorPos_m3859 (Object_t * __this /* static, unused */, Vector2_t13 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Input::set_compositionCursorPos(UnityEngine.Vector2)
-extern "C" void Input_set_compositionCursorPos_m2892 (Object_t * __this /* static, unused */, Vector2_t13  ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Input_set_compositionCursorPos_m2903 (Object_t * __this /* static, unused */, Vector2_t13  ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;

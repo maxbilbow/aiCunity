@@ -5,7 +5,7 @@
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // UnityEngine.Plane
-struct  Plane_t547 
+struct  Plane_t549 
 {
 	// UnityEngine.Vector3 UnityEngine.Plane::m_Normal
 	Vector3_t8  ___m_Normal_0;

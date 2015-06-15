@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.PointerEventData>
-struct EqualityComparer_1_t2968;
+struct EqualityComparer_1_t2970;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.PointerEventData>
-struct  EqualityComparer_1_t2968  : public Object_t
+struct  EqualityComparer_1_t2970  : public Object_t
 {
 };
-struct EqualityComparer_1_t2968_StaticFields{
+struct EqualityComparer_1_t2970_StaticFields{
 	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.EventSystems.PointerEventData>::_default
-	EqualityComparer_1_t2968 * ____default_0;
+	EqualityComparer_1_t2970 * ____default_0;
 };

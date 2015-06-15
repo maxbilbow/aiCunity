@@ -7,7 +7,7 @@ struct String_t;
 // UnityEngine.Networking.Types.NetworkID
 #include "UnityEngine_UnityEngine_Networking_Types_NetworkID.h"
 // UnityEngine.Networking.Match.JoinMatchRequest
-struct  JoinMatchRequest_t784  : public Request_t776
+struct  JoinMatchRequest_t786  : public Request_t778
 {
 	// UnityEngine.Networking.Types.NetworkID UnityEngine.Networking.Match.JoinMatchRequest::<networkId>k__BackingField
 	uint64_t ___U3CnetworkIdU3Ek__BackingField_4;

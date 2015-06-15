@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.UI.Misc
-struct  Misc_t438  : public Object_t
+struct  Misc_t440  : public Object_t
 {
 };

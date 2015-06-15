@@ -5,22 +5,22 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.MonoProperty/GetterAdapter
-struct GetterAdapter_t1755;
+struct GetterAdapter_t1757;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t423;
+struct IAsyncResult_t425;
 // System.AsyncCallback
-struct AsyncCallback_t424;
+struct AsyncCallback_t426;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Reflection.MonoProperty/GetterAdapter::.ctor(System.Object,System.IntPtr)
-extern "C" void GetterAdapter__ctor_m9666 (GetterAdapter_t1755 * __this, Object_t * ___object, IntPtr_t ___method, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GetterAdapter__ctor_m9677 (GetterAdapter_t1757 * __this, Object_t * ___object, IntPtr_t ___method, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.MonoProperty/GetterAdapter::Invoke(System.Object)
-extern "C" Object_t * GetterAdapter_Invoke_m9667 (GetterAdapter_t1755 * __this, Object_t * ____this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" Object_t * pinvoke_delegate_wrapper_GetterAdapter_t1755(Il2CppObject* delegate, Object_t * ____this);
+extern "C" Object_t * GetterAdapter_Invoke_m9678 (GetterAdapter_t1757 * __this, Object_t * ____this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * pinvoke_delegate_wrapper_GetterAdapter_t1757(Il2CppObject* delegate, Object_t * ____this);
 // System.IAsyncResult System.Reflection.MonoProperty/GetterAdapter::BeginInvoke(System.Object,System.AsyncCallback,System.Object)
-extern "C" Object_t * GetterAdapter_BeginInvoke_m9668 (GetterAdapter_t1755 * __this, Object_t * ____this, AsyncCallback_t424 * ___callback, Object_t * ___object, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GetterAdapter_BeginInvoke_m9679 (GetterAdapter_t1757 * __this, Object_t * ____this, AsyncCallback_t426 * ___callback, Object_t * ___object, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Reflection.MonoProperty/GetterAdapter::EndInvoke(System.IAsyncResult)
-extern "C" Object_t * GetterAdapter_EndInvoke_m9669 (GetterAdapter_t1755 * __this, Object_t * ___result, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GetterAdapter_EndInvoke_m9680 (GetterAdapter_t1757 * __this, Object_t * ___result, MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -3,9 +3,9 @@
 // System.String
 struct String_t;
 // System.IAsyncResult
-struct IAsyncResult_t423;
+struct IAsyncResult_t425;
 // System.AsyncCallback
-struct AsyncCallback_t424;
+struct AsyncCallback_t426;
 // System.Object
 struct Object_t;
 // System.Void
@@ -14,8 +14,8 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_LogType.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-extern TypeInfo LogType_t641_il2cpp_TypeInfo;
+extern TypeInfo LogType_t643_il2cpp_TypeInfo;
 // UnityEngine.Application/LogCallback
-struct  LogCallback_t726  : public MulticastDelegate_t427
+struct  LogCallback_t728  : public MulticastDelegate_t429
 {
 };

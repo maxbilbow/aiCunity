@@ -73,7 +73,7 @@ extern MethodInfo Transform_get_parent_m626_MethodInfo;
 extern MethodInfo Object_op_Inequality_m642_MethodInfo;
 extern MethodInfo CNAbstractController_GetAxis_m1155_MethodInfo;
 extern MethodInfo Time_get_deltaTime_m579_MethodInfo;
-extern MethodInfo Transform_Rotate_m1263_MethodInfo;
+extern MethodInfo Transform_Rotate_m1273_MethodInfo;
 extern MethodInfo Transform_Rotate_m621_MethodInfo;
 struct Component_t185;
 // UnityEngine.Component
@@ -97,8 +97,8 @@ extern "C" Object_t * Component_GetComponent_TisObject_t_m585_gshared (Component
 #define Component_GetComponent_TisObject_t_m585(__this, method) (( Object_t * (*) (Component_t185 *, MethodInfo*))Component_GetComponent_TisObject_t_m585_gshared)(__this, method)
 // Declaration !!0 UnityEngine.Component::GetComponent<UnityEngine.Transform>()
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Transform>()
-#define Component_GetComponent_TisTransform_t2_m1264(__this, method) (( Transform_t2 * (*) (Component_t185 *, MethodInfo*))Component_GetComponent_TisObject_t_m585_gshared)(__this, method)
-extern Il2CppGenericMethod Component_GetComponent_TisTransform_t2_m1264_GenericMethod;
+#define Component_GetComponent_TisTransform_t2_m1274(__this, method) (( Transform_t2 * (*) (Component_t185 *, MethodInfo*))Component_GetComponent_TisObject_t_m585_gshared)(__this, method)
+extern Il2CppGenericMethod Component_GetComponent_TisTransform_t2_m1274_GenericMethod;
 
 
 // System.Void CameraFollowExample::.ctor()
@@ -113,17 +113,17 @@ extern "C" void CameraFollowExample__ctor_m1108 (CameraFollowExample_t253 * __th
 }
 // System.Void CameraFollowExample::Start()
 extern MethodInfo CameraFollowExample_Start_m1109_MethodInfo;
-extern MethodInfo* Component_GetComponent_TisTransform_t2_m1264_MethodInfo_var;
+extern MethodInfo* Component_GetComponent_TisTransform_t2_m1274_MethodInfo_var;
 extern "C" void CameraFollowExample_Start_m1109 (CameraFollowExample_t253 * __this, MethodInfo* method)
 {
 	static bool CameraFollowExample_Start_m1109_init;
 	if (!CameraFollowExample_Start_m1109_init)
 	{
-		Component_GetComponent_TisTransform_t2_m1264_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisTransform_t2_m1264_GenericMethod);
+		Component_GetComponent_TisTransform_t2_m1274_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisTransform_t2_m1274_GenericMethod);
 		CameraFollowExample_Start_m1109_init = true;
 	}
 	{
-		Transform_t2 * L_0 = Component_GetComponent_TisTransform_t2_m1264(__this, /*hidden argument*/Component_GetComponent_TisTransform_t2_m1264_MethodInfo_var);
+		Transform_t2 * L_0 = Component_GetComponent_TisTransform_t2_m1274(__this, /*hidden argument*/Component_GetComponent_TisTransform_t2_m1274_MethodInfo_var);
 		__this->____transformCache_4 = L_0;
 		Transform_t2 * L_1 = (__this->____transformCache_4);
 		NullCheck(L_1);
@@ -162,7 +162,7 @@ extern "C" void CameraFollowExample_Update_m1110 (CameraFollowExample_t253 * __t
 		Transform_t2 * L_10 = (__this->____parentTransformCache_5);
 		float L_11 = V_0;
 		NullCheck(L_10);
-		Transform_Rotate_m1263(L_10, (0.0f), L_11, (0.0f), 0, /*hidden argument*/&Transform_Rotate_m1263_MethodInfo);
+		Transform_Rotate_m1273(L_10, (0.0f), L_11, (0.0f), 0, /*hidden argument*/&Transform_Rotate_m1273_MethodInfo);
 		Transform_t2 * L_12 = (__this->____parentTransformCache_5);
 		float L_13 = V_1;
 		NullCheck(L_12);
@@ -381,15 +381,15 @@ extern TypeInfo Vector3_t8_il2cpp_TypeInfo;
 // UnityEngine.CharacterController
 #include "UnityEngine_UnityEngine_CharacterControllerMethodDeclarations.h"
 extern MethodInfo Camera_get_main_m663_MethodInfo;
-extern MethodInfo Transform_FindChild_m1265_MethodInfo;
+extern MethodInfo Transform_FindChild_m1275_MethodInfo;
 extern MethodInfo Vector3__ctor_m700_MethodInfo;
 extern MethodInfo Controller3DExample_CommonMovementMethod_m1121_MethodInfo;
-extern MethodInfo Transform_TransformDirection_m1266_MethodInfo;
+extern MethodInfo Transform_TransformDirection_m1276_MethodInfo;
 extern MethodInfo Vector3_Normalize_m728_MethodInfo;
 extern MethodInfo Controller3DExample_FaceDirection_m1122_MethodInfo;
 extern MethodInfo Vector3_op_Multiply_m633_MethodInfo;
 extern MethodInfo CharacterController_Move_m677_MethodInfo;
-extern MethodInfo MonoBehaviour_StopCoroutine_m1267_MethodInfo;
+extern MethodInfo MonoBehaviour_StopCoroutine_m1277_MethodInfo;
 extern MethodInfo MonoBehaviour_StartCoroutine_m962_MethodInfo;
 struct Component_t185;
 // UnityEngine.CastHelper`1<UnityEngine.CharacterController>
@@ -413,14 +413,14 @@ extern "C" void Controller3DExample__ctor_m1117 (Controller3DExample_t254 * __th
 // System.Void Controller3DExample::Start()
 extern MethodInfo Controller3DExample_Start_m1118_MethodInfo;
 extern MethodInfo* Component_GetComponent_TisCharacterController_t27_m690_MethodInfo_var;
-extern MethodInfo* Component_GetComponent_TisTransform_t2_m1264_MethodInfo_var;
+extern MethodInfo* Component_GetComponent_TisTransform_t2_m1274_MethodInfo_var;
 extern "C" void Controller3DExample_Start_m1118 (Controller3DExample_t254 * __this, MethodInfo* method)
 {
 	static bool Controller3DExample_Start_m1118_init;
 	if (!Controller3DExample_Start_m1118_init)
 	{
 		Component_GetComponent_TisCharacterController_t27_m690_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisCharacterController_t27_m690_GenericMethod);
-		Component_GetComponent_TisTransform_t2_m1264_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisTransform_t2_m1264_GenericMethod);
+		Component_GetComponent_TisTransform_t2_m1274_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisTransform_t2_m1274_GenericMethod);
 		Controller3DExample_Start_m1118_init = true;
 	}
 	{
@@ -428,13 +428,13 @@ extern "C" void Controller3DExample_Start_m1118 (Controller3DExample_t254 * __th
 		__this->____characterController_5 = L_0;
 		Camera_t19 * L_1 = Camera_get_main_m663(NULL /*static, unused*/, /*hidden argument*/&Camera_get_main_m663_MethodInfo);
 		NullCheck(L_1);
-		Transform_t2 * L_2 = Component_GetComponent_TisTransform_t2_m1264(L_1, /*hidden argument*/Component_GetComponent_TisTransform_t2_m1264_MethodInfo_var);
+		Transform_t2 * L_2 = Component_GetComponent_TisTransform_t2_m1274(L_1, /*hidden argument*/Component_GetComponent_TisTransform_t2_m1274_MethodInfo_var);
 		__this->____mainCameraTransform_6 = L_2;
-		Transform_t2 * L_3 = Component_GetComponent_TisTransform_t2_m1264(__this, /*hidden argument*/Component_GetComponent_TisTransform_t2_m1264_MethodInfo_var);
+		Transform_t2 * L_3 = Component_GetComponent_TisTransform_t2_m1274(__this, /*hidden argument*/Component_GetComponent_TisTransform_t2_m1274_MethodInfo_var);
 		__this->____transformCache_7 = L_3;
 		Transform_t2 * L_4 = (__this->____transformCache_7);
 		NullCheck(L_4);
-		Transform_t2 * L_5 = Transform_FindChild_m1265(L_4, (String_t*) &_stringLiteral70, /*hidden argument*/&Transform_FindChild_m1265_MethodInfo);
+		Transform_t2 * L_5 = Transform_FindChild_m1275(L_4, (String_t*) &_stringLiteral70, /*hidden argument*/&Transform_FindChild_m1275_MethodInfo);
 		__this->____playerTransform_8 = L_5;
 		return;
 	}
@@ -478,7 +478,7 @@ extern "C" void Controller3DExample_CommonMovementMethod_m1121 (Controller3DExam
 		Transform_t2 * L_0 = (__this->____mainCameraTransform_6);
 		Vector3_t8  L_1 = ___movement;
 		NullCheck(L_0);
-		Vector3_t8  L_2 = Transform_TransformDirection_m1266(L_0, L_1, /*hidden argument*/&Transform_TransformDirection_m1266_MethodInfo);
+		Vector3_t8  L_2 = Transform_TransformDirection_m1276(L_0, L_1, /*hidden argument*/&Transform_TransformDirection_m1276_MethodInfo);
 		___movement = L_2;
 		(&___movement)->___y_2 = (0.0f);
 		Vector3_Normalize_m728((&___movement), /*hidden argument*/&Vector3_Normalize_m728_MethodInfo);
@@ -499,7 +499,7 @@ extern "C" void Controller3DExample_CommonMovementMethod_m1121 (Controller3DExam
 extern "C" void Controller3DExample_FaceDirection_m1122 (Controller3DExample_t254 * __this, Vector3_t8  ___direction, MethodInfo* method)
 {
 	{
-		MonoBehaviour_StopCoroutine_m1267(__this, (String_t*) &_stringLiteral71, /*hidden argument*/&MonoBehaviour_StopCoroutine_m1267_MethodInfo);
+		MonoBehaviour_StopCoroutine_m1277(__this, (String_t*) &_stringLiteral71, /*hidden argument*/&MonoBehaviour_StopCoroutine_m1277_MethodInfo);
 		Vector3_t8  L_0 = ___direction;
 		Vector3_t8  L_1 = L_0;
 		Object_t * L_2 = Box(InitializedTypeInfo(&Vector3_t8_il2cpp_TypeInfo), &L_1);
@@ -582,7 +582,7 @@ extern TypeInfo Anchors_t257_il2cpp_TypeInfo;
 extern TypeInfo Vector2_t13_il2cpp_TypeInfo;
 extern TypeInfo Action_2_t258_il2cpp_TypeInfo;
 extern TypeInfo Action_1_t259_il2cpp_TypeInfo;
-extern TypeInfo UnityException_t286_il2cpp_TypeInfo;
+extern TypeInfo UnityException_t288_il2cpp_TypeInfo;
 extern TypeInfo Input_t187_il2cpp_TypeInfo;
 extern TypeInfo Nullable_1_t262_il2cpp_TypeInfo;
 extern TypeInfo Void_t183_il2cpp_TypeInfo;
@@ -619,13 +619,13 @@ extern Il2CppType Action_2_t258_0_0_0;
 extern Il2CppType Action_1_t259_0_0_0;
 extern Il2CppType Nullable_1_t262_0_0_0;
 extern MethodInfo Vector2__ctor_m682_MethodInfo;
-extern MethodInfo Delegate_Combine_m1268_MethodInfo;
-extern MethodInfo Delegate_Remove_m1269_MethodInfo;
+extern MethodInfo Delegate_Combine_m1278_MethodInfo;
+extern MethodInfo Delegate_Remove_m1279_MethodInfo;
 extern MethodInfo CNAbstractController_get_AxisNameX_m1133_MethodInfo;
 extern MethodInfo CNAbstractController_get_AxisNameY_m1135_MethodInfo;
 extern MethodInfo String_op_Equality_m751_MethodInfo;
 extern MethodInfo String_Concat_m797_MethodInfo;
-extern MethodInfo UnityException__ctor_m1270_MethodInfo;
+extern MethodInfo UnityException__ctor_m1280_MethodInfo;
 extern MethodInfo CNAbstractController_get_CurrentAxisValues_m1147_MethodInfo;
 extern MethodInfo Vector2_get_zero_m696_MethodInfo;
 extern MethodInfo CNAbstractController_set_CurrentAxisValues_m1148_MethodInfo;
@@ -638,12 +638,12 @@ extern MethodInfo CNAbstractController_set_ParentCamera_m1144_MethodInfo;
 extern MethodInfo CNAbstractController_InitializePosition_m1163_MethodInfo;
 extern MethodInfo Transform_set_localPosition_m652_MethodInfo;
 extern MethodInfo Input_get_touchCount_m789_MethodInfo;
-extern MethodInfo Input_GetTouch_m1271_MethodInfo;
-extern MethodInfo Touch_get_fingerId_m1272_MethodInfo;
-extern MethodInfo Nullable_1__ctor_m1273_MethodInfo;
+extern MethodInfo Input_GetTouch_m1281_MethodInfo;
+extern MethodInfo Touch_get_fingerId_m1282_MethodInfo;
+extern MethodInfo Nullable_1__ctor_m1283_MethodInfo;
 extern MethodInfo Vector2_op_Implicit_m788_MethodInfo;
-extern MethodInfo Action_2_Invoke_m1274_MethodInfo;
-extern MethodInfo Action_1_Invoke_m1275_MethodInfo;
+extern MethodInfo Action_2_Invoke_m1284_MethodInfo;
+extern MethodInfo Action_1_Invoke_m1285_MethodInfo;
 extern MethodInfo CNAbstractController_get_CalculatedPosition_m1151_MethodInfo;
 extern MethodInfo CNAbstractController_get_ParentCamera_m1143_MethodInfo;
 extern MethodInfo Camera_get_orthographicSize_m894_MethodInfo;
@@ -652,23 +652,23 @@ extern MethodInfo CNAbstractController_get_Anchor_m1131_MethodInfo;
 extern MethodInfo CNAbstractController_get_Margins_m1137_MethodInfo;
 extern MethodInfo Transform_get_position_m599_MethodInfo;
 extern MethodInfo CNAbstractController_get_TouchZoneSize_m1139_MethodInfo;
-extern MethodInfo Rect__ctor_m1276_MethodInfo;
+extern MethodInfo Rect__ctor_m1286_MethodInfo;
 extern MethodInfo CNAbstractController_set_CalculatedTouchZone_m1146_MethodInfo;
 extern MethodInfo CNAbstractController_set_IsCurrentlyTweaking_m1154_MethodInfo;
 extern MethodInfo CNAbstractController_OnFingerLifted_m1162_MethodInfo;
 extern MethodInfo CNAbstractController_get_IsCurrentlyTweaking_m1153_MethodInfo;
 extern MethodInfo CNAbstractController_get_CurrentFingerId_m1149_MethodInfo;
 extern MethodInfo CNAbstractController_GetTouchByFingerId_m1159_MethodInfo;
-extern MethodInfo Touch_get_phase_m1277_MethodInfo;
+extern MethodInfo Touch_get_phase_m1287_MethodInfo;
 extern MethodInfo CNAbstractController_ResetControlState_m1164_MethodInfo;
 extern MethodInfo Touch_get_position_m791_MethodInfo;
-extern MethodInfo CNAbstractController_TweakControl_m1278_MethodInfo;
+extern MethodInfo CNAbstractController_TweakControl_m1288_MethodInfo;
 extern MethodInfo CNAbstractController_IsTouchInZone_m1167_MethodInfo;
 extern MethodInfo CNAbstractController_set_CurrentFingerId_m1150_MethodInfo;
 extern MethodInfo CNAbstractController_OnFingerTouched_m1161_MethodInfo;
 extern MethodInfo CNAbstractController_get_CalculatedTouchZone_m1145_MethodInfo;
-extern MethodInfo Camera_ScreenToWorldPoint_m1279_MethodInfo;
-extern MethodInfo Rect_Contains_m1280_MethodInfo;
+extern MethodInfo Camera_ScreenToWorldPoint_m1289_MethodInfo;
+extern MethodInfo Rect_Contains_m1290_MethodInfo;
 struct Component_t185;
 // UnityEngine.CastHelper`1<UnityEngine.Camera>
 #include "UnityEngine_UnityEngine_CastHelper_1_gen_9.h"
@@ -676,13 +676,13 @@ struct Component_t185;
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Camera>()
 #define Component_GetComponent_TisCamera_t19_m965(__this, method) (( Camera_t19 * (*) (Component_t185 *, MethodInfo*))Component_GetComponent_TisObject_t_m585_gshared)(__this, method)
 extern Il2CppGenericMethod Component_GetComponent_TisCamera_t19_m965_GenericMethod;
-extern Il2CppGenericMethod Nullable_1__ctor_m1273_GenericMethod;
-extern Il2CppGenericMethod Action_2_Invoke_m1274_GenericMethod;
-extern Il2CppGenericMethod Action_1_Invoke_m1275_GenericMethod;
-extern Il2CppGenericMethod Nullable_1_get_HasValue_m1281_GenericMethod;
-extern Il2CppGenericMethod Nullable_1_get_Value_m1282_GenericMethod;
-extern Il2CppGenericMethod Nullable_1_get_HasValue_m1283_GenericMethod;
-extern Il2CppGenericMethod Nullable_1_get_Value_m1284_GenericMethod;
+extern Il2CppGenericMethod Nullable_1__ctor_m1283_GenericMethod;
+extern Il2CppGenericMethod Action_2_Invoke_m1284_GenericMethod;
+extern Il2CppGenericMethod Action_1_Invoke_m1285_GenericMethod;
+extern Il2CppGenericMethod Nullable_1_get_HasValue_m1291_GenericMethod;
+extern Il2CppGenericMethod Nullable_1_get_Value_m1292_GenericMethod;
+extern Il2CppGenericMethod Nullable_1_get_HasValue_m1293_GenericMethod;
+extern Il2CppGenericMethod Nullable_1_get_Value_m1294_GenericMethod;
 
 
 // System.Void CNAbstractController::.ctor()
@@ -717,7 +717,7 @@ extern "C" void CNAbstractController_add_ControllerMovedEvent_m1125 (CNAbstractC
 	{
 		Action_2_t258 * L_0 = (__this->___ControllerMovedEvent_9);
 		Action_2_t258 * L_1 = ___value;
-		Delegate_t287 * L_2 = Delegate_Combine_m1268(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Delegate_Combine_m1268_MethodInfo);
+		Delegate_t289 * L_2 = Delegate_Combine_m1278(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Delegate_Combine_m1278_MethodInfo);
 		__this->___ControllerMovedEvent_9 = ((Action_2_t258 *)Castclass(L_2, Action_2_t258_il2cpp_TypeInfo_var));
 		return;
 	}
@@ -736,7 +736,7 @@ extern "C" void CNAbstractController_remove_ControllerMovedEvent_m1126 (CNAbstra
 	{
 		Action_2_t258 * L_0 = (__this->___ControllerMovedEvent_9);
 		Action_2_t258 * L_1 = ___value;
-		Delegate_t287 * L_2 = Delegate_Remove_m1269(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Delegate_Remove_m1269_MethodInfo);
+		Delegate_t289 * L_2 = Delegate_Remove_m1279(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Delegate_Remove_m1279_MethodInfo);
 		__this->___ControllerMovedEvent_9 = ((Action_2_t258 *)Castclass(L_2, Action_2_t258_il2cpp_TypeInfo_var));
 		return;
 	}
@@ -755,7 +755,7 @@ extern "C" void CNAbstractController_add_FingerTouchedEvent_m1127 (CNAbstractCon
 	{
 		Action_1_t259 * L_0 = (__this->___FingerTouchedEvent_10);
 		Action_1_t259 * L_1 = ___value;
-		Delegate_t287 * L_2 = Delegate_Combine_m1268(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Delegate_Combine_m1268_MethodInfo);
+		Delegate_t289 * L_2 = Delegate_Combine_m1278(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Delegate_Combine_m1278_MethodInfo);
 		__this->___FingerTouchedEvent_10 = ((Action_1_t259 *)Castclass(L_2, Action_1_t259_il2cpp_TypeInfo_var));
 		return;
 	}
@@ -774,7 +774,7 @@ extern "C" void CNAbstractController_remove_FingerTouchedEvent_m1128 (CNAbstract
 	{
 		Action_1_t259 * L_0 = (__this->___FingerTouchedEvent_10);
 		Action_1_t259 * L_1 = ___value;
-		Delegate_t287 * L_2 = Delegate_Remove_m1269(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Delegate_Remove_m1269_MethodInfo);
+		Delegate_t289 * L_2 = Delegate_Remove_m1279(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Delegate_Remove_m1279_MethodInfo);
 		__this->___FingerTouchedEvent_10 = ((Action_1_t259 *)Castclass(L_2, Action_1_t259_il2cpp_TypeInfo_var));
 		return;
 	}
@@ -793,7 +793,7 @@ extern "C" void CNAbstractController_add_FingerLiftedEvent_m1129 (CNAbstractCont
 	{
 		Action_1_t259 * L_0 = (__this->___FingerLiftedEvent_11);
 		Action_1_t259 * L_1 = ___value;
-		Delegate_t287 * L_2 = Delegate_Combine_m1268(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Delegate_Combine_m1268_MethodInfo);
+		Delegate_t289 * L_2 = Delegate_Combine_m1278(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Delegate_Combine_m1278_MethodInfo);
 		__this->___FingerLiftedEvent_11 = ((Action_1_t259 *)Castclass(L_2, Action_1_t259_il2cpp_TypeInfo_var));
 		return;
 	}
@@ -812,7 +812,7 @@ extern "C" void CNAbstractController_remove_FingerLiftedEvent_m1130 (CNAbstractC
 	{
 		Action_1_t259 * L_0 = (__this->___FingerLiftedEvent_11);
 		Action_1_t259 * L_1 = ___value;
-		Delegate_t287 * L_2 = Delegate_Remove_m1269(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Delegate_Remove_m1269_MethodInfo);
+		Delegate_t289 * L_2 = Delegate_Remove_m1279(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Delegate_Remove_m1279_MethodInfo);
 		__this->___FingerLiftedEvent_11 = ((Action_1_t259 *)Castclass(L_2, Action_1_t259_il2cpp_TypeInfo_var));
 		return;
 	}
@@ -1072,8 +1072,8 @@ IL_0040:
 		String_t* L_8 = ___axisName;
 		IL2CPP_RUNTIME_CLASS_INIT((&String_t_il2cpp_TypeInfo));
 		String_t* L_9 = String_Concat_m797(NULL /*static, unused*/, (String_t*) &_stringLiteral72, L_8, (String_t*) &_stringLiteral73, /*hidden argument*/&String_Concat_m797_MethodInfo);
-		UnityException_t286 * L_10 = (UnityException_t286 *)il2cpp_codegen_object_new (InitializedTypeInfo(&UnityException_t286_il2cpp_TypeInfo));
-		UnityException__ctor_m1270(L_10, L_9, /*hidden argument*/&UnityException__ctor_m1270_MethodInfo);
+		UnityException_t288 * L_10 = (UnityException_t288 *)il2cpp_codegen_object_new (InitializedTypeInfo(&UnityException_t288_il2cpp_TypeInfo));
+		UnityException__ctor_m1280(L_10, L_9, /*hidden argument*/&UnityException__ctor_m1280_MethodInfo);
 		il2cpp_codegen_raise_exception(L_10);
 	}
 
@@ -1118,8 +1118,8 @@ IL_0096:
 		String_t* L_21 = ___axisName;
 		IL2CPP_RUNTIME_CLASS_INIT((&String_t_il2cpp_TypeInfo));
 		String_t* L_22 = String_Concat_m797(NULL /*static, unused*/, (String_t*) &_stringLiteral72, L_21, (String_t*) &_stringLiteral73, /*hidden argument*/&String_Concat_m797_MethodInfo);
-		UnityException_t286 * L_23 = (UnityException_t286 *)il2cpp_codegen_object_new (InitializedTypeInfo(&UnityException_t286_il2cpp_TypeInfo));
-		UnityException__ctor_m1270(L_23, L_22, /*hidden argument*/&UnityException__ctor_m1270_MethodInfo);
+		UnityException_t288 * L_23 = (UnityException_t288 *)il2cpp_codegen_object_new (InitializedTypeInfo(&UnityException_t288_il2cpp_TypeInfo));
+		UnityException__ctor_m1280(L_23, L_22, /*hidden argument*/&UnityException__ctor_m1280_MethodInfo);
 		il2cpp_codegen_raise_exception(L_23);
 	}
 }
@@ -1151,19 +1151,19 @@ extern "C" void CNAbstractController_Enable_m1157 (CNAbstractController_t252 * _
 }
 // System.Void CNAbstractController::OnEnable()
 extern MethodInfo CNAbstractController_OnEnable_m1158_MethodInfo;
-extern MethodInfo* Component_GetComponent_TisTransform_t2_m1264_MethodInfo_var;
+extern MethodInfo* Component_GetComponent_TisTransform_t2_m1274_MethodInfo_var;
 extern MethodInfo* Component_GetComponent_TisCamera_t19_m965_MethodInfo_var;
 extern "C" void CNAbstractController_OnEnable_m1158 (CNAbstractController_t252 * __this, MethodInfo* method)
 {
 	static bool CNAbstractController_OnEnable_m1158_init;
 	if (!CNAbstractController_OnEnable_m1158_init)
 	{
-		Component_GetComponent_TisTransform_t2_m1264_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisTransform_t2_m1264_GenericMethod);
+		Component_GetComponent_TisTransform_t2_m1274_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisTransform_t2_m1274_GenericMethod);
 		Component_GetComponent_TisCamera_t19_m965_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisCamera_t19_m965_GenericMethod);
 		CNAbstractController_OnEnable_m1158_init = true;
 	}
 	{
-		Transform_t2 * L_0 = Component_GetComponent_TisTransform_t2_m1264(__this, /*hidden argument*/Component_GetComponent_TisTransform_t2_m1264_MethodInfo_var);
+		Transform_t2 * L_0 = Component_GetComponent_TisTransform_t2_m1274(__this, /*hidden argument*/Component_GetComponent_TisTransform_t2_m1274_MethodInfo_var);
 		CNAbstractController_set_TransformCache_m1142(__this, L_0, /*hidden argument*/&CNAbstractController_set_TransformCache_m1142_MethodInfo);
 		Transform_t2 * L_1 = CNAbstractController_get_TransformCache_m1141(__this, /*hidden argument*/&CNAbstractController_get_TransformCache_m1141_MethodInfo);
 		NullCheck(L_1);
@@ -1180,14 +1180,14 @@ extern "C" void CNAbstractController_OnEnable_m1158 (CNAbstractController_t252 *
 }
 // System.Nullable`1<UnityEngine.Touch> CNAbstractController::GetTouchByFingerId(System.Int32)
 extern TypeInfo* Nullable_1_t262_il2cpp_TypeInfo_var;
-extern MethodInfo* Nullable_1__ctor_m1273_MethodInfo_var;
+extern MethodInfo* Nullable_1__ctor_m1283_MethodInfo_var;
 extern "C" Nullable_1_t262  CNAbstractController_GetTouchByFingerId_m1159 (CNAbstractController_t252 * __this, int32_t ___fingerId, MethodInfo* method)
 {
 	static bool CNAbstractController_GetTouchByFingerId_m1159_init;
 	if (!CNAbstractController_GetTouchByFingerId_m1159_init)
 	{
 		Nullable_1_t262_il2cpp_TypeInfo_var = il2cpp_codegen_class_from_type(&Nullable_1_t262_0_0_0);
-		Nullable_1__ctor_m1273_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Nullable_1__ctor_m1273_GenericMethod);
+		Nullable_1__ctor_m1283_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Nullable_1__ctor_m1283_GenericMethod);
 		CNAbstractController_GetTouchByFingerId_m1159_init = true;
 	}
 	int32_t V_0 = 0;
@@ -1206,9 +1206,9 @@ IL_000d:
 	{
 		int32_t L_1 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Input_t187_il2cpp_TypeInfo));
-		Touch_t206  L_2 = Input_GetTouch_m1271(NULL /*static, unused*/, L_1, /*hidden argument*/&Input_GetTouch_m1271_MethodInfo);
+		Touch_t206  L_2 = Input_GetTouch_m1281(NULL /*static, unused*/, L_1, /*hidden argument*/&Input_GetTouch_m1281_MethodInfo);
 		V_2 = L_2;
-		int32_t L_3 = Touch_get_fingerId_m1272((&V_2), /*hidden argument*/&Touch_get_fingerId_m1272_MethodInfo);
+		int32_t L_3 = Touch_get_fingerId_m1282((&V_2), /*hidden argument*/&Touch_get_fingerId_m1282_MethodInfo);
 		int32_t L_4 = ___fingerId;
 		if ((!(((uint32_t)L_3) == ((uint32_t)L_4))))
 		{
@@ -1218,7 +1218,7 @@ IL_000d:
 	{
 		Touch_t206  L_5 = V_2;
 		Nullable_1_t262  L_6 = {0};
-		Nullable_1__ctor_m1273(&L_6, L_5, /*hidden argument*/Nullable_1__ctor_m1273_MethodInfo_var);
+		Nullable_1__ctor_m1283(&L_6, L_5, /*hidden argument*/Nullable_1__ctor_m1283_MethodInfo_var);
 		return L_6;
 	}
 
@@ -1245,13 +1245,13 @@ IL_002c:
 }
 // System.Void CNAbstractController::OnControllerMoved(UnityEngine.Vector2)
 extern MethodInfo CNAbstractController_OnControllerMoved_m1160_MethodInfo;
-extern MethodInfo* Action_2_Invoke_m1274_MethodInfo_var;
+extern MethodInfo* Action_2_Invoke_m1284_MethodInfo_var;
 extern "C" void CNAbstractController_OnControllerMoved_m1160 (CNAbstractController_t252 * __this, Vector2_t13  ___input, MethodInfo* method)
 {
 	static bool CNAbstractController_OnControllerMoved_m1160_init;
 	if (!CNAbstractController_OnControllerMoved_m1160_init)
 	{
-		Action_2_Invoke_m1274_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Action_2_Invoke_m1274_GenericMethod);
+		Action_2_Invoke_m1284_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Action_2_Invoke_m1284_GenericMethod);
 		CNAbstractController_OnControllerMoved_m1160_init = true;
 	}
 	{
@@ -1266,7 +1266,7 @@ extern "C" void CNAbstractController_OnControllerMoved_m1160 (CNAbstractControll
 		Vector2_t13  L_2 = ___input;
 		Vector3_t8  L_3 = Vector2_op_Implicit_m788(NULL /*static, unused*/, L_2, /*hidden argument*/&Vector2_op_Implicit_m788_MethodInfo);
 		NullCheck(L_1);
-		VirtActionInvoker2< Vector3_t8 , CNAbstractController_t252 * >::Invoke(Action_2_Invoke_m1274_MethodInfo_var, L_1, L_3, __this);
+		VirtActionInvoker2< Vector3_t8 , CNAbstractController_t252 * >::Invoke(Action_2_Invoke_m1284_MethodInfo_var, L_1, L_3, __this);
 	}
 
 IL_001d:
@@ -1275,13 +1275,13 @@ IL_001d:
 	}
 }
 // System.Void CNAbstractController::OnFingerTouched()
-extern MethodInfo* Action_1_Invoke_m1275_MethodInfo_var;
+extern MethodInfo* Action_1_Invoke_m1285_MethodInfo_var;
 extern "C" void CNAbstractController_OnFingerTouched_m1161 (CNAbstractController_t252 * __this, MethodInfo* method)
 {
 	static bool CNAbstractController_OnFingerTouched_m1161_init;
 	if (!CNAbstractController_OnFingerTouched_m1161_init)
 	{
-		Action_1_Invoke_m1275_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Action_1_Invoke_m1275_GenericMethod);
+		Action_1_Invoke_m1285_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Action_1_Invoke_m1285_GenericMethod);
 		CNAbstractController_OnFingerTouched_m1161_init = true;
 	}
 	{
@@ -1294,7 +1294,7 @@ extern "C" void CNAbstractController_OnFingerTouched_m1161 (CNAbstractController
 	{
 		Action_1_t259 * L_1 = (__this->___FingerTouchedEvent_10);
 		NullCheck(L_1);
-		VirtActionInvoker1< CNAbstractController_t252 * >::Invoke(Action_1_Invoke_m1275_MethodInfo_var, L_1, __this);
+		VirtActionInvoker1< CNAbstractController_t252 * >::Invoke(Action_1_Invoke_m1285_MethodInfo_var, L_1, __this);
 	}
 
 IL_0017:
@@ -1303,13 +1303,13 @@ IL_0017:
 	}
 }
 // System.Void CNAbstractController::OnFingerLifted()
-extern MethodInfo* Action_1_Invoke_m1275_MethodInfo_var;
+extern MethodInfo* Action_1_Invoke_m1285_MethodInfo_var;
 extern "C" void CNAbstractController_OnFingerLifted_m1162 (CNAbstractController_t252 * __this, MethodInfo* method)
 {
 	static bool CNAbstractController_OnFingerLifted_m1162_init;
 	if (!CNAbstractController_OnFingerLifted_m1162_init)
 	{
-		Action_1_Invoke_m1275_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Action_1_Invoke_m1275_GenericMethod);
+		Action_1_Invoke_m1285_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Action_1_Invoke_m1285_GenericMethod);
 		CNAbstractController_OnFingerLifted_m1162_init = true;
 	}
 	{
@@ -1322,7 +1322,7 @@ extern "C" void CNAbstractController_OnFingerLifted_m1162 (CNAbstractController_
 	{
 		Action_1_t259 * L_1 = (__this->___FingerLiftedEvent_11);
 		NullCheck(L_1);
-		VirtActionInvoker1< CNAbstractController_t252 * >::Invoke(Action_1_Invoke_m1275_MethodInfo_var, L_1, __this);
+		VirtActionInvoker1< CNAbstractController_t252 * >::Invoke(Action_1_Invoke_m1285_MethodInfo_var, L_1, __this);
 	}
 
 IL_0017:
@@ -1331,15 +1331,15 @@ IL_0017:
 	}
 }
 // UnityEngine.Vector3 CNAbstractController::InitializePosition()
-extern MethodInfo* Nullable_1_get_HasValue_m1281_MethodInfo_var;
-extern MethodInfo* Nullable_1_get_Value_m1282_MethodInfo_var;
+extern MethodInfo* Nullable_1_get_HasValue_m1291_MethodInfo_var;
+extern MethodInfo* Nullable_1_get_Value_m1292_MethodInfo_var;
 extern "C" Vector3_t8  CNAbstractController_InitializePosition_m1163 (CNAbstractController_t252 * __this, MethodInfo* method)
 {
 	static bool CNAbstractController_InitializePosition_m1163_init;
 	if (!CNAbstractController_InitializePosition_m1163_init)
 	{
-		Nullable_1_get_HasValue_m1281_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Nullable_1_get_HasValue_m1281_GenericMethod);
-		Nullable_1_get_Value_m1282_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Nullable_1_get_Value_m1282_GenericMethod);
+		Nullable_1_get_HasValue_m1291_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Nullable_1_get_HasValue_m1291_GenericMethod);
+		Nullable_1_get_Value_m1292_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Nullable_1_get_Value_m1292_GenericMethod);
 		CNAbstractController_InitializePosition_m1163_init = true;
 	}
 	float V_0 = 0.0f;
@@ -1360,7 +1360,7 @@ extern "C" Vector3_t8  CNAbstractController_InitializePosition_m1163 (CNAbstract
 	{
 		Nullable_1_t261  L_0 = CNAbstractController_get_CalculatedPosition_m1151(__this, /*hidden argument*/&CNAbstractController_get_CalculatedPosition_m1151_MethodInfo);
 		V_3 = L_0;
-		bool L_1 = Nullable_1_get_HasValue_m1281((&V_3), /*hidden argument*/Nullable_1_get_HasValue_m1281_MethodInfo_var);
+		bool L_1 = Nullable_1_get_HasValue_m1291((&V_3), /*hidden argument*/Nullable_1_get_HasValue_m1291_MethodInfo_var);
 		if (!L_1)
 		{
 			goto IL_0023;
@@ -1369,7 +1369,7 @@ extern "C" Vector3_t8  CNAbstractController_InitializePosition_m1163 (CNAbstract
 	{
 		Nullable_1_t261  L_2 = CNAbstractController_get_CalculatedPosition_m1151(__this, /*hidden argument*/&CNAbstractController_get_CalculatedPosition_m1151_MethodInfo);
 		V_4 = L_2;
-		Vector3_t8  L_3 = Nullable_1_get_Value_m1282((&V_4), /*hidden argument*/Nullable_1_get_Value_m1282_MethodInfo_var);
+		Vector3_t8  L_3 = Nullable_1_get_Value_m1292((&V_4), /*hidden argument*/Nullable_1_get_Value_m1292_MethodInfo_var);
 		return L_3;
 	}
 
@@ -1460,7 +1460,7 @@ IL_00d9:
 		V_14 = L_35;
 		float L_36 = ((&V_14)->___y_2);
 		Rect_t260  L_37 = {0};
-		Rect__ctor_m1276(&L_37, ((float)((float)L_25-(float)((float)((float)L_27/(float)(2.0f))))), ((float)((float)L_30-(float)((float)((float)L_32/(float)(2.0f))))), L_34, L_36, /*hidden argument*/&Rect__ctor_m1276_MethodInfo);
+		Rect__ctor_m1286(&L_37, ((float)((float)L_25-(float)((float)((float)L_27/(float)(2.0f))))), ((float)((float)L_30-(float)((float)((float)L_32/(float)(2.0f))))), L_34, L_36, /*hidden argument*/&Rect__ctor_m1286_MethodInfo);
 		CNAbstractController_set_CalculatedTouchZone_m1146(__this, L_37, /*hidden argument*/&CNAbstractController_set_CalculatedTouchZone_m1146_MethodInfo);
 		Vector3_t8  L_38 = V_2;
 		return L_38;
@@ -1479,15 +1479,15 @@ extern "C" void CNAbstractController_ResetControlState_m1164 (CNAbstractControll
 }
 // System.Boolean CNAbstractController::TweakIfNeeded()
 extern MethodInfo CNAbstractController_TweakIfNeeded_m1165_MethodInfo;
-extern MethodInfo* Nullable_1_get_HasValue_m1283_MethodInfo_var;
-extern MethodInfo* Nullable_1_get_Value_m1284_MethodInfo_var;
+extern MethodInfo* Nullable_1_get_HasValue_m1293_MethodInfo_var;
+extern MethodInfo* Nullable_1_get_Value_m1294_MethodInfo_var;
 extern "C" bool CNAbstractController_TweakIfNeeded_m1165 (CNAbstractController_t252 * __this, MethodInfo* method)
 {
 	static bool CNAbstractController_TweakIfNeeded_m1165_init;
 	if (!CNAbstractController_TweakIfNeeded_m1165_init)
 	{
-		Nullable_1_get_HasValue_m1283_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Nullable_1_get_HasValue_m1283_GenericMethod);
-		Nullable_1_get_Value_m1284_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Nullable_1_get_Value_m1284_GenericMethod);
+		Nullable_1_get_HasValue_m1293_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Nullable_1_get_HasValue_m1293_GenericMethod);
+		Nullable_1_get_Value_m1294_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Nullable_1_get_Value_m1294_GenericMethod);
 		CNAbstractController_TweakIfNeeded_m1165_init = true;
 	}
 	Nullable_1_t262  V_0 = {0};
@@ -1504,16 +1504,16 @@ extern "C" bool CNAbstractController_TweakIfNeeded_m1165 (CNAbstractController_t
 		int32_t L_1 = CNAbstractController_get_CurrentFingerId_m1149(__this, /*hidden argument*/&CNAbstractController_get_CurrentFingerId_m1149_MethodInfo);
 		Nullable_1_t262  L_2 = (Nullable_1_t262 )VirtFuncInvoker1< Nullable_1_t262 , int32_t >::Invoke(&CNAbstractController_GetTouchByFingerId_m1159_MethodInfo, __this, L_1);
 		V_0 = L_2;
-		bool L_3 = Nullable_1_get_HasValue_m1283((&V_0), /*hidden argument*/Nullable_1_get_HasValue_m1283_MethodInfo_var);
+		bool L_3 = Nullable_1_get_HasValue_m1293((&V_0), /*hidden argument*/Nullable_1_get_HasValue_m1293_MethodInfo_var);
 		if (((((int32_t)L_3) == ((int32_t)0))? 1 : 0))
 		{
 			goto IL_003c;
 		}
 	}
 	{
-		Touch_t206  L_4 = Nullable_1_get_Value_m1284((&V_0), /*hidden argument*/Nullable_1_get_Value_m1284_MethodInfo_var);
+		Touch_t206  L_4 = Nullable_1_get_Value_m1294((&V_0), /*hidden argument*/Nullable_1_get_Value_m1294_MethodInfo_var);
 		V_1 = L_4;
-		int32_t L_5 = Touch_get_phase_m1277((&V_1), /*hidden argument*/&Touch_get_phase_m1277_MethodInfo);
+		int32_t L_5 = Touch_get_phase_m1287((&V_1), /*hidden argument*/&Touch_get_phase_m1287_MethodInfo);
 		if ((!(((uint32_t)L_5) == ((uint32_t)3))))
 		{
 			goto IL_0044;
@@ -1528,10 +1528,10 @@ IL_003c:
 
 IL_0044:
 	{
-		Touch_t206  L_6 = Nullable_1_get_Value_m1284((&V_0), /*hidden argument*/Nullable_1_get_Value_m1284_MethodInfo_var);
+		Touch_t206  L_6 = Nullable_1_get_Value_m1294((&V_0), /*hidden argument*/Nullable_1_get_Value_m1294_MethodInfo_var);
 		V_2 = L_6;
 		Vector2_t13  L_7 = Touch_get_position_m791((&V_2), /*hidden argument*/&Touch_get_position_m791_MethodInfo);
-		VirtActionInvoker1< Vector2_t13  >::Invoke(&CNAbstractController_TweakControl_m1278_MethodInfo, __this, L_7);
+		VirtActionInvoker1< Vector2_t13  >::Invoke(&CNAbstractController_TweakControl_m1288_MethodInfo, __this, L_7);
 		return 1;
 	}
 
@@ -1559,9 +1559,9 @@ IL_000d:
 	{
 		int32_t L_1 = V_1;
 		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Input_t187_il2cpp_TypeInfo));
-		Touch_t206  L_2 = Input_GetTouch_m1271(NULL /*static, unused*/, L_1, /*hidden argument*/&Input_GetTouch_m1271_MethodInfo);
+		Touch_t206  L_2 = Input_GetTouch_m1281(NULL /*static, unused*/, L_1, /*hidden argument*/&Input_GetTouch_m1281_MethodInfo);
 		V_2 = L_2;
-		int32_t L_3 = Touch_get_phase_m1277((&V_2), /*hidden argument*/&Touch_get_phase_m1277_MethodInfo);
+		int32_t L_3 = Touch_get_phase_m1287((&V_2), /*hidden argument*/&Touch_get_phase_m1287_MethodInfo);
 		if (L_3)
 		{
 			goto IL_0055;
@@ -1577,7 +1577,7 @@ IL_000d:
 	}
 	{
 		CNAbstractController_set_IsCurrentlyTweaking_m1154(__this, 1, /*hidden argument*/&CNAbstractController_set_IsCurrentlyTweaking_m1154_MethodInfo);
-		int32_t L_6 = Touch_get_fingerId_m1272((&V_2), /*hidden argument*/&Touch_get_fingerId_m1272_MethodInfo);
+		int32_t L_6 = Touch_get_fingerId_m1282((&V_2), /*hidden argument*/&Touch_get_fingerId_m1282_MethodInfo);
 		CNAbstractController_set_CurrentFingerId_m1150(__this, L_6, /*hidden argument*/&CNAbstractController_set_CurrentFingerId_m1150_MethodInfo);
 		VirtActionInvoker0::Invoke(&CNAbstractController_OnFingerTouched_m1161_MethodInfo, __this);
 		Touch_t206 * L_7 = ___capturedTouch;
@@ -1618,8 +1618,8 @@ extern "C" bool CNAbstractController_IsTouchInZone_m1167 (CNAbstractController_t
 		Vector2_t13  L_2 = ___touchPosition;
 		Vector3_t8  L_3 = Vector2_op_Implicit_m788(NULL /*static, unused*/, L_2, /*hidden argument*/&Vector2_op_Implicit_m788_MethodInfo);
 		NullCheck(L_1);
-		Vector3_t8  L_4 = Camera_ScreenToWorldPoint_m1279(L_1, L_3, /*hidden argument*/&Camera_ScreenToWorldPoint_m1279_MethodInfo);
-		bool L_5 = Rect_Contains_m1280((&V_0), L_4, 0, /*hidden argument*/&Rect_Contains_m1280_MethodInfo);
+		Vector3_t8  L_4 = Camera_ScreenToWorldPoint_m1289(L_1, L_3, /*hidden argument*/&Camera_ScreenToWorldPoint_m1289_MethodInfo);
+		bool L_5 = Rect_Contains_m1290((&V_0), L_4, 0, /*hidden argument*/&Rect_Contains_m1290_MethodInfo);
 		return L_5;
 	}
 }
@@ -1635,7 +1635,7 @@ extern TypeInfo CNJoystick_t263_il2cpp_TypeInfo;
 
 extern TypeInfo Boolean_t202_il2cpp_TypeInfo;
 extern MethodInfo CNJoystick_get_IsHiddenIfNotTweaking_m1173_MethodInfo;
-extern MethodInfo GameObject_get_gameObject_m1285_MethodInfo;
+extern MethodInfo GameObject_get_gameObject_m1295_MethodInfo;
 extern MethodInfo CNJoystick_PlaceJoystickBaseUnderTheFinger_m1181_MethodInfo;
 extern MethodInfo CNJoystick_get_DragRadius_m1169_MethodInfo;
 extern MethodInfo Vector3_op_Addition_m634_MethodInfo;
@@ -1711,28 +1711,28 @@ extern "C" void CNJoystick_set_IsHiddenIfNotTweaking_m1174 (CNJoystick_t263 * __
 }
 // System.Void CNJoystick::OnEnable()
 extern MethodInfo CNJoystick_OnEnable_m1175_MethodInfo;
-extern MethodInfo* Component_GetComponent_TisTransform_t2_m1264_MethodInfo_var;
+extern MethodInfo* Component_GetComponent_TisTransform_t2_m1274_MethodInfo_var;
 extern "C" void CNJoystick_OnEnable_m1175 (CNJoystick_t263 * __this, MethodInfo* method)
 {
 	static bool CNJoystick_OnEnable_m1175_init;
 	if (!CNJoystick_OnEnable_m1175_init)
 	{
-		Component_GetComponent_TisTransform_t2_m1264_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisTransform_t2_m1264_GenericMethod);
+		Component_GetComponent_TisTransform_t2_m1274_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisTransform_t2_m1274_GenericMethod);
 		CNJoystick_OnEnable_m1175_init = true;
 	}
 	{
 		CNAbstractController_OnEnable_m1158(__this, /*hidden argument*/&CNAbstractController_OnEnable_m1158_MethodInfo);
 		Transform_t2 * L_0 = CNAbstractController_get_TransformCache_m1141(__this, /*hidden argument*/&CNAbstractController_get_TransformCache_m1141_MethodInfo);
 		NullCheck(L_0);
-		Transform_t2 * L_1 = Transform_FindChild_m1265(L_0, (String_t*) &_stringLiteral74, /*hidden argument*/&Transform_FindChild_m1265_MethodInfo);
+		Transform_t2 * L_1 = Transform_FindChild_m1275(L_0, (String_t*) &_stringLiteral74, /*hidden argument*/&Transform_FindChild_m1275_MethodInfo);
 		NullCheck(L_1);
-		Transform_t2 * L_2 = Component_GetComponent_TisTransform_t2_m1264(L_1, /*hidden argument*/Component_GetComponent_TisTransform_t2_m1264_MethodInfo_var);
+		Transform_t2 * L_2 = Component_GetComponent_TisTransform_t2_m1274(L_1, /*hidden argument*/Component_GetComponent_TisTransform_t2_m1274_MethodInfo_var);
 		__this->____stickTransform_22 = L_2;
 		Transform_t2 * L_3 = CNAbstractController_get_TransformCache_m1141(__this, /*hidden argument*/&CNAbstractController_get_TransformCache_m1141_MethodInfo);
 		NullCheck(L_3);
-		Transform_t2 * L_4 = Transform_FindChild_m1265(L_3, (String_t*) &_stringLiteral75, /*hidden argument*/&Transform_FindChild_m1265_MethodInfo);
+		Transform_t2 * L_4 = Transform_FindChild_m1275(L_3, (String_t*) &_stringLiteral75, /*hidden argument*/&Transform_FindChild_m1275_MethodInfo);
 		NullCheck(L_4);
-		Transform_t2 * L_5 = Component_GetComponent_TisTransform_t2_m1264(L_4, /*hidden argument*/Component_GetComponent_TisTransform_t2_m1264_MethodInfo_var);
+		Transform_t2 * L_5 = Component_GetComponent_TisTransform_t2_m1274(L_4, /*hidden argument*/Component_GetComponent_TisTransform_t2_m1274_MethodInfo_var);
 		__this->____baseTransform_23 = L_5;
 		Transform_t2 * L_6 = (__this->____stickTransform_22);
 		NullCheck(L_6);
@@ -1751,12 +1751,12 @@ extern "C" void CNJoystick_OnEnable_m1175 (CNJoystick_t263 * __this, MethodInfo*
 	{
 		GameObject_t92 * L_11 = (__this->____baseGameObject_25);
 		NullCheck(L_11);
-		GameObject_t92 * L_12 = GameObject_get_gameObject_m1285(L_11, /*hidden argument*/&GameObject_get_gameObject_m1285_MethodInfo);
+		GameObject_t92 * L_12 = GameObject_get_gameObject_m1295(L_11, /*hidden argument*/&GameObject_get_gameObject_m1295_MethodInfo);
 		NullCheck(L_12);
 		GameObject_SetActive_m770(L_12, 0, /*hidden argument*/&GameObject_SetActive_m770_MethodInfo);
 		GameObject_t92 * L_13 = (__this->____stickGameObject_24);
 		NullCheck(L_13);
-		GameObject_t92 * L_14 = GameObject_get_gameObject_m1285(L_13, /*hidden argument*/&GameObject_get_gameObject_m1285_MethodInfo);
+		GameObject_t92 * L_14 = GameObject_get_gameObject_m1295(L_13, /*hidden argument*/&GameObject_get_gameObject_m1295_MethodInfo);
 		NullCheck(L_14);
 		GameObject_SetActive_m770(L_14, 0, /*hidden argument*/&GameObject_SetActive_m770_MethodInfo);
 		goto IL_00b2;
@@ -1766,12 +1766,12 @@ IL_0090:
 	{
 		GameObject_t92 * L_15 = (__this->____baseGameObject_25);
 		NullCheck(L_15);
-		GameObject_t92 * L_16 = GameObject_get_gameObject_m1285(L_15, /*hidden argument*/&GameObject_get_gameObject_m1285_MethodInfo);
+		GameObject_t92 * L_16 = GameObject_get_gameObject_m1295(L_15, /*hidden argument*/&GameObject_get_gameObject_m1295_MethodInfo);
 		NullCheck(L_16);
 		GameObject_SetActive_m770(L_16, 1, /*hidden argument*/&GameObject_SetActive_m770_MethodInfo);
 		GameObject_t92 * L_17 = (__this->____stickGameObject_24);
 		NullCheck(L_17);
-		GameObject_t92 * L_18 = GameObject_get_gameObject_m1285(L_17, /*hidden argument*/&GameObject_get_gameObject_m1285_MethodInfo);
+		GameObject_t92 * L_18 = GameObject_get_gameObject_m1295(L_17, /*hidden argument*/&GameObject_get_gameObject_m1295_MethodInfo);
 		NullCheck(L_18);
 		GameObject_SetActive_m770(L_18, 1, /*hidden argument*/&GameObject_SetActive_m770_MethodInfo);
 	}
@@ -1821,12 +1821,12 @@ IL_0012:
 	{
 		GameObject_t92 * L_1 = (__this->____baseGameObject_25);
 		NullCheck(L_1);
-		GameObject_t92 * L_2 = GameObject_get_gameObject_m1285(L_1, /*hidden argument*/&GameObject_get_gameObject_m1285_MethodInfo);
+		GameObject_t92 * L_2 = GameObject_get_gameObject_m1295(L_1, /*hidden argument*/&GameObject_get_gameObject_m1295_MethodInfo);
 		NullCheck(L_2);
 		GameObject_SetActive_m770(L_2, 0, /*hidden argument*/&GameObject_SetActive_m770_MethodInfo);
 		GameObject_t92 * L_3 = (__this->____stickGameObject_24);
 		NullCheck(L_3);
-		GameObject_t92 * L_4 = GameObject_get_gameObject_m1285(L_3, /*hidden argument*/&GameObject_get_gameObject_m1285_MethodInfo);
+		GameObject_t92 * L_4 = GameObject_get_gameObject_m1295(L_3, /*hidden argument*/&GameObject_get_gameObject_m1295_MethodInfo);
 		NullCheck(L_4);
 		GameObject_SetActive_m770(L_4, 0, /*hidden argument*/&GameObject_SetActive_m770_MethodInfo);
 		return;
@@ -1852,12 +1852,12 @@ IL_0012:
 	{
 		GameObject_t92 * L_1 = (__this->____baseGameObject_25);
 		NullCheck(L_1);
-		GameObject_t92 * L_2 = GameObject_get_gameObject_m1285(L_1, /*hidden argument*/&GameObject_get_gameObject_m1285_MethodInfo);
+		GameObject_t92 * L_2 = GameObject_get_gameObject_m1295(L_1, /*hidden argument*/&GameObject_get_gameObject_m1295_MethodInfo);
 		NullCheck(L_2);
 		GameObject_SetActive_m770(L_2, 1, /*hidden argument*/&GameObject_SetActive_m770_MethodInfo);
 		GameObject_t92 * L_3 = (__this->____stickGameObject_24);
 		NullCheck(L_3);
-		GameObject_t92 * L_4 = GameObject_get_gameObject_m1285(L_3, /*hidden argument*/&GameObject_get_gameObject_m1285_MethodInfo);
+		GameObject_t92 * L_4 = GameObject_get_gameObject_m1295(L_3, /*hidden argument*/&GameObject_get_gameObject_m1295_MethodInfo);
 		NullCheck(L_4);
 		GameObject_SetActive_m770(L_4, 1, /*hidden argument*/&GameObject_SetActive_m770_MethodInfo);
 		return;
@@ -1908,7 +1908,7 @@ extern "C" void CNJoystick_TweakControl_m1180 (CNJoystick_t263 * __this, Vector2
 		Vector2_t13  L_1 = ___touchPosition;
 		Vector3_t8  L_2 = Vector2_op_Implicit_m788(NULL /*static, unused*/, L_1, /*hidden argument*/&Vector2_op_Implicit_m788_MethodInfo);
 		NullCheck(L_0);
-		Vector3_t8  L_3 = Camera_ScreenToWorldPoint_m1279(L_0, L_2, /*hidden argument*/&Camera_ScreenToWorldPoint_m1279_MethodInfo);
+		Vector3_t8  L_3 = Camera_ScreenToWorldPoint_m1289(L_0, L_2, /*hidden argument*/&Camera_ScreenToWorldPoint_m1289_MethodInfo);
 		V_0 = L_3;
 		Vector3_t8  L_4 = V_0;
 		Transform_t2 * L_5 = (__this->____baseTransform_23);
@@ -1980,7 +1980,7 @@ IL_000c:
 		Vector2_t13  L_3 = Touch_get_position_m791((&___touch), /*hidden argument*/&Touch_get_position_m791_MethodInfo);
 		Vector3_t8  L_4 = Vector2_op_Implicit_m788(NULL /*static, unused*/, L_3, /*hidden argument*/&Vector2_op_Implicit_m788_MethodInfo);
 		NullCheck(L_2);
-		Vector3_t8  L_5 = Camera_ScreenToWorldPoint_m1279(L_2, L_4, /*hidden argument*/&Camera_ScreenToWorldPoint_m1279_MethodInfo);
+		Vector3_t8  L_5 = Camera_ScreenToWorldPoint_m1289(L_2, L_4, /*hidden argument*/&Camera_ScreenToWorldPoint_m1289_MethodInfo);
 		V_0 = L_5;
 		Transform_t2 * L_6 = (__this->____baseTransform_23);
 		Vector3_t8  L_7 = V_0;
@@ -2010,7 +2010,7 @@ extern MethodInfo CNTouchpad__ctor_m1187_MethodInfo;
 extern MethodInfo CNTouchpad_Update_m1192_MethodInfo;
 extern MethodInfo Vector2_get_sqrMagnitude_m683_MethodInfo;
 extern MethodInfo CNThrowableTouchpad_get_SpeedDecay_m1183_MethodInfo;
-extern MethodInfo Vector2_op_Multiply_m1286_MethodInfo;
+extern MethodInfo Vector2_op_Multiply_m1296_MethodInfo;
 
 
 // System.Void CNThrowableTouchpad::.ctor()
@@ -2076,7 +2076,7 @@ IL_002a:
 	{
 		Vector2_t13  L_3 = CNAbstractController_get_CurrentAxisValues_m1147(__this, /*hidden argument*/&CNAbstractController_get_CurrentAxisValues_m1147_MethodInfo);
 		float L_4 = CNThrowableTouchpad_get_SpeedDecay_m1183(__this, /*hidden argument*/&CNThrowableTouchpad_get_SpeedDecay_m1183_MethodInfo);
-		Vector2_t13  L_5 = Vector2_op_Multiply_m1286(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/&Vector2_op_Multiply_m1286_MethodInfo);
+		Vector2_t13  L_5 = Vector2_op_Multiply_m1296(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/&Vector2_op_Multiply_m1296_MethodInfo);
 		CNAbstractController_set_CurrentAxisValues_m1148(__this, L_5, /*hidden argument*/&CNAbstractController_set_CurrentAxisValues_m1148_MethodInfo);
 		Vector2_t13  L_6 = CNAbstractController_get_CurrentAxisValues_m1147(__this, /*hidden argument*/&CNAbstractController_get_CurrentAxisValues_m1147_MethodInfo);
 		VirtActionInvoker1< Vector2_t13  >::Invoke(&CNAbstractController_OnControllerMoved_m1160_MethodInfo, __this, L_6);
@@ -2169,7 +2169,7 @@ IL_001a:
 		Vector2_t13  L_3 = Touch_get_position_m791((&V_0), /*hidden argument*/&Touch_get_position_m791_MethodInfo);
 		Vector3_t8  L_4 = Vector2_op_Implicit_m788(NULL /*static, unused*/, L_3, /*hidden argument*/&Vector2_op_Implicit_m788_MethodInfo);
 		NullCheck(L_2);
-		Vector3_t8  L_5 = Camera_ScreenToWorldPoint_m1279(L_2, L_4, /*hidden argument*/&Camera_ScreenToWorldPoint_m1279_MethodInfo);
+		Vector3_t8  L_5 = Camera_ScreenToWorldPoint_m1289(L_2, L_4, /*hidden argument*/&Camera_ScreenToWorldPoint_m1289_MethodInfo);
 		CNTouchpad_set_PreviousPosition_m1191(__this, L_5, /*hidden argument*/&CNTouchpad_set_PreviousPosition_m1191_MethodInfo);
 		return;
 	}
@@ -2185,7 +2185,7 @@ extern "C" void CNTouchpad_TweakControl_m1193 (CNTouchpad_t265 * __this, Vector2
 		Vector2_t13  L_1 = ___touchPosition;
 		Vector3_t8  L_2 = Vector2_op_Implicit_m788(NULL /*static, unused*/, L_1, /*hidden argument*/&Vector2_op_Implicit_m788_MethodInfo);
 		NullCheck(L_0);
-		Vector3_t8  L_3 = Camera_ScreenToWorldPoint_m1279(L_0, L_2, /*hidden argument*/&Camera_ScreenToWorldPoint_m1279_MethodInfo);
+		Vector3_t8  L_3 = Camera_ScreenToWorldPoint_m1289(L_0, L_2, /*hidden argument*/&Camera_ScreenToWorldPoint_m1289_MethodInfo);
 		V_0 = L_3;
 		Vector3_t8  L_4 = V_0;
 		Vector3_t8  L_5 = CNTouchpad_get_PreviousPosition_m1190(__this, /*hidden argument*/&CNTouchpad_get_PreviousPosition_m1190_MethodInfo);
@@ -2251,7 +2251,7 @@ extern TypeInfo Mathf_t186_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_MathfMethodDeclarations.h"
 extern MethodInfo Component_get_transform_m598_MethodInfo;
 extern MethodInfo Transform_get_localPosition_m632_MethodInfo;
-extern MethodInfo MonoBehaviour_print_m1287_MethodInfo;
+extern MethodInfo MonoBehaviour_print_m1297_MethodInfo;
 extern MethodInfo RMXJoystick_CreateVirtualAxes_m1197_MethodInfo;
 extern MethodInfo Vector3_op_Division_m731_MethodInfo;
 extern MethodInfo VirtualAxis_Update_m121_MethodInfo;
@@ -2285,16 +2285,23 @@ extern "C" void RMXJoystick_OnEnable_m1195 (RMXJoystick_t267 * __this, MethodInf
 		Vector3_t8  L_1 = Transform_get_localPosition_m632(L_0, /*hidden argument*/&Transform_get_localPosition_m632_MethodInfo);
 		Vector3_t8  L_2 = L_1;
 		Object_t * L_3 = Box(InitializedTypeInfo(&Vector3_t8_il2cpp_TypeInfo), &L_2);
-		MonoBehaviour_print_m1287(NULL /*static, unused*/, L_3, /*hidden argument*/&MonoBehaviour_print_m1287_MethodInfo);
+		MonoBehaviour_print_m1297(NULL /*static, unused*/, L_3, /*hidden argument*/&MonoBehaviour_print_m1297_MethodInfo);
 		Transform_t2 * L_4 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
 		NullCheck(L_4);
 		Vector3_t8  L_5 = Transform_get_position_m599(L_4, /*hidden argument*/&Transform_get_position_m599_MethodInfo);
 		Vector3_t8  L_6 = L_5;
 		Object_t * L_7 = Box(InitializedTypeInfo(&Vector3_t8_il2cpp_TypeInfo), &L_6);
-		MonoBehaviour_print_m1287(NULL /*static, unused*/, L_7, /*hidden argument*/&MonoBehaviour_print_m1287_MethodInfo);
-		Vector3_t8  L_8 = {0};
-		Vector3__ctor_m700(&L_8, (200.0f), (150.0f), (0.0f), /*hidden argument*/&Vector3__ctor_m700_MethodInfo);
-		__this->___m_StartPos_6 = L_8;
+		MonoBehaviour_print_m1297(NULL /*static, unused*/, L_7, /*hidden argument*/&MonoBehaviour_print_m1297_MethodInfo);
+		Transform_t2 * L_8 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
+		MonoBehaviour_print_m1297(NULL /*static, unused*/, L_8, /*hidden argument*/&MonoBehaviour_print_m1297_MethodInfo);
+		Transform_t2 * L_9 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
+		NullCheck(L_9);
+		Vector3_t8  L_10 = Transform_get_localPosition_m632(L_9, /*hidden argument*/&Transform_get_localPosition_m632_MethodInfo);
+		__this->___m_StartPos_7 = L_10;
+		Transform_t2 * L_11 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
+		NullCheck(L_11);
+		Vector3_t8  L_12 = Transform_get_localPosition_m632(L_11, /*hidden argument*/&Transform_get_localPosition_m632_MethodInfo);
+		__this->___origin_6 = L_12;
 		RMXJoystick_CreateVirtualAxes_m1197(__this, /*hidden argument*/&RMXJoystick_CreateVirtualAxes_m1197_MethodInfo);
 		return;
 	}
@@ -2304,7 +2311,7 @@ extern "C" void RMXJoystick_UpdateVirtualAxes_m1196 (RMXJoystick_t267 * __this, 
 {
 	Vector3_t8  V_0 = {0};
 	{
-		Vector3_t8  L_0 = (__this->___m_StartPos_6);
+		Vector3_t8  L_0 = (__this->___m_StartPos_7);
 		Vector3_t8  L_1 = ___value;
 		Vector3_t8  L_2 = Vector3_op_Subtraction_m653(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Vector3_op_Subtraction_m653_MethodInfo);
 		V_0 = L_2;
@@ -2314,14 +2321,14 @@ extern "C" void RMXJoystick_UpdateVirtualAxes_m1196 (RMXJoystick_t267 * __this, 
 		int32_t L_5 = (__this->___MovementRange_2);
 		Vector3_t8  L_6 = Vector3_op_Division_m731(NULL /*static, unused*/, L_4, (((float)L_5)), /*hidden argument*/&Vector3_op_Division_m731_MethodInfo);
 		V_0 = L_6;
-		bool L_7 = (__this->___m_UseX_7);
+		bool L_7 = (__this->___m_UseX_8);
 		if (!L_7)
 		{
 			goto IL_0048;
 		}
 	}
 	{
-		VirtualAxis_t45 * L_8 = (__this->___m_HorizontalVirtualAxis_9);
+		VirtualAxis_t45 * L_8 = (__this->___m_HorizontalVirtualAxis_10);
 		float L_9 = ((&V_0)->___x_1);
 		NullCheck(L_8);
 		VirtualAxis_Update_m121(L_8, ((-L_9)), /*hidden argument*/&VirtualAxis_Update_m121_MethodInfo);
@@ -2329,14 +2336,14 @@ extern "C" void RMXJoystick_UpdateVirtualAxes_m1196 (RMXJoystick_t267 * __this, 
 
 IL_0048:
 	{
-		bool L_10 = (__this->___m_UseY_8);
+		bool L_10 = (__this->___m_UseY_9);
 		if (!L_10)
 		{
 			goto IL_0065;
 		}
 	}
 	{
-		VirtualAxis_t45 * L_11 = (__this->___m_VerticalVirtualAxis_10);
+		VirtualAxis_t45 * L_11 = (__this->___m_VerticalVirtualAxis_11);
 		float L_12 = ((&V_0)->___y_2);
 		NullCheck(L_11);
 		VirtualAxis_Update_m121(L_11, L_12, /*hidden argument*/&VirtualAxis_Update_m121_MethodInfo);
@@ -2383,7 +2390,7 @@ IL_0017:
 IL_0018:
 	{
 		NullCheck(G_B3_1);
-		G_B3_1->___m_UseX_7 = G_B3_0;
+		G_B3_1->___m_UseX_8 = G_B3_0;
 		int32_t L_2 = (__this->___axesToUse_3);
 		G_B4_0 = __this;
 		if (!L_2)
@@ -2408,8 +2415,8 @@ IL_0034:
 IL_0035:
 	{
 		NullCheck(G_B6_1);
-		G_B6_1->___m_UseY_8 = G_B6_0;
-		bool L_4 = (__this->___m_UseX_7);
+		G_B6_1->___m_UseY_9 = G_B6_0;
+		bool L_4 = (__this->___m_UseX_8);
 		if (!L_4)
 		{
 			goto IL_0061;
@@ -2419,15 +2426,15 @@ IL_0035:
 		String_t* L_5 = (__this->___horizontalAxisName_4);
 		VirtualAxis_t45 * L_6 = (VirtualAxis_t45 *)il2cpp_codegen_object_new (InitializedTypeInfo(&VirtualAxis_t45_il2cpp_TypeInfo));
 		VirtualAxis__ctor_m114(L_6, L_5, /*hidden argument*/&VirtualAxis__ctor_m114_MethodInfo);
-		__this->___m_HorizontalVirtualAxis_9 = L_6;
-		VirtualAxis_t45 * L_7 = (__this->___m_HorizontalVirtualAxis_9);
+		__this->___m_HorizontalVirtualAxis_10 = L_6;
+		VirtualAxis_t45 * L_7 = (__this->___m_HorizontalVirtualAxis_10);
 		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&CrossPlatformInputManager_t51_il2cpp_TypeInfo));
 		CrossPlatformInputManager_RegisterVirtualAxis_m140(NULL /*static, unused*/, L_7, /*hidden argument*/&CrossPlatformInputManager_RegisterVirtualAxis_m140_MethodInfo);
 	}
 
 IL_0061:
 	{
-		bool L_8 = (__this->___m_UseY_8);
+		bool L_8 = (__this->___m_UseY_9);
 		if (!L_8)
 		{
 			goto IL_0088;
@@ -2437,8 +2444,8 @@ IL_0061:
 		String_t* L_9 = (__this->___verticalAxisName_5);
 		VirtualAxis_t45 * L_10 = (VirtualAxis_t45 *)il2cpp_codegen_object_new (InitializedTypeInfo(&VirtualAxis_t45_il2cpp_TypeInfo));
 		VirtualAxis__ctor_m114(L_10, L_9, /*hidden argument*/&VirtualAxis__ctor_m114_MethodInfo);
-		__this->___m_VerticalVirtualAxis_10 = L_10;
-		VirtualAxis_t45 * L_11 = (__this->___m_VerticalVirtualAxis_10);
+		__this->___m_VerticalVirtualAxis_11 = L_10;
+		VirtualAxis_t45 * L_11 = (__this->___m_VerticalVirtualAxis_11);
 		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&CrossPlatformInputManager_t51_il2cpp_TypeInfo));
 		CrossPlatformInputManager_RegisterVirtualAxis_m140(NULL /*static, unused*/, L_11, /*hidden argument*/&CrossPlatformInputManager_RegisterVirtualAxis_m140_MethodInfo);
 	}
@@ -2460,7 +2467,7 @@ extern "C" void RMXJoystick_OnDrag_m1198 (RMXJoystick_t267 * __this, PointerEven
 	{
 		Vector3_t8  L_0 = Vector3_get_zero_m662(NULL /*static, unused*/, /*hidden argument*/&Vector3_get_zero_m662_MethodInfo);
 		V_0 = L_0;
-		bool L_1 = (__this->___m_UseX_7);
+		bool L_1 = (__this->___m_UseX_8);
 		if (!L_1)
 		{
 			goto IL_004a;
@@ -2472,7 +2479,7 @@ extern "C" void RMXJoystick_OnDrag_m1198 (RMXJoystick_t267 * __this, PointerEven
 		Vector2_t13  L_3 = PointerEventData_get_position_m766(L_2, /*hidden argument*/&PointerEventData_get_position_m766_MethodInfo);
 		V_3 = L_3;
 		float L_4 = ((&V_3)->___x_1);
-		Vector3_t8 * L_5 = &(__this->___m_StartPos_6);
+		Vector3_t8 * L_5 = &(__this->___m_StartPos_7);
 		float L_6 = (L_5->___x_1);
 		V_1 = (((int32_t)((float)((float)L_4-(float)L_6))));
 		int32_t L_7 = V_1;
@@ -2487,7 +2494,7 @@ extern "C" void RMXJoystick_OnDrag_m1198 (RMXJoystick_t267 * __this, PointerEven
 
 IL_004a:
 	{
-		bool L_12 = (__this->___m_UseY_8);
+		bool L_12 = (__this->___m_UseY_9);
 		if (!L_12)
 		{
 			goto IL_008f;
@@ -2499,7 +2506,7 @@ IL_004a:
 		Vector2_t13  L_14 = PointerEventData_get_position_m766(L_13, /*hidden argument*/&PointerEventData_get_position_m766_MethodInfo);
 		V_4 = L_14;
 		float L_15 = ((&V_4)->___y_2);
-		Vector3_t8 * L_16 = &(__this->___m_StartPos_6);
+		Vector3_t8 * L_16 = &(__this->___m_StartPos_7);
 		float L_17 = (L_16->___y_2);
 		V_2 = (((int32_t)((float)((float)L_15-(float)L_17))));
 		int32_t L_18 = V_2;
@@ -2515,13 +2522,13 @@ IL_004a:
 IL_008f:
 	{
 		Transform_t2 * L_23 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
-		Vector3_t8 * L_24 = &(__this->___m_StartPos_6);
+		Vector3_t8 * L_24 = &(__this->___m_StartPos_7);
 		float L_25 = (L_24->___x_1);
 		float L_26 = ((&V_0)->___x_1);
-		Vector3_t8 * L_27 = &(__this->___m_StartPos_6);
+		Vector3_t8 * L_27 = &(__this->___m_StartPos_7);
 		float L_28 = (L_27->___y_2);
 		float L_29 = ((&V_0)->___y_2);
-		Vector3_t8 * L_30 = &(__this->___m_StartPos_6);
+		Vector3_t8 * L_30 = &(__this->___m_StartPos_7);
 		float L_31 = (L_30->___z_3);
 		float L_32 = ((&V_0)->___z_3);
 		Vector3_t8  L_33 = {0};
@@ -2541,10 +2548,10 @@ extern "C" void RMXJoystick_OnPointerUp_m1199 (RMXJoystick_t267 * __this, Pointe
 {
 	{
 		Transform_t2 * L_0 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
-		Vector3_t8  L_1 = (__this->___m_StartPos_6);
+		Vector3_t8  L_1 = (__this->___origin_6);
 		NullCheck(L_0);
-		Transform_set_position_m601(L_0, L_1, /*hidden argument*/&Transform_set_position_m601_MethodInfo);
-		Vector3_t8  L_2 = (__this->___m_StartPos_6);
+		Transform_set_localPosition_m652(L_0, L_1, /*hidden argument*/&Transform_set_localPosition_m652_MethodInfo);
+		Vector3_t8  L_2 = (__this->___m_StartPos_7);
 		RMXJoystick_UpdateVirtualAxes_m1196(__this, L_2, /*hidden argument*/&RMXJoystick_UpdateVirtualAxes_m1196_MethodInfo);
 		return;
 	}
@@ -2554,6 +2561,10 @@ extern MethodInfo RMXJoystick_OnPointerDown_m1200_MethodInfo;
 extern "C" void RMXJoystick_OnPointerDown_m1200 (RMXJoystick_t267 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
 {
 	{
+		Transform_t2 * L_0 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
+		NullCheck(L_0);
+		Vector3_t8  L_1 = Transform_get_position_m599(L_0, /*hidden argument*/&Transform_get_position_m599_MethodInfo);
+		__this->___m_StartPos_7 = L_1;
 		return;
 	}
 }
@@ -2562,28 +2573,430 @@ extern MethodInfo RMXJoystick_OnDisable_m1201_MethodInfo;
 extern "C" void RMXJoystick_OnDisable_m1201 (RMXJoystick_t267 * __this, MethodInfo* method)
 {
 	{
-		bool L_0 = (__this->___m_UseX_7);
+		bool L_0 = (__this->___m_UseX_8);
 		if (!L_0)
 		{
 			goto IL_0016;
 		}
 	}
 	{
-		VirtualAxis_t45 * L_1 = (__this->___m_HorizontalVirtualAxis_9);
+		VirtualAxis_t45 * L_1 = (__this->___m_HorizontalVirtualAxis_10);
 		NullCheck(L_1);
 		VirtualAxis_Remove_m120(L_1, /*hidden argument*/&VirtualAxis_Remove_m120_MethodInfo);
 	}
 
 IL_0016:
 	{
-		bool L_2 = (__this->___m_UseY_8);
+		bool L_2 = (__this->___m_UseY_9);
 		if (!L_2)
 		{
 			goto IL_002c;
 		}
 	}
 	{
-		VirtualAxis_t45 * L_3 = (__this->___m_VerticalVirtualAxis_10);
+		VirtualAxis_t45 * L_3 = (__this->___m_VerticalVirtualAxis_11);
+		NullCheck(L_3);
+		VirtualAxis_Remove_m120(L_3, /*hidden argument*/&VirtualAxis_Remove_m120_MethodInfo);
+	}
+
+IL_002c:
+	{
+		return;
+	}
+}
+// UnityStandardAssets.CrossPlatformInput.RMXLookAround/AxisOption
+#include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_RMX_1.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo AxisOption_t268_il2cpp_TypeInfo;
+// UnityStandardAssets.CrossPlatformInput.RMXLookAround/AxisOption
+#include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_RMX_1MethodDeclarations.h"
+
+
+
+// UnityStandardAssets.CrossPlatformInput.RMXLookAround
+#include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_RMX_2.h"
+#ifndef _MSC_VER
+#else
+#endif
+extern TypeInfo RMXLookAround_t269_il2cpp_TypeInfo;
+// UnityStandardAssets.CrossPlatformInput.RMXLookAround
+#include "AssemblyU2DCSharp_UnityStandardAssets_CrossPlatformInput_RMX_2MethodDeclarations.h"
+
+extern MethodInfo RMXLookAround_CreateVirtualAxes_m1207_MethodInfo;
+extern MethodInfo CrossPlatformInputManager_get_mousePosition_m157_MethodInfo;
+extern MethodInfo RMXLookAround_UpdateVirtualAxes_m1206_MethodInfo;
+
+
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::.ctor()
+extern MethodInfo RMXLookAround__ctor_m1202_MethodInfo;
+extern "C" void RMXLookAround__ctor_m1202 (RMXLookAround_t269 * __this, MethodInfo* method)
+{
+	{
+		__this->___speed_2 = (1.0f);
+		__this->___MovementRange_3 = ((int32_t)100);
+		__this->___horizontalAxisName_5 = (String_t*) &_stringLiteral5;
+		__this->___verticalAxisName_6 = (String_t*) &_stringLiteral6;
+		MonoBehaviour__ctor_m575(__this, /*hidden argument*/&MonoBehaviour__ctor_m575_MethodInfo);
+		return;
+	}
+}
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::OnEnable()
+extern MethodInfo RMXLookAround_OnEnable_m1203_MethodInfo;
+extern "C" void RMXLookAround_OnEnable_m1203 (RMXLookAround_t269 * __this, MethodInfo* method)
+{
+	{
+		Transform_t2 * L_0 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
+		NullCheck(L_0);
+		Vector3_t8  L_1 = Transform_get_localPosition_m632(L_0, /*hidden argument*/&Transform_get_localPosition_m632_MethodInfo);
+		Vector3_t8  L_2 = L_1;
+		Object_t * L_3 = Box(InitializedTypeInfo(&Vector3_t8_il2cpp_TypeInfo), &L_2);
+		MonoBehaviour_print_m1297(NULL /*static, unused*/, L_3, /*hidden argument*/&MonoBehaviour_print_m1297_MethodInfo);
+		Transform_t2 * L_4 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
+		NullCheck(L_4);
+		Vector3_t8  L_5 = Transform_get_position_m599(L_4, /*hidden argument*/&Transform_get_position_m599_MethodInfo);
+		Vector3_t8  L_6 = L_5;
+		Object_t * L_7 = Box(InitializedTypeInfo(&Vector3_t8_il2cpp_TypeInfo), &L_6);
+		MonoBehaviour_print_m1297(NULL /*static, unused*/, L_7, /*hidden argument*/&MonoBehaviour_print_m1297_MethodInfo);
+		Transform_t2 * L_8 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
+		MonoBehaviour_print_m1297(NULL /*static, unused*/, L_8, /*hidden argument*/&MonoBehaviour_print_m1297_MethodInfo);
+		Transform_t2 * L_9 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
+		NullCheck(L_9);
+		Vector3_t8  L_10 = Transform_get_localPosition_m632(L_9, /*hidden argument*/&Transform_get_localPosition_m632_MethodInfo);
+		__this->___m_StartPos_7 = L_10;
+		RMXLookAround_CreateVirtualAxes_m1207(__this, /*hidden argument*/&RMXLookAround_CreateVirtualAxes_m1207_MethodInfo);
+		return;
+	}
+}
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::Update()
+extern MethodInfo RMXLookAround_Update_m1204_MethodInfo;
+extern "C" void RMXLookAround_Update_m1204 (RMXLookAround_t269 * __this, MethodInfo* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Input_t187_il2cpp_TypeInfo));
+		int32_t L_0 = Input_get_touchCount_m789(NULL /*static, unused*/, /*hidden argument*/&Input_get_touchCount_m789_MethodInfo);
+		if ((((int32_t)L_0) <= ((int32_t)0)))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&CrossPlatformInputManager_t51_il2cpp_TypeInfo));
+		Vector3_t8  L_1 = CrossPlatformInputManager_get_mousePosition_m157(NULL /*static, unused*/, /*hidden argument*/&CrossPlatformInputManager_get_mousePosition_m157_MethodInfo);
+		Vector3_t8  L_2 = L_1;
+		Object_t * L_3 = Box(InitializedTypeInfo(&Vector3_t8_il2cpp_TypeInfo), &L_2);
+		MonoBehaviour_print_m1297(NULL /*static, unused*/, L_3, /*hidden argument*/&MonoBehaviour_print_m1297_MethodInfo);
+	}
+
+IL_001a:
+	{
+		return;
+	}
+}
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::HandleInput(System.Single)
+extern MethodInfo RMXLookAround_HandleInput_m1205_MethodInfo;
+extern "C" void RMXLookAround_HandleInput_m1205 (RMXLookAround_t269 * __this, float ___value, MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::UpdateVirtualAxes(UnityEngine.Vector3)
+extern "C" void RMXLookAround_UpdateVirtualAxes_m1206 (RMXLookAround_t269 * __this, Vector3_t8  ___value, MethodInfo* method)
+{
+	Vector3_t8  V_0 = {0};
+	{
+		Vector3_t8  L_0 = (__this->___m_StartPos_7);
+		Vector3_t8  L_1 = ___value;
+		Vector3_t8  L_2 = Vector3_op_Subtraction_m653(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Vector3_op_Subtraction_m653_MethodInfo);
+		V_0 = L_2;
+		float L_3 = ((&V_0)->___y_2);
+		(&V_0)->___y_2 = ((-L_3));
+		Vector3_t8  L_4 = V_0;
+		int32_t L_5 = (__this->___MovementRange_3);
+		Vector3_t8  L_6 = Vector3_op_Division_m731(NULL /*static, unused*/, L_4, (((float)L_5)), /*hidden argument*/&Vector3_op_Division_m731_MethodInfo);
+		V_0 = L_6;
+		bool L_7 = (__this->___m_UseX_8);
+		if (!L_7)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		VirtualAxis_t45 * L_8 = (__this->___m_HorizontalVirtualAxis_10);
+		float L_9 = ((&V_0)->___x_1);
+		NullCheck(L_8);
+		VirtualAxis_Update_m121(L_8, ((-L_9)), /*hidden argument*/&VirtualAxis_Update_m121_MethodInfo);
+	}
+
+IL_0048:
+	{
+		bool L_10 = (__this->___m_UseY_9);
+		if (!L_10)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		VirtualAxis_t45 * L_11 = (__this->___m_VerticalVirtualAxis_11);
+		float L_12 = ((&V_0)->___y_2);
+		NullCheck(L_11);
+		VirtualAxis_Update_m121(L_11, L_12, /*hidden argument*/&VirtualAxis_Update_m121_MethodInfo);
+	}
+
+IL_0065:
+	{
+		return;
+	}
+}
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::CreateVirtualAxes()
+extern "C" void RMXLookAround_CreateVirtualAxes_m1207 (RMXLookAround_t269 * __this, MethodInfo* method)
+{
+	RMXLookAround_t269 * G_B2_0 = {0};
+	RMXLookAround_t269 * G_B1_0 = {0};
+	int32_t G_B3_0 = 0;
+	RMXLookAround_t269 * G_B3_1 = {0};
+	RMXLookAround_t269 * G_B5_0 = {0};
+	RMXLookAround_t269 * G_B4_0 = {0};
+	int32_t G_B6_0 = 0;
+	RMXLookAround_t269 * G_B6_1 = {0};
+	{
+		int32_t L_0 = (__this->___axesToUse_4);
+		G_B1_0 = __this;
+		if (!L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_1 = (__this->___axesToUse_4);
+		G_B3_0 = ((((int32_t)L_1) == ((int32_t)1))? 1 : 0);
+		G_B3_1 = G_B1_0;
+		goto IL_0018;
+	}
+
+IL_0017:
+	{
+		G_B3_0 = 1;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0018:
+	{
+		NullCheck(G_B3_1);
+		G_B3_1->___m_UseX_8 = G_B3_0;
+		int32_t L_2 = (__this->___axesToUse_4);
+		G_B4_0 = __this;
+		if (!L_2)
+		{
+			G_B5_0 = __this;
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_3 = (__this->___axesToUse_4);
+		G_B6_0 = ((((int32_t)L_3) == ((int32_t)2))? 1 : 0);
+		G_B6_1 = G_B4_0;
+		goto IL_0035;
+	}
+
+IL_0034:
+	{
+		G_B6_0 = 1;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_0035:
+	{
+		NullCheck(G_B6_1);
+		G_B6_1->___m_UseY_9 = G_B6_0;
+		bool L_4 = (__this->___m_UseX_8);
+		if (!L_4)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		String_t* L_5 = (__this->___horizontalAxisName_5);
+		VirtualAxis_t45 * L_6 = (VirtualAxis_t45 *)il2cpp_codegen_object_new (InitializedTypeInfo(&VirtualAxis_t45_il2cpp_TypeInfo));
+		VirtualAxis__ctor_m114(L_6, L_5, /*hidden argument*/&VirtualAxis__ctor_m114_MethodInfo);
+		__this->___m_HorizontalVirtualAxis_10 = L_6;
+		VirtualAxis_t45 * L_7 = (__this->___m_HorizontalVirtualAxis_10);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&CrossPlatformInputManager_t51_il2cpp_TypeInfo));
+		CrossPlatformInputManager_RegisterVirtualAxis_m140(NULL /*static, unused*/, L_7, /*hidden argument*/&CrossPlatformInputManager_RegisterVirtualAxis_m140_MethodInfo);
+	}
+
+IL_0061:
+	{
+		bool L_8 = (__this->___m_UseY_9);
+		if (!L_8)
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		String_t* L_9 = (__this->___verticalAxisName_6);
+		VirtualAxis_t45 * L_10 = (VirtualAxis_t45 *)il2cpp_codegen_object_new (InitializedTypeInfo(&VirtualAxis_t45_il2cpp_TypeInfo));
+		VirtualAxis__ctor_m114(L_10, L_9, /*hidden argument*/&VirtualAxis__ctor_m114_MethodInfo);
+		__this->___m_VerticalVirtualAxis_11 = L_10;
+		VirtualAxis_t45 * L_11 = (__this->___m_VerticalVirtualAxis_11);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&CrossPlatformInputManager_t51_il2cpp_TypeInfo));
+		CrossPlatformInputManager_RegisterVirtualAxis_m140(NULL /*static, unused*/, L_11, /*hidden argument*/&CrossPlatformInputManager_RegisterVirtualAxis_m140_MethodInfo);
+	}
+
+IL_0088:
+	{
+		return;
+	}
+}
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::OnDrag(UnityEngine.EventSystems.PointerEventData)
+extern MethodInfo RMXLookAround_OnDrag_m1208_MethodInfo;
+extern "C" void RMXLookAround_OnDrag_m1208 (RMXLookAround_t269 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
+{
+	Vector3_t8  V_0 = {0};
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	Vector2_t13  V_3 = {0};
+	Vector2_t13  V_4 = {0};
+	{
+		Vector3_t8  L_0 = Vector3_get_zero_m662(NULL /*static, unused*/, /*hidden argument*/&Vector3_get_zero_m662_MethodInfo);
+		V_0 = L_0;
+		bool L_1 = (__this->___m_UseX_8);
+		if (!L_1)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		PointerEventData_t46 * L_2 = ___data;
+		NullCheck(L_2);
+		Vector2_t13  L_3 = PointerEventData_get_position_m766(L_2, /*hidden argument*/&PointerEventData_get_position_m766_MethodInfo);
+		V_3 = L_3;
+		float L_4 = ((&V_3)->___x_1);
+		Vector3_t8 * L_5 = &(__this->___m_StartPos_7);
+		float L_6 = (L_5->___x_1);
+		V_1 = (((int32_t)((float)((float)L_4-(float)L_6))));
+		int32_t L_7 = V_1;
+		int32_t L_8 = (__this->___MovementRange_3);
+		int32_t L_9 = (__this->___MovementRange_3);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Mathf_t186_il2cpp_TypeInfo));
+		int32_t L_10 = Mathf_Clamp_m767(NULL /*static, unused*/, L_7, ((-L_8)), L_9, /*hidden argument*/&Mathf_Clamp_m767_MethodInfo);
+		V_1 = L_10;
+		int32_t L_11 = V_1;
+		(&V_0)->___x_1 = (((float)L_11));
+	}
+
+IL_004a:
+	{
+		bool L_12 = (__this->___m_UseY_9);
+		if (!L_12)
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		PointerEventData_t46 * L_13 = ___data;
+		NullCheck(L_13);
+		Vector2_t13  L_14 = PointerEventData_get_position_m766(L_13, /*hidden argument*/&PointerEventData_get_position_m766_MethodInfo);
+		V_4 = L_14;
+		float L_15 = ((&V_4)->___y_2);
+		Vector3_t8 * L_16 = &(__this->___m_StartPos_7);
+		float L_17 = (L_16->___y_2);
+		V_2 = (((int32_t)((float)((float)L_15-(float)L_17))));
+		int32_t L_18 = V_2;
+		int32_t L_19 = (__this->___MovementRange_3);
+		int32_t L_20 = (__this->___MovementRange_3);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Mathf_t186_il2cpp_TypeInfo));
+		int32_t L_21 = Mathf_Clamp_m767(NULL /*static, unused*/, L_18, ((-L_19)), L_20, /*hidden argument*/&Mathf_Clamp_m767_MethodInfo);
+		V_2 = L_21;
+		int32_t L_22 = V_2;
+		(&V_0)->___y_2 = (((float)L_22));
+	}
+
+IL_008f:
+	{
+		Transform_t2 * L_23 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
+		Vector3_t8 * L_24 = &(__this->___m_StartPos_7);
+		float L_25 = (L_24->___x_1);
+		float L_26 = ((&V_0)->___x_1);
+		Vector3_t8 * L_27 = &(__this->___m_StartPos_7);
+		float L_28 = (L_27->___y_2);
+		float L_29 = ((&V_0)->___y_2);
+		Vector3_t8 * L_30 = &(__this->___m_StartPos_7);
+		float L_31 = (L_30->___z_3);
+		float L_32 = ((&V_0)->___z_3);
+		Vector3_t8  L_33 = {0};
+		Vector3__ctor_m700(&L_33, ((float)((float)L_25+(float)L_26)), ((float)((float)L_28+(float)L_29)), ((float)((float)L_31+(float)L_32)), /*hidden argument*/&Vector3__ctor_m700_MethodInfo);
+		NullCheck(L_23);
+		Transform_set_position_m601(L_23, L_33, /*hidden argument*/&Transform_set_position_m601_MethodInfo);
+		Transform_t2 * L_34 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
+		NullCheck(L_34);
+		Vector3_t8  L_35 = Transform_get_position_m599(L_34, /*hidden argument*/&Transform_get_position_m599_MethodInfo);
+		RMXLookAround_UpdateVirtualAxes_m1206(__this, L_35, /*hidden argument*/&RMXLookAround_UpdateVirtualAxes_m1206_MethodInfo);
+		return;
+	}
+}
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+extern MethodInfo RMXLookAround_OnPointerUp_m1209_MethodInfo;
+extern "C" void RMXLookAround_OnPointerUp_m1209 (RMXLookAround_t269 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
+{
+	{
+		PointerEventData_t46 * L_0 = ___data;
+		NullCheck(L_0);
+		Vector2_t13  L_1 = PointerEventData_get_position_m766(L_0, /*hidden argument*/&PointerEventData_get_position_m766_MethodInfo);
+		Vector2_t13  L_2 = L_1;
+		Object_t * L_3 = Box(InitializedTypeInfo(&Vector2_t13_il2cpp_TypeInfo), &L_2);
+		MonoBehaviour_print_m1297(NULL /*static, unused*/, L_3, /*hidden argument*/&MonoBehaviour_print_m1297_MethodInfo);
+		Vector3_t8  L_4 = (__this->___m_StartPos_7);
+		RMXLookAround_UpdateVirtualAxes_m1206(__this, L_4, /*hidden argument*/&RMXLookAround_UpdateVirtualAxes_m1206_MethodInfo);
+		return;
+	}
+}
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern MethodInfo RMXLookAround_OnPointerDown_m1210_MethodInfo;
+extern "C" void RMXLookAround_OnPointerDown_m1210 (RMXLookAround_t269 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
+{
+	{
+		Transform_t2 * L_0 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
+		NullCheck(L_0);
+		Vector3_t8  L_1 = Transform_get_position_m599(L_0, /*hidden argument*/&Transform_get_position_m599_MethodInfo);
+		__this->___m_StartPos_7 = L_1;
+		Vector3_t8  L_2 = (__this->___m_StartPos_7);
+		Vector3_t8  L_3 = L_2;
+		Object_t * L_4 = Box(InitializedTypeInfo(&Vector3_t8_il2cpp_TypeInfo), &L_3);
+		MonoBehaviour_print_m1297(NULL /*static, unused*/, L_4, /*hidden argument*/&MonoBehaviour_print_m1297_MethodInfo);
+		return;
+	}
+}
+// System.Void UnityStandardAssets.CrossPlatformInput.RMXLookAround::OnDisable()
+extern MethodInfo RMXLookAround_OnDisable_m1211_MethodInfo;
+extern "C" void RMXLookAround_OnDisable_m1211 (RMXLookAround_t269 * __this, MethodInfo* method)
+{
+	{
+		bool L_0 = (__this->___m_UseX_8);
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		VirtualAxis_t45 * L_1 = (__this->___m_HorizontalVirtualAxis_10);
+		NullCheck(L_1);
+		VirtualAxis_Remove_m120(L_1, /*hidden argument*/&VirtualAxis_Remove_m120_MethodInfo);
+	}
+
+IL_0016:
+	{
+		bool L_2 = (__this->___m_UseY_9);
+		if (!L_2)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		VirtualAxis_t45 * L_3 = (__this->___m_VerticalVirtualAxis_11);
 		NullCheck(L_3);
 		VirtualAxis_Remove_m120(L_3, /*hidden argument*/&VirtualAxis_Remove_m120_MethodInfo);
 	}
@@ -2598,294 +3011,99 @@ IL_002c:
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo RMXSimpleMouse_t268_il2cpp_TypeInfo;
+extern TypeInfo RMXSimpleMouse_t270_il2cpp_TypeInfo;
 // UnityStandardAssets.Utility.RMXSimpleMouse
 #include "AssemblyU2DCSharp_UnityStandardAssets_Utility_RMXSimpleMouseMethodDeclarations.h"
 
-// UnityEngine.Screen
-#include "UnityEngine_UnityEngine_ScreenMethodDeclarations.h"
 extern MethodInfo Vector3__ctor_m624_MethodInfo;
 extern MethodInfo Transform_get_localRotation_m611_MethodInfo;
-extern MethodInfo Transform_set_localRotation_m618_MethodInfo;
-extern MethodInfo CrossPlatformInputManager_GetAxis_m145_MethodInfo;
-extern MethodInfo Mathf_Lerp_m615_MethodInfo;
-extern MethodInfo Mathf_Clamp_m616_MethodInfo;
 extern MethodInfo Input_get_mousePosition_m783_MethodInfo;
-extern MethodInfo Screen_get_width_m786_MethodInfo;
-extern MethodInfo Screen_get_height_m994_MethodInfo;
+extern MethodInfo Transform_set_localRotation_m618_MethodInfo;
 extern MethodInfo Vector3_SmoothDamp_m625_MethodInfo;
-extern MethodInfo Quaternion_Euler_m614_MethodInfo;
-extern MethodInfo Quaternion_op_Multiply_m623_MethodInfo;
+extern MethodInfo Transform_Rotate_m1298_MethodInfo;
 
 
 // System.Void UnityStandardAssets.Utility.RMXSimpleMouse::.ctor()
-extern MethodInfo RMXSimpleMouse__ctor_m1202_MethodInfo;
-extern "C" void RMXSimpleMouse__ctor_m1202 (RMXSimpleMouse_t268 * __this, MethodInfo* method)
+extern MethodInfo RMXSimpleMouse__ctor_m1212_MethodInfo;
+extern "C" void RMXSimpleMouse__ctor_m1212 (RMXSimpleMouse_t270 * __this, MethodInfo* method)
 {
 	{
 		Vector3_t8  L_0 = {0};
-		Vector3__ctor_m624(&L_0, (70.0f), (70.0f), /*hidden argument*/&Vector3__ctor_m624_MethodInfo);
+		Vector3__ctor_m624(&L_0, (70.0f), (360.0f), /*hidden argument*/&Vector3__ctor_m624_MethodInfo);
 		Vector2_t13  L_1 = Vector2_op_Implicit_m993(NULL /*static, unused*/, L_0, /*hidden argument*/&Vector2_op_Implicit_m993_MethodInfo);
 		__this->___rotationRange_2 = L_1;
-		__this->___rotationSpeed_3 = (10.0f);
+		__this->___rotationSpeed_3 = (0.2f);
 		__this->___dampingTime_4 = (0.2f);
 		__this->___autoZeroVerticalOnMobile_5 = 1;
-		__this->___relative_7 = 1;
 		MonoBehaviour__ctor_m575(__this, /*hidden argument*/&MonoBehaviour__ctor_m575_MethodInfo);
 		return;
 	}
 }
 // System.Void UnityStandardAssets.Utility.RMXSimpleMouse::Start()
-extern MethodInfo RMXSimpleMouse_Start_m1203_MethodInfo;
-extern "C" void RMXSimpleMouse_Start_m1203 (RMXSimpleMouse_t268 * __this, MethodInfo* method)
+extern MethodInfo RMXSimpleMouse_Start_m1213_MethodInfo;
+extern "C" void RMXSimpleMouse_Start_m1213 (RMXSimpleMouse_t270 * __this, MethodInfo* method)
 {
 	{
 		Transform_t2 * L_0 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
 		NullCheck(L_0);
 		Quaternion_t10  L_1 = Transform_get_localRotation_m611(L_0, /*hidden argument*/&Transform_get_localRotation_m611_MethodInfo);
 		__this->___m_OriginalRotation_11 = L_1;
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Input_t187_il2cpp_TypeInfo));
+		Vector3_t8  L_2 = Input_get_mousePosition_m783(NULL /*static, unused*/, /*hidden argument*/&Input_get_mousePosition_m783_MethodInfo);
+		__this->___origin_7 = L_2;
 		return;
 	}
 }
 // System.Void UnityStandardAssets.Utility.RMXSimpleMouse::Update()
-extern MethodInfo RMXSimpleMouse_Update_m1204_MethodInfo;
-extern "C" void RMXSimpleMouse_Update_m1204 (RMXSimpleMouse_t268 * __this, MethodInfo* method)
+extern MethodInfo RMXSimpleMouse_Update_m1214_MethodInfo;
+extern "C" void RMXSimpleMouse_Update_m1214 (RMXSimpleMouse_t270 * __this, MethodInfo* method)
 {
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	Vector3_t8  V_2 = {0};
 	Vector3_t8  V_3 = {0};
 	{
-		Transform_t2 * L_0 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
-		Quaternion_t10  L_1 = (__this->___m_OriginalRotation_11);
-		NullCheck(L_0);
-		Transform_set_localRotation_m618(L_0, L_1, /*hidden argument*/&Transform_set_localRotation_m618_MethodInfo);
-		bool L_2 = (__this->___relative_7);
-		if (!L_2)
-		{
-			goto IL_0293;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&CrossPlatformInputManager_t51_il2cpp_TypeInfo));
-		float L_3 = CrossPlatformInputManager_GetAxis_m145(NULL /*static, unused*/, (String_t*) &_stringLiteral2, /*hidden argument*/&CrossPlatformInputManager_GetAxis_m145_MethodInfo);
-		V_0 = L_3;
-		float L_4 = CrossPlatformInputManager_GetAxis_m145(NULL /*static, unused*/, (String_t*) &_stringLiteral3, /*hidden argument*/&CrossPlatformInputManager_GetAxis_m145_MethodInfo);
-		V_1 = L_4;
-		Vector3_t8 * L_5 = &(__this->___m_TargetAngles_8);
-		float L_6 = (L_5->___y_2);
-		if ((!(((float)L_6) > ((float)(180.0f)))))
-		{
-			goto IL_0075;
-		}
-	}
-	{
-		Vector3_t8 * L_7 = &(__this->___m_TargetAngles_8);
-		Vector3_t8 * L_8 = L_7;
-		float L_9 = (L_8->___y_2);
-		L_8->___y_2 = ((float)((float)L_9-(float)(360.0f)));
-		Vector3_t8 * L_10 = &(__this->___m_FollowAngles_9);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Input_t187_il2cpp_TypeInfo));
+		Vector3_t8  L_0 = Input_get_mousePosition_m783(NULL /*static, unused*/, /*hidden argument*/&Input_get_mousePosition_m783_MethodInfo);
+		V_2 = L_0;
+		float L_1 = ((&V_2)->___x_1);
+		Vector3_t8 * L_2 = &(__this->___origin_7);
+		float L_3 = (L_2->___x_1);
+		V_0 = ((float)((float)L_1-(float)L_3));
+		Vector3_t8  L_4 = Input_get_mousePosition_m783(NULL /*static, unused*/, /*hidden argument*/&Input_get_mousePosition_m783_MethodInfo);
+		V_3 = L_4;
+		float L_5 = ((&V_3)->___y_2);
+		Vector3_t8 * L_6 = &(__this->___origin_7);
+		float L_7 = (L_6->___y_2);
+		V_1 = ((float)((float)L_5-(float)L_7));
+		Transform_t2 * L_8 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
+		Quaternion_t10  L_9 = (__this->___m_OriginalRotation_11);
+		NullCheck(L_8);
+		Transform_set_localRotation_m618(L_8, L_9, /*hidden argument*/&Transform_set_localRotation_m618_MethodInfo);
+		Vector3_t8 * L_10 = &(__this->___m_TargetAngles_8);
 		Vector3_t8 * L_11 = L_10;
 		float L_12 = (L_11->___y_2);
-		L_11->___y_2 = ((float)((float)L_12-(float)(360.0f)));
-	}
-
-IL_0075:
-	{
-		Vector3_t8 * L_13 = &(__this->___m_TargetAngles_8);
-		float L_14 = (L_13->___x_1);
-		if ((!(((float)L_14) > ((float)(180.0f)))))
-		{
-			goto IL_00b8;
-		}
-	}
-	{
+		float L_13 = V_0;
+		float L_14 = (__this->___rotationSpeed_3);
+		L_11->___y_2 = ((float)((float)L_12+(float)((float)((float)L_13*(float)L_14))));
 		Vector3_t8 * L_15 = &(__this->___m_TargetAngles_8);
 		Vector3_t8 * L_16 = L_15;
 		float L_17 = (L_16->___x_1);
-		L_16->___x_1 = ((float)((float)L_17-(float)(360.0f)));
-		Vector3_t8 * L_18 = &(__this->___m_FollowAngles_9);
-		Vector3_t8 * L_19 = L_18;
-		float L_20 = (L_19->___x_1);
-		L_19->___x_1 = ((float)((float)L_20-(float)(360.0f)));
-	}
-
-IL_00b8:
-	{
-		Vector3_t8 * L_21 = &(__this->___m_TargetAngles_8);
-		float L_22 = (L_21->___y_2);
-		if ((!(((float)L_22) < ((float)(-180.0f)))))
-		{
-			goto IL_00fb;
-		}
-	}
-	{
-		Vector3_t8 * L_23 = &(__this->___m_TargetAngles_8);
-		Vector3_t8 * L_24 = L_23;
-		float L_25 = (L_24->___y_2);
-		L_24->___y_2 = ((float)((float)L_25+(float)(360.0f)));
-		Vector3_t8 * L_26 = &(__this->___m_FollowAngles_9);
-		Vector3_t8 * L_27 = L_26;
-		float L_28 = (L_27->___y_2);
-		L_27->___y_2 = ((float)((float)L_28+(float)(360.0f)));
-	}
-
-IL_00fb:
-	{
-		Vector3_t8 * L_29 = &(__this->___m_TargetAngles_8);
-		float L_30 = (L_29->___x_1);
-		if ((!(((float)L_30) < ((float)(-180.0f)))))
-		{
-			goto IL_013e;
-		}
-	}
-	{
-		Vector3_t8 * L_31 = &(__this->___m_TargetAngles_8);
-		Vector3_t8 * L_32 = L_31;
-		float L_33 = (L_32->___x_1);
-		L_32->___x_1 = ((float)((float)L_33+(float)(360.0f)));
-		Vector3_t8 * L_34 = &(__this->___m_FollowAngles_9);
-		Vector3_t8 * L_35 = L_34;
-		float L_36 = (L_35->___x_1);
-		L_35->___x_1 = ((float)((float)L_36+(float)(360.0f)));
-	}
-
-IL_013e:
-	{
-		bool L_37 = (__this->___autoZeroHorizontalOnMobile_6);
-		if (!L_37)
-		{
-			goto IL_018e;
-		}
-	}
-	{
-		Vector3_t8 * L_38 = &(__this->___m_TargetAngles_8);
-		Vector2_t13 * L_39 = &(__this->___rotationRange_2);
-		float L_40 = (L_39->___y_2);
-		Vector2_t13 * L_41 = &(__this->___rotationRange_2);
-		float L_42 = (L_41->___y_2);
-		float L_43 = V_0;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Mathf_t186_il2cpp_TypeInfo));
-		float L_44 = Mathf_Lerp_m615(NULL /*static, unused*/, ((float)((float)((-L_40))*(float)(0.5f))), ((float)((float)L_42*(float)(0.5f))), ((float)((float)((float)((float)L_43*(float)(0.5f)))+(float)(0.5f))), /*hidden argument*/&Mathf_Lerp_m615_MethodInfo);
-		L_38->___y_2 = L_44;
-		goto IL_01a8;
-	}
-
-IL_018e:
-	{
-		Vector3_t8 * L_45 = &(__this->___m_TargetAngles_8);
-		Vector3_t8 * L_46 = L_45;
-		float L_47 = (L_46->___y_2);
-		float L_48 = V_0;
-		float L_49 = (__this->___rotationSpeed_3);
-		L_46->___y_2 = ((float)((float)L_47+(float)((float)((float)L_48*(float)L_49))));
-	}
-
-IL_01a8:
-	{
-		bool L_50 = (__this->___autoZeroVerticalOnMobile_5);
-		if (!L_50)
-		{
-			goto IL_01f8;
-		}
-	}
-	{
-		Vector3_t8 * L_51 = &(__this->___m_TargetAngles_8);
-		Vector2_t13 * L_52 = &(__this->___rotationRange_2);
-		float L_53 = (L_52->___x_1);
-		Vector2_t13 * L_54 = &(__this->___rotationRange_2);
-		float L_55 = (L_54->___x_1);
-		float L_56 = V_1;
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Mathf_t186_il2cpp_TypeInfo));
-		float L_57 = Mathf_Lerp_m615(NULL /*static, unused*/, ((float)((float)((-L_53))*(float)(0.5f))), ((float)((float)L_55*(float)(0.5f))), ((float)((float)((float)((float)L_56*(float)(0.5f)))+(float)(0.5f))), /*hidden argument*/&Mathf_Lerp_m615_MethodInfo);
-		L_51->___x_1 = L_57;
-		goto IL_0212;
-	}
-
-IL_01f8:
-	{
-		Vector3_t8 * L_58 = &(__this->___m_TargetAngles_8);
-		Vector3_t8 * L_59 = L_58;
-		float L_60 = (L_59->___x_1);
-		float L_61 = V_1;
-		float L_62 = (__this->___rotationSpeed_3);
-		L_59->___x_1 = ((float)((float)L_60+(float)((float)((float)L_61*(float)L_62))));
-	}
-
-IL_0212:
-	{
-		Vector3_t8 * L_63 = &(__this->___m_TargetAngles_8);
-		Vector3_t8 * L_64 = &(__this->___m_TargetAngles_8);
-		float L_65 = (L_64->___y_2);
-		Vector2_t13 * L_66 = &(__this->___rotationRange_2);
-		float L_67 = (L_66->___y_2);
-		Vector2_t13 * L_68 = &(__this->___rotationRange_2);
-		float L_69 = (L_68->___y_2);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Mathf_t186_il2cpp_TypeInfo));
-		float L_70 = Mathf_Clamp_m616(NULL /*static, unused*/, L_65, ((float)((float)((-L_67))*(float)(0.5f))), ((float)((float)L_69*(float)(0.5f))), /*hidden argument*/&Mathf_Clamp_m616_MethodInfo);
-		L_63->___y_2 = L_70;
-		Vector3_t8 * L_71 = &(__this->___m_TargetAngles_8);
-		Vector3_t8 * L_72 = &(__this->___m_TargetAngles_8);
-		float L_73 = (L_72->___x_1);
-		Vector2_t13 * L_74 = &(__this->___rotationRange_2);
-		float L_75 = (L_74->___x_1);
-		Vector2_t13 * L_76 = &(__this->___rotationRange_2);
-		float L_77 = (L_76->___x_1);
-		float L_78 = Mathf_Clamp_m616(NULL /*static, unused*/, L_73, ((float)((float)((-L_75))*(float)(0.5f))), ((float)((float)L_77*(float)(0.5f))), /*hidden argument*/&Mathf_Clamp_m616_MethodInfo);
-		L_71->___x_1 = L_78;
-		goto IL_0325;
-	}
-
-IL_0293:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Input_t187_il2cpp_TypeInfo));
-		Vector3_t8  L_79 = Input_get_mousePosition_m783(NULL /*static, unused*/, /*hidden argument*/&Input_get_mousePosition_m783_MethodInfo);
-		V_2 = L_79;
-		float L_80 = ((&V_2)->___x_1);
-		V_0 = L_80;
-		Vector3_t8  L_81 = Input_get_mousePosition_m783(NULL /*static, unused*/, /*hidden argument*/&Input_get_mousePosition_m783_MethodInfo);
-		V_3 = L_81;
-		float L_82 = ((&V_3)->___y_2);
-		V_1 = L_82;
-		Vector3_t8 * L_83 = &(__this->___m_TargetAngles_8);
-		Vector2_t13 * L_84 = &(__this->___rotationRange_2);
-		float L_85 = (L_84->___y_2);
-		Vector2_t13 * L_86 = &(__this->___rotationRange_2);
-		float L_87 = (L_86->___y_2);
-		float L_88 = V_0;
-		int32_t L_89 = Screen_get_width_m786(NULL /*static, unused*/, /*hidden argument*/&Screen_get_width_m786_MethodInfo);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Mathf_t186_il2cpp_TypeInfo));
-		float L_90 = Mathf_Lerp_m615(NULL /*static, unused*/, ((float)((float)((-L_85))*(float)(0.5f))), ((float)((float)L_87*(float)(0.5f))), ((float)((float)L_88/(float)(((float)L_89)))), /*hidden argument*/&Mathf_Lerp_m615_MethodInfo);
-		L_83->___y_2 = L_90;
-		Vector3_t8 * L_91 = &(__this->___m_TargetAngles_8);
-		Vector2_t13 * L_92 = &(__this->___rotationRange_2);
-		float L_93 = (L_92->___x_1);
-		Vector2_t13 * L_94 = &(__this->___rotationRange_2);
-		float L_95 = (L_94->___x_1);
-		float L_96 = V_1;
-		int32_t L_97 = Screen_get_height_m994(NULL /*static, unused*/, /*hidden argument*/&Screen_get_height_m994_MethodInfo);
-		float L_98 = Mathf_Lerp_m615(NULL /*static, unused*/, ((float)((float)((-L_93))*(float)(0.5f))), ((float)((float)L_95*(float)(0.5f))), ((float)((float)L_96/(float)(((float)L_97)))), /*hidden argument*/&Mathf_Lerp_m615_MethodInfo);
-		L_91->___x_1 = L_98;
-	}
-
-IL_0325:
-	{
-		Vector3_t8  L_99 = (__this->___m_FollowAngles_9);
-		Vector3_t8  L_100 = (__this->___m_TargetAngles_8);
-		Vector3_t8 * L_101 = &(__this->___m_FollowVelocity_10);
-		float L_102 = (__this->___dampingTime_4);
-		Vector3_t8  L_103 = Vector3_SmoothDamp_m625(NULL /*static, unused*/, L_99, L_100, L_101, L_102, /*hidden argument*/&Vector3_SmoothDamp_m625_MethodInfo);
-		__this->___m_FollowAngles_9 = L_103;
-		Transform_t2 * L_104 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
-		Quaternion_t10  L_105 = (__this->___m_OriginalRotation_11);
-		Vector3_t8 * L_106 = &(__this->___m_FollowAngles_9);
-		float L_107 = (L_106->___x_1);
-		Vector3_t8 * L_108 = &(__this->___m_FollowAngles_9);
-		float L_109 = (L_108->___y_2);
-		Quaternion_t10  L_110 = Quaternion_Euler_m614(NULL /*static, unused*/, ((-L_107)), L_109, (0.0f), /*hidden argument*/&Quaternion_Euler_m614_MethodInfo);
-		Quaternion_t10  L_111 = Quaternion_op_Multiply_m623(NULL /*static, unused*/, L_105, L_110, /*hidden argument*/&Quaternion_op_Multiply_m623_MethodInfo);
-		NullCheck(L_104);
-		Transform_set_localRotation_m618(L_104, L_111, /*hidden argument*/&Transform_set_localRotation_m618_MethodInfo);
+		float L_18 = V_1;
+		float L_19 = (__this->___rotationSpeed_3);
+		L_16->___x_1 = ((float)((float)L_17-(float)((float)((float)L_18*(float)L_19))));
+		Vector3_t8  L_20 = (__this->___m_FollowAngles_9);
+		Vector3_t8  L_21 = (__this->___m_TargetAngles_8);
+		Vector3_t8 * L_22 = &(__this->___m_FollowVelocity_10);
+		float L_23 = (__this->___dampingTime_4);
+		Vector3_t8  L_24 = Vector3_SmoothDamp_m625(NULL /*static, unused*/, L_20, L_21, L_22, L_23, /*hidden argument*/&Vector3_SmoothDamp_m625_MethodInfo);
+		__this->___m_FollowAngles_9 = L_24;
+		Transform_t2 * L_25 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
+		Vector3_t8  L_26 = (__this->___m_FollowAngles_9);
+		NullCheck(L_25);
+		Transform_Rotate_m1298(L_25, L_26, /*hidden argument*/&Transform_Rotate_m1298_MethodInfo);
+		Vector3_t8  L_27 = Input_get_mousePosition_m783(NULL /*static, unused*/, /*hidden argument*/&Input_get_mousePosition_m783_MethodInfo);
+		__this->___origin_7 = L_27;
 		return;
 	}
 }
@@ -2894,7 +3112,7 @@ IL_0325:
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo NewBehaviourScript_t271_il2cpp_TypeInfo;
+extern TypeInfo NewBehaviourScript_t273_il2cpp_TypeInfo;
 // NewBehaviourScript
 #include "AssemblyU2DCSharp_NewBehaviourScriptMethodDeclarations.h"
 
@@ -2903,33 +3121,33 @@ extern TypeInfo NewBehaviourScript_t271_il2cpp_TypeInfo;
 #include "mscorlib_System_Collections_Generic_Dictionary_2_gen_3.h"
 // UnityEngine.Event
 #include "UnityEngine_UnityEngine_Event.h"
-extern TypeInfo CameraU5BU5D_t269_il2cpp_TypeInfo;
+extern TypeInfo CameraU5BU5D_t271_il2cpp_TypeInfo;
 extern TypeInfo Camera_t19_il2cpp_TypeInfo;
-extern TypeInfo Dictionary_2_t270_il2cpp_TypeInfo;
+extern TypeInfo Dictionary_2_t272_il2cpp_TypeInfo;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_gen_3MethodDeclarations.h"
 // UnityEngine.Event
 #include "UnityEngine_UnityEngine_EventMethodDeclarations.h"
-extern Il2CppType CameraU5BU5D_t269_0_0_0;
-extern Il2CppType Dictionary_2_t270_0_0_0;
-extern MethodInfo Camera_get_allCamerasCount_m1288_MethodInfo;
-extern MethodInfo Camera_GetAllCameras_m1289_MethodInfo;
-extern MethodInfo NewBehaviourScript_nextCamera_m1208_MethodInfo;
+extern Il2CppType CameraU5BU5D_t271_0_0_0;
+extern Il2CppType Dictionary_2_t272_0_0_0;
+extern MethodInfo Camera_get_allCamerasCount_m1299_MethodInfo;
+extern MethodInfo Camera_GetAllCameras_m1300_MethodInfo;
+extern MethodInfo NewBehaviourScript_nextCamera_m1218_MethodInfo;
 extern MethodInfo CrossPlatformInputManager_GetButtonUp_m150_MethodInfo;
-extern MethodInfo Dictionary_2__ctor_m1290_MethodInfo;
-extern MethodInfo Dictionary_2_Add_m1291_MethodInfo;
-extern MethodInfo Dictionary_2_TryGetValue_m1292_MethodInfo;
-extern MethodInfo Object_ReferenceEquals_m1293_MethodInfo;
-extern MethodInfo Object_Equals_m1294_MethodInfo;
-extern MethodInfo Event_KeyboardEvent_m1295_MethodInfo;
-extern Il2CppGenericMethod Dictionary_2__ctor_m1290_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Add_m1291_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_TryGetValue_m1292_GenericMethod;
+extern MethodInfo Dictionary_2__ctor_m1301_MethodInfo;
+extern MethodInfo Dictionary_2_Add_m1302_MethodInfo;
+extern MethodInfo Dictionary_2_TryGetValue_m1303_MethodInfo;
+extern MethodInfo Object_ReferenceEquals_m1304_MethodInfo;
+extern MethodInfo Object_Equals_m1305_MethodInfo;
+extern MethodInfo Event_KeyboardEvent_m1306_MethodInfo;
+extern Il2CppGenericMethod Dictionary_2__ctor_m1301_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Add_m1302_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_TryGetValue_m1303_GenericMethod;
 
 
 // System.Void NewBehaviourScript::.ctor()
-extern MethodInfo NewBehaviourScript__ctor_m1205_MethodInfo;
-extern "C" void NewBehaviourScript__ctor_m1205 (NewBehaviourScript_t271 * __this, MethodInfo* method)
+extern MethodInfo NewBehaviourScript__ctor_m1215_MethodInfo;
+extern "C" void NewBehaviourScript__ctor_m1215 (NewBehaviourScript_t273 * __this, MethodInfo* method)
 {
 	{
 		MonoBehaviour__ctor_m575(__this, /*hidden argument*/&MonoBehaviour__ctor_m575_MethodInfo);
@@ -2937,28 +3155,28 @@ extern "C" void NewBehaviourScript__ctor_m1205 (NewBehaviourScript_t271 * __this
 	}
 }
 // System.Void NewBehaviourScript::Start()
-extern MethodInfo NewBehaviourScript_Start_m1206_MethodInfo;
-extern TypeInfo* CameraU5BU5D_t269_il2cpp_TypeInfo_var;
-extern "C" void NewBehaviourScript_Start_m1206 (NewBehaviourScript_t271 * __this, MethodInfo* method)
+extern MethodInfo NewBehaviourScript_Start_m1216_MethodInfo;
+extern TypeInfo* CameraU5BU5D_t271_il2cpp_TypeInfo_var;
+extern "C" void NewBehaviourScript_Start_m1216 (NewBehaviourScript_t273 * __this, MethodInfo* method)
 {
-	static bool NewBehaviourScript_Start_m1206_init;
-	if (!NewBehaviourScript_Start_m1206_init)
+	static bool NewBehaviourScript_Start_m1216_init;
+	if (!NewBehaviourScript_Start_m1216_init)
 	{
-		CameraU5BU5D_t269_il2cpp_TypeInfo_var = il2cpp_codegen_class_from_type(&CameraU5BU5D_t269_0_0_0);
-		NewBehaviourScript_Start_m1206_init = true;
+		CameraU5BU5D_t271_il2cpp_TypeInfo_var = il2cpp_codegen_class_from_type(&CameraU5BU5D_t271_0_0_0);
+		NewBehaviourScript_Start_m1216_init = true;
 	}
 	{
-		int32_t L_0 = Camera_get_allCamerasCount_m1288(NULL /*static, unused*/, /*hidden argument*/&Camera_get_allCamerasCount_m1288_MethodInfo);
-		__this->___cameras_2 = ((CameraU5BU5D_t269*)SZArrayNew(CameraU5BU5D_t269_il2cpp_TypeInfo_var, L_0));
-		CameraU5BU5D_t269* L_1 = (__this->___cameras_2);
-		Camera_GetAllCameras_m1289(NULL /*static, unused*/, L_1, /*hidden argument*/&Camera_GetAllCameras_m1289_MethodInfo);
-		NewBehaviourScript_nextCamera_m1208(__this, /*hidden argument*/&NewBehaviourScript_nextCamera_m1208_MethodInfo);
+		int32_t L_0 = Camera_get_allCamerasCount_m1299(NULL /*static, unused*/, /*hidden argument*/&Camera_get_allCamerasCount_m1299_MethodInfo);
+		__this->___cameras_2 = ((CameraU5BU5D_t271*)SZArrayNew(CameraU5BU5D_t271_il2cpp_TypeInfo_var, L_0));
+		CameraU5BU5D_t271* L_1 = (__this->___cameras_2);
+		Camera_GetAllCameras_m1300(NULL /*static, unused*/, L_1, /*hidden argument*/&Camera_GetAllCameras_m1300_MethodInfo);
+		NewBehaviourScript_nextCamera_m1218(__this, /*hidden argument*/&NewBehaviourScript_nextCamera_m1218_MethodInfo);
 		return;
 	}
 }
 // System.Void NewBehaviourScript::Update()
-extern MethodInfo NewBehaviourScript_Update_m1207_MethodInfo;
-extern "C" void NewBehaviourScript_Update_m1207 (NewBehaviourScript_t271 * __this, MethodInfo* method)
+extern MethodInfo NewBehaviourScript_Update_m1217_MethodInfo;
+extern "C" void NewBehaviourScript_Update_m1217 (NewBehaviourScript_t273 * __this, MethodInfo* method)
 {
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&CrossPlatformInputManager_t51_il2cpp_TypeInfo));
@@ -2969,7 +3187,7 @@ extern "C" void NewBehaviourScript_Update_m1207 (NewBehaviourScript_t271 * __thi
 		}
 	}
 	{
-		NewBehaviourScript_nextCamera_m1208(__this, /*hidden argument*/&NewBehaviourScript_nextCamera_m1208_MethodInfo);
+		NewBehaviourScript_nextCamera_m1218(__this, /*hidden argument*/&NewBehaviourScript_nextCamera_m1218_MethodInfo);
 	}
 
 IL_0015:
@@ -2978,7 +3196,7 @@ IL_0015:
 	}
 }
 // System.Void NewBehaviourScript::nextCamera()
-extern "C" void NewBehaviourScript_nextCamera_m1208 (NewBehaviourScript_t271 * __this, MethodInfo* method)
+extern "C" void NewBehaviourScript_nextCamera_m1218 (NewBehaviourScript_t273 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -2988,7 +3206,7 @@ extern "C" void NewBehaviourScript_nextCamera_m1208 (NewBehaviourScript_t271 * _
 		V_1 = L_1;
 		__this->___current_3 = L_1;
 		int32_t L_2 = V_1;
-		CameraU5BU5D_t269* L_3 = (__this->___cameras_2);
+		CameraU5BU5D_t271* L_3 = (__this->___cameras_2);
 		NullCheck(L_3);
 		if ((((int32_t)L_2) < ((int32_t)(((int32_t)(((Array_t *)L_3)->max_length))))))
 		{
@@ -3007,7 +3225,7 @@ IL_0025:
 
 IL_002c:
 	{
-		CameraU5BU5D_t269* L_4 = (__this->___cameras_2);
+		CameraU5BU5D_t271* L_4 = (__this->___cameras_2);
 		int32_t L_5 = V_0;
 		NullCheck(L_4);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, L_5);
@@ -3023,7 +3241,7 @@ IL_002c:
 IL_0046:
 	{
 		int32_t L_10 = V_0;
-		CameraU5BU5D_t269* L_11 = (__this->___cameras_2);
+		CameraU5BU5D_t271* L_11 = (__this->___cameras_2);
 		NullCheck(L_11);
 		if ((((int32_t)L_10) < ((int32_t)(((int32_t)(((Array_t *)L_11)->max_length))))))
 		{
@@ -3035,27 +3253,27 @@ IL_0046:
 	}
 }
 // System.Void NewBehaviourScript::move(System.String)
-extern MethodInfo NewBehaviourScript_move_m1209_MethodInfo;
-extern TypeInfo* Dictionary_2_t270_il2cpp_TypeInfo_var;
-extern MethodInfo* Dictionary_2__ctor_m1290_MethodInfo_var;
-extern MethodInfo* Dictionary_2_Add_m1291_MethodInfo_var;
-extern MethodInfo* Dictionary_2_TryGetValue_m1292_MethodInfo_var;
-extern "C" void NewBehaviourScript_move_m1209 (NewBehaviourScript_t271 * __this, String_t* ___direction, MethodInfo* method)
+extern MethodInfo NewBehaviourScript_move_m1219_MethodInfo;
+extern TypeInfo* Dictionary_2_t272_il2cpp_TypeInfo_var;
+extern MethodInfo* Dictionary_2__ctor_m1301_MethodInfo_var;
+extern MethodInfo* Dictionary_2_Add_m1302_MethodInfo_var;
+extern MethodInfo* Dictionary_2_TryGetValue_m1303_MethodInfo_var;
+extern "C" void NewBehaviourScript_move_m1219 (NewBehaviourScript_t273 * __this, String_t* ___direction, MethodInfo* method)
 {
-	static bool NewBehaviourScript_move_m1209_init;
-	if (!NewBehaviourScript_move_m1209_init)
+	static bool NewBehaviourScript_move_m1219_init;
+	if (!NewBehaviourScript_move_m1219_init)
 	{
-		Dictionary_2_t270_il2cpp_TypeInfo_var = il2cpp_codegen_class_from_type(&Dictionary_2_t270_0_0_0);
-		Dictionary_2__ctor_m1290_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Dictionary_2__ctor_m1290_GenericMethod);
-		Dictionary_2_Add_m1291_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Dictionary_2_Add_m1291_GenericMethod);
-		Dictionary_2_TryGetValue_m1292_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Dictionary_2_TryGetValue_m1292_GenericMethod);
-		NewBehaviourScript_move_m1209_init = true;
+		Dictionary_2_t272_il2cpp_TypeInfo_var = il2cpp_codegen_class_from_type(&Dictionary_2_t272_0_0_0);
+		Dictionary_2__ctor_m1301_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Dictionary_2__ctor_m1301_GenericMethod);
+		Dictionary_2_Add_m1302_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Dictionary_2_Add_m1302_GenericMethod);
+		Dictionary_2_TryGetValue_m1303_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Dictionary_2_TryGetValue_m1303_GenericMethod);
+		NewBehaviourScript_move_m1219_init = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	String_t* V_3 = {0};
-	Dictionary_2_t270 * V_4 = {0};
+	Dictionary_2_t272 * V_4 = {0};
 	int32_t V_5 = 0;
 	{
 		V_0 = 0;
@@ -3069,38 +3287,38 @@ extern "C" void NewBehaviourScript_move_m1209 (NewBehaviourScript_t271 * __this,
 		}
 	}
 	{
-		Dictionary_2_t270 * L_2 = ((NewBehaviourScript_t271_StaticFields*)InitializedTypeInfo(&NewBehaviourScript_t271_il2cpp_TypeInfo)->static_fields)->___U3CU3Ef__switch$map0_4;
+		Dictionary_2_t272 * L_2 = ((NewBehaviourScript_t273_StaticFields*)InitializedTypeInfo(&NewBehaviourScript_t273_il2cpp_TypeInfo)->static_fields)->___U3CU3Ef__switch$map0_4;
 		if (L_2)
 		{
 			goto IL_0059;
 		}
 	}
 	{
-		Dictionary_2_t270 * L_3 = (Dictionary_2_t270 *)il2cpp_codegen_object_new (Dictionary_2_t270_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m1290(L_3, 4, /*hidden argument*/Dictionary_2__ctor_m1290_MethodInfo_var);
+		Dictionary_2_t272 * L_3 = (Dictionary_2_t272 *)il2cpp_codegen_object_new (Dictionary_2_t272_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1301(L_3, 4, /*hidden argument*/Dictionary_2__ctor_m1301_MethodInfo_var);
 		V_4 = L_3;
-		Dictionary_2_t270 * L_4 = V_4;
+		Dictionary_2_t272 * L_4 = V_4;
 		NullCheck(L_4);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(Dictionary_2_Add_m1291_MethodInfo_var, L_4, (String_t*) &_stringLiteral77, 0);
-		Dictionary_2_t270 * L_5 = V_4;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(Dictionary_2_Add_m1302_MethodInfo_var, L_4, (String_t*) &_stringLiteral77, 0);
+		Dictionary_2_t272 * L_5 = V_4;
 		NullCheck(L_5);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(Dictionary_2_Add_m1291_MethodInfo_var, L_5, (String_t*) &_stringLiteral78, 1);
-		Dictionary_2_t270 * L_6 = V_4;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(Dictionary_2_Add_m1302_MethodInfo_var, L_5, (String_t*) &_stringLiteral78, 1);
+		Dictionary_2_t272 * L_6 = V_4;
 		NullCheck(L_6);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(Dictionary_2_Add_m1291_MethodInfo_var, L_6, (String_t*) &_stringLiteral79, 2);
-		Dictionary_2_t270 * L_7 = V_4;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(Dictionary_2_Add_m1302_MethodInfo_var, L_6, (String_t*) &_stringLiteral79, 2);
+		Dictionary_2_t272 * L_7 = V_4;
 		NullCheck(L_7);
-		VirtActionInvoker2< String_t*, int32_t >::Invoke(Dictionary_2_Add_m1291_MethodInfo_var, L_7, (String_t*) &_stringLiteral80, 3);
-		Dictionary_2_t270 * L_8 = V_4;
-		((NewBehaviourScript_t271_StaticFields*)InitializedTypeInfo(&NewBehaviourScript_t271_il2cpp_TypeInfo)->static_fields)->___U3CU3Ef__switch$map0_4 = L_8;
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(Dictionary_2_Add_m1302_MethodInfo_var, L_7, (String_t*) &_stringLiteral80, 3);
+		Dictionary_2_t272 * L_8 = V_4;
+		((NewBehaviourScript_t273_StaticFields*)InitializedTypeInfo(&NewBehaviourScript_t273_il2cpp_TypeInfo)->static_fields)->___U3CU3Ef__switch$map0_4 = L_8;
 	}
 
 IL_0059:
 	{
-		Dictionary_2_t270 * L_9 = ((NewBehaviourScript_t271_StaticFields*)InitializedTypeInfo(&NewBehaviourScript_t271_il2cpp_TypeInfo)->static_fields)->___U3CU3Ef__switch$map0_4;
+		Dictionary_2_t272 * L_9 = ((NewBehaviourScript_t273_StaticFields*)InitializedTypeInfo(&NewBehaviourScript_t273_il2cpp_TypeInfo)->static_fields)->___U3CU3Ef__switch$map0_4;
 		String_t* L_10 = V_3;
 		NullCheck(L_9);
-		bool L_11 = (bool)VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(Dictionary_2_TryGetValue_m1292_MethodInfo_var, L_9, L_10, (&V_5));
+		bool L_11 = (bool)VirtFuncInvoker2< bool, String_t*, int32_t* >::Invoke(Dictionary_2_TryGetValue_m1303_MethodInfo_var, L_9, L_10, (&V_5));
 		if (!L_11)
 		{
 			goto IL_00a3;
@@ -3164,7 +3382,7 @@ IL_00a3:
 		int32_t L_18 = V_2;
 		int32_t L_19 = ((int32_t)((int32_t)L_17*(int32_t)L_18));
 		Object_t * L_20 = Box(InitializedTypeInfo(&Int32_t188_il2cpp_TypeInfo), &L_19);
-		Object_ReferenceEquals_m1293(NULL /*static, unused*/, L_16, L_20, /*hidden argument*/&Object_ReferenceEquals_m1293_MethodInfo);
+		Object_ReferenceEquals_m1304(NULL /*static, unused*/, L_16, L_20, /*hidden argument*/&Object_ReferenceEquals_m1304_MethodInfo);
 		int32_t L_21 = V_0;
 		int32_t L_22 = V_2;
 		int32_t L_23 = ((int32_t)((int32_t)L_21*(int32_t)L_22));
@@ -3173,11 +3391,11 @@ IL_00a3:
 		int32_t L_26 = V_2;
 		int32_t L_27 = ((int32_t)((int32_t)L_25*(int32_t)L_26));
 		Object_t * L_28 = Box(InitializedTypeInfo(&Int32_t188_il2cpp_TypeInfo), &L_27);
-		Object_Equals_m1294(NULL /*static, unused*/, L_24, L_28, /*hidden argument*/&Object_Equals_m1294_MethodInfo);
+		Object_Equals_m1305(NULL /*static, unused*/, L_24, L_28, /*hidden argument*/&Object_Equals_m1305_MethodInfo);
 		String_t* L_29 = ___direction;
-		Event_KeyboardEvent_m1295(NULL /*static, unused*/, L_29, /*hidden argument*/&Event_KeyboardEvent_m1295_MethodInfo);
+		Event_KeyboardEvent_m1306(NULL /*static, unused*/, L_29, /*hidden argument*/&Event_KeyboardEvent_m1306_MethodInfo);
 		String_t* L_30 = ___direction;
-		MonoBehaviour_print_m1287(NULL /*static, unused*/, L_30, /*hidden argument*/&MonoBehaviour_print_m1287_MethodInfo);
+		MonoBehaviour_print_m1297(NULL /*static, unused*/, L_30, /*hidden argument*/&MonoBehaviour_print_m1297_MethodInfo);
 		return;
 	}
 }
@@ -3186,7 +3404,7 @@ IL_00a3:
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo ActiveStateToggler_t272_il2cpp_TypeInfo;
+extern TypeInfo ActiveStateToggler_t274_il2cpp_TypeInfo;
 // ActiveStateToggler
 #include "AssemblyU2DCSharp_ActiveStateTogglerMethodDeclarations.h"
 
@@ -3194,8 +3412,8 @@ extern MethodInfo GameObject_get_activeSelf_m578_MethodInfo;
 
 
 // System.Void ActiveStateToggler::.ctor()
-extern MethodInfo ActiveStateToggler__ctor_m1210_MethodInfo;
-extern "C" void ActiveStateToggler__ctor_m1210 (ActiveStateToggler_t272 * __this, MethodInfo* method)
+extern MethodInfo ActiveStateToggler__ctor_m1220_MethodInfo;
+extern "C" void ActiveStateToggler__ctor_m1220 (ActiveStateToggler_t274 * __this, MethodInfo* method)
 {
 	{
 		MonoBehaviour__ctor_m575(__this, /*hidden argument*/&MonoBehaviour__ctor_m575_MethodInfo);
@@ -3203,8 +3421,8 @@ extern "C" void ActiveStateToggler__ctor_m1210 (ActiveStateToggler_t272 * __this
 	}
 }
 // System.Void ActiveStateToggler::ToggleActive()
-extern MethodInfo ActiveStateToggler_ToggleActive_m1211_MethodInfo;
-extern "C" void ActiveStateToggler_ToggleActive_m1211 (ActiveStateToggler_t272 * __this, MethodInfo* method)
+extern MethodInfo ActiveStateToggler_ToggleActive_m1221_MethodInfo;
+extern "C" void ActiveStateToggler_ToggleActive_m1221 (ActiveStateToggler_t274 * __this, MethodInfo* method)
 {
 	{
 		GameObject_t92 * L_0 = Component_get_gameObject_m577(__this, /*hidden argument*/&Component_get_gameObject_m577_MethodInfo);
@@ -3221,18 +3439,18 @@ extern "C" void ActiveStateToggler_ToggleActive_m1211 (ActiveStateToggler_t272 *
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo ApplicationManager_t273_il2cpp_TypeInfo;
+extern TypeInfo ApplicationManager_t275_il2cpp_TypeInfo;
 // ApplicationManager
 #include "AssemblyU2DCSharp_ApplicationManagerMethodDeclarations.h"
 
 // UnityEngine.Application
 #include "UnityEngine_UnityEngine_ApplicationMethodDeclarations.h"
-extern MethodInfo Application_Quit_m1296_MethodInfo;
+extern MethodInfo Application_Quit_m1307_MethodInfo;
 
 
 // System.Void ApplicationManager::.ctor()
-extern MethodInfo ApplicationManager__ctor_m1212_MethodInfo;
-extern "C" void ApplicationManager__ctor_m1212 (ApplicationManager_t273 * __this, MethodInfo* method)
+extern MethodInfo ApplicationManager__ctor_m1222_MethodInfo;
+extern "C" void ApplicationManager__ctor_m1222 (ApplicationManager_t275 * __this, MethodInfo* method)
 {
 	{
 		MonoBehaviour__ctor_m575(__this, /*hidden argument*/&MonoBehaviour__ctor_m575_MethodInfo);
@@ -3240,11 +3458,11 @@ extern "C" void ApplicationManager__ctor_m1212 (ApplicationManager_t273 * __this
 	}
 }
 // System.Void ApplicationManager::Quit()
-extern MethodInfo ApplicationManager_Quit_m1213_MethodInfo;
-extern "C" void ApplicationManager_Quit_m1213 (ApplicationManager_t273 * __this, MethodInfo* method)
+extern MethodInfo ApplicationManager_Quit_m1223_MethodInfo;
+extern "C" void ApplicationManager_Quit_m1223 (ApplicationManager_t275 * __this, MethodInfo* method)
 {
 	{
-		Application_Quit_m1296(NULL /*static, unused*/, /*hidden argument*/&Application_Quit_m1296_MethodInfo);
+		Application_Quit_m1307(NULL /*static, unused*/, /*hidden argument*/&Application_Quit_m1307_MethodInfo);
 		return;
 	}
 }
@@ -3253,7 +3471,7 @@ extern "C" void ApplicationManager_Quit_m1213 (ApplicationManager_t273 * __this,
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo ChangeColor_t274_il2cpp_TypeInfo;
+extern TypeInfo ChangeColor_t276_il2cpp_TypeInfo;
 // ChangeColor
 #include "AssemblyU2DCSharp_ChangeColorMethodDeclarations.h"
 
@@ -3276,14 +3494,14 @@ extern TypeInfo Color_t79_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_LightMethodDeclarations.h"
 // UnityEngine.Random
 #include "UnityEngine_UnityEngine_RandomMethodDeclarations.h"
-extern MethodInfo ChangeColor_OnValueChanged_m1219_MethodInfo;
-extern MethodInfo Color_get_white_m1297_MethodInfo;
+extern MethodInfo ChangeColor_OnValueChanged_m1229_MethodInfo;
+extern MethodInfo Color_get_white_m1308_MethodInfo;
 extern MethodInfo Renderer_get_material_m1029_MethodInfo;
-extern MethodInfo Material_get_color_m1298_MethodInfo;
-extern MethodInfo Light_get_color_m1299_MethodInfo;
-extern MethodInfo Color_set_Item_m1300_MethodInfo;
-extern MethodInfo Material_set_color_m1301_MethodInfo;
-extern MethodInfo Light_set_color_m1302_MethodInfo;
+extern MethodInfo Material_get_color_m1309_MethodInfo;
+extern MethodInfo Light_get_color_m1310_MethodInfo;
+extern MethodInfo Color_set_Item_m1311_MethodInfo;
+extern MethodInfo Material_set_color_m1312_MethodInfo;
+extern MethodInfo Light_set_color_m1313_MethodInfo;
 extern MethodInfo Random_get_value_m1039_MethodInfo;
 extern MethodInfo Color__ctor_m1003_MethodInfo;
 struct Component_t185;
@@ -3297,14 +3515,14 @@ struct Component_t185;
 #include "UnityEngine_UnityEngine_CastHelper_1_gen_21.h"
 // Declaration !!0 UnityEngine.Component::GetComponent<UnityEngine.Light>()
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.Light>()
-#define Component_GetComponent_TisLight_t107_m1303(__this, method) (( Light_t107 * (*) (Component_t185 *, MethodInfo*))Component_GetComponent_TisObject_t_m585_gshared)(__this, method)
+#define Component_GetComponent_TisLight_t107_m1314(__this, method) (( Light_t107 * (*) (Component_t185 *, MethodInfo*))Component_GetComponent_TisObject_t_m585_gshared)(__this, method)
 extern Il2CppGenericMethod Component_GetComponent_TisRenderer_t156_m810_GenericMethod;
-extern Il2CppGenericMethod Component_GetComponent_TisLight_t107_m1303_GenericMethod;
+extern Il2CppGenericMethod Component_GetComponent_TisLight_t107_m1314_GenericMethod;
 
 
 // System.Void ChangeColor::.ctor()
-extern MethodInfo ChangeColor__ctor_m1214_MethodInfo;
-extern "C" void ChangeColor__ctor_m1214 (ChangeColor_t274 * __this, MethodInfo* method)
+extern MethodInfo ChangeColor__ctor_m1224_MethodInfo;
+extern "C" void ChangeColor__ctor_m1224 (ChangeColor_t276 * __this, MethodInfo* method)
 {
 	{
 		MonoBehaviour__ctor_m575(__this, /*hidden argument*/&MonoBehaviour__ctor_m575_MethodInfo);
@@ -3312,58 +3530,58 @@ extern "C" void ChangeColor__ctor_m1214 (ChangeColor_t274 * __this, MethodInfo* 
 	}
 }
 // System.Void ChangeColor::OnEnable()
-extern MethodInfo ChangeColor_OnEnable_m1215_MethodInfo;
-extern "C" void ChangeColor_OnEnable_m1215 (ChangeColor_t274 * __this, MethodInfo* method)
+extern MethodInfo ChangeColor_OnEnable_m1225_MethodInfo;
+extern "C" void ChangeColor_OnEnable_m1225 (ChangeColor_t276 * __this, MethodInfo* method)
 {
 	{
 		return;
 	}
 }
 // System.Void ChangeColor::SetRed(System.Single)
-extern MethodInfo ChangeColor_SetRed_m1216_MethodInfo;
-extern "C" void ChangeColor_SetRed_m1216 (ChangeColor_t274 * __this, float ___value, MethodInfo* method)
+extern MethodInfo ChangeColor_SetRed_m1226_MethodInfo;
+extern "C" void ChangeColor_SetRed_m1226 (ChangeColor_t276 * __this, float ___value, MethodInfo* method)
 {
 	{
 		float L_0 = ___value;
-		ChangeColor_OnValueChanged_m1219(__this, L_0, 0, /*hidden argument*/&ChangeColor_OnValueChanged_m1219_MethodInfo);
+		ChangeColor_OnValueChanged_m1229(__this, L_0, 0, /*hidden argument*/&ChangeColor_OnValueChanged_m1229_MethodInfo);
 		return;
 	}
 }
 // System.Void ChangeColor::SetGreen(System.Single)
-extern MethodInfo ChangeColor_SetGreen_m1217_MethodInfo;
-extern "C" void ChangeColor_SetGreen_m1217 (ChangeColor_t274 * __this, float ___value, MethodInfo* method)
+extern MethodInfo ChangeColor_SetGreen_m1227_MethodInfo;
+extern "C" void ChangeColor_SetGreen_m1227 (ChangeColor_t276 * __this, float ___value, MethodInfo* method)
 {
 	{
 		float L_0 = ___value;
-		ChangeColor_OnValueChanged_m1219(__this, L_0, 1, /*hidden argument*/&ChangeColor_OnValueChanged_m1219_MethodInfo);
+		ChangeColor_OnValueChanged_m1229(__this, L_0, 1, /*hidden argument*/&ChangeColor_OnValueChanged_m1229_MethodInfo);
 		return;
 	}
 }
 // System.Void ChangeColor::SetBlue(System.Single)
-extern MethodInfo ChangeColor_SetBlue_m1218_MethodInfo;
-extern "C" void ChangeColor_SetBlue_m1218 (ChangeColor_t274 * __this, float ___value, MethodInfo* method)
+extern MethodInfo ChangeColor_SetBlue_m1228_MethodInfo;
+extern "C" void ChangeColor_SetBlue_m1228 (ChangeColor_t276 * __this, float ___value, MethodInfo* method)
 {
 	{
 		float L_0 = ___value;
-		ChangeColor_OnValueChanged_m1219(__this, L_0, 2, /*hidden argument*/&ChangeColor_OnValueChanged_m1219_MethodInfo);
+		ChangeColor_OnValueChanged_m1229(__this, L_0, 2, /*hidden argument*/&ChangeColor_OnValueChanged_m1229_MethodInfo);
 		return;
 	}
 }
 // System.Void ChangeColor::OnValueChanged(System.Single,System.Int32)
 extern MethodInfo* Component_GetComponent_TisRenderer_t156_m810_MethodInfo_var;
-extern MethodInfo* Component_GetComponent_TisLight_t107_m1303_MethodInfo_var;
-extern "C" void ChangeColor_OnValueChanged_m1219 (ChangeColor_t274 * __this, float ___value, int32_t ___channel, MethodInfo* method)
+extern MethodInfo* Component_GetComponent_TisLight_t107_m1314_MethodInfo_var;
+extern "C" void ChangeColor_OnValueChanged_m1229 (ChangeColor_t276 * __this, float ___value, int32_t ___channel, MethodInfo* method)
 {
-	static bool ChangeColor_OnValueChanged_m1219_init;
-	if (!ChangeColor_OnValueChanged_m1219_init)
+	static bool ChangeColor_OnValueChanged_m1229_init;
+	if (!ChangeColor_OnValueChanged_m1229_init)
 	{
 		Component_GetComponent_TisRenderer_t156_m810_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisRenderer_t156_m810_GenericMethod);
-		Component_GetComponent_TisLight_t107_m1303_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisLight_t107_m1303_GenericMethod);
-		ChangeColor_OnValueChanged_m1219_init = true;
+		Component_GetComponent_TisLight_t107_m1314_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisLight_t107_m1314_GenericMethod);
+		ChangeColor_OnValueChanged_m1229_init = true;
 	}
 	Color_t79  V_0 = {0};
 	{
-		Color_t79  L_0 = Color_get_white_m1297(NULL /*static, unused*/, /*hidden argument*/&Color_get_white_m1297_MethodInfo);
+		Color_t79  L_0 = Color_get_white_m1308(NULL /*static, unused*/, /*hidden argument*/&Color_get_white_m1308_MethodInfo);
 		V_0 = L_0;
 		Renderer_t156 * L_1 = Component_GetComponent_TisRenderer_t156_m810(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t156_m810_MethodInfo_var);
 		bool L_2 = Object_op_Inequality_m642(NULL /*static, unused*/, L_1, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Inequality_m642_MethodInfo);
@@ -3377,14 +3595,14 @@ extern "C" void ChangeColor_OnValueChanged_m1219 (ChangeColor_t274 * __this, flo
 		NullCheck(L_3);
 		Material_t75 * L_4 = Renderer_get_material_m1029(L_3, /*hidden argument*/&Renderer_get_material_m1029_MethodInfo);
 		NullCheck(L_4);
-		Color_t79  L_5 = Material_get_color_m1298(L_4, /*hidden argument*/&Material_get_color_m1298_MethodInfo);
+		Color_t79  L_5 = Material_get_color_m1309(L_4, /*hidden argument*/&Material_get_color_m1309_MethodInfo);
 		V_0 = L_5;
 		goto IL_004a;
 	}
 
 IL_002d:
 	{
-		Light_t107 * L_6 = Component_GetComponent_TisLight_t107_m1303(__this, /*hidden argument*/Component_GetComponent_TisLight_t107_m1303_MethodInfo_var);
+		Light_t107 * L_6 = Component_GetComponent_TisLight_t107_m1314(__this, /*hidden argument*/Component_GetComponent_TisLight_t107_m1314_MethodInfo_var);
 		bool L_7 = Object_op_Inequality_m642(NULL /*static, unused*/, L_6, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Inequality_m642_MethodInfo);
 		if (!L_7)
 		{
@@ -3392,9 +3610,9 @@ IL_002d:
 		}
 	}
 	{
-		Light_t107 * L_8 = Component_GetComponent_TisLight_t107_m1303(__this, /*hidden argument*/Component_GetComponent_TisLight_t107_m1303_MethodInfo_var);
+		Light_t107 * L_8 = Component_GetComponent_TisLight_t107_m1314(__this, /*hidden argument*/Component_GetComponent_TisLight_t107_m1314_MethodInfo_var);
 		NullCheck(L_8);
-		Color_t79  L_9 = Light_get_color_m1299(L_8, /*hidden argument*/&Light_get_color_m1299_MethodInfo);
+		Color_t79  L_9 = Light_get_color_m1310(L_8, /*hidden argument*/&Light_get_color_m1310_MethodInfo);
 		V_0 = L_9;
 	}
 
@@ -3402,7 +3620,7 @@ IL_004a:
 	{
 		int32_t L_10 = ___channel;
 		float L_11 = ___value;
-		Color_set_Item_m1300((&V_0), L_10, L_11, /*hidden argument*/&Color_set_Item_m1300_MethodInfo);
+		Color_set_Item_m1311((&V_0), L_10, L_11, /*hidden argument*/&Color_set_Item_m1311_MethodInfo);
 		Renderer_t156 * L_12 = Component_GetComponent_TisRenderer_t156_m810(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t156_m810_MethodInfo_var);
 		bool L_13 = Object_op_Inequality_m642(NULL /*static, unused*/, L_12, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Inequality_m642_MethodInfo);
 		if (!L_13)
@@ -3416,13 +3634,13 @@ IL_004a:
 		Material_t75 * L_15 = Renderer_get_material_m1029(L_14, /*hidden argument*/&Renderer_get_material_m1029_MethodInfo);
 		Color_t79  L_16 = V_0;
 		NullCheck(L_15);
-		Material_set_color_m1301(L_15, L_16, /*hidden argument*/&Material_set_color_m1301_MethodInfo);
+		Material_set_color_m1312(L_15, L_16, /*hidden argument*/&Material_set_color_m1312_MethodInfo);
 		goto IL_0097;
 	}
 
 IL_007a:
 	{
-		Light_t107 * L_17 = Component_GetComponent_TisLight_t107_m1303(__this, /*hidden argument*/Component_GetComponent_TisLight_t107_m1303_MethodInfo_var);
+		Light_t107 * L_17 = Component_GetComponent_TisLight_t107_m1314(__this, /*hidden argument*/Component_GetComponent_TisLight_t107_m1314_MethodInfo_var);
 		bool L_18 = Object_op_Inequality_m642(NULL /*static, unused*/, L_17, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Inequality_m642_MethodInfo);
 		if (!L_18)
 		{
@@ -3430,10 +3648,10 @@ IL_007a:
 		}
 	}
 	{
-		Light_t107 * L_19 = Component_GetComponent_TisLight_t107_m1303(__this, /*hidden argument*/Component_GetComponent_TisLight_t107_m1303_MethodInfo_var);
+		Light_t107 * L_19 = Component_GetComponent_TisLight_t107_m1314(__this, /*hidden argument*/Component_GetComponent_TisLight_t107_m1314_MethodInfo_var);
 		Color_t79  L_20 = V_0;
 		NullCheck(L_19);
-		Light_set_color_m1302(L_19, L_20, /*hidden argument*/&Light_set_color_m1302_MethodInfo);
+		Light_set_color_m1313(L_19, L_20, /*hidden argument*/&Light_set_color_m1313_MethodInfo);
 	}
 
 IL_0097:
@@ -3442,17 +3660,17 @@ IL_0097:
 	}
 }
 // System.Void ChangeColor::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
-extern MethodInfo ChangeColor_OnPointerClick_m1220_MethodInfo;
+extern MethodInfo ChangeColor_OnPointerClick_m1230_MethodInfo;
 extern MethodInfo* Component_GetComponent_TisRenderer_t156_m810_MethodInfo_var;
-extern MethodInfo* Component_GetComponent_TisLight_t107_m1303_MethodInfo_var;
-extern "C" void ChangeColor_OnPointerClick_m1220 (ChangeColor_t274 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
+extern MethodInfo* Component_GetComponent_TisLight_t107_m1314_MethodInfo_var;
+extern "C" void ChangeColor_OnPointerClick_m1230 (ChangeColor_t276 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
 {
-	static bool ChangeColor_OnPointerClick_m1220_init;
-	if (!ChangeColor_OnPointerClick_m1220_init)
+	static bool ChangeColor_OnPointerClick_m1230_init;
+	if (!ChangeColor_OnPointerClick_m1230_init)
 	{
 		Component_GetComponent_TisRenderer_t156_m810_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisRenderer_t156_m810_GenericMethod);
-		Component_GetComponent_TisLight_t107_m1303_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisLight_t107_m1303_GenericMethod);
-		ChangeColor_OnPointerClick_m1220_init = true;
+		Component_GetComponent_TisLight_t107_m1314_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisLight_t107_m1314_GenericMethod);
+		ChangeColor_OnPointerClick_m1230_init = true;
 	}
 	{
 		Renderer_t156 * L_0 = Component_GetComponent_TisRenderer_t156_m810(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t156_m810_MethodInfo_var);
@@ -3472,13 +3690,13 @@ extern "C" void ChangeColor_OnPointerClick_m1220 (ChangeColor_t274 * __this, Poi
 		Color_t79  L_7 = {0};
 		Color__ctor_m1003(&L_7, L_4, L_5, L_6, (1.0f), /*hidden argument*/&Color__ctor_m1003_MethodInfo);
 		NullCheck(L_3);
-		Material_set_color_m1301(L_3, L_7, /*hidden argument*/&Material_set_color_m1301_MethodInfo);
+		Material_set_color_m1312(L_3, L_7, /*hidden argument*/&Material_set_color_m1312_MethodInfo);
 		goto IL_0074;
 	}
 
 IL_003f:
 	{
-		Light_t107 * L_8 = Component_GetComponent_TisLight_t107_m1303(__this, /*hidden argument*/Component_GetComponent_TisLight_t107_m1303_MethodInfo_var);
+		Light_t107 * L_8 = Component_GetComponent_TisLight_t107_m1314(__this, /*hidden argument*/Component_GetComponent_TisLight_t107_m1314_MethodInfo_var);
 		bool L_9 = Object_op_Inequality_m642(NULL /*static, unused*/, L_8, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Inequality_m642_MethodInfo);
 		if (!L_9)
 		{
@@ -3486,14 +3704,14 @@ IL_003f:
 		}
 	}
 	{
-		Light_t107 * L_10 = Component_GetComponent_TisLight_t107_m1303(__this, /*hidden argument*/Component_GetComponent_TisLight_t107_m1303_MethodInfo_var);
+		Light_t107 * L_10 = Component_GetComponent_TisLight_t107_m1314(__this, /*hidden argument*/Component_GetComponent_TisLight_t107_m1314_MethodInfo_var);
 		float L_11 = Random_get_value_m1039(NULL /*static, unused*/, /*hidden argument*/&Random_get_value_m1039_MethodInfo);
 		float L_12 = Random_get_value_m1039(NULL /*static, unused*/, /*hidden argument*/&Random_get_value_m1039_MethodInfo);
 		float L_13 = Random_get_value_m1039(NULL /*static, unused*/, /*hidden argument*/&Random_get_value_m1039_MethodInfo);
 		Color_t79  L_14 = {0};
 		Color__ctor_m1003(&L_14, L_11, L_12, L_13, (1.0f), /*hidden argument*/&Color__ctor_m1003_MethodInfo);
 		NullCheck(L_10);
-		Light_set_color_m1302(L_10, L_14, /*hidden argument*/&Light_set_color_m1302_MethodInfo);
+		Light_set_color_m1313(L_10, L_14, /*hidden argument*/&Light_set_color_m1313_MethodInfo);
 	}
 
 IL_0074:
@@ -3506,7 +3724,7 @@ IL_0074:
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo DragMe_t276_il2cpp_TypeInfo;
+extern TypeInfo DragMe_t278_il2cpp_TypeInfo;
 // DragMe
 #include "AssemblyU2DCSharp_DragMeMethodDeclarations.h"
 
@@ -3522,8 +3740,8 @@ extern TypeInfo DragMe_t276_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_RectTransform.h"
 extern TypeInfo GameObject_t92_il2cpp_TypeInfo;
 extern TypeInfo Image_t64_il2cpp_TypeInfo;
-extern TypeInfo RectTransform_t275_il2cpp_TypeInfo;
-extern TypeInfo RectTransformUtility_t288_il2cpp_TypeInfo;
+extern TypeInfo RectTransform_t277_il2cpp_TypeInfo;
+extern TypeInfo RectTransformUtility_t290_il2cpp_TypeInfo;
 // UnityEngine.CanvasGroup
 #include "UnityEngine_UnityEngine_CanvasGroupMethodDeclarations.h"
 // UnityEngine.UI.Image
@@ -3533,29 +3751,29 @@ extern TypeInfo RectTransformUtility_t288_il2cpp_TypeInfo;
 extern MethodInfo Object_op_Equality_m576_MethodInfo;
 extern MethodInfo GameObject__ctor_m956_MethodInfo;
 extern MethodInfo GameObject_get_transform_m583_MethodInfo;
-extern MethodInfo Transform_SetParent_m1304_MethodInfo;
-extern MethodInfo Transform_SetAsLastSibling_m1305_MethodInfo;
-extern MethodInfo CanvasGroup_set_blocksRaycasts_m1306_MethodInfo;
-extern MethodInfo Image_get_sprite_m1307_MethodInfo;
-extern MethodInfo Image_set_sprite_m1308_MethodInfo;
-extern MethodInfo Image_SetNativeSize_m1309_MethodInfo;
-extern MethodInfo DragMe_SetDraggedPosition_m1224_MethodInfo;
-extern MethodInfo PointerEventData_get_pointerEnter_m1310_MethodInfo;
-extern MethodInfo PointerEventData_get_pressEventCamera_m1311_MethodInfo;
-extern MethodInfo RectTransformUtility_ScreenPointToWorldPointInRectangle_m1312_MethodInfo;
+extern MethodInfo Transform_SetParent_m1315_MethodInfo;
+extern MethodInfo Transform_SetAsLastSibling_m1316_MethodInfo;
+extern MethodInfo CanvasGroup_set_blocksRaycasts_m1317_MethodInfo;
+extern MethodInfo Image_get_sprite_m1318_MethodInfo;
+extern MethodInfo Image_set_sprite_m1319_MethodInfo;
+extern MethodInfo Image_SetNativeSize_m1320_MethodInfo;
+extern MethodInfo DragMe_SetDraggedPosition_m1234_MethodInfo;
+extern MethodInfo PointerEventData_get_pointerEnter_m1321_MethodInfo;
+extern MethodInfo PointerEventData_get_pressEventCamera_m1322_MethodInfo;
+extern MethodInfo RectTransformUtility_ScreenPointToWorldPointInRectangle_m1323_MethodInfo;
 extern MethodInfo Object_Destroy_m991_MethodInfo;
-struct DragMe_t276;
+struct DragMe_t278;
 // Declaration !!0 DragMe::FindInParents<UnityEngine.Canvas>(UnityEngine.GameObject)
 // !!0 DragMe::FindInParents<UnityEngine.Canvas>(UnityEngine.GameObject)
-extern "C" Canvas_t289 * DragMe_FindInParents_TisCanvas_t289_m1313 (Object_t * __this /* static, unused */, GameObject_t92 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Canvas_t291 * DragMe_FindInParents_TisCanvas_t291_m1324 (Object_t * __this /* static, unused */, GameObject_t92 * p0, MethodInfo* method) IL2CPP_METHOD_ATTR;
 struct GameObject_t92;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.Image>()
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.UI.Image>()
-extern "C" Image_t64 * GameObject_AddComponent_TisImage_t64_m1314 (GameObject_t92 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Image_t64 * GameObject_AddComponent_TisImage_t64_m1325 (GameObject_t92 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 struct GameObject_t92;
 // Declaration !!0 UnityEngine.GameObject::AddComponent<UnityEngine.CanvasGroup>()
 // !!0 UnityEngine.GameObject::AddComponent<UnityEngine.CanvasGroup>()
-extern "C" CanvasGroup_t290 * GameObject_AddComponent_TisCanvasGroup_t290_m1315 (GameObject_t92 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" CanvasGroup_t292 * GameObject_AddComponent_TisCanvasGroup_t292_m1326 (GameObject_t92 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 struct Component_t185;
 // UnityEngine.CastHelper`1<UnityEngine.UI.Image>
 #include "UnityEngine_UnityEngine_CastHelper_1_gen_7.h"
@@ -3572,17 +3790,17 @@ extern "C" Object_t * GameObject_GetComponent_TisObject_t_m870_gshared (GameObje
 #define GameObject_GetComponent_TisObject_t_m870(__this, method) (( Object_t * (*) (GameObject_t92 *, MethodInfo*))GameObject_GetComponent_TisObject_t_m870_gshared)(__this, method)
 // Declaration !!0 UnityEngine.GameObject::GetComponent<UnityEngine.RectTransform>()
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.RectTransform>()
-#define GameObject_GetComponent_TisRectTransform_t275_m1316(__this, method) (( RectTransform_t275 * (*) (GameObject_t92 *, MethodInfo*))GameObject_GetComponent_TisObject_t_m870_gshared)(__this, method)
-extern Il2CppGenericMethod DragMe_FindInParents_TisCanvas_t289_m1313_GenericMethod;
-extern Il2CppGenericMethod GameObject_AddComponent_TisImage_t64_m1314_GenericMethod;
-extern Il2CppGenericMethod GameObject_AddComponent_TisCanvasGroup_t290_m1315_GenericMethod;
+#define GameObject_GetComponent_TisRectTransform_t277_m1327(__this, method) (( RectTransform_t277 * (*) (GameObject_t92 *, MethodInfo*))GameObject_GetComponent_TisObject_t_m870_gshared)(__this, method)
+extern Il2CppGenericMethod DragMe_FindInParents_TisCanvas_t291_m1324_GenericMethod;
+extern Il2CppGenericMethod GameObject_AddComponent_TisImage_t64_m1325_GenericMethod;
+extern Il2CppGenericMethod GameObject_AddComponent_TisCanvasGroup_t292_m1326_GenericMethod;
 extern Il2CppGenericMethod Component_GetComponent_TisImage_t64_m793_GenericMethod;
-extern Il2CppGenericMethod GameObject_GetComponent_TisRectTransform_t275_m1316_GenericMethod;
+extern Il2CppGenericMethod GameObject_GetComponent_TisRectTransform_t277_m1327_GenericMethod;
 
 
 // System.Void DragMe::.ctor()
-extern MethodInfo DragMe__ctor_m1221_MethodInfo;
-extern "C" void DragMe__ctor_m1221 (DragMe_t276 * __this, MethodInfo* method)
+extern MethodInfo DragMe__ctor_m1231_MethodInfo;
+extern "C" void DragMe__ctor_m1231 (DragMe_t278 * __this, MethodInfo* method)
 {
 	{
 		__this->___dragOnSurfaces_2 = 1;
@@ -3591,30 +3809,30 @@ extern "C" void DragMe__ctor_m1221 (DragMe_t276 * __this, MethodInfo* method)
 	}
 }
 // System.Void DragMe::OnBeginDrag(UnityEngine.EventSystems.PointerEventData)
-extern MethodInfo DragMe_OnBeginDrag_m1222_MethodInfo;
-extern MethodInfo* DragMe_FindInParents_TisCanvas_t289_m1313_MethodInfo_var;
-extern MethodInfo* GameObject_AddComponent_TisImage_t64_m1314_MethodInfo_var;
-extern MethodInfo* GameObject_AddComponent_TisCanvasGroup_t290_m1315_MethodInfo_var;
+extern MethodInfo DragMe_OnBeginDrag_m1232_MethodInfo;
+extern MethodInfo* DragMe_FindInParents_TisCanvas_t291_m1324_MethodInfo_var;
+extern MethodInfo* GameObject_AddComponent_TisImage_t64_m1325_MethodInfo_var;
+extern MethodInfo* GameObject_AddComponent_TisCanvasGroup_t292_m1326_MethodInfo_var;
 extern MethodInfo* Component_GetComponent_TisImage_t64_m793_MethodInfo_var;
-extern "C" void DragMe_OnBeginDrag_m1222 (DragMe_t276 * __this, PointerEventData_t46 * ___eventData, MethodInfo* method)
+extern "C" void DragMe_OnBeginDrag_m1232 (DragMe_t278 * __this, PointerEventData_t46 * ___eventData, MethodInfo* method)
 {
-	static bool DragMe_OnBeginDrag_m1222_init;
-	if (!DragMe_OnBeginDrag_m1222_init)
+	static bool DragMe_OnBeginDrag_m1232_init;
+	if (!DragMe_OnBeginDrag_m1232_init)
 	{
-		DragMe_FindInParents_TisCanvas_t289_m1313_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&DragMe_FindInParents_TisCanvas_t289_m1313_GenericMethod);
-		GameObject_AddComponent_TisImage_t64_m1314_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&GameObject_AddComponent_TisImage_t64_m1314_GenericMethod);
-		GameObject_AddComponent_TisCanvasGroup_t290_m1315_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&GameObject_AddComponent_TisCanvasGroup_t290_m1315_GenericMethod);
+		DragMe_FindInParents_TisCanvas_t291_m1324_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&DragMe_FindInParents_TisCanvas_t291_m1324_GenericMethod);
+		GameObject_AddComponent_TisImage_t64_m1325_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&GameObject_AddComponent_TisImage_t64_m1325_GenericMethod);
+		GameObject_AddComponent_TisCanvasGroup_t292_m1326_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&GameObject_AddComponent_TisCanvasGroup_t292_m1326_GenericMethod);
 		Component_GetComponent_TisImage_t64_m793_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisImage_t64_m793_GenericMethod);
-		DragMe_OnBeginDrag_m1222_init = true;
+		DragMe_OnBeginDrag_m1232_init = true;
 	}
-	Canvas_t289 * V_0 = {0};
+	Canvas_t291 * V_0 = {0};
 	Image_t64 * V_1 = {0};
-	CanvasGroup_t290 * V_2 = {0};
+	CanvasGroup_t292 * V_2 = {0};
 	{
 		GameObject_t92 * L_0 = Component_get_gameObject_m577(__this, /*hidden argument*/&Component_get_gameObject_m577_MethodInfo);
-		Canvas_t289 * L_1 = DragMe_FindInParents_TisCanvas_t289_m1313(NULL /*static, unused*/, L_0, /*hidden argument*/DragMe_FindInParents_TisCanvas_t289_m1313_MethodInfo_var);
+		Canvas_t291 * L_1 = DragMe_FindInParents_TisCanvas_t291_m1324(NULL /*static, unused*/, L_0, /*hidden argument*/DragMe_FindInParents_TisCanvas_t291_m1324_MethodInfo_var);
 		V_0 = L_1;
-		Canvas_t289 * L_2 = V_0;
+		Canvas_t291 * L_2 = V_0;
 		bool L_3 = Object_op_Equality_m576(NULL /*static, unused*/, L_2, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Equality_m576_MethodInfo);
 		if (!L_3)
 		{
@@ -3633,36 +3851,36 @@ IL_0019:
 		GameObject_t92 * L_5 = (__this->___m_DraggingIcon_3);
 		NullCheck(L_5);
 		Transform_t2 * L_6 = GameObject_get_transform_m583(L_5, /*hidden argument*/&GameObject_get_transform_m583_MethodInfo);
-		Canvas_t289 * L_7 = V_0;
+		Canvas_t291 * L_7 = V_0;
 		NullCheck(L_7);
 		Transform_t2 * L_8 = Component_get_transform_m598(L_7, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
 		NullCheck(L_6);
-		Transform_SetParent_m1304(L_6, L_8, 0, /*hidden argument*/&Transform_SetParent_m1304_MethodInfo);
+		Transform_SetParent_m1315(L_6, L_8, 0, /*hidden argument*/&Transform_SetParent_m1315_MethodInfo);
 		GameObject_t92 * L_9 = (__this->___m_DraggingIcon_3);
 		NullCheck(L_9);
 		Transform_t2 * L_10 = GameObject_get_transform_m583(L_9, /*hidden argument*/&GameObject_get_transform_m583_MethodInfo);
 		NullCheck(L_10);
-		Transform_SetAsLastSibling_m1305(L_10, /*hidden argument*/&Transform_SetAsLastSibling_m1305_MethodInfo);
+		Transform_SetAsLastSibling_m1316(L_10, /*hidden argument*/&Transform_SetAsLastSibling_m1316_MethodInfo);
 		GameObject_t92 * L_11 = (__this->___m_DraggingIcon_3);
 		NullCheck(L_11);
-		Image_t64 * L_12 = GameObject_AddComponent_TisImage_t64_m1314(L_11, /*hidden argument*/GameObject_AddComponent_TisImage_t64_m1314_MethodInfo_var);
+		Image_t64 * L_12 = GameObject_AddComponent_TisImage_t64_m1325(L_11, /*hidden argument*/GameObject_AddComponent_TisImage_t64_m1325_MethodInfo_var);
 		V_1 = L_12;
 		GameObject_t92 * L_13 = (__this->___m_DraggingIcon_3);
 		NullCheck(L_13);
-		CanvasGroup_t290 * L_14 = GameObject_AddComponent_TisCanvasGroup_t290_m1315(L_13, /*hidden argument*/GameObject_AddComponent_TisCanvasGroup_t290_m1315_MethodInfo_var);
+		CanvasGroup_t292 * L_14 = GameObject_AddComponent_TisCanvasGroup_t292_m1326(L_13, /*hidden argument*/GameObject_AddComponent_TisCanvasGroup_t292_m1326_MethodInfo_var);
 		V_2 = L_14;
-		CanvasGroup_t290 * L_15 = V_2;
+		CanvasGroup_t292 * L_15 = V_2;
 		NullCheck(L_15);
-		CanvasGroup_set_blocksRaycasts_m1306(L_15, 0, /*hidden argument*/&CanvasGroup_set_blocksRaycasts_m1306_MethodInfo);
+		CanvasGroup_set_blocksRaycasts_m1317(L_15, 0, /*hidden argument*/&CanvasGroup_set_blocksRaycasts_m1317_MethodInfo);
 		Image_t64 * L_16 = V_1;
 		Image_t64 * L_17 = Component_GetComponent_TisImage_t64_m793(__this, /*hidden argument*/Component_GetComponent_TisImage_t64_m793_MethodInfo_var);
 		NullCheck(L_17);
-		Sprite_t279 * L_18 = Image_get_sprite_m1307(L_17, /*hidden argument*/&Image_get_sprite_m1307_MethodInfo);
+		Sprite_t281 * L_18 = Image_get_sprite_m1318(L_17, /*hidden argument*/&Image_get_sprite_m1318_MethodInfo);
 		NullCheck(L_16);
-		Image_set_sprite_m1308(L_16, L_18, /*hidden argument*/&Image_set_sprite_m1308_MethodInfo);
+		Image_set_sprite_m1319(L_16, L_18, /*hidden argument*/&Image_set_sprite_m1319_MethodInfo);
 		Image_t64 * L_19 = V_1;
 		NullCheck(L_19);
-		VirtActionInvoker0::Invoke(&Image_SetNativeSize_m1309_MethodInfo, L_19);
+		VirtActionInvoker0::Invoke(&Image_SetNativeSize_m1320_MethodInfo, L_19);
 		bool L_20 = (__this->___dragOnSurfaces_2);
 		if (!L_20)
 		{
@@ -3671,28 +3889,28 @@ IL_0019:
 	}
 	{
 		Transform_t2 * L_21 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
-		__this->___m_DraggingPlane_4 = ((RectTransform_t275 *)IsInst(L_21, InitializedTypeInfo(&RectTransform_t275_il2cpp_TypeInfo)));
+		__this->___m_DraggingPlane_4 = ((RectTransform_t277 *)IsInst(L_21, InitializedTypeInfo(&RectTransform_t277_il2cpp_TypeInfo)));
 		goto IL_00b8;
 	}
 
 IL_00a7:
 	{
-		Canvas_t289 * L_22 = V_0;
+		Canvas_t291 * L_22 = V_0;
 		NullCheck(L_22);
 		Transform_t2 * L_23 = Component_get_transform_m598(L_22, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
-		__this->___m_DraggingPlane_4 = ((RectTransform_t275 *)IsInst(L_23, InitializedTypeInfo(&RectTransform_t275_il2cpp_TypeInfo)));
+		__this->___m_DraggingPlane_4 = ((RectTransform_t277 *)IsInst(L_23, InitializedTypeInfo(&RectTransform_t277_il2cpp_TypeInfo)));
 	}
 
 IL_00b8:
 	{
 		PointerEventData_t46 * L_24 = ___eventData;
-		DragMe_SetDraggedPosition_m1224(__this, L_24, /*hidden argument*/&DragMe_SetDraggedPosition_m1224_MethodInfo);
+		DragMe_SetDraggedPosition_m1234(__this, L_24, /*hidden argument*/&DragMe_SetDraggedPosition_m1234_MethodInfo);
 		return;
 	}
 }
 // System.Void DragMe::OnDrag(UnityEngine.EventSystems.PointerEventData)
-extern MethodInfo DragMe_OnDrag_m1223_MethodInfo;
-extern "C" void DragMe_OnDrag_m1223 (DragMe_t276 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
+extern MethodInfo DragMe_OnDrag_m1233_MethodInfo;
+extern "C" void DragMe_OnDrag_m1233 (DragMe_t278 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
 {
 	{
 		GameObject_t92 * L_0 = (__this->___m_DraggingIcon_3);
@@ -3704,7 +3922,7 @@ extern "C" void DragMe_OnDrag_m1223 (DragMe_t276 * __this, PointerEventData_t46 
 	}
 	{
 		PointerEventData_t46 * L_2 = ___data;
-		DragMe_SetDraggedPosition_m1224(__this, L_2, /*hidden argument*/&DragMe_SetDraggedPosition_m1224_MethodInfo);
+		DragMe_SetDraggedPosition_m1234(__this, L_2, /*hidden argument*/&DragMe_SetDraggedPosition_m1234_MethodInfo);
 	}
 
 IL_0018:
@@ -3713,16 +3931,16 @@ IL_0018:
 	}
 }
 // System.Void DragMe::SetDraggedPosition(UnityEngine.EventSystems.PointerEventData)
-extern MethodInfo* GameObject_GetComponent_TisRectTransform_t275_m1316_MethodInfo_var;
-extern "C" void DragMe_SetDraggedPosition_m1224 (DragMe_t276 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
+extern MethodInfo* GameObject_GetComponent_TisRectTransform_t277_m1327_MethodInfo_var;
+extern "C" void DragMe_SetDraggedPosition_m1234 (DragMe_t278 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
 {
-	static bool DragMe_SetDraggedPosition_m1224_init;
-	if (!DragMe_SetDraggedPosition_m1224_init)
+	static bool DragMe_SetDraggedPosition_m1234_init;
+	if (!DragMe_SetDraggedPosition_m1234_init)
 	{
-		GameObject_GetComponent_TisRectTransform_t275_m1316_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&GameObject_GetComponent_TisRectTransform_t275_m1316_GenericMethod);
-		DragMe_SetDraggedPosition_m1224_init = true;
+		GameObject_GetComponent_TisRectTransform_t277_m1327_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&GameObject_GetComponent_TisRectTransform_t277_m1327_GenericMethod);
+		DragMe_SetDraggedPosition_m1234_init = true;
 	}
-	RectTransform_t275 * V_0 = {0};
+	RectTransform_t277 * V_0 = {0};
 	Vector3_t8  V_1 = {0};
 	{
 		bool L_0 = (__this->___dragOnSurfaces_2);
@@ -3734,7 +3952,7 @@ extern "C" void DragMe_SetDraggedPosition_m1224 (DragMe_t276 * __this, PointerEv
 	{
 		PointerEventData_t46 * L_1 = ___data;
 		NullCheck(L_1);
-		GameObject_t92 * L_2 = PointerEventData_get_pointerEnter_m1310(L_1, /*hidden argument*/&PointerEventData_get_pointerEnter_m1310_MethodInfo);
+		GameObject_t92 * L_2 = PointerEventData_get_pointerEnter_m1321(L_1, /*hidden argument*/&PointerEventData_get_pointerEnter_m1321_MethodInfo);
 		bool L_3 = Object_op_Inequality_m642(NULL /*static, unused*/, L_2, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Inequality_m642_MethodInfo);
 		if (!L_3)
 		{
@@ -3744,10 +3962,10 @@ extern "C" void DragMe_SetDraggedPosition_m1224 (DragMe_t276 * __this, PointerEv
 	{
 		PointerEventData_t46 * L_4 = ___data;
 		NullCheck(L_4);
-		GameObject_t92 * L_5 = PointerEventData_get_pointerEnter_m1310(L_4, /*hidden argument*/&PointerEventData_get_pointerEnter_m1310_MethodInfo);
+		GameObject_t92 * L_5 = PointerEventData_get_pointerEnter_m1321(L_4, /*hidden argument*/&PointerEventData_get_pointerEnter_m1321_MethodInfo);
 		NullCheck(L_5);
 		Transform_t2 * L_6 = GameObject_get_transform_m583(L_5, /*hidden argument*/&GameObject_get_transform_m583_MethodInfo);
-		bool L_7 = Object_op_Inequality_m642(NULL /*static, unused*/, ((RectTransform_t275 *)IsInst(L_6, InitializedTypeInfo(&RectTransform_t275_il2cpp_TypeInfo))), (Object_t91 *)NULL, /*hidden argument*/&Object_op_Inequality_m642_MethodInfo);
+		bool L_7 = Object_op_Inequality_m642(NULL /*static, unused*/, ((RectTransform_t277 *)IsInst(L_6, InitializedTypeInfo(&RectTransform_t277_il2cpp_TypeInfo))), (Object_t91 *)NULL, /*hidden argument*/&Object_op_Inequality_m642_MethodInfo);
 		if (!L_7)
 		{
 			goto IL_004d;
@@ -3756,39 +3974,39 @@ extern "C" void DragMe_SetDraggedPosition_m1224 (DragMe_t276 * __this, PointerEv
 	{
 		PointerEventData_t46 * L_8 = ___data;
 		NullCheck(L_8);
-		GameObject_t92 * L_9 = PointerEventData_get_pointerEnter_m1310(L_8, /*hidden argument*/&PointerEventData_get_pointerEnter_m1310_MethodInfo);
+		GameObject_t92 * L_9 = PointerEventData_get_pointerEnter_m1321(L_8, /*hidden argument*/&PointerEventData_get_pointerEnter_m1321_MethodInfo);
 		NullCheck(L_9);
 		Transform_t2 * L_10 = GameObject_get_transform_m583(L_9, /*hidden argument*/&GameObject_get_transform_m583_MethodInfo);
-		__this->___m_DraggingPlane_4 = ((RectTransform_t275 *)IsInst(L_10, InitializedTypeInfo(&RectTransform_t275_il2cpp_TypeInfo)));
+		__this->___m_DraggingPlane_4 = ((RectTransform_t277 *)IsInst(L_10, InitializedTypeInfo(&RectTransform_t277_il2cpp_TypeInfo)));
 	}
 
 IL_004d:
 	{
 		GameObject_t92 * L_11 = (__this->___m_DraggingIcon_3);
 		NullCheck(L_11);
-		RectTransform_t275 * L_12 = GameObject_GetComponent_TisRectTransform_t275_m1316(L_11, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t275_m1316_MethodInfo_var);
+		RectTransform_t277 * L_12 = GameObject_GetComponent_TisRectTransform_t277_m1327(L_11, /*hidden argument*/GameObject_GetComponent_TisRectTransform_t277_m1327_MethodInfo_var);
 		V_0 = L_12;
-		RectTransform_t275 * L_13 = (__this->___m_DraggingPlane_4);
+		RectTransform_t277 * L_13 = (__this->___m_DraggingPlane_4);
 		PointerEventData_t46 * L_14 = ___data;
 		NullCheck(L_14);
 		Vector2_t13  L_15 = PointerEventData_get_position_m766(L_14, /*hidden argument*/&PointerEventData_get_position_m766_MethodInfo);
 		PointerEventData_t46 * L_16 = ___data;
 		NullCheck(L_16);
-		Camera_t19 * L_17 = PointerEventData_get_pressEventCamera_m1311(L_16, /*hidden argument*/&PointerEventData_get_pressEventCamera_m1311_MethodInfo);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&RectTransformUtility_t288_il2cpp_TypeInfo));
-		bool L_18 = RectTransformUtility_ScreenPointToWorldPointInRectangle_m1312(NULL /*static, unused*/, L_13, L_15, L_17, (&V_1), /*hidden argument*/&RectTransformUtility_ScreenPointToWorldPointInRectangle_m1312_MethodInfo);
+		Camera_t19 * L_17 = PointerEventData_get_pressEventCamera_m1322(L_16, /*hidden argument*/&PointerEventData_get_pressEventCamera_m1322_MethodInfo);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&RectTransformUtility_t290_il2cpp_TypeInfo));
+		bool L_18 = RectTransformUtility_ScreenPointToWorldPointInRectangle_m1323(NULL /*static, unused*/, L_13, L_15, L_17, (&V_1), /*hidden argument*/&RectTransformUtility_ScreenPointToWorldPointInRectangle_m1323_MethodInfo);
 		if (!L_18)
 		{
 			goto IL_008f;
 		}
 	}
 	{
-		RectTransform_t275 * L_19 = V_0;
+		RectTransform_t277 * L_19 = V_0;
 		Vector3_t8  L_20 = V_1;
 		NullCheck(L_19);
 		Transform_set_position_m601(L_19, L_20, /*hidden argument*/&Transform_set_position_m601_MethodInfo);
-		RectTransform_t275 * L_21 = V_0;
-		RectTransform_t275 * L_22 = (__this->___m_DraggingPlane_4);
+		RectTransform_t277 * L_21 = V_0;
+		RectTransform_t277 * L_22 = (__this->___m_DraggingPlane_4);
 		NullCheck(L_22);
 		Quaternion_t10  L_23 = Transform_get_rotation_m605(L_22, /*hidden argument*/&Transform_get_rotation_m605_MethodInfo);
 		NullCheck(L_21);
@@ -3801,8 +4019,8 @@ IL_008f:
 	}
 }
 // System.Void DragMe::OnEndDrag(UnityEngine.EventSystems.PointerEventData)
-extern MethodInfo DragMe_OnEndDrag_m1225_MethodInfo;
-extern "C" void DragMe_OnEndDrag_m1225 (DragMe_t276 * __this, PointerEventData_t46 * ___eventData, MethodInfo* method)
+extern MethodInfo DragMe_OnEndDrag_m1235_MethodInfo;
+extern "C" void DragMe_OnEndDrag_m1235 (DragMe_t278 * __this, PointerEventData_t46 * ___eventData, MethodInfo* method)
 {
 	{
 		GameObject_t92 * L_0 = (__this->___m_DraggingIcon_3);
@@ -3827,23 +4045,24 @@ IL_001c:
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo DragPanel_t277_il2cpp_TypeInfo;
+extern TypeInfo DragPanel_t279_il2cpp_TypeInfo;
 // DragPanel
 #include "AssemblyU2DCSharp_DragPanelMethodDeclarations.h"
 
 // UnityEngine.RectTransform
 #include "UnityEngine_UnityEngine_RectTransformMethodDeclarations.h"
-extern MethodInfo RectTransformUtility_ScreenPointToLocalPointInRectangle_m1317_MethodInfo;
-extern MethodInfo Vector2_op_Subtraction_m1318_MethodInfo;
-extern MethodInfo DragPanel_ClampToWindow_m1230_MethodInfo;
-extern MethodInfo RectTransform_get_rect_m1319_MethodInfo;
-extern MethodInfo Rect_get_min_m1320_MethodInfo;
-extern MethodInfo Rect_get_max_m1321_MethodInfo;
+extern MethodInfo RectTransformUtility_ScreenPointToLocalPointInRectangle_m1328_MethodInfo;
+extern MethodInfo Vector2_op_Subtraction_m1329_MethodInfo;
+extern MethodInfo DragPanel_ClampToWindow_m1240_MethodInfo;
+extern MethodInfo RectTransform_get_rect_m1330_MethodInfo;
+extern MethodInfo Rect_get_min_m1331_MethodInfo;
+extern MethodInfo Rect_get_max_m1332_MethodInfo;
+extern MethodInfo Mathf_Clamp_m616_MethodInfo;
 
 
 // System.Void DragPanel::.ctor()
-extern MethodInfo DragPanel__ctor_m1226_MethodInfo;
-extern "C" void DragPanel__ctor_m1226 (DragPanel_t277 * __this, MethodInfo* method)
+extern MethodInfo DragPanel__ctor_m1236_MethodInfo;
+extern "C" void DragPanel__ctor_m1236 (DragPanel_t279 * __this, MethodInfo* method)
 {
 	{
 		MonoBehaviour__ctor_m575(__this, /*hidden argument*/&MonoBehaviour__ctor_m575_MethodInfo);
@@ -3851,51 +4070,51 @@ extern "C" void DragPanel__ctor_m1226 (DragPanel_t277 * __this, MethodInfo* meth
 	}
 }
 // System.Void DragPanel::Awake()
-extern MethodInfo DragPanel_Awake_m1227_MethodInfo;
-extern "C" void DragPanel_Awake_m1227 (DragPanel_t277 * __this, MethodInfo* method)
+extern MethodInfo DragPanel_Awake_m1237_MethodInfo;
+extern "C" void DragPanel_Awake_m1237 (DragPanel_t279 * __this, MethodInfo* method)
 {
 	{
 		Transform_t2 * L_0 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
 		NullCheck(L_0);
 		Transform_t2 * L_1 = Transform_get_parent_m626(L_0, /*hidden argument*/&Transform_get_parent_m626_MethodInfo);
-		__this->___panelRectTransform_4 = ((RectTransform_t275 *)IsInst(L_1, InitializedTypeInfo(&RectTransform_t275_il2cpp_TypeInfo)));
-		RectTransform_t275 * L_2 = (__this->___panelRectTransform_4);
+		__this->___panelRectTransform_4 = ((RectTransform_t277 *)IsInst(L_1, InitializedTypeInfo(&RectTransform_t277_il2cpp_TypeInfo)));
+		RectTransform_t277 * L_2 = (__this->___panelRectTransform_4);
 		NullCheck(L_2);
 		Transform_t2 * L_3 = Transform_get_parent_m626(L_2, /*hidden argument*/&Transform_get_parent_m626_MethodInfo);
-		__this->___parentRectTransform_5 = ((RectTransform_t275 *)IsInst(L_3, InitializedTypeInfo(&RectTransform_t275_il2cpp_TypeInfo)));
+		__this->___parentRectTransform_5 = ((RectTransform_t277 *)IsInst(L_3, InitializedTypeInfo(&RectTransform_t277_il2cpp_TypeInfo)));
 		return;
 	}
 }
 // System.Void DragPanel::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
-extern MethodInfo DragPanel_OnPointerDown_m1228_MethodInfo;
-extern "C" void DragPanel_OnPointerDown_m1228 (DragPanel_t277 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
+extern MethodInfo DragPanel_OnPointerDown_m1238_MethodInfo;
+extern "C" void DragPanel_OnPointerDown_m1238 (DragPanel_t279 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
 {
 	{
-		RectTransform_t275 * L_0 = (__this->___panelRectTransform_4);
+		RectTransform_t277 * L_0 = (__this->___panelRectTransform_4);
 		NullCheck(L_0);
 		Vector3_t8  L_1 = Transform_get_localPosition_m632(L_0, /*hidden argument*/&Transform_get_localPosition_m632_MethodInfo);
 		__this->___originalPanelLocalPosition_3 = L_1;
-		RectTransform_t275 * L_2 = (__this->___parentRectTransform_5);
+		RectTransform_t277 * L_2 = (__this->___parentRectTransform_5);
 		PointerEventData_t46 * L_3 = ___data;
 		NullCheck(L_3);
 		Vector2_t13  L_4 = PointerEventData_get_position_m766(L_3, /*hidden argument*/&PointerEventData_get_position_m766_MethodInfo);
 		PointerEventData_t46 * L_5 = ___data;
 		NullCheck(L_5);
-		Camera_t19 * L_6 = PointerEventData_get_pressEventCamera_m1311(L_5, /*hidden argument*/&PointerEventData_get_pressEventCamera_m1311_MethodInfo);
+		Camera_t19 * L_6 = PointerEventData_get_pressEventCamera_m1322(L_5, /*hidden argument*/&PointerEventData_get_pressEventCamera_m1322_MethodInfo);
 		Vector2_t13 * L_7 = &(__this->___originalLocalPointerPosition_2);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&RectTransformUtility_t288_il2cpp_TypeInfo));
-		RectTransformUtility_ScreenPointToLocalPointInRectangle_m1317(NULL /*static, unused*/, L_2, L_4, L_6, L_7, /*hidden argument*/&RectTransformUtility_ScreenPointToLocalPointInRectangle_m1317_MethodInfo);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&RectTransformUtility_t290_il2cpp_TypeInfo));
+		RectTransformUtility_ScreenPointToLocalPointInRectangle_m1328(NULL /*static, unused*/, L_2, L_4, L_6, L_7, /*hidden argument*/&RectTransformUtility_ScreenPointToLocalPointInRectangle_m1328_MethodInfo);
 		return;
 	}
 }
 // System.Void DragPanel::OnDrag(UnityEngine.EventSystems.PointerEventData)
-extern MethodInfo DragPanel_OnDrag_m1229_MethodInfo;
-extern "C" void DragPanel_OnDrag_m1229 (DragPanel_t277 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
+extern MethodInfo DragPanel_OnDrag_m1239_MethodInfo;
+extern "C" void DragPanel_OnDrag_m1239 (DragPanel_t279 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
 {
 	Vector2_t13  V_0 = {0};
 	Vector3_t8  V_1 = {0};
 	{
-		RectTransform_t275 * L_0 = (__this->___panelRectTransform_4);
+		RectTransform_t277 * L_0 = (__this->___panelRectTransform_4);
 		bool L_1 = Object_op_Equality_m576(NULL /*static, unused*/, L_0, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Equality_m576_MethodInfo);
 		if (L_1)
 		{
@@ -3903,7 +4122,7 @@ extern "C" void DragPanel_OnDrag_m1229 (DragPanel_t277 * __this, PointerEventDat
 		}
 	}
 	{
-		RectTransform_t275 * L_2 = (__this->___parentRectTransform_5);
+		RectTransform_t277 * L_2 = (__this->___parentRectTransform_5);
 		bool L_3 = Object_op_Equality_m576(NULL /*static, unused*/, L_2, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Equality_m576_MethodInfo);
 		if (!L_3)
 		{
@@ -3918,15 +4137,15 @@ IL_0022:
 
 IL_0023:
 	{
-		RectTransform_t275 * L_4 = (__this->___parentRectTransform_5);
+		RectTransform_t277 * L_4 = (__this->___parentRectTransform_5);
 		PointerEventData_t46 * L_5 = ___data;
 		NullCheck(L_5);
 		Vector2_t13  L_6 = PointerEventData_get_position_m766(L_5, /*hidden argument*/&PointerEventData_get_position_m766_MethodInfo);
 		PointerEventData_t46 * L_7 = ___data;
 		NullCheck(L_7);
-		Camera_t19 * L_8 = PointerEventData_get_pressEventCamera_m1311(L_7, /*hidden argument*/&PointerEventData_get_pressEventCamera_m1311_MethodInfo);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&RectTransformUtility_t288_il2cpp_TypeInfo));
-		bool L_9 = RectTransformUtility_ScreenPointToLocalPointInRectangle_m1317(NULL /*static, unused*/, L_4, L_6, L_8, (&V_0), /*hidden argument*/&RectTransformUtility_ScreenPointToLocalPointInRectangle_m1317_MethodInfo);
+		Camera_t19 * L_8 = PointerEventData_get_pressEventCamera_m1322(L_7, /*hidden argument*/&PointerEventData_get_pressEventCamera_m1322_MethodInfo);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&RectTransformUtility_t290_il2cpp_TypeInfo));
+		bool L_9 = RectTransformUtility_ScreenPointToLocalPointInRectangle_m1328(NULL /*static, unused*/, L_4, L_6, L_8, (&V_0), /*hidden argument*/&RectTransformUtility_ScreenPointToLocalPointInRectangle_m1328_MethodInfo);
 		if (!L_9)
 		{
 			goto IL_006a;
@@ -3935,10 +4154,10 @@ IL_0023:
 	{
 		Vector2_t13  L_10 = V_0;
 		Vector2_t13  L_11 = (__this->___originalLocalPointerPosition_2);
-		Vector2_t13  L_12 = Vector2_op_Subtraction_m1318(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/&Vector2_op_Subtraction_m1318_MethodInfo);
+		Vector2_t13  L_12 = Vector2_op_Subtraction_m1329(NULL /*static, unused*/, L_10, L_11, /*hidden argument*/&Vector2_op_Subtraction_m1329_MethodInfo);
 		Vector3_t8  L_13 = Vector2_op_Implicit_m788(NULL /*static, unused*/, L_12, /*hidden argument*/&Vector2_op_Implicit_m788_MethodInfo);
 		V_1 = L_13;
-		RectTransform_t275 * L_14 = (__this->___panelRectTransform_4);
+		RectTransform_t277 * L_14 = (__this->___panelRectTransform_4);
 		Vector3_t8  L_15 = (__this->___originalPanelLocalPosition_3);
 		Vector3_t8  L_16 = V_1;
 		Vector3_t8  L_17 = Vector3_op_Addition_m634(NULL /*static, unused*/, L_15, L_16, /*hidden argument*/&Vector3_op_Addition_m634_MethodInfo);
@@ -3948,12 +4167,12 @@ IL_0023:
 
 IL_006a:
 	{
-		DragPanel_ClampToWindow_m1230(__this, /*hidden argument*/&DragPanel_ClampToWindow_m1230_MethodInfo);
+		DragPanel_ClampToWindow_m1240(__this, /*hidden argument*/&DragPanel_ClampToWindow_m1240_MethodInfo);
 		return;
 	}
 }
 // System.Void DragPanel::ClampToWindow()
-extern "C" void DragPanel_ClampToWindow_m1230 (DragPanel_t277 * __this, MethodInfo* method)
+extern "C" void DragPanel_ClampToWindow_m1240 (DragPanel_t279 * __this, MethodInfo* method)
 {
 	Vector3_t8  V_0 = {0};
 	Vector3_t8  V_1 = {0};
@@ -3965,37 +4184,37 @@ extern "C" void DragPanel_ClampToWindow_m1230 (DragPanel_t277 * __this, MethodIn
 	Vector3_t8  V_7 = {0};
 	Vector3_t8  V_8 = {0};
 	{
-		RectTransform_t275 * L_0 = (__this->___panelRectTransform_4);
+		RectTransform_t277 * L_0 = (__this->___panelRectTransform_4);
 		NullCheck(L_0);
 		Vector3_t8  L_1 = Transform_get_localPosition_m632(L_0, /*hidden argument*/&Transform_get_localPosition_m632_MethodInfo);
 		V_0 = L_1;
-		RectTransform_t275 * L_2 = (__this->___parentRectTransform_5);
+		RectTransform_t277 * L_2 = (__this->___parentRectTransform_5);
 		NullCheck(L_2);
-		Rect_t260  L_3 = RectTransform_get_rect_m1319(L_2, /*hidden argument*/&RectTransform_get_rect_m1319_MethodInfo);
+		Rect_t260  L_3 = RectTransform_get_rect_m1330(L_2, /*hidden argument*/&RectTransform_get_rect_m1330_MethodInfo);
 		V_3 = L_3;
-		Vector2_t13  L_4 = Rect_get_min_m1320((&V_3), /*hidden argument*/&Rect_get_min_m1320_MethodInfo);
-		RectTransform_t275 * L_5 = (__this->___panelRectTransform_4);
+		Vector2_t13  L_4 = Rect_get_min_m1331((&V_3), /*hidden argument*/&Rect_get_min_m1331_MethodInfo);
+		RectTransform_t277 * L_5 = (__this->___panelRectTransform_4);
 		NullCheck(L_5);
-		Rect_t260  L_6 = RectTransform_get_rect_m1319(L_5, /*hidden argument*/&RectTransform_get_rect_m1319_MethodInfo);
+		Rect_t260  L_6 = RectTransform_get_rect_m1330(L_5, /*hidden argument*/&RectTransform_get_rect_m1330_MethodInfo);
 		V_4 = L_6;
-		Vector2_t13  L_7 = Rect_get_min_m1320((&V_4), /*hidden argument*/&Rect_get_min_m1320_MethodInfo);
-		Vector2_t13  L_8 = Vector2_op_Subtraction_m1318(NULL /*static, unused*/, L_4, L_7, /*hidden argument*/&Vector2_op_Subtraction_m1318_MethodInfo);
+		Vector2_t13  L_7 = Rect_get_min_m1331((&V_4), /*hidden argument*/&Rect_get_min_m1331_MethodInfo);
+		Vector2_t13  L_8 = Vector2_op_Subtraction_m1329(NULL /*static, unused*/, L_4, L_7, /*hidden argument*/&Vector2_op_Subtraction_m1329_MethodInfo);
 		Vector3_t8  L_9 = Vector2_op_Implicit_m788(NULL /*static, unused*/, L_8, /*hidden argument*/&Vector2_op_Implicit_m788_MethodInfo);
 		V_1 = L_9;
-		RectTransform_t275 * L_10 = (__this->___parentRectTransform_5);
+		RectTransform_t277 * L_10 = (__this->___parentRectTransform_5);
 		NullCheck(L_10);
-		Rect_t260  L_11 = RectTransform_get_rect_m1319(L_10, /*hidden argument*/&RectTransform_get_rect_m1319_MethodInfo);
+		Rect_t260  L_11 = RectTransform_get_rect_m1330(L_10, /*hidden argument*/&RectTransform_get_rect_m1330_MethodInfo);
 		V_5 = L_11;
-		Vector2_t13  L_12 = Rect_get_max_m1321((&V_5), /*hidden argument*/&Rect_get_max_m1321_MethodInfo);
-		RectTransform_t275 * L_13 = (__this->___panelRectTransform_4);
+		Vector2_t13  L_12 = Rect_get_max_m1332((&V_5), /*hidden argument*/&Rect_get_max_m1332_MethodInfo);
+		RectTransform_t277 * L_13 = (__this->___panelRectTransform_4);
 		NullCheck(L_13);
-		Rect_t260  L_14 = RectTransform_get_rect_m1319(L_13, /*hidden argument*/&RectTransform_get_rect_m1319_MethodInfo);
+		Rect_t260  L_14 = RectTransform_get_rect_m1330(L_13, /*hidden argument*/&RectTransform_get_rect_m1330_MethodInfo);
 		V_6 = L_14;
-		Vector2_t13  L_15 = Rect_get_max_m1321((&V_6), /*hidden argument*/&Rect_get_max_m1321_MethodInfo);
-		Vector2_t13  L_16 = Vector2_op_Subtraction_m1318(NULL /*static, unused*/, L_12, L_15, /*hidden argument*/&Vector2_op_Subtraction_m1318_MethodInfo);
+		Vector2_t13  L_15 = Rect_get_max_m1332((&V_6), /*hidden argument*/&Rect_get_max_m1332_MethodInfo);
+		Vector2_t13  L_16 = Vector2_op_Subtraction_m1329(NULL /*static, unused*/, L_12, L_15, /*hidden argument*/&Vector2_op_Subtraction_m1329_MethodInfo);
 		Vector3_t8  L_17 = Vector2_op_Implicit_m788(NULL /*static, unused*/, L_16, /*hidden argument*/&Vector2_op_Implicit_m788_MethodInfo);
 		V_2 = L_17;
-		RectTransform_t275 * L_18 = (__this->___panelRectTransform_4);
+		RectTransform_t277 * L_18 = (__this->___panelRectTransform_4);
 		NullCheck(L_18);
 		Vector3_t8  L_19 = Transform_get_localPosition_m632(L_18, /*hidden argument*/&Transform_get_localPosition_m632_MethodInfo);
 		V_7 = L_19;
@@ -4005,7 +4224,7 @@ extern "C" void DragPanel_ClampToWindow_m1230 (DragPanel_t277 * __this, MethodIn
 		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Mathf_t186_il2cpp_TypeInfo));
 		float L_23 = Mathf_Clamp_m616(NULL /*static, unused*/, L_20, L_21, L_22, /*hidden argument*/&Mathf_Clamp_m616_MethodInfo);
 		(&V_0)->___x_1 = L_23;
-		RectTransform_t275 * L_24 = (__this->___panelRectTransform_4);
+		RectTransform_t277 * L_24 = (__this->___panelRectTransform_4);
 		NullCheck(L_24);
 		Vector3_t8  L_25 = Transform_get_localPosition_m632(L_24, /*hidden argument*/&Transform_get_localPosition_m632_MethodInfo);
 		V_8 = L_25;
@@ -4014,7 +4233,7 @@ extern "C" void DragPanel_ClampToWindow_m1230 (DragPanel_t277 * __this, MethodIn
 		float L_28 = ((&V_2)->___y_2);
 		float L_29 = Mathf_Clamp_m616(NULL /*static, unused*/, L_26, L_27, L_28, /*hidden argument*/&Mathf_Clamp_m616_MethodInfo);
 		(&V_0)->___y_2 = L_29;
-		RectTransform_t275 * L_30 = (__this->___panelRectTransform_4);
+		RectTransform_t277 * L_30 = (__this->___panelRectTransform_4);
 		Vector3_t8  L_31 = V_0;
 		NullCheck(L_30);
 		Transform_set_localPosition_m652(L_30, L_31, /*hidden argument*/&Transform_set_localPosition_m652_MethodInfo);
@@ -4026,28 +4245,28 @@ extern "C" void DragPanel_ClampToWindow_m1230 (DragPanel_t277 * __this, MethodIn
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo DropMe_t278_il2cpp_TypeInfo;
+extern TypeInfo DropMe_t280_il2cpp_TypeInfo;
 // DropMe
 #include "AssemblyU2DCSharp_DropMeMethodDeclarations.h"
 
 // UnityEngine.UI.Graphic
 #include "UnityEngine_UI_UnityEngine_UI_GraphicMethodDeclarations.h"
 extern MethodInfo Color_get_yellow_m1002_MethodInfo;
-extern MethodInfo Graphic_get_color_m1322_MethodInfo;
-extern MethodInfo Graphic_set_color_m1323_MethodInfo;
-extern MethodInfo DropMe_GetDropSprite_m1236_MethodInfo;
-extern MethodInfo Image_set_overrideSprite_m1324_MethodInfo;
-extern MethodInfo PointerEventData_get_pointerDrag_m1325_MethodInfo;
+extern MethodInfo Graphic_get_color_m1333_MethodInfo;
+extern MethodInfo Graphic_set_color_m1334_MethodInfo;
+extern MethodInfo DropMe_GetDropSprite_m1246_MethodInfo;
+extern MethodInfo Image_set_overrideSprite_m1335_MethodInfo;
+extern MethodInfo PointerEventData_get_pointerDrag_m1336_MethodInfo;
 struct GameObject_t92;
 // Declaration !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Image>()
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.UI.Image>()
-#define GameObject_GetComponent_TisImage_t64_m1326(__this, method) (( Image_t64 * (*) (GameObject_t92 *, MethodInfo*))GameObject_GetComponent_TisObject_t_m870_gshared)(__this, method)
-extern Il2CppGenericMethod GameObject_GetComponent_TisImage_t64_m1326_GenericMethod;
+#define GameObject_GetComponent_TisImage_t64_m1337(__this, method) (( Image_t64 * (*) (GameObject_t92 *, MethodInfo*))GameObject_GetComponent_TisObject_t_m870_gshared)(__this, method)
+extern Il2CppGenericMethod GameObject_GetComponent_TisImage_t64_m1337_GenericMethod;
 
 
 // System.Void DropMe::.ctor()
-extern MethodInfo DropMe__ctor_m1231_MethodInfo;
-extern "C" void DropMe__ctor_m1231 (DropMe_t278 * __this, MethodInfo* method)
+extern MethodInfo DropMe__ctor_m1241_MethodInfo;
+extern "C" void DropMe__ctor_m1241 (DropMe_t280 * __this, MethodInfo* method)
 {
 	{
 		Color_t79  L_0 = Color_get_yellow_m1002(NULL /*static, unused*/, /*hidden argument*/&Color_get_yellow_m1002_MethodInfo);
@@ -4057,8 +4276,8 @@ extern "C" void DropMe__ctor_m1231 (DropMe_t278 * __this, MethodInfo* method)
 	}
 }
 // System.Void DropMe::OnEnable()
-extern MethodInfo DropMe_OnEnable_m1232_MethodInfo;
-extern "C" void DropMe_OnEnable_m1232 (DropMe_t278 * __this, MethodInfo* method)
+extern MethodInfo DropMe_OnEnable_m1242_MethodInfo;
+extern "C" void DropMe_OnEnable_m1242 (DropMe_t280 * __this, MethodInfo* method)
 {
 	{
 		Image_t64 * L_0 = (__this->___containerImage_2);
@@ -4071,7 +4290,7 @@ extern "C" void DropMe_OnEnable_m1232 (DropMe_t278 * __this, MethodInfo* method)
 	{
 		Image_t64 * L_2 = (__this->___containerImage_2);
 		NullCheck(L_2);
-		Color_t79  L_3 = Graphic_get_color_m1322(L_2, /*hidden argument*/&Graphic_get_color_m1322_MethodInfo);
+		Color_t79  L_3 = Graphic_get_color_m1333(L_2, /*hidden argument*/&Graphic_get_color_m1333_MethodInfo);
 		__this->___normalColor_4 = L_3;
 	}
 
@@ -4081,15 +4300,15 @@ IL_0022:
 	}
 }
 // System.Void DropMe::OnDrop(UnityEngine.EventSystems.PointerEventData)
-extern MethodInfo DropMe_OnDrop_m1233_MethodInfo;
-extern "C" void DropMe_OnDrop_m1233 (DropMe_t278 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
+extern MethodInfo DropMe_OnDrop_m1243_MethodInfo;
+extern "C" void DropMe_OnDrop_m1243 (DropMe_t280 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
 {
-	Sprite_t279 * V_0 = {0};
+	Sprite_t281 * V_0 = {0};
 	{
 		Image_t64 * L_0 = (__this->___containerImage_2);
 		Color_t79  L_1 = (__this->___normalColor_4);
 		NullCheck(L_0);
-		Graphic_set_color_m1323(L_0, L_1, /*hidden argument*/&Graphic_set_color_m1323_MethodInfo);
+		Graphic_set_color_m1334(L_0, L_1, /*hidden argument*/&Graphic_set_color_m1334_MethodInfo);
 		Image_t64 * L_2 = (__this->___receivingImage_3);
 		bool L_3 = Object_op_Equality_m576(NULL /*static, unused*/, L_2, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Equality_m576_MethodInfo);
 		if (!L_3)
@@ -4104,9 +4323,9 @@ extern "C" void DropMe_OnDrop_m1233 (DropMe_t278 * __this, PointerEventData_t46 
 IL_0023:
 	{
 		PointerEventData_t46 * L_4 = ___data;
-		Sprite_t279 * L_5 = DropMe_GetDropSprite_m1236(__this, L_4, /*hidden argument*/&DropMe_GetDropSprite_m1236_MethodInfo);
+		Sprite_t281 * L_5 = DropMe_GetDropSprite_m1246(__this, L_4, /*hidden argument*/&DropMe_GetDropSprite_m1246_MethodInfo);
 		V_0 = L_5;
-		Sprite_t279 * L_6 = V_0;
+		Sprite_t281 * L_6 = V_0;
 		bool L_7 = Object_op_Inequality_m642(NULL /*static, unused*/, L_6, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Inequality_m642_MethodInfo);
 		if (!L_7)
 		{
@@ -4115,9 +4334,9 @@ IL_0023:
 	}
 	{
 		Image_t64 * L_8 = (__this->___receivingImage_3);
-		Sprite_t279 * L_9 = V_0;
+		Sprite_t281 * L_9 = V_0;
 		NullCheck(L_8);
-		Image_set_overrideSprite_m1324(L_8, L_9, /*hidden argument*/&Image_set_overrideSprite_m1324_MethodInfo);
+		Image_set_overrideSprite_m1335(L_8, L_9, /*hidden argument*/&Image_set_overrideSprite_m1335_MethodInfo);
 	}
 
 IL_0043:
@@ -4126,10 +4345,10 @@ IL_0043:
 	}
 }
 // System.Void DropMe::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)
-extern MethodInfo DropMe_OnPointerEnter_m1234_MethodInfo;
-extern "C" void DropMe_OnPointerEnter_m1234 (DropMe_t278 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
+extern MethodInfo DropMe_OnPointerEnter_m1244_MethodInfo;
+extern "C" void DropMe_OnPointerEnter_m1244 (DropMe_t280 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
 {
-	Sprite_t279 * V_0 = {0};
+	Sprite_t281 * V_0 = {0};
 	{
 		Image_t64 * L_0 = (__this->___containerImage_2);
 		bool L_1 = Object_op_Equality_m576(NULL /*static, unused*/, L_0, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Equality_m576_MethodInfo);
@@ -4145,9 +4364,9 @@ extern "C" void DropMe_OnPointerEnter_m1234 (DropMe_t278 * __this, PointerEventD
 IL_0012:
 	{
 		PointerEventData_t46 * L_2 = ___data;
-		Sprite_t279 * L_3 = DropMe_GetDropSprite_m1236(__this, L_2, /*hidden argument*/&DropMe_GetDropSprite_m1236_MethodInfo);
+		Sprite_t281 * L_3 = DropMe_GetDropSprite_m1246(__this, L_2, /*hidden argument*/&DropMe_GetDropSprite_m1246_MethodInfo);
 		V_0 = L_3;
-		Sprite_t279 * L_4 = V_0;
+		Sprite_t281 * L_4 = V_0;
 		bool L_5 = Object_op_Inequality_m642(NULL /*static, unused*/, L_4, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Inequality_m642_MethodInfo);
 		if (!L_5)
 		{
@@ -4158,7 +4377,7 @@ IL_0012:
 		Image_t64 * L_6 = (__this->___containerImage_2);
 		Color_t79  L_7 = (__this->___highlightColor_5);
 		NullCheck(L_6);
-		Graphic_set_color_m1323(L_6, L_7, /*hidden argument*/&Graphic_set_color_m1323_MethodInfo);
+		Graphic_set_color_m1334(L_6, L_7, /*hidden argument*/&Graphic_set_color_m1334_MethodInfo);
 	}
 
 IL_0037:
@@ -4167,8 +4386,8 @@ IL_0037:
 	}
 }
 // System.Void DropMe::OnPointerExit(UnityEngine.EventSystems.PointerEventData)
-extern MethodInfo DropMe_OnPointerExit_m1235_MethodInfo;
-extern "C" void DropMe_OnPointerExit_m1235 (DropMe_t278 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
+extern MethodInfo DropMe_OnPointerExit_m1245_MethodInfo;
+extern "C" void DropMe_OnPointerExit_m1245 (DropMe_t280 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
 {
 	{
 		Image_t64 * L_0 = (__this->___containerImage_2);
@@ -4187,26 +4406,26 @@ IL_0012:
 		Image_t64 * L_2 = (__this->___containerImage_2);
 		Color_t79  L_3 = (__this->___normalColor_4);
 		NullCheck(L_2);
-		Graphic_set_color_m1323(L_2, L_3, /*hidden argument*/&Graphic_set_color_m1323_MethodInfo);
+		Graphic_set_color_m1334(L_2, L_3, /*hidden argument*/&Graphic_set_color_m1334_MethodInfo);
 		return;
 	}
 }
 // UnityEngine.Sprite DropMe::GetDropSprite(UnityEngine.EventSystems.PointerEventData)
-extern MethodInfo* GameObject_GetComponent_TisImage_t64_m1326_MethodInfo_var;
-extern "C" Sprite_t279 * DropMe_GetDropSprite_m1236 (DropMe_t278 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
+extern MethodInfo* GameObject_GetComponent_TisImage_t64_m1337_MethodInfo_var;
+extern "C" Sprite_t281 * DropMe_GetDropSprite_m1246 (DropMe_t280 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
 {
-	static bool DropMe_GetDropSprite_m1236_init;
-	if (!DropMe_GetDropSprite_m1236_init)
+	static bool DropMe_GetDropSprite_m1246_init;
+	if (!DropMe_GetDropSprite_m1246_init)
 	{
-		GameObject_GetComponent_TisImage_t64_m1326_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&GameObject_GetComponent_TisImage_t64_m1326_GenericMethod);
-		DropMe_GetDropSprite_m1236_init = true;
+		GameObject_GetComponent_TisImage_t64_m1337_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&GameObject_GetComponent_TisImage_t64_m1337_GenericMethod);
+		DropMe_GetDropSprite_m1246_init = true;
 	}
 	GameObject_t92 * V_0 = {0};
 	Image_t64 * V_1 = {0};
 	{
 		PointerEventData_t46 * L_0 = ___data;
 		NullCheck(L_0);
-		GameObject_t92 * L_1 = PointerEventData_get_pointerDrag_m1325(L_0, /*hidden argument*/&PointerEventData_get_pointerDrag_m1325_MethodInfo);
+		GameObject_t92 * L_1 = PointerEventData_get_pointerDrag_m1336(L_0, /*hidden argument*/&PointerEventData_get_pointerDrag_m1336_MethodInfo);
 		V_0 = L_1;
 		GameObject_t92 * L_2 = V_0;
 		bool L_3 = Object_op_Equality_m576(NULL /*static, unused*/, L_2, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Equality_m576_MethodInfo);
@@ -4216,14 +4435,14 @@ extern "C" Sprite_t279 * DropMe_GetDropSprite_m1236 (DropMe_t278 * __this, Point
 		}
 	}
 	{
-		return (Sprite_t279 *)NULL;
+		return (Sprite_t281 *)NULL;
 	}
 
 IL_0015:
 	{
 		GameObject_t92 * L_4 = V_0;
 		NullCheck(L_4);
-		Image_t64 * L_5 = GameObject_GetComponent_TisImage_t64_m1326(L_4, /*hidden argument*/GameObject_GetComponent_TisImage_t64_m1326_MethodInfo_var);
+		Image_t64 * L_5 = GameObject_GetComponent_TisImage_t64_m1337(L_4, /*hidden argument*/GameObject_GetComponent_TisImage_t64_m1337_MethodInfo_var);
 		V_1 = L_5;
 		Image_t64 * L_6 = V_1;
 		bool L_7 = Object_op_Equality_m576(NULL /*static, unused*/, L_6, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Equality_m576_MethodInfo);
@@ -4233,14 +4452,14 @@ IL_0015:
 		}
 	}
 	{
-		return (Sprite_t279 *)NULL;
+		return (Sprite_t281 *)NULL;
 	}
 
 IL_002a:
 	{
 		Image_t64 * L_8 = V_1;
 		NullCheck(L_8);
-		Sprite_t279 * L_9 = Image_get_sprite_m1307(L_8, /*hidden argument*/&Image_get_sprite_m1307_MethodInfo);
+		Sprite_t281 * L_9 = Image_get_sprite_m1318(L_8, /*hidden argument*/&Image_get_sprite_m1318_MethodInfo);
 		return L_9;
 	}
 }
@@ -4249,7 +4468,7 @@ IL_002a:
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo;
+extern TypeInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo;
 // PanelManager/<DisablePanelDeleyed>c__Iterator1
 #include "AssemblyU2DCSharp_PanelManager_U3CDisablePanelDeleyedU3Ec__IMethodDeclarations.h"
 
@@ -4261,7 +4480,7 @@ extern TypeInfo U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo;
 #include "AssemblyU2DCSharp_PanelManager.h"
 // UnityEngine.WaitForEndOfFrame
 #include "UnityEngine_UnityEngine_WaitForEndOfFrame.h"
-extern TypeInfo PanelManager_t280_il2cpp_TypeInfo;
+extern TypeInfo PanelManager_t282_il2cpp_TypeInfo;
 extern TypeInfo WaitForEndOfFrame_t218_il2cpp_TypeInfo;
 // UnityEngine.Animator
 #include "UnityEngine_UnityEngine_AnimatorMethodDeclarations.h"
@@ -4269,16 +4488,16 @@ extern TypeInfo WaitForEndOfFrame_t218_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_AnimatorStateInfoMethodDeclarations.h"
 // UnityEngine.WaitForEndOfFrame
 #include "UnityEngine_UnityEngine_WaitForEndOfFrameMethodDeclarations.h"
-extern MethodInfo Animator_IsInTransition_m1327_MethodInfo;
+extern MethodInfo Animator_IsInTransition_m1338_MethodInfo;
 extern MethodInfo Animator_GetCurrentAnimatorStateInfo_m739_MethodInfo;
 extern MethodInfo AnimatorStateInfo_IsName_m743_MethodInfo;
-extern MethodInfo Animator_GetBool_m1328_MethodInfo;
+extern MethodInfo Animator_GetBool_m1339_MethodInfo;
 extern MethodInfo WaitForEndOfFrame__ctor_m971_MethodInfo;
 
 
 // System.Void PanelManager/<DisablePanelDeleyed>c__Iterator1::.ctor()
-extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1237_MethodInfo;
-extern "C" void U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1237 (U3CDisablePanelDeleyedU3Ec__Iterator1_t281 * __this, MethodInfo* method)
+extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1247_MethodInfo;
+extern "C" void U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1247 (U3CDisablePanelDeleyedU3Ec__Iterator1_t283 * __this, MethodInfo* method)
 {
 	{
 		Object__ctor_m629(__this, /*hidden argument*/&Object__ctor_m629_MethodInfo);
@@ -4286,8 +4505,8 @@ extern "C" void U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1237 (U3CDisablePan
 	}
 }
 // System.Object PanelManager/<DisablePanelDeleyed>c__Iterator1::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1238_MethodInfo;
-extern "C" Object_t * U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1238 (U3CDisablePanelDeleyedU3Ec__Iterator1_t281 * __this, MethodInfo* method)
+extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1248_MethodInfo;
+extern "C" Object_t * U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1248 (U3CDisablePanelDeleyedU3Ec__Iterator1_t283 * __this, MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___$current_4);
@@ -4295,8 +4514,8 @@ extern "C" Object_t * U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_G
 	}
 }
 // System.Object PanelManager/<DisablePanelDeleyed>c__Iterator1::System.Collections.IEnumerator.get_Current()
-extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1239_MethodInfo;
-extern "C" Object_t * U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1239 (U3CDisablePanelDeleyedU3Ec__Iterator1_t281 * __this, MethodInfo* method)
+extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1249_MethodInfo;
+extern "C" Object_t * U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1249 (U3CDisablePanelDeleyedU3Ec__Iterator1_t283 * __this, MethodInfo* method)
 {
 	{
 		Object_t * L_0 = (__this->___$current_4);
@@ -4304,8 +4523,8 @@ extern "C" Object_t * U3CDisablePanelDeleyedU3Ec__Iterator1_System_Collections_I
 	}
 }
 // System.Boolean PanelManager/<DisablePanelDeleyed>c__Iterator1::MoveNext()
-extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1240_MethodInfo;
-extern "C" bool U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1240 (U3CDisablePanelDeleyedU3Ec__Iterator1_t281 * __this, MethodInfo* method)
+extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1250_MethodInfo;
+extern "C" bool U3CDisablePanelDeleyedU3Ec__Iterator1_MoveNext_m1250 (U3CDisablePanelDeleyedU3Ec__Iterator1_t283 * __this, MethodInfo* method)
 {
 	uint32_t V_0 = 0;
 	AnimatorStateInfo_t198  V_1 = {0};
@@ -4339,7 +4558,7 @@ IL_0034:
 	{
 		Animator_t42 * L_2 = (__this->___anim_2);
 		NullCheck(L_2);
-		bool L_3 = Animator_IsInTransition_m1327(L_2, 0, /*hidden argument*/&Animator_IsInTransition_m1327_MethodInfo);
+		bool L_3 = Animator_IsInTransition_m1338(L_2, 0, /*hidden argument*/&Animator_IsInTransition_m1338_MethodInfo);
 		if (L_3)
 		{
 			goto IL_0064;
@@ -4357,11 +4576,11 @@ IL_0034:
 IL_0064:
 	{
 		Animator_t42 * L_7 = (__this->___anim_2);
-		PanelManager_t280 * L_8 = (__this->___U3CU3Ef__this_6);
+		PanelManager_t282 * L_8 = (__this->___U3CU3Ef__this_6);
 		NullCheck(L_8);
 		int32_t L_9 = (L_8->___m_OpenParameterId_5);
 		NullCheck(L_7);
-		bool L_10 = Animator_GetBool_m1328(L_7, L_9, /*hidden argument*/&Animator_GetBool_m1328_MethodInfo);
+		bool L_10 = Animator_GetBool_m1339(L_7, L_9, /*hidden argument*/&Animator_GetBool_m1339_MethodInfo);
 		__this->___U3CwantToCloseU3E__1_1 = ((((int32_t)L_10) == ((int32_t)0))? 1 : 0);
 		WaitForEndOfFrame_t218 * L_11 = (WaitForEndOfFrame_t218 *)il2cpp_codegen_object_new (InitializedTypeInfo(&WaitForEndOfFrame_t218_il2cpp_TypeInfo));
 		WaitForEndOfFrame__ctor_m971(L_11, /*hidden argument*/&WaitForEndOfFrame__ctor_m971_MethodInfo);
@@ -4419,8 +4638,8 @@ IL_00d5:
 	// Dead block : IL_00d7: ldloc.2
 }
 // System.Void PanelManager/<DisablePanelDeleyed>c__Iterator1::Dispose()
-extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241_MethodInfo;
-extern "C" void U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241 (U3CDisablePanelDeleyedU3Ec__Iterator1_t281 * __this, MethodInfo* method)
+extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1251_MethodInfo;
+extern "C" void U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1251 (U3CDisablePanelDeleyedU3Ec__Iterator1_t283 * __this, MethodInfo* method)
 {
 	{
 		__this->___$PC_3 = (-1);
@@ -4428,8 +4647,8 @@ extern "C" void U3CDisablePanelDeleyedU3Ec__Iterator1_Dispose_m1241 (U3CDisableP
 	}
 }
 // System.Void PanelManager/<DisablePanelDeleyed>c__Iterator1::Reset()
-extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1242_MethodInfo;
-extern "C" void U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1242 (U3CDisablePanelDeleyedU3Ec__Iterator1_t281 * __this, MethodInfo* method)
+extern MethodInfo U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1252_MethodInfo;
+extern "C" void U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1252 (U3CDisablePanelDeleyedU3Ec__Iterator1_t283 * __this, MethodInfo* method)
 {
 	{
 		NotSupportedException_t217 * L_0 = (NotSupportedException_t217 *)il2cpp_codegen_object_new (InitializedTypeInfo(&NotSupportedException_t217_il2cpp_TypeInfo));
@@ -4456,10 +4675,10 @@ extern "C" void U3CDisablePanelDeleyedU3Ec__Iterator1_Reset_m1242 (U3CDisablePan
 #include "UnityEngine_UI_UnityEngine_EventSystems_BaseInputModule.h"
 // UnityEngine.EventSystems.StandaloneInputModule/InputMode
 #include "UnityEngine_UI_UnityEngine_EventSystems_StandaloneInputModul_0.h"
-extern TypeInfo EventSystem_t291_il2cpp_TypeInfo;
-extern TypeInfo UIBehaviour_t292_il2cpp_TypeInfo;
-extern TypeInfo Selectable_t293_il2cpp_TypeInfo;
-extern TypeInfo StandaloneInputModule_t294_il2cpp_TypeInfo;
+extern TypeInfo EventSystem_t293_il2cpp_TypeInfo;
+extern TypeInfo UIBehaviour_t294_il2cpp_TypeInfo;
+extern TypeInfo Selectable_t295_il2cpp_TypeInfo;
+extern TypeInfo StandaloneInputModule_t296_il2cpp_TypeInfo;
 // UnityEngine.EventSystems.EventSystem
 #include "UnityEngine_UI_UnityEngine_EventSystems_EventSystemMethodDeclarations.h"
 // UnityEngine.EventSystems.UIBehaviour
@@ -4468,37 +4687,37 @@ extern TypeInfo StandaloneInputModule_t294_il2cpp_TypeInfo;
 #include "UnityEngine_UI_UnityEngine_UI_SelectableMethodDeclarations.h"
 // UnityEngine.EventSystems.StandaloneInputModule
 #include "UnityEngine_UI_UnityEngine_EventSystems_StandaloneInputModulMethodDeclarations.h"
-extern MethodInfo Animator_StringToHash_m1329_MethodInfo;
-extern MethodInfo PanelManager_OpenPanel_m1245_MethodInfo;
-extern MethodInfo EventSystem_get_current_m1330_MethodInfo;
-extern MethodInfo EventSystem_get_currentSelectedGameObject_m1331_MethodInfo;
-extern MethodInfo PanelManager_CloseCurrent_m1247_MethodInfo;
-extern MethodInfo Animator_SetBool_m1332_MethodInfo;
-extern MethodInfo PanelManager_FindFirstEnabledSelectable_m1246_MethodInfo;
-extern MethodInfo PanelManager_SetSelected_m1249_MethodInfo;
-extern MethodInfo UIBehaviour_IsActive_m1333_MethodInfo;
-extern MethodInfo Selectable_IsInteractable_m1334_MethodInfo;
-extern MethodInfo PanelManager_DisablePanelDeleyed_m1248_MethodInfo;
+extern MethodInfo Animator_StringToHash_m1340_MethodInfo;
+extern MethodInfo PanelManager_OpenPanel_m1255_MethodInfo;
+extern MethodInfo EventSystem_get_current_m1341_MethodInfo;
+extern MethodInfo EventSystem_get_currentSelectedGameObject_m1342_MethodInfo;
+extern MethodInfo PanelManager_CloseCurrent_m1257_MethodInfo;
+extern MethodInfo Animator_SetBool_m1343_MethodInfo;
+extern MethodInfo PanelManager_FindFirstEnabledSelectable_m1256_MethodInfo;
+extern MethodInfo PanelManager_SetSelected_m1259_MethodInfo;
+extern MethodInfo UIBehaviour_IsActive_m1344_MethodInfo;
+extern MethodInfo Selectable_IsInteractable_m1345_MethodInfo;
+extern MethodInfo PanelManager_DisablePanelDeleyed_m1258_MethodInfo;
 extern MethodInfo MonoBehaviour_StartCoroutine_m665_MethodInfo;
-extern MethodInfo EventSystem_SetSelectedGameObject_m1335_MethodInfo;
-extern MethodInfo EventSystem_get_currentInputModule_m1336_MethodInfo;
-extern MethodInfo StandaloneInputModule_get_inputMode_m1337_MethodInfo;
+extern MethodInfo EventSystem_SetSelectedGameObject_m1346_MethodInfo;
+extern MethodInfo EventSystem_get_currentInputModule_m1347_MethodInfo;
+extern MethodInfo StandaloneInputModule_get_inputMode_m1348_MethodInfo;
 struct GameObject_t92;
 struct GameObject_t92;
 #include "mscorlib_ArrayTypes.h"
 // Declaration !!0[] UnityEngine.GameObject::GetComponentsInChildren<System.Object>(System.Boolean)
 // !!0[] UnityEngine.GameObject::GetComponentsInChildren<System.Object>(System.Boolean)
-extern "C" ObjectU5BU5D_t194* GameObject_GetComponentsInChildren_TisObject_t_m1339_gshared (GameObject_t92 * __this, bool p0, MethodInfo* method);
-#define GameObject_GetComponentsInChildren_TisObject_t_m1339(__this, p0, method) (( ObjectU5BU5D_t194* (*) (GameObject_t92 *, bool, MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m1339_gshared)(__this, p0, method)
+extern "C" ObjectU5BU5D_t194* GameObject_GetComponentsInChildren_TisObject_t_m1350_gshared (GameObject_t92 * __this, bool p0, MethodInfo* method);
+#define GameObject_GetComponentsInChildren_TisObject_t_m1350(__this, p0, method) (( ObjectU5BU5D_t194* (*) (GameObject_t92 *, bool, MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m1350_gshared)(__this, p0, method)
 // Declaration !!0[] UnityEngine.GameObject::GetComponentsInChildren<UnityEngine.UI.Selectable>(System.Boolean)
 // !!0[] UnityEngine.GameObject::GetComponentsInChildren<UnityEngine.UI.Selectable>(System.Boolean)
-#define GameObject_GetComponentsInChildren_TisSelectable_t293_m1338(__this, p0, method) (( SelectableU5BU5D_t295* (*) (GameObject_t92 *, bool, MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m1339_gshared)(__this, p0, method)
-extern Il2CppGenericMethod GameObject_GetComponentsInChildren_TisSelectable_t293_m1338_GenericMethod;
+#define GameObject_GetComponentsInChildren_TisSelectable_t295_m1349(__this, p0, method) (( SelectableU5BU5D_t297* (*) (GameObject_t92 *, bool, MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m1350_gshared)(__this, p0, method)
+extern Il2CppGenericMethod GameObject_GetComponentsInChildren_TisSelectable_t295_m1349_GenericMethod;
 
 
 // System.Void PanelManager::.ctor()
-extern MethodInfo PanelManager__ctor_m1243_MethodInfo;
-extern "C" void PanelManager__ctor_m1243 (PanelManager_t280 * __this, MethodInfo* method)
+extern MethodInfo PanelManager__ctor_m1253_MethodInfo;
+extern "C" void PanelManager__ctor_m1253 (PanelManager_t282 * __this, MethodInfo* method)
 {
 	{
 		MonoBehaviour__ctor_m575(__this, /*hidden argument*/&MonoBehaviour__ctor_m575_MethodInfo);
@@ -4506,11 +4725,11 @@ extern "C" void PanelManager__ctor_m1243 (PanelManager_t280 * __this, MethodInfo
 	}
 }
 // System.Void PanelManager::OnEnable()
-extern MethodInfo PanelManager_OnEnable_m1244_MethodInfo;
-extern "C" void PanelManager_OnEnable_m1244 (PanelManager_t280 * __this, MethodInfo* method)
+extern MethodInfo PanelManager_OnEnable_m1254_MethodInfo;
+extern "C" void PanelManager_OnEnable_m1254 (PanelManager_t282 * __this, MethodInfo* method)
 {
 	{
-		int32_t L_0 = Animator_StringToHash_m1329(NULL /*static, unused*/, (String_t*) &_stringLiteral82, /*hidden argument*/&Animator_StringToHash_m1329_MethodInfo);
+		int32_t L_0 = Animator_StringToHash_m1340(NULL /*static, unused*/, (String_t*) &_stringLiteral82, /*hidden argument*/&Animator_StringToHash_m1340_MethodInfo);
 		__this->___m_OpenParameterId_5 = L_0;
 		Animator_t42 * L_1 = (__this->___initiallyOpen_4);
 		bool L_2 = Object_op_Equality_m576(NULL /*static, unused*/, L_1, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Equality_m576_MethodInfo);
@@ -4526,12 +4745,12 @@ extern "C" void PanelManager_OnEnable_m1244 (PanelManager_t280 * __this, MethodI
 IL_0022:
 	{
 		Animator_t42 * L_3 = (__this->___initiallyOpen_4);
-		PanelManager_OpenPanel_m1245(__this, L_3, /*hidden argument*/&PanelManager_OpenPanel_m1245_MethodInfo);
+		PanelManager_OpenPanel_m1255(__this, L_3, /*hidden argument*/&PanelManager_OpenPanel_m1255_MethodInfo);
 		return;
 	}
 }
 // System.Void PanelManager::OpenPanel(UnityEngine.Animator)
-extern "C" void PanelManager_OpenPanel_m1245 (PanelManager_t280 * __this, Animator_t42 * ___anim, MethodInfo* method)
+extern "C" void PanelManager_OpenPanel_m1255 (PanelManager_t282 * __this, Animator_t42 * ___anim, MethodInfo* method)
 {
 	GameObject_t92 * V_0 = {0};
 	GameObject_t92 * V_1 = {0};
@@ -4555,17 +4774,17 @@ IL_0012:
 		GameObject_t92 * L_4 = Component_get_gameObject_m577(L_3, /*hidden argument*/&Component_get_gameObject_m577_MethodInfo);
 		NullCheck(L_4);
 		GameObject_SetActive_m770(L_4, 1, /*hidden argument*/&GameObject_SetActive_m770_MethodInfo);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&EventSystem_t291_il2cpp_TypeInfo));
-		EventSystem_t291 * L_5 = EventSystem_get_current_m1330(NULL /*static, unused*/, /*hidden argument*/&EventSystem_get_current_m1330_MethodInfo);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&EventSystem_t293_il2cpp_TypeInfo));
+		EventSystem_t293 * L_5 = EventSystem_get_current_m1341(NULL /*static, unused*/, /*hidden argument*/&EventSystem_get_current_m1341_MethodInfo);
 		NullCheck(L_5);
-		GameObject_t92 * L_6 = EventSystem_get_currentSelectedGameObject_m1331(L_5, /*hidden argument*/&EventSystem_get_currentSelectedGameObject_m1331_MethodInfo);
+		GameObject_t92 * L_6 = EventSystem_get_currentSelectedGameObject_m1342(L_5, /*hidden argument*/&EventSystem_get_currentSelectedGameObject_m1342_MethodInfo);
 		V_0 = L_6;
 		Animator_t42 * L_7 = ___anim;
 		NullCheck(L_7);
 		Transform_t2 * L_8 = Component_get_transform_m598(L_7, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
 		NullCheck(L_8);
-		Transform_SetAsLastSibling_m1305(L_8, /*hidden argument*/&Transform_SetAsLastSibling_m1305_MethodInfo);
-		PanelManager_CloseCurrent_m1247(__this, /*hidden argument*/&PanelManager_CloseCurrent_m1247_MethodInfo);
+		Transform_SetAsLastSibling_m1316(L_8, /*hidden argument*/&Transform_SetAsLastSibling_m1316_MethodInfo);
+		PanelManager_CloseCurrent_m1257(__this, /*hidden argument*/&PanelManager_CloseCurrent_m1257_MethodInfo);
 		GameObject_t92 * L_9 = V_0;
 		__this->___m_PreviouslySelected_7 = L_9;
 		Animator_t42 * L_10 = ___anim;
@@ -4573,39 +4792,39 @@ IL_0012:
 		Animator_t42 * L_11 = (__this->___m_Open_6);
 		int32_t L_12 = (__this->___m_OpenParameterId_5);
 		NullCheck(L_11);
-		Animator_SetBool_m1332(L_11, L_12, 1, /*hidden argument*/&Animator_SetBool_m1332_MethodInfo);
+		Animator_SetBool_m1343(L_11, L_12, 1, /*hidden argument*/&Animator_SetBool_m1343_MethodInfo);
 		Animator_t42 * L_13 = ___anim;
 		NullCheck(L_13);
 		GameObject_t92 * L_14 = Component_get_gameObject_m577(L_13, /*hidden argument*/&Component_get_gameObject_m577_MethodInfo);
-		GameObject_t92 * L_15 = PanelManager_FindFirstEnabledSelectable_m1246(NULL /*static, unused*/, L_14, /*hidden argument*/&PanelManager_FindFirstEnabledSelectable_m1246_MethodInfo);
+		GameObject_t92 * L_15 = PanelManager_FindFirstEnabledSelectable_m1256(NULL /*static, unused*/, L_14, /*hidden argument*/&PanelManager_FindFirstEnabledSelectable_m1256_MethodInfo);
 		V_1 = L_15;
 		GameObject_t92 * L_16 = V_1;
-		PanelManager_SetSelected_m1249(__this, L_16, /*hidden argument*/&PanelManager_SetSelected_m1249_MethodInfo);
+		PanelManager_SetSelected_m1259(__this, L_16, /*hidden argument*/&PanelManager_SetSelected_m1259_MethodInfo);
 		return;
 	}
 }
 // UnityEngine.GameObject PanelManager::FindFirstEnabledSelectable(UnityEngine.GameObject)
-extern MethodInfo* GameObject_GetComponentsInChildren_TisSelectable_t293_m1338_MethodInfo_var;
-extern "C" GameObject_t92 * PanelManager_FindFirstEnabledSelectable_m1246 (Object_t * __this /* static, unused */, GameObject_t92 * ___gameObject, MethodInfo* method)
+extern MethodInfo* GameObject_GetComponentsInChildren_TisSelectable_t295_m1349_MethodInfo_var;
+extern "C" GameObject_t92 * PanelManager_FindFirstEnabledSelectable_m1256 (Object_t * __this /* static, unused */, GameObject_t92 * ___gameObject, MethodInfo* method)
 {
-	static bool PanelManager_FindFirstEnabledSelectable_m1246_init;
-	if (!PanelManager_FindFirstEnabledSelectable_m1246_init)
+	static bool PanelManager_FindFirstEnabledSelectable_m1256_init;
+	if (!PanelManager_FindFirstEnabledSelectable_m1256_init)
 	{
-		GameObject_GetComponentsInChildren_TisSelectable_t293_m1338_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&GameObject_GetComponentsInChildren_TisSelectable_t293_m1338_GenericMethod);
-		PanelManager_FindFirstEnabledSelectable_m1246_init = true;
+		GameObject_GetComponentsInChildren_TisSelectable_t295_m1349_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&GameObject_GetComponentsInChildren_TisSelectable_t295_m1349_GenericMethod);
+		PanelManager_FindFirstEnabledSelectable_m1256_init = true;
 	}
 	GameObject_t92 * V_0 = {0};
-	SelectableU5BU5D_t295* V_1 = {0};
-	Selectable_t293 * V_2 = {0};
-	SelectableU5BU5D_t295* V_3 = {0};
+	SelectableU5BU5D_t297* V_1 = {0};
+	Selectable_t295 * V_2 = {0};
+	SelectableU5BU5D_t297* V_3 = {0};
 	int32_t V_4 = 0;
 	{
 		V_0 = (GameObject_t92 *)NULL;
 		GameObject_t92 * L_0 = ___gameObject;
 		NullCheck(L_0);
-		SelectableU5BU5D_t295* L_1 = GameObject_GetComponentsInChildren_TisSelectable_t293_m1338(L_0, 1, /*hidden argument*/GameObject_GetComponentsInChildren_TisSelectable_t293_m1338_MethodInfo_var);
+		SelectableU5BU5D_t297* L_1 = GameObject_GetComponentsInChildren_TisSelectable_t295_m1349(L_0, 1, /*hidden argument*/GameObject_GetComponentsInChildren_TisSelectable_t295_m1349_MethodInfo_var);
 		V_1 = L_1;
-		SelectableU5BU5D_t295* L_2 = V_1;
+		SelectableU5BU5D_t297* L_2 = V_1;
 		V_3 = L_2;
 		V_4 = 0;
 		goto IL_0041;
@@ -4613,31 +4832,31 @@ extern "C" GameObject_t92 * PanelManager_FindFirstEnabledSelectable_m1246 (Objec
 
 IL_0014:
 	{
-		SelectableU5BU5D_t295* L_3 = V_3;
+		SelectableU5BU5D_t297* L_3 = V_3;
 		int32_t L_4 = V_4;
 		NullCheck(L_3);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, L_4);
 		int32_t L_5 = L_4;
-		V_2 = (*(Selectable_t293 **)(Selectable_t293 **)SZArrayLdElema(L_3, L_5));
-		Selectable_t293 * L_6 = V_2;
+		V_2 = (*(Selectable_t295 **)(Selectable_t295 **)SZArrayLdElema(L_3, L_5));
+		Selectable_t295 * L_6 = V_2;
 		NullCheck(L_6);
-		bool L_7 = (bool)VirtFuncInvoker0< bool >::Invoke(&UIBehaviour_IsActive_m1333_MethodInfo, L_6);
+		bool L_7 = (bool)VirtFuncInvoker0< bool >::Invoke(&UIBehaviour_IsActive_m1344_MethodInfo, L_6);
 		if (!L_7)
 		{
 			goto IL_003b;
 		}
 	}
 	{
-		Selectable_t293 * L_8 = V_2;
+		Selectable_t295 * L_8 = V_2;
 		NullCheck(L_8);
-		bool L_9 = (bool)VirtFuncInvoker0< bool >::Invoke(&Selectable_IsInteractable_m1334_MethodInfo, L_8);
+		bool L_9 = (bool)VirtFuncInvoker0< bool >::Invoke(&Selectable_IsInteractable_m1345_MethodInfo, L_8);
 		if (!L_9)
 		{
 			goto IL_003b;
 		}
 	}
 	{
-		Selectable_t293 * L_10 = V_2;
+		Selectable_t295 * L_10 = V_2;
 		NullCheck(L_10);
 		GameObject_t92 * L_11 = Component_get_gameObject_m577(L_10, /*hidden argument*/&Component_get_gameObject_m577_MethodInfo);
 		V_0 = L_11;
@@ -4653,7 +4872,7 @@ IL_003b:
 IL_0041:
 	{
 		int32_t L_13 = V_4;
-		SelectableU5BU5D_t295* L_14 = V_3;
+		SelectableU5BU5D_t297* L_14 = V_3;
 		NullCheck(L_14);
 		if ((((int32_t)L_13) < ((int32_t)(((int32_t)(((Array_t *)L_14)->max_length))))))
 		{
@@ -4668,7 +4887,7 @@ IL_004b:
 	}
 }
 // System.Void PanelManager::CloseCurrent()
-extern "C" void PanelManager_CloseCurrent_m1247 (PanelManager_t280 * __this, MethodInfo* method)
+extern "C" void PanelManager_CloseCurrent_m1257 (PanelManager_t282 * __this, MethodInfo* method)
 {
 	{
 		Animator_t42 * L_0 = (__this->___m_Open_6);
@@ -4687,54 +4906,54 @@ IL_0012:
 		Animator_t42 * L_2 = (__this->___m_Open_6);
 		int32_t L_3 = (__this->___m_OpenParameterId_5);
 		NullCheck(L_2);
-		Animator_SetBool_m1332(L_2, L_3, 0, /*hidden argument*/&Animator_SetBool_m1332_MethodInfo);
+		Animator_SetBool_m1343(L_2, L_3, 0, /*hidden argument*/&Animator_SetBool_m1343_MethodInfo);
 		GameObject_t92 * L_4 = (__this->___m_PreviouslySelected_7);
-		PanelManager_SetSelected_m1249(__this, L_4, /*hidden argument*/&PanelManager_SetSelected_m1249_MethodInfo);
+		PanelManager_SetSelected_m1259(__this, L_4, /*hidden argument*/&PanelManager_SetSelected_m1259_MethodInfo);
 		Animator_t42 * L_5 = (__this->___m_Open_6);
-		Object_t * L_6 = PanelManager_DisablePanelDeleyed_m1248(__this, L_5, /*hidden argument*/&PanelManager_DisablePanelDeleyed_m1248_MethodInfo);
+		Object_t * L_6 = PanelManager_DisablePanelDeleyed_m1258(__this, L_5, /*hidden argument*/&PanelManager_DisablePanelDeleyed_m1258_MethodInfo);
 		MonoBehaviour_StartCoroutine_m665(__this, L_6, /*hidden argument*/&MonoBehaviour_StartCoroutine_m665_MethodInfo);
 		__this->___m_Open_6 = (Animator_t42 *)NULL;
 		return;
 	}
 }
 // System.Collections.IEnumerator PanelManager::DisablePanelDeleyed(UnityEngine.Animator)
-extern "C" Object_t * PanelManager_DisablePanelDeleyed_m1248 (PanelManager_t280 * __this, Animator_t42 * ___anim, MethodInfo* method)
+extern "C" Object_t * PanelManager_DisablePanelDeleyed_m1258 (PanelManager_t282 * __this, Animator_t42 * ___anim, MethodInfo* method)
 {
-	U3CDisablePanelDeleyedU3Ec__Iterator1_t281 * V_0 = {0};
+	U3CDisablePanelDeleyedU3Ec__Iterator1_t283 * V_0 = {0};
 	{
-		U3CDisablePanelDeleyedU3Ec__Iterator1_t281 * L_0 = (U3CDisablePanelDeleyedU3Ec__Iterator1_t281 *)il2cpp_codegen_object_new (InitializedTypeInfo(&U3CDisablePanelDeleyedU3Ec__Iterator1_t281_il2cpp_TypeInfo));
-		U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1237(L_0, /*hidden argument*/&U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1237_MethodInfo);
+		U3CDisablePanelDeleyedU3Ec__Iterator1_t283 * L_0 = (U3CDisablePanelDeleyedU3Ec__Iterator1_t283 *)il2cpp_codegen_object_new (InitializedTypeInfo(&U3CDisablePanelDeleyedU3Ec__Iterator1_t283_il2cpp_TypeInfo));
+		U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1247(L_0, /*hidden argument*/&U3CDisablePanelDeleyedU3Ec__Iterator1__ctor_m1247_MethodInfo);
 		V_0 = L_0;
-		U3CDisablePanelDeleyedU3Ec__Iterator1_t281 * L_1 = V_0;
+		U3CDisablePanelDeleyedU3Ec__Iterator1_t283 * L_1 = V_0;
 		Animator_t42 * L_2 = ___anim;
 		NullCheck(L_1);
 		L_1->___anim_2 = L_2;
-		U3CDisablePanelDeleyedU3Ec__Iterator1_t281 * L_3 = V_0;
+		U3CDisablePanelDeleyedU3Ec__Iterator1_t283 * L_3 = V_0;
 		Animator_t42 * L_4 = ___anim;
 		NullCheck(L_3);
 		L_3->___U3C$U3Eanim_5 = L_4;
-		U3CDisablePanelDeleyedU3Ec__Iterator1_t281 * L_5 = V_0;
+		U3CDisablePanelDeleyedU3Ec__Iterator1_t283 * L_5 = V_0;
 		NullCheck(L_5);
 		L_5->___U3CU3Ef__this_6 = __this;
-		U3CDisablePanelDeleyedU3Ec__Iterator1_t281 * L_6 = V_0;
+		U3CDisablePanelDeleyedU3Ec__Iterator1_t283 * L_6 = V_0;
 		return L_6;
 	}
 }
 // System.Void PanelManager::SetSelected(UnityEngine.GameObject)
-extern "C" void PanelManager_SetSelected_m1249 (PanelManager_t280 * __this, GameObject_t92 * ___go, MethodInfo* method)
+extern "C" void PanelManager_SetSelected_m1259 (PanelManager_t282 * __this, GameObject_t92 * ___go, MethodInfo* method)
 {
-	StandaloneInputModule_t294 * V_0 = {0};
+	StandaloneInputModule_t296 * V_0 = {0};
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&EventSystem_t291_il2cpp_TypeInfo));
-		EventSystem_t291 * L_0 = EventSystem_get_current_m1330(NULL /*static, unused*/, /*hidden argument*/&EventSystem_get_current_m1330_MethodInfo);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&EventSystem_t293_il2cpp_TypeInfo));
+		EventSystem_t293 * L_0 = EventSystem_get_current_m1341(NULL /*static, unused*/, /*hidden argument*/&EventSystem_get_current_m1341_MethodInfo);
 		GameObject_t92 * L_1 = ___go;
 		NullCheck(L_0);
-		EventSystem_SetSelectedGameObject_m1335(L_0, L_1, /*hidden argument*/&EventSystem_SetSelectedGameObject_m1335_MethodInfo);
-		EventSystem_t291 * L_2 = EventSystem_get_current_m1330(NULL /*static, unused*/, /*hidden argument*/&EventSystem_get_current_m1330_MethodInfo);
+		EventSystem_SetSelectedGameObject_m1346(L_0, L_1, /*hidden argument*/&EventSystem_SetSelectedGameObject_m1346_MethodInfo);
+		EventSystem_t293 * L_2 = EventSystem_get_current_m1341(NULL /*static, unused*/, /*hidden argument*/&EventSystem_get_current_m1341_MethodInfo);
 		NullCheck(L_2);
-		BaseInputModule_t296 * L_3 = EventSystem_get_currentInputModule_m1336(L_2, /*hidden argument*/&EventSystem_get_currentInputModule_m1336_MethodInfo);
-		V_0 = ((StandaloneInputModule_t294 *)IsInst(L_3, InitializedTypeInfo(&StandaloneInputModule_t294_il2cpp_TypeInfo)));
-		StandaloneInputModule_t294 * L_4 = V_0;
+		BaseInputModule_t298 * L_3 = EventSystem_get_currentInputModule_m1347(L_2, /*hidden argument*/&EventSystem_get_currentInputModule_m1347_MethodInfo);
+		V_0 = ((StandaloneInputModule_t296 *)IsInst(L_3, InitializedTypeInfo(&StandaloneInputModule_t296_il2cpp_TypeInfo)));
+		StandaloneInputModule_t296 * L_4 = V_0;
 		bool L_5 = Object_op_Inequality_m642(NULL /*static, unused*/, L_4, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Inequality_m642_MethodInfo);
 		if (!L_5)
 		{
@@ -4742,9 +4961,9 @@ extern "C" void PanelManager_SetSelected_m1249 (PanelManager_t280 * __this, Game
 		}
 	}
 	{
-		StandaloneInputModule_t294 * L_6 = V_0;
+		StandaloneInputModule_t296 * L_6 = V_0;
 		NullCheck(L_6);
-		int32_t L_7 = StandaloneInputModule_get_inputMode_m1337(L_6, /*hidden argument*/&StandaloneInputModule_get_inputMode_m1337_MethodInfo);
+		int32_t L_7 = StandaloneInputModule_get_inputMode_m1348(L_6, /*hidden argument*/&StandaloneInputModule_get_inputMode_m1348_MethodInfo);
 		if ((!(((uint32_t)L_7) == ((uint32_t)1))))
 		{
 			goto IL_0034;
@@ -4756,10 +4975,10 @@ extern "C" void PanelManager_SetSelected_m1249 (PanelManager_t280 * __this, Game
 
 IL_0034:
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&EventSystem_t291_il2cpp_TypeInfo));
-		EventSystem_t291 * L_8 = EventSystem_get_current_m1330(NULL /*static, unused*/, /*hidden argument*/&EventSystem_get_current_m1330_MethodInfo);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&EventSystem_t293_il2cpp_TypeInfo));
+		EventSystem_t293 * L_8 = EventSystem_get_current_m1341(NULL /*static, unused*/, /*hidden argument*/&EventSystem_get_current_m1341_MethodInfo);
 		NullCheck(L_8);
-		EventSystem_SetSelectedGameObject_m1335(L_8, (GameObject_t92 *)NULL, /*hidden argument*/&EventSystem_SetSelectedGameObject_m1335_MethodInfo);
+		EventSystem_SetSelectedGameObject_m1346(L_8, (GameObject_t92 *)NULL, /*hidden argument*/&EventSystem_SetSelectedGameObject_m1346_MethodInfo);
 		return;
 	}
 }
@@ -4768,23 +4987,23 @@ IL_0034:
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo ResizePanel_t282_il2cpp_TypeInfo;
+extern TypeInfo ResizePanel_t284_il2cpp_TypeInfo;
 // ResizePanel
 #include "AssemblyU2DCSharp_ResizePanelMethodDeclarations.h"
 
-extern MethodInfo RectTransform_get_sizeDelta_m1340_MethodInfo;
-extern MethodInfo Vector2_op_Addition_m1341_MethodInfo;
-extern MethodInfo RectTransform_set_sizeDelta_m1342_MethodInfo;
+extern MethodInfo RectTransform_get_sizeDelta_m1351_MethodInfo;
+extern MethodInfo Vector2_op_Addition_m1352_MethodInfo;
+extern MethodInfo RectTransform_set_sizeDelta_m1353_MethodInfo;
 struct Component_t185;
 // Declaration !!0 UnityEngine.Component::GetComponent<UnityEngine.RectTransform>()
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.RectTransform>()
-#define Component_GetComponent_TisRectTransform_t275_m1343(__this, method) (( RectTransform_t275 * (*) (Component_t185 *, MethodInfo*))Component_GetComponent_TisObject_t_m585_gshared)(__this, method)
-extern Il2CppGenericMethod Component_GetComponent_TisRectTransform_t275_m1343_GenericMethod;
+#define Component_GetComponent_TisRectTransform_t277_m1354(__this, method) (( RectTransform_t277 * (*) (Component_t185 *, MethodInfo*))Component_GetComponent_TisObject_t_m585_gshared)(__this, method)
+extern Il2CppGenericMethod Component_GetComponent_TisRectTransform_t277_m1354_GenericMethod;
 
 
 // System.Void ResizePanel::.ctor()
-extern MethodInfo ResizePanel__ctor_m1250_MethodInfo;
-extern "C" void ResizePanel__ctor_m1250 (ResizePanel_t282 * __this, MethodInfo* method)
+extern MethodInfo ResizePanel__ctor_m1260_MethodInfo;
+extern "C" void ResizePanel__ctor_m1260 (ResizePanel_t284 * __this, MethodInfo* method)
 {
 	{
 		Vector2_t13  L_0 = {0};
@@ -4798,57 +5017,57 @@ extern "C" void ResizePanel__ctor_m1250 (ResizePanel_t282 * __this, MethodInfo* 
 	}
 }
 // System.Void ResizePanel::Awake()
-extern MethodInfo ResizePanel_Awake_m1251_MethodInfo;
-extern MethodInfo* Component_GetComponent_TisRectTransform_t275_m1343_MethodInfo_var;
-extern "C" void ResizePanel_Awake_m1251 (ResizePanel_t282 * __this, MethodInfo* method)
+extern MethodInfo ResizePanel_Awake_m1261_MethodInfo;
+extern MethodInfo* Component_GetComponent_TisRectTransform_t277_m1354_MethodInfo_var;
+extern "C" void ResizePanel_Awake_m1261 (ResizePanel_t284 * __this, MethodInfo* method)
 {
-	static bool ResizePanel_Awake_m1251_init;
-	if (!ResizePanel_Awake_m1251_init)
+	static bool ResizePanel_Awake_m1261_init;
+	if (!ResizePanel_Awake_m1261_init)
 	{
-		Component_GetComponent_TisRectTransform_t275_m1343_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisRectTransform_t275_m1343_GenericMethod);
-		ResizePanel_Awake_m1251_init = true;
+		Component_GetComponent_TisRectTransform_t277_m1354_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisRectTransform_t277_m1354_GenericMethod);
+		ResizePanel_Awake_m1261_init = true;
 	}
 	{
 		Transform_t2 * L_0 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
 		NullCheck(L_0);
 		Transform_t2 * L_1 = Transform_get_parent_m626(L_0, /*hidden argument*/&Transform_get_parent_m626_MethodInfo);
 		NullCheck(L_1);
-		RectTransform_t275 * L_2 = Component_GetComponent_TisRectTransform_t275_m1343(L_1, /*hidden argument*/Component_GetComponent_TisRectTransform_t275_m1343_MethodInfo_var);
+		RectTransform_t277 * L_2 = Component_GetComponent_TisRectTransform_t277_m1354(L_1, /*hidden argument*/Component_GetComponent_TisRectTransform_t277_m1354_MethodInfo_var);
 		__this->___panelRectTransform_4 = L_2;
 		return;
 	}
 }
 // System.Void ResizePanel::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
-extern MethodInfo ResizePanel_OnPointerDown_m1252_MethodInfo;
-extern "C" void ResizePanel_OnPointerDown_m1252 (ResizePanel_t282 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
+extern MethodInfo ResizePanel_OnPointerDown_m1262_MethodInfo;
+extern "C" void ResizePanel_OnPointerDown_m1262 (ResizePanel_t284 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
 {
 	{
-		RectTransform_t275 * L_0 = (__this->___panelRectTransform_4);
+		RectTransform_t277 * L_0 = (__this->___panelRectTransform_4);
 		NullCheck(L_0);
-		Vector2_t13  L_1 = RectTransform_get_sizeDelta_m1340(L_0, /*hidden argument*/&RectTransform_get_sizeDelta_m1340_MethodInfo);
+		Vector2_t13  L_1 = RectTransform_get_sizeDelta_m1351(L_0, /*hidden argument*/&RectTransform_get_sizeDelta_m1351_MethodInfo);
 		__this->___originalSizeDelta_6 = L_1;
-		RectTransform_t275 * L_2 = (__this->___panelRectTransform_4);
+		RectTransform_t277 * L_2 = (__this->___panelRectTransform_4);
 		PointerEventData_t46 * L_3 = ___data;
 		NullCheck(L_3);
 		Vector2_t13  L_4 = PointerEventData_get_position_m766(L_3, /*hidden argument*/&PointerEventData_get_position_m766_MethodInfo);
 		PointerEventData_t46 * L_5 = ___data;
 		NullCheck(L_5);
-		Camera_t19 * L_6 = PointerEventData_get_pressEventCamera_m1311(L_5, /*hidden argument*/&PointerEventData_get_pressEventCamera_m1311_MethodInfo);
+		Camera_t19 * L_6 = PointerEventData_get_pressEventCamera_m1322(L_5, /*hidden argument*/&PointerEventData_get_pressEventCamera_m1322_MethodInfo);
 		Vector2_t13 * L_7 = &(__this->___originalLocalPointerPosition_5);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&RectTransformUtility_t288_il2cpp_TypeInfo));
-		RectTransformUtility_ScreenPointToLocalPointInRectangle_m1317(NULL /*static, unused*/, L_2, L_4, L_6, L_7, /*hidden argument*/&RectTransformUtility_ScreenPointToLocalPointInRectangle_m1317_MethodInfo);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&RectTransformUtility_t290_il2cpp_TypeInfo));
+		RectTransformUtility_ScreenPointToLocalPointInRectangle_m1328(NULL /*static, unused*/, L_2, L_4, L_6, L_7, /*hidden argument*/&RectTransformUtility_ScreenPointToLocalPointInRectangle_m1328_MethodInfo);
 		return;
 	}
 }
 // System.Void ResizePanel::OnDrag(UnityEngine.EventSystems.PointerEventData)
-extern MethodInfo ResizePanel_OnDrag_m1253_MethodInfo;
-extern "C" void ResizePanel_OnDrag_m1253 (ResizePanel_t282 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
+extern MethodInfo ResizePanel_OnDrag_m1263_MethodInfo;
+extern "C" void ResizePanel_OnDrag_m1263 (ResizePanel_t284 * __this, PointerEventData_t46 * ___data, MethodInfo* method)
 {
 	Vector2_t13  V_0 = {0};
 	Vector3_t8  V_1 = {0};
 	Vector2_t13  V_2 = {0};
 	{
-		RectTransform_t275 * L_0 = (__this->___panelRectTransform_4);
+		RectTransform_t277 * L_0 = (__this->___panelRectTransform_4);
 		bool L_1 = Object_op_Equality_m576(NULL /*static, unused*/, L_0, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Equality_m576_MethodInfo);
 		if (!L_1)
 		{
@@ -4861,18 +5080,18 @@ extern "C" void ResizePanel_OnDrag_m1253 (ResizePanel_t282 * __this, PointerEven
 
 IL_0012:
 	{
-		RectTransform_t275 * L_2 = (__this->___panelRectTransform_4);
+		RectTransform_t277 * L_2 = (__this->___panelRectTransform_4);
 		PointerEventData_t46 * L_3 = ___data;
 		NullCheck(L_3);
 		Vector2_t13  L_4 = PointerEventData_get_position_m766(L_3, /*hidden argument*/&PointerEventData_get_position_m766_MethodInfo);
 		PointerEventData_t46 * L_5 = ___data;
 		NullCheck(L_5);
-		Camera_t19 * L_6 = PointerEventData_get_pressEventCamera_m1311(L_5, /*hidden argument*/&PointerEventData_get_pressEventCamera_m1311_MethodInfo);
-		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&RectTransformUtility_t288_il2cpp_TypeInfo));
-		RectTransformUtility_ScreenPointToLocalPointInRectangle_m1317(NULL /*static, unused*/, L_2, L_4, L_6, (&V_0), /*hidden argument*/&RectTransformUtility_ScreenPointToLocalPointInRectangle_m1317_MethodInfo);
+		Camera_t19 * L_6 = PointerEventData_get_pressEventCamera_m1322(L_5, /*hidden argument*/&PointerEventData_get_pressEventCamera_m1322_MethodInfo);
+		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&RectTransformUtility_t290_il2cpp_TypeInfo));
+		RectTransformUtility_ScreenPointToLocalPointInRectangle_m1328(NULL /*static, unused*/, L_2, L_4, L_6, (&V_0), /*hidden argument*/&RectTransformUtility_ScreenPointToLocalPointInRectangle_m1328_MethodInfo);
 		Vector2_t13  L_7 = V_0;
 		Vector2_t13  L_8 = (__this->___originalLocalPointerPosition_5);
-		Vector2_t13  L_9 = Vector2_op_Subtraction_m1318(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/&Vector2_op_Subtraction_m1318_MethodInfo);
+		Vector2_t13  L_9 = Vector2_op_Subtraction_m1329(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/&Vector2_op_Subtraction_m1329_MethodInfo);
 		Vector3_t8  L_10 = Vector2_op_Implicit_m788(NULL /*static, unused*/, L_9, /*hidden argument*/&Vector2_op_Implicit_m788_MethodInfo);
 		V_1 = L_10;
 		Vector2_t13  L_11 = (__this->___originalSizeDelta_6);
@@ -4880,7 +5099,7 @@ IL_0012:
 		float L_13 = ((&V_1)->___y_2);
 		Vector2_t13  L_14 = {0};
 		Vector2__ctor_m682(&L_14, L_12, ((-L_13)), /*hidden argument*/&Vector2__ctor_m682_MethodInfo);
-		Vector2_t13  L_15 = Vector2_op_Addition_m1341(NULL /*static, unused*/, L_11, L_14, /*hidden argument*/&Vector2_op_Addition_m1341_MethodInfo);
+		Vector2_t13  L_15 = Vector2_op_Addition_m1352(NULL /*static, unused*/, L_11, L_14, /*hidden argument*/&Vector2_op_Addition_m1352_MethodInfo);
 		V_2 = L_15;
 		float L_16 = ((&V_2)->___x_1);
 		Vector2_t13 * L_17 = &(__this->___minSize_2);
@@ -4896,10 +5115,10 @@ IL_0012:
 		float L_26 = (L_25->___y_2);
 		float L_27 = Mathf_Clamp_m616(NULL /*static, unused*/, L_22, L_24, L_26, /*hidden argument*/&Mathf_Clamp_m616_MethodInfo);
 		Vector2__ctor_m682((&V_2), L_21, L_27, /*hidden argument*/&Vector2__ctor_m682_MethodInfo);
-		RectTransform_t275 * L_28 = (__this->___panelRectTransform_4);
+		RectTransform_t277 * L_28 = (__this->___panelRectTransform_4);
 		Vector2_t13  L_29 = V_2;
 		NullCheck(L_28);
-		RectTransform_set_sizeDelta_m1342(L_28, L_29, /*hidden argument*/&RectTransform_set_sizeDelta_m1342_MethodInfo);
+		RectTransform_set_sizeDelta_m1353(L_28, L_29, /*hidden argument*/&RectTransform_set_sizeDelta_m1353_MethodInfo);
 		return;
 	}
 }
@@ -4908,7 +5127,7 @@ IL_0012:
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo ScrollDetailTexture_t283_il2cpp_TypeInfo;
+extern TypeInfo ScrollDetailTexture_t285_il2cpp_TypeInfo;
 // ScrollDetailTexture
 #include "AssemblyU2DCSharp_ScrollDetailTextureMethodDeclarations.h"
 
@@ -4918,27 +5137,27 @@ extern TypeInfo ScrollDetailTexture_t283_il2cpp_TypeInfo;
 #include "UnityEngine_UnityEngine_HideFlags.h"
 // UnityEngine.Texture
 #include "UnityEngine_UnityEngine_Texture.h"
-extern TypeInfo MaskableGraphic_t297_il2cpp_TypeInfo;
+extern TypeInfo MaskableGraphic_t299_il2cpp_TypeInfo;
 extern TypeInfo Material_t75_il2cpp_TypeInfo;
 // UnityEngine.UI.MaskableGraphic
 #include "UnityEngine_UI_UnityEngine_UI_MaskableGraphicMethodDeclarations.h"
-extern MethodInfo MaskableGraphic_get_material_m1344_MethodInfo;
-extern MethodInfo Material__ctor_m1345_MethodInfo;
+extern MethodInfo MaskableGraphic_get_material_m1355_MethodInfo;
+extern MethodInfo Material__ctor_m1356_MethodInfo;
 extern MethodInfo Object_get_name_m820_MethodInfo;
 extern MethodInfo String_Concat_m988_MethodInfo;
 extern MethodInfo Object_set_name_m898_MethodInfo;
 extern MethodInfo Object_set_hideFlags_m837_MethodInfo;
-extern MethodInfo MaskableGraphic_set_material_m1346_MethodInfo;
-extern MethodInfo Application_get_isEditor_m1347_MethodInfo;
+extern MethodInfo MaskableGraphic_set_material_m1357_MethodInfo;
+extern MethodInfo Application_get_isEditor_m1358_MethodInfo;
 extern MethodInfo Object_DestroyImmediate_m880_MethodInfo;
-extern MethodInfo Material_GetTexture_m1348_MethodInfo;
+extern MethodInfo Material_GetTexture_m1359_MethodInfo;
 extern MethodInfo Time_get_time_m619_MethodInfo;
-extern MethodInfo Material_SetTextureOffset_m1349_MethodInfo;
+extern MethodInfo Material_SetTextureOffset_m1360_MethodInfo;
 
 
 // System.Void ScrollDetailTexture::.ctor()
-extern MethodInfo ScrollDetailTexture__ctor_m1254_MethodInfo;
-extern "C" void ScrollDetailTexture__ctor_m1254 (ScrollDetailTexture_t283 * __this, MethodInfo* method)
+extern MethodInfo ScrollDetailTexture__ctor_m1264_MethodInfo;
+extern "C" void ScrollDetailTexture__ctor_m1264 (ScrollDetailTexture_t285 * __this, MethodInfo* method)
 {
 	{
 		Vector2_t13  L_0 = Vector2_get_zero_m696(NULL /*static, unused*/, /*hidden argument*/&Vector2_get_zero_m696_MethodInfo);
@@ -4948,22 +5167,22 @@ extern "C" void ScrollDetailTexture__ctor_m1254 (ScrollDetailTexture_t283 * __th
 	}
 }
 // System.Void ScrollDetailTexture::OnEnable()
-extern MethodInfo ScrollDetailTexture_OnEnable_m1255_MethodInfo;
+extern MethodInfo ScrollDetailTexture_OnEnable_m1265_MethodInfo;
 extern MethodInfo* Component_GetComponent_TisImage_t64_m793_MethodInfo_var;
-extern "C" void ScrollDetailTexture_OnEnable_m1255 (ScrollDetailTexture_t283 * __this, MethodInfo* method)
+extern "C" void ScrollDetailTexture_OnEnable_m1265 (ScrollDetailTexture_t285 * __this, MethodInfo* method)
 {
-	static bool ScrollDetailTexture_OnEnable_m1255_init;
-	if (!ScrollDetailTexture_OnEnable_m1255_init)
+	static bool ScrollDetailTexture_OnEnable_m1265_init;
+	if (!ScrollDetailTexture_OnEnable_m1265_init)
 	{
 		Component_GetComponent_TisImage_t64_m793_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisImage_t64_m793_GenericMethod);
-		ScrollDetailTexture_OnEnable_m1255_init = true;
+		ScrollDetailTexture_OnEnable_m1265_init = true;
 	}
 	{
 		Image_t64 * L_0 = Component_GetComponent_TisImage_t64_m793(__this, /*hidden argument*/Component_GetComponent_TisImage_t64_m793_MethodInfo_var);
 		__this->___mSprite_7 = L_0;
 		Image_t64 * L_1 = (__this->___mSprite_7);
 		NullCheck(L_1);
-		Material_t75 * L_2 = (Material_t75 *)VirtFuncInvoker0< Material_t75 * >::Invoke(&MaskableGraphic_get_material_m1344_MethodInfo, L_1);
+		Material_t75 * L_2 = (Material_t75 *)VirtFuncInvoker0< Material_t75 * >::Invoke(&MaskableGraphic_get_material_m1355_MethodInfo, L_1);
 		__this->___mOriginal_6 = L_2;
 		bool L_3 = (__this->___uniqueMaterial_2);
 		if (!L_3)
@@ -4974,7 +5193,7 @@ extern "C" void ScrollDetailTexture_OnEnable_m1255 (ScrollDetailTexture_t283 * _
 	{
 		Image_t64 * L_4 = (__this->___mSprite_7);
 		NullCheck(L_4);
-		Material_t75 * L_5 = (Material_t75 *)VirtFuncInvoker0< Material_t75 * >::Invoke(&MaskableGraphic_get_material_m1344_MethodInfo, L_4);
+		Material_t75 * L_5 = (Material_t75 *)VirtFuncInvoker0< Material_t75 * >::Invoke(&MaskableGraphic_get_material_m1355_MethodInfo, L_4);
 		bool L_6 = Object_op_Inequality_m642(NULL /*static, unused*/, L_5, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Inequality_m642_MethodInfo);
 		if (!L_6)
 		{
@@ -4984,7 +5203,7 @@ extern "C" void ScrollDetailTexture_OnEnable_m1255 (ScrollDetailTexture_t283 * _
 	{
 		Material_t75 * L_7 = (__this->___mOriginal_6);
 		Material_t75 * L_8 = (Material_t75 *)il2cpp_codegen_object_new (InitializedTypeInfo(&Material_t75_il2cpp_TypeInfo));
-		Material__ctor_m1345(L_8, L_7, /*hidden argument*/&Material__ctor_m1345_MethodInfo);
+		Material__ctor_m1356(L_8, L_7, /*hidden argument*/&Material__ctor_m1356_MethodInfo);
 		__this->___mCopy_5 = L_8;
 		Material_t75 * L_9 = (__this->___mCopy_5);
 		Material_t75 * L_10 = (__this->___mOriginal_6);
@@ -5000,7 +5219,7 @@ extern "C" void ScrollDetailTexture_OnEnable_m1255 (ScrollDetailTexture_t283 * _
 		Image_t64 * L_14 = (__this->___mSprite_7);
 		Material_t75 * L_15 = (__this->___mCopy_5);
 		NullCheck(L_14);
-		VirtActionInvoker1< Material_t75 * >::Invoke(&MaskableGraphic_set_material_m1346_MethodInfo, L_14, L_15);
+		VirtActionInvoker1< Material_t75 * >::Invoke(&MaskableGraphic_set_material_m1357_MethodInfo, L_14, L_15);
 	}
 
 IL_008d:
@@ -5009,8 +5228,8 @@ IL_008d:
 	}
 }
 // System.Void ScrollDetailTexture::OnDisable()
-extern MethodInfo ScrollDetailTexture_OnDisable_m1256_MethodInfo;
-extern "C" void ScrollDetailTexture_OnDisable_m1256 (ScrollDetailTexture_t283 * __this, MethodInfo* method)
+extern MethodInfo ScrollDetailTexture_OnDisable_m1266_MethodInfo;
+extern "C" void ScrollDetailTexture_OnDisable_m1266 (ScrollDetailTexture_t285 * __this, MethodInfo* method)
 {
 	{
 		Material_t75 * L_0 = (__this->___mCopy_5);
@@ -5024,8 +5243,8 @@ extern "C" void ScrollDetailTexture_OnDisable_m1256 (ScrollDetailTexture_t283 * 
 		Image_t64 * L_2 = (__this->___mSprite_7);
 		Material_t75 * L_3 = (__this->___mOriginal_6);
 		NullCheck(L_2);
-		VirtActionInvoker1< Material_t75 * >::Invoke(&MaskableGraphic_set_material_m1346_MethodInfo, L_2, L_3);
-		bool L_4 = Application_get_isEditor_m1347(NULL /*static, unused*/, /*hidden argument*/&Application_get_isEditor_m1347_MethodInfo);
+		VirtActionInvoker1< Material_t75 * >::Invoke(&MaskableGraphic_set_material_m1357_MethodInfo, L_2, L_3);
+		bool L_4 = Application_get_isEditor_m1358(NULL /*static, unused*/, /*hidden argument*/&Application_get_isEditor_m1358_MethodInfo);
 		if (!L_4)
 		{
 			goto IL_003c;
@@ -5055,11 +5274,11 @@ IL_004e:
 	}
 }
 // System.Void ScrollDetailTexture::Update()
-extern MethodInfo ScrollDetailTexture_Update_m1257_MethodInfo;
-extern "C" void ScrollDetailTexture_Update_m1257 (ScrollDetailTexture_t283 * __this, MethodInfo* method)
+extern MethodInfo ScrollDetailTexture_Update_m1267_MethodInfo;
+extern "C" void ScrollDetailTexture_Update_m1267 (ScrollDetailTexture_t285 * __this, MethodInfo* method)
 {
 	Material_t75 * V_0 = {0};
-	Texture_t298 * V_1 = {0};
+	Texture_t300 * V_1 = {0};
 	Material_t75 * G_B3_0 = {0};
 	{
 		Material_t75 * L_0 = (__this->___mCopy_5);
@@ -5094,9 +5313,9 @@ IL_0022:
 	{
 		Material_t75 * L_6 = V_0;
 		NullCheck(L_6);
-		Texture_t298 * L_7 = Material_GetTexture_m1348(L_6, (String_t*) &_stringLiteral85, /*hidden argument*/&Material_GetTexture_m1348_MethodInfo);
+		Texture_t300 * L_7 = Material_GetTexture_m1359(L_6, (String_t*) &_stringLiteral85, /*hidden argument*/&Material_GetTexture_m1359_MethodInfo);
 		V_1 = L_7;
-		Texture_t298 * L_8 = V_1;
+		Texture_t300 * L_8 = V_1;
 		bool L_9 = Object_op_Inequality_m642(NULL /*static, unused*/, L_8, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Inequality_m642_MethodInfo);
 		if (!L_9)
 		{
@@ -5107,9 +5326,9 @@ IL_0022:
 		Material_t75 * L_10 = V_0;
 		Vector2_t13  L_11 = (__this->___scrollPerSecond_3);
 		float L_12 = Time_get_time_m619(NULL /*static, unused*/, /*hidden argument*/&Time_get_time_m619_MethodInfo);
-		Vector2_t13  L_13 = Vector2_op_Multiply_m1286(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/&Vector2_op_Multiply_m1286_MethodInfo);
+		Vector2_t13  L_13 = Vector2_op_Multiply_m1296(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/&Vector2_op_Multiply_m1296_MethodInfo);
 		NullCheck(L_10);
-		Material_SetTextureOffset_m1349(L_10, (String_t*) &_stringLiteral85, L_13, /*hidden argument*/&Material_SetTextureOffset_m1349_MethodInfo);
+		Material_SetTextureOffset_m1360(L_10, (String_t*) &_stringLiteral85, L_13, /*hidden argument*/&Material_SetTextureOffset_m1360_MethodInfo);
 	}
 
 IL_0062:
@@ -5122,30 +5341,30 @@ IL_0062:
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo ShowSliderValue_t284_il2cpp_TypeInfo;
+extern TypeInfo ShowSliderValue_t286_il2cpp_TypeInfo;
 // ShowSliderValue
 #include "AssemblyU2DCSharp_ShowSliderValueMethodDeclarations.h"
 
 // UnityEngine.UI.Text
 #include "UnityEngine_UI_UnityEngine_UI_Text.h"
-extern TypeInfo Text_t299_il2cpp_TypeInfo;
+extern TypeInfo Text_t301_il2cpp_TypeInfo;
 // UnityEngine.UI.Text
 #include "UnityEngine_UI_UnityEngine_UI_TextMethodDeclarations.h"
-extern MethodInfo Mathf_RoundToInt_m1350_MethodInfo;
+extern MethodInfo Mathf_RoundToInt_m1361_MethodInfo;
 extern MethodInfo String_Concat_m897_MethodInfo;
-extern MethodInfo Text_set_text_m1351_MethodInfo;
+extern MethodInfo Text_set_text_m1362_MethodInfo;
 struct Component_t185;
 // UnityEngine.CastHelper`1<UnityEngine.UI.Text>
 #include "UnityEngine_UnityEngine_CastHelper_1_gen_23.h"
 // Declaration !!0 UnityEngine.Component::GetComponent<UnityEngine.UI.Text>()
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.UI.Text>()
-#define Component_GetComponent_TisText_t299_m1352(__this, method) (( Text_t299 * (*) (Component_t185 *, MethodInfo*))Component_GetComponent_TisObject_t_m585_gshared)(__this, method)
-extern Il2CppGenericMethod Component_GetComponent_TisText_t299_m1352_GenericMethod;
+#define Component_GetComponent_TisText_t301_m1363(__this, method) (( Text_t301 * (*) (Component_t185 *, MethodInfo*))Component_GetComponent_TisObject_t_m585_gshared)(__this, method)
+extern Il2CppGenericMethod Component_GetComponent_TisText_t301_m1363_GenericMethod;
 
 
 // System.Void ShowSliderValue::.ctor()
-extern MethodInfo ShowSliderValue__ctor_m1258_MethodInfo;
-extern "C" void ShowSliderValue__ctor_m1258 (ShowSliderValue_t284 * __this, MethodInfo* method)
+extern MethodInfo ShowSliderValue__ctor_m1268_MethodInfo;
+extern "C" void ShowSliderValue__ctor_m1268 (ShowSliderValue_t286 * __this, MethodInfo* method)
 {
 	{
 		MonoBehaviour__ctor_m575(__this, /*hidden argument*/&MonoBehaviour__ctor_m575_MethodInfo);
@@ -5153,21 +5372,21 @@ extern "C" void ShowSliderValue__ctor_m1258 (ShowSliderValue_t284 * __this, Meth
 	}
 }
 // System.Void ShowSliderValue::UpdateLabel(System.Single)
-extern MethodInfo ShowSliderValue_UpdateLabel_m1259_MethodInfo;
-extern MethodInfo* Component_GetComponent_TisText_t299_m1352_MethodInfo_var;
-extern "C" void ShowSliderValue_UpdateLabel_m1259 (ShowSliderValue_t284 * __this, float ___value, MethodInfo* method)
+extern MethodInfo ShowSliderValue_UpdateLabel_m1269_MethodInfo;
+extern MethodInfo* Component_GetComponent_TisText_t301_m1363_MethodInfo_var;
+extern "C" void ShowSliderValue_UpdateLabel_m1269 (ShowSliderValue_t286 * __this, float ___value, MethodInfo* method)
 {
-	static bool ShowSliderValue_UpdateLabel_m1259_init;
-	if (!ShowSliderValue_UpdateLabel_m1259_init)
+	static bool ShowSliderValue_UpdateLabel_m1269_init;
+	if (!ShowSliderValue_UpdateLabel_m1269_init)
 	{
-		Component_GetComponent_TisText_t299_m1352_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisText_t299_m1352_GenericMethod);
-		ShowSliderValue_UpdateLabel_m1259_init = true;
+		Component_GetComponent_TisText_t301_m1363_MethodInfo_var = il2cpp_codegen_genericmethod_get_method(&Component_GetComponent_TisText_t301_m1363_GenericMethod);
+		ShowSliderValue_UpdateLabel_m1269_init = true;
 	}
-	Text_t299 * V_0 = {0};
+	Text_t301 * V_0 = {0};
 	{
-		Text_t299 * L_0 = Component_GetComponent_TisText_t299_m1352(__this, /*hidden argument*/Component_GetComponent_TisText_t299_m1352_MethodInfo_var);
+		Text_t301 * L_0 = Component_GetComponent_TisText_t301_m1363(__this, /*hidden argument*/Component_GetComponent_TisText_t301_m1363_MethodInfo_var);
 		V_0 = L_0;
-		Text_t299 * L_1 = V_0;
+		Text_t301 * L_1 = V_0;
 		bool L_2 = Object_op_Inequality_m642(NULL /*static, unused*/, L_1, (Object_t91 *)NULL, /*hidden argument*/&Object_op_Inequality_m642_MethodInfo);
 		if (!L_2)
 		{
@@ -5175,16 +5394,16 @@ extern "C" void ShowSliderValue_UpdateLabel_m1259 (ShowSliderValue_t284 * __this
 		}
 	}
 	{
-		Text_t299 * L_3 = V_0;
+		Text_t301 * L_3 = V_0;
 		float L_4 = ___value;
 		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Mathf_t186_il2cpp_TypeInfo));
-		int32_t L_5 = Mathf_RoundToInt_m1350(NULL /*static, unused*/, ((float)((float)L_4*(float)(100.0f))), /*hidden argument*/&Mathf_RoundToInt_m1350_MethodInfo);
+		int32_t L_5 = Mathf_RoundToInt_m1361(NULL /*static, unused*/, ((float)((float)L_4*(float)(100.0f))), /*hidden argument*/&Mathf_RoundToInt_m1361_MethodInfo);
 		int32_t L_6 = L_5;
 		Object_t * L_7 = Box(InitializedTypeInfo(&Int32_t188_il2cpp_TypeInfo), &L_6);
 		IL2CPP_RUNTIME_CLASS_INIT((&String_t_il2cpp_TypeInfo));
 		String_t* L_8 = String_Concat_m897(NULL /*static, unused*/, L_7, (String_t*) &_stringLiteral86, /*hidden argument*/&String_Concat_m897_MethodInfo);
 		NullCheck(L_3);
-		VirtActionInvoker1< String_t* >::Invoke(&Text_set_text_m1351_MethodInfo, L_3, L_8);
+		VirtActionInvoker1< String_t* >::Invoke(&Text_set_text_m1362_MethodInfo, L_3, L_8);
 	}
 
 IL_0034:
@@ -5197,16 +5416,22 @@ IL_0034:
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo TiltWindow_t285_il2cpp_TypeInfo;
+extern TypeInfo TiltWindow_t287_il2cpp_TypeInfo;
 // TiltWindow
 #include "AssemblyU2DCSharp_TiltWindowMethodDeclarations.h"
 
-extern MethodInfo Vector2_Lerp_m1353_MethodInfo;
+// UnityEngine.Screen
+#include "UnityEngine_UnityEngine_ScreenMethodDeclarations.h"
+extern MethodInfo Screen_get_width_m786_MethodInfo;
+extern MethodInfo Screen_get_height_m994_MethodInfo;
+extern MethodInfo Vector2_Lerp_m1364_MethodInfo;
+extern MethodInfo Quaternion_Euler_m614_MethodInfo;
+extern MethodInfo Quaternion_op_Multiply_m623_MethodInfo;
 
 
 // System.Void TiltWindow::.ctor()
-extern MethodInfo TiltWindow__ctor_m1260_MethodInfo;
-extern "C" void TiltWindow__ctor_m1260 (TiltWindow_t285 * __this, MethodInfo* method)
+extern MethodInfo TiltWindow__ctor_m1270_MethodInfo;
+extern "C" void TiltWindow__ctor_m1270 (TiltWindow_t287 * __this, MethodInfo* method)
 {
 	{
 		Vector2_t13  L_0 = {0};
@@ -5219,8 +5444,8 @@ extern "C" void TiltWindow__ctor_m1260 (TiltWindow_t285 * __this, MethodInfo* me
 	}
 }
 // System.Void TiltWindow::Start()
-extern MethodInfo TiltWindow_Start_m1261_MethodInfo;
-extern "C" void TiltWindow_Start_m1261 (TiltWindow_t285 * __this, MethodInfo* method)
+extern MethodInfo TiltWindow_Start_m1271_MethodInfo;
+extern "C" void TiltWindow_Start_m1271 (TiltWindow_t287 * __this, MethodInfo* method)
 {
 	{
 		Transform_t2 * L_0 = Component_get_transform_m598(__this, /*hidden argument*/&Component_get_transform_m598_MethodInfo);
@@ -5233,8 +5458,8 @@ extern "C" void TiltWindow_Start_m1261 (TiltWindow_t285 * __this, MethodInfo* me
 	}
 }
 // System.Void TiltWindow::Update()
-extern MethodInfo TiltWindow_Update_m1262_MethodInfo;
-extern "C" void TiltWindow_Update_m1262 (TiltWindow_t285 * __this, MethodInfo* method)
+extern MethodInfo TiltWindow_Update_m1272_MethodInfo;
+extern "C" void TiltWindow_Update_m1272 (TiltWindow_t287 * __this, MethodInfo* method)
 {
 	Vector3_t8  V_0 = {0};
 	float V_1 = 0.0f;
@@ -5266,7 +5491,7 @@ extern "C" void TiltWindow_Update_m1262 (TiltWindow_t285 * __this, MethodInfo* m
 		Vector2_t13  L_14 = {0};
 		Vector2__ctor_m682(&L_14, L_12, L_13, /*hidden argument*/&Vector2__ctor_m682_MethodInfo);
 		float L_15 = Time_get_deltaTime_m579(NULL /*static, unused*/, /*hidden argument*/&Time_get_deltaTime_m579_MethodInfo);
-		Vector2_t13  L_16 = Vector2_Lerp_m1353(NULL /*static, unused*/, L_11, L_14, ((float)((float)L_15*(float)(5.0f))), /*hidden argument*/&Vector2_Lerp_m1353_MethodInfo);
+		Vector2_t13  L_16 = Vector2_Lerp_m1364(NULL /*static, unused*/, L_11, L_14, ((float)((float)L_15*(float)(5.0f))), /*hidden argument*/&Vector2_Lerp_m1364_MethodInfo);
 		__this->___mRot_5 = L_16;
 		Transform_t2 * L_17 = (__this->___mTrans_3);
 		Quaternion_t10  L_18 = (__this->___mStart_4);

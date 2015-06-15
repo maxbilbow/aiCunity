@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.DisallowMultipleComponent[]
-struct DisallowMultipleComponentU5BU5D_t839;
+struct DisallowMultipleComponentU5BU5D_t841;
 // UnityEngine.ExecuteInEditMode[]
-struct ExecuteInEditModeU5BU5D_t840;
+struct ExecuteInEditModeU5BU5D_t842;
 // UnityEngine.RequireComponent[]
-struct RequireComponentU5BU5D_t841;
+struct RequireComponentU5BU5D_t843;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.AttributeHelperEngine
-struct  AttributeHelperEngine_t842  : public Object_t
+struct  AttributeHelperEngine_t844  : public Object_t
 {
 };
-struct AttributeHelperEngine_t842_StaticFields{
+struct AttributeHelperEngine_t844_StaticFields{
 	// UnityEngine.DisallowMultipleComponent[] UnityEngine.AttributeHelperEngine::_disallowMultipleComponentArray
-	DisallowMultipleComponentU5BU5D_t839* ____disallowMultipleComponentArray_0;
+	DisallowMultipleComponentU5BU5D_t841* ____disallowMultipleComponentArray_0;
 	// UnityEngine.ExecuteInEditMode[] UnityEngine.AttributeHelperEngine::_executeInEditModeArray
-	ExecuteInEditModeU5BU5D_t840* ____executeInEditModeArray_1;
+	ExecuteInEditModeU5BU5D_t842* ____executeInEditModeArray_1;
 	// UnityEngine.RequireComponent[] UnityEngine.AttributeHelperEngine::_requireComponentArray
-	RequireComponentU5BU5D_t841* ____requireComponentArray_2;
+	RequireComponentU5BU5D_t843* ____requireComponentArray_2;
 };

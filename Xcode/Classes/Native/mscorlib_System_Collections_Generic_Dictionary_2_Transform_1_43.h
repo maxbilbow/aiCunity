@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.ICanvasElement
-struct ICanvasElement_t386;
+struct ICanvasElement_t388;
 // System.IAsyncResult
-struct IAsyncResult_t423;
+struct IAsyncResult_t425;
 // System.AsyncCallback
-struct AsyncCallback_t424;
+struct AsyncCallback_t426;
 // System.Object
 struct Object_t;
 // System.Int32
@@ -14,6 +14,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 extern TypeInfo Int32_t188_il2cpp_TypeInfo;
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.UI.ICanvasElement,System.Int32,UnityEngine.UI.ICanvasElement>
-struct  Transform_1_t3004  : public MulticastDelegate_t427
+struct  Transform_1_t3006  : public MulticastDelegate_t429
 {
 };

@@ -7,7 +7,7 @@ struct Transform_t2;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.CastHelper`1<UnityEngine.Transform>
-struct  CastHelper_1_t2807 
+struct  CastHelper_1_t2809 
 {
 	// T UnityEngine.CastHelper`1<UnityEngine.Transform>::t
 	Transform_t2 * ___t_0;

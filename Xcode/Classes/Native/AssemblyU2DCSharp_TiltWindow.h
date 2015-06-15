@@ -9,7 +9,7 @@ struct Transform_t2;
 // UnityEngine.Quaternion
 #include "UnityEngine_UnityEngine_Quaternion.h"
 // TiltWindow
-struct  TiltWindow_t285  : public MonoBehaviour_t5
+struct  TiltWindow_t287  : public MonoBehaviour_t5
 {
 	// UnityEngine.Vector2 TiltWindow::range
 	Vector2_t13  ___range_2;

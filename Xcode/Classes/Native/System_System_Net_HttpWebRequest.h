@@ -1,30 +1,30 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t802;
+struct Uri_t804;
 // System.Security.Cryptography.X509Certificates.X509CertificateCollection
-struct X509CertificateCollection_t1185;
+struct X509CertificateCollection_t1187;
 // System.String
 struct String_t;
 // System.Net.WebHeaderCollection
-struct WebHeaderCollection_t1173;
+struct WebHeaderCollection_t1175;
 // System.Version
-struct Version_t1183;
+struct Version_t1185;
 // System.Net.IWebProxy
-struct IWebProxy_t1174;
+struct IWebProxy_t1176;
 // System.Net.ServicePoint
-struct ServicePoint_t1170;
+struct ServicePoint_t1172;
 // System.Object
 struct Object_t;
 // System.Net.WebRequest
 #include "System_System_Net_WebRequest.h"
 // System.Net.HttpWebRequest
-struct  HttpWebRequest_t1186  : public WebRequest_t1172
+struct  HttpWebRequest_t1188  : public WebRequest_t1174
 {
 	// System.Uri System.Net.HttpWebRequest::requestUri
-	Uri_t802 * ___requestUri_6;
+	Uri_t804 * ___requestUri_6;
 	// System.Uri System.Net.HttpWebRequest::actualUri
-	Uri_t802 * ___actualUri_7;
+	Uri_t804 * ___actualUri_7;
 	// System.Boolean System.Net.HttpWebRequest::hostChanged
 	bool ___hostChanged_8;
 	// System.Boolean System.Net.HttpWebRequest::allowAutoRedirect
@@ -32,13 +32,13 @@ struct  HttpWebRequest_t1186  : public WebRequest_t1172
 	// System.Boolean System.Net.HttpWebRequest::allowBuffering
 	bool ___allowBuffering_10;
 	// System.Security.Cryptography.X509Certificates.X509CertificateCollection System.Net.HttpWebRequest::certificates
-	X509CertificateCollection_t1185 * ___certificates_11;
+	X509CertificateCollection_t1187 * ___certificates_11;
 	// System.String System.Net.HttpWebRequest::connectionGroup
 	String_t* ___connectionGroup_12;
 	// System.Int64 System.Net.HttpWebRequest::contentLength
 	int64_t ___contentLength_13;
 	// System.Net.WebHeaderCollection System.Net.HttpWebRequest::webHeaders
-	WebHeaderCollection_t1173 * ___webHeaders_14;
+	WebHeaderCollection_t1175 * ___webHeaders_14;
 	// System.Boolean System.Net.HttpWebRequest::keepAlive
 	bool ___keepAlive_15;
 	// System.Int32 System.Net.HttpWebRequest::maxAutoRedirect
@@ -52,13 +52,13 @@ struct  HttpWebRequest_t1186  : public WebRequest_t1172
 	// System.Boolean System.Net.HttpWebRequest::pipelined
 	bool ___pipelined_20;
 	// System.Version System.Net.HttpWebRequest::version
-	Version_t1183 * ___version_21;
+	Version_t1185 * ___version_21;
 	// System.Net.IWebProxy System.Net.HttpWebRequest::proxy
 	Object_t * ___proxy_22;
 	// System.Boolean System.Net.HttpWebRequest::sendChunked
 	bool ___sendChunked_23;
 	// System.Net.ServicePoint System.Net.HttpWebRequest::servicePoint
-	ServicePoint_t1170 * ___servicePoint_24;
+	ServicePoint_t1172 * ___servicePoint_24;
 	// System.Int32 System.Net.HttpWebRequest::timeout
 	int32_t ___timeout_25;
 	// System.Int32 System.Net.HttpWebRequest::redirects
@@ -68,7 +68,7 @@ struct  HttpWebRequest_t1186  : public WebRequest_t1172
 	// System.Int32 System.Net.HttpWebRequest::readWriteTimeout
 	int32_t ___readWriteTimeout_29;
 };
-struct HttpWebRequest_t1186_StaticFields{
+struct HttpWebRequest_t1188_StaticFields{
 	// System.Int32 System.Net.HttpWebRequest::defaultMaxResponseHeadersLength
 	int32_t ___defaultMaxResponseHeadersLength_28;
 };

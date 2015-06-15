@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.RenderTextureFormat
-struct RenderTextureFormat_t855;
+struct RenderTextureFormat_t857;
 

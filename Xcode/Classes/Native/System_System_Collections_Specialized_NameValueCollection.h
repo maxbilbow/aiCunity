@@ -5,7 +5,7 @@ struct StringU5BU5D_t215;
 // System.Collections.Specialized.NameObjectCollectionBase
 #include "System_System_Collections_Specialized_NameObjectCollectionBa_2.h"
 // System.Collections.Specialized.NameValueCollection
-struct  NameValueCollection_t1162  : public NameObjectCollectionBase_t1156
+struct  NameValueCollection_t1164  : public NameObjectCollectionBase_t1158
 {
 	// System.String[] System.Collections.Specialized.NameValueCollection::cachedAllKeys
 	StringU5BU5D_t215* ___cachedAllKeys_10;

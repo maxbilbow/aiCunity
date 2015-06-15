@@ -5,7 +5,7 @@ struct ObjectU5BU5D_t194;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.Stack
-struct  Stack_t894  : public Object_t
+struct  Stack_t896  : public Object_t
 {
 	// System.Object[] System.Collections.Stack::contents
 	ObjectU5BU5D_t194* ___contents_0;

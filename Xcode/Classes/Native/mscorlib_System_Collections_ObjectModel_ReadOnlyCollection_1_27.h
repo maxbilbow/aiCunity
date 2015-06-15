@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<UnityEngine.UILineInfo>
-struct IList_1_t541;
+struct IList_1_t543;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>
-struct  ReadOnlyCollection_1_t3329  : public Object_t
+struct  ReadOnlyCollection_1_t3331  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UILineInfo>::list
 	Object_t* ___list_0;

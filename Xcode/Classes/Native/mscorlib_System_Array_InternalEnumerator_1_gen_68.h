@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator/ControlSurface>
-struct  InternalEnumerator_1_t2796 
+struct  InternalEnumerator_1_t2798 
 {
 	// System.Array System.Array/InternalEnumerator`1<UnityStandardAssets.Vehicles.Aeroplane.AeroplaneControlSurfaceAnimator/ControlSurface>::array
 	Array_t * ___array_0;

@@ -10,9 +10,9 @@ struct CapsuleCollider_t36;
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // System.Void UnityEngine.CapsuleCollider::INTERNAL_get_center(UnityEngine.Vector3&)
-extern "C" void CapsuleCollider_INTERNAL_get_center_m3954 (CapsuleCollider_t36 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CapsuleCollider_INTERNAL_get_center_m3965 (CapsuleCollider_t36 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.CapsuleCollider::INTERNAL_set_center(UnityEngine.Vector3&)
-extern "C" void CapsuleCollider_INTERNAL_set_center_m3955 (CapsuleCollider_t36 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CapsuleCollider_INTERNAL_set_center_m3966 (CapsuleCollider_t36 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.CapsuleCollider::get_center()
 extern "C" Vector3_t8  CapsuleCollider_get_center_m726 (CapsuleCollider_t36 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.CapsuleCollider::set_center(UnityEngine.Vector3)

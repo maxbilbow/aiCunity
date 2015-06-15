@@ -5,7 +5,7 @@
 // UnityEngine.PlayMode
 #include "UnityEngine_UnityEngine_PlayMode.h"
 // UnityEngine.PlayMode
-struct  PlayMode_t762 
+struct  PlayMode_t764 
 {
 	// System.Int32 UnityEngine.PlayMode::value__
 	int32_t ___value___1;

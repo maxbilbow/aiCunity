@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.DepthTextureMode
-struct DepthTextureMode_t852;
+struct DepthTextureMode_t854;
 

@@ -7,10 +7,10 @@
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // System.TypedReference
-struct  TypedReference_t1554 
+struct  TypedReference_t1556 
 {
 	// System.RuntimeTypeHandle System.TypedReference::type
-	RuntimeTypeHandle_t1540  ___type_0;
+	RuntimeTypeHandle_t1542  ___type_0;
 	// System.IntPtr System.TypedReference::value
 	IntPtr_t ___value_1;
 	// System.IntPtr System.TypedReference::klass

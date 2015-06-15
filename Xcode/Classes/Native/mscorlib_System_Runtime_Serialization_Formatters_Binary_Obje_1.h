@@ -1,17 +1,17 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Runtime.Serialization.ISurrogateSelector
-struct ISurrogateSelector_t1833;
+struct ISurrogateSelector_t1835;
 // System.Runtime.Serialization.SerializationBinder
-struct SerializationBinder_t1869;
+struct SerializationBinder_t1871;
 // System.Runtime.Serialization.ObjectManager
-struct ObjectManager_t1875;
+struct ObjectManager_t1877;
 // System.Collections.Hashtable
-struct Hashtable_t1147;
+struct Hashtable_t1149;
 // System.Object
 struct Object_t;
 // System.Byte[]
-struct ByteU5BU5D_t720;
+struct ByteU5BU5D_t722;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.StreamingContext
@@ -19,22 +19,22 @@ struct ByteU5BU5D_t720;
 // System.Runtime.Serialization.Formatters.TypeFilterLevel
 #include "mscorlib_System_Runtime_Serialization_Formatters_TypeFilterL.h"
 // System.Runtime.Serialization.Formatters.Binary.ObjectReader
-struct  ObjectReader_t1876  : public Object_t
+struct  ObjectReader_t1878  : public Object_t
 {
 	// System.Runtime.Serialization.ISurrogateSelector System.Runtime.Serialization.Formatters.Binary.ObjectReader::_surrogateSelector
 	Object_t * ____surrogateSelector_0;
 	// System.Runtime.Serialization.StreamingContext System.Runtime.Serialization.Formatters.Binary.ObjectReader::_context
-	StreamingContext_t872  ____context_1;
+	StreamingContext_t874  ____context_1;
 	// System.Runtime.Serialization.SerializationBinder System.Runtime.Serialization.Formatters.Binary.ObjectReader::_binder
-	SerializationBinder_t1869 * ____binder_2;
+	SerializationBinder_t1871 * ____binder_2;
 	// System.Runtime.Serialization.Formatters.TypeFilterLevel System.Runtime.Serialization.Formatters.Binary.ObjectReader::_filterLevel
 	int32_t ____filterLevel_3;
 	// System.Runtime.Serialization.ObjectManager System.Runtime.Serialization.Formatters.Binary.ObjectReader::_manager
-	ObjectManager_t1875 * ____manager_4;
+	ObjectManager_t1877 * ____manager_4;
 	// System.Collections.Hashtable System.Runtime.Serialization.Formatters.Binary.ObjectReader::_registeredAssemblies
-	Hashtable_t1147 * ____registeredAssemblies_5;
+	Hashtable_t1149 * ____registeredAssemblies_5;
 	// System.Collections.Hashtable System.Runtime.Serialization.Formatters.Binary.ObjectReader::_typeMetadataCache
-	Hashtable_t1147 * ____typeMetadataCache_6;
+	Hashtable_t1149 * ____typeMetadataCache_6;
 	// System.Object System.Runtime.Serialization.Formatters.Binary.ObjectReader::_lastObject
 	Object_t * ____lastObject_7;
 	// System.Int64 System.Runtime.Serialization.Formatters.Binary.ObjectReader::_lastObjectID
@@ -42,7 +42,7 @@ struct  ObjectReader_t1876  : public Object_t
 	// System.Int64 System.Runtime.Serialization.Formatters.Binary.ObjectReader::_rootObjectID
 	int64_t ____rootObjectID_9;
 	// System.Byte[] System.Runtime.Serialization.Formatters.Binary.ObjectReader::arrayBuffer
-	ByteU5BU5D_t720* ___arrayBuffer_10;
+	ByteU5BU5D_t722* ___arrayBuffer_10;
 	// System.Int32 System.Runtime.Serialization.Formatters.Binary.ObjectReader::ArrayBufferLength
 	int32_t ___ArrayBufferLength_11;
 };

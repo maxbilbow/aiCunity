@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<UnityStandardAssets.Utility.TimedObjectActivator/Entry>
-struct  InternalEnumerator_1_t2794 
+struct  InternalEnumerator_1_t2796 
 {
 	// System.Array System.Array/InternalEnumerator`1<UnityStandardAssets.Utility.TimedObjectActivator/Entry>::array
 	Array_t * ___array_0;

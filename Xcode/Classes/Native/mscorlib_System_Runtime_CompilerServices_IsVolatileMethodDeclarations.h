@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.CompilerServices.IsVolatile
-struct IsVolatile_t1766;
+struct IsVolatile_t1768;
 

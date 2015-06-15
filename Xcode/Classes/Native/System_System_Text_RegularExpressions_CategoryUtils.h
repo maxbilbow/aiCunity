@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.CategoryUtils
-struct  CategoryUtils_t1274  : public Object_t
+struct  CategoryUtils_t1276  : public Object_t
 {
 };

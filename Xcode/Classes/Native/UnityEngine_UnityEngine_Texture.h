@@ -3,6 +3,6 @@
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.Texture
-struct  Texture_t298  : public Object_t91
+struct  Texture_t300  : public Object_t91
 {
 };

@@ -5,8 +5,8 @@
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__24.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>
-struct  Enumerator_t3525 
+struct  Enumerator_t3527 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>::host_enumerator
-	Enumerator_t3522  ___host_enumerator_0;
+	Enumerator_t3524  ___host_enumerator_0;
 };

@@ -16,17 +16,17 @@ struct Rigidbody_t3;
 #include "UnityEngine_UnityEngine_ForceMode.h"
 
 // System.Void UnityEngine.Rigidbody::INTERNAL_get_velocity(UnityEngine.Vector3&)
-extern "C" void Rigidbody_INTERNAL_get_velocity_m3941 (Rigidbody_t3 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rigidbody_INTERNAL_get_velocity_m3952 (Rigidbody_t3 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::INTERNAL_set_velocity(UnityEngine.Vector3&)
-extern "C" void Rigidbody_INTERNAL_set_velocity_m3942 (Rigidbody_t3 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rigidbody_INTERNAL_set_velocity_m3953 (Rigidbody_t3 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Rigidbody::get_velocity()
 extern "C" Vector3_t8  Rigidbody_get_velocity_m590 (Rigidbody_t3 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::set_velocity(UnityEngine.Vector3)
 extern "C" void Rigidbody_set_velocity_m701 (Rigidbody_t3 * __this, Vector3_t8  ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::INTERNAL_get_angularVelocity(UnityEngine.Vector3&)
-extern "C" void Rigidbody_INTERNAL_get_angularVelocity_m3943 (Rigidbody_t3 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rigidbody_INTERNAL_get_angularVelocity_m3954 (Rigidbody_t3 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::INTERNAL_set_angularVelocity(UnityEngine.Vector3&)
-extern "C" void Rigidbody_INTERNAL_set_angularVelocity_m3944 (Rigidbody_t3 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rigidbody_INTERNAL_set_angularVelocity_m3955 (Rigidbody_t3 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Rigidbody::get_angularVelocity()
 extern "C" Vector3_t8  Rigidbody_get_angularVelocity_m1040 (Rigidbody_t3 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::set_angularVelocity(UnityEngine.Vector3)
@@ -50,27 +50,27 @@ extern "C" void Rigidbody_AddForce_m698 (Rigidbody_t3 * __this, Vector3_t8  ___f
 // System.Void UnityEngine.Rigidbody::AddForce(UnityEngine.Vector3)
 extern "C" void Rigidbody_AddForce_m713 (Rigidbody_t3 * __this, Vector3_t8  ___force, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::INTERNAL_CALL_AddForce(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
-extern "C" void Rigidbody_INTERNAL_CALL_AddForce_m3945 (Object_t * __this /* static, unused */, Rigidbody_t3 * ___self, Vector3_t8 * ___force, int32_t ___mode, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rigidbody_INTERNAL_CALL_AddForce_m3956 (Object_t * __this /* static, unused */, Rigidbody_t3 * ___self, Vector3_t8 * ___force, int32_t ___mode, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::AddTorque(UnityEngine.Vector3)
 extern "C" void Rigidbody_AddTorque_m712 (Rigidbody_t3 * __this, Vector3_t8  ___torque, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::INTERNAL_CALL_AddTorque(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
-extern "C" void Rigidbody_INTERNAL_CALL_AddTorque_m3946 (Object_t * __this /* static, unused */, Rigidbody_t3 * ___self, Vector3_t8 * ___torque, int32_t ___mode, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rigidbody_INTERNAL_CALL_AddTorque_m3957 (Object_t * __this /* static, unused */, Rigidbody_t3 * ___self, Vector3_t8 * ___torque, int32_t ___mode, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::AddForceAtPosition(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.ForceMode)
 extern "C" void Rigidbody_AddForceAtPosition_m689 (Rigidbody_t3 * __this, Vector3_t8  ___force, Vector3_t8  ___position, int32_t ___mode, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::INTERNAL_CALL_AddForceAtPosition(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.ForceMode)
-extern "C" void Rigidbody_INTERNAL_CALL_AddForceAtPosition_m3947 (Object_t * __this /* static, unused */, Rigidbody_t3 * ___self, Vector3_t8 * ___force, Vector3_t8 * ___position, int32_t ___mode, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rigidbody_INTERNAL_CALL_AddForceAtPosition_m3958 (Object_t * __this /* static, unused */, Rigidbody_t3 * ___self, Vector3_t8 * ___force, Vector3_t8 * ___position, int32_t ___mode, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::INTERNAL_set_centerOfMass(UnityEngine.Vector3&)
-extern "C" void Rigidbody_INTERNAL_set_centerOfMass_m3948 (Rigidbody_t3 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rigidbody_INTERNAL_set_centerOfMass_m3959 (Rigidbody_t3 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::set_centerOfMass(UnityEngine.Vector3)
 extern "C" void Rigidbody_set_centerOfMass_m1050 (Rigidbody_t3 * __this, Vector3_t8  ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::INTERNAL_get_position(UnityEngine.Vector3&)
-extern "C" void Rigidbody_INTERNAL_get_position_m3949 (Rigidbody_t3 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rigidbody_INTERNAL_get_position_m3960 (Rigidbody_t3 * __this, Vector3_t8 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Rigidbody::get_position()
 extern "C" Vector3_t8  Rigidbody_get_position_m733 (Rigidbody_t3 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::INTERNAL_get_rotation(UnityEngine.Quaternion&)
-extern "C" void Rigidbody_INTERNAL_get_rotation_m3950 (Rigidbody_t3 * __this, Quaternion_t10 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rigidbody_INTERNAL_get_rotation_m3961 (Rigidbody_t3 * __this, Quaternion_t10 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::INTERNAL_set_rotation(UnityEngine.Quaternion&)
-extern "C" void Rigidbody_INTERNAL_set_rotation_m3951 (Rigidbody_t3 * __this, Quaternion_t10 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rigidbody_INTERNAL_set_rotation_m3962 (Rigidbody_t3 * __this, Quaternion_t10 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Quaternion UnityEngine.Rigidbody::get_rotation()
 extern "C" Quaternion_t10  Rigidbody_get_rotation_m1025 (Rigidbody_t3 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::set_rotation(UnityEngine.Quaternion)
@@ -78,6 +78,6 @@ extern "C" void Rigidbody_set_rotation_m1026 (Rigidbody_t3 * __this, Quaternion_
 // System.Void UnityEngine.Rigidbody::Sleep()
 extern "C" void Rigidbody_Sleep_m702 (Rigidbody_t3 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::INTERNAL_CALL_Sleep(UnityEngine.Rigidbody)
-extern "C" void Rigidbody_INTERNAL_CALL_Sleep_m3952 (Object_t * __this /* static, unused */, Rigidbody_t3 * ___self, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Rigidbody_INTERNAL_CALL_Sleep_m3963 (Object_t * __this /* static, unused */, Rigidbody_t3 * ___self, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::set_maxAngularVelocity(System.Single)
 extern "C" void Rigidbody_set_maxAngularVelocity_m711 (Rigidbody_t3 * __this, float ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;

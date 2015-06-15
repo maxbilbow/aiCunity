@@ -1,14 +1,14 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t720;
+struct ByteU5BU5D_t722;
 // System.ArgumentException
 #include "mscorlib_System_ArgumentException.h"
 // System.Text.DecoderFallbackException
-struct  DecoderFallbackException_t1956  : public ArgumentException_t553
+struct  DecoderFallbackException_t1958  : public ArgumentException_t555
 {
 	// System.Byte[] System.Text.DecoderFallbackException::bytes_unknown
-	ByteU5BU5D_t720* ___bytes_unknown_13;
+	ByteU5BU5D_t722* ___bytes_unknown_13;
 	// System.Int32 System.Text.DecoderFallbackException::index
 	int32_t ___index_14;
 };

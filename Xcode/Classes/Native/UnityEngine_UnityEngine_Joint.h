@@ -3,6 +3,6 @@
 // UnityEngine.Component
 #include "UnityEngine_UnityEngine_Component.h"
 // UnityEngine.Joint
-struct  Joint_t748  : public Component_t185
+struct  Joint_t750  : public Component_t185
 {
 };

@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.InteropServices.InAttribute
-struct  InAttribute_t1547  : public Attribute_t714
+struct  InAttribute_t1549  : public Attribute_t716
 {
 };

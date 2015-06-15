@@ -5,17 +5,17 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.InteropServices.Marshal
-struct Marshal_t1784;
+struct Marshal_t1786;
 // System.Array
 struct Array_t;
 // System.Char[]
-struct CharU5BU5D_t432;
+struct CharU5BU5D_t434;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Runtime.InteropServices.Marshal::.cctor()
-extern "C" void Marshal__cctor_m9747 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Marshal__cctor_m9758 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.InteropServices.Marshal::copy_from_unmanaged(System.IntPtr,System.Int32,System.Array,System.Int32)
-extern "C" void Marshal_copy_from_unmanaged_m9748 (Object_t * __this /* static, unused */, IntPtr_t ___source, int32_t ___startIndex, Array_t * ___destination, int32_t ___length, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Marshal_copy_from_unmanaged_m9759 (Object_t * __this /* static, unused */, IntPtr_t ___source, int32_t ___startIndex, Array_t * ___destination, int32_t ___length, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Char[],System.Int32,System.Int32)
-extern "C" void Marshal_Copy_m9749 (Object_t * __this /* static, unused */, IntPtr_t ___source, CharU5BU5D_t432* ___destination, int32_t ___startIndex, int32_t ___length, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Marshal_Copy_m9760 (Object_t * __this /* static, unused */, IntPtr_t ___source, CharU5BU5D_t434* ___destination, int32_t ___startIndex, int32_t ___length, MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UICharInfo
-struct UICharInfo_t544;
+struct UICharInfo_t546;
 

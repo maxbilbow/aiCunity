@@ -7,12 +7,12 @@
 // System.TimeSpan
 #include "mscorlib_System_TimeSpan.h"
 // System.Globalization.DaylightTime
-struct  DaylightTime_t1671  : public Object_t
+struct  DaylightTime_t1673  : public Object_t
 {
 	// System.DateTime System.Globalization.DaylightTime::m_start
-	DateTime_t683  ___m_start_0;
+	DateTime_t685  ___m_start_0;
 	// System.DateTime System.Globalization.DaylightTime::m_end
-	DateTime_t683  ___m_end_1;
+	DateTime_t685  ___m_end_1;
 	// System.TimeSpan System.Globalization.DaylightTime::m_delta
-	TimeSpan_t1232  ___m_delta_2;
+	TimeSpan_t1234  ___m_delta_2;
 };

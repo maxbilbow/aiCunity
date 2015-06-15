@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.ContactPoint
-struct ContactPoint_t749;
+struct ContactPoint_t751;
 

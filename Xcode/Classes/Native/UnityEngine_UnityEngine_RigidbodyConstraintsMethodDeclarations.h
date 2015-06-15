@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.RigidbodyConstraints
-struct RigidbodyConstraints_t747;
+struct RigidbodyConstraints_t749;
 

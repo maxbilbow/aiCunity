@@ -9,7 +9,7 @@
 // UnityEngine.Quaternion
 #include "UnityEngine_UnityEngine_Quaternion.h"
 // UnityStandardAssets.Utility.RMXSimpleMouse
-struct  RMXSimpleMouse_t268  : public MonoBehaviour_t5
+struct  RMXSimpleMouse_t270  : public MonoBehaviour_t5
 {
 	// UnityEngine.Vector2 UnityStandardAssets.Utility.RMXSimpleMouse::rotationRange
 	Vector2_t13  ___rotationRange_2;
@@ -21,8 +21,8 @@ struct  RMXSimpleMouse_t268  : public MonoBehaviour_t5
 	bool ___autoZeroVerticalOnMobile_5;
 	// System.Boolean UnityStandardAssets.Utility.RMXSimpleMouse::autoZeroHorizontalOnMobile
 	bool ___autoZeroHorizontalOnMobile_6;
-	// System.Boolean UnityStandardAssets.Utility.RMXSimpleMouse::relative
-	bool ___relative_7;
+	// UnityEngine.Vector3 UnityStandardAssets.Utility.RMXSimpleMouse::origin
+	Vector3_t8  ___origin_7;
 	// UnityEngine.Vector3 UnityStandardAssets.Utility.RMXSimpleMouse::m_TargetAngles
 	Vector3_t8  ___m_TargetAngles_8;
 	// UnityEngine.Vector3 UnityStandardAssets.Utility.RMXSimpleMouse::m_FollowAngles

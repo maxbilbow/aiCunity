@@ -7,7 +7,7 @@ struct VirtualAxis_t45;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>
-struct  KeyValuePair_2_t2648 
+struct  KeyValuePair_2_t2650 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.String,UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis>::key
 	String_t* ___key_0;

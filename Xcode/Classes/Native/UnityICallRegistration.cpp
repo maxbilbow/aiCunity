@@ -1,4 +1,4 @@
-//Generated on : 15/06/2015 14:21:51
+//Generated on : 15/06/2015 20:00:46
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.Animation

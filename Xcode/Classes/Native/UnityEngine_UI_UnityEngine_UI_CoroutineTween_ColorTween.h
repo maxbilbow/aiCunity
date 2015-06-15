@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback
-struct ColorTweenCallback_t372;
+struct ColorTweenCallback_t374;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.Color
@@ -9,10 +9,10 @@ struct ColorTweenCallback_t372;
 // UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenMode
 #include "UnityEngine_UI_UnityEngine_UI_CoroutineTween_ColorTween_Colo.h"
 // UnityEngine.UI.CoroutineTween.ColorTween
-struct  ColorTween_t374 
+struct  ColorTween_t376 
 {
 	// UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback UnityEngine.UI.CoroutineTween.ColorTween::m_Target
-	ColorTweenCallback_t372 * ___m_Target_0;
+	ColorTweenCallback_t374 * ___m_Target_0;
 	// UnityEngine.Color UnityEngine.UI.CoroutineTween.ColorTween::m_StartColor
 	Color_t79  ___m_StartColor_1;
 	// UnityEngine.Color UnityEngine.UI.CoroutineTween.ColorTween::m_TargetColor

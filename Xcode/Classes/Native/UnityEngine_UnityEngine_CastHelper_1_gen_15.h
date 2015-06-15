@@ -7,7 +7,7 @@ struct AeroplaneController_t146;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.CastHelper`1<UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController>
-struct  CastHelper_1_t2795 
+struct  CastHelper_1_t2797 
 {
 	// T UnityEngine.CastHelper`1<UnityStandardAssets.Vehicles.Aeroplane.AeroplaneController>::t
 	AeroplaneController_t146 * ___t_0;

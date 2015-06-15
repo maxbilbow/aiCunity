@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Text.RegularExpressions.Category
-struct Category_t1273;
+struct Category_t1275;
 

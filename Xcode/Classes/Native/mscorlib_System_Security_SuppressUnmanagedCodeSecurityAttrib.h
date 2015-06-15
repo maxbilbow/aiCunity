@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Security.SuppressUnmanagedCodeSecurityAttribute
-struct  SuppressUnmanagedCodeSecurityAttribute_t1948  : public Attribute_t714
+struct  SuppressUnmanagedCodeSecurityAttribute_t1950  : public Attribute_t716
 {
 };

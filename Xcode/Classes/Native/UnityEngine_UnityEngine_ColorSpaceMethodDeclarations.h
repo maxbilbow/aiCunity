@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.ColorSpace
-struct ColorSpace_t853;
+struct ColorSpace_t855;
 

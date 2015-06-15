@@ -5,7 +5,7 @@ struct PointerEventData_t46;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.InputField
-struct InputField_t428;
+struct InputField_t430;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Vector2
@@ -13,7 +13,7 @@ struct InputField_t428;
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.UI.InputField/<MouseDragOutsideRect>c__Iterator3
-struct  U3CMouseDragOutsideRectU3Ec__Iterator3_t430  : public Object_t
+struct  U3CMouseDragOutsideRectU3Ec__Iterator3_t432  : public Object_t
 {
 	// UnityEngine.EventSystems.PointerEventData UnityEngine.UI.InputField/<MouseDragOutsideRect>c__Iterator3::eventData
 	PointerEventData_t46 * ___eventData_0;
@@ -30,5 +30,5 @@ struct  U3CMouseDragOutsideRectU3Ec__Iterator3_t430  : public Object_t
 	// UnityEngine.EventSystems.PointerEventData UnityEngine.UI.InputField/<MouseDragOutsideRect>c__Iterator3::<$>eventData
 	PointerEventData_t46 * ___U3C$U3EeventData_6;
 	// UnityEngine.UI.InputField UnityEngine.UI.InputField/<MouseDragOutsideRect>c__Iterator3::<>f__this
-	InputField_t428 * ___U3CU3Ef__this_7;
+	InputField_t430 * ___U3CU3Ef__this_7;
 };

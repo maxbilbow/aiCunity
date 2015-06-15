@@ -7,7 +7,7 @@ struct Material_t75;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.Material>
-struct  Enumerator_t2770 
+struct  Enumerator_t2772 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator<UnityEngine.Material>::l
 	List_1_t214 * ___l_0;

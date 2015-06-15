@@ -10,13 +10,13 @@ struct Light_t107;
 #include "UnityEngine_UnityEngine_Color.h"
 
 // System.Void UnityEngine.Light::INTERNAL_get_color(UnityEngine.Color&)
-extern "C" void Light_INTERNAL_get_color_m3865 (Light_t107 * __this, Color_t79 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Light_INTERNAL_get_color_m3876 (Light_t107 * __this, Color_t79 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Light::INTERNAL_set_color(UnityEngine.Color&)
-extern "C" void Light_INTERNAL_set_color_m3866 (Light_t107 * __this, Color_t79 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Light_INTERNAL_set_color_m3877 (Light_t107 * __this, Color_t79 * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Light::get_color()
-extern "C" Color_t79  Light_get_color_m1299 (Light_t107 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t79  Light_get_color_m1310 (Light_t107 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Light::set_color(UnityEngine.Color)
-extern "C" void Light_set_color_m1302 (Light_t107 * __this, Color_t79  ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Light_set_color_m1313 (Light_t107 * __this, Color_t79  ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Light::get_shadowStrength()
 extern "C" float Light_get_shadowStrength_m966 (Light_t107 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Light::set_shadowStrength(System.Single)

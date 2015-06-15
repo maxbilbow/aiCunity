@@ -20,7 +20,7 @@
 #include <cmath>
 #include <limits>
 #include <assert.h>
-extern TypeInfo CastHelper_1_t2983_il2cpp_TypeInfo;
+extern TypeInfo CastHelper_1_t2985_il2cpp_TypeInfo;
 // UnityEngine.CastHelper`1<UnityEngine.SpriteRenderer>
 #include "UnityEngine_UnityEngine_CastHelper_1_gen_25MethodDeclarations.h"
 
@@ -33,7 +33,7 @@ extern TypeInfo CastHelper_1_t2983_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo Comparison_1_t370_il2cpp_TypeInfo;
+extern TypeInfo Comparison_1_t372_il2cpp_TypeInfo;
 // System.Comparison`1<UnityEngine.RaycastHit>
 #include "mscorlib_System_Comparison_1_gen_0MethodDeclarations.h"
 
@@ -52,20 +52,20 @@ extern TypeInfo Comparison_1_t370_il2cpp_TypeInfo;
 
 
 // System.Void System.Comparison`1<UnityEngine.RaycastHit>::.ctor(System.Object,System.IntPtr)
-extern Il2CppGenericMethod Comparison_1__ctor_m2673_GenericMethod;
-extern "C" void Comparison_1__ctor_m2673_gshared (Comparison_1_t370 * __this, Object_t * ___object, IntPtr_t ___method, MethodInfo* method)
+extern Il2CppGenericMethod Comparison_1__ctor_m2684_GenericMethod;
+extern "C" void Comparison_1__ctor_m2684_gshared (Comparison_1_t372 * __this, Object_t * ___object, IntPtr_t ___method, MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Int32 System.Comparison`1<UnityEngine.RaycastHit>::Invoke(T,T)
-extern Il2CppGenericMethod Comparison_1_Invoke_m16099_GenericMethod;
-extern "C" int32_t Comparison_1_Invoke_m16099_gshared (Comparison_1_t370 * __this, RaycastHit_t16  ___x, RaycastHit_t16  ___y, MethodInfo* method)
+extern Il2CppGenericMethod Comparison_1_Invoke_m16110_GenericMethod;
+extern "C" int32_t Comparison_1_Invoke_m16110_gshared (Comparison_1_t372 * __this, RaycastHit_t16  ___x, RaycastHit_t16  ___y, MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		Comparison_1_Invoke_m16099((Comparison_1_t370 *)__this->___prev_9,___x, ___y, method);
+		Comparison_1_Invoke_m16110((Comparison_1_t372 *)__this->___prev_9,___x, ___y, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -78,8 +78,8 @@ extern "C" int32_t Comparison_1_Invoke_m16099_gshared (Comparison_1_t370 * __thi
 	return ((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___x, ___y,(MethodInfo*)(__this->___method_3.___m_value_0));
 }
 // System.IAsyncResult System.Comparison`1<UnityEngine.RaycastHit>::BeginInvoke(T,T,System.AsyncCallback,System.Object)
-extern Il2CppGenericMethod Comparison_1_BeginInvoke_m16100_GenericMethod;
-extern "C" Object_t * Comparison_1_BeginInvoke_m16100_gshared (Comparison_1_t370 * __this, RaycastHit_t16  ___x, RaycastHit_t16  ___y, AsyncCallback_t424 * ___callback, Object_t * ___object, MethodInfo* method)
+extern Il2CppGenericMethod Comparison_1_BeginInvoke_m16111_GenericMethod;
+extern "C" Object_t * Comparison_1_BeginInvoke_m16111_gshared (Comparison_1_t372 * __this, RaycastHit_t16  ___x, RaycastHit_t16  ___y, AsyncCallback_t426 * ___callback, Object_t * ___object, MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = Box(InitializedTypeInfo(&RaycastHit_t16_il2cpp_TypeInfo), &___x);
@@ -87,8 +87,8 @@ extern "C" Object_t * Comparison_1_BeginInvoke_m16100_gshared (Comparison_1_t370
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Int32 System.Comparison`1<UnityEngine.RaycastHit>::EndInvoke(System.IAsyncResult)
-extern Il2CppGenericMethod Comparison_1_EndInvoke_m16101_GenericMethod;
-extern "C" int32_t Comparison_1_EndInvoke_m16101_gshared (Comparison_1_t370 * __this, Object_t * ___result, MethodInfo* method)
+extern Il2CppGenericMethod Comparison_1_EndInvoke_m16112_GenericMethod;
+extern "C" int32_t Comparison_1_EndInvoke_m16112_gshared (Comparison_1_t372 * __this, Object_t * ___result, MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 	return *(int32_t*)UnBox ((Il2CppCodeGenObject*)__result);
@@ -98,7 +98,7 @@ extern "C" int32_t Comparison_1_EndInvoke_m16101_gshared (Comparison_1_t370 * __
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo UnityEvent_1_t373_il2cpp_TypeInfo;
+extern TypeInfo UnityEvent_1_t375_il2cpp_TypeInfo;
 // UnityEngine.Events.UnityEvent`1<UnityEngine.Color>
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen_0MethodDeclarations.h"
 
@@ -123,7 +123,7 @@ extern TypeInfo ObjectU5BU5D_t194_il2cpp_TypeInfo;
 extern TypeInfo Object_t_il2cpp_TypeInfo;
 extern TypeInfo TypeU5BU5D_t207_il2cpp_TypeInfo;
 extern TypeInfo Type_t_il2cpp_TypeInfo;
-extern TypeInfo InvokableCall_1_t2984_il2cpp_TypeInfo;
+extern TypeInfo InvokableCall_1_t2986_il2cpp_TypeInfo;
 extern TypeInfo Color_t79_il2cpp_TypeInfo;
 // UnityEngine.Events.UnityEventBase
 #include "UnityEngine_UnityEngine_Events_UnityEventBaseMethodDeclarations.h"
@@ -136,75 +136,75 @@ extern TypeInfo Color_t79_il2cpp_TypeInfo;
 extern Il2CppType ObjectU5BU5D_t194_0_0_0;
 extern Il2CppType TypeU5BU5D_t207_0_0_0;
 extern Il2CppType Color_t79_0_0_0;
-extern Il2CppType InvokableCall_1_t2984_0_0_0;
-extern MethodInfo UnityEventBase__ctor_m4494_MethodInfo;
-extern MethodInfo UnityEventBase_AddCall_m4499_MethodInfo;
-extern MethodInfo Delegate_get_Target_m4785_MethodInfo;
-extern MethodInfo Delegate_get_Method_m4784_MethodInfo;
-extern MethodInfo UnityEventBase_RemoveListener_m4500_MethodInfo;
+extern Il2CppType InvokableCall_1_t2986_0_0_0;
+extern MethodInfo UnityEventBase__ctor_m4505_MethodInfo;
+extern MethodInfo UnityEventBase_AddCall_m4510_MethodInfo;
+extern MethodInfo Delegate_get_Target_m4796_MethodInfo;
+extern MethodInfo Delegate_get_Method_m4795_MethodInfo;
+extern MethodInfo UnityEventBase_RemoveListener_m4511_MethodInfo;
 extern MethodInfo Type_GetTypeFromHandle_m749_MethodInfo;
-extern MethodInfo UnityEventBase_GetValidMethodInfo_m4502_MethodInfo;
-extern MethodInfo InvokableCall_1__ctor_m16107_MethodInfo;
-extern MethodInfo InvokableCall_1__ctor_m16108_MethodInfo;
-extern MethodInfo UnityEventBase_Invoke_m4501_MethodInfo;
-extern Il2CppGenericMethod UnityEvent_1_GetDelegate_m16103_GenericMethod;
-extern Il2CppGenericMethod InvokableCall_1__ctor_m16107_GenericMethod;
-extern Il2CppGenericMethod InvokableCall_1__ctor_m16108_GenericMethod;
+extern MethodInfo UnityEventBase_GetValidMethodInfo_m4513_MethodInfo;
+extern MethodInfo InvokableCall_1__ctor_m16118_MethodInfo;
+extern MethodInfo InvokableCall_1__ctor_m16119_MethodInfo;
+extern MethodInfo UnityEventBase_Invoke_m4512_MethodInfo;
+extern Il2CppGenericMethod UnityEvent_1_GetDelegate_m16114_GenericMethod;
+extern Il2CppGenericMethod InvokableCall_1__ctor_m16118_GenericMethod;
+extern Il2CppGenericMethod InvokableCall_1__ctor_m16119_GenericMethod;
 
 
 // System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Color>::.ctor()
-extern Il2CppGenericMethod UnityEvent_1__ctor_m2675_GenericMethod;
+extern Il2CppGenericMethod UnityEvent_1__ctor_m2686_GenericMethod;
 extern TypeInfo* ObjectU5BU5D_t194_il2cpp_TypeInfo_var;
-extern "C" void UnityEvent_1__ctor_m2675_gshared (UnityEvent_1_t373 * __this, MethodInfo* method)
+extern "C" void UnityEvent_1__ctor_m2686_gshared (UnityEvent_1_t375 * __this, MethodInfo* method)
 {
-	static bool UnityEvent_1__ctor_m2675_init;
-	if (!UnityEvent_1__ctor_m2675_init)
+	static bool UnityEvent_1__ctor_m2686_init;
+	if (!UnityEvent_1__ctor_m2686_init)
 	{
 		ObjectU5BU5D_t194_il2cpp_TypeInfo_var = il2cpp_codegen_class_from_type(&ObjectU5BU5D_t194_0_0_0);
-		UnityEvent_1__ctor_m2675_init = true;
+		UnityEvent_1__ctor_m2686_init = true;
 	}
 	{
 		__this->___m_InvokeArray_4 = ((ObjectU5BU5D_t194*)SZArrayNew(ObjectU5BU5D_t194_il2cpp_TypeInfo_var, 1));
-		UnityEventBase__ctor_m4494(__this, /*hidden argument*/&UnityEventBase__ctor_m4494_MethodInfo);
+		UnityEventBase__ctor_m4505(__this, /*hidden argument*/&UnityEventBase__ctor_m4505_MethodInfo);
 		return;
 	}
 }
 // System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Color>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-extern Il2CppGenericMethod UnityEvent_1_AddListener_m2677_GenericMethod;
-extern "C" void UnityEvent_1_AddListener_m2677_gshared (UnityEvent_1_t373 * __this, UnityAction_1_t375 * ___call, MethodInfo* method)
+extern Il2CppGenericMethod UnityEvent_1_AddListener_m2688_GenericMethod;
+extern "C" void UnityEvent_1_AddListener_m2688_gshared (UnityEvent_1_t375 * __this, UnityAction_1_t377 * ___call, MethodInfo* method)
 {
 	{
-		UnityAction_1_t375 * L_0 = ___call;
-		BaseInvokableCall_t880 * L_1 = (( BaseInvokableCall_t880 * (*) (Object_t * /* static, unused */, UnityAction_1_t375 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(NULL /*static, unused*/, L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		UnityEventBase_AddCall_m4499(__this, L_1, /*hidden argument*/&UnityEventBase_AddCall_m4499_MethodInfo);
+		UnityAction_1_t377 * L_0 = ___call;
+		BaseInvokableCall_t882 * L_1 = (( BaseInvokableCall_t882 * (*) (Object_t * /* static, unused */, UnityAction_1_t377 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(NULL /*static, unused*/, L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		UnityEventBase_AddCall_m4510(__this, L_1, /*hidden argument*/&UnityEventBase_AddCall_m4510_MethodInfo);
 		return;
 	}
 }
 // System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Color>::RemoveListener(UnityEngine.Events.UnityAction`1<T0>)
-extern Il2CppGenericMethod UnityEvent_1_RemoveListener_m16102_GenericMethod;
-extern "C" void UnityEvent_1_RemoveListener_m16102_gshared (UnityEvent_1_t373 * __this, UnityAction_1_t375 * ___call, MethodInfo* method)
+extern Il2CppGenericMethod UnityEvent_1_RemoveListener_m16113_GenericMethod;
+extern "C" void UnityEvent_1_RemoveListener_m16113_gshared (UnityEvent_1_t375 * __this, UnityAction_1_t377 * ___call, MethodInfo* method)
 {
 	{
-		UnityAction_1_t375 * L_0 = ___call;
+		UnityAction_1_t377 * L_0 = ___call;
 		NullCheck(L_0);
-		Object_t * L_1 = Delegate_get_Target_m4785(L_0, /*hidden argument*/&Delegate_get_Target_m4785_MethodInfo);
-		UnityAction_1_t375 * L_2 = ___call;
+		Object_t * L_1 = Delegate_get_Target_m4796(L_0, /*hidden argument*/&Delegate_get_Target_m4796_MethodInfo);
+		UnityAction_1_t377 * L_2 = ___call;
 		NullCheck(L_2);
-		MethodInfo_t * L_3 = Delegate_get_Method_m4784(L_2, /*hidden argument*/&Delegate_get_Method_m4784_MethodInfo);
-		UnityEventBase_RemoveListener_m4500(__this, L_1, L_3, /*hidden argument*/&UnityEventBase_RemoveListener_m4500_MethodInfo);
+		MethodInfo_t * L_3 = Delegate_get_Method_m4795(L_2, /*hidden argument*/&Delegate_get_Method_m4795_MethodInfo);
+		UnityEventBase_RemoveListener_m4511(__this, L_1, L_3, /*hidden argument*/&UnityEventBase_RemoveListener_m4511_MethodInfo);
 		return;
 	}
 }
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEvent`1<UnityEngine.Color>::FindMethod_Impl(System.String,System.Object)
-extern Il2CppGenericMethod UnityEvent_1_FindMethod_Impl_m3124_GenericMethod;
+extern Il2CppGenericMethod UnityEvent_1_FindMethod_Impl_m3135_GenericMethod;
 extern TypeInfo* TypeU5BU5D_t207_il2cpp_TypeInfo_var;
-extern "C" MethodInfo_t * UnityEvent_1_FindMethod_Impl_m3124_gshared (UnityEvent_1_t373 * __this, String_t* ___name, Object_t * ___targetObj, MethodInfo* method)
+extern "C" MethodInfo_t * UnityEvent_1_FindMethod_Impl_m3135_gshared (UnityEvent_1_t375 * __this, String_t* ___name, Object_t * ___targetObj, MethodInfo* method)
 {
-	static bool UnityEvent_1_FindMethod_Impl_m3124_init;
-	if (!UnityEvent_1_FindMethod_Impl_m3124_init)
+	static bool UnityEvent_1_FindMethod_Impl_m3135_init;
+	if (!UnityEvent_1_FindMethod_Impl_m3135_init)
 	{
 		TypeU5BU5D_t207_il2cpp_TypeInfo_var = il2cpp_codegen_class_from_type(&TypeU5BU5D_t207_0_0_0);
-		UnityEvent_1_FindMethod_Impl_m3124_init = true;
+		UnityEvent_1_FindMethod_Impl_m3135_init = true;
 	}
 	{
 		Object_t * L_0 = ___targetObj;
@@ -216,35 +216,35 @@ extern "C" MethodInfo_t * UnityEvent_1_FindMethod_Impl_m3124_gshared (UnityEvent
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
 		ArrayElementTypeCheck (L_2, L_3);
 		*((Type_t **)(Type_t **)SZArrayLdElema(L_2, 0)) = (Type_t *)L_3;
-		MethodInfo_t * L_4 = UnityEventBase_GetValidMethodInfo_m4502(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/&UnityEventBase_GetValidMethodInfo_m4502_MethodInfo);
+		MethodInfo_t * L_4 = UnityEventBase_GetValidMethodInfo_m4513(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/&UnityEventBase_GetValidMethodInfo_m4513_MethodInfo);
 		return L_4;
 	}
 }
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1<UnityEngine.Color>::GetDelegate(System.Object,System.Reflection.MethodInfo)
-extern Il2CppGenericMethod UnityEvent_1_GetDelegate_m3125_GenericMethod;
-extern "C" BaseInvokableCall_t880 * UnityEvent_1_GetDelegate_m3125_gshared (UnityEvent_1_t373 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, MethodInfo* method)
+extern Il2CppGenericMethod UnityEvent_1_GetDelegate_m3136_GenericMethod;
+extern "C" BaseInvokableCall_t882 * UnityEvent_1_GetDelegate_m3136_gshared (UnityEvent_1_t375 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, MethodInfo* method)
 {
 	{
 		Object_t * L_0 = ___target;
 		MethodInfo_t * L_1 = ___theFunction;
-		InvokableCall_1_t2984 * L_2 = (InvokableCall_1_t2984 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
-		(( void (*) (InvokableCall_1_t2984 *, Object_t *, MethodInfo_t *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(L_2, L_0, L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		InvokableCall_1_t2986 * L_2 = (InvokableCall_1_t2986 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		(( void (*) (InvokableCall_1_t2986 *, Object_t *, MethodInfo_t *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(L_2, L_0, L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
 		return L_2;
 	}
 }
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`1<UnityEngine.Color>::GetDelegate(UnityEngine.Events.UnityAction`1<T0>)
-extern "C" BaseInvokableCall_t880 * UnityEvent_1_GetDelegate_m16103_gshared (Object_t * __this /* static, unused */, UnityAction_1_t375 * ___action, MethodInfo* method)
+extern "C" BaseInvokableCall_t882 * UnityEvent_1_GetDelegate_m16114_gshared (Object_t * __this /* static, unused */, UnityAction_1_t377 * ___action, MethodInfo* method)
 {
 	{
-		UnityAction_1_t375 * L_0 = ___action;
-		InvokableCall_1_t2984 * L_1 = (InvokableCall_1_t2984 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
-		(( void (*) (InvokableCall_1_t2984 *, UnityAction_1_t375 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(L_1, L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		UnityAction_1_t377 * L_0 = ___action;
+		InvokableCall_1_t2986 * L_1 = (InvokableCall_1_t2986 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		(( void (*) (InvokableCall_1_t2986 *, UnityAction_1_t377 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4)->method)(L_1, L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
 		return L_1;
 	}
 }
 // System.Void UnityEngine.Events.UnityEvent`1<UnityEngine.Color>::Invoke(T0)
-extern Il2CppGenericMethod UnityEvent_1_Invoke_m2676_GenericMethod;
-extern "C" void UnityEvent_1_Invoke_m2676_gshared (UnityEvent_1_t373 * __this, Color_t79  ___arg0, MethodInfo* method)
+extern Il2CppGenericMethod UnityEvent_1_Invoke_m2687_GenericMethod;
+extern "C" void UnityEvent_1_Invoke_m2687_gshared (UnityEvent_1_t375 * __this, Color_t79  ___arg0, MethodInfo* method)
 {
 	{
 		ObjectU5BU5D_t194* L_0 = (__this->___m_InvokeArray_4);
@@ -256,34 +256,34 @@ extern "C" void UnityEvent_1_Invoke_m2676_gshared (UnityEvent_1_t373 * __this, C
 		ArrayElementTypeCheck (L_0, L_3);
 		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0)) = (Object_t *)L_3;
 		ObjectU5BU5D_t194* L_4 = (__this->___m_InvokeArray_4);
-		UnityEventBase_Invoke_m4501(__this, L_4, /*hidden argument*/&UnityEventBase_Invoke_m4501_MethodInfo);
+		UnityEventBase_Invoke_m4512(__this, L_4, /*hidden argument*/&UnityEventBase_Invoke_m4512_MethodInfo);
 		return;
 	}
 }
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo UnityAction_1_t375_il2cpp_TypeInfo;
+extern TypeInfo UnityAction_1_t377_il2cpp_TypeInfo;
 // UnityEngine.Events.UnityAction`1<UnityEngine.Color>
 #include "UnityEngine_UnityEngine_Events_UnityAction_1_gen_0MethodDeclarations.h"
 
 
 
 // System.Void UnityEngine.Events.UnityAction`1<UnityEngine.Color>::.ctor(System.Object,System.IntPtr)
-extern Il2CppGenericMethod UnityAction_1__ctor_m2741_GenericMethod;
-extern "C" void UnityAction_1__ctor_m2741_gshared (UnityAction_1_t375 * __this, Object_t * ___object, IntPtr_t ___method, MethodInfo* method)
+extern Il2CppGenericMethod UnityAction_1__ctor_m2752_GenericMethod;
+extern "C" void UnityAction_1__ctor_m2752_gshared (UnityAction_1_t377 * __this, Object_t * ___object, IntPtr_t ___method, MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // System.Void UnityEngine.Events.UnityAction`1<UnityEngine.Color>::Invoke(T0)
-extern Il2CppGenericMethod UnityAction_1_Invoke_m16104_GenericMethod;
-extern "C" void UnityAction_1_Invoke_m16104_gshared (UnityAction_1_t375 * __this, Color_t79  ___arg0, MethodInfo* method)
+extern Il2CppGenericMethod UnityAction_1_Invoke_m16115_GenericMethod;
+extern "C" void UnityAction_1_Invoke_m16115_gshared (UnityAction_1_t377 * __this, Color_t79  ___arg0, MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		UnityAction_1_Invoke_m16104((UnityAction_1_t375 *)__this->___prev_9,___arg0, method);
+		UnityAction_1_Invoke_m16115((UnityAction_1_t377 *)__this->___prev_9,___arg0, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
@@ -296,16 +296,16 @@ extern "C" void UnityAction_1_Invoke_m16104_gshared (UnityAction_1_t375 * __this
 	((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___arg0,(MethodInfo*)(__this->___method_3.___m_value_0));
 }
 // System.IAsyncResult UnityEngine.Events.UnityAction`1<UnityEngine.Color>::BeginInvoke(T0,System.AsyncCallback,System.Object)
-extern Il2CppGenericMethod UnityAction_1_BeginInvoke_m16105_GenericMethod;
-extern "C" Object_t * UnityAction_1_BeginInvoke_m16105_gshared (UnityAction_1_t375 * __this, Color_t79  ___arg0, AsyncCallback_t424 * ___callback, Object_t * ___object, MethodInfo* method)
+extern Il2CppGenericMethod UnityAction_1_BeginInvoke_m16116_GenericMethod;
+extern "C" Object_t * UnityAction_1_BeginInvoke_m16116_gshared (UnityAction_1_t377 * __this, Color_t79  ___arg0, AsyncCallback_t426 * ___callback, Object_t * ___object, MethodInfo* method)
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = Box(InitializedTypeInfo(&Color_t79_il2cpp_TypeInfo), &___arg0);
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // System.Void UnityEngine.Events.UnityAction`1<UnityEngine.Color>::EndInvoke(System.IAsyncResult)
-extern Il2CppGenericMethod UnityAction_1_EndInvoke_m16106_GenericMethod;
-extern "C" void UnityAction_1_EndInvoke_m16106_gshared (UnityAction_1_t375 * __this, Object_t * ___result, MethodInfo* method)
+extern Il2CppGenericMethod UnityAction_1_EndInvoke_m16117_GenericMethod;
+extern "C" void UnityAction_1_EndInvoke_m16117_gshared (UnityAction_1_t377 * __this, Object_t * ___result, MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
 }
@@ -319,61 +319,61 @@ extern "C" void UnityAction_1_EndInvoke_m16106_gshared (UnityAction_1_t375 * __t
 #include "mscorlib_System_ArgumentException.h"
 // System.Boolean
 #include "mscorlib_System_Boolean.h"
-extern TypeInfo ArgumentException_t553_il2cpp_TypeInfo;
+extern TypeInfo ArgumentException_t555_il2cpp_TypeInfo;
 extern TypeInfo Void_t183_il2cpp_TypeInfo;
 // UnityEngine.Events.BaseInvokableCall
 #include "UnityEngine_UnityEngine_Events_BaseInvokableCallMethodDeclarations.h"
 // System.ArgumentException
 #include "mscorlib_System_ArgumentExceptionMethodDeclarations.h"
-extern Il2CppType UnityAction_1_t375_0_0_0;
-extern MethodInfo BaseInvokableCall__ctor_m4473_MethodInfo;
-extern MethodInfo Delegate_CreateDelegate_m4786_MethodInfo;
-extern MethodInfo Delegate_Combine_m1268_MethodInfo;
-extern MethodInfo BaseInvokableCall__ctor_m4472_MethodInfo;
-extern MethodInfo ArgumentException__ctor_m3008_MethodInfo;
-extern MethodInfo BaseInvokableCall_AllowInvoke_m4474_MethodInfo;
-extern MethodInfo UnityAction_1_Invoke_m16104_MethodInfo;
-struct BaseInvokableCall_t880;
+extern Il2CppType UnityAction_1_t377_0_0_0;
+extern MethodInfo BaseInvokableCall__ctor_m4484_MethodInfo;
+extern MethodInfo Delegate_CreateDelegate_m4797_MethodInfo;
+extern MethodInfo Delegate_Combine_m1278_MethodInfo;
+extern MethodInfo BaseInvokableCall__ctor_m4483_MethodInfo;
+extern MethodInfo ArgumentException__ctor_m3019_MethodInfo;
+extern MethodInfo BaseInvokableCall_AllowInvoke_m4485_MethodInfo;
+extern MethodInfo UnityAction_1_Invoke_m16115_MethodInfo;
+struct BaseInvokableCall_t882;
 // Declaration System.Void UnityEngine.Events.BaseInvokableCall::ThrowOnInvalidArg<UnityEngine.Color>(System.Object)
 // System.Void UnityEngine.Events.BaseInvokableCall::ThrowOnInvalidArg<UnityEngine.Color>(System.Object)
-extern "C" void BaseInvokableCall_ThrowOnInvalidArg_TisColor_t79_m24975_gshared (Object_t * __this /* static, unused */, Object_t * p0, MethodInfo* method);
-#define BaseInvokableCall_ThrowOnInvalidArg_TisColor_t79_m24975(__this /* static, unused */, p0, method) (( void (*) (Object_t * /* static, unused */, Object_t *, MethodInfo*))BaseInvokableCall_ThrowOnInvalidArg_TisColor_t79_m24975_gshared)(__this /* static, unused */, p0, method)
-extern Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisColor_t79_m24975_GenericMethod;
+extern "C" void BaseInvokableCall_ThrowOnInvalidArg_TisColor_t79_m24986_gshared (Object_t * __this /* static, unused */, Object_t * p0, MethodInfo* method);
+#define BaseInvokableCall_ThrowOnInvalidArg_TisColor_t79_m24986(__this /* static, unused */, p0, method) (( void (*) (Object_t * /* static, unused */, Object_t *, MethodInfo*))BaseInvokableCall_ThrowOnInvalidArg_TisColor_t79_m24986_gshared)(__this /* static, unused */, p0, method)
+extern Il2CppGenericMethod BaseInvokableCall_ThrowOnInvalidArg_TisColor_t79_m24986_GenericMethod;
 
 
 // System.Void UnityEngine.Events.InvokableCall`1<UnityEngine.Color>::.ctor(System.Object,System.Reflection.MethodInfo)
-extern "C" void InvokableCall_1__ctor_m16107_gshared (InvokableCall_1_t2984 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, MethodInfo* method)
+extern "C" void InvokableCall_1__ctor_m16118_gshared (InvokableCall_1_t2986 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, MethodInfo* method)
 {
 	{
 		Object_t * L_0 = ___target;
 		MethodInfo_t * L_1 = ___theFunction;
-		BaseInvokableCall__ctor_m4473(__this, L_0, L_1, /*hidden argument*/&BaseInvokableCall__ctor_m4473_MethodInfo);
-		UnityAction_1_t375 * L_2 = (__this->___Delegate_0);
+		BaseInvokableCall__ctor_m4484(__this, L_0, L_1, /*hidden argument*/&BaseInvokableCall__ctor_m4484_MethodInfo);
+		UnityAction_1_t377 * L_2 = (__this->___Delegate_0);
 		IL2CPP_RUNTIME_CLASS_INIT(InitializedTypeInfo(&Type_t_il2cpp_TypeInfo));
 		Type_t * L_3 = Type_GetTypeFromHandle_m749(NULL /*static, unused*/, LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/&Type_GetTypeFromHandle_m749_MethodInfo);
 		Object_t * L_4 = ___target;
 		MethodInfo_t * L_5 = ___theFunction;
-		Delegate_t287 * L_6 = Delegate_CreateDelegate_m4786(NULL /*static, unused*/, L_3, L_4, L_5, /*hidden argument*/&Delegate_CreateDelegate_m4786_MethodInfo);
-		Delegate_t287 * L_7 = Delegate_Combine_m1268(NULL /*static, unused*/, L_2, ((UnityAction_1_t375 *)IsInst(L_6, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1))), /*hidden argument*/&Delegate_Combine_m1268_MethodInfo);
-		__this->___Delegate_0 = ((UnityAction_1_t375 *)Castclass(L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)));
+		Delegate_t289 * L_6 = Delegate_CreateDelegate_m4797(NULL /*static, unused*/, L_3, L_4, L_5, /*hidden argument*/&Delegate_CreateDelegate_m4797_MethodInfo);
+		Delegate_t289 * L_7 = Delegate_Combine_m1278(NULL /*static, unused*/, L_2, ((UnityAction_1_t377 *)IsInst(L_6, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1))), /*hidden argument*/&Delegate_Combine_m1278_MethodInfo);
+		__this->___Delegate_0 = ((UnityAction_1_t377 *)Castclass(L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)));
 		return;
 	}
 }
 // System.Void UnityEngine.Events.InvokableCall`1<UnityEngine.Color>::.ctor(UnityEngine.Events.UnityAction`1<T1>)
-extern "C" void InvokableCall_1__ctor_m16108_gshared (InvokableCall_1_t2984 * __this, UnityAction_1_t375 * ___callback, MethodInfo* method)
+extern "C" void InvokableCall_1__ctor_m16119_gshared (InvokableCall_1_t2986 * __this, UnityAction_1_t377 * ___callback, MethodInfo* method)
 {
 	{
-		BaseInvokableCall__ctor_m4472(__this, /*hidden argument*/&BaseInvokableCall__ctor_m4472_MethodInfo);
-		UnityAction_1_t375 * L_0 = (__this->___Delegate_0);
-		UnityAction_1_t375 * L_1 = ___callback;
-		Delegate_t287 * L_2 = Delegate_Combine_m1268(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Delegate_Combine_m1268_MethodInfo);
-		__this->___Delegate_0 = ((UnityAction_1_t375 *)Castclass(L_2, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)));
+		BaseInvokableCall__ctor_m4483(__this, /*hidden argument*/&BaseInvokableCall__ctor_m4483_MethodInfo);
+		UnityAction_1_t377 * L_0 = (__this->___Delegate_0);
+		UnityAction_1_t377 * L_1 = ___callback;
+		Delegate_t289 * L_2 = Delegate_Combine_m1278(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/&Delegate_Combine_m1278_MethodInfo);
+		__this->___Delegate_0 = ((UnityAction_1_t377 *)Castclass(L_2, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)));
 		return;
 	}
 }
 // System.Void UnityEngine.Events.InvokableCall`1<UnityEngine.Color>::Invoke(System.Object[])
-extern Il2CppGenericMethod InvokableCall_1_Invoke_m16109_GenericMethod;
-extern "C" void InvokableCall_1_Invoke_m16109_gshared (InvokableCall_1_t2984 * __this, ObjectU5BU5D_t194* ___args, MethodInfo* method)
+extern Il2CppGenericMethod InvokableCall_1_Invoke_m16120_GenericMethod;
+extern "C" void InvokableCall_1_Invoke_m16120_gshared (InvokableCall_1_t2986 * __this, ObjectU5BU5D_t194* ___args, MethodInfo* method)
 {
 	{
 		ObjectU5BU5D_t194* L_0 = ___args;
@@ -384,8 +384,8 @@ extern "C" void InvokableCall_1_Invoke_m16109_gshared (InvokableCall_1_t2984 * _
 		}
 	}
 	{
-		ArgumentException_t553 * L_1 = (ArgumentException_t553 *)il2cpp_codegen_object_new (InitializedTypeInfo(&ArgumentException_t553_il2cpp_TypeInfo));
-		ArgumentException__ctor_m3008(L_1, (String_t*) &_stringLiteral465, /*hidden argument*/&ArgumentException__ctor_m3008_MethodInfo);
+		ArgumentException_t555 * L_1 = (ArgumentException_t555 *)il2cpp_codegen_object_new (InitializedTypeInfo(&ArgumentException_t555_il2cpp_TypeInfo));
+		ArgumentException__ctor_m3019(L_1, (String_t*) &_stringLiteral465, /*hidden argument*/&ArgumentException__ctor_m3019_MethodInfo);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -396,15 +396,15 @@ IL_0014:
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
 		int32_t L_3 = 0;
 		(( void (*) (Object_t * /* static, unused */, Object_t *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(NULL /*static, unused*/, (*(Object_t **)(Object_t **)SZArrayLdElema(L_2, L_3)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
-		UnityAction_1_t375 * L_4 = (__this->___Delegate_0);
-		bool L_5 = BaseInvokableCall_AllowInvoke_m4474(NULL /*static, unused*/, L_4, /*hidden argument*/&BaseInvokableCall_AllowInvoke_m4474_MethodInfo);
+		UnityAction_1_t377 * L_4 = (__this->___Delegate_0);
+		bool L_5 = BaseInvokableCall_AllowInvoke_m4485(NULL /*static, unused*/, L_4, /*hidden argument*/&BaseInvokableCall_AllowInvoke_m4485_MethodInfo);
 		if (!L_5)
 		{
 			goto IL_003f;
 		}
 	}
 	{
-		UnityAction_1_t375 * L_6 = (__this->___Delegate_0);
+		UnityAction_1_t377 * L_6 = (__this->___Delegate_0);
 		ObjectU5BU5D_t194* L_7 = ___args;
 		NullCheck(L_7);
 		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, 0);
@@ -419,14 +419,14 @@ IL_003f:
 	}
 }
 // System.Boolean UnityEngine.Events.InvokableCall`1<UnityEngine.Color>::Find(System.Object,System.Reflection.MethodInfo)
-extern Il2CppGenericMethod InvokableCall_1_Find_m16110_GenericMethod;
-extern "C" bool InvokableCall_1_Find_m16110_gshared (InvokableCall_1_t2984 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, MethodInfo* method)
+extern Il2CppGenericMethod InvokableCall_1_Find_m16121_GenericMethod;
+extern "C" bool InvokableCall_1_Find_m16121_gshared (InvokableCall_1_t2986 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, MethodInfo* method)
 {
 	int32_t G_B3_0 = 0;
 	{
-		UnityAction_1_t375 * L_0 = (__this->___Delegate_0);
+		UnityAction_1_t377 * L_0 = (__this->___Delegate_0);
 		NullCheck(L_0);
-		Object_t * L_1 = Delegate_get_Target_m4785(L_0, /*hidden argument*/&Delegate_get_Target_m4785_MethodInfo);
+		Object_t * L_1 = Delegate_get_Target_m4796(L_0, /*hidden argument*/&Delegate_get_Target_m4796_MethodInfo);
 		Object_t * L_2 = ___targetObj;
 		if ((!(((Object_t*)(Object_t *)L_1) == ((Object_t*)(Object_t *)L_2))))
 		{
@@ -434,9 +434,9 @@ extern "C" bool InvokableCall_1_Find_m16110_gshared (InvokableCall_1_t2984 * __t
 		}
 	}
 	{
-		UnityAction_1_t375 * L_3 = (__this->___Delegate_0);
+		UnityAction_1_t377 * L_3 = (__this->___Delegate_0);
 		NullCheck(L_3);
-		MethodInfo_t * L_4 = Delegate_get_Method_m4784(L_3, /*hidden argument*/&Delegate_get_Method_m4784_MethodInfo);
+		MethodInfo_t * L_4 = Delegate_get_Method_m4795(L_3, /*hidden argument*/&Delegate_get_Method_m4795_MethodInfo);
 		MethodInfo_t * L_5 = ___method;
 		G_B3_0 = ((((Object_t*)(MethodInfo_t *)L_4) == ((Object_t*)(MethodInfo_t *)L_5))? 1 : 0);
 		goto IL_0022;
@@ -457,7 +457,7 @@ IL_0022:
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IndexedSet_1_t383_il2cpp_TypeInfo;
+extern TypeInfo IndexedSet_1_t385_il2cpp_TypeInfo;
 // UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>
 #include "UnityEngine_UI_UnityEngine_UI_Collections_IndexedSet_1_genMethodDeclarations.h"
 
@@ -474,16 +474,16 @@ extern TypeInfo IndexedSet_1_t383_il2cpp_TypeInfo;
 #include "mscorlib_System_Predicate_1_gen.h"
 // System.Comparison`1<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Comparison_1_gen_1.h"
-extern TypeInfo List_1_t2985_il2cpp_TypeInfo;
+extern TypeInfo List_1_t2987_il2cpp_TypeInfo;
 extern TypeInfo Int32_t188_il2cpp_TypeInfo;
-extern TypeInfo ICanvasElement_t386_il2cpp_TypeInfo;
-extern TypeInfo Dictionary_2_t538_il2cpp_TypeInfo;
+extern TypeInfo ICanvasElement_t388_il2cpp_TypeInfo;
+extern TypeInfo Dictionary_2_t540_il2cpp_TypeInfo;
 extern TypeInfo Boolean_t202_il2cpp_TypeInfo;
-extern TypeInfo IEnumerator_1_t3841_il2cpp_TypeInfo;
-extern TypeInfo NotImplementedException_t1336_il2cpp_TypeInfo;
-extern TypeInfo ICanvasElementU5BU5D_t2988_il2cpp_TypeInfo;
+extern TypeInfo IEnumerator_1_t3843_il2cpp_TypeInfo;
+extern TypeInfo NotImplementedException_t1338_il2cpp_TypeInfo;
+extern TypeInfo ICanvasElementU5BU5D_t2990_il2cpp_TypeInfo;
 extern TypeInfo NotSupportedException_t217_il2cpp_TypeInfo;
-extern TypeInfo Predicate_1_t385_il2cpp_TypeInfo;
+extern TypeInfo Predicate_1_t387_il2cpp_TypeInfo;
 // System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Collections_Generic_List_1_gen_33MethodDeclarations.h"
 // System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>
@@ -496,52 +496,52 @@ extern TypeInfo Predicate_1_t385_il2cpp_TypeInfo;
 #include "mscorlib_System_NotSupportedExceptionMethodDeclarations.h"
 // System.Predicate`1<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Predicate_1_genMethodDeclarations.h"
-extern Il2CppType List_1_t2985_0_0_0;
-extern Il2CppType Dictionary_2_t538_0_0_0;
-extern Il2CppType IndexedSet_1_t383_0_0_0;
-extern Il2CppType Predicate_1_t385_0_0_0;
-extern MethodInfo List_1_get_Count_m16189_MethodInfo;
-extern MethodInfo List_1_get_Item_m16190_MethodInfo;
-extern MethodInfo Dictionary_2_Remove_m16325_MethodInfo;
-extern MethodInfo List_1_set_Item_m16191_MethodInfo;
-extern MethodInfo Dictionary_2_Add_m16319_MethodInfo;
-extern MethodInfo List_1__ctor_m16142_MethodInfo;
-extern MethodInfo Dictionary_2__ctor_m16284_MethodInfo;
+extern Il2CppType List_1_t2987_0_0_0;
+extern Il2CppType Dictionary_2_t540_0_0_0;
+extern Il2CppType IndexedSet_1_t385_0_0_0;
+extern Il2CppType Predicate_1_t387_0_0_0;
+extern MethodInfo List_1_get_Count_m16200_MethodInfo;
+extern MethodInfo List_1_get_Item_m16201_MethodInfo;
+extern MethodInfo Dictionary_2_Remove_m16336_MethodInfo;
+extern MethodInfo List_1_set_Item_m16202_MethodInfo;
+extern MethodInfo Dictionary_2_Add_m16330_MethodInfo;
+extern MethodInfo List_1__ctor_m16153_MethodInfo;
+extern MethodInfo Dictionary_2__ctor_m16295_MethodInfo;
 extern MethodInfo Object__ctor_m629_MethodInfo;
-extern MethodInfo IndexedSet_1_GetEnumerator_m16116_MethodInfo;
-extern MethodInfo Dictionary_2_ContainsKey_m16321_MethodInfo;
-extern MethodInfo List_1_Add_m16161_MethodInfo;
-extern MethodInfo Dictionary_2_TryGetValue_m16326_MethodInfo;
-extern MethodInfo IndexedSet_1_RemoveAt_m16130_MethodInfo;
-extern MethodInfo NotImplementedException__ctor_m11374_MethodInfo;
-extern MethodInfo List_1_Clear_m16167_MethodInfo;
-extern MethodInfo Dictionary_2_Clear_m16320_MethodInfo;
-extern MethodInfo List_1_CopyTo_m16169_MethodInfo;
-extern MethodInfo NotSupportedException__ctor_m5982_MethodInfo;
-extern MethodInfo List_1_RemoveAt_m16181_MethodInfo;
-extern MethodInfo Dictionary_2_set_Item_m16310_MethodInfo;
-extern MethodInfo Predicate_1_Invoke_m16272_MethodInfo;
-extern MethodInfo IndexedSet_1_Remove_m2693_MethodInfo;
-extern Il2CppGenericMethod List_1_get_Count_m16189_GenericMethod;
-extern Il2CppGenericMethod List_1_get_Item_m16190_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Remove_m16325_GenericMethod;
-extern Il2CppGenericMethod List_1_set_Item_m16191_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Add_m16319_GenericMethod;
-extern Il2CppGenericMethod List_1__ctor_m16142_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2__ctor_m16284_GenericMethod;
-extern Il2CppGenericMethod IndexedSet_1_GetEnumerator_m16116_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_ContainsKey_m16321_GenericMethod;
-extern Il2CppGenericMethod List_1_Add_m16161_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_TryGetValue_m16326_GenericMethod;
-extern Il2CppGenericMethod IndexedSet_1_RemoveAt_m16130_GenericMethod;
-extern Il2CppGenericMethod List_1_Clear_m16167_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Clear_m16320_GenericMethod;
-extern Il2CppGenericMethod List_1_CopyTo_m16169_GenericMethod;
-extern Il2CppGenericMethod List_1_RemoveAt_m16181_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_set_Item_m16310_GenericMethod;
-extern Il2CppGenericMethod Predicate_1_Invoke_m16272_GenericMethod;
-extern Il2CppGenericMethod IndexedSet_1_Remove_m2693_GenericMethod;
-extern Il2CppGenericMethod List_1_Sort_m16184_GenericMethod;
+extern MethodInfo IndexedSet_1_GetEnumerator_m16127_MethodInfo;
+extern MethodInfo Dictionary_2_ContainsKey_m16332_MethodInfo;
+extern MethodInfo List_1_Add_m16172_MethodInfo;
+extern MethodInfo Dictionary_2_TryGetValue_m16337_MethodInfo;
+extern MethodInfo IndexedSet_1_RemoveAt_m16141_MethodInfo;
+extern MethodInfo NotImplementedException__ctor_m11385_MethodInfo;
+extern MethodInfo List_1_Clear_m16178_MethodInfo;
+extern MethodInfo Dictionary_2_Clear_m16331_MethodInfo;
+extern MethodInfo List_1_CopyTo_m16180_MethodInfo;
+extern MethodInfo NotSupportedException__ctor_m5993_MethodInfo;
+extern MethodInfo List_1_RemoveAt_m16192_MethodInfo;
+extern MethodInfo Dictionary_2_set_Item_m16321_MethodInfo;
+extern MethodInfo Predicate_1_Invoke_m16283_MethodInfo;
+extern MethodInfo IndexedSet_1_Remove_m2704_MethodInfo;
+extern Il2CppGenericMethod List_1_get_Count_m16200_GenericMethod;
+extern Il2CppGenericMethod List_1_get_Item_m16201_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Remove_m16336_GenericMethod;
+extern Il2CppGenericMethod List_1_set_Item_m16202_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Add_m16330_GenericMethod;
+extern Il2CppGenericMethod List_1__ctor_m16153_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2__ctor_m16295_GenericMethod;
+extern Il2CppGenericMethod IndexedSet_1_GetEnumerator_m16127_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_ContainsKey_m16332_GenericMethod;
+extern Il2CppGenericMethod List_1_Add_m16172_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_TryGetValue_m16337_GenericMethod;
+extern Il2CppGenericMethod IndexedSet_1_RemoveAt_m16141_GenericMethod;
+extern Il2CppGenericMethod List_1_Clear_m16178_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Clear_m16331_GenericMethod;
+extern Il2CppGenericMethod List_1_CopyTo_m16180_GenericMethod;
+extern Il2CppGenericMethod List_1_RemoveAt_m16192_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_set_Item_m16321_GenericMethod;
+extern Il2CppGenericMethod Predicate_1_Invoke_m16283_GenericMethod;
+extern Il2CppGenericMethod IndexedSet_1_Remove_m2704_GenericMethod;
+extern Il2CppGenericMethod List_1_Sort_m16195_GenericMethod;
 
 
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>::.ctor()
@@ -566,7 +566,7 @@ extern Il2CppGenericMethod List_1_Sort_m16184_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IndexedSet_1_t2986_il2cpp_TypeInfo;
+extern TypeInfo IndexedSet_1_t2988_il2cpp_TypeInfo;
 // UnityEngine.UI.Collections.IndexedSet`1<System.Object>
 #include "UnityEngine_UI_UnityEngine_UI_Collections_IndexedSet_1_gen_1MethodDeclarations.h"
 
@@ -578,87 +578,87 @@ extern TypeInfo IndexedSet_1_t2986_il2cpp_TypeInfo;
 #include "mscorlib_System_Predicate_1_gen_3.h"
 // System.Comparison`1<System.Object>
 #include "mscorlib_System_Comparison_1_gen_3.h"
-extern TypeInfo List_1_t516_il2cpp_TypeInfo;
-extern TypeInfo Dictionary_2_t2812_il2cpp_TypeInfo;
+extern TypeInfo List_1_t518_il2cpp_TypeInfo;
+extern TypeInfo Dictionary_2_t2814_il2cpp_TypeInfo;
 extern TypeInfo IEnumerator_1_t246_il2cpp_TypeInfo;
-extern TypeInfo Predicate_1_t2689_il2cpp_TypeInfo;
+extern TypeInfo Predicate_1_t2691_il2cpp_TypeInfo;
 // System.Collections.Generic.List`1<System.Object>
 #include "mscorlib_System_Collections_Generic_List_1_gen_5MethodDeclarations.h"
 // System.Collections.Generic.Dictionary`2<System.Object,System.Int32>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_gen_20MethodDeclarations.h"
 // System.Predicate`1<System.Object>
 #include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
-extern Il2CppType List_1_t516_0_0_0;
-extern Il2CppType Dictionary_2_t2812_0_0_0;
-extern Il2CppType IndexedSet_1_t2986_0_0_0;
-extern Il2CppType Predicate_1_t2689_0_0_0;
-extern MethodInfo List_1_get_Count_m4870_MethodInfo;
-extern MethodInfo List_1_get_Item_m4892_MethodInfo;
-extern MethodInfo Dictionary_2_Remove_m14304_MethodInfo;
-extern MethodInfo List_1_set_Item_m4893_MethodInfo;
-extern MethodInfo Dictionary_2_Add_m14292_MethodInfo;
-extern MethodInfo List_1__ctor_m4653_MethodInfo;
-extern MethodInfo Dictionary_2__ctor_m14224_MethodInfo;
-extern MethodInfo IndexedSet_1_GetEnumerator_m16117_MethodInfo;
-extern MethodInfo Dictionary_2_ContainsKey_m14296_MethodInfo;
-extern MethodInfo List_1_Add_m4672_MethodInfo;
-extern MethodInfo Dictionary_2_TryGetValue_m14305_MethodInfo;
-extern MethodInfo IndexedSet_1_RemoveAt_m16131_MethodInfo;
-extern MethodInfo List_1_Clear_m4879_MethodInfo;
-extern MethodInfo Dictionary_2_Clear_m14294_MethodInfo;
-extern MethodInfo List_1_CopyTo_m4887_MethodInfo;
-extern MethodInfo List_1_RemoveAt_m4884_MethodInfo;
-extern MethodInfo Dictionary_2_set_Item_m14275_MethodInfo;
-extern MethodInfo Predicate_1_Invoke_m13253_MethodInfo;
-extern MethodInfo IndexedSet_1_Remove_m16115_MethodInfo;
-extern Il2CppGenericMethod List_1_get_Count_m4870_GenericMethod;
-extern Il2CppGenericMethod List_1_get_Item_m4892_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Remove_m14304_GenericMethod;
-extern Il2CppGenericMethod List_1_set_Item_m4893_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Add_m14292_GenericMethod;
-extern Il2CppGenericMethod List_1__ctor_m4653_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2__ctor_m14224_GenericMethod;
-extern Il2CppGenericMethod IndexedSet_1_GetEnumerator_m16117_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_ContainsKey_m14296_GenericMethod;
-extern Il2CppGenericMethod List_1_Add_m4672_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_TryGetValue_m14305_GenericMethod;
-extern Il2CppGenericMethod IndexedSet_1_RemoveAt_m16131_GenericMethod;
-extern Il2CppGenericMethod List_1_Clear_m4879_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Clear_m14294_GenericMethod;
-extern Il2CppGenericMethod List_1_CopyTo_m4887_GenericMethod;
-extern Il2CppGenericMethod List_1_RemoveAt_m4884_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_set_Item_m14275_GenericMethod;
-extern Il2CppGenericMethod Predicate_1_Invoke_m13253_GenericMethod;
-extern Il2CppGenericMethod IndexedSet_1_Remove_m16115_GenericMethod;
-extern Il2CppGenericMethod List_1_Sort_m13171_GenericMethod;
+extern Il2CppType List_1_t518_0_0_0;
+extern Il2CppType Dictionary_2_t2814_0_0_0;
+extern Il2CppType IndexedSet_1_t2988_0_0_0;
+extern Il2CppType Predicate_1_t2691_0_0_0;
+extern MethodInfo List_1_get_Count_m4881_MethodInfo;
+extern MethodInfo List_1_get_Item_m4903_MethodInfo;
+extern MethodInfo Dictionary_2_Remove_m14315_MethodInfo;
+extern MethodInfo List_1_set_Item_m4904_MethodInfo;
+extern MethodInfo Dictionary_2_Add_m14303_MethodInfo;
+extern MethodInfo List_1__ctor_m4664_MethodInfo;
+extern MethodInfo Dictionary_2__ctor_m14235_MethodInfo;
+extern MethodInfo IndexedSet_1_GetEnumerator_m16128_MethodInfo;
+extern MethodInfo Dictionary_2_ContainsKey_m14307_MethodInfo;
+extern MethodInfo List_1_Add_m4683_MethodInfo;
+extern MethodInfo Dictionary_2_TryGetValue_m14316_MethodInfo;
+extern MethodInfo IndexedSet_1_RemoveAt_m16142_MethodInfo;
+extern MethodInfo List_1_Clear_m4890_MethodInfo;
+extern MethodInfo Dictionary_2_Clear_m14305_MethodInfo;
+extern MethodInfo List_1_CopyTo_m4898_MethodInfo;
+extern MethodInfo List_1_RemoveAt_m4895_MethodInfo;
+extern MethodInfo Dictionary_2_set_Item_m14286_MethodInfo;
+extern MethodInfo Predicate_1_Invoke_m13264_MethodInfo;
+extern MethodInfo IndexedSet_1_Remove_m16126_MethodInfo;
+extern Il2CppGenericMethod List_1_get_Count_m4881_GenericMethod;
+extern Il2CppGenericMethod List_1_get_Item_m4903_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Remove_m14315_GenericMethod;
+extern Il2CppGenericMethod List_1_set_Item_m4904_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Add_m14303_GenericMethod;
+extern Il2CppGenericMethod List_1__ctor_m4664_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2__ctor_m14235_GenericMethod;
+extern Il2CppGenericMethod IndexedSet_1_GetEnumerator_m16128_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_ContainsKey_m14307_GenericMethod;
+extern Il2CppGenericMethod List_1_Add_m4683_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_TryGetValue_m14316_GenericMethod;
+extern Il2CppGenericMethod IndexedSet_1_RemoveAt_m16142_GenericMethod;
+extern Il2CppGenericMethod List_1_Clear_m4890_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Clear_m14305_GenericMethod;
+extern Il2CppGenericMethod List_1_CopyTo_m4898_GenericMethod;
+extern Il2CppGenericMethod List_1_RemoveAt_m4895_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_set_Item_m14286_GenericMethod;
+extern Il2CppGenericMethod Predicate_1_Invoke_m13264_GenericMethod;
+extern Il2CppGenericMethod IndexedSet_1_Remove_m16126_GenericMethod;
+extern Il2CppGenericMethod List_1_Sort_m13182_GenericMethod;
 
 
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<System.Object>::.ctor()
-extern Il2CppGenericMethod IndexedSet_1__ctor_m16111_GenericMethod;
-extern TypeInfo* List_1_t516_il2cpp_TypeInfo_var;
-extern "C" void IndexedSet_1__ctor_m16111_gshared (IndexedSet_1_t2986 * __this, MethodInfo* method)
+extern Il2CppGenericMethod IndexedSet_1__ctor_m16122_GenericMethod;
+extern TypeInfo* List_1_t518_il2cpp_TypeInfo_var;
+extern "C" void IndexedSet_1__ctor_m16122_gshared (IndexedSet_1_t2988 * __this, MethodInfo* method)
 {
-	static bool IndexedSet_1__ctor_m16111_init;
-	if (!IndexedSet_1__ctor_m16111_init)
+	static bool IndexedSet_1__ctor_m16122_init;
+	if (!IndexedSet_1__ctor_m16122_init)
 	{
-		List_1_t516_il2cpp_TypeInfo_var = il2cpp_codegen_class_from_type(&List_1_t516_0_0_0);
-		IndexedSet_1__ctor_m16111_init = true;
+		List_1_t518_il2cpp_TypeInfo_var = il2cpp_codegen_class_from_type(&List_1_t518_0_0_0);
+		IndexedSet_1__ctor_m16122_init = true;
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(List_1_t516_il2cpp_TypeInfo_var);
-		List_1_t516 * L_0 = (List_1_t516 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		(( void (*) (List_1_t516 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
+		IL2CPP_RUNTIME_CLASS_INIT(List_1_t518_il2cpp_TypeInfo_var);
+		List_1_t518 * L_0 = (List_1_t518 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		(( void (*) (List_1_t518 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)->method)(L_0, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1));
 		__this->___m_List_0 = L_0;
-		Dictionary_2_t2812 * L_1 = (Dictionary_2_t2812 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
-		(( void (*) (Dictionary_2_t2812 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		Dictionary_2_t2814 * L_1 = (Dictionary_2_t2814 *)il2cpp_codegen_object_new (IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		(( void (*) (Dictionary_2_t2814 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)->method)(L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
 		__this->___m_Dictionary_1 = L_1;
 		Object__ctor_m629(__this, /*hidden argument*/&Object__ctor_m629_MethodInfo);
 		return;
 	}
 }
 // System.Collections.IEnumerator UnityEngine.UI.Collections.IndexedSet`1<System.Object>::System.Collections.IEnumerable.GetEnumerator()
-extern Il2CppGenericMethod IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m16113_GenericMethod;
-extern "C" Object_t * IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m16113_gshared (IndexedSet_1_t2986 * __this, MethodInfo* method)
+extern Il2CppGenericMethod IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m16124_GenericMethod;
+extern "C" Object_t * IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_m16124_gshared (IndexedSet_1_t2988 * __this, MethodInfo* method)
 {
 	{
 		Object_t* L_0 = (Object_t*)VirtFuncInvoker0< Object_t* >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4), __this);
@@ -666,11 +666,11 @@ extern "C" Object_t * IndexedSet_1_System_Collections_IEnumerable_GetEnumerator_
 	}
 }
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<System.Object>::Add(T)
-extern Il2CppGenericMethod IndexedSet_1_Add_m16114_GenericMethod;
-extern "C" void IndexedSet_1_Add_m16114_gshared (IndexedSet_1_t2986 * __this, Object_t * ___item, MethodInfo* method)
+extern Il2CppGenericMethod IndexedSet_1_Add_m16125_GenericMethod;
+extern "C" void IndexedSet_1_Add_m16125_gshared (IndexedSet_1_t2988 * __this, Object_t * ___item, MethodInfo* method)
 {
 	{
-		Dictionary_2_t2812 * L_0 = (__this->___m_Dictionary_1);
+		Dictionary_2_t2814 * L_0 = (__this->___m_Dictionary_1);
 		Object_t * L_1 = ___item;
 		NullCheck(L_0);
 		bool L_2 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), L_0, L_1);
@@ -685,13 +685,13 @@ extern "C" void IndexedSet_1_Add_m16114_gshared (IndexedSet_1_t2986 * __this, Ob
 
 IL_0012:
 	{
-		List_1_t516 * L_3 = (__this->___m_List_0);
+		List_1_t518 * L_3 = (__this->___m_List_0);
 		Object_t * L_4 = ___item;
 		NullCheck(L_3);
 		VirtActionInvoker1< Object_t * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 6), L_3, L_4);
-		Dictionary_2_t2812 * L_5 = (__this->___m_Dictionary_1);
+		Dictionary_2_t2814 * L_5 = (__this->___m_Dictionary_1);
 		Object_t * L_6 = ___item;
-		List_1_t516 * L_7 = (__this->___m_List_0);
+		List_1_t518 * L_7 = (__this->___m_List_0);
 		NullCheck(L_7);
 		int32_t L_8 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7), L_7);
 		NullCheck(L_5);
@@ -700,12 +700,12 @@ IL_0012:
 	}
 }
 // System.Boolean UnityEngine.UI.Collections.IndexedSet`1<System.Object>::Remove(T)
-extern "C" bool IndexedSet_1_Remove_m16115_gshared (IndexedSet_1_t2986 * __this, Object_t * ___item, MethodInfo* method)
+extern "C" bool IndexedSet_1_Remove_m16126_gshared (IndexedSet_1_t2988 * __this, Object_t * ___item, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
 		V_0 = (-1);
-		Dictionary_2_t2812 * L_0 = (__this->___m_Dictionary_1);
+		Dictionary_2_t2814 * L_0 = (__this->___m_Dictionary_1);
 		Object_t * L_1 = ___item;
 		NullCheck(L_0);
 		bool L_2 = (bool)VirtFuncInvoker2< bool, Object_t *, int32_t* >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9), L_0, L_1, (&V_0));
@@ -726,34 +726,34 @@ IL_0017:
 	}
 }
 // System.Collections.Generic.IEnumerator`1<T> UnityEngine.UI.Collections.IndexedSet`1<System.Object>::GetEnumerator()
-extern "C" Object_t* IndexedSet_1_GetEnumerator_m16117_gshared (IndexedSet_1_t2986 * __this, MethodInfo* method)
+extern "C" Object_t* IndexedSet_1_GetEnumerator_m16128_gshared (IndexedSet_1_t2988 * __this, MethodInfo* method)
 {
 	{
-		NotImplementedException_t1336 * L_0 = (NotImplementedException_t1336 *)il2cpp_codegen_object_new (InitializedTypeInfo(&NotImplementedException_t1336_il2cpp_TypeInfo));
-		NotImplementedException__ctor_m11374(L_0, /*hidden argument*/&NotImplementedException__ctor_m11374_MethodInfo);
+		NotImplementedException_t1338 * L_0 = (NotImplementedException_t1338 *)il2cpp_codegen_object_new (InitializedTypeInfo(&NotImplementedException_t1338_il2cpp_TypeInfo));
+		NotImplementedException__ctor_m11385(L_0, /*hidden argument*/&NotImplementedException__ctor_m11385_MethodInfo);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<System.Object>::Clear()
-extern Il2CppGenericMethod IndexedSet_1_Clear_m16118_GenericMethod;
-extern "C" void IndexedSet_1_Clear_m16118_gshared (IndexedSet_1_t2986 * __this, MethodInfo* method)
+extern Il2CppGenericMethod IndexedSet_1_Clear_m16129_GenericMethod;
+extern "C" void IndexedSet_1_Clear_m16129_gshared (IndexedSet_1_t2988 * __this, MethodInfo* method)
 {
 	{
-		List_1_t516 * L_0 = (__this->___m_List_0);
+		List_1_t518 * L_0 = (__this->___m_List_0);
 		NullCheck(L_0);
 		VirtActionInvoker0::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 11), L_0);
-		Dictionary_2_t2812 * L_1 = (__this->___m_Dictionary_1);
+		Dictionary_2_t2814 * L_1 = (__this->___m_Dictionary_1);
 		NullCheck(L_1);
 		VirtActionInvoker0::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 12), L_1);
 		return;
 	}
 }
 // System.Boolean UnityEngine.UI.Collections.IndexedSet`1<System.Object>::Contains(T)
-extern Il2CppGenericMethod IndexedSet_1_Contains_m16120_GenericMethod;
-extern "C" bool IndexedSet_1_Contains_m16120_gshared (IndexedSet_1_t2986 * __this, Object_t * ___item, MethodInfo* method)
+extern Il2CppGenericMethod IndexedSet_1_Contains_m16131_GenericMethod;
+extern "C" bool IndexedSet_1_Contains_m16131_gshared (IndexedSet_1_t2988 * __this, Object_t * ___item, MethodInfo* method)
 {
 	{
-		Dictionary_2_t2812 * L_0 = (__this->___m_Dictionary_1);
+		Dictionary_2_t2814 * L_0 = (__this->___m_Dictionary_1);
 		Object_t * L_1 = ___item;
 		NullCheck(L_0);
 		bool L_2 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5), L_0, L_1);
@@ -761,11 +761,11 @@ extern "C" bool IndexedSet_1_Contains_m16120_gshared (IndexedSet_1_t2986 * __thi
 	}
 }
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<System.Object>::CopyTo(T[],System.Int32)
-extern Il2CppGenericMethod IndexedSet_1_CopyTo_m16122_GenericMethod;
-extern "C" void IndexedSet_1_CopyTo_m16122_gshared (IndexedSet_1_t2986 * __this, ObjectU5BU5D_t194* ___array, int32_t ___arrayIndex, MethodInfo* method)
+extern Il2CppGenericMethod IndexedSet_1_CopyTo_m16133_GenericMethod;
+extern "C" void IndexedSet_1_CopyTo_m16133_gshared (IndexedSet_1_t2988 * __this, ObjectU5BU5D_t194* ___array, int32_t ___arrayIndex, MethodInfo* method)
 {
 	{
-		List_1_t516 * L_0 = (__this->___m_List_0);
+		List_1_t518 * L_0 = (__this->___m_List_0);
 		ObjectU5BU5D_t194* L_1 = ___array;
 		int32_t L_2 = ___arrayIndex;
 		NullCheck(L_0);
@@ -774,32 +774,32 @@ extern "C" void IndexedSet_1_CopyTo_m16122_gshared (IndexedSet_1_t2986 * __this,
 	}
 }
 // System.Int32 UnityEngine.UI.Collections.IndexedSet`1<System.Object>::get_Count()
-extern Il2CppGenericMethod IndexedSet_1_get_Count_m16123_GenericMethod;
-extern "C" int32_t IndexedSet_1_get_Count_m16123_gshared (IndexedSet_1_t2986 * __this, MethodInfo* method)
+extern Il2CppGenericMethod IndexedSet_1_get_Count_m16134_GenericMethod;
+extern "C" int32_t IndexedSet_1_get_Count_m16134_gshared (IndexedSet_1_t2988 * __this, MethodInfo* method)
 {
 	{
-		List_1_t516 * L_0 = (__this->___m_List_0);
+		List_1_t518 * L_0 = (__this->___m_List_0);
 		NullCheck(L_0);
 		int32_t L_1 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7), L_0);
 		return L_1;
 	}
 }
 // System.Boolean UnityEngine.UI.Collections.IndexedSet`1<System.Object>::get_IsReadOnly()
-extern Il2CppGenericMethod IndexedSet_1_get_IsReadOnly_m16125_GenericMethod;
-extern "C" bool IndexedSet_1_get_IsReadOnly_m16125_gshared (IndexedSet_1_t2986 * __this, MethodInfo* method)
+extern Il2CppGenericMethod IndexedSet_1_get_IsReadOnly_m16136_GenericMethod;
+extern "C" bool IndexedSet_1_get_IsReadOnly_m16136_gshared (IndexedSet_1_t2988 * __this, MethodInfo* method)
 {
 	{
 		return 0;
 	}
 }
 // System.Int32 UnityEngine.UI.Collections.IndexedSet`1<System.Object>::IndexOf(T)
-extern Il2CppGenericMethod IndexedSet_1_IndexOf_m16127_GenericMethod;
-extern "C" int32_t IndexedSet_1_IndexOf_m16127_gshared (IndexedSet_1_t2986 * __this, Object_t * ___item, MethodInfo* method)
+extern Il2CppGenericMethod IndexedSet_1_IndexOf_m16138_GenericMethod;
+extern "C" int32_t IndexedSet_1_IndexOf_m16138_gshared (IndexedSet_1_t2988 * __this, Object_t * ___item, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	{
 		V_0 = (-1);
-		Dictionary_2_t2812 * L_0 = (__this->___m_Dictionary_1);
+		Dictionary_2_t2814 * L_0 = (__this->___m_Dictionary_1);
 		Object_t * L_1 = ___item;
 		NullCheck(L_0);
 		VirtFuncInvoker2< bool, Object_t *, int32_t* >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 9), L_0, L_1, (&V_0));
@@ -808,33 +808,33 @@ extern "C" int32_t IndexedSet_1_IndexOf_m16127_gshared (IndexedSet_1_t2986 * __t
 	}
 }
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<System.Object>::Insert(System.Int32,T)
-extern Il2CppGenericMethod IndexedSet_1_Insert_m16129_GenericMethod;
-extern "C" void IndexedSet_1_Insert_m16129_gshared (IndexedSet_1_t2986 * __this, int32_t ___index, Object_t * ___item, MethodInfo* method)
+extern Il2CppGenericMethod IndexedSet_1_Insert_m16140_GenericMethod;
+extern "C" void IndexedSet_1_Insert_m16140_gshared (IndexedSet_1_t2988 * __this, int32_t ___index, Object_t * ___item, MethodInfo* method)
 {
 	{
 		NotSupportedException_t217 * L_0 = (NotSupportedException_t217 *)il2cpp_codegen_object_new (InitializedTypeInfo(&NotSupportedException_t217_il2cpp_TypeInfo));
-		NotSupportedException__ctor_m5982(L_0, (String_t*) &_stringLiteral145, /*hidden argument*/&NotSupportedException__ctor_m5982_MethodInfo);
+		NotSupportedException__ctor_m5993(L_0, (String_t*) &_stringLiteral145, /*hidden argument*/&NotSupportedException__ctor_m5993_MethodInfo);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<System.Object>::RemoveAt(System.Int32)
-extern "C" void IndexedSet_1_RemoveAt_m16131_gshared (IndexedSet_1_t2986 * __this, int32_t ___index, MethodInfo* method)
+extern "C" void IndexedSet_1_RemoveAt_m16142_gshared (IndexedSet_1_t2988 * __this, int32_t ___index, MethodInfo* method)
 {
 	Object_t * V_0 = {0};
 	int32_t V_1 = 0;
 	Object_t * V_2 = {0};
 	{
-		List_1_t516 * L_0 = (__this->___m_List_0);
+		List_1_t518 * L_0 = (__this->___m_List_0);
 		int32_t L_1 = ___index;
 		NullCheck(L_0);
 		Object_t * L_2 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 14), L_0, L_1);
 		V_0 = L_2;
-		Dictionary_2_t2812 * L_3 = (__this->___m_Dictionary_1);
+		Dictionary_2_t2814 * L_3 = (__this->___m_Dictionary_1);
 		Object_t * L_4 = V_0;
 		NullCheck(L_3);
 		VirtFuncInvoker1< bool, Object_t * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 15), L_3, L_4);
 		int32_t L_5 = ___index;
-		List_1_t516 * L_6 = (__this->___m_List_0);
+		List_1_t518 * L_6 = (__this->___m_List_0);
 		NullCheck(L_6);
 		int32_t L_7 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7), L_6);
 		if ((!(((uint32_t)L_5) == ((uint32_t)((int32_t)((int32_t)L_7-(int32_t)1))))))
@@ -843,7 +843,7 @@ extern "C" void IndexedSet_1_RemoveAt_m16131_gshared (IndexedSet_1_t2986 * __thi
 		}
 	}
 	{
-		List_1_t516 * L_8 = (__this->___m_List_0);
+		List_1_t518 * L_8 = (__this->___m_List_0);
 		int32_t L_9 = ___index;
 		NullCheck(L_8);
 		VirtActionInvoker1< int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 16), L_8, L_9);
@@ -852,26 +852,26 @@ extern "C" void IndexedSet_1_RemoveAt_m16131_gshared (IndexedSet_1_t2986 * __thi
 
 IL_003e:
 	{
-		List_1_t516 * L_10 = (__this->___m_List_0);
+		List_1_t518 * L_10 = (__this->___m_List_0);
 		NullCheck(L_10);
 		int32_t L_11 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7), L_10);
 		V_1 = ((int32_t)((int32_t)L_11-(int32_t)1));
-		List_1_t516 * L_12 = (__this->___m_List_0);
+		List_1_t518 * L_12 = (__this->___m_List_0);
 		int32_t L_13 = V_1;
 		NullCheck(L_12);
 		Object_t * L_14 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 14), L_12, L_13);
 		V_2 = L_14;
-		List_1_t516 * L_15 = (__this->___m_List_0);
+		List_1_t518 * L_15 = (__this->___m_List_0);
 		int32_t L_16 = ___index;
 		Object_t * L_17 = V_2;
 		NullCheck(L_15);
 		VirtActionInvoker2< int32_t, Object_t * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 17), L_15, L_16, L_17);
-		Dictionary_2_t2812 * L_18 = (__this->___m_Dictionary_1);
+		Dictionary_2_t2814 * L_18 = (__this->___m_Dictionary_1);
 		Object_t * L_19 = V_2;
 		int32_t L_20 = ___index;
 		NullCheck(L_18);
 		VirtActionInvoker2< Object_t *, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 18), L_18, L_19, L_20);
-		List_1_t516 * L_21 = (__this->___m_List_0);
+		List_1_t518 * L_21 = (__this->___m_List_0);
 		int32_t L_22 = V_1;
 		NullCheck(L_21);
 		VirtActionInvoker1< int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 16), L_21, L_22);
@@ -883,11 +883,11 @@ IL_007f:
 	}
 }
 // T UnityEngine.UI.Collections.IndexedSet`1<System.Object>::get_Item(System.Int32)
-extern Il2CppGenericMethod IndexedSet_1_get_Item_m16132_GenericMethod;
-extern "C" Object_t * IndexedSet_1_get_Item_m16132_gshared (IndexedSet_1_t2986 * __this, int32_t ___index, MethodInfo* method)
+extern Il2CppGenericMethod IndexedSet_1_get_Item_m16143_GenericMethod;
+extern "C" Object_t * IndexedSet_1_get_Item_m16143_gshared (IndexedSet_1_t2988 * __this, int32_t ___index, MethodInfo* method)
 {
 	{
-		List_1_t516 * L_0 = (__this->___m_List_0);
+		List_1_t518 * L_0 = (__this->___m_List_0);
 		int32_t L_1 = ___index;
 		NullCheck(L_0);
 		Object_t * L_2 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 14), L_0, L_1);
@@ -895,26 +895,26 @@ extern "C" Object_t * IndexedSet_1_get_Item_m16132_gshared (IndexedSet_1_t2986 *
 	}
 }
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<System.Object>::set_Item(System.Int32,T)
-extern Il2CppGenericMethod IndexedSet_1_set_Item_m16134_GenericMethod;
-extern "C" void IndexedSet_1_set_Item_m16134_gshared (IndexedSet_1_t2986 * __this, int32_t ___index, Object_t * ___value, MethodInfo* method)
+extern Il2CppGenericMethod IndexedSet_1_set_Item_m16145_GenericMethod;
+extern "C" void IndexedSet_1_set_Item_m16145_gshared (IndexedSet_1_t2988 * __this, int32_t ___index, Object_t * ___value, MethodInfo* method)
 {
 	Object_t * V_0 = {0};
 	{
-		List_1_t516 * L_0 = (__this->___m_List_0);
+		List_1_t518 * L_0 = (__this->___m_List_0);
 		int32_t L_1 = ___index;
 		NullCheck(L_0);
 		Object_t * L_2 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 14), L_0, L_1);
 		V_0 = L_2;
-		Dictionary_2_t2812 * L_3 = (__this->___m_Dictionary_1);
+		Dictionary_2_t2814 * L_3 = (__this->___m_Dictionary_1);
 		Object_t * L_4 = V_0;
 		NullCheck(L_3);
 		VirtFuncInvoker1< bool, Object_t * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 15), L_3, L_4);
-		List_1_t516 * L_5 = (__this->___m_List_0);
+		List_1_t518 * L_5 = (__this->___m_List_0);
 		int32_t L_6 = ___index;
 		Object_t * L_7 = ___value;
 		NullCheck(L_5);
 		VirtActionInvoker2< int32_t, Object_t * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 17), L_5, L_6, L_7);
-		Dictionary_2_t2812 * L_8 = (__this->___m_Dictionary_1);
+		Dictionary_2_t2814 * L_8 = (__this->___m_Dictionary_1);
 		Object_t * L_9 = V_0;
 		int32_t L_10 = ___index;
 		NullCheck(L_8);
@@ -923,8 +923,8 @@ extern "C" void IndexedSet_1_set_Item_m16134_gshared (IndexedSet_1_t2986 * __thi
 	}
 }
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<System.Object>::RemoveAll(System.Predicate`1<T>)
-extern Il2CppGenericMethod IndexedSet_1_RemoveAll_m16135_GenericMethod;
-extern "C" void IndexedSet_1_RemoveAll_m16135_gshared (IndexedSet_1_t2986 * __this, Predicate_1_t2689 * ___match, MethodInfo* method)
+extern Il2CppGenericMethod IndexedSet_1_RemoveAll_m16146_GenericMethod;
+extern "C" void IndexedSet_1_RemoveAll_m16146_gshared (IndexedSet_1_t2988 * __this, Predicate_1_t2691 * ___match, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	Object_t * V_1 = {0};
@@ -935,12 +935,12 @@ extern "C" void IndexedSet_1_RemoveAll_m16135_gshared (IndexedSet_1_t2986 * __th
 
 IL_0007:
 	{
-		List_1_t516 * L_0 = (__this->___m_List_0);
+		List_1_t518 * L_0 = (__this->___m_List_0);
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
 		Object_t * L_2 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 14), L_0, L_1);
 		V_1 = L_2;
-		Predicate_1_t2689 * L_3 = ___match;
+		Predicate_1_t2691 * L_3 = ___match;
 		Object_t * L_4 = V_1;
 		NullCheck(L_3);
 		bool L_5 = (bool)VirtFuncInvoker1< bool, Object_t * >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 19), L_3, L_4);
@@ -964,7 +964,7 @@ IL_002d:
 IL_0031:
 	{
 		int32_t L_8 = V_0;
-		List_1_t516 * L_9 = (__this->___m_List_0);
+		List_1_t518 * L_9 = (__this->___m_List_0);
 		NullCheck(L_9);
 		int32_t L_10 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7), L_9);
 		if ((((int32_t)L_8) < ((int32_t)L_10)))
@@ -977,28 +977,28 @@ IL_0031:
 	}
 }
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<System.Object>::Sort(System.Comparison`1<T>)
-extern Il2CppGenericMethod IndexedSet_1_Sort_m16136_GenericMethod;
-extern "C" void IndexedSet_1_Sort_m16136_gshared (IndexedSet_1_t2986 * __this, Comparison_1_t2701 * ___sortLayoutFunction, MethodInfo* method)
+extern Il2CppGenericMethod IndexedSet_1_Sort_m16147_GenericMethod;
+extern "C" void IndexedSet_1_Sort_m16147_gshared (IndexedSet_1_t2988 * __this, Comparison_1_t2703 * ___sortLayoutFunction, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	Object_t * V_1 = {0};
 	{
-		List_1_t516 * L_0 = (__this->___m_List_0);
-		Comparison_1_t2701 * L_1 = ___sortLayoutFunction;
+		List_1_t518 * L_0 = (__this->___m_List_0);
+		Comparison_1_t2703 * L_1 = ___sortLayoutFunction;
 		NullCheck(L_0);
-		(( void (*) (List_1_t516 *, Comparison_1_t2701 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21)->method)(L_0, L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21));
+		(( void (*) (List_1_t518 *, Comparison_1_t2703 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21)->method)(L_0, L_1, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 21));
 		V_0 = 0;
 		goto IL_0031;
 	}
 
 IL_0013:
 	{
-		List_1_t516 * L_2 = (__this->___m_List_0);
+		List_1_t518 * L_2 = (__this->___m_List_0);
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
 		Object_t * L_4 = (Object_t *)VirtFuncInvoker1< Object_t *, int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 14), L_2, L_3);
 		V_1 = L_4;
-		Dictionary_2_t2812 * L_5 = (__this->___m_Dictionary_1);
+		Dictionary_2_t2814 * L_5 = (__this->___m_Dictionary_1);
 		Object_t * L_6 = V_1;
 		int32_t L_7 = V_0;
 		NullCheck(L_5);
@@ -1010,7 +1010,7 @@ IL_0013:
 IL_0031:
 	{
 		int32_t L_9 = V_0;
-		List_1_t516 * L_10 = (__this->___m_List_0);
+		List_1_t518 * L_10 = (__this->___m_List_0);
 		NullCheck(L_10);
 		int32_t L_11 = (int32_t)VirtFuncInvoker0< int32_t >::Invoke(IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 7), L_10);
 		if ((((int32_t)L_9) < ((int32_t)L_11)))
@@ -1025,7 +1025,7 @@ IL_0031:
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IList_1_t2990_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t2992_il2cpp_TypeInfo;
 
 
 
@@ -1037,7 +1037,7 @@ extern TypeInfo IList_1_t2990_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo ICollection_1_t3843_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t3845_il2cpp_TypeInfo;
 
 
 
@@ -1051,7 +1051,7 @@ extern TypeInfo ICollection_1_t3843_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEnumerable_1_t3842_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t3844_il2cpp_TypeInfo;
 
 
 
@@ -1068,33 +1068,33 @@ extern TypeInfo IEnumerable_1_t3842_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo InternalEnumerator_1_t2987_il2cpp_TypeInfo;
+extern TypeInfo InternalEnumerator_1_t2989_il2cpp_TypeInfo;
 // System.Array/InternalEnumerator`1<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_97MethodDeclarations.h"
 
 // System.InvalidOperationException
 #include "mscorlib_System_InvalidOperationException.h"
-extern TypeInfo InvalidOperationException_t1330_il2cpp_TypeInfo;
+extern TypeInfo InvalidOperationException_t1332_il2cpp_TypeInfo;
 // System.InvalidOperationException
 #include "mscorlib_System_InvalidOperationExceptionMethodDeclarations.h"
 // System.Array
 #include "mscorlib_System_ArrayMethodDeclarations.h"
-extern Il2CppType InternalEnumerator_1_t2987_0_0_0;
-extern MethodInfo InvalidOperationException__ctor_m5961_MethodInfo;
-extern MethodInfo Array_get_Length_m5965_MethodInfo;
+extern Il2CppType InternalEnumerator_1_t2989_0_0_0;
+extern MethodInfo InvalidOperationException__ctor_m5972_MethodInfo;
+extern MethodInfo Array_get_Length_m5976_MethodInfo;
 struct Array_t;
 // System.ArgumentOutOfRangeException
 #include "mscorlib_System_ArgumentOutOfRangeException.h"
 struct Array_t;
 // Declaration !!0 System.Array::InternalArray__get_Item<System.Object>(System.Int32)
 // !!0 System.Array::InternalArray__get_Item<System.Object>(System.Int32)
-extern "C" Object_t * Array_InternalArray__get_Item_TisObject_t_m23558_gshared (Array_t * __this, int32_t p0, MethodInfo* method);
-#define Array_InternalArray__get_Item_TisObject_t_m23558(__this, p0, method) (( Object_t * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23558_gshared)(__this, p0, method)
+extern "C" Object_t * Array_InternalArray__get_Item_TisObject_t_m23569_gshared (Array_t * __this, int32_t p0, MethodInfo* method);
+#define Array_InternalArray__get_Item_TisObject_t_m23569(__this, p0, method) (( Object_t * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23569_gshared)(__this, p0, method)
 // Declaration !!0 System.Array::InternalArray__get_Item<UnityEngine.UI.ICanvasElement>(System.Int32)
 // !!0 System.Array::InternalArray__get_Item<UnityEngine.UI.ICanvasElement>(System.Int32)
-#define Array_InternalArray__get_Item_TisICanvasElement_t386_m24977(__this, p0, method) (( Object_t * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23558_gshared)(__this, p0, method)
-extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16141_GenericMethod;
-extern Il2CppGenericMethod Array_InternalArray__get_Item_TisICanvasElement_t386_m24977_GenericMethod;
+#define Array_InternalArray__get_Item_TisICanvasElement_t388_m24988(__this, p0, method) (( Object_t * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23569_gshared)(__this, p0, method)
+extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16152_GenericMethod;
+extern Il2CppGenericMethod Array_InternalArray__get_Item_TisICanvasElement_t388_m24988_GenericMethod;
 
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.UI.ICanvasElement>::.ctor(System.Array)
@@ -1114,15 +1114,15 @@ extern Il2CppGenericMethod Array_InternalArray__get_Item_TisICanvasElement_t386_
 #include "mscorlib_System_ArgumentNullException.h"
 // System.Collections.Generic.Comparer`1<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_11.h"
-extern TypeInfo NullReferenceException_t895_il2cpp_TypeInfo;
-extern TypeInfo InvalidCastException_t2030_il2cpp_TypeInfo;
-extern TypeInfo ArgumentOutOfRangeException_t920_il2cpp_TypeInfo;
-extern TypeInfo Enumerator_t2989_il2cpp_TypeInfo;
+extern TypeInfo NullReferenceException_t897_il2cpp_TypeInfo;
+extern TypeInfo InvalidCastException_t2032_il2cpp_TypeInfo;
+extern TypeInfo ArgumentOutOfRangeException_t922_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t2991_il2cpp_TypeInfo;
 extern TypeInfo IEnumerator_t106_il2cpp_TypeInfo;
 extern TypeInfo IDisposable_t203_il2cpp_TypeInfo;
-extern TypeInfo ReadOnlyCollection_1_t2991_il2cpp_TypeInfo;
+extern TypeInfo ReadOnlyCollection_1_t2993_il2cpp_TypeInfo;
 extern TypeInfo ArgumentNullException_t201_il2cpp_TypeInfo;
-extern TypeInfo Comparer_1_t2995_il2cpp_TypeInfo;
+extern TypeInfo Comparer_1_t2997_il2cpp_TypeInfo;
 // System.ArgumentOutOfRangeException
 #include "mscorlib_System_ArgumentOutOfRangeExceptionMethodDeclarations.h"
 // System.Math
@@ -1135,42 +1135,42 @@ extern TypeInfo Comparer_1_t2995_il2cpp_TypeInfo;
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_14MethodDeclarations.h"
 // System.Collections.Generic.Comparer`1<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_11MethodDeclarations.h"
-extern Il2CppType ICollection_1_t3843_0_0_0;
-extern Il2CppType ICanvasElementU5BU5D_t2988_0_0_0;
-extern Il2CppType Enumerator_t2989_0_0_0;
-extern Il2CppType IEnumerable_1_t3842_0_0_0;
-extern Il2CppType IEnumerator_1_t3841_0_0_0;
-extern Il2CppType ReadOnlyCollection_1_t2991_0_0_0;
-extern Il2CppType Comparer_1_t2995_0_0_0;
-extern MethodInfo ArgumentOutOfRangeException__ctor_m6146_MethodInfo;
-extern MethodInfo ArgumentOutOfRangeException__ctor_m5969_MethodInfo;
-extern MethodInfo ICollection_1_get_Count_m27703_MethodInfo;
-extern MethodInfo Array_Copy_m7933_MethodInfo;
-extern MethodInfo List_1_Contains_m16168_MethodInfo;
-extern MethodInfo List_1_IndexOf_m16174_MethodInfo;
-extern MethodInfo List_1_Insert_m16177_MethodInfo;
-extern MethodInfo List_1_Remove_m16179_MethodInfo;
-extern MethodInfo Math_Max_m7123_MethodInfo;
-extern MethodInfo ICollection_1_CopyTo_m27704_MethodInfo;
-extern MethodInfo IEnumerable_1_GetEnumerator_m27705_MethodInfo;
-extern MethodInfo IEnumerator_1_get_Current_m27706_MethodInfo;
+extern Il2CppType ICollection_1_t3845_0_0_0;
+extern Il2CppType ICanvasElementU5BU5D_t2990_0_0_0;
+extern Il2CppType Enumerator_t2991_0_0_0;
+extern Il2CppType IEnumerable_1_t3844_0_0_0;
+extern Il2CppType IEnumerator_1_t3843_0_0_0;
+extern Il2CppType ReadOnlyCollection_1_t2993_0_0_0;
+extern Il2CppType Comparer_1_t2997_0_0_0;
+extern MethodInfo ArgumentOutOfRangeException__ctor_m6157_MethodInfo;
+extern MethodInfo ArgumentOutOfRangeException__ctor_m5980_MethodInfo;
+extern MethodInfo ICollection_1_get_Count_m27714_MethodInfo;
+extern MethodInfo Array_Copy_m7944_MethodInfo;
+extern MethodInfo List_1_Contains_m16179_MethodInfo;
+extern MethodInfo List_1_IndexOf_m16185_MethodInfo;
+extern MethodInfo List_1_Insert_m16188_MethodInfo;
+extern MethodInfo List_1_Remove_m16190_MethodInfo;
+extern MethodInfo Math_Max_m7134_MethodInfo;
+extern MethodInfo ICollection_1_CopyTo_m27715_MethodInfo;
+extern MethodInfo IEnumerable_1_GetEnumerator_m27716_MethodInfo;
+extern MethodInfo IEnumerator_1_get_Current_m27717_MethodInfo;
 extern MethodInfo IEnumerator_MoveNext_m771_MethodInfo;
 extern MethodInfo IDisposable_Dispose_m772_MethodInfo;
-extern MethodInfo ReadOnlyCollection_1__ctor_m16198_MethodInfo;
-extern MethodInfo Array_Clear_m7114_MethodInfo;
+extern MethodInfo ReadOnlyCollection_1__ctor_m16209_MethodInfo;
+extern MethodInfo Array_Clear_m7125_MethodInfo;
 extern MethodInfo ArgumentNullException__ctor_m755_MethodInfo;
-extern MethodInfo Enumerator__ctor_m16192_MethodInfo;
-extern MethodInfo Array_Reverse_m7155_MethodInfo;
-extern MethodInfo Array_Copy_m6187_MethodInfo;
+extern MethodInfo Enumerator__ctor_m16203_MethodInfo;
+extern MethodInfo Array_Reverse_m7166_MethodInfo;
+extern MethodInfo Array_Copy_m6198_MethodInfo;
 struct Array_t;
 struct Array_t;
 // Declaration System.Void System.Array::Resize<System.Object>(!!0[]&,System.Int32)
 // System.Void System.Array::Resize<System.Object>(!!0[]&,System.Int32)
-extern "C" void Array_Resize_TisObject_t_m24054_gshared (Object_t * __this /* static, unused */, ObjectU5BU5D_t194** p0, int32_t p1, MethodInfo* method);
-#define Array_Resize_TisObject_t_m24054(__this /* static, unused */, p0, p1, method) (( void (*) (Object_t * /* static, unused */, ObjectU5BU5D_t194**, int32_t, MethodInfo*))Array_Resize_TisObject_t_m24054_gshared)(__this /* static, unused */, p0, p1, method)
+extern "C" void Array_Resize_TisObject_t_m24065_gshared (Object_t * __this /* static, unused */, ObjectU5BU5D_t194** p0, int32_t p1, MethodInfo* method);
+#define Array_Resize_TisObject_t_m24065(__this /* static, unused */, p0, p1, method) (( void (*) (Object_t * /* static, unused */, ObjectU5BU5D_t194**, int32_t, MethodInfo*))Array_Resize_TisObject_t_m24065_gshared)(__this /* static, unused */, p0, p1, method)
 // Declaration System.Void System.Array::Resize<UnityEngine.UI.ICanvasElement>(!!0[]&,System.Int32)
 // System.Void System.Array::Resize<UnityEngine.UI.ICanvasElement>(!!0[]&,System.Int32)
-#define Array_Resize_TisICanvasElement_t386_m24988(__this /* static, unused */, p0, p1, method) (( void (*) (Object_t * /* static, unused */, ICanvasElementU5BU5D_t2988**, int32_t, MethodInfo*))Array_Resize_TisObject_t_m24054_gshared)(__this /* static, unused */, p0, p1, method)
+#define Array_Resize_TisICanvasElement_t388_m24999(__this /* static, unused */, p0, p1, method) (( void (*) (Object_t * /* static, unused */, ICanvasElementU5BU5D_t2990**, int32_t, MethodInfo*))Array_Resize_TisObject_t_m24065_gshared)(__this /* static, unused */, p0, p1, method)
 struct Array_t;
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_18.h"
@@ -1179,57 +1179,57 @@ struct Array_t;
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen.h"
 // Declaration System.Int32 System.Array::IndexOf<System.Object>(!!0[],!!0,System.Int32,System.Int32)
 // System.Int32 System.Array::IndexOf<System.Object>(!!0[],!!0,System.Int32,System.Int32)
-extern "C" int32_t Array_IndexOf_TisObject_t_m11688_gshared (Object_t * __this /* static, unused */, ObjectU5BU5D_t194* p0, Object_t * p1, int32_t p2, int32_t p3, MethodInfo* method);
-#define Array_IndexOf_TisObject_t_m11688(__this /* static, unused */, p0, p1, p2, p3, method) (( int32_t (*) (Object_t * /* static, unused */, ObjectU5BU5D_t194*, Object_t *, int32_t, int32_t, MethodInfo*))Array_IndexOf_TisObject_t_m11688_gshared)(__this /* static, unused */, p0, p1, p2, p3, method)
+extern "C" int32_t Array_IndexOf_TisObject_t_m11699_gshared (Object_t * __this /* static, unused */, ObjectU5BU5D_t194* p0, Object_t * p1, int32_t p2, int32_t p3, MethodInfo* method);
+#define Array_IndexOf_TisObject_t_m11699(__this /* static, unused */, p0, p1, p2, p3, method) (( int32_t (*) (Object_t * /* static, unused */, ObjectU5BU5D_t194*, Object_t *, int32_t, int32_t, MethodInfo*))Array_IndexOf_TisObject_t_m11699_gshared)(__this /* static, unused */, p0, p1, p2, p3, method)
 // Declaration System.Int32 System.Array::IndexOf<UnityEngine.UI.ICanvasElement>(!!0[],!!0,System.Int32,System.Int32)
 // System.Int32 System.Array::IndexOf<UnityEngine.UI.ICanvasElement>(!!0[],!!0,System.Int32,System.Int32)
-#define Array_IndexOf_TisICanvasElement_t386_m24990(__this /* static, unused */, p0, p1, p2, p3, method) (( int32_t (*) (Object_t * /* static, unused */, ICanvasElementU5BU5D_t2988*, Object_t *, int32_t, int32_t, MethodInfo*))Array_IndexOf_TisObject_t_m11688_gshared)(__this /* static, unused */, p0, p1, p2, p3, method)
+#define Array_IndexOf_TisICanvasElement_t388_m25001(__this /* static, unused */, p0, p1, p2, p3, method) (( int32_t (*) (Object_t * /* static, unused */, ICanvasElementU5BU5D_t2990*, Object_t *, int32_t, int32_t, MethodInfo*))Array_IndexOf_TisObject_t_m11699_gshared)(__this /* static, unused */, p0, p1, p2, p3, method)
 struct Array_t;
 struct Array_t;
 // Declaration System.Void System.Array::Sort<System.Object>(!!0[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<!!0>)
 // System.Void System.Array::Sort<System.Object>(!!0[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<!!0>)
-extern "C" void Array_Sort_TisObject_t_m24057_gshared (Object_t * __this /* static, unused */, ObjectU5BU5D_t194* p0, int32_t p1, int32_t p2, Object_t* p3, MethodInfo* method);
-#define Array_Sort_TisObject_t_m24057(__this /* static, unused */, p0, p1, p2, p3, method) (( void (*) (Object_t * /* static, unused */, ObjectU5BU5D_t194*, int32_t, int32_t, Object_t*, MethodInfo*))Array_Sort_TisObject_t_m24057_gshared)(__this /* static, unused */, p0, p1, p2, p3, method)
+extern "C" void Array_Sort_TisObject_t_m24068_gshared (Object_t * __this /* static, unused */, ObjectU5BU5D_t194* p0, int32_t p1, int32_t p2, Object_t* p3, MethodInfo* method);
+#define Array_Sort_TisObject_t_m24068(__this /* static, unused */, p0, p1, p2, p3, method) (( void (*) (Object_t * /* static, unused */, ObjectU5BU5D_t194*, int32_t, int32_t, Object_t*, MethodInfo*))Array_Sort_TisObject_t_m24068_gshared)(__this /* static, unused */, p0, p1, p2, p3, method)
 // Declaration System.Void System.Array::Sort<UnityEngine.UI.ICanvasElement>(!!0[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<!!0>)
 // System.Void System.Array::Sort<UnityEngine.UI.ICanvasElement>(!!0[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<!!0>)
-#define Array_Sort_TisICanvasElement_t386_m24992(__this /* static, unused */, p0, p1, p2, p3, method) (( void (*) (Object_t * /* static, unused */, ICanvasElementU5BU5D_t2988*, int32_t, int32_t, Object_t*, MethodInfo*))Array_Sort_TisObject_t_m24057_gshared)(__this /* static, unused */, p0, p1, p2, p3, method)
+#define Array_Sort_TisICanvasElement_t388_m25003(__this /* static, unused */, p0, p1, p2, p3, method) (( void (*) (Object_t * /* static, unused */, ICanvasElementU5BU5D_t2990*, int32_t, int32_t, Object_t*, MethodInfo*))Array_Sort_TisObject_t_m24068_gshared)(__this /* static, unused */, p0, p1, p2, p3, method)
 struct Array_t;
 // System.Exception
 #include "mscorlib_System_Exception.h"
 struct Array_t;
 // Declaration System.Void System.Array::Sort<System.Object>(!!0[],System.Int32,System.Comparison`1<!!0>)
 // System.Void System.Array::Sort<System.Object>(!!0[],System.Int32,System.Comparison`1<!!0>)
-extern "C" void Array_Sort_TisObject_t_m24164_gshared (Object_t * __this /* static, unused */, ObjectU5BU5D_t194* p0, int32_t p1, Comparison_1_t2701 * p2, MethodInfo* method);
-#define Array_Sort_TisObject_t_m24164(__this /* static, unused */, p0, p1, p2, method) (( void (*) (Object_t * /* static, unused */, ObjectU5BU5D_t194*, int32_t, Comparison_1_t2701 *, MethodInfo*))Array_Sort_TisObject_t_m24164_gshared)(__this /* static, unused */, p0, p1, p2, method)
+extern "C" void Array_Sort_TisObject_t_m24175_gshared (Object_t * __this /* static, unused */, ObjectU5BU5D_t194* p0, int32_t p1, Comparison_1_t2703 * p2, MethodInfo* method);
+#define Array_Sort_TisObject_t_m24175(__this /* static, unused */, p0, p1, p2, method) (( void (*) (Object_t * /* static, unused */, ObjectU5BU5D_t194*, int32_t, Comparison_1_t2703 *, MethodInfo*))Array_Sort_TisObject_t_m24175_gshared)(__this /* static, unused */, p0, p1, p2, method)
 // Declaration System.Void System.Array::Sort<UnityEngine.UI.ICanvasElement>(!!0[],System.Int32,System.Comparison`1<!!0>)
 // System.Void System.Array::Sort<UnityEngine.UI.ICanvasElement>(!!0[],System.Int32,System.Comparison`1<!!0>)
-#define Array_Sort_TisICanvasElement_t386_m25000(__this /* static, unused */, p0, p1, p2, method) (( void (*) (Object_t * /* static, unused */, ICanvasElementU5BU5D_t2988*, int32_t, Comparison_1_t384 *, MethodInfo*))Array_Sort_TisObject_t_m24164_gshared)(__this /* static, unused */, p0, p1, p2, method)
-extern Il2CppGenericMethod Array_Resize_TisICanvasElement_t386_m24988_GenericMethod;
-extern Il2CppGenericMethod List_1_CheckIndex_m16176_GenericMethod;
-extern Il2CppGenericMethod List_1_CheckCollection_m16178_GenericMethod;
-extern Il2CppGenericMethod List_1_AddEnumerable_m16164_GenericMethod;
-extern Il2CppGenericMethod ICollection_1_get_Count_m27703_GenericMethod;
-extern Il2CppGenericMethod List_1_AddCollection_m16163_GenericMethod;
-extern Il2CppGenericMethod List_1_GetEnumerator_m16173_GenericMethod;
-extern Il2CppGenericMethod List_1_Contains_m16168_GenericMethod;
-extern Il2CppGenericMethod List_1_IndexOf_m16174_GenericMethod;
-extern Il2CppGenericMethod List_1_Insert_m16177_GenericMethod;
-extern Il2CppGenericMethod List_1_Remove_m16179_GenericMethod;
-extern Il2CppGenericMethod List_1_GrowIfNeeded_m16162_GenericMethod;
-extern Il2CppGenericMethod List_1_get_Capacity_m16187_GenericMethod;
-extern Il2CppGenericMethod List_1_set_Capacity_m16188_GenericMethod;
-extern Il2CppGenericMethod ICollection_1_CopyTo_m27704_GenericMethod;
-extern Il2CppGenericMethod IEnumerable_1_GetEnumerator_m27705_GenericMethod;
-extern Il2CppGenericMethod IEnumerator_1_get_Current_m27706_GenericMethod;
-extern Il2CppGenericMethod ReadOnlyCollection_1__ctor_m16198_GenericMethod;
-extern Il2CppGenericMethod Array_IndexOf_TisICanvasElement_t386_m24990_GenericMethod;
-extern Il2CppGenericMethod List_1_CheckMatch_m16171_GenericMethod;
-extern Il2CppGenericMethod List_1_GetIndex_m16172_GenericMethod;
-extern Il2CppGenericMethod Enumerator__ctor_m16192_GenericMethod;
-extern Il2CppGenericMethod List_1_Shift_m16175_GenericMethod;
-extern Il2CppGenericMethod Comparer_1_get_Default_m16278_GenericMethod;
-extern Il2CppGenericMethod Array_Sort_TisICanvasElement_t386_m24992_GenericMethod;
-extern Il2CppGenericMethod Array_Sort_TisICanvasElement_t386_m25000_GenericMethod;
+#define Array_Sort_TisICanvasElement_t388_m25011(__this /* static, unused */, p0, p1, p2, method) (( void (*) (Object_t * /* static, unused */, ICanvasElementU5BU5D_t2990*, int32_t, Comparison_1_t386 *, MethodInfo*))Array_Sort_TisObject_t_m24175_gshared)(__this /* static, unused */, p0, p1, p2, method)
+extern Il2CppGenericMethod Array_Resize_TisICanvasElement_t388_m24999_GenericMethod;
+extern Il2CppGenericMethod List_1_CheckIndex_m16187_GenericMethod;
+extern Il2CppGenericMethod List_1_CheckCollection_m16189_GenericMethod;
+extern Il2CppGenericMethod List_1_AddEnumerable_m16175_GenericMethod;
+extern Il2CppGenericMethod ICollection_1_get_Count_m27714_GenericMethod;
+extern Il2CppGenericMethod List_1_AddCollection_m16174_GenericMethod;
+extern Il2CppGenericMethod List_1_GetEnumerator_m16184_GenericMethod;
+extern Il2CppGenericMethod List_1_Contains_m16179_GenericMethod;
+extern Il2CppGenericMethod List_1_IndexOf_m16185_GenericMethod;
+extern Il2CppGenericMethod List_1_Insert_m16188_GenericMethod;
+extern Il2CppGenericMethod List_1_Remove_m16190_GenericMethod;
+extern Il2CppGenericMethod List_1_GrowIfNeeded_m16173_GenericMethod;
+extern Il2CppGenericMethod List_1_get_Capacity_m16198_GenericMethod;
+extern Il2CppGenericMethod List_1_set_Capacity_m16199_GenericMethod;
+extern Il2CppGenericMethod ICollection_1_CopyTo_m27715_GenericMethod;
+extern Il2CppGenericMethod IEnumerable_1_GetEnumerator_m27716_GenericMethod;
+extern Il2CppGenericMethod IEnumerator_1_get_Current_m27717_GenericMethod;
+extern Il2CppGenericMethod ReadOnlyCollection_1__ctor_m16209_GenericMethod;
+extern Il2CppGenericMethod Array_IndexOf_TisICanvasElement_t388_m25001_GenericMethod;
+extern Il2CppGenericMethod List_1_CheckMatch_m16182_GenericMethod;
+extern Il2CppGenericMethod List_1_GetIndex_m16183_GenericMethod;
+extern Il2CppGenericMethod Enumerator__ctor_m16203_GenericMethod;
+extern Il2CppGenericMethod List_1_Shift_m16186_GenericMethod;
+extern Il2CppGenericMethod Comparer_1_get_Default_m16289_GenericMethod;
+extern Il2CppGenericMethod Array_Sort_TisICanvasElement_t388_m25003_GenericMethod;
+extern Il2CppGenericMethod Array_Sort_TisICanvasElement_t388_m25011_GenericMethod;
 
 
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>::.ctor()
@@ -1289,14 +1289,14 @@ extern Il2CppGenericMethod Array_Sort_TisICanvasElement_t386_m25000_GenericMetho
 // System.ObjectDisposedException
 #include "mscorlib_System_ObjectDisposedException.h"
 extern TypeInfo String_t_il2cpp_TypeInfo;
-extern TypeInfo ObjectDisposedException_t1506_il2cpp_TypeInfo;
+extern TypeInfo ObjectDisposedException_t1508_il2cpp_TypeInfo;
 // System.ObjectDisposedException
 #include "mscorlib_System_ObjectDisposedExceptionMethodDeclarations.h"
-extern MethodInfo InvalidOperationException__ctor_m5968_MethodInfo;
-extern MethodInfo Object_GetType_m2624_MethodInfo;
-extern MethodInfo Type_get_FullName_m4728_MethodInfo;
-extern MethodInfo ObjectDisposedException__ctor_m7131_MethodInfo;
-extern Il2CppGenericMethod Enumerator_VerifyState_m16195_GenericMethod;
+extern MethodInfo InvalidOperationException__ctor_m5979_MethodInfo;
+extern MethodInfo Object_GetType_m2635_MethodInfo;
+extern MethodInfo Type_get_FullName_m4739_MethodInfo;
+extern MethodInfo ObjectDisposedException__ctor_m7142_MethodInfo;
+extern Il2CppGenericMethod Enumerator_VerifyState_m16206_GenericMethod;
 
 
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.ICanvasElement>::.ctor(System.Collections.Generic.List`1<T>)
@@ -1309,24 +1309,24 @@ extern Il2CppGenericMethod Enumerator_VerifyState_m16195_GenericMethod;
 #else
 #endif
 
-extern TypeInfo ICollection_t1028_il2cpp_TypeInfo;
+extern TypeInfo ICollection_t1030_il2cpp_TypeInfo;
 extern TypeInfo Array_t_il2cpp_TypeInfo;
-extern TypeInfo IEnumerable_t618_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_t620_il2cpp_TypeInfo;
 // System.Collections.ObjectModel.Collection`1<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Collections_ObjectModel_Collection_1_gen_11MethodDeclarations.h"
-extern Il2CppType IList_1_t2990_0_0_0;
-extern MethodInfo ReadOnlyCollection_1_get_Item_m16227_MethodInfo;
+extern Il2CppType IList_1_t2992_0_0_0;
+extern MethodInfo ReadOnlyCollection_1_get_Item_m16238_MethodInfo;
 extern MethodInfo NotSupportedException__ctor_m951_MethodInfo;
-extern MethodInfo IList_1_get_Item_m27707_MethodInfo;
-extern MethodInfo ICollection_CopyTo_m5957_MethodInfo;
-extern MethodInfo IEnumerable_GetEnumerator_m4686_MethodInfo;
-extern MethodInfo ICollection_1_Contains_m27708_MethodInfo;
-extern MethodInfo IList_1_IndexOf_m27709_MethodInfo;
-extern Il2CppGenericMethod ReadOnlyCollection_1_get_Item_m16227_GenericMethod;
-extern Il2CppGenericMethod IList_1_get_Item_m27707_GenericMethod;
-extern Il2CppGenericMethod Collection_1_IsValidItem_m16259_GenericMethod;
-extern Il2CppGenericMethod ICollection_1_Contains_m27708_GenericMethod;
-extern Il2CppGenericMethod IList_1_IndexOf_m27709_GenericMethod;
+extern MethodInfo IList_1_get_Item_m27718_MethodInfo;
+extern MethodInfo ICollection_CopyTo_m5968_MethodInfo;
+extern MethodInfo IEnumerable_GetEnumerator_m4697_MethodInfo;
+extern MethodInfo ICollection_1_Contains_m27719_MethodInfo;
+extern MethodInfo IList_1_IndexOf_m27720_MethodInfo;
+extern Il2CppGenericMethod ReadOnlyCollection_1_get_Item_m16238_GenericMethod;
+extern Il2CppGenericMethod IList_1_get_Item_m27718_GenericMethod;
+extern Il2CppGenericMethod Collection_1_IsValidItem_m16270_GenericMethod;
+extern Il2CppGenericMethod ICollection_1_Contains_m27719_GenericMethod;
+extern Il2CppGenericMethod IList_1_IndexOf_m27720_GenericMethod;
 
 
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.ICanvasElement>::.ctor(System.Collections.Generic.IList`1<T>)
@@ -1364,39 +1364,39 @@ extern Il2CppGenericMethod IList_1_IndexOf_m27709_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo Collection_1_t2992_il2cpp_TypeInfo;
+extern TypeInfo Collection_1_t2994_il2cpp_TypeInfo;
 
-extern TypeInfo IList_t1029_il2cpp_TypeInfo;
-extern Il2CppType Collection_1_t2992_0_0_0;
-extern Il2CppType ICanvasElement_t386_0_0_0;
-extern MethodInfo ICollection_1_get_IsReadOnly_m27710_MethodInfo;
-extern MethodInfo Collection_1_SetItem_m16258_MethodInfo;
-extern MethodInfo ICollection_get_SyncRoot_m11687_MethodInfo;
-extern MethodInfo Collection_1_InsertItem_m16251_MethodInfo;
-extern MethodInfo Collection_1_IndexOf_m16249_MethodInfo;
-extern MethodInfo Collection_1_RemoveItem_m16254_MethodInfo;
-extern MethodInfo Collection_1_ClearItems_m16245_MethodInfo;
-extern MethodInfo ICollection_1_Clear_m27711_MethodInfo;
-extern MethodInfo IList_1_Insert_m27712_MethodInfo;
-extern MethodInfo IList_1_RemoveAt_m27713_MethodInfo;
-extern MethodInfo IList_1_set_Item_m27714_MethodInfo;
-extern MethodInfo Type_get_IsValueType_m7983_MethodInfo;
-extern MethodInfo ICollection_get_IsSynchronized_m11967_MethodInfo;
-extern MethodInfo IList_get_IsFixedSize_m11968_MethodInfo;
-extern Il2CppGenericMethod ICollection_1_get_IsReadOnly_m27710_GenericMethod;
-extern Il2CppGenericMethod Collection_1_IsSynchronized_m16262_GenericMethod;
-extern Il2CppGenericMethod Collection_1_IsFixedSize_m16263_GenericMethod;
-extern Il2CppGenericMethod Collection_1_ConvertItem_m16260_GenericMethod;
-extern Il2CppGenericMethod Collection_1_SetItem_m16258_GenericMethod;
-extern Il2CppGenericMethod Collection_1_InsertItem_m16251_GenericMethod;
-extern Il2CppGenericMethod Collection_1_CheckWritable_m16261_GenericMethod;
-extern Il2CppGenericMethod Collection_1_IndexOf_m16249_GenericMethod;
-extern Il2CppGenericMethod Collection_1_RemoveItem_m16254_GenericMethod;
-extern Il2CppGenericMethod Collection_1_ClearItems_m16245_GenericMethod;
-extern Il2CppGenericMethod ICollection_1_Clear_m27711_GenericMethod;
-extern Il2CppGenericMethod IList_1_Insert_m27712_GenericMethod;
-extern Il2CppGenericMethod IList_1_RemoveAt_m27713_GenericMethod;
-extern Il2CppGenericMethod IList_1_set_Item_m27714_GenericMethod;
+extern TypeInfo IList_t1031_il2cpp_TypeInfo;
+extern Il2CppType Collection_1_t2994_0_0_0;
+extern Il2CppType ICanvasElement_t388_0_0_0;
+extern MethodInfo ICollection_1_get_IsReadOnly_m27721_MethodInfo;
+extern MethodInfo Collection_1_SetItem_m16269_MethodInfo;
+extern MethodInfo ICollection_get_SyncRoot_m11698_MethodInfo;
+extern MethodInfo Collection_1_InsertItem_m16262_MethodInfo;
+extern MethodInfo Collection_1_IndexOf_m16260_MethodInfo;
+extern MethodInfo Collection_1_RemoveItem_m16265_MethodInfo;
+extern MethodInfo Collection_1_ClearItems_m16256_MethodInfo;
+extern MethodInfo ICollection_1_Clear_m27722_MethodInfo;
+extern MethodInfo IList_1_Insert_m27723_MethodInfo;
+extern MethodInfo IList_1_RemoveAt_m27724_MethodInfo;
+extern MethodInfo IList_1_set_Item_m27725_MethodInfo;
+extern MethodInfo Type_get_IsValueType_m7994_MethodInfo;
+extern MethodInfo ICollection_get_IsSynchronized_m11978_MethodInfo;
+extern MethodInfo IList_get_IsFixedSize_m11979_MethodInfo;
+extern Il2CppGenericMethod ICollection_1_get_IsReadOnly_m27721_GenericMethod;
+extern Il2CppGenericMethod Collection_1_IsSynchronized_m16273_GenericMethod;
+extern Il2CppGenericMethod Collection_1_IsFixedSize_m16274_GenericMethod;
+extern Il2CppGenericMethod Collection_1_ConvertItem_m16271_GenericMethod;
+extern Il2CppGenericMethod Collection_1_SetItem_m16269_GenericMethod;
+extern Il2CppGenericMethod Collection_1_InsertItem_m16262_GenericMethod;
+extern Il2CppGenericMethod Collection_1_CheckWritable_m16272_GenericMethod;
+extern Il2CppGenericMethod Collection_1_IndexOf_m16260_GenericMethod;
+extern Il2CppGenericMethod Collection_1_RemoveItem_m16265_GenericMethod;
+extern Il2CppGenericMethod Collection_1_ClearItems_m16256_GenericMethod;
+extern Il2CppGenericMethod ICollection_1_Clear_m27722_GenericMethod;
+extern Il2CppGenericMethod IList_1_Insert_m27723_GenericMethod;
+extern Il2CppGenericMethod IList_1_RemoveAt_m27724_GenericMethod;
+extern Il2CppGenericMethod IList_1_set_Item_m27725_GenericMethod;
 
 
 // System.Void System.Collections.ObjectModel.Collection`1<UnityEngine.UI.ICanvasElement>::.ctor()
@@ -1438,30 +1438,30 @@ extern Il2CppGenericMethod IList_1_set_Item_m27714_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo EqualityComparer_1_t2993_il2cpp_TypeInfo;
+extern TypeInfo EqualityComparer_1_t2995_il2cpp_TypeInfo;
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_18MethodDeclarations.h"
 
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_Defau_18.h"
-extern TypeInfo DefaultComparer_t2994_il2cpp_TypeInfo;
+extern TypeInfo DefaultComparer_t2996_il2cpp_TypeInfo;
 // System.Activator
 #include "mscorlib_System_ActivatorMethodDeclarations.h"
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_Defau_18MethodDeclarations.h"
-extern Il2CppType EqualityComparer_1_t2993_0_0_0;
-extern Il2CppType IEquatable_1_t4481_0_0_0;
-extern Il2CppType GenericEqualityComparer_1_t2445_0_0_0;
-extern Il2CppType DefaultComparer_t2994_0_0_0;
-extern MethodInfo Type_IsAssignableFrom_m4795_MethodInfo;
-extern MethodInfo Type_MakeGenericType_m4793_MethodInfo;
-extern MethodInfo Activator_CreateInstance_m10828_MethodInfo;
-extern MethodInfo DefaultComparer__ctor_m16269_MethodInfo;
-extern MethodInfo EqualityComparer_1_GetHashCode_m27715_MethodInfo;
-extern MethodInfo EqualityComparer_1_Equals_m24989_MethodInfo;
-extern Il2CppGenericMethod DefaultComparer__ctor_m16269_GenericMethod;
-extern Il2CppGenericMethod EqualityComparer_1_GetHashCode_m27715_GenericMethod;
-extern Il2CppGenericMethod EqualityComparer_1_Equals_m24989_GenericMethod;
+extern Il2CppType EqualityComparer_1_t2995_0_0_0;
+extern Il2CppType IEquatable_1_t4483_0_0_0;
+extern Il2CppType GenericEqualityComparer_1_t2447_0_0_0;
+extern Il2CppType DefaultComparer_t2996_0_0_0;
+extern MethodInfo Type_IsAssignableFrom_m4806_MethodInfo;
+extern MethodInfo Type_MakeGenericType_m4804_MethodInfo;
+extern MethodInfo Activator_CreateInstance_m10839_MethodInfo;
+extern MethodInfo DefaultComparer__ctor_m16280_MethodInfo;
+extern MethodInfo EqualityComparer_1_GetHashCode_m27726_MethodInfo;
+extern MethodInfo EqualityComparer_1_Equals_m25000_MethodInfo;
+extern Il2CppGenericMethod DefaultComparer__ctor_m16280_GenericMethod;
+extern Il2CppGenericMethod EqualityComparer_1_GetHashCode_m27726_GenericMethod;
+extern Il2CppGenericMethod EqualityComparer_1_Equals_m25000_GenericMethod;
 
 
 // System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ICanvasElement>::.ctor()
@@ -1474,7 +1474,7 @@ extern Il2CppGenericMethod EqualityComparer_1_Equals_m24989_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEqualityComparer_1_t2997_il2cpp_TypeInfo;
+extern TypeInfo IEqualityComparer_1_t2999_il2cpp_TypeInfo;
 
 
 
@@ -1483,7 +1483,7 @@ extern TypeInfo IEqualityComparer_1_t2997_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEquatable_1_t4481_il2cpp_TypeInfo;
+extern TypeInfo IEquatable_1_t4483_il2cpp_TypeInfo;
 
 
 
@@ -1494,7 +1494,7 @@ extern TypeInfo IEquatable_1_t4481_il2cpp_TypeInfo;
 
 extern MethodInfo Object_GetHashCode_m1097_MethodInfo;
 extern MethodInfo Object_Equals_m1096_MethodInfo;
-extern Il2CppGenericMethod EqualityComparer_1__ctor_m16264_GenericMethod;
+extern Il2CppGenericMethod EqualityComparer_1__ctor_m16275_GenericMethod;
 
 
 // System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UI.ICanvasElement>::.ctor()
@@ -1516,17 +1516,17 @@ extern Il2CppGenericMethod EqualityComparer_1__ctor_m16264_GenericMethod;
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Collections_Generic_Comparer_1_DefaultCompar_11.h"
-extern TypeInfo DefaultComparer_t2996_il2cpp_TypeInfo;
+extern TypeInfo DefaultComparer_t2998_il2cpp_TypeInfo;
 // System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Collections_Generic_Comparer_1_DefaultCompar_11MethodDeclarations.h"
-extern Il2CppType IComparable_1_t4101_0_0_0;
-extern Il2CppType GenericComparer_1_t2356_0_0_0;
-extern Il2CppType DefaultComparer_t2996_0_0_0;
-extern MethodInfo DefaultComparer__ctor_m16279_MethodInfo;
-extern MethodInfo Comparer_1_Compare_m27716_MethodInfo;
-extern MethodInfo ArgumentException__ctor_m10852_MethodInfo;
-extern Il2CppGenericMethod DefaultComparer__ctor_m16279_GenericMethod;
-extern Il2CppGenericMethod Comparer_1_Compare_m27716_GenericMethod;
+extern Il2CppType IComparable_1_t4103_0_0_0;
+extern Il2CppType GenericComparer_1_t2358_0_0_0;
+extern Il2CppType DefaultComparer_t2998_0_0_0;
+extern MethodInfo DefaultComparer__ctor_m16290_MethodInfo;
+extern MethodInfo Comparer_1_Compare_m27727_MethodInfo;
+extern MethodInfo ArgumentException__ctor_m10863_MethodInfo;
+extern Il2CppGenericMethod DefaultComparer__ctor_m16290_GenericMethod;
+extern Il2CppGenericMethod Comparer_1_Compare_m27727_GenericMethod;
 
 
 // System.Void System.Collections.Generic.Comparer`1<UnityEngine.UI.ICanvasElement>::.ctor()
@@ -1537,7 +1537,7 @@ extern Il2CppGenericMethod Comparer_1_Compare_m27716_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IComparer_1_t4100_il2cpp_TypeInfo;
+extern TypeInfo IComparer_1_t4102_il2cpp_TypeInfo;
 
 
 
@@ -1545,7 +1545,7 @@ extern TypeInfo IComparer_1_t4100_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IComparable_1_t4101_il2cpp_TypeInfo;
+extern TypeInfo IComparable_1_t4103_il2cpp_TypeInfo;
 
 
 
@@ -1555,10 +1555,10 @@ extern TypeInfo IComparable_1_t4101_il2cpp_TypeInfo;
 #endif
 
 extern TypeInfo IComparable_t226_il2cpp_TypeInfo;
-extern MethodInfo IComparable_1_CompareTo_m24998_MethodInfo;
-extern MethodInfo IComparable_CompareTo_m11658_MethodInfo;
-extern Il2CppGenericMethod Comparer_1__ctor_m16275_GenericMethod;
-extern Il2CppGenericMethod IComparable_1_CompareTo_m24998_GenericMethod;
+extern MethodInfo IComparable_1_CompareTo_m25009_MethodInfo;
+extern MethodInfo IComparable_CompareTo_m11669_MethodInfo;
+extern Il2CppGenericMethod Comparer_1__ctor_m16286_GenericMethod;
+extern Il2CppGenericMethod IComparable_1_CompareTo_m25009_GenericMethod;
 
 
 // System.Void System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UI.ICanvasElement>::.ctor()
@@ -1566,7 +1566,7 @@ extern Il2CppGenericMethod IComparable_1_CompareTo_m24998_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo Comparison_1_t384_il2cpp_TypeInfo;
+extern TypeInfo Comparison_1_t386_il2cpp_TypeInfo;
 // System.Comparison`1<UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Comparison_1_gen_1MethodDeclarations.h"
 
@@ -1606,26 +1606,26 @@ extern TypeInfo Comparison_1_t384_il2cpp_TypeInfo;
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ShimEnumera_9.h"
 // System.Collections.Generic.EqualityComparer`1<System.Int32>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_8.h"
-extern TypeInfo Link_t1634_il2cpp_TypeInfo;
-extern TypeInfo KeyNotFoundException_t1635_il2cpp_TypeInfo;
-extern TypeInfo KeyCollection_t3001_il2cpp_TypeInfo;
-extern TypeInfo ValueCollection_t3005_il2cpp_TypeInfo;
-extern TypeInfo ICollection_1_t4482_il2cpp_TypeInfo;
-extern TypeInfo IEnumerable_1_t4483_il2cpp_TypeInfo;
-extern TypeInfo IEnumerator_1_t3846_il2cpp_TypeInfo;
-extern TypeInfo KeyValuePair_2_t2999_il2cpp_TypeInfo;
-extern TypeInfo KeyValuePair_2U5BU5D_t3845_il2cpp_TypeInfo;
-extern TypeInfo DictionaryEntryU5BU5D_t4009_il2cpp_TypeInfo;
-extern TypeInfo DictionaryEntry_t1154_il2cpp_TypeInfo;
-extern TypeInfo Transform_1_t2998_il2cpp_TypeInfo;
-extern TypeInfo Transform_1_t3008_il2cpp_TypeInfo;
-extern TypeInfo Enumerator_t3003_il2cpp_TypeInfo;
-extern TypeInfo ShimEnumerator_t3010_il2cpp_TypeInfo;
-extern TypeInfo Int32U5BU5D_t1264_il2cpp_TypeInfo;
-extern TypeInfo LinkU5BU5D_t2426_il2cpp_TypeInfo;
-extern TypeInfo Hashtable_t1147_il2cpp_TypeInfo;
-extern TypeInfo EqualityComparer_1_t2824_il2cpp_TypeInfo;
-extern TypeInfo IEqualityComparer_1_t2943_il2cpp_TypeInfo;
+extern TypeInfo Link_t1636_il2cpp_TypeInfo;
+extern TypeInfo KeyNotFoundException_t1637_il2cpp_TypeInfo;
+extern TypeInfo KeyCollection_t3003_il2cpp_TypeInfo;
+extern TypeInfo ValueCollection_t3007_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t4484_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t4485_il2cpp_TypeInfo;
+extern TypeInfo IEnumerator_1_t3848_il2cpp_TypeInfo;
+extern TypeInfo KeyValuePair_2_t3001_il2cpp_TypeInfo;
+extern TypeInfo KeyValuePair_2U5BU5D_t3847_il2cpp_TypeInfo;
+extern TypeInfo DictionaryEntryU5BU5D_t4011_il2cpp_TypeInfo;
+extern TypeInfo DictionaryEntry_t1156_il2cpp_TypeInfo;
+extern TypeInfo Transform_1_t3000_il2cpp_TypeInfo;
+extern TypeInfo Transform_1_t3010_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t3005_il2cpp_TypeInfo;
+extern TypeInfo ShimEnumerator_t3012_il2cpp_TypeInfo;
+extern TypeInfo Int32U5BU5D_t1266_il2cpp_TypeInfo;
+extern TypeInfo LinkU5BU5D_t2428_il2cpp_TypeInfo;
+extern TypeInfo Hashtable_t1149_il2cpp_TypeInfo;
+extern TypeInfo EqualityComparer_1_t2826_il2cpp_TypeInfo;
+extern TypeInfo IEqualityComparer_1_t2945_il2cpp_TypeInfo;
 // System.Collections.Generic.KeyNotFoundException
 #include "mscorlib_System_Collections_Generic_KeyNotFoundExceptionMethodDeclarations.h"
 // System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.UI.ICanvasElement,System.Int32>
@@ -1652,107 +1652,107 @@ extern TypeInfo IEqualityComparer_1_t2943_il2cpp_TypeInfo;
 #include "mscorlib_System_StringMethodDeclarations.h"
 // System.Collections.DictionaryEntry
 #include "mscorlib_System_Collections_DictionaryEntryMethodDeclarations.h"
-extern Il2CppType IEqualityComparer_1_t2997_0_0_0;
-extern Il2CppType KeyCollection_t3001_0_0_0;
-extern Il2CppType ValueCollection_t3005_0_0_0;
-extern Il2CppType ICollection_1_t4482_0_0_0;
-extern Il2CppType IEnumerable_1_t4483_0_0_0;
-extern Il2CppType IEnumerator_1_t3846_0_0_0;
-extern Il2CppType KeyValuePair_2U5BU5D_t3845_0_0_0;
-extern Il2CppType KeyValuePair_2_t2999_0_0_0;
-extern Il2CppType DictionaryEntryU5BU5D_t4009_0_0_0;
-extern Il2CppType Transform_1_t2998_0_0_0;
-extern Il2CppType Transform_1_t3008_0_0_0;
-extern Il2CppType Enumerator_t3003_0_0_0;
-extern Il2CppType ShimEnumerator_t3010_0_0_0;
-extern Il2CppType Int32U5BU5D_t1264_0_0_0;
-extern Il2CppType LinkU5BU5D_t2426_0_0_0;
-extern Il2CppType EqualityComparer_1_t2824_0_0_0;
-extern Il2CppType IEqualityComparer_1_t2943_0_0_0;
+extern Il2CppType IEqualityComparer_1_t2999_0_0_0;
+extern Il2CppType KeyCollection_t3003_0_0_0;
+extern Il2CppType ValueCollection_t3007_0_0_0;
+extern Il2CppType ICollection_1_t4484_0_0_0;
+extern Il2CppType IEnumerable_1_t4485_0_0_0;
+extern Il2CppType IEnumerator_1_t3848_0_0_0;
+extern Il2CppType KeyValuePair_2U5BU5D_t3847_0_0_0;
+extern Il2CppType KeyValuePair_2_t3001_0_0_0;
+extern Il2CppType DictionaryEntryU5BU5D_t4011_0_0_0;
+extern Il2CppType Transform_1_t3000_0_0_0;
+extern Il2CppType Transform_1_t3010_0_0_0;
+extern Il2CppType Enumerator_t3005_0_0_0;
+extern Il2CppType ShimEnumerator_t3012_0_0_0;
+extern Il2CppType Int32U5BU5D_t1266_0_0_0;
+extern Il2CppType LinkU5BU5D_t2428_0_0_0;
+extern Il2CppType EqualityComparer_1_t2826_0_0_0;
+extern Il2CppType IEqualityComparer_1_t2945_0_0_0;
 extern Il2CppType Int32_t188_0_0_0;
-extern MethodInfo Dictionary_2_get_Item_m16309_MethodInfo;
-extern MethodInfo IEqualityComparer_1_GetHashCode_m27717_MethodInfo;
-extern MethodInfo IEqualityComparer_1_Equals_m27718_MethodInfo;
-extern MethodInfo KeyNotFoundException__ctor_m8549_MethodInfo;
-extern MethodInfo KeyCollection__ctor_m16345_MethodInfo;
-extern MethodInfo ValueCollection__ctor_m16380_MethodInfo;
-extern MethodInfo ICollection_1_get_Count_m27719_MethodInfo;
-extern MethodInfo IEnumerable_1_GetEnumerator_m27720_MethodInfo;
-extern MethodInfo IEnumerator_1_get_Current_m27721_MethodInfo;
-extern MethodInfo Dictionary_2_U3CCopyToU3Em__0_m16333_MethodInfo;
-extern MethodInfo Transform_1__ctor_m16403_MethodInfo;
-extern MethodInfo Dictionary_2_make_pair_m16314_MethodInfo;
-extern MethodInfo Transform_1__ctor_m16407_MethodInfo;
-extern MethodInfo Enumerator__ctor_m16364_MethodInfo;
-extern MethodInfo ShimEnumerator__ctor_m16415_MethodInfo;
-extern MethodInfo Dictionary_2_get_Count_m16308_MethodInfo;
-extern MethodInfo KeyValuePair_2__ctor_m16334_MethodInfo;
-extern MethodInfo Hashtable_ToPrime_m8716_MethodInfo;
-extern MethodInfo IEqualityComparer_1_Equals_m27574_MethodInfo;
-extern MethodInfo SerializationInfo_AddValue_m5978_MethodInfo;
-extern MethodInfo SerializationInfo_AddValue_m5991_MethodInfo;
-extern MethodInfo SerializationInfo_GetInt32_m5990_MethodInfo;
-extern MethodInfo SerializationInfo_GetValue_m5979_MethodInfo;
-extern MethodInfo Type_ToString_m8014_MethodInfo;
+extern MethodInfo Dictionary_2_get_Item_m16320_MethodInfo;
+extern MethodInfo IEqualityComparer_1_GetHashCode_m27728_MethodInfo;
+extern MethodInfo IEqualityComparer_1_Equals_m27729_MethodInfo;
+extern MethodInfo KeyNotFoundException__ctor_m8560_MethodInfo;
+extern MethodInfo KeyCollection__ctor_m16356_MethodInfo;
+extern MethodInfo ValueCollection__ctor_m16391_MethodInfo;
+extern MethodInfo ICollection_1_get_Count_m27730_MethodInfo;
+extern MethodInfo IEnumerable_1_GetEnumerator_m27731_MethodInfo;
+extern MethodInfo IEnumerator_1_get_Current_m27732_MethodInfo;
+extern MethodInfo Dictionary_2_U3CCopyToU3Em__0_m16344_MethodInfo;
+extern MethodInfo Transform_1__ctor_m16414_MethodInfo;
+extern MethodInfo Dictionary_2_make_pair_m16325_MethodInfo;
+extern MethodInfo Transform_1__ctor_m16418_MethodInfo;
+extern MethodInfo Enumerator__ctor_m16375_MethodInfo;
+extern MethodInfo ShimEnumerator__ctor_m16426_MethodInfo;
+extern MethodInfo Dictionary_2_get_Count_m16319_MethodInfo;
+extern MethodInfo KeyValuePair_2__ctor_m16345_MethodInfo;
+extern MethodInfo Hashtable_ToPrime_m8727_MethodInfo;
+extern MethodInfo IEqualityComparer_1_Equals_m27585_MethodInfo;
+extern MethodInfo SerializationInfo_AddValue_m5989_MethodInfo;
+extern MethodInfo SerializationInfo_AddValue_m6002_MethodInfo;
+extern MethodInfo SerializationInfo_GetInt32_m6001_MethodInfo;
+extern MethodInfo SerializationInfo_GetValue_m5990_MethodInfo;
+extern MethodInfo Type_ToString_m8025_MethodInfo;
 extern MethodInfo String_Concat_m988_MethodInfo;
-extern MethodInfo ArgumentException__ctor_m5967_MethodInfo;
-extern MethodInfo EqualityComparer_1_Equals_m27575_MethodInfo;
-extern MethodInfo DictionaryEntry__ctor_m5962_MethodInfo;
-struct Dictionary_2_t538;
+extern MethodInfo ArgumentException__ctor_m5978_MethodInfo;
+extern MethodInfo EqualityComparer_1_Equals_m27586_MethodInfo;
+extern MethodInfo DictionaryEntry__ctor_m5973_MethodInfo;
+struct Dictionary_2_t540;
 // Declaration System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::Do_CopyTo<System.Collections.DictionaryEntry,System.Collections.DictionaryEntry>(!!1[],System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::Do_CopyTo<System.Collections.DictionaryEntry,System.Collections.DictionaryEntry>(!!1[],System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
-extern "C" void Dictionary_2_Do_CopyTo_TisDictionaryEntry_t1154_TisDictionaryEntry_t1154_m25019 (Dictionary_2_t538 * __this, DictionaryEntryU5BU5D_t4009* p0, int32_t p1, Transform_1_t2998 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-struct Dictionary_2_t538;
-struct Dictionary_2_t2812;
+extern "C" void Dictionary_2_Do_CopyTo_TisDictionaryEntry_t1156_TisDictionaryEntry_t1156_m25030 (Dictionary_2_t540 * __this, DictionaryEntryU5BU5D_t4011* p0, int32_t p1, Transform_1_t3000 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+struct Dictionary_2_t540;
+struct Dictionary_2_t2814;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Int32,System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_47.h"
 // Declaration System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::Do_ICollectionCopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::Do_ICollectionCopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
-extern "C" void Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t2999_m25022_gshared (Dictionary_2_t2812 * __this, Array_t * p0, int32_t p1, Transform_1_t3009 * p2, MethodInfo* method);
-#define Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t2999_m25022(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t2812 *, Array_t *, int32_t, Transform_1_t3009 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t2999_m25022_gshared)(__this, p0, p1, p2, method)
+extern "C" void Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3001_m25033_gshared (Dictionary_2_t2814 * __this, Array_t * p0, int32_t p1, Transform_1_t3011 * p2, MethodInfo* method);
+#define Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3001_m25033(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t2814 *, Array_t *, int32_t, Transform_1_t3011 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3001_m25033_gshared)(__this, p0, p1, p2, method)
 // Declaration System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::Do_ICollectionCopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::Do_ICollectionCopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
-#define Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t2999_m25021(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t538 *, Array_t *, int32_t, Transform_1_t3008 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t2999_m25022_gshared)(__this, p0, p1, p2, method)
-struct Dictionary_2_t538;
+#define Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3001_m25032(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t540 *, Array_t *, int32_t, Transform_1_t3010 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3001_m25033_gshared)(__this, p0, p1, p2, method)
+struct Dictionary_2_t540;
 // Declaration System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::Do_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>,System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>(!!1[],System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::Do_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>,System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>(!!1[],System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
-extern "C" void Dictionary_2_Do_CopyTo_TisKeyValuePair_2_t2999_TisKeyValuePair_2_t2999_m25024 (Dictionary_2_t538 * __this, KeyValuePair_2U5BU5D_t3845* p0, int32_t p1, Transform_1_t3008 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern Il2CppGenericMethod Dictionary_2_get_Keys_m16327_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_get_Values_m16328_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_ToTKey_m16329_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_get_Item_m16309_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_ToTValue_m16330_GenericMethod;
-extern Il2CppGenericMethod IEqualityComparer_1_GetHashCode_m27717_GenericMethod;
-extern Il2CppGenericMethod IEqualityComparer_1_Equals_m27718_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Resize_m16318_GenericMethod;
-extern Il2CppGenericMethod KeyCollection__ctor_m16345_GenericMethod;
-extern Il2CppGenericMethod ValueCollection__ctor_m16380_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Init_m16311_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2__ctor_m16288_GenericMethod;
-extern Il2CppGenericMethod ICollection_1_get_Count_m27719_GenericMethod;
-extern Il2CppGenericMethod IEnumerable_1_GetEnumerator_m27720_GenericMethod;
-extern Il2CppGenericMethod IEnumerator_1_get_Current_m27721_GenericMethod;
-extern Il2CppGenericMethod KeyValuePair_2_get_Key_m16335_GenericMethod;
-extern Il2CppGenericMethod KeyValuePair_2_get_Value_m16337_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_ContainsKeyValuePair_m16331_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_CopyTo_m16317_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_CopyToCheck_m16313_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_U3CCopyToU3Em__0_m16333_GenericMethod;
-extern Il2CppGenericMethod Transform_1__ctor_m16403_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Do_CopyTo_TisDictionaryEntry_t1154_TisDictionaryEntry_t1154_m25019_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_make_pair_m16314_GenericMethod;
-extern Il2CppGenericMethod Transform_1__ctor_m16407_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t2999_m25021_GenericMethod;
-extern Il2CppGenericMethod Enumerator__ctor_m16364_GenericMethod;
-extern Il2CppGenericMethod ShimEnumerator__ctor_m16415_GenericMethod;
-extern Il2CppGenericMethod EqualityComparer_1_get_Default_m16268_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_InitArrays_m16312_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_get_Count_m16308_GenericMethod;
-extern Il2CppGenericMethod KeyValuePair_2__ctor_m16334_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Do_CopyTo_TisKeyValuePair_2_t2999_TisKeyValuePair_2_t2999_m25024_GenericMethod;
-extern Il2CppGenericMethod EqualityComparer_1_get_Default_m14407_GenericMethod;
-extern Il2CppGenericMethod IEqualityComparer_1_Equals_m27574_GenericMethod;
-extern Il2CppGenericMethod EqualityComparer_1_Equals_m27575_GenericMethod;
+extern "C" void Dictionary_2_Do_CopyTo_TisKeyValuePair_2_t3001_TisKeyValuePair_2_t3001_m25035 (Dictionary_2_t540 * __this, KeyValuePair_2U5BU5D_t3847* p0, int32_t p1, Transform_1_t3010 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern Il2CppGenericMethod Dictionary_2_get_Keys_m16338_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_get_Values_m16339_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_ToTKey_m16340_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_get_Item_m16320_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_ToTValue_m16341_GenericMethod;
+extern Il2CppGenericMethod IEqualityComparer_1_GetHashCode_m27728_GenericMethod;
+extern Il2CppGenericMethod IEqualityComparer_1_Equals_m27729_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Resize_m16329_GenericMethod;
+extern Il2CppGenericMethod KeyCollection__ctor_m16356_GenericMethod;
+extern Il2CppGenericMethod ValueCollection__ctor_m16391_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Init_m16322_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2__ctor_m16299_GenericMethod;
+extern Il2CppGenericMethod ICollection_1_get_Count_m27730_GenericMethod;
+extern Il2CppGenericMethod IEnumerable_1_GetEnumerator_m27731_GenericMethod;
+extern Il2CppGenericMethod IEnumerator_1_get_Current_m27732_GenericMethod;
+extern Il2CppGenericMethod KeyValuePair_2_get_Key_m16346_GenericMethod;
+extern Il2CppGenericMethod KeyValuePair_2_get_Value_m16348_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_ContainsKeyValuePair_m16342_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_CopyTo_m16328_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_CopyToCheck_m16324_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_U3CCopyToU3Em__0_m16344_GenericMethod;
+extern Il2CppGenericMethod Transform_1__ctor_m16414_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Do_CopyTo_TisDictionaryEntry_t1156_TisDictionaryEntry_t1156_m25030_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_make_pair_m16325_GenericMethod;
+extern Il2CppGenericMethod Transform_1__ctor_m16418_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3001_m25032_GenericMethod;
+extern Il2CppGenericMethod Enumerator__ctor_m16375_GenericMethod;
+extern Il2CppGenericMethod ShimEnumerator__ctor_m16426_GenericMethod;
+extern Il2CppGenericMethod EqualityComparer_1_get_Default_m16279_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_InitArrays_m16323_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_get_Count_m16319_GenericMethod;
+extern Il2CppGenericMethod KeyValuePair_2__ctor_m16345_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Do_CopyTo_TisKeyValuePair_2_t3001_TisKeyValuePair_2_t3001_m25035_GenericMethod;
+extern Il2CppGenericMethod EqualityComparer_1_get_Default_m14418_GenericMethod;
+extern Il2CppGenericMethod IEqualityComparer_1_Equals_m27585_GenericMethod;
+extern Il2CppGenericMethod EqualityComparer_1_Equals_m27586_GenericMethod;
 
 
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::.ctor()
@@ -1840,8 +1840,8 @@ extern TypeInfo StringU5BU5D_t215_il2cpp_TypeInfo;
 extern Il2CppType StringU5BU5D_t215_0_0_0;
 extern MethodInfo Object_ToString_m1098_MethodInfo;
 extern MethodInfo String_Concat_m932_MethodInfo;
-extern Il2CppGenericMethod KeyValuePair_2_set_Key_m16336_GenericMethod;
-extern Il2CppGenericMethod KeyValuePair_2_set_Value_m16338_GenericMethod;
+extern Il2CppGenericMethod KeyValuePair_2_set_Key_m16347_GenericMethod;
+extern Il2CppGenericMethod KeyValuePair_2_set_Value_m16349_GenericMethod;
 
 
 // System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>::.ctor(TKey,TValue)
@@ -1855,23 +1855,23 @@ extern Il2CppGenericMethod KeyValuePair_2_set_Value_m16338_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo InternalEnumerator_1_t3000_il2cpp_TypeInfo;
+extern TypeInfo InternalEnumerator_1_t3002_il2cpp_TypeInfo;
 // System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_98MethodDeclarations.h"
 
-extern Il2CppType InternalEnumerator_1_t3000_0_0_0;
+extern Il2CppType InternalEnumerator_1_t3002_0_0_0;
 struct Array_t;
 // Declaration !!0 System.Array::InternalArray__get_Item<System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>(System.Int32)
 // !!0 System.Array::InternalArray__get_Item<System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>(System.Int32)
-extern "C" KeyValuePair_2_t2999  Array_InternalArray__get_Item_TisKeyValuePair_2_t2999_m25003_gshared (Array_t * __this, int32_t p0, MethodInfo* method);
-#define Array_InternalArray__get_Item_TisKeyValuePair_2_t2999_m25003(__this, p0, method) (( KeyValuePair_2_t2999  (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisKeyValuePair_2_t2999_m25003_gshared)(__this, p0, method)
-extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16344_GenericMethod;
-extern Il2CppGenericMethod Array_InternalArray__get_Item_TisKeyValuePair_2_t2999_m25003_GenericMethod;
+extern "C" KeyValuePair_2_t3001  Array_InternalArray__get_Item_TisKeyValuePair_2_t3001_m25014_gshared (Array_t * __this, int32_t p0, MethodInfo* method);
+#define Array_InternalArray__get_Item_TisKeyValuePair_2_t3001_m25014(__this, p0, method) (( KeyValuePair_2_t3001  (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisKeyValuePair_2_t3001_m25014_gshared)(__this, p0, method)
+extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16355_GenericMethod;
+extern Il2CppGenericMethod Array_InternalArray__get_Item_TisKeyValuePair_2_t3001_m25014_GenericMethod;
 
 
 // System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>::.ctor(System.Array)
-extern Il2CppGenericMethod InternalEnumerator_1__ctor_m16340_GenericMethod;
-extern "C" void InternalEnumerator_1__ctor_m16340_gshared (InternalEnumerator_1_t3000 * __this, Array_t * ___array, MethodInfo* method)
+extern Il2CppGenericMethod InternalEnumerator_1__ctor_m16351_GenericMethod;
+extern "C" void InternalEnumerator_1__ctor_m16351_gshared (InternalEnumerator_1_t3002 * __this, Array_t * ___array, MethodInfo* method)
 {
 	{
 		Array_t * L_0 = ___array;
@@ -1881,19 +1881,19 @@ extern "C" void InternalEnumerator_1__ctor_m16340_gshared (InternalEnumerator_1_
 	}
 }
 // System.Object System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>::System.Collections.IEnumerator.get_Current()
-extern Il2CppGenericMethod InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16341_GenericMethod;
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16341_gshared (InternalEnumerator_1_t3000 * __this, MethodInfo* method)
+extern Il2CppGenericMethod InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16352_GenericMethod;
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16352_gshared (InternalEnumerator_1_t3002 * __this, MethodInfo* method)
 {
 	{
-		KeyValuePair_2_t2999  L_0 = (( KeyValuePair_2_t2999  (*) (InternalEnumerator_1_t3000 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		KeyValuePair_2_t2999  L_1 = L_0;
+		KeyValuePair_2_t3001  L_0 = (( KeyValuePair_2_t3001  (*) (InternalEnumerator_1_t3002 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		KeyValuePair_2_t3001  L_1 = L_0;
 		Object_t * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
 		return L_2;
 	}
 }
 // System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>::Dispose()
-extern Il2CppGenericMethod InternalEnumerator_1_Dispose_m16342_GenericMethod;
-extern "C" void InternalEnumerator_1_Dispose_m16342_gshared (InternalEnumerator_1_t3000 * __this, MethodInfo* method)
+extern Il2CppGenericMethod InternalEnumerator_1_Dispose_m16353_GenericMethod;
+extern "C" void InternalEnumerator_1_Dispose_m16353_gshared (InternalEnumerator_1_t3002 * __this, MethodInfo* method)
 {
 	{
 		__this->___idx_1 = ((int32_t)-2);
@@ -1901,8 +1901,8 @@ extern "C" void InternalEnumerator_1_Dispose_m16342_gshared (InternalEnumerator_
 	}
 }
 // System.Boolean System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>::MoveNext()
-extern Il2CppGenericMethod InternalEnumerator_1_MoveNext_m16343_GenericMethod;
-extern "C" bool InternalEnumerator_1_MoveNext_m16343_gshared (InternalEnumerator_1_t3000 * __this, MethodInfo* method)
+extern Il2CppGenericMethod InternalEnumerator_1_MoveNext_m16354_GenericMethod;
+extern "C" bool InternalEnumerator_1_MoveNext_m16354_gshared (InternalEnumerator_1_t3002 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t G_B5_0 = 0;
@@ -1916,7 +1916,7 @@ extern "C" bool InternalEnumerator_1_MoveNext_m16343_gshared (InternalEnumerator
 	{
 		Array_t * L_1 = (__this->___array_0);
 		NullCheck(L_1);
-		int32_t L_2 = Array_get_Length_m5965(L_1, /*hidden argument*/&Array_get_Length_m5965_MethodInfo);
+		int32_t L_2 = Array_get_Length_m5976(L_1, /*hidden argument*/&Array_get_Length_m5976_MethodInfo);
 		__this->___idx_1 = L_2;
 	}
 
@@ -1949,7 +1949,7 @@ IL_003e:
 	}
 }
 // T System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>::get_Current()
-extern "C" KeyValuePair_2_t2999  InternalEnumerator_1_get_Current_m16344_gshared (InternalEnumerator_1_t3000 * __this, MethodInfo* method)
+extern "C" KeyValuePair_2_t3001  InternalEnumerator_1_get_Current_m16355_gshared (InternalEnumerator_1_t3002 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___idx_1);
@@ -1959,8 +1959,8 @@ extern "C" KeyValuePair_2_t2999  InternalEnumerator_1_get_Current_m16344_gshared
 		}
 	}
 	{
-		InvalidOperationException_t1330 * L_1 = (InvalidOperationException_t1330 *)il2cpp_codegen_object_new (InitializedTypeInfo(&InvalidOperationException_t1330_il2cpp_TypeInfo));
-		InvalidOperationException__ctor_m5961(L_1, (String_t*) &_stringLiteral1304, /*hidden argument*/&InvalidOperationException__ctor_m5961_MethodInfo);
+		InvalidOperationException_t1332 * L_1 = (InvalidOperationException_t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&InvalidOperationException_t1332_il2cpp_TypeInfo));
+		InvalidOperationException__ctor_m5972(L_1, (String_t*) &_stringLiteral1304, /*hidden argument*/&InvalidOperationException__ctor_m5972_MethodInfo);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -1973,8 +1973,8 @@ IL_0015:
 		}
 	}
 	{
-		InvalidOperationException_t1330 * L_3 = (InvalidOperationException_t1330 *)il2cpp_codegen_object_new (InitializedTypeInfo(&InvalidOperationException_t1330_il2cpp_TypeInfo));
-		InvalidOperationException__ctor_m5961(L_3, (String_t*) &_stringLiteral1305, /*hidden argument*/&InvalidOperationException__ctor_m5961_MethodInfo);
+		InvalidOperationException_t1332 * L_3 = (InvalidOperationException_t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&InvalidOperationException_t1332_il2cpp_TypeInfo));
+		InvalidOperationException__ctor_m5972(L_3, (String_t*) &_stringLiteral1305, /*hidden argument*/&InvalidOperationException__ctor_m5972_MethodInfo);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -1983,17 +1983,17 @@ IL_0029:
 		Array_t * L_4 = (__this->___array_0);
 		Array_t * L_5 = (__this->___array_0);
 		NullCheck(L_5);
-		int32_t L_6 = Array_get_Length_m5965(L_5, /*hidden argument*/&Array_get_Length_m5965_MethodInfo);
+		int32_t L_6 = Array_get_Length_m5976(L_5, /*hidden argument*/&Array_get_Length_m5976_MethodInfo);
 		int32_t L_7 = (__this->___idx_1);
 		NullCheck(L_4);
-		KeyValuePair_2_t2999  L_8 = (( KeyValuePair_2_t2999  (*) (Array_t *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		KeyValuePair_2_t3001  L_8 = (( KeyValuePair_2_t3001  (*) (Array_t *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
 		return L_8;
 	}
 }
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IList_1_t4484_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t4486_il2cpp_TypeInfo;
 
 
 
@@ -2005,7 +2005,7 @@ extern TypeInfo IList_1_t4484_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IDictionary_2_t3844_il2cpp_TypeInfo;
+extern TypeInfo IDictionary_2_t3846_il2cpp_TypeInfo;
 
 
 
@@ -2024,40 +2024,40 @@ extern TypeInfo IDictionary_2_t3844_il2cpp_TypeInfo;
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_21.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.UI.ICanvasElement,System.Int32,UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_43.h"
-extern TypeInfo Enumerator_t3002_il2cpp_TypeInfo;
-extern TypeInfo Transform_1_t3004_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t3004_il2cpp_TypeInfo;
+extern TypeInfo Transform_1_t3006_il2cpp_TypeInfo;
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.UI.ICanvasElement,System.Int32,UnityEngine.UI.ICanvasElement>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_43MethodDeclarations.h"
 // System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<UnityEngine.UI.ICanvasElement,System.Int32>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_21MethodDeclarations.h"
-extern Il2CppType Enumerator_t3002_0_0_0;
-extern Il2CppType Transform_1_t3004_0_0_0;
-extern MethodInfo KeyCollection_CopyTo_m16356_MethodInfo;
-extern MethodInfo Dictionary_2_pick_key_m16315_MethodInfo;
-extern MethodInfo Transform_1__ctor_m16376_MethodInfo;
-extern MethodInfo Enumerator__ctor_m16359_MethodInfo;
-struct Dictionary_2_t538;
-struct Dictionary_2_t2812;
+extern Il2CppType Enumerator_t3004_0_0_0;
+extern Il2CppType Transform_1_t3006_0_0_0;
+extern MethodInfo KeyCollection_CopyTo_m16367_MethodInfo;
+extern MethodInfo Dictionary_2_pick_key_m16326_MethodInfo;
+extern MethodInfo Transform_1__ctor_m16387_MethodInfo;
+extern MethodInfo Enumerator__ctor_m16370_MethodInfo;
+struct Dictionary_2_t540;
+struct Dictionary_2_t2814;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_25.h"
 // Declaration System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::Do_ICollectionCopyTo<System.Object>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::Do_ICollectionCopyTo<System.Object>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
-extern "C" void Dictionary_2_Do_ICollectionCopyTo_TisObject_t_m24526_gshared (Dictionary_2_t2812 * __this, Array_t * p0, int32_t p1, Transform_1_t2818 * p2, MethodInfo* method);
-#define Dictionary_2_Do_ICollectionCopyTo_TisObject_t_m24526(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t2812 *, Array_t *, int32_t, Transform_1_t2818 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisObject_t_m24526_gshared)(__this, p0, p1, p2, method)
+extern "C" void Dictionary_2_Do_ICollectionCopyTo_TisObject_t_m24537_gshared (Dictionary_2_t2814 * __this, Array_t * p0, int32_t p1, Transform_1_t2820 * p2, MethodInfo* method);
+#define Dictionary_2_Do_ICollectionCopyTo_TisObject_t_m24537(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t2814 *, Array_t *, int32_t, Transform_1_t2820 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisObject_t_m24537_gshared)(__this, p0, p1, p2, method)
 // Declaration System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::Do_ICollectionCopyTo<UnityEngine.UI.ICanvasElement>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::Do_ICollectionCopyTo<UnityEngine.UI.ICanvasElement>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
-#define Dictionary_2_Do_ICollectionCopyTo_TisICanvasElement_t386_m25014(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t538 *, Array_t *, int32_t, Transform_1_t3004 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisObject_t_m24526_gshared)(__this, p0, p1, p2, method)
-struct Dictionary_2_t538;
+#define Dictionary_2_Do_ICollectionCopyTo_TisICanvasElement_t388_m25025(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t540 *, Array_t *, int32_t, Transform_1_t3006 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisObject_t_m24537_gshared)(__this, p0, p1, p2, method)
+struct Dictionary_2_t540;
 // Declaration System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::Do_CopyTo<UnityEngine.UI.ICanvasElement,UnityEngine.UI.ICanvasElement>(!!1[],System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::Do_CopyTo<UnityEngine.UI.ICanvasElement,UnityEngine.UI.ICanvasElement>(!!1[],System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
-extern "C" void Dictionary_2_Do_CopyTo_TisICanvasElement_t386_TisICanvasElement_t386_m25015 (Dictionary_2_t538 * __this, ICanvasElementU5BU5D_t2988* p0, int32_t p1, Transform_1_t3004 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern Il2CppGenericMethod KeyCollection_GetEnumerator_m16357_GenericMethod;
-extern Il2CppGenericMethod KeyCollection_CopyTo_m16356_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_pick_key_m16315_GenericMethod;
-extern Il2CppGenericMethod Transform_1__ctor_m16376_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Do_ICollectionCopyTo_TisICanvasElement_t386_m25014_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Do_CopyTo_TisICanvasElement_t386_TisICanvasElement_t386_m25015_GenericMethod;
-extern Il2CppGenericMethod Enumerator__ctor_m16359_GenericMethod;
+extern "C" void Dictionary_2_Do_CopyTo_TisICanvasElement_t388_TisICanvasElement_t388_m25026 (Dictionary_2_t540 * __this, ICanvasElementU5BU5D_t2990* p0, int32_t p1, Transform_1_t3006 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern Il2CppGenericMethod KeyCollection_GetEnumerator_m16368_GenericMethod;
+extern Il2CppGenericMethod KeyCollection_CopyTo_m16367_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_pick_key_m16326_GenericMethod;
+extern Il2CppGenericMethod Transform_1__ctor_m16387_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Do_ICollectionCopyTo_TisICanvasElement_t388_m25025_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Do_CopyTo_TisICanvasElement_t388_TisICanvasElement_t388_m25026_GenericMethod;
+extern Il2CppGenericMethod Enumerator__ctor_m16370_GenericMethod;
 
 
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.UI.ICanvasElement,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
@@ -2078,10 +2078,10 @@ extern Il2CppGenericMethod Enumerator__ctor_m16359_GenericMethod;
 #else
 #endif
 
-extern Il2CppGenericMethod Enumerator_get_CurrentKey_m16371_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_GetEnumerator_m16332_GenericMethod;
-extern Il2CppGenericMethod Enumerator_Dispose_m16375_GenericMethod;
-extern Il2CppGenericMethod Enumerator_MoveNext_m16369_GenericMethod;
+extern Il2CppGenericMethod Enumerator_get_CurrentKey_m16382_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_GetEnumerator_m16343_GenericMethod;
+extern Il2CppGenericMethod Enumerator_Dispose_m16386_GenericMethod;
+extern Il2CppGenericMethod Enumerator_MoveNext_m16380_GenericMethod;
 
 
 // System.Void System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<UnityEngine.UI.ICanvasElement,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
@@ -2093,9 +2093,9 @@ extern Il2CppGenericMethod Enumerator_MoveNext_m16369_GenericMethod;
 #else
 #endif
 
-extern Il2CppGenericMethod Enumerator_VerifyCurrent_m16374_GenericMethod;
-extern Il2CppGenericMethod Enumerator_get_CurrentValue_m16372_GenericMethod;
-extern Il2CppGenericMethod Enumerator_VerifyState_m16373_GenericMethod;
+extern Il2CppGenericMethod Enumerator_VerifyCurrent_m16385_GenericMethod;
+extern Il2CppGenericMethod Enumerator_get_CurrentValue_m16383_GenericMethod;
+extern Il2CppGenericMethod Enumerator_VerifyState_m16384_GenericMethod;
 
 
 // System.Void System.Collections.Generic.Dictionary`2/Enumerator<UnityEngine.UI.ICanvasElement,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
@@ -2128,41 +2128,41 @@ extern Il2CppGenericMethod Enumerator_VerifyState_m16373_GenericMethod;
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_23.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.UI.ICanvasElement,System.Int32,System.Int32>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_44.h"
-extern TypeInfo Enumerator_t3006_il2cpp_TypeInfo;
-extern TypeInfo Transform_1_t3007_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t3008_il2cpp_TypeInfo;
+extern TypeInfo Transform_1_t3009_il2cpp_TypeInfo;
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.UI.ICanvasElement,System.Int32,System.Int32>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_44MethodDeclarations.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<UnityEngine.UI.ICanvasElement,System.Int32>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_23MethodDeclarations.h"
-extern Il2CppType Enumerator_t3006_0_0_0;
-extern Il2CppType Transform_1_t3007_0_0_0;
-extern MethodInfo ValueCollection_CopyTo_m16391_MethodInfo;
-extern MethodInfo Dictionary_2_pick_value_m16316_MethodInfo;
-extern MethodInfo Transform_1__ctor_m16399_MethodInfo;
-extern MethodInfo Enumerator__ctor_m16394_MethodInfo;
-struct Dictionary_2_t538;
-struct Dictionary_2_t2812;
+extern Il2CppType Enumerator_t3008_0_0_0;
+extern Il2CppType Transform_1_t3009_0_0_0;
+extern MethodInfo ValueCollection_CopyTo_m16402_MethodInfo;
+extern MethodInfo Dictionary_2_pick_value_m16327_MethodInfo;
+extern MethodInfo Transform_1__ctor_m16410_MethodInfo;
+extern MethodInfo Enumerator__ctor_m16405_MethodInfo;
+struct Dictionary_2_t540;
+struct Dictionary_2_t2814;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Int32,System.Int32>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_26.h"
 // Declaration System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::Do_ICollectionCopyTo<System.Int32>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Int32>::Do_ICollectionCopyTo<System.Int32>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
-extern "C" void Dictionary_2_Do_ICollectionCopyTo_TisInt32_t188_m24528_gshared (Dictionary_2_t2812 * __this, Array_t * p0, int32_t p1, Transform_1_t2821 * p2, MethodInfo* method);
-#define Dictionary_2_Do_ICollectionCopyTo_TisInt32_t188_m24528(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t2812 *, Array_t *, int32_t, Transform_1_t2821 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisInt32_t188_m24528_gshared)(__this, p0, p1, p2, method)
+extern "C" void Dictionary_2_Do_ICollectionCopyTo_TisInt32_t188_m24539_gshared (Dictionary_2_t2814 * __this, Array_t * p0, int32_t p1, Transform_1_t2823 * p2, MethodInfo* method);
+#define Dictionary_2_Do_ICollectionCopyTo_TisInt32_t188_m24539(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t2814 *, Array_t *, int32_t, Transform_1_t2823 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisInt32_t188_m24539_gshared)(__this, p0, p1, p2, method)
 // Declaration System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::Do_ICollectionCopyTo<System.Int32>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::Do_ICollectionCopyTo<System.Int32>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
-#define Dictionary_2_Do_ICollectionCopyTo_TisInt32_t188_m25017(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t538 *, Array_t *, int32_t, Transform_1_t3007 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisInt32_t188_m24528_gshared)(__this, p0, p1, p2, method)
-struct Dictionary_2_t538;
+#define Dictionary_2_Do_ICollectionCopyTo_TisInt32_t188_m25028(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t540 *, Array_t *, int32_t, Transform_1_t3009 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisInt32_t188_m24539_gshared)(__this, p0, p1, p2, method)
+struct Dictionary_2_t540;
 // Declaration System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::Do_CopyTo<System.Int32,System.Int32>(!!1[],System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>::Do_CopyTo<System.Int32,System.Int32>(!!1[],System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
-extern "C" void Dictionary_2_Do_CopyTo_TisInt32_t188_TisInt32_t188_m25018 (Dictionary_2_t538 * __this, Int32U5BU5D_t1264* p0, int32_t p1, Transform_1_t3007 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern Il2CppGenericMethod Dictionary_2_ContainsValue_m16322_GenericMethod;
-extern Il2CppGenericMethod ValueCollection_GetEnumerator_m16392_GenericMethod;
-extern Il2CppGenericMethod ValueCollection_CopyTo_m16391_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_pick_value_m16316_GenericMethod;
-extern Il2CppGenericMethod Transform_1__ctor_m16399_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Do_ICollectionCopyTo_TisInt32_t188_m25017_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Do_CopyTo_TisInt32_t188_TisInt32_t188_m25018_GenericMethod;
-extern Il2CppGenericMethod Enumerator__ctor_m16394_GenericMethod;
+extern "C" void Dictionary_2_Do_CopyTo_TisInt32_t188_TisInt32_t188_m25029 (Dictionary_2_t540 * __this, Int32U5BU5D_t1266* p0, int32_t p1, Transform_1_t3009 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern Il2CppGenericMethod Dictionary_2_ContainsValue_m16333_GenericMethod;
+extern Il2CppGenericMethod ValueCollection_GetEnumerator_m16403_GenericMethod;
+extern Il2CppGenericMethod ValueCollection_CopyTo_m16402_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_pick_value_m16327_GenericMethod;
+extern Il2CppGenericMethod Transform_1__ctor_m16410_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Do_ICollectionCopyTo_TisInt32_t188_m25028_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Do_CopyTo_TisInt32_t188_TisInt32_t188_m25029_GenericMethod;
+extern Il2CppGenericMethod Enumerator__ctor_m16405_GenericMethod;
 
 
 // System.Void System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UI.ICanvasElement,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
@@ -2223,49 +2223,49 @@ extern Il2CppGenericMethod Enumerator__ctor_m16394_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo Transform_1_t3009_il2cpp_TypeInfo;
+extern TypeInfo Transform_1_t3011_il2cpp_TypeInfo;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Int32,System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_47MethodDeclarations.h"
 
 
 
 // System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Int32,System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>::.ctor(System.Object,System.IntPtr)
-extern Il2CppGenericMethod Transform_1__ctor_m16408_GenericMethod;
-extern "C" void Transform_1__ctor_m16408_gshared (Transform_1_t3009 * __this, Object_t * ___object, IntPtr_t ___method, MethodInfo* method)
+extern Il2CppGenericMethod Transform_1__ctor_m16419_GenericMethod;
+extern "C" void Transform_1__ctor_m16419_gshared (Transform_1_t3011 * __this, Object_t * ___object, IntPtr_t ___method, MethodInfo* method)
 {
 	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
 	__this->___method_3 = ___method;
 	__this->___m_target_2 = ___object;
 }
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Int32,System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>::Invoke(TKey,TValue)
-extern Il2CppGenericMethod Transform_1_Invoke_m16410_GenericMethod;
-extern "C" KeyValuePair_2_t2999  Transform_1_Invoke_m16410_gshared (Transform_1_t3009 * __this, Object_t * ___key, int32_t ___value, MethodInfo* method)
+extern Il2CppGenericMethod Transform_1_Invoke_m16421_GenericMethod;
+extern "C" KeyValuePair_2_t3001  Transform_1_Invoke_m16421_gshared (Transform_1_t3011 * __this, Object_t * ___key, int32_t ___value, MethodInfo* method)
 {
 	if(__this->___prev_9 != NULL)
 	{
-		Transform_1_Invoke_m16410((Transform_1_t3009 *)__this->___prev_9,___key, ___value, method);
+		Transform_1_Invoke_m16421((Transform_1_t3011 *)__this->___prev_9,___key, ___value, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
 	if (__this->___m_target_2 != NULL && ___methodIsStatic)
 	{
-		typedef KeyValuePair_2_t2999  (*FunctionPointerType) (Object_t *, Object_t * __this, Object_t * ___key, int32_t ___value, MethodInfo* method);
+		typedef KeyValuePair_2_t3001  (*FunctionPointerType) (Object_t *, Object_t * __this, Object_t * ___key, int32_t ___value, MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(NULL,__this->___m_target_2,___key, ___value,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else if (__this->___m_target_2 != NULL || ___methodIsStatic)
 	{
-		typedef KeyValuePair_2_t2999  (*FunctionPointerType) (Object_t * __this, Object_t * ___key, int32_t ___value, MethodInfo* method);
+		typedef KeyValuePair_2_t3001  (*FunctionPointerType) (Object_t * __this, Object_t * ___key, int32_t ___value, MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(__this->___m_target_2,___key, ___value,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 	else
 	{
-		typedef KeyValuePair_2_t2999  (*FunctionPointerType) (Object_t * __this, int32_t ___value, MethodInfo* method);
+		typedef KeyValuePair_2_t3001  (*FunctionPointerType) (Object_t * __this, int32_t ___value, MethodInfo* method);
 		return ((FunctionPointerType)__this->___method_ptr_0)(___key, ___value,(MethodInfo*)(__this->___method_3.___m_value_0));
 	}
 }
 // System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Int32,System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-extern Il2CppGenericMethod Transform_1_BeginInvoke_m16412_GenericMethod;
-extern "C" Object_t * Transform_1_BeginInvoke_m16412_gshared (Transform_1_t3009 * __this, Object_t * ___key, int32_t ___value, AsyncCallback_t424 * ___callback, Object_t * ___object, MethodInfo* method)
+extern Il2CppGenericMethod Transform_1_BeginInvoke_m16423_GenericMethod;
+extern "C" Object_t * Transform_1_BeginInvoke_m16423_gshared (Transform_1_t3011 * __this, Object_t * ___key, int32_t ___value, AsyncCallback_t426 * ___callback, Object_t * ___object, MethodInfo* method)
 {
 	void *__d_args[3] = {0};
 	__d_args[0] = ___key;
@@ -2273,21 +2273,21 @@ extern "C" Object_t * Transform_1_BeginInvoke_m16412_gshared (Transform_1_t3009 
 	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
 }
 // TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Int32,System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>>::EndInvoke(System.IAsyncResult)
-extern Il2CppGenericMethod Transform_1_EndInvoke_m16414_GenericMethod;
-extern "C" KeyValuePair_2_t2999  Transform_1_EndInvoke_m16414_gshared (Transform_1_t3009 * __this, Object_t * ___result, MethodInfo* method)
+extern Il2CppGenericMethod Transform_1_EndInvoke_m16425_GenericMethod;
+extern "C" KeyValuePair_2_t3001  Transform_1_EndInvoke_m16425_gshared (Transform_1_t3011 * __this, Object_t * ___result, MethodInfo* method)
 {
 	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
-	return *(KeyValuePair_2_t2999 *)UnBox ((Il2CppCodeGenObject*)__result);
+	return *(KeyValuePair_2_t3001 *)UnBox ((Il2CppCodeGenObject*)__result);
 }
 #ifndef _MSC_VER
 #else
 #endif
 
-extern TypeInfo IDictionaryEnumerator_t1151_il2cpp_TypeInfo;
-extern MethodInfo IDictionaryEnumerator_get_Entry_m11690_MethodInfo;
-extern MethodInfo ShimEnumerator_get_Entry_m16417_MethodInfo;
-extern Il2CppGenericMethod Enumerator_get_Current_m16370_GenericMethod;
-extern Il2CppGenericMethod ShimEnumerator_get_Entry_m16417_GenericMethod;
+extern TypeInfo IDictionaryEnumerator_t1153_il2cpp_TypeInfo;
+extern MethodInfo IDictionaryEnumerator_get_Entry_m11701_MethodInfo;
+extern MethodInfo ShimEnumerator_get_Entry_m16428_MethodInfo;
+extern Il2CppGenericMethod Enumerator_get_Current_m16381_GenericMethod;
+extern Il2CppGenericMethod ShimEnumerator_get_Entry_m16428_GenericMethod;
 
 
 // System.Void System.Collections.Generic.Dictionary`2/ShimEnumerator<UnityEngine.UI.ICanvasElement,System.Int32>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
@@ -2301,7 +2301,7 @@ extern Il2CppGenericMethod ShimEnumerator_get_Entry_m16417_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo Dictionary_2_t390_il2cpp_TypeInfo;
+extern TypeInfo Dictionary_2_t392_il2cpp_TypeInfo;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_gen_5MethodDeclarations.h"
 
@@ -2328,25 +2328,25 @@ extern TypeInfo Dictionary_2_t390_il2cpp_TypeInfo;
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_20.h"
 // System.Collections.Generic.EqualityComparer`1<System.Collections.Generic.List`1<UnityEngine.UI.Text>>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_21.h"
-extern TypeInfo Font_t388_il2cpp_TypeInfo;
-extern TypeInfo List_1_t529_il2cpp_TypeInfo;
-extern TypeInfo IEqualityComparer_1_t3013_il2cpp_TypeInfo;
-extern TypeInfo KeyCollection_t3035_il2cpp_TypeInfo;
-extern TypeInfo ValueCollection_t3039_il2cpp_TypeInfo;
-extern TypeInfo ICollection_1_t4485_il2cpp_TypeInfo;
-extern TypeInfo IEnumerable_1_t4486_il2cpp_TypeInfo;
-extern TypeInfo IEnumerator_1_t3851_il2cpp_TypeInfo;
-extern TypeInfo KeyValuePair_2_t3015_il2cpp_TypeInfo;
-extern TypeInfo KeyValuePair_2U5BU5D_t3850_il2cpp_TypeInfo;
-extern TypeInfo Transform_1_t3014_il2cpp_TypeInfo;
-extern TypeInfo Transform_1_t3042_il2cpp_TypeInfo;
-extern TypeInfo Enumerator_t3037_il2cpp_TypeInfo;
-extern TypeInfo ShimEnumerator_t3044_il2cpp_TypeInfo;
-extern TypeInfo EqualityComparer_1_t3045_il2cpp_TypeInfo;
-extern TypeInfo FontU5BU5D_t3011_il2cpp_TypeInfo;
-extern TypeInfo List_1U5BU5D_t3012_il2cpp_TypeInfo;
+extern TypeInfo Font_t390_il2cpp_TypeInfo;
+extern TypeInfo List_1_t531_il2cpp_TypeInfo;
+extern TypeInfo IEqualityComparer_1_t3015_il2cpp_TypeInfo;
+extern TypeInfo KeyCollection_t3037_il2cpp_TypeInfo;
+extern TypeInfo ValueCollection_t3041_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t4487_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t4488_il2cpp_TypeInfo;
+extern TypeInfo IEnumerator_1_t3853_il2cpp_TypeInfo;
+extern TypeInfo KeyValuePair_2_t3017_il2cpp_TypeInfo;
+extern TypeInfo KeyValuePair_2U5BU5D_t3852_il2cpp_TypeInfo;
+extern TypeInfo Transform_1_t3016_il2cpp_TypeInfo;
+extern TypeInfo Transform_1_t3044_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t3039_il2cpp_TypeInfo;
+extern TypeInfo ShimEnumerator_t3046_il2cpp_TypeInfo;
 extern TypeInfo EqualityComparer_1_t3047_il2cpp_TypeInfo;
-extern TypeInfo IEqualityComparer_1_t4487_il2cpp_TypeInfo;
+extern TypeInfo FontU5BU5D_t3013_il2cpp_TypeInfo;
+extern TypeInfo List_1U5BU5D_t3014_il2cpp_TypeInfo;
+extern TypeInfo EqualityComparer_1_t3049_il2cpp_TypeInfo;
+extern TypeInfo IEqualityComparer_1_t4489_il2cpp_TypeInfo;
 // System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_KeyCollecti_22MethodDeclarations.h"
 // System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
@@ -2365,111 +2365,111 @@ extern TypeInfo IEqualityComparer_1_t4487_il2cpp_TypeInfo;
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_20MethodDeclarations.h"
 // System.Collections.Generic.EqualityComparer`1<System.Collections.Generic.List`1<UnityEngine.UI.Text>>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_21MethodDeclarations.h"
-extern Il2CppType Dictionary_2_t390_0_0_0;
-extern Il2CppType List_1_t529_0_0_0;
-extern Il2CppType IEqualityComparer_1_t3013_0_0_0;
-extern Il2CppType KeyCollection_t3035_0_0_0;
-extern Il2CppType ValueCollection_t3039_0_0_0;
-extern Il2CppType ICollection_1_t4485_0_0_0;
-extern Il2CppType IEnumerable_1_t4486_0_0_0;
-extern Il2CppType IEnumerator_1_t3851_0_0_0;
-extern Il2CppType KeyValuePair_2U5BU5D_t3850_0_0_0;
-extern Il2CppType KeyValuePair_2_t3015_0_0_0;
-extern Il2CppType Transform_1_t3014_0_0_0;
-extern Il2CppType Transform_1_t3042_0_0_0;
-extern Il2CppType Enumerator_t3037_0_0_0;
-extern Il2CppType ShimEnumerator_t3044_0_0_0;
-extern Il2CppType EqualityComparer_1_t3045_0_0_0;
-extern Il2CppType FontU5BU5D_t3011_0_0_0;
-extern Il2CppType List_1U5BU5D_t3012_0_0_0;
+extern Il2CppType Dictionary_2_t392_0_0_0;
+extern Il2CppType List_1_t531_0_0_0;
+extern Il2CppType IEqualityComparer_1_t3015_0_0_0;
+extern Il2CppType KeyCollection_t3037_0_0_0;
+extern Il2CppType ValueCollection_t3041_0_0_0;
+extern Il2CppType ICollection_1_t4487_0_0_0;
+extern Il2CppType IEnumerable_1_t4488_0_0_0;
+extern Il2CppType IEnumerator_1_t3853_0_0_0;
+extern Il2CppType KeyValuePair_2U5BU5D_t3852_0_0_0;
+extern Il2CppType KeyValuePair_2_t3017_0_0_0;
+extern Il2CppType Transform_1_t3016_0_0_0;
+extern Il2CppType Transform_1_t3044_0_0_0;
+extern Il2CppType Enumerator_t3039_0_0_0;
+extern Il2CppType ShimEnumerator_t3046_0_0_0;
 extern Il2CppType EqualityComparer_1_t3047_0_0_0;
-extern Il2CppType IEqualityComparer_1_t4487_0_0_0;
-extern Il2CppType Font_t388_0_0_0;
-extern MethodInfo Dictionary_2_ContainsKey_m16456_MethodInfo;
-extern MethodInfo Dictionary_2_get_Item_m16445_MethodInfo;
-extern MethodInfo Dictionary_2_set_Item_m16446_MethodInfo;
-extern MethodInfo IEqualityComparer_1_GetHashCode_m27722_MethodInfo;
-extern MethodInfo IEqualityComparer_1_Equals_m27723_MethodInfo;
-extern MethodInfo KeyCollection__ctor_m16653_MethodInfo;
-extern MethodInfo ValueCollection__ctor_m16688_MethodInfo;
-extern MethodInfo ICollection_1_get_Count_m27724_MethodInfo;
-extern MethodInfo IEnumerable_1_GetEnumerator_m27725_MethodInfo;
-extern MethodInfo IEnumerator_1_get_Current_m27726_MethodInfo;
-extern MethodInfo Dictionary_2_Add_m2702_MethodInfo;
-extern MethodInfo Dictionary_2_Remove_m16460_MethodInfo;
-extern MethodInfo Dictionary_2_U3CCopyToU3Em__0_m16467_MethodInfo;
-extern MethodInfo Transform_1__ctor_m16711_MethodInfo;
-extern MethodInfo Dictionary_2_make_pair_m16450_MethodInfo;
-extern MethodInfo Transform_1__ctor_m16715_MethodInfo;
-extern MethodInfo Enumerator__ctor_m16672_MethodInfo;
-extern MethodInfo ShimEnumerator__ctor_m16723_MethodInfo;
-extern MethodInfo Dictionary_2_get_Count_m16444_MethodInfo;
-extern MethodInfo KeyValuePair_2__ctor_m16468_MethodInfo;
-extern MethodInfo IEqualityComparer_1_Equals_m27727_MethodInfo;
-extern MethodInfo Dictionary_2_TryGetValue_m2700_MethodInfo;
-extern MethodInfo EqualityComparer_1_Equals_m27728_MethodInfo;
-struct Dictionary_2_t390;
+extern Il2CppType FontU5BU5D_t3013_0_0_0;
+extern Il2CppType List_1U5BU5D_t3014_0_0_0;
+extern Il2CppType EqualityComparer_1_t3049_0_0_0;
+extern Il2CppType IEqualityComparer_1_t4489_0_0_0;
+extern Il2CppType Font_t390_0_0_0;
+extern MethodInfo Dictionary_2_ContainsKey_m16467_MethodInfo;
+extern MethodInfo Dictionary_2_get_Item_m16456_MethodInfo;
+extern MethodInfo Dictionary_2_set_Item_m16457_MethodInfo;
+extern MethodInfo IEqualityComparer_1_GetHashCode_m27733_MethodInfo;
+extern MethodInfo IEqualityComparer_1_Equals_m27734_MethodInfo;
+extern MethodInfo KeyCollection__ctor_m16664_MethodInfo;
+extern MethodInfo ValueCollection__ctor_m16699_MethodInfo;
+extern MethodInfo ICollection_1_get_Count_m27735_MethodInfo;
+extern MethodInfo IEnumerable_1_GetEnumerator_m27736_MethodInfo;
+extern MethodInfo IEnumerator_1_get_Current_m27737_MethodInfo;
+extern MethodInfo Dictionary_2_Add_m2713_MethodInfo;
+extern MethodInfo Dictionary_2_Remove_m16471_MethodInfo;
+extern MethodInfo Dictionary_2_U3CCopyToU3Em__0_m16478_MethodInfo;
+extern MethodInfo Transform_1__ctor_m16722_MethodInfo;
+extern MethodInfo Dictionary_2_make_pair_m16461_MethodInfo;
+extern MethodInfo Transform_1__ctor_m16726_MethodInfo;
+extern MethodInfo Enumerator__ctor_m16683_MethodInfo;
+extern MethodInfo ShimEnumerator__ctor_m16734_MethodInfo;
+extern MethodInfo Dictionary_2_get_Count_m16455_MethodInfo;
+extern MethodInfo KeyValuePair_2__ctor_m16479_MethodInfo;
+extern MethodInfo IEqualityComparer_1_Equals_m27738_MethodInfo;
+extern MethodInfo Dictionary_2_TryGetValue_m2711_MethodInfo;
+extern MethodInfo EqualityComparer_1_Equals_m27739_MethodInfo;
+struct Dictionary_2_t392;
 // Declaration System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::Do_CopyTo<System.Collections.DictionaryEntry,System.Collections.DictionaryEntry>(!!1[],System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::Do_CopyTo<System.Collections.DictionaryEntry,System.Collections.DictionaryEntry>(!!1[],System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
-extern "C" void Dictionary_2_Do_CopyTo_TisDictionaryEntry_t1154_TisDictionaryEntry_t1154_m25134 (Dictionary_2_t390 * __this, DictionaryEntryU5BU5D_t4009* p0, int32_t p1, Transform_1_t3014 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-struct Dictionary_2_t390;
-struct Dictionary_2_t2619;
+extern "C" void Dictionary_2_Do_CopyTo_TisDictionaryEntry_t1156_TisDictionaryEntry_t1156_m25145 (Dictionary_2_t392 * __this, DictionaryEntryU5BU5D_t4011* p0, int32_t p1, Transform_1_t3016 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+struct Dictionary_2_t392;
+struct Dictionary_2_t2621;
 // System.Collections.Generic.Dictionary`2<System.Object,System.Object>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_gen_18.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Object,System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>
 #include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_52.h"
 // Declaration System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Do_ICollectionCopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Do_ICollectionCopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
-extern "C" void Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3015_m25137_gshared (Dictionary_2_t2619 * __this, Array_t * p0, int32_t p1, Transform_1_t3043 * p2, MethodInfo* method);
-#define Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3015_m25137(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t2619 *, Array_t *, int32_t, Transform_1_t3043 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3015_m25137_gshared)(__this, p0, p1, p2, method)
+extern "C" void Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3017_m25148_gshared (Dictionary_2_t2621 * __this, Array_t * p0, int32_t p1, Transform_1_t3045 * p2, MethodInfo* method);
+#define Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3017_m25148(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t2621 *, Array_t *, int32_t, Transform_1_t3045 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3017_m25148_gshared)(__this, p0, p1, p2, method)
 // Declaration System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::Do_ICollectionCopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::Do_ICollectionCopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>(System.Array,System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
-#define Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3015_m25136(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t390 *, Array_t *, int32_t, Transform_1_t3042 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3015_m25137_gshared)(__this, p0, p1, p2, method)
-struct Dictionary_2_t390;
+#define Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3017_m25147(__this, p0, p1, p2, method) (( void (*) (Dictionary_2_t392 *, Array_t *, int32_t, Transform_1_t3044 *, MethodInfo*))Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3017_m25148_gshared)(__this, p0, p1, p2, method)
+struct Dictionary_2_t392;
 // Declaration System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::Do_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>,System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>(!!1[],System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::Do_CopyTo<System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>,System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>(!!1[],System.Int32,System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,!!0>)
-extern "C" void Dictionary_2_Do_CopyTo_TisKeyValuePair_2_t3015_TisKeyValuePair_2_t3015_m25139 (Dictionary_2_t390 * __this, KeyValuePair_2U5BU5D_t3850* p0, int32_t p1, Transform_1_t3042 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern Il2CppGenericMethod Dictionary_2_get_Keys_m16461_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_get_Values_m16462_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_ContainsKey_m16456_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_ToTKey_m16463_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_get_Item_m16445_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_ToTValue_m16464_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_set_Item_m16446_GenericMethod;
-extern Il2CppGenericMethod IEqualityComparer_1_GetHashCode_m27722_GenericMethod;
-extern Il2CppGenericMethod IEqualityComparer_1_Equals_m27723_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Resize_m16454_GenericMethod;
-extern Il2CppGenericMethod KeyCollection__ctor_m16653_GenericMethod;
-extern Il2CppGenericMethod ValueCollection__ctor_m16688_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Init_m16447_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2__ctor_m16424_GenericMethod;
-extern Il2CppGenericMethod ICollection_1_get_Count_m27724_GenericMethod;
-extern Il2CppGenericMethod IEnumerable_1_GetEnumerator_m27725_GenericMethod;
-extern Il2CppGenericMethod IEnumerator_1_get_Current_m27726_GenericMethod;
-extern Il2CppGenericMethod KeyValuePair_2_get_Key_m16469_GenericMethod;
-extern Il2CppGenericMethod KeyValuePair_2_get_Value_m16471_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Add_m2702_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Remove_m16460_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_ContainsKeyValuePair_m16465_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_CopyTo_m16453_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_CopyToCheck_m16449_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_U3CCopyToU3Em__0_m16467_GenericMethod;
-extern Il2CppGenericMethod Transform_1__ctor_m16711_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Do_CopyTo_TisDictionaryEntry_t1154_TisDictionaryEntry_t1154_m25134_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_make_pair_m16450_GenericMethod;
-extern Il2CppGenericMethod Transform_1__ctor_m16715_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3015_m25136_GenericMethod;
-extern Il2CppGenericMethod Enumerator__ctor_m16672_GenericMethod;
-extern Il2CppGenericMethod ShimEnumerator__ctor_m16723_GenericMethod;
-extern Il2CppGenericMethod EqualityComparer_1_get_Default_m16733_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_InitArrays_m16448_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_get_Count_m16444_GenericMethod;
-extern Il2CppGenericMethod KeyValuePair_2__ctor_m16468_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_Do_CopyTo_TisKeyValuePair_2_t3015_TisKeyValuePair_2_t3015_m25139_GenericMethod;
-extern Il2CppGenericMethod EqualityComparer_1_get_Default_m16741_GenericMethod;
-extern Il2CppGenericMethod IEqualityComparer_1_Equals_m27727_GenericMethod;
-extern Il2CppGenericMethod Dictionary_2_TryGetValue_m2700_GenericMethod;
-extern Il2CppGenericMethod EqualityComparer_1_Equals_m27728_GenericMethod;
+extern "C" void Dictionary_2_Do_CopyTo_TisKeyValuePair_2_t3017_TisKeyValuePair_2_t3017_m25150 (Dictionary_2_t392 * __this, KeyValuePair_2U5BU5D_t3852* p0, int32_t p1, Transform_1_t3044 * p2, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern Il2CppGenericMethod Dictionary_2_get_Keys_m16472_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_get_Values_m16473_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_ContainsKey_m16467_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_ToTKey_m16474_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_get_Item_m16456_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_ToTValue_m16475_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_set_Item_m16457_GenericMethod;
+extern Il2CppGenericMethod IEqualityComparer_1_GetHashCode_m27733_GenericMethod;
+extern Il2CppGenericMethod IEqualityComparer_1_Equals_m27734_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Resize_m16465_GenericMethod;
+extern Il2CppGenericMethod KeyCollection__ctor_m16664_GenericMethod;
+extern Il2CppGenericMethod ValueCollection__ctor_m16699_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Init_m16458_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2__ctor_m16435_GenericMethod;
+extern Il2CppGenericMethod ICollection_1_get_Count_m27735_GenericMethod;
+extern Il2CppGenericMethod IEnumerable_1_GetEnumerator_m27736_GenericMethod;
+extern Il2CppGenericMethod IEnumerator_1_get_Current_m27737_GenericMethod;
+extern Il2CppGenericMethod KeyValuePair_2_get_Key_m16480_GenericMethod;
+extern Il2CppGenericMethod KeyValuePair_2_get_Value_m16482_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Add_m2713_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Remove_m16471_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_ContainsKeyValuePair_m16476_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_CopyTo_m16464_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_CopyToCheck_m16460_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_U3CCopyToU3Em__0_m16478_GenericMethod;
+extern Il2CppGenericMethod Transform_1__ctor_m16722_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Do_CopyTo_TisDictionaryEntry_t1156_TisDictionaryEntry_t1156_m25145_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_make_pair_m16461_GenericMethod;
+extern Il2CppGenericMethod Transform_1__ctor_m16726_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Do_ICollectionCopyTo_TisKeyValuePair_2_t3017_m25147_GenericMethod;
+extern Il2CppGenericMethod Enumerator__ctor_m16683_GenericMethod;
+extern Il2CppGenericMethod ShimEnumerator__ctor_m16734_GenericMethod;
+extern Il2CppGenericMethod EqualityComparer_1_get_Default_m16744_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_InitArrays_m16459_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_get_Count_m16455_GenericMethod;
+extern Il2CppGenericMethod KeyValuePair_2__ctor_m16479_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_Do_CopyTo_TisKeyValuePair_2_t3017_TisKeyValuePair_2_t3017_m25150_GenericMethod;
+extern Il2CppGenericMethod EqualityComparer_1_get_Default_m16752_GenericMethod;
+extern Il2CppGenericMethod IEqualityComparer_1_Equals_m27738_GenericMethod;
+extern Il2CppGenericMethod Dictionary_2_TryGetValue_m2711_GenericMethod;
+extern Il2CppGenericMethod EqualityComparer_1_Equals_m27739_GenericMethod;
 
 
 // System.Void System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::.ctor()
@@ -2553,8 +2553,8 @@ extern Il2CppGenericMethod EqualityComparer_1_Equals_m27728_GenericMethod;
 #else
 #endif
 
-extern Il2CppGenericMethod KeyValuePair_2_set_Key_m16470_GenericMethod;
-extern Il2CppGenericMethod KeyValuePair_2_set_Value_m16472_GenericMethod;
+extern Il2CppGenericMethod KeyValuePair_2_set_Key_m16481_GenericMethod;
+extern Il2CppGenericMethod KeyValuePair_2_set_Value_m16483_GenericMethod;
 
 
 // System.Void System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>::.ctor(TKey,TValue)
@@ -2581,15 +2581,15 @@ extern Il2CppGenericMethod KeyValuePair_2_set_Value_m16472_GenericMethod;
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_12.h"
 // System.Comparison`1<UnityEngine.UI.Text>
 #include "mscorlib_System_Comparison_1_gen_14.h"
-extern TypeInfo Text_t299_il2cpp_TypeInfo;
-extern TypeInfo ICollection_1_t3854_il2cpp_TypeInfo;
-extern TypeInfo TextU5BU5D_t3016_il2cpp_TypeInfo;
-extern TypeInfo Enumerator_t3022_il2cpp_TypeInfo;
-extern TypeInfo IEnumerable_1_t3852_il2cpp_TypeInfo;
-extern TypeInfo IEnumerator_1_t3853_il2cpp_TypeInfo;
-extern TypeInfo ReadOnlyCollection_1_t3024_il2cpp_TypeInfo;
-extern TypeInfo Predicate_1_t3028_il2cpp_TypeInfo;
-extern TypeInfo Comparer_1_t3029_il2cpp_TypeInfo;
+extern TypeInfo Text_t301_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t3856_il2cpp_TypeInfo;
+extern TypeInfo TextU5BU5D_t3018_il2cpp_TypeInfo;
+extern TypeInfo Enumerator_t3024_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t3854_il2cpp_TypeInfo;
+extern TypeInfo IEnumerator_1_t3855_il2cpp_TypeInfo;
+extern TypeInfo ReadOnlyCollection_1_t3026_il2cpp_TypeInfo;
+extern TypeInfo Predicate_1_t3030_il2cpp_TypeInfo;
+extern TypeInfo Comparer_1_t3031_il2cpp_TypeInfo;
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.Text>
 #include "mscorlib_System_Collections_ObjectModel_ReadOnlyCollection_1_12MethodDeclarations.h"
 // System.Predicate`1<UnityEngine.UI.Text>
@@ -2598,78 +2598,78 @@ extern TypeInfo Comparer_1_t3029_il2cpp_TypeInfo;
 #include "mscorlib_System_Collections_Generic_List_1_Enumerator_gen_15MethodDeclarations.h"
 // System.Collections.Generic.Comparer`1<UnityEngine.UI.Text>
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_12MethodDeclarations.h"
-extern Il2CppType ICollection_1_t3854_0_0_0;
-extern Il2CppType TextU5BU5D_t3016_0_0_0;
-extern Il2CppType Enumerator_t3022_0_0_0;
-extern Il2CppType IEnumerable_1_t3852_0_0_0;
-extern Il2CppType IEnumerator_1_t3853_0_0_0;
-extern Il2CppType ReadOnlyCollection_1_t3024_0_0_0;
-extern Il2CppType Predicate_1_t3028_0_0_0;
-extern Il2CppType Comparer_1_t3029_0_0_0;
-extern MethodInfo List_1_get_Item_m2705_MethodInfo;
-extern MethodInfo List_1_set_Item_m16518_MethodInfo;
-extern MethodInfo ICollection_1_get_Count_m27729_MethodInfo;
-extern MethodInfo List_1_Add_m2707_MethodInfo;
-extern MethodInfo List_1_Contains_m16498_MethodInfo;
-extern MethodInfo List_1_IndexOf_m16504_MethodInfo;
-extern MethodInfo List_1_Insert_m16507_MethodInfo;
-extern MethodInfo List_1_Remove_m2708_MethodInfo;
-extern MethodInfo ICollection_1_CopyTo_m27730_MethodInfo;
-extern MethodInfo IEnumerable_1_GetEnumerator_m27731_MethodInfo;
-extern MethodInfo IEnumerator_1_get_Current_m27732_MethodInfo;
-extern MethodInfo ReadOnlyCollection_1__ctor_m16550_MethodInfo;
-extern MethodInfo Predicate_1_Invoke_m16625_MethodInfo;
-extern MethodInfo Enumerator__ctor_m16544_MethodInfo;
-extern MethodInfo List_1_RemoveAt_m16510_MethodInfo;
+extern Il2CppType ICollection_1_t3856_0_0_0;
+extern Il2CppType TextU5BU5D_t3018_0_0_0;
+extern Il2CppType Enumerator_t3024_0_0_0;
+extern Il2CppType IEnumerable_1_t3854_0_0_0;
+extern Il2CppType IEnumerator_1_t3855_0_0_0;
+extern Il2CppType ReadOnlyCollection_1_t3026_0_0_0;
+extern Il2CppType Predicate_1_t3030_0_0_0;
+extern Il2CppType Comparer_1_t3031_0_0_0;
+extern MethodInfo List_1_get_Item_m2716_MethodInfo;
+extern MethodInfo List_1_set_Item_m16529_MethodInfo;
+extern MethodInfo ICollection_1_get_Count_m27740_MethodInfo;
+extern MethodInfo List_1_Add_m2718_MethodInfo;
+extern MethodInfo List_1_Contains_m16509_MethodInfo;
+extern MethodInfo List_1_IndexOf_m16515_MethodInfo;
+extern MethodInfo List_1_Insert_m16518_MethodInfo;
+extern MethodInfo List_1_Remove_m2719_MethodInfo;
+extern MethodInfo ICollection_1_CopyTo_m27741_MethodInfo;
+extern MethodInfo IEnumerable_1_GetEnumerator_m27742_MethodInfo;
+extern MethodInfo IEnumerator_1_get_Current_m27743_MethodInfo;
+extern MethodInfo ReadOnlyCollection_1__ctor_m16561_MethodInfo;
+extern MethodInfo Predicate_1_Invoke_m16636_MethodInfo;
+extern MethodInfo Enumerator__ctor_m16555_MethodInfo;
+extern MethodInfo List_1_RemoveAt_m16521_MethodInfo;
 struct Array_t;
 // Declaration System.Void System.Array::Resize<UnityEngine.UI.Text>(!!0[]&,System.Int32)
 // System.Void System.Array::Resize<UnityEngine.UI.Text>(!!0[]&,System.Int32)
-#define Array_Resize_TisText_t299_m25081(__this /* static, unused */, p0, p1, method) (( void (*) (Object_t * /* static, unused */, TextU5BU5D_t3016**, int32_t, MethodInfo*))Array_Resize_TisObject_t_m24054_gshared)(__this /* static, unused */, p0, p1, method)
+#define Array_Resize_TisText_t301_m25092(__this /* static, unused */, p0, p1, method) (( void (*) (Object_t * /* static, unused */, TextU5BU5D_t3018**, int32_t, MethodInfo*))Array_Resize_TisObject_t_m24065_gshared)(__this /* static, unused */, p0, p1, method)
 struct Array_t;
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Text>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_19.h"
 // Declaration System.Int32 System.Array::IndexOf<UnityEngine.UI.Text>(!!0[],!!0,System.Int32,System.Int32)
 // System.Int32 System.Array::IndexOf<UnityEngine.UI.Text>(!!0[],!!0,System.Int32,System.Int32)
-#define Array_IndexOf_TisText_t299_m25083(__this /* static, unused */, p0, p1, p2, p3, method) (( int32_t (*) (Object_t * /* static, unused */, TextU5BU5D_t3016*, Text_t299 *, int32_t, int32_t, MethodInfo*))Array_IndexOf_TisObject_t_m11688_gshared)(__this /* static, unused */, p0, p1, p2, p3, method)
+#define Array_IndexOf_TisText_t301_m25094(__this /* static, unused */, p0, p1, p2, p3, method) (( int32_t (*) (Object_t * /* static, unused */, TextU5BU5D_t3018*, Text_t301 *, int32_t, int32_t, MethodInfo*))Array_IndexOf_TisObject_t_m11699_gshared)(__this /* static, unused */, p0, p1, p2, p3, method)
 struct Array_t;
 // Declaration System.Void System.Array::Sort<UnityEngine.UI.Text>(!!0[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<!!0>)
 // System.Void System.Array::Sort<UnityEngine.UI.Text>(!!0[],System.Int32,System.Int32,System.Collections.Generic.IComparer`1<!!0>)
-#define Array_Sort_TisText_t299_m25085(__this /* static, unused */, p0, p1, p2, p3, method) (( void (*) (Object_t * /* static, unused */, TextU5BU5D_t3016*, int32_t, int32_t, Object_t*, MethodInfo*))Array_Sort_TisObject_t_m24057_gshared)(__this /* static, unused */, p0, p1, p2, p3, method)
+#define Array_Sort_TisText_t301_m25096(__this /* static, unused */, p0, p1, p2, p3, method) (( void (*) (Object_t * /* static, unused */, TextU5BU5D_t3018*, int32_t, int32_t, Object_t*, MethodInfo*))Array_Sort_TisObject_t_m24068_gshared)(__this /* static, unused */, p0, p1, p2, p3, method)
 struct Array_t;
 // Declaration System.Void System.Array::Sort<UnityEngine.UI.Text>(!!0[],System.Int32,System.Comparison`1<!!0>)
 // System.Void System.Array::Sort<UnityEngine.UI.Text>(!!0[],System.Int32,System.Comparison`1<!!0>)
-#define Array_Sort_TisText_t299_m25093(__this /* static, unused */, p0, p1, p2, method) (( void (*) (Object_t * /* static, unused */, TextU5BU5D_t3016*, int32_t, Comparison_1_t3031 *, MethodInfo*))Array_Sort_TisObject_t_m24164_gshared)(__this /* static, unused */, p0, p1, p2, method)
-extern Il2CppGenericMethod List_1_get_Item_m2705_GenericMethod;
-extern Il2CppGenericMethod List_1_set_Item_m16518_GenericMethod;
-extern Il2CppGenericMethod Array_Resize_TisText_t299_m25081_GenericMethod;
-extern Il2CppGenericMethod List_1_CheckIndex_m16506_GenericMethod;
-extern Il2CppGenericMethod List_1_CheckCollection_m16508_GenericMethod;
-extern Il2CppGenericMethod List_1_AddEnumerable_m16494_GenericMethod;
-extern Il2CppGenericMethod ICollection_1_get_Count_m27729_GenericMethod;
-extern Il2CppGenericMethod List_1_AddCollection_m16493_GenericMethod;
-extern Il2CppGenericMethod List_1_GetEnumerator_m16503_GenericMethod;
-extern Il2CppGenericMethod List_1_Add_m2707_GenericMethod;
-extern Il2CppGenericMethod List_1_Contains_m16498_GenericMethod;
-extern Il2CppGenericMethod List_1_IndexOf_m16504_GenericMethod;
-extern Il2CppGenericMethod List_1_Insert_m16507_GenericMethod;
-extern Il2CppGenericMethod List_1_Remove_m2708_GenericMethod;
-extern Il2CppGenericMethod List_1_GrowIfNeeded_m16492_GenericMethod;
-extern Il2CppGenericMethod List_1_get_Capacity_m16516_GenericMethod;
-extern Il2CppGenericMethod List_1_set_Capacity_m16517_GenericMethod;
-extern Il2CppGenericMethod ICollection_1_CopyTo_m27730_GenericMethod;
-extern Il2CppGenericMethod IEnumerable_1_GetEnumerator_m27731_GenericMethod;
-extern Il2CppGenericMethod IEnumerator_1_get_Current_m27732_GenericMethod;
-extern Il2CppGenericMethod ReadOnlyCollection_1__ctor_m16550_GenericMethod;
-extern Il2CppGenericMethod Array_IndexOf_TisText_t299_m25083_GenericMethod;
-extern Il2CppGenericMethod List_1_CheckMatch_m16501_GenericMethod;
-extern Il2CppGenericMethod List_1_GetIndex_m16502_GenericMethod;
-extern Il2CppGenericMethod Predicate_1_Invoke_m16625_GenericMethod;
-extern Il2CppGenericMethod Enumerator__ctor_m16544_GenericMethod;
-extern Il2CppGenericMethod List_1_Shift_m16505_GenericMethod;
-extern Il2CppGenericMethod List_1_RemoveAt_m16510_GenericMethod;
-extern Il2CppGenericMethod Comparer_1_get_Default_m16631_GenericMethod;
-extern Il2CppGenericMethod Array_Sort_TisText_t299_m25085_GenericMethod;
-extern Il2CppGenericMethod Array_Sort_TisText_t299_m25093_GenericMethod;
+#define Array_Sort_TisText_t301_m25104(__this /* static, unused */, p0, p1, p2, method) (( void (*) (Object_t * /* static, unused */, TextU5BU5D_t3018*, int32_t, Comparison_1_t3033 *, MethodInfo*))Array_Sort_TisObject_t_m24175_gshared)(__this /* static, unused */, p0, p1, p2, method)
+extern Il2CppGenericMethod List_1_get_Item_m2716_GenericMethod;
+extern Il2CppGenericMethod List_1_set_Item_m16529_GenericMethod;
+extern Il2CppGenericMethod Array_Resize_TisText_t301_m25092_GenericMethod;
+extern Il2CppGenericMethod List_1_CheckIndex_m16517_GenericMethod;
+extern Il2CppGenericMethod List_1_CheckCollection_m16519_GenericMethod;
+extern Il2CppGenericMethod List_1_AddEnumerable_m16505_GenericMethod;
+extern Il2CppGenericMethod ICollection_1_get_Count_m27740_GenericMethod;
+extern Il2CppGenericMethod List_1_AddCollection_m16504_GenericMethod;
+extern Il2CppGenericMethod List_1_GetEnumerator_m16514_GenericMethod;
+extern Il2CppGenericMethod List_1_Add_m2718_GenericMethod;
+extern Il2CppGenericMethod List_1_Contains_m16509_GenericMethod;
+extern Il2CppGenericMethod List_1_IndexOf_m16515_GenericMethod;
+extern Il2CppGenericMethod List_1_Insert_m16518_GenericMethod;
+extern Il2CppGenericMethod List_1_Remove_m2719_GenericMethod;
+extern Il2CppGenericMethod List_1_GrowIfNeeded_m16503_GenericMethod;
+extern Il2CppGenericMethod List_1_get_Capacity_m16527_GenericMethod;
+extern Il2CppGenericMethod List_1_set_Capacity_m16528_GenericMethod;
+extern Il2CppGenericMethod ICollection_1_CopyTo_m27741_GenericMethod;
+extern Il2CppGenericMethod IEnumerable_1_GetEnumerator_m27742_GenericMethod;
+extern Il2CppGenericMethod IEnumerator_1_get_Current_m27743_GenericMethod;
+extern Il2CppGenericMethod ReadOnlyCollection_1__ctor_m16561_GenericMethod;
+extern Il2CppGenericMethod Array_IndexOf_TisText_t301_m25094_GenericMethod;
+extern Il2CppGenericMethod List_1_CheckMatch_m16512_GenericMethod;
+extern Il2CppGenericMethod List_1_GetIndex_m16513_GenericMethod;
+extern Il2CppGenericMethod Predicate_1_Invoke_m16636_GenericMethod;
+extern Il2CppGenericMethod Enumerator__ctor_m16555_GenericMethod;
+extern Il2CppGenericMethod List_1_Shift_m16516_GenericMethod;
+extern Il2CppGenericMethod List_1_RemoveAt_m16521_GenericMethod;
+extern Il2CppGenericMethod Comparer_1_get_Default_m16642_GenericMethod;
+extern Il2CppGenericMethod Array_Sort_TisText_t301_m25096_GenericMethod;
+extern Il2CppGenericMethod Array_Sort_TisText_t301_m25104_GenericMethod;
 
 
 // System.Void System.Collections.Generic.List`1<UnityEngine.UI.Text>::.ctor()
@@ -2754,17 +2754,17 @@ extern Il2CppGenericMethod Array_Sort_TisText_t299_m25093_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo InternalEnumerator_1_t3017_il2cpp_TypeInfo;
+extern TypeInfo InternalEnumerator_1_t3019_il2cpp_TypeInfo;
 // System.Array/InternalEnumerator`1<UnityEngine.UI.Text>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_99MethodDeclarations.h"
 
-extern Il2CppType InternalEnumerator_1_t3017_0_0_0;
+extern Il2CppType InternalEnumerator_1_t3019_0_0_0;
 struct Array_t;
 // Declaration !!0 System.Array::InternalArray__get_Item<UnityEngine.UI.Text>(System.Int32)
 // !!0 System.Array::InternalArray__get_Item<UnityEngine.UI.Text>(System.Int32)
-#define Array_InternalArray__get_Item_TisText_t299_m25026(__this, p0, method) (( Text_t299 * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23558_gshared)(__this, p0, method)
-extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16523_GenericMethod;
-extern Il2CppGenericMethod Array_InternalArray__get_Item_TisText_t299_m25026_GenericMethod;
+#define Array_InternalArray__get_Item_TisText_t301_m25037(__this, p0, method) (( Text_t301 * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23569_gshared)(__this, p0, method)
+extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16534_GenericMethod;
+extern Il2CppGenericMethod Array_InternalArray__get_Item_TisText_t301_m25037_GenericMethod;
 
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.UI.Text>::.ctor(System.Array)
@@ -2775,7 +2775,7 @@ extern Il2CppGenericMethod Array_InternalArray__get_Item_TisText_t299_m25026_Gen
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IList_1_t3023_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t3025_il2cpp_TypeInfo;
 
 
 
@@ -2787,7 +2787,7 @@ extern TypeInfo IList_1_t3023_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo ICollection_1_t4488_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t4490_il2cpp_TypeInfo;
 
 
 
@@ -2801,7 +2801,7 @@ extern TypeInfo ICollection_1_t4488_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEnumerable_1_t4489_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t4491_il2cpp_TypeInfo;
 
 
 
@@ -2809,7 +2809,7 @@ extern TypeInfo IEnumerable_1_t4489_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEnumerator_1_t4490_il2cpp_TypeInfo;
+extern TypeInfo IEnumerator_1_t4492_il2cpp_TypeInfo;
 
 
 
@@ -2819,18 +2819,18 @@ extern TypeInfo IEnumerator_1_t4490_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo InternalEnumerator_1_t3018_il2cpp_TypeInfo;
+extern TypeInfo InternalEnumerator_1_t3020_il2cpp_TypeInfo;
 // System.Array/InternalEnumerator`1<UnityEngine.UI.ILayoutElement>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_100MethodDeclarations.h"
 
-extern TypeInfo ILayoutElement_t500_il2cpp_TypeInfo;
-extern Il2CppType InternalEnumerator_1_t3018_0_0_0;
+extern TypeInfo ILayoutElement_t502_il2cpp_TypeInfo;
+extern Il2CppType InternalEnumerator_1_t3020_0_0_0;
 struct Array_t;
 // Declaration !!0 System.Array::InternalArray__get_Item<UnityEngine.UI.ILayoutElement>(System.Int32)
 // !!0 System.Array::InternalArray__get_Item<UnityEngine.UI.ILayoutElement>(System.Int32)
-#define Array_InternalArray__get_Item_TisILayoutElement_t500_m25037(__this, p0, method) (( Object_t * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23558_gshared)(__this, p0, method)
-extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16528_GenericMethod;
-extern Il2CppGenericMethod Array_InternalArray__get_Item_TisILayoutElement_t500_m25037_GenericMethod;
+#define Array_InternalArray__get_Item_TisILayoutElement_t502_m25048(__this, p0, method) (( Object_t * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23569_gshared)(__this, p0, method)
+extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16539_GenericMethod;
+extern Il2CppGenericMethod Array_InternalArray__get_Item_TisILayoutElement_t502_m25048_GenericMethod;
 
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.UI.ILayoutElement>::.ctor(System.Array)
@@ -2841,7 +2841,7 @@ extern Il2CppGenericMethod Array_InternalArray__get_Item_TisILayoutElement_t500_
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IList_1_t4491_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t4493_il2cpp_TypeInfo;
 
 
 
@@ -2853,7 +2853,7 @@ extern TypeInfo IList_1_t4491_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo ICollection_1_t4492_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t4494_il2cpp_TypeInfo;
 
 // UnityEngine.UI.MaskableGraphic
 #include "UnityEngine_UI_UnityEngine_UI_MaskableGraphic.h"
@@ -2869,7 +2869,7 @@ extern TypeInfo ICollection_1_t4492_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEnumerable_1_t4493_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t4495_il2cpp_TypeInfo;
 
 
 
@@ -2877,7 +2877,7 @@ extern TypeInfo IEnumerable_1_t4493_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEnumerator_1_t4494_il2cpp_TypeInfo;
+extern TypeInfo IEnumerator_1_t4496_il2cpp_TypeInfo;
 
 
 
@@ -2887,18 +2887,18 @@ extern TypeInfo IEnumerator_1_t4494_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo InternalEnumerator_1_t3019_il2cpp_TypeInfo;
+extern TypeInfo InternalEnumerator_1_t3021_il2cpp_TypeInfo;
 // System.Array/InternalEnumerator`1<UnityEngine.UI.MaskableGraphic>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_101MethodDeclarations.h"
 
-extern TypeInfo MaskableGraphic_t297_il2cpp_TypeInfo;
-extern Il2CppType InternalEnumerator_1_t3019_0_0_0;
+extern TypeInfo MaskableGraphic_t299_il2cpp_TypeInfo;
+extern Il2CppType InternalEnumerator_1_t3021_0_0_0;
 struct Array_t;
 // Declaration !!0 System.Array::InternalArray__get_Item<UnityEngine.UI.MaskableGraphic>(System.Int32)
 // !!0 System.Array::InternalArray__get_Item<UnityEngine.UI.MaskableGraphic>(System.Int32)
-#define Array_InternalArray__get_Item_TisMaskableGraphic_t297_m25048(__this, p0, method) (( MaskableGraphic_t297 * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23558_gshared)(__this, p0, method)
-extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16533_GenericMethod;
-extern Il2CppGenericMethod Array_InternalArray__get_Item_TisMaskableGraphic_t297_m25048_GenericMethod;
+#define Array_InternalArray__get_Item_TisMaskableGraphic_t299_m25059(__this, p0, method) (( MaskableGraphic_t299 * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23569_gshared)(__this, p0, method)
+extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16544_GenericMethod;
+extern Il2CppGenericMethod Array_InternalArray__get_Item_TisMaskableGraphic_t299_m25059_GenericMethod;
 
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.UI.MaskableGraphic>::.ctor(System.Array)
@@ -2909,7 +2909,7 @@ extern Il2CppGenericMethod Array_InternalArray__get_Item_TisMaskableGraphic_t297
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IList_1_t4495_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t4497_il2cpp_TypeInfo;
 
 
 
@@ -2921,7 +2921,7 @@ extern TypeInfo IList_1_t4495_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo ICollection_1_t4496_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t4498_il2cpp_TypeInfo;
 
 
 
@@ -2935,7 +2935,7 @@ extern TypeInfo ICollection_1_t4496_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEnumerable_1_t4497_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t4499_il2cpp_TypeInfo;
 
 
 
@@ -2943,7 +2943,7 @@ extern TypeInfo IEnumerable_1_t4497_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEnumerator_1_t4498_il2cpp_TypeInfo;
+extern TypeInfo IEnumerator_1_t4500_il2cpp_TypeInfo;
 
 
 
@@ -2953,18 +2953,18 @@ extern TypeInfo IEnumerator_1_t4498_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo InternalEnumerator_1_t3020_il2cpp_TypeInfo;
+extern TypeInfo InternalEnumerator_1_t3022_il2cpp_TypeInfo;
 // System.Array/InternalEnumerator`1<UnityEngine.UI.IMaskable>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_102MethodDeclarations.h"
 
-extern TypeInfo IMaskable_t563_il2cpp_TypeInfo;
-extern Il2CppType InternalEnumerator_1_t3020_0_0_0;
+extern TypeInfo IMaskable_t565_il2cpp_TypeInfo;
+extern Il2CppType InternalEnumerator_1_t3022_0_0_0;
 struct Array_t;
 // Declaration !!0 System.Array::InternalArray__get_Item<UnityEngine.UI.IMaskable>(System.Int32)
 // !!0 System.Array::InternalArray__get_Item<UnityEngine.UI.IMaskable>(System.Int32)
-#define Array_InternalArray__get_Item_TisIMaskable_t563_m25059(__this, p0, method) (( Object_t * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23558_gshared)(__this, p0, method)
-extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16538_GenericMethod;
-extern Il2CppGenericMethod Array_InternalArray__get_Item_TisIMaskable_t563_m25059_GenericMethod;
+#define Array_InternalArray__get_Item_TisIMaskable_t565_m25070(__this, p0, method) (( Object_t * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23569_gshared)(__this, p0, method)
+extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16549_GenericMethod;
+extern Il2CppGenericMethod Array_InternalArray__get_Item_TisIMaskable_t565_m25070_GenericMethod;
 
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.UI.IMaskable>::.ctor(System.Array)
@@ -2975,7 +2975,7 @@ extern Il2CppGenericMethod Array_InternalArray__get_Item_TisIMaskable_t563_m2505
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IList_1_t4499_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t4501_il2cpp_TypeInfo;
 
 
 
@@ -2987,7 +2987,7 @@ extern TypeInfo IList_1_t4499_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo ICollection_1_t535_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t537_il2cpp_TypeInfo;
 
 // UnityEngine.UI.Graphic
 #include "UnityEngine_UI_UnityEngine_UI_Graphic.h"
@@ -3003,7 +3003,7 @@ extern TypeInfo ICollection_1_t535_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEnumerable_1_t3863_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t3865_il2cpp_TypeInfo;
 
 
 
@@ -3011,7 +3011,7 @@ extern TypeInfo IEnumerable_1_t3863_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEnumerator_1_t3864_il2cpp_TypeInfo;
+extern TypeInfo IEnumerator_1_t3866_il2cpp_TypeInfo;
 
 
 
@@ -3021,18 +3021,18 @@ extern TypeInfo IEnumerator_1_t3864_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo InternalEnumerator_1_t3021_il2cpp_TypeInfo;
+extern TypeInfo InternalEnumerator_1_t3023_il2cpp_TypeInfo;
 // System.Array/InternalEnumerator`1<UnityEngine.UI.Graphic>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_103MethodDeclarations.h"
 
-extern TypeInfo Graphic_t397_il2cpp_TypeInfo;
-extern Il2CppType InternalEnumerator_1_t3021_0_0_0;
+extern TypeInfo Graphic_t399_il2cpp_TypeInfo;
+extern Il2CppType InternalEnumerator_1_t3023_0_0_0;
 struct Array_t;
 // Declaration !!0 System.Array::InternalArray__get_Item<UnityEngine.UI.Graphic>(System.Int32)
 // !!0 System.Array::InternalArray__get_Item<UnityEngine.UI.Graphic>(System.Int32)
-#define Array_InternalArray__get_Item_TisGraphic_t397_m25070(__this, p0, method) (( Graphic_t397 * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23558_gshared)(__this, p0, method)
-extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16543_GenericMethod;
-extern Il2CppGenericMethod Array_InternalArray__get_Item_TisGraphic_t397_m25070_GenericMethod;
+#define Array_InternalArray__get_Item_TisGraphic_t399_m25081(__this, p0, method) (( Graphic_t399 * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23569_gshared)(__this, p0, method)
+extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16554_GenericMethod;
+extern Il2CppGenericMethod Array_InternalArray__get_Item_TisGraphic_t399_m25081_GenericMethod;
 
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.UI.Graphic>::.ctor(System.Array)
@@ -3043,7 +3043,7 @@ extern Il2CppGenericMethod Array_InternalArray__get_Item_TisGraphic_t397_m25070_
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IList_1_t405_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t407_il2cpp_TypeInfo;
 
 
 
@@ -3056,7 +3056,7 @@ extern TypeInfo IList_1_t405_il2cpp_TypeInfo;
 #else
 #endif
 
-extern Il2CppGenericMethod Enumerator_VerifyState_m16547_GenericMethod;
+extern Il2CppGenericMethod Enumerator_VerifyState_m16558_GenericMethod;
 
 
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Text>::.ctor(System.Collections.Generic.List`1<T>)
@@ -3071,16 +3071,16 @@ extern Il2CppGenericMethod Enumerator_VerifyState_m16547_GenericMethod;
 
 // System.Collections.ObjectModel.Collection`1<UnityEngine.UI.Text>
 #include "mscorlib_System_Collections_ObjectModel_Collection_1_gen_12MethodDeclarations.h"
-extern Il2CppType IList_1_t3023_0_0_0;
-extern MethodInfo ReadOnlyCollection_1_get_Item_m16579_MethodInfo;
-extern MethodInfo IList_1_get_Item_m27733_MethodInfo;
-extern MethodInfo ICollection_1_Contains_m27734_MethodInfo;
-extern MethodInfo IList_1_IndexOf_m27735_MethodInfo;
-extern Il2CppGenericMethod ReadOnlyCollection_1_get_Item_m16579_GenericMethod;
-extern Il2CppGenericMethod IList_1_get_Item_m27733_GenericMethod;
-extern Il2CppGenericMethod Collection_1_IsValidItem_m16611_GenericMethod;
-extern Il2CppGenericMethod ICollection_1_Contains_m27734_GenericMethod;
-extern Il2CppGenericMethod IList_1_IndexOf_m27735_GenericMethod;
+extern Il2CppType IList_1_t3025_0_0_0;
+extern MethodInfo ReadOnlyCollection_1_get_Item_m16590_MethodInfo;
+extern MethodInfo IList_1_get_Item_m27744_MethodInfo;
+extern MethodInfo ICollection_1_Contains_m27745_MethodInfo;
+extern MethodInfo IList_1_IndexOf_m27746_MethodInfo;
+extern Il2CppGenericMethod ReadOnlyCollection_1_get_Item_m16590_GenericMethod;
+extern Il2CppGenericMethod IList_1_get_Item_m27744_GenericMethod;
+extern Il2CppGenericMethod Collection_1_IsValidItem_m16622_GenericMethod;
+extern Il2CppGenericMethod ICollection_1_Contains_m27745_GenericMethod;
+extern Il2CppGenericMethod IList_1_IndexOf_m27746_GenericMethod;
 
 
 // System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.UI.Text>::.ctor(System.Collections.Generic.IList`1<T>)
@@ -3118,36 +3118,36 @@ extern Il2CppGenericMethod IList_1_IndexOf_m27735_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo Collection_1_t3025_il2cpp_TypeInfo;
+extern TypeInfo Collection_1_t3027_il2cpp_TypeInfo;
 
-extern Il2CppType Collection_1_t3025_0_0_0;
-extern Il2CppType Text_t299_0_0_0;
-extern MethodInfo ICollection_1_get_IsReadOnly_m27736_MethodInfo;
-extern MethodInfo Collection_1_SetItem_m16610_MethodInfo;
-extern MethodInfo List_1__ctor_m2701_MethodInfo;
-extern MethodInfo Collection_1_InsertItem_m16603_MethodInfo;
-extern MethodInfo Collection_1_IndexOf_m16601_MethodInfo;
-extern MethodInfo Collection_1_RemoveItem_m16606_MethodInfo;
-extern MethodInfo Collection_1_ClearItems_m16597_MethodInfo;
-extern MethodInfo ICollection_1_Clear_m27737_MethodInfo;
-extern MethodInfo IList_1_Insert_m27738_MethodInfo;
-extern MethodInfo IList_1_RemoveAt_m27739_MethodInfo;
-extern MethodInfo IList_1_set_Item_m27740_MethodInfo;
-extern Il2CppGenericMethod ICollection_1_get_IsReadOnly_m27736_GenericMethod;
-extern Il2CppGenericMethod Collection_1_IsSynchronized_m16614_GenericMethod;
-extern Il2CppGenericMethod Collection_1_IsFixedSize_m16615_GenericMethod;
-extern Il2CppGenericMethod Collection_1_ConvertItem_m16612_GenericMethod;
-extern Il2CppGenericMethod Collection_1_SetItem_m16610_GenericMethod;
-extern Il2CppGenericMethod List_1__ctor_m2701_GenericMethod;
-extern Il2CppGenericMethod Collection_1_InsertItem_m16603_GenericMethod;
-extern Il2CppGenericMethod Collection_1_CheckWritable_m16613_GenericMethod;
-extern Il2CppGenericMethod Collection_1_IndexOf_m16601_GenericMethod;
-extern Il2CppGenericMethod Collection_1_RemoveItem_m16606_GenericMethod;
-extern Il2CppGenericMethod Collection_1_ClearItems_m16597_GenericMethod;
-extern Il2CppGenericMethod ICollection_1_Clear_m27737_GenericMethod;
-extern Il2CppGenericMethod IList_1_Insert_m27738_GenericMethod;
-extern Il2CppGenericMethod IList_1_RemoveAt_m27739_GenericMethod;
-extern Il2CppGenericMethod IList_1_set_Item_m27740_GenericMethod;
+extern Il2CppType Collection_1_t3027_0_0_0;
+extern Il2CppType Text_t301_0_0_0;
+extern MethodInfo ICollection_1_get_IsReadOnly_m27747_MethodInfo;
+extern MethodInfo Collection_1_SetItem_m16621_MethodInfo;
+extern MethodInfo List_1__ctor_m2712_MethodInfo;
+extern MethodInfo Collection_1_InsertItem_m16614_MethodInfo;
+extern MethodInfo Collection_1_IndexOf_m16612_MethodInfo;
+extern MethodInfo Collection_1_RemoveItem_m16617_MethodInfo;
+extern MethodInfo Collection_1_ClearItems_m16608_MethodInfo;
+extern MethodInfo ICollection_1_Clear_m27748_MethodInfo;
+extern MethodInfo IList_1_Insert_m27749_MethodInfo;
+extern MethodInfo IList_1_RemoveAt_m27750_MethodInfo;
+extern MethodInfo IList_1_set_Item_m27751_MethodInfo;
+extern Il2CppGenericMethod ICollection_1_get_IsReadOnly_m27747_GenericMethod;
+extern Il2CppGenericMethod Collection_1_IsSynchronized_m16625_GenericMethod;
+extern Il2CppGenericMethod Collection_1_IsFixedSize_m16626_GenericMethod;
+extern Il2CppGenericMethod Collection_1_ConvertItem_m16623_GenericMethod;
+extern Il2CppGenericMethod Collection_1_SetItem_m16621_GenericMethod;
+extern Il2CppGenericMethod List_1__ctor_m2712_GenericMethod;
+extern Il2CppGenericMethod Collection_1_InsertItem_m16614_GenericMethod;
+extern Il2CppGenericMethod Collection_1_CheckWritable_m16624_GenericMethod;
+extern Il2CppGenericMethod Collection_1_IndexOf_m16612_GenericMethod;
+extern Il2CppGenericMethod Collection_1_RemoveItem_m16617_GenericMethod;
+extern Il2CppGenericMethod Collection_1_ClearItems_m16608_GenericMethod;
+extern Il2CppGenericMethod ICollection_1_Clear_m27748_GenericMethod;
+extern Il2CppGenericMethod IList_1_Insert_m27749_GenericMethod;
+extern Il2CppGenericMethod IList_1_RemoveAt_m27750_GenericMethod;
+extern Il2CppGenericMethod IList_1_set_Item_m27751_GenericMethod;
 
 
 // System.Void System.Collections.ObjectModel.Collection`1<UnityEngine.UI.Text>::.ctor()
@@ -3189,24 +3189,24 @@ extern Il2CppGenericMethod IList_1_set_Item_m27740_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo EqualityComparer_1_t3026_il2cpp_TypeInfo;
+extern TypeInfo EqualityComparer_1_t3028_il2cpp_TypeInfo;
 // System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Text>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_19MethodDeclarations.h"
 
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UI.Text>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_Defau_19.h"
-extern TypeInfo DefaultComparer_t3027_il2cpp_TypeInfo;
+extern TypeInfo DefaultComparer_t3029_il2cpp_TypeInfo;
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UI.Text>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_Defau_19MethodDeclarations.h"
-extern Il2CppType EqualityComparer_1_t3026_0_0_0;
-extern Il2CppType IEquatable_1_t4500_0_0_0;
-extern Il2CppType DefaultComparer_t3027_0_0_0;
-extern MethodInfo DefaultComparer__ctor_m16621_MethodInfo;
-extern MethodInfo EqualityComparer_1_GetHashCode_m27741_MethodInfo;
-extern MethodInfo EqualityComparer_1_Equals_m25082_MethodInfo;
-extern Il2CppGenericMethod DefaultComparer__ctor_m16621_GenericMethod;
-extern Il2CppGenericMethod EqualityComparer_1_GetHashCode_m27741_GenericMethod;
-extern Il2CppGenericMethod EqualityComparer_1_Equals_m25082_GenericMethod;
+extern Il2CppType EqualityComparer_1_t3028_0_0_0;
+extern Il2CppType IEquatable_1_t4502_0_0_0;
+extern Il2CppType DefaultComparer_t3029_0_0_0;
+extern MethodInfo DefaultComparer__ctor_m16632_MethodInfo;
+extern MethodInfo EqualityComparer_1_GetHashCode_m27752_MethodInfo;
+extern MethodInfo EqualityComparer_1_Equals_m25093_MethodInfo;
+extern Il2CppGenericMethod DefaultComparer__ctor_m16632_GenericMethod;
+extern Il2CppGenericMethod EqualityComparer_1_GetHashCode_m27752_GenericMethod;
+extern Il2CppGenericMethod EqualityComparer_1_Equals_m25093_GenericMethod;
 
 
 // System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Text>::.ctor()
@@ -3219,7 +3219,7 @@ extern Il2CppGenericMethod EqualityComparer_1_Equals_m25082_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEqualityComparer_1_t4501_il2cpp_TypeInfo;
+extern TypeInfo IEqualityComparer_1_t4503_il2cpp_TypeInfo;
 
 
 
@@ -3228,7 +3228,7 @@ extern TypeInfo IEqualityComparer_1_t4501_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEquatable_1_t4500_il2cpp_TypeInfo;
+extern TypeInfo IEquatable_1_t4502_il2cpp_TypeInfo;
 
 
 
@@ -3237,7 +3237,7 @@ extern TypeInfo IEquatable_1_t4500_il2cpp_TypeInfo;
 #else
 #endif
 
-extern Il2CppGenericMethod EqualityComparer_1__ctor_m16616_GenericMethod;
+extern Il2CppGenericMethod EqualityComparer_1__ctor_m16627_GenericMethod;
 
 
 // System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UI.Text>::.ctor()
@@ -3259,15 +3259,15 @@ extern Il2CppGenericMethod EqualityComparer_1__ctor_m16616_GenericMethod;
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UI.Text>
 #include "mscorlib_System_Collections_Generic_Comparer_1_DefaultCompar_12.h"
-extern TypeInfo DefaultComparer_t3030_il2cpp_TypeInfo;
+extern TypeInfo DefaultComparer_t3032_il2cpp_TypeInfo;
 // System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UI.Text>
 #include "mscorlib_System_Collections_Generic_Comparer_1_DefaultCompar_12MethodDeclarations.h"
-extern Il2CppType IComparable_1_t4103_0_0_0;
-extern Il2CppType DefaultComparer_t3030_0_0_0;
-extern MethodInfo DefaultComparer__ctor_m16632_MethodInfo;
-extern MethodInfo Comparer_1_Compare_m27742_MethodInfo;
-extern Il2CppGenericMethod DefaultComparer__ctor_m16632_GenericMethod;
-extern Il2CppGenericMethod Comparer_1_Compare_m27742_GenericMethod;
+extern Il2CppType IComparable_1_t4105_0_0_0;
+extern Il2CppType DefaultComparer_t3032_0_0_0;
+extern MethodInfo DefaultComparer__ctor_m16643_MethodInfo;
+extern MethodInfo Comparer_1_Compare_m27753_MethodInfo;
+extern Il2CppGenericMethod DefaultComparer__ctor_m16643_GenericMethod;
+extern Il2CppGenericMethod Comparer_1_Compare_m27753_GenericMethod;
 
 
 // System.Void System.Collections.Generic.Comparer`1<UnityEngine.UI.Text>::.ctor()
@@ -3278,7 +3278,7 @@ extern Il2CppGenericMethod Comparer_1_Compare_m27742_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IComparer_1_t4102_il2cpp_TypeInfo;
+extern TypeInfo IComparer_1_t4104_il2cpp_TypeInfo;
 
 
 
@@ -3286,7 +3286,7 @@ extern TypeInfo IComparer_1_t4102_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IComparable_1_t4103_il2cpp_TypeInfo;
+extern TypeInfo IComparable_1_t4105_il2cpp_TypeInfo;
 
 
 
@@ -3295,9 +3295,9 @@ extern TypeInfo IComparable_1_t4103_il2cpp_TypeInfo;
 #else
 #endif
 
-extern MethodInfo IComparable_1_CompareTo_m25091_MethodInfo;
-extern Il2CppGenericMethod Comparer_1__ctor_m16628_GenericMethod;
-extern Il2CppGenericMethod IComparable_1_CompareTo_m25091_GenericMethod;
+extern MethodInfo IComparable_1_CompareTo_m25102_MethodInfo;
+extern Il2CppGenericMethod Comparer_1__ctor_m16639_GenericMethod;
+extern Il2CppGenericMethod IComparable_1_CompareTo_m25102_GenericMethod;
 
 
 // System.Void System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.UI.Text>::.ctor()
@@ -3305,7 +3305,7 @@ extern Il2CppGenericMethod IComparable_1_CompareTo_m25091_GenericMethod;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo Comparison_1_t3031_il2cpp_TypeInfo;
+extern TypeInfo Comparison_1_t3033_il2cpp_TypeInfo;
 // System.Comparison`1<UnityEngine.UI.Text>
 #include "mscorlib_System_Comparison_1_gen_14MethodDeclarations.h"
 
@@ -3320,23 +3320,23 @@ extern TypeInfo Comparison_1_t3031_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo InternalEnumerator_1_t3032_il2cpp_TypeInfo;
+extern TypeInfo InternalEnumerator_1_t3034_il2cpp_TypeInfo;
 // System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_104MethodDeclarations.h"
 
-extern Il2CppType InternalEnumerator_1_t3032_0_0_0;
+extern Il2CppType InternalEnumerator_1_t3034_0_0_0;
 struct Array_t;
 // Declaration !!0 System.Array::InternalArray__get_Item<System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>(System.Int32)
 // !!0 System.Array::InternalArray__get_Item<System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>(System.Int32)
-extern "C" KeyValuePair_2_t3015  Array_InternalArray__get_Item_TisKeyValuePair_2_t3015_m25096_gshared (Array_t * __this, int32_t p0, MethodInfo* method);
-#define Array_InternalArray__get_Item_TisKeyValuePair_2_t3015_m25096(__this, p0, method) (( KeyValuePair_2_t3015  (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisKeyValuePair_2_t3015_m25096_gshared)(__this, p0, method)
-extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16642_GenericMethod;
-extern Il2CppGenericMethod Array_InternalArray__get_Item_TisKeyValuePair_2_t3015_m25096_GenericMethod;
+extern "C" KeyValuePair_2_t3017  Array_InternalArray__get_Item_TisKeyValuePair_2_t3017_m25107_gshared (Array_t * __this, int32_t p0, MethodInfo* method);
+#define Array_InternalArray__get_Item_TisKeyValuePair_2_t3017_m25107(__this, p0, method) (( KeyValuePair_2_t3017  (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisKeyValuePair_2_t3017_m25107_gshared)(__this, p0, method)
+extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16653_GenericMethod;
+extern Il2CppGenericMethod Array_InternalArray__get_Item_TisKeyValuePair_2_t3017_m25107_GenericMethod;
 
 
 // System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>::.ctor(System.Array)
-extern Il2CppGenericMethod InternalEnumerator_1__ctor_m16638_GenericMethod;
-extern "C" void InternalEnumerator_1__ctor_m16638_gshared (InternalEnumerator_1_t3032 * __this, Array_t * ___array, MethodInfo* method)
+extern Il2CppGenericMethod InternalEnumerator_1__ctor_m16649_GenericMethod;
+extern "C" void InternalEnumerator_1__ctor_m16649_gshared (InternalEnumerator_1_t3034 * __this, Array_t * ___array, MethodInfo* method)
 {
 	{
 		Array_t * L_0 = ___array;
@@ -3346,19 +3346,19 @@ extern "C" void InternalEnumerator_1__ctor_m16638_gshared (InternalEnumerator_1_
 	}
 }
 // System.Object System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>::System.Collections.IEnumerator.get_Current()
-extern Il2CppGenericMethod InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16639_GenericMethod;
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16639_gshared (InternalEnumerator_1_t3032 * __this, MethodInfo* method)
+extern Il2CppGenericMethod InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16650_GenericMethod;
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m16650_gshared (InternalEnumerator_1_t3034 * __this, MethodInfo* method)
 {
 	{
-		KeyValuePair_2_t3015  L_0 = (( KeyValuePair_2_t3015  (*) (InternalEnumerator_1_t3032 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
-		KeyValuePair_2_t3015  L_1 = L_0;
+		KeyValuePair_2_t3017  L_0 = (( KeyValuePair_2_t3017  (*) (InternalEnumerator_1_t3034 *, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)->method)(__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0));
+		KeyValuePair_2_t3017  L_1 = L_0;
 		Object_t * L_2 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1), &L_1);
 		return L_2;
 	}
 }
 // System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>::Dispose()
-extern Il2CppGenericMethod InternalEnumerator_1_Dispose_m16640_GenericMethod;
-extern "C" void InternalEnumerator_1_Dispose_m16640_gshared (InternalEnumerator_1_t3032 * __this, MethodInfo* method)
+extern Il2CppGenericMethod InternalEnumerator_1_Dispose_m16651_GenericMethod;
+extern "C" void InternalEnumerator_1_Dispose_m16651_gshared (InternalEnumerator_1_t3034 * __this, MethodInfo* method)
 {
 	{
 		__this->___idx_1 = ((int32_t)-2);
@@ -3366,8 +3366,8 @@ extern "C" void InternalEnumerator_1_Dispose_m16640_gshared (InternalEnumerator_
 	}
 }
 // System.Boolean System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>::MoveNext()
-extern Il2CppGenericMethod InternalEnumerator_1_MoveNext_m16641_GenericMethod;
-extern "C" bool InternalEnumerator_1_MoveNext_m16641_gshared (InternalEnumerator_1_t3032 * __this, MethodInfo* method)
+extern Il2CppGenericMethod InternalEnumerator_1_MoveNext_m16652_GenericMethod;
+extern "C" bool InternalEnumerator_1_MoveNext_m16652_gshared (InternalEnumerator_1_t3034 * __this, MethodInfo* method)
 {
 	int32_t V_0 = 0;
 	int32_t G_B5_0 = 0;
@@ -3381,7 +3381,7 @@ extern "C" bool InternalEnumerator_1_MoveNext_m16641_gshared (InternalEnumerator
 	{
 		Array_t * L_1 = (__this->___array_0);
 		NullCheck(L_1);
-		int32_t L_2 = Array_get_Length_m5965(L_1, /*hidden argument*/&Array_get_Length_m5965_MethodInfo);
+		int32_t L_2 = Array_get_Length_m5976(L_1, /*hidden argument*/&Array_get_Length_m5976_MethodInfo);
 		__this->___idx_1 = L_2;
 	}
 
@@ -3414,7 +3414,7 @@ IL_003e:
 	}
 }
 // T System.Array/InternalEnumerator`1<System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>::get_Current()
-extern "C" KeyValuePair_2_t3015  InternalEnumerator_1_get_Current_m16642_gshared (InternalEnumerator_1_t3032 * __this, MethodInfo* method)
+extern "C" KeyValuePair_2_t3017  InternalEnumerator_1_get_Current_m16653_gshared (InternalEnumerator_1_t3034 * __this, MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->___idx_1);
@@ -3424,8 +3424,8 @@ extern "C" KeyValuePair_2_t3015  InternalEnumerator_1_get_Current_m16642_gshared
 		}
 	}
 	{
-		InvalidOperationException_t1330 * L_1 = (InvalidOperationException_t1330 *)il2cpp_codegen_object_new (InitializedTypeInfo(&InvalidOperationException_t1330_il2cpp_TypeInfo));
-		InvalidOperationException__ctor_m5961(L_1, (String_t*) &_stringLiteral1304, /*hidden argument*/&InvalidOperationException__ctor_m5961_MethodInfo);
+		InvalidOperationException_t1332 * L_1 = (InvalidOperationException_t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&InvalidOperationException_t1332_il2cpp_TypeInfo));
+		InvalidOperationException__ctor_m5972(L_1, (String_t*) &_stringLiteral1304, /*hidden argument*/&InvalidOperationException__ctor_m5972_MethodInfo);
 		il2cpp_codegen_raise_exception(L_1);
 	}
 
@@ -3438,8 +3438,8 @@ IL_0015:
 		}
 	}
 	{
-		InvalidOperationException_t1330 * L_3 = (InvalidOperationException_t1330 *)il2cpp_codegen_object_new (InitializedTypeInfo(&InvalidOperationException_t1330_il2cpp_TypeInfo));
-		InvalidOperationException__ctor_m5961(L_3, (String_t*) &_stringLiteral1305, /*hidden argument*/&InvalidOperationException__ctor_m5961_MethodInfo);
+		InvalidOperationException_t1332 * L_3 = (InvalidOperationException_t1332 *)il2cpp_codegen_object_new (InitializedTypeInfo(&InvalidOperationException_t1332_il2cpp_TypeInfo));
+		InvalidOperationException__ctor_m5972(L_3, (String_t*) &_stringLiteral1305, /*hidden argument*/&InvalidOperationException__ctor_m5972_MethodInfo);
 		il2cpp_codegen_raise_exception(L_3);
 	}
 
@@ -3448,17 +3448,17 @@ IL_0029:
 		Array_t * L_4 = (__this->___array_0);
 		Array_t * L_5 = (__this->___array_0);
 		NullCheck(L_5);
-		int32_t L_6 = Array_get_Length_m5965(L_5, /*hidden argument*/&Array_get_Length_m5965_MethodInfo);
+		int32_t L_6 = Array_get_Length_m5976(L_5, /*hidden argument*/&Array_get_Length_m5976_MethodInfo);
 		int32_t L_7 = (__this->___idx_1);
 		NullCheck(L_4);
-		KeyValuePair_2_t3015  L_8 = (( KeyValuePair_2_t3015  (*) (Array_t *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
+		KeyValuePair_2_t3017  L_8 = (( KeyValuePair_2_t3017  (*) (Array_t *, int32_t, MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2)->method)(L_4, ((int32_t)((int32_t)((int32_t)((int32_t)L_6-(int32_t)1))-(int32_t)L_7)), /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2));
 		return L_8;
 	}
 }
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IList_1_t4502_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t4504_il2cpp_TypeInfo;
 
 
 
@@ -3470,7 +3470,7 @@ extern TypeInfo IList_1_t4502_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IDictionary_2_t3849_il2cpp_TypeInfo;
+extern TypeInfo IDictionary_2_t3851_il2cpp_TypeInfo;
 
 
 
@@ -3484,7 +3484,7 @@ extern TypeInfo IDictionary_2_t3849_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo ICollection_1_t3847_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t3849_il2cpp_TypeInfo;
 
 
 
@@ -3498,7 +3498,7 @@ extern TypeInfo ICollection_1_t3847_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEnumerable_1_t4503_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t4505_il2cpp_TypeInfo;
 
 
 
@@ -3506,7 +3506,7 @@ extern TypeInfo IEnumerable_1_t4503_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEnumerator_1_t3855_il2cpp_TypeInfo;
+extern TypeInfo IEnumerator_1_t3857_il2cpp_TypeInfo;
 
 
 
@@ -3516,17 +3516,17 @@ extern TypeInfo IEnumerator_1_t3855_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo InternalEnumerator_1_t3033_il2cpp_TypeInfo;
+extern TypeInfo InternalEnumerator_1_t3035_il2cpp_TypeInfo;
 // System.Array/InternalEnumerator`1<UnityEngine.Font>
 #include "mscorlib_System_Array_InternalEnumerator_1_gen_105MethodDeclarations.h"
 
-extern Il2CppType InternalEnumerator_1_t3033_0_0_0;
+extern Il2CppType InternalEnumerator_1_t3035_0_0_0;
 struct Array_t;
 // Declaration !!0 System.Array::InternalArray__get_Item<UnityEngine.Font>(System.Int32)
 // !!0 System.Array::InternalArray__get_Item<UnityEngine.Font>(System.Int32)
-#define Array_InternalArray__get_Item_TisFont_t388_m25107(__this, p0, method) (( Font_t388 * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23558_gshared)(__this, p0, method)
-extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16647_GenericMethod;
-extern Il2CppGenericMethod Array_InternalArray__get_Item_TisFont_t388_m25107_GenericMethod;
+#define Array_InternalArray__get_Item_TisFont_t390_m25118(__this, p0, method) (( Font_t390 * (*) (Array_t *, int32_t, MethodInfo*))Array_InternalArray__get_Item_TisObject_t_m23569_gshared)(__this, p0, method)
+extern Il2CppGenericMethod InternalEnumerator_1_get_Current_m16658_GenericMethod;
+extern Il2CppGenericMethod Array_InternalArray__get_Item_TisFont_t390_m25118_GenericMethod;
 
 
 // System.Void System.Array/InternalEnumerator`1<UnityEngine.Font>::.ctor(System.Array)
@@ -3537,7 +3537,7 @@ extern Il2CppGenericMethod Array_InternalArray__get_Item_TisFont_t388_m25107_Gen
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IList_1_t4504_il2cpp_TypeInfo;
+extern TypeInfo IList_1_t4506_il2cpp_TypeInfo;
 
 
 
@@ -3549,7 +3549,7 @@ extern TypeInfo IList_1_t4504_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo ICollection_1_t3848_il2cpp_TypeInfo;
+extern TypeInfo ICollection_1_t3850_il2cpp_TypeInfo;
 
 
 
@@ -3563,7 +3563,7 @@ extern TypeInfo ICollection_1_t3848_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEnumerable_1_t4505_il2cpp_TypeInfo;
+extern TypeInfo IEnumerable_1_t4507_il2cpp_TypeInfo;
 
 
 
@@ -3571,7 +3571,7 @@ extern TypeInfo IEnumerable_1_t4505_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo IEnumerator_1_t3856_il2cpp_TypeInfo;
+extern TypeInfo IEnumerator_1_t3858_il2cpp_TypeInfo;
 
 
 

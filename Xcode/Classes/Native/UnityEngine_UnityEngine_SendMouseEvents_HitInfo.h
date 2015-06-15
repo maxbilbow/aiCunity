@@ -7,7 +7,7 @@ struct Camera_t19;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // UnityEngine.SendMouseEvents/HitInfo
-struct  HitInfo_t861 
+struct  HitInfo_t863 
 {
 	// UnityEngine.GameObject UnityEngine.SendMouseEvents/HitInfo::target
 	GameObject_t92 * ___target_0;

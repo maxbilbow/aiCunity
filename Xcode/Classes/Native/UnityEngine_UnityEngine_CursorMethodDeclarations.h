@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Cursor
-struct Cursor_t646;
+struct Cursor_t648;
 // UnityEngine.CursorLockMode
 #include "UnityEngine_UnityEngine_CursorLockMode.h"
 

@@ -9,7 +9,7 @@ struct GameObject_t92;
 // UnityEngine.MonoBehaviour
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 // PanelManager
-struct  PanelManager_t280  : public MonoBehaviour_t5
+struct  PanelManager_t282  : public MonoBehaviour_t5
 {
 	// UnityEngine.Animator PanelManager::initiallyOpen
 	Animator_t42 * ___initiallyOpen_4;

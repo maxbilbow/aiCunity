@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.RectTransform
-struct RectTransform_t275;
+struct RectTransform_t277;
 // UnityEngine.UI.Scrollbar
-struct Scrollbar_t446;
+struct Scrollbar_t448;
 // UnityEngine.UI.ScrollRect/ScrollRectEvent
-struct ScrollRectEvent_t450;
+struct ScrollRectEvent_t452;
 // UnityEngine.Vector3[]
 struct Vector3U5BU5D_t73;
 // UnityEngine.EventSystems.UIBehaviour
@@ -17,10 +17,10 @@ struct Vector3U5BU5D_t73;
 // UnityEngine.Bounds
 #include "UnityEngine_UnityEngine_Bounds.h"
 // UnityEngine.UI.ScrollRect
-struct  ScrollRect_t452  : public UIBehaviour_t292
+struct  ScrollRect_t454  : public UIBehaviour_t294
 {
 	// UnityEngine.RectTransform UnityEngine.UI.ScrollRect::m_Content
-	RectTransform_t275 * ___m_Content_2;
+	RectTransform_t277 * ___m_Content_2;
 	// System.Boolean UnityEngine.UI.ScrollRect::m_Horizontal
 	bool ___m_Horizontal_3;
 	// System.Boolean UnityEngine.UI.ScrollRect::m_Vertical
@@ -36,17 +36,17 @@ struct  ScrollRect_t452  : public UIBehaviour_t292
 	// System.Single UnityEngine.UI.ScrollRect::m_ScrollSensitivity
 	float ___m_ScrollSensitivity_9;
 	// UnityEngine.UI.Scrollbar UnityEngine.UI.ScrollRect::m_HorizontalScrollbar
-	Scrollbar_t446 * ___m_HorizontalScrollbar_10;
+	Scrollbar_t448 * ___m_HorizontalScrollbar_10;
 	// UnityEngine.UI.Scrollbar UnityEngine.UI.ScrollRect::m_VerticalScrollbar
-	Scrollbar_t446 * ___m_VerticalScrollbar_11;
+	Scrollbar_t448 * ___m_VerticalScrollbar_11;
 	// UnityEngine.UI.ScrollRect/ScrollRectEvent UnityEngine.UI.ScrollRect::m_OnValueChanged
-	ScrollRectEvent_t450 * ___m_OnValueChanged_12;
+	ScrollRectEvent_t452 * ___m_OnValueChanged_12;
 	// UnityEngine.Vector2 UnityEngine.UI.ScrollRect::m_PointerStartLocalCursor
 	Vector2_t13  ___m_PointerStartLocalCursor_13;
 	// UnityEngine.Vector2 UnityEngine.UI.ScrollRect::m_ContentStartPosition
 	Vector2_t13  ___m_ContentStartPosition_14;
 	// UnityEngine.RectTransform UnityEngine.UI.ScrollRect::m_ViewRect
-	RectTransform_t275 * ___m_ViewRect_15;
+	RectTransform_t277 * ___m_ViewRect_15;
 	// UnityEngine.Bounds UnityEngine.UI.ScrollRect::m_ContentBounds
 	Bounds_t190  ___m_ContentBounds_16;
 	// UnityEngine.Bounds UnityEngine.UI.ScrollRect::m_ViewBounds

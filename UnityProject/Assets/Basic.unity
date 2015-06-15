@@ -729,6 +729,8 @@ GameObject:
   - 114: {fileID: 268694117}
   - 114: {fileID: 268694116}
   - 114: {fileID: 268694120}
+  - 222: {fileID: 268694123}
+  - 114: {fileID: 268694121}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -751,7 +753,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 32
 --- !u!114 &268694117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,7 +786,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -820,6 +822,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6289fb61d660478fb4419655c463ccd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &268694121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268694115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7eb95b33004e41d68cac78a203d4e3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  MovementRange: 100
+  axesToUse: 0
+  horizontalAxisName: Horizontal
+  verticalAxisName: Vertical
+--- !u!222 &268694123
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268694115}
 --- !u!1 &332717943
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,6 +1612,7 @@ GameObject:
   - 114: {fileID: 927267761}
   - 114: {fileID: 927267760}
   - 114: {fileID: 927267759}
+  - 114: {fileID: 927267763}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1651,6 +1676,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
+--- !u!114 &927267763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 927267758}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7eb95b33004e41d68cac78a203d4e3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  MovementRange: 100
+  axesToUse: 0
+  horizontalAxisName: Horizontal
+  verticalAxisName: Vertical
 --- !u!1 &970308615
 GameObject:
   m_ObjectHideFlags: 0

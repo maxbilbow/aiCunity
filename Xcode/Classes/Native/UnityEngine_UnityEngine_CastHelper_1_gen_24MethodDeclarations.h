@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.CastHelper`1<UnityEngine.EventSystems.EventSystem>
-struct CastHelper_1_t2941;
+struct CastHelper_1_t2943;
 

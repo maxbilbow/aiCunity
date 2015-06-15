@@ -3,14 +3,14 @@
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t423;
+struct IAsyncResult_t425;
 // System.AsyncCallback
-struct AsyncCallback_t424;
+struct AsyncCallback_t426;
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_14.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Object,System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>>
-struct  Transform_1_t3043  : public MulticastDelegate_t427
+struct  Transform_1_t3045  : public MulticastDelegate_t429
 {
 };

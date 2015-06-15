@@ -7,14 +7,14 @@
 // <PrivateImplementationDetails>/$ArrayType$12
 #include "System_U3CPrivateImplementationDetailsU3E_$ArrayType$12.h"
 // <PrivateImplementationDetails>
-struct  U3CPrivateImplementationDetailsU3E_t1327  : public Object_t
+struct  U3CPrivateImplementationDetailsU3E_t1329  : public Object_t
 {
 };
-struct U3CPrivateImplementationDetailsU3E_t1327_StaticFields{
+struct U3CPrivateImplementationDetailsU3E_t1329_StaticFields{
 	// <PrivateImplementationDetails>/$ArrayType$128 <PrivateImplementationDetails>::$$field-2
-	$ArrayType$128_t1325  ___$$fieldU2D2_0;
+	$ArrayType$128_t1327  ___$$fieldU2D2_0;
 	// <PrivateImplementationDetails>/$ArrayType$12 <PrivateImplementationDetails>::$$field-3
-	$ArrayType$12_t1326  ___$$fieldU2D3_1;
+	$ArrayType$12_t1328  ___$$fieldU2D3_1;
 	// <PrivateImplementationDetails>/$ArrayType$12 <PrivateImplementationDetails>::$$field-4
-	$ArrayType$12_t1326  ___$$fieldU2D4_2;
+	$ArrayType$12_t1328  ___$$fieldU2D4_2;
 };

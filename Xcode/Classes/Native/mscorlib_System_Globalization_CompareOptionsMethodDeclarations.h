@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Globalization.CompareOptions
-struct CompareOptions_t1522;
+struct CompareOptions_t1524;
 

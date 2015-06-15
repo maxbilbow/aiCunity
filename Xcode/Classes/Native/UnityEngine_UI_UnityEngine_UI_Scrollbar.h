@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.RectTransform
-struct RectTransform_t275;
+struct RectTransform_t277;
 // UnityEngine.UI.Scrollbar/ScrollEvent
-struct ScrollEvent_t443;
+struct ScrollEvent_t445;
 // UnityEngine.Coroutine
-struct Coroutine_t435;
-struct Coroutine_t435_marshaled;
+struct Coroutine_t437;
+struct Coroutine_t437_marshaled;
 // UnityEngine.UI.Selectable
 #include "UnityEngine_UI_UnityEngine_UI_Selectable.h"
 // UnityEngine.UI.Scrollbar/Direction
@@ -16,10 +16,10 @@ struct Coroutine_t435_marshaled;
 // UnityEngine.DrivenRectTransformTracker
 #include "UnityEngine_UnityEngine_DrivenRectTransformTracker.h"
 // UnityEngine.UI.Scrollbar
-struct  Scrollbar_t446  : public Selectable_t293
+struct  Scrollbar_t448  : public Selectable_t295
 {
 	// UnityEngine.RectTransform UnityEngine.UI.Scrollbar::m_HandleRect
-	RectTransform_t275 * ___m_HandleRect_16;
+	RectTransform_t277 * ___m_HandleRect_16;
 	// UnityEngine.UI.Scrollbar/Direction UnityEngine.UI.Scrollbar::m_Direction
 	int32_t ___m_Direction_17;
 	// System.Single UnityEngine.UI.Scrollbar::m_Value
@@ -29,15 +29,15 @@ struct  Scrollbar_t446  : public Selectable_t293
 	// System.Int32 UnityEngine.UI.Scrollbar::m_NumberOfSteps
 	int32_t ___m_NumberOfSteps_20;
 	// UnityEngine.UI.Scrollbar/ScrollEvent UnityEngine.UI.Scrollbar::m_OnValueChanged
-	ScrollEvent_t443 * ___m_OnValueChanged_21;
+	ScrollEvent_t445 * ___m_OnValueChanged_21;
 	// UnityEngine.RectTransform UnityEngine.UI.Scrollbar::m_ContainerRect
-	RectTransform_t275 * ___m_ContainerRect_22;
+	RectTransform_t277 * ___m_ContainerRect_22;
 	// UnityEngine.Vector2 UnityEngine.UI.Scrollbar::m_Offset
 	Vector2_t13  ___m_Offset_23;
 	// UnityEngine.DrivenRectTransformTracker UnityEngine.UI.Scrollbar::m_Tracker
-	DrivenRectTransformTracker_t448  ___m_Tracker_24;
+	DrivenRectTransformTracker_t450  ___m_Tracker_24;
 	// UnityEngine.Coroutine UnityEngine.UI.Scrollbar::m_PointerDownRepeat
-	Coroutine_t435 * ___m_PointerDownRepeat_25;
+	Coroutine_t437 * ___m_PointerDownRepeat_25;
 	// System.Boolean UnityEngine.UI.Scrollbar::isPointerDownAndNotDragging
 	bool ___isPointerDownAndNotDragging_26;
 };

@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.CastHelper`1<UnityEngine.ParticleSystem>
-struct CastHelper_1_t2800;
+struct CastHelper_1_t2802;
 

@@ -3,7 +3,7 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Runtime.InteropServices.DispIdAttribute
-struct  DispIdAttribute_t1780  : public Attribute_t714
+struct  DispIdAttribute_t1782  : public Attribute_t716
 {
 	// System.Int32 System.Runtime.InteropServices.DispIdAttribute::id
 	int32_t ___id_0;

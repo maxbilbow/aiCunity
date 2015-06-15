@@ -5,27 +5,27 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Collections.ArrayList/ReadOnlyArrayListWrapper
-struct ReadOnlyArrayListWrapper_t1640;
+struct ReadOnlyArrayListWrapper_t1642;
 // System.String
 struct String_t;
 // System.Object
 struct Object_t;
 // System.Collections.ArrayList
-struct ArrayList_t1159;
+struct ArrayList_t1161;
 // System.Collections.IComparer
 struct IComparer_t231;
 
 // System.Void System.Collections.ArrayList/ReadOnlyArrayListWrapper::.ctor(System.Collections.ArrayList)
-extern "C" void ReadOnlyArrayListWrapper__ctor_m8619 (ReadOnlyArrayListWrapper_t1640 * __this, ArrayList_t1159 * ___innerArrayList, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReadOnlyArrayListWrapper__ctor_m8630 (ReadOnlyArrayListWrapper_t1642 * __this, ArrayList_t1161 * ___innerArrayList, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Collections.ArrayList/ReadOnlyArrayListWrapper::get_ErrorMessage()
-extern "C" String_t* ReadOnlyArrayListWrapper_get_ErrorMessage_m8620 (ReadOnlyArrayListWrapper_t1640 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ReadOnlyArrayListWrapper_get_ErrorMessage_m8631 (ReadOnlyArrayListWrapper_t1642 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.ArrayList/ReadOnlyArrayListWrapper::get_IsReadOnly()
-extern "C" bool ReadOnlyArrayListWrapper_get_IsReadOnly_m8621 (ReadOnlyArrayListWrapper_t1640 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool ReadOnlyArrayListWrapper_get_IsReadOnly_m8632 (ReadOnlyArrayListWrapper_t1642 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.ArrayList/ReadOnlyArrayListWrapper::get_Item(System.Int32)
-extern "C" Object_t * ReadOnlyArrayListWrapper_get_Item_m8622 (ReadOnlyArrayListWrapper_t1640 * __this, int32_t ___index, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * ReadOnlyArrayListWrapper_get_Item_m8633 (ReadOnlyArrayListWrapper_t1642 * __this, int32_t ___index, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ReadOnlyArrayListWrapper::set_Item(System.Int32,System.Object)
-extern "C" void ReadOnlyArrayListWrapper_set_Item_m8623 (ReadOnlyArrayListWrapper_t1640 * __this, int32_t ___index, Object_t * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReadOnlyArrayListWrapper_set_Item_m8634 (ReadOnlyArrayListWrapper_t1642 * __this, int32_t ___index, Object_t * ___value, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ReadOnlyArrayListWrapper::Sort()
-extern "C" void ReadOnlyArrayListWrapper_Sort_m8624 (ReadOnlyArrayListWrapper_t1640 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReadOnlyArrayListWrapper_Sort_m8635 (ReadOnlyArrayListWrapper_t1642 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ReadOnlyArrayListWrapper::Sort(System.Collections.IComparer)
-extern "C" void ReadOnlyArrayListWrapper_Sort_m8625 (ReadOnlyArrayListWrapper_t1640 * __this, Object_t * ___comparer, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReadOnlyArrayListWrapper_Sort_m8636 (ReadOnlyArrayListWrapper_t1642 * __this, Object_t * ___comparer, MethodInfo* method) IL2CPP_METHOD_ATTR;

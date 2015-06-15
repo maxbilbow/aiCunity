@@ -3,6 +3,6 @@
 // System.Collections.Generic.Comparer`1<UnityEngine.GameObject>
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_9.h"
 // System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.GameObject>
-struct  DefaultComparer_t2939  : public Comparer_1_t2938
+struct  DefaultComparer_t2941  : public Comparer_1_t2940
 {
 };

@@ -14,10 +14,10 @@ struct Texture2D_t221;
 #include "UnityEngine_UnityEngine_Color.h"
 
 // System.Void UnityEngine.Texture2D::.ctor(System.Int32,System.Int32)
-extern "C" void Texture2D__ctor_m3346 (Texture2D_t221 * __this, int32_t ___width, int32_t ___height, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Texture2D__ctor_m3357 (Texture2D_t221 * __this, int32_t ___width, int32_t ___height, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Texture2D::Internal_Create(UnityEngine.Texture2D,System.Int32,System.Int32,UnityEngine.TextureFormat,System.Boolean,System.Boolean,System.IntPtr)
-extern "C" void Texture2D_Internal_Create_m3347 (Object_t * __this /* static, unused */, Texture2D_t221 * ___mono, int32_t ___width, int32_t ___height, int32_t ___format, bool ___mipmap, bool ___linear, IntPtr_t ___nativeTex, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Texture2D_Internal_Create_m3358 (Object_t * __this /* static, unused */, Texture2D_t221 * ___mono, int32_t ___width, int32_t ___height, int32_t ___format, bool ___mipmap, bool ___linear, IntPtr_t ___nativeTex, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Texture2D UnityEngine.Texture2D::get_whiteTexture()
-extern "C" Texture2D_t221 * Texture2D_get_whiteTexture_m2721 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Texture2D_t221 * Texture2D_get_whiteTexture_m2732 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Texture2D::GetPixelBilinear(System.Single,System.Single)
-extern "C" Color_t79  Texture2D_GetPixelBilinear_m2809 (Texture2D_t221 * __this, float ___u, float ___v, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t79  Texture2D_GetPixelBilinear_m2820 (Texture2D_t221 * __this, float ___u, float ___v, MethodInfo* method) IL2CPP_METHOD_ATTR;

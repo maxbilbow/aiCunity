@@ -3,9 +3,9 @@
 // System.Object
 struct Object_t;
 // System.IAsyncResult
-struct IAsyncResult_t423;
+struct IAsyncResult_t425;
 // System.AsyncCallback
-struct AsyncCallback_t424;
+struct AsyncCallback_t426;
 // System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_12.h"
 // System.Int32
@@ -14,6 +14,6 @@ struct AsyncCallback_t424;
 #include "mscorlib_System_MulticastDelegate.h"
 extern TypeInfo Int32_t188_il2cpp_TypeInfo;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,System.Object,System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>>
-struct  Transform_1_t2956  : public MulticastDelegate_t427
+struct  Transform_1_t2958  : public MulticastDelegate_t429
 {
 };

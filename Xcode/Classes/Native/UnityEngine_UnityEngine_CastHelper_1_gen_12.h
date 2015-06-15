@@ -7,7 +7,7 @@ struct WaterBase_t83;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.CastHelper`1<UnityStandardAssets.Water.WaterBase>
-struct  CastHelper_1_t2767 
+struct  CastHelper_1_t2769 
 {
 	// T UnityEngine.CastHelper`1<UnityStandardAssets.Water.WaterBase>::t
 	WaterBase_t83 * ___t_0;

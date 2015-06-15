@@ -24,4 +24,4 @@ extern "C" void Ray_set_direction_m637 (Ray_t18 * __this, Vector3_t8  ___value, 
 // UnityEngine.Vector3 UnityEngine.Ray::GetPoint(System.Single)
 extern "C" Vector3_t8  Ray_GetPoint_m948 (Ray_t18 * __this, float ___distance, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Ray::ToString()
-extern "C" String_t* Ray_ToString_m3674 (Ray_t18 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* Ray_ToString_m3685 (Ray_t18 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

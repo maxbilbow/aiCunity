@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Linq.Check
-struct Check_t1115;
+struct Check_t1117;
 // System.Object
 struct Object_t;
 
 // System.Void System.Linq.Check::SourceAndPredicate(System.Object,System.Object)
-extern "C" void Check_SourceAndPredicate_m5017 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___predicate, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Check_SourceAndPredicate_m5028 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___predicate, MethodInfo* method) IL2CPP_METHOD_ATTR;

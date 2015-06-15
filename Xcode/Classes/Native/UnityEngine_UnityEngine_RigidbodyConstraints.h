@@ -5,7 +5,7 @@
 // UnityEngine.RigidbodyConstraints
 #include "UnityEngine_UnityEngine_RigidbodyConstraints.h"
 // UnityEngine.RigidbodyConstraints
-struct  RigidbodyConstraints_t747 
+struct  RigidbodyConstraints_t749 
 {
 	// System.Int32 UnityEngine.RigidbodyConstraints::value__
 	int32_t ___value___1;

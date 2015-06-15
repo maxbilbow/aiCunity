@@ -5,7 +5,7 @@ struct Camera_t19;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.Camera,System.Boolean>
-struct  KeyValuePair_2_t2733 
+struct  KeyValuePair_2_t2735 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<UnityEngine.Camera,System.Boolean>::key
 	Camera_t19 * ___key_0;

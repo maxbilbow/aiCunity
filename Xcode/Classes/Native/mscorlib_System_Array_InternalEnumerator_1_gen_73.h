@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<UnityStandardAssets.Vehicles.Car.WheelEffects>
-struct  InternalEnumerator_1_t2804 
+struct  InternalEnumerator_1_t2806 
 {
 	// System.Array System.Array/InternalEnumerator`1<UnityStandardAssets.Vehicles.Car.WheelEffects>::array
 	Array_t * ___array_0;

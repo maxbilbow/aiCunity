@@ -5,7 +5,7 @@
 // UnityEngine.DepthTextureMode
 #include "UnityEngine_UnityEngine_DepthTextureMode.h"
 // UnityEngine.DepthTextureMode
-struct  DepthTextureMode_t852 
+struct  DepthTextureMode_t854 
 {
 	// System.Int32 UnityEngine.DepthTextureMode::value__
 	int32_t ___value___1;

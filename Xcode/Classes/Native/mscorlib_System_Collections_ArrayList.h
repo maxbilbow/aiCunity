@@ -5,7 +5,7 @@ struct ObjectU5BU5D_t194;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.ArrayList
-struct  ArrayList_t1159  : public Object_t
+struct  ArrayList_t1161  : public Object_t
 {
 	// System.Int32 System.Collections.ArrayList::_size
 	int32_t ____size_1;
@@ -14,7 +14,7 @@ struct  ArrayList_t1159  : public Object_t
 	// System.Int32 System.Collections.ArrayList::_version
 	int32_t ____version_3;
 };
-struct ArrayList_t1159_StaticFields{
+struct ArrayList_t1161_StaticFields{
 	// System.Object[] System.Collections.ArrayList::EmptyArray
 	ObjectU5BU5D_t194* ___EmptyArray_4;
 };

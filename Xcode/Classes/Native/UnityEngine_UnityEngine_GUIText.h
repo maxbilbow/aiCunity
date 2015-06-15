@@ -3,6 +3,6 @@
 // UnityEngine.GUIElement
 #include "UnityEngine_UnityEngine_GUIElement.h"
 // UnityEngine.GUIText
-struct  GUIText_t111  : public GUIElement_t673
+struct  GUIText_t111  : public GUIElement_t675
 {
 };

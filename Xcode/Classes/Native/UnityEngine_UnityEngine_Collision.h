@@ -5,7 +5,7 @@ struct Rigidbody_t3;
 // UnityEngine.Collider
 struct Collider_t94;
 // UnityEngine.ContactPoint[]
-struct ContactPointU5BU5D_t750;
+struct ContactPointU5BU5D_t752;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Vector3
@@ -20,5 +20,5 @@ struct  Collision_t167  : public Object_t
 	// UnityEngine.Collider UnityEngine.Collision::m_Collider
 	Collider_t94 * ___m_Collider_2;
 	// UnityEngine.ContactPoint[] UnityEngine.Collision::m_Contacts
-	ContactPointU5BU5D_t750* ___m_Contacts_3;
+	ContactPointU5BU5D_t752* ___m_Contacts_3;
 };

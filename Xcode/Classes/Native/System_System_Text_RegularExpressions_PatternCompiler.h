@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.ArrayList
-struct ArrayList_t1159;
+struct ArrayList_t1161;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.PatternCompiler
-struct  PatternCompiler_t1280  : public Object_t
+struct  PatternCompiler_t1282  : public Object_t
 {
 	// System.Collections.ArrayList System.Text.RegularExpressions.PatternCompiler::pgm
-	ArrayList_t1159 * ___pgm_0;
+	ArrayList_t1161 * ___pgm_0;
 };

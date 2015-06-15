@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.RenderingPath
-struct RenderingPath_t728;
+struct RenderingPath_t730;
 

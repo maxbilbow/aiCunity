@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.UI.Button/ButtonClickedEvent
-struct ButtonClickedEvent_t377;
+struct ButtonClickedEvent_t379;
 // UnityEngine.UI.Selectable
 #include "UnityEngine_UI_UnityEngine_UI_Selectable.h"
 // UnityEngine.UI.Button
-struct  Button_t379  : public Selectable_t293
+struct  Button_t381  : public Selectable_t295
 {
 	// UnityEngine.UI.Button/ButtonClickedEvent UnityEngine.UI.Button::m_OnClick
-	ButtonClickedEvent_t377 * ___m_OnClick_16;
+	ButtonClickedEvent_t379 * ___m_OnClick_16;
 };

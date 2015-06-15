@@ -3,6 +3,6 @@
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.GL
-struct  GL_t671  : public Object_t
+struct  GL_t673  : public Object_t
 {
 };

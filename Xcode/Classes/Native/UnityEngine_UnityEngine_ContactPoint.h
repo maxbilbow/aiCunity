@@ -5,7 +5,7 @@
 // UnityEngine.Vector3
 #include "UnityEngine_UnityEngine_Vector3.h"
 // UnityEngine.ContactPoint
-struct  ContactPoint_t749 
+struct  ContactPoint_t751 
 {
 	// UnityEngine.Vector3 UnityEngine.ContactPoint::m_Point
 	Vector3_t8  ___m_Point_0;

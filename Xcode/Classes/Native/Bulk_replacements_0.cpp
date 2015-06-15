@@ -20,7 +20,7 @@
 #include <cmath>
 #include <limits>
 #include <assert.h>
-extern TypeInfo U3CModuleU3E_t1376_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t1378_il2cpp_TypeInfo;
 // <Module>
 #include "replacements_U3CModuleU3EMethodDeclarations.h"
 
@@ -33,7 +33,7 @@ extern TypeInfo U3CModuleU3E_t1376_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo MSCompatUnicodeTable_t1377_il2cpp_TypeInfo;
+extern TypeInfo MSCompatUnicodeTable_t1379_il2cpp_TypeInfo;
 // Replacements.MSCompatUnicodeTable
 #include "replacements_Replacements_MSCompatUnicodeTableMethodDeclarations.h"
 
@@ -42,8 +42,8 @@ extern TypeInfo MSCompatUnicodeTable_t1377_il2cpp_TypeInfo;
 
 
 // System.Boolean Replacements.MSCompatUnicodeTable::get_IsReady()
-extern MethodInfo MSCompatUnicodeTable_get_IsReady_m6293_MethodInfo;
-extern "C" bool MSCompatUnicodeTable_get_IsReady_m6293 (Object_t * __this /* static, unused */, MethodInfo* method)
+extern MethodInfo MSCompatUnicodeTable_get_IsReady_m6304_MethodInfo;
+extern "C" bool MSCompatUnicodeTable_get_IsReady_m6304 (Object_t * __this /* static, unused */, MethodInfo* method)
 {
 	{
 		return 0;
@@ -54,7 +54,7 @@ extern "C" bool MSCompatUnicodeTable_get_IsReady_m6293 (Object_t * __this /* sta
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo SecurityElement_t1378_il2cpp_TypeInfo;
+extern TypeInfo SecurityElement_t1380_il2cpp_TypeInfo;
 // Replacements.SecurityElement
 #include "replacements_Replacements_SecurityElementMethodDeclarations.h"
 
@@ -69,16 +69,16 @@ extern TypeInfo SecurityElement_t1378_il2cpp_TypeInfo;
 extern TypeInfo NotSupportedException_t217_il2cpp_TypeInfo;
 // System.NotSupportedException
 #include "mscorlib_System_NotSupportedExceptionMethodDeclarations.h"
-extern MethodInfo NotSupportedException__ctor_m5982_MethodInfo;
+extern MethodInfo NotSupportedException__ctor_m5993_MethodInfo;
 
 
 // System.String Replacements.SecurityElement::ToString(System.Object)
-extern MethodInfo SecurityElement_ToString_m6294_MethodInfo;
-extern "C" String_t* SecurityElement_ToString_m6294 (Object_t * __this /* static, unused */, Object_t * _____this, MethodInfo* method)
+extern MethodInfo SecurityElement_ToString_m6305_MethodInfo;
+extern "C" String_t* SecurityElement_ToString_m6305 (Object_t * __this /* static, unused */, Object_t * _____this, MethodInfo* method)
 {
 	{
 		NotSupportedException_t217 * L_0 = (NotSupportedException_t217 *)il2cpp_codegen_object_new (InitializedTypeInfo(&NotSupportedException_t217_il2cpp_TypeInfo));
-		NotSupportedException__ctor_m5982(L_0, (String_t*) &_stringLiteral827, /*hidden argument*/&NotSupportedException__ctor_m5982_MethodInfo);
+		NotSupportedException__ctor_m5993(L_0, (String_t*) &_stringLiteral827, /*hidden argument*/&NotSupportedException__ctor_m5993_MethodInfo);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
@@ -87,7 +87,7 @@ extern "C" String_t* SecurityElement_ToString_m6294 (Object_t * __this /* static
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo RemotingServices_t1379_il2cpp_TypeInfo;
+extern TypeInfo RemotingServices_t1381_il2cpp_TypeInfo;
 // Replacements.RemotingServices
 #include "replacements_Replacements_RemotingServicesMethodDeclarations.h"
 
@@ -97,22 +97,22 @@ extern TypeInfo RemotingServices_t1379_il2cpp_TypeInfo;
 
 
 // System.Runtime.Remoting.Messaging.IMessageSink Replacements.RemotingServices::GetClientChannelSinkChain(System.String,System.Object,System.String&)
-extern MethodInfo RemotingServices_GetClientChannelSinkChain_m6295_MethodInfo;
-extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m6295 (Object_t * __this /* static, unused */, String_t* ___url, Object_t * ___channelData, String_t** ___objectUri, MethodInfo* method)
+extern MethodInfo RemotingServices_GetClientChannelSinkChain_m6306_MethodInfo;
+extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m6306 (Object_t * __this /* static, unused */, String_t* ___url, Object_t * ___channelData, String_t** ___objectUri, MethodInfo* method)
 {
 	{
 		NotSupportedException_t217 * L_0 = (NotSupportedException_t217 *)il2cpp_codegen_object_new (InitializedTypeInfo(&NotSupportedException_t217_il2cpp_TypeInfo));
-		NotSupportedException__ctor_m5982(L_0, (String_t*) &_stringLiteral828, /*hidden argument*/&NotSupportedException__ctor_m5982_MethodInfo);
+		NotSupportedException__ctor_m5993(L_0, (String_t*) &_stringLiteral828, /*hidden argument*/&NotSupportedException__ctor_m5993_MethodInfo);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }
 // System.Object Replacements.RemotingServices::CreateClientProxy(System.Type,System.String,System.Object[])
-extern MethodInfo RemotingServices_CreateClientProxy_m6296_MethodInfo;
-extern "C" Object_t * RemotingServices_CreateClientProxy_m6296 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t194* ___activationAttributes, MethodInfo* method)
+extern MethodInfo RemotingServices_CreateClientProxy_m6307_MethodInfo;
+extern "C" Object_t * RemotingServices_CreateClientProxy_m6307 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t194* ___activationAttributes, MethodInfo* method)
 {
 	{
 		NotSupportedException_t217 * L_0 = (NotSupportedException_t217 *)il2cpp_codegen_object_new (InitializedTypeInfo(&NotSupportedException_t217_il2cpp_TypeInfo));
-		NotSupportedException__ctor_m5982(L_0, (String_t*) &_stringLiteral829, /*hidden argument*/&NotSupportedException__ctor_m5982_MethodInfo);
+		NotSupportedException__ctor_m5993(L_0, (String_t*) &_stringLiteral829, /*hidden argument*/&NotSupportedException__ctor_m5993_MethodInfo);
 		il2cpp_codegen_raise_exception(L_0);
 	}
 }

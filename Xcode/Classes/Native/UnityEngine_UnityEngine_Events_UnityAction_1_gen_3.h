@@ -3,9 +3,9 @@
 // UnityEngine.Component
 struct Component_t185;
 // System.IAsyncResult
-struct IAsyncResult_t423;
+struct IAsyncResult_t425;
 // System.AsyncCallback
-struct AsyncCallback_t424;
+struct AsyncCallback_t426;
 // System.Object
 struct Object_t;
 // System.Void
@@ -13,6 +13,6 @@ struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // UnityEngine.Events.UnityAction`1<UnityEngine.Component>
-struct  UnityAction_1_t494  : public MulticastDelegate_t427
+struct  UnityAction_1_t496  : public MulticastDelegate_t429
 {
 };

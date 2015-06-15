@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.GUILayoutOption/Type
-struct Type_t695;
+struct Type_t697;
 

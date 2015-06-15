@@ -3,6 +3,6 @@
 // System.EventArgs
 #include "mscorlib_System_EventArgs.h"
 // System.UnhandledExceptionEventArgs
-struct  UnhandledExceptionEventArgs_t2062  : public EventArgs_t1414
+struct  UnhandledExceptionEventArgs_t2064  : public EventArgs_t1416
 {
 };

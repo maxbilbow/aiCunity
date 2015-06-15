@@ -14,17 +14,17 @@ struct Exception_t204;
 typedef Exception_t204 Il2CppCodeGenException;
 // System.RuntimeTypeHandle
 #include "mscorlib_System_RuntimeTypeHandle.h"
-typedef RuntimeTypeHandle_t1540 Il2CppCodeGenRuntimeTypeHandle;
+typedef RuntimeTypeHandle_t1542 Il2CppCodeGenRuntimeTypeHandle;
 // System.RuntimeFieldHandle
 #include "mscorlib_System_RuntimeFieldHandle.h"
-typedef RuntimeFieldHandle_t1543 Il2CppCodeGenRuntimeFieldHandle;
+typedef RuntimeFieldHandle_t1545 Il2CppCodeGenRuntimeFieldHandle;
 // System.RuntimeArgumentHandle
 #include "mscorlib_System_RuntimeArgumentHandle.h"
-typedef RuntimeArgumentHandle_t1553 Il2CppCodeGenRuntimeArgumentHandle;
+typedef RuntimeArgumentHandle_t1555 Il2CppCodeGenRuntimeArgumentHandle;
 // System.RuntimeMethodHandle
 #include "mscorlib_System_RuntimeMethodHandle.h"
-typedef RuntimeMethodHandle_t1717 Il2CppCodeGenRuntimeMethodHandle;
-struct StringBuilder_t515;
-typedef StringBuilder_t515 Il2CppCodeGenStringBuilder;
-struct MulticastDelegate_t427;
-typedef MulticastDelegate_t427 Il2CppCodeGenMulticastDelegate;
+typedef RuntimeMethodHandle_t1719 Il2CppCodeGenRuntimeMethodHandle;
+struct StringBuilder_t517;
+typedef StringBuilder_t517 Il2CppCodeGenStringBuilder;
+struct MulticastDelegate_t429;
+typedef MulticastDelegate_t429 Il2CppCodeGenMulticastDelegate;

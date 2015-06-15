@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.SharedBetweenAnimatorsAttribute
-struct SharedBetweenAnimatorsAttribute_t873;
+struct SharedBetweenAnimatorsAttribute_t875;
 
 // System.Void UnityEngine.SharedBetweenAnimatorsAttribute::.ctor()
-extern "C" void SharedBetweenAnimatorsAttribute__ctor_m4441 (SharedBetweenAnimatorsAttribute_t873 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SharedBetweenAnimatorsAttribute__ctor_m4452 (SharedBetweenAnimatorsAttribute_t875 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

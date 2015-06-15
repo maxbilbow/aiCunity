@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Diagnostics.DebuggerStepThroughAttribute
-struct DebuggerStepThroughAttribute_t1660;
+struct DebuggerStepThroughAttribute_t1662;
 
 // System.Void System.Diagnostics.DebuggerStepThroughAttribute::.ctor()
-extern "C" void DebuggerStepThroughAttribute__ctor_m8753 (DebuggerStepThroughAttribute_t1660 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void DebuggerStepThroughAttribute__ctor_m8764 (DebuggerStepThroughAttribute_t1662 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

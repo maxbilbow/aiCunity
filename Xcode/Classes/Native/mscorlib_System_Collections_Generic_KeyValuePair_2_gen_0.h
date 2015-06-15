@@ -5,7 +5,7 @@ struct PointerEventData_t46;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.EventSystems.PointerEventData>
-struct  KeyValuePair_2_t521 
+struct  KeyValuePair_2_t523 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.EventSystems.PointerEventData>::key
 	int32_t ___key_0;

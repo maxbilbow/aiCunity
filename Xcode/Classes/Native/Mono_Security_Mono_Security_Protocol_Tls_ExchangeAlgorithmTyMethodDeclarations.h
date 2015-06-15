@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.ExchangeAlgorithmType
-struct ExchangeAlgorithmType_t1455;
+struct ExchangeAlgorithmType_t1457;
 

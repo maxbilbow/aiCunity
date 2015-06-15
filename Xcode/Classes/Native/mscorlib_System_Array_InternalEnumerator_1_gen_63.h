@@ -5,7 +5,7 @@ struct Array_t;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.Array/InternalEnumerator`1<UnityStandardAssets.Utility.AutoMobileShaderSwitch/ReplacementDefinition>
-struct  InternalEnumerator_1_t2780 
+struct  InternalEnumerator_1_t2782 
 {
 	// System.Array System.Array/InternalEnumerator`1<UnityStandardAssets.Utility.AutoMobileShaderSwitch/ReplacementDefinition>::array
 	Array_t * ___array_0;

@@ -3,6 +3,6 @@
 // UnityEngine.Events.UnityEvent
 #include "UnityEngine_UnityEngine_Events_UnityEvent.h"
 // UnityEngine.UI.Button/ButtonClickedEvent
-struct  ButtonClickedEvent_t377  : public UnityEvent_t378
+struct  ButtonClickedEvent_t379  : public UnityEvent_t380
 {
 };

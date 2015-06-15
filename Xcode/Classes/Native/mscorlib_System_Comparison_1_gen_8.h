@@ -3,14 +3,14 @@
 // UnityEngine.EventSystems.IEventSystemHandler
 struct IEventSystemHandler_t240;
 // System.IAsyncResult
-struct IAsyncResult_t423;
+struct IAsyncResult_t425;
 // System.AsyncCallback
-struct AsyncCallback_t424;
+struct AsyncCallback_t426;
 // System.Object
 struct Object_t;
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
 // System.Comparison`1<UnityEngine.EventSystems.IEventSystemHandler>
-struct  Comparison_1_t2871  : public MulticastDelegate_t427
+struct  Comparison_1_t2873  : public MulticastDelegate_t429
 {
 };

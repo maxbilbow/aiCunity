@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Environment/SpecialFolder
-struct SpecialFolder_t2023;
+struct SpecialFolder_t2025;
 

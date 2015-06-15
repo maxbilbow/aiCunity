@@ -7,7 +7,7 @@ struct CarController_t163;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.CastHelper`1<UnityStandardAssets.Vehicles.Car.CarController>
-struct  CastHelper_1_t2801 
+struct  CastHelper_1_t2803 
 {
 	// T UnityEngine.CastHelper`1<UnityStandardAssets.Vehicles.Car.CarController>::t
 	CarController_t163 * ___t_0;

@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Canvas
-struct Canvas_t289;
+struct Canvas_t291;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.CastHelper`1<UnityEngine.Canvas>
-struct  CastHelper_1_t2840 
+struct  CastHelper_1_t2842 
 {
 	// T UnityEngine.CastHelper`1<UnityEngine.Canvas>::t
-	Canvas_t289 * ___t_0;
+	Canvas_t291 * ___t_0;
 	// System.IntPtr UnityEngine.CastHelper`1<UnityEngine.Canvas>::onePointerFurtherThanT
 	IntPtr_t ___onePointerFurtherThanT_1;
 };

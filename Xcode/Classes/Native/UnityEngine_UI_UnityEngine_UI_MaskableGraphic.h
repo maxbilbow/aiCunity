@@ -5,7 +5,7 @@ struct Material_t75;
 // UnityEngine.UI.Graphic
 #include "UnityEngine_UI_UnityEngine_UI_Graphic.h"
 // UnityEngine.UI.MaskableGraphic
-struct  MaskableGraphic_t297  : public Graphic_t397
+struct  MaskableGraphic_t299  : public Graphic_t399
 {
 	// System.Boolean UnityEngine.UI.MaskableGraphic::m_Maskable
 	bool ___m_Maskable_18;

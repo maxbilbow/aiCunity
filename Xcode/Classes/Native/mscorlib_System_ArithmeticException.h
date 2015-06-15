@@ -3,6 +3,6 @@
 // System.SystemException
 #include "mscorlib_System_SystemException.h"
 // System.ArithmeticException
-struct  ArithmeticException_t1503  : public SystemException_t1353
+struct  ArithmeticException_t1505  : public SystemException_t1355
 {
 };

@@ -13,14 +13,14 @@
 // UnityEngine.UIVertex
 #include "UnityEngine_UnityEngine_UIVertex.h"
 // UnityEngine.UIVertex
-struct  UIVertex_t414 
+struct  UIVertex_t416 
 {
 	// UnityEngine.Vector3 UnityEngine.UIVertex::position
 	Vector3_t8  ___position_0;
 	// UnityEngine.Vector3 UnityEngine.UIVertex::normal
 	Vector3_t8  ___normal_1;
 	// UnityEngine.Color32 UnityEngine.UIVertex::color
-	Color32_t514  ___color_2;
+	Color32_t516  ___color_2;
 	// UnityEngine.Vector2 UnityEngine.UIVertex::uv0
 	Vector2_t13  ___uv0_3;
 	// UnityEngine.Vector2 UnityEngine.UIVertex::uv1
@@ -28,11 +28,11 @@ struct  UIVertex_t414
 	// UnityEngine.Vector4 UnityEngine.UIVertex::tangent
 	Vector4_t82  ___tangent_5;
 };
-struct UIVertex_t414_StaticFields{
+struct UIVertex_t416_StaticFields{
 	// UnityEngine.Color32 UnityEngine.UIVertex::s_DefaultColor
-	Color32_t514  ___s_DefaultColor_6;
+	Color32_t516  ___s_DefaultColor_6;
 	// UnityEngine.Vector4 UnityEngine.UIVertex::s_DefaultTangent
 	Vector4_t82  ___s_DefaultTangent_7;
 	// UnityEngine.UIVertex UnityEngine.UIVertex::simpleVert
-	UIVertex_t414  ___simpleVert_8;
+	UIVertex_t416  ___simpleVert_8;
 };

@@ -12,18 +12,18 @@ struct String_t;
 // System.Boolean UnityEngine.AnimatorStateInfo::IsName(System.String)
 extern "C" bool AnimatorStateInfo_IsName_m743 (AnimatorStateInfo_t198 * __this, String_t* ___name, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.AnimatorStateInfo::get_fullPathHash()
-extern "C" int32_t AnimatorStateInfo_get_fullPathHash_m4022 (AnimatorStateInfo_t198 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AnimatorStateInfo_get_fullPathHash_m4033 (AnimatorStateInfo_t198 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.AnimatorStateInfo::get_nameHash()
-extern "C" int32_t AnimatorStateInfo_get_nameHash_m4023 (AnimatorStateInfo_t198 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AnimatorStateInfo_get_nameHash_m4034 (AnimatorStateInfo_t198 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.AnimatorStateInfo::get_shortNameHash()
-extern "C" int32_t AnimatorStateInfo_get_shortNameHash_m4024 (AnimatorStateInfo_t198 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AnimatorStateInfo_get_shortNameHash_m4035 (AnimatorStateInfo_t198 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.AnimatorStateInfo::get_normalizedTime()
 extern "C" float AnimatorStateInfo_get_normalizedTime_m740 (AnimatorStateInfo_t198 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.AnimatorStateInfo::get_length()
-extern "C" float AnimatorStateInfo_get_length_m4025 (AnimatorStateInfo_t198 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float AnimatorStateInfo_get_length_m4036 (AnimatorStateInfo_t198 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.AnimatorStateInfo::get_tagHash()
-extern "C" int32_t AnimatorStateInfo_get_tagHash_m4026 (AnimatorStateInfo_t198 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t AnimatorStateInfo_get_tagHash_m4037 (AnimatorStateInfo_t198 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.AnimatorStateInfo::IsTag(System.String)
-extern "C" bool AnimatorStateInfo_IsTag_m4027 (AnimatorStateInfo_t198 * __this, String_t* ___tag, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AnimatorStateInfo_IsTag_m4038 (AnimatorStateInfo_t198 * __this, String_t* ___tag, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.AnimatorStateInfo::get_loop()
-extern "C" bool AnimatorStateInfo_get_loop_m4028 (AnimatorStateInfo_t198 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool AnimatorStateInfo_get_loop_m4039 (AnimatorStateInfo_t198 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -5,7 +5,7 @@ struct ObjectU5BU5D_t194;
 // UnityEngine.Events.UnityEventBase
 #include "UnityEngine_UnityEngine_Events_UnityEventBase.h"
 // UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Object>
-struct  UnityEvent_3_t3639  : public UnityEventBase_t884
+struct  UnityEvent_3_t3641  : public UnityEventBase_t886
 {
 	// System.Object[] UnityEngine.Events.UnityEvent`3<System.Object,System.Object,System.Object>::m_InvokeArray
 	ObjectU5BU5D_t194* ___m_InvokeArray_4;

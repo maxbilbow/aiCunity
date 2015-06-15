@@ -7,7 +7,7 @@ struct ParticleSystem_t121;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.CastHelper`1<UnityEngine.ParticleSystem>
-struct  CastHelper_1_t2800 
+struct  CastHelper_1_t2802 
 {
 	// T UnityEngine.CastHelper`1<UnityEngine.ParticleSystem>::t
 	ParticleSystem_t121 * ___t_0;

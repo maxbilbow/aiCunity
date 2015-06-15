@@ -3,6 +3,6 @@
 // System.Security.Cryptography.HashAlgorithm
 #include "mscorlib_System_Security_Cryptography_HashAlgorithm.h"
 // System.Security.Cryptography.MD5
-struct  MD5_t1512  : public HashAlgorithm_t1406
+struct  MD5_t1514  : public HashAlgorithm_t1408
 {
 };

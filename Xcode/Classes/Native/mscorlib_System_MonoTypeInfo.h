@@ -3,14 +3,14 @@
 // System.String
 struct String_t;
 // System.Reflection.ConstructorInfo
-struct ConstructorInfo_t827;
+struct ConstructorInfo_t829;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.MonoTypeInfo
-struct  MonoTypeInfo_t2042  : public Object_t
+struct  MonoTypeInfo_t2044  : public Object_t
 {
 	// System.String System.MonoTypeInfo::full_name
 	String_t* ___full_name_0;
 	// System.Reflection.ConstructorInfo System.MonoTypeInfo::default_ctor
-	ConstructorInfo_t827 * ___default_ctor_1;
+	ConstructorInfo_t829 * ___default_ctor_1;
 };

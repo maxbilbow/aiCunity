@@ -7,21 +7,21 @@ struct Array_t;
 // System.String[]
 struct StringU5BU5D_t215;
 // System.Collections.Hashtable
-struct Hashtable_t1147;
+struct Hashtable_t1149;
 // System.Object
 struct Object_t;
 // System.MonoEnumInfo/SByteComparer
-struct SByteComparer_t2018;
+struct SByteComparer_t2020;
 // System.MonoEnumInfo/ShortComparer
-struct ShortComparer_t2019;
+struct ShortComparer_t2021;
 // System.MonoEnumInfo/IntComparer
-struct IntComparer_t2020;
+struct IntComparer_t2022;
 // System.MonoEnumInfo/LongComparer
-struct LongComparer_t2021;
+struct LongComparer_t2023;
 // System.ValueType
 #include "mscorlib_System_ValueType.h"
 // System.MonoEnumInfo
-struct  MonoEnumInfo_t2022 
+struct  MonoEnumInfo_t2024 
 {
 	// System.Type System.MonoEnumInfo::utype
 	Type_t * ___utype_0;
@@ -30,23 +30,23 @@ struct  MonoEnumInfo_t2022
 	// System.String[] System.MonoEnumInfo::names
 	StringU5BU5D_t215* ___names_2;
 	// System.Collections.Hashtable System.MonoEnumInfo::name_hash
-	Hashtable_t1147 * ___name_hash_3;
+	Hashtable_t1149 * ___name_hash_3;
 };
-struct MonoEnumInfo_t2022_StaticFields{
+struct MonoEnumInfo_t2024_StaticFields{
 	// System.Collections.Hashtable System.MonoEnumInfo::global_cache
-	Hashtable_t1147 * ___global_cache_5;
+	Hashtable_t1149 * ___global_cache_5;
 	// System.Object System.MonoEnumInfo::global_cache_monitor
 	Object_t * ___global_cache_monitor_6;
 	// System.MonoEnumInfo/SByteComparer System.MonoEnumInfo::sbyte_comparer
-	SByteComparer_t2018 * ___sbyte_comparer_7;
+	SByteComparer_t2020 * ___sbyte_comparer_7;
 	// System.MonoEnumInfo/ShortComparer System.MonoEnumInfo::short_comparer
-	ShortComparer_t2019 * ___short_comparer_8;
+	ShortComparer_t2021 * ___short_comparer_8;
 	// System.MonoEnumInfo/IntComparer System.MonoEnumInfo::int_comparer
-	IntComparer_t2020 * ___int_comparer_9;
+	IntComparer_t2022 * ___int_comparer_9;
 	// System.MonoEnumInfo/LongComparer System.MonoEnumInfo::long_comparer
-	LongComparer_t2021 * ___long_comparer_10;
+	LongComparer_t2023 * ___long_comparer_10;
 };
-struct MonoEnumInfo_t2022_ThreadStaticFields{
+struct MonoEnumInfo_t2024_ThreadStaticFields{
 	// System.Collections.Hashtable System.MonoEnumInfo::cache
-	Hashtable_t1147 * ___cache_4;
+	Hashtable_t1149 * ___cache_4;
 };

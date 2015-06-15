@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IList`1<System.Security.Policy.StrongName>
-struct IList_1_t1939;
+struct IList_1_t1941;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Security.Policy.ApplicationTrust
-struct  ApplicationTrust_t1940  : public Object_t
+struct  ApplicationTrust_t1942  : public Object_t
 {
 	// System.Collections.Generic.IList`1<System.Security.Policy.StrongName> System.Security.Policy.ApplicationTrust::fullTrustAssemblies
 	Object_t* ___fullTrustAssemblies_0;

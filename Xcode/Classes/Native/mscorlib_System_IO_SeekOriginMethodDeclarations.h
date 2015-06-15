@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.IO.SeekOrigin
-struct SeekOrigin_t1524;
+struct SeekOrigin_t1526;
 

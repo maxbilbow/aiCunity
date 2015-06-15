@@ -3,6 +3,6 @@
 // System.Exception
 #include "mscorlib_System_Exception.h"
 // System.Reflection.TargetInvocationException
-struct  TargetInvocationException_t1761  : public Exception_t204
+struct  TargetInvocationException_t1763  : public Exception_t204
 {
 };

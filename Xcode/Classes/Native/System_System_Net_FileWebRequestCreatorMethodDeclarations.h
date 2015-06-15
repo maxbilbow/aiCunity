@@ -5,13 +5,13 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Net.FileWebRequestCreator
-struct FileWebRequestCreator_t1176;
+struct FileWebRequestCreator_t1178;
 // System.Net.WebRequest
-struct WebRequest_t1172;
+struct WebRequest_t1174;
 // System.Uri
-struct Uri_t802;
+struct Uri_t804;
 
 // System.Void System.Net.FileWebRequestCreator::.ctor()
-extern "C" void FileWebRequestCreator__ctor_m5150 (FileWebRequestCreator_t1176 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FileWebRequestCreator__ctor_m5161 (FileWebRequestCreator_t1178 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Net.WebRequest System.Net.FileWebRequestCreator::Create(System.Uri)
-extern "C" WebRequest_t1172 * FileWebRequestCreator_Create_m5151 (FileWebRequestCreator_t1176 * __this, Uri_t802 * ___uri, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" WebRequest_t1174 * FileWebRequestCreator_Create_m5162 (FileWebRequestCreator_t1178 * __this, Uri_t804 * ___uri, MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -7,7 +7,7 @@ struct WheelCollider_t182;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.CastHelper`1<UnityEngine.WheelCollider>
-struct  CastHelper_1_t2806 
+struct  CastHelper_1_t2808 
 {
 	// T UnityEngine.CastHelper`1<UnityEngine.WheelCollider>::t
 	WheelCollider_t182 * ___t_0;

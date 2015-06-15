@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Replacements.RemotingServices
-struct RemotingServices_t1379;
+struct RemotingServices_t1381;
 // System.Runtime.Remoting.Messaging.IMessageSink
-struct IMessageSink_t1380;
+struct IMessageSink_t1382;
 // System.String
 struct String_t;
 // System.Object
@@ -18,6 +18,6 @@ struct Type_t;
 struct ObjectU5BU5D_t194;
 
 // System.Runtime.Remoting.Messaging.IMessageSink Replacements.RemotingServices::GetClientChannelSinkChain(System.String,System.Object,System.String&)
-extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m6295 (Object_t * __this /* static, unused */, String_t* ___url, Object_t * ___channelData, String_t** ___objectUri, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_GetClientChannelSinkChain_m6306 (Object_t * __this /* static, unused */, String_t* ___url, Object_t * ___channelData, String_t** ___objectUri, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Replacements.RemotingServices::CreateClientProxy(System.Type,System.String,System.Object[])
-extern "C" Object_t * RemotingServices_CreateClientProxy_m6296 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t194* ___activationAttributes, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * RemotingServices_CreateClientProxy_m6307 (Object_t * __this /* static, unused */, Type_t * ___objectType, String_t* ___url, ObjectU5BU5D_t194* ___activationAttributes, MethodInfo* method) IL2CPP_METHOD_ATTR;

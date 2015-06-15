@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Time
-struct Time_t740;
+struct Time_t742;
 
 // System.Single UnityEngine.Time::get_time()
 extern "C" float Time_get_time_m619 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -14,9 +14,9 @@ extern "C" float Time_get_timeSinceLevelLoad_m882 (Object_t * __this /* static, 
 // System.Single UnityEngine.Time::get_deltaTime()
 extern "C" float Time_get_deltaTime_m579 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Time::get_unscaledTime()
-extern "C" float Time_get_unscaledTime_m2642 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Time_get_unscaledTime_m2653 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Time::get_unscaledDeltaTime()
-extern "C" float Time_get_unscaledDeltaTime_m2679 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Time_get_unscaledDeltaTime_m2690 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Time::get_fixedDeltaTime()
 extern "C" float Time_get_fixedDeltaTime_m676 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Time::get_timeScale()

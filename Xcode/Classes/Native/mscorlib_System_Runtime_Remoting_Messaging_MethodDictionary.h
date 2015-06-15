@@ -1,17 +1,17 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.IDictionary
-struct IDictionary_t1150;
+struct IDictionary_t1152;
 // System.Runtime.Remoting.Messaging.IMethodMessage
-struct IMethodMessage_t1828;
+struct IMethodMessage_t1830;
 // System.String[]
 struct StringU5BU5D_t215;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t270;
+struct Dictionary_2_t272;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Messaging.MethodDictionary
-struct  MethodDictionary_t1821  : public Object_t
+struct  MethodDictionary_t1823  : public Object_t
 {
 	// System.Collections.IDictionary System.Runtime.Remoting.Messaging.MethodDictionary::_internalProperties
 	Object_t * ____internalProperties_0;
@@ -22,9 +22,9 @@ struct  MethodDictionary_t1821  : public Object_t
 	// System.Boolean System.Runtime.Remoting.Messaging.MethodDictionary::_ownProperties
 	bool ____ownProperties_3;
 };
-struct MethodDictionary_t1821_StaticFields{
+struct MethodDictionary_t1823_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Remoting.Messaging.MethodDictionary::<>f__switch$map21
-	Dictionary_2_t270 * ___U3CU3Ef__switch$map21_4;
+	Dictionary_2_t272 * ___U3CU3Ef__switch$map21_4;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Remoting.Messaging.MethodDictionary::<>f__switch$map22
-	Dictionary_2_t270 * ___U3CU3Ef__switch$map22_5;
+	Dictionary_2_t272 * ___U3CU3Ef__switch$map22_5;
 };

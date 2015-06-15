@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.CastHelper`1<UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter>
-struct CastHelper_1_t2607;
+struct CastHelper_1_t2609;
 

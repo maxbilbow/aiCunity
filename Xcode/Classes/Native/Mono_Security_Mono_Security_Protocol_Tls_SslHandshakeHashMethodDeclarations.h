@@ -5,21 +5,21 @@
 #include "codegen/il2cpp-codegen.h"
 
 // Mono.Security.Protocol.Tls.SslHandshakeHash
-struct SslHandshakeHash_t1476;
+struct SslHandshakeHash_t1478;
 // System.Byte[]
-struct ByteU5BU5D_t720;
+struct ByteU5BU5D_t722;
 // System.Security.Cryptography.RSA
-struct RSA_t1206;
+struct RSA_t1208;
 
 // System.Void Mono.Security.Protocol.Tls.SslHandshakeHash::.ctor(System.Byte[])
-extern "C" void SslHandshakeHash__ctor_m6886 (SslHandshakeHash_t1476 * __this, ByteU5BU5D_t720* ___secret, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslHandshakeHash__ctor_m6897 (SslHandshakeHash_t1478 * __this, ByteU5BU5D_t722* ___secret, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslHandshakeHash::Initialize()
-extern "C" void SslHandshakeHash_Initialize_m6887 (SslHandshakeHash_t1476 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslHandshakeHash_Initialize_m6898 (SslHandshakeHash_t1478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.SslHandshakeHash::HashFinal()
-extern "C" ByteU5BU5D_t720* SslHandshakeHash_HashFinal_m6888 (SslHandshakeHash_t1476 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t722* SslHandshakeHash_HashFinal_m6899 (SslHandshakeHash_t1478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslHandshakeHash::HashCore(System.Byte[],System.Int32,System.Int32)
-extern "C" void SslHandshakeHash_HashCore_m6889 (SslHandshakeHash_t1476 * __this, ByteU5BU5D_t720* ___array, int32_t ___ibStart, int32_t ___cbSize, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslHandshakeHash_HashCore_m6900 (SslHandshakeHash_t1478 * __this, ByteU5BU5D_t722* ___array, int32_t ___ibStart, int32_t ___cbSize, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Protocol.Tls.SslHandshakeHash::CreateSignature(System.Security.Cryptography.RSA)
-extern "C" ByteU5BU5D_t720* SslHandshakeHash_CreateSignature_m6890 (SslHandshakeHash_t1476 * __this, RSA_t1206 * ___rsa, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ByteU5BU5D_t722* SslHandshakeHash_CreateSignature_m6901 (SslHandshakeHash_t1478 * __this, RSA_t1208 * ___rsa, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.SslHandshakeHash::initializePad()
-extern "C" void SslHandshakeHash_initializePad_m6891 (SslHandshakeHash_t1476 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SslHandshakeHash_initializePad_m6902 (SslHandshakeHash_t1478 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

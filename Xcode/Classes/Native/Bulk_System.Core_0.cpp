@@ -20,7 +20,7 @@
 #include <cmath>
 #include <limits>
 #include <assert.h>
-extern TypeInfo U3CModuleU3E_t1114_il2cpp_TypeInfo;
+extern TypeInfo U3CModuleU3E_t1116_il2cpp_TypeInfo;
 // <Module>
 #include "System_Core_U3CModuleU3EMethodDeclarations.h"
 
@@ -33,7 +33,7 @@ extern TypeInfo U3CModuleU3E_t1114_il2cpp_TypeInfo;
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo ExtensionAttribute_t1113_il2cpp_TypeInfo;
+extern TypeInfo ExtensionAttribute_t1115_il2cpp_TypeInfo;
 // System.Runtime.CompilerServices.ExtensionAttribute
 #include "System_Core_System_Runtime_CompilerServices_ExtensionAttribuMethodDeclarations.h"
 
@@ -41,15 +41,15 @@ extern TypeInfo ExtensionAttribute_t1113_il2cpp_TypeInfo;
 #include "mscorlib_System_Void.h"
 // System.Attribute
 #include "mscorlib_System_AttributeMethodDeclarations.h"
-extern MethodInfo Attribute__ctor_m4577_MethodInfo;
+extern MethodInfo Attribute__ctor_m4588_MethodInfo;
 
 
 // System.Void System.Runtime.CompilerServices.ExtensionAttribute::.ctor()
-extern MethodInfo ExtensionAttribute__ctor_m5016_MethodInfo;
-extern "C" void ExtensionAttribute__ctor_m5016 (ExtensionAttribute_t1113 * __this, MethodInfo* method)
+extern MethodInfo ExtensionAttribute__ctor_m5027_MethodInfo;
+extern "C" void ExtensionAttribute__ctor_m5027 (ExtensionAttribute_t1115 * __this, MethodInfo* method)
 {
 	{
-		Attribute__ctor_m4577(__this, /*hidden argument*/&Attribute__ctor_m4577_MethodInfo);
+		Attribute__ctor_m4588(__this, /*hidden argument*/&Attribute__ctor_m4588_MethodInfo);
 		return;
 	}
 }
@@ -58,7 +58,7 @@ extern "C" void ExtensionAttribute__ctor_m5016 (ExtensionAttribute_t1113 * __thi
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo Check_t1115_il2cpp_TypeInfo;
+extern TypeInfo Check_t1117_il2cpp_TypeInfo;
 // System.Linq.Check
 #include "System_Core_System_Linq_CheckMethodDeclarations.h"
 
@@ -75,8 +75,8 @@ extern MethodInfo ArgumentNullException__ctor_m755_MethodInfo;
 
 
 // System.Void System.Linq.Check::SourceAndPredicate(System.Object,System.Object)
-extern MethodInfo Check_SourceAndPredicate_m5017_MethodInfo;
-extern "C" void Check_SourceAndPredicate_m5017 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___predicate, MethodInfo* method)
+extern MethodInfo Check_SourceAndPredicate_m5028_MethodInfo;
+extern "C" void Check_SourceAndPredicate_m5028 (Object_t * __this /* static, unused */, Object_t * ___source, Object_t * ___predicate, MethodInfo* method)
 {
 	{
 		Object_t * L_0 = ___source;
@@ -115,7 +115,7 @@ IL_0022:
 #ifndef _MSC_VER
 #else
 #endif
-extern TypeInfo Enumerable_t554_il2cpp_TypeInfo;
+extern TypeInfo Enumerable_t556_il2cpp_TypeInfo;
 // System.Linq.Enumerable
 #include "System_Core_System_Linq_EnumerableMethodDeclarations.h"
 

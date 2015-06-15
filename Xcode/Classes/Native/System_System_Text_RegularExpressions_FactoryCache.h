@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Hashtable
-struct Hashtable_t1147;
+struct Hashtable_t1149;
 // System.Text.RegularExpressions.MRUList
-struct MRUList_t1271;
+struct MRUList_t1273;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.FactoryCache
-struct  FactoryCache_t1262  : public Object_t
+struct  FactoryCache_t1264  : public Object_t
 {
 	// System.Int32 System.Text.RegularExpressions.FactoryCache::capacity
 	int32_t ___capacity_0;
 	// System.Collections.Hashtable System.Text.RegularExpressions.FactoryCache::factories
-	Hashtable_t1147 * ___factories_1;
+	Hashtable_t1149 * ___factories_1;
 	// System.Text.RegularExpressions.MRUList System.Text.RegularExpressions.FactoryCache::mru_list
-	MRUList_t1271 * ___mru_list_2;
+	MRUList_t1273 * ___mru_list_2;
 };

@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.Generic.IDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate>
-struct IDictionary_2_t819;
-// System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>
-struct IDictionary_2_t820;
-// System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>
 struct IDictionary_2_t821;
+// System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,SimpleJson.Reflection.ReflectionUtils/GetDelegate>>
+struct IDictionary_2_t822;
+// System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>>
+struct IDictionary_2_t823;
 // System.Type[]
 struct TypeU5BU5D_t207;
 // System.String[]
@@ -13,7 +13,7 @@ struct StringU5BU5D_t215;
 // System.Object
 #include "mscorlib_System_Object.h"
 // SimpleJson.PocoJsonSerializerStrategy
-struct  PocoJsonSerializerStrategy_t817  : public Object_t
+struct  PocoJsonSerializerStrategy_t819  : public Object_t
 {
 	// System.Collections.Generic.IDictionary`2<System.Type,SimpleJson.Reflection.ReflectionUtils/ConstructorDelegate> SimpleJson.PocoJsonSerializerStrategy::ConstructorCache
 	Object_t* ___ConstructorCache_0;
@@ -22,7 +22,7 @@ struct  PocoJsonSerializerStrategy_t817  : public Object_t
 	// System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.String,System.Collections.Generic.KeyValuePair`2<System.Type,SimpleJson.Reflection.ReflectionUtils/SetDelegate>>> SimpleJson.PocoJsonSerializerStrategy::SetCache
 	Object_t* ___SetCache_2;
 };
-struct PocoJsonSerializerStrategy_t817_StaticFields{
+struct PocoJsonSerializerStrategy_t819_StaticFields{
 	// System.Type[] SimpleJson.PocoJsonSerializerStrategy::EmptyTypes
 	TypeU5BU5D_t207* ___EmptyTypes_3;
 	// System.Type[] SimpleJson.PocoJsonSerializerStrategy::ArrayConstructorParameterTypes

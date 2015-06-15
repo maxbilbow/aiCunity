@@ -6,7 +6,7 @@ struct String_t;
 struct Object_t91;
 struct Object_t91_marshaled;
 // UnityEngine.AnimationState
-struct AnimationState_t759;
+struct AnimationState_t761;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.AnimationEventSource
@@ -16,7 +16,7 @@ struct AnimationState_t759;
 // UnityEngine.AnimatorClipInfo
 #include "UnityEngine_UnityEngine_AnimatorClipInfo.h"
 // UnityEngine.AnimationEvent
-struct  AnimationEvent_t760  : public Object_t
+struct  AnimationEvent_t762  : public Object_t
 {
 	// System.Single UnityEngine.AnimationEvent::m_Time
 	float ___m_Time_0;
@@ -35,9 +35,9 @@ struct  AnimationEvent_t760  : public Object_t
 	// UnityEngine.AnimationEventSource UnityEngine.AnimationEvent::m_Source
 	int32_t ___m_Source_7;
 	// UnityEngine.AnimationState UnityEngine.AnimationEvent::m_StateSender
-	AnimationState_t759 * ___m_StateSender_8;
+	AnimationState_t761 * ___m_StateSender_8;
 	// UnityEngine.AnimatorStateInfo UnityEngine.AnimationEvent::m_AnimatorStateInfo
 	AnimatorStateInfo_t198  ___m_AnimatorStateInfo_9;
 	// UnityEngine.AnimatorClipInfo UnityEngine.AnimationEvent::m_AnimatorClipInfo
-	AnimatorClipInfo_t761  ___m_AnimatorClipInfo_10;
+	AnimatorClipInfo_t763  ___m_AnimatorClipInfo_10;
 };

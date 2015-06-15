@@ -7,7 +7,7 @@ struct Image_t64;
 // UnityEngine.Color
 #include "UnityEngine_UnityEngine_Color.h"
 // DropMe
-struct  DropMe_t278  : public MonoBehaviour_t5
+struct  DropMe_t280  : public MonoBehaviour_t5
 {
 	// UnityEngine.UI.Image DropMe::containerImage
 	Image_t64 * ___containerImage_2;

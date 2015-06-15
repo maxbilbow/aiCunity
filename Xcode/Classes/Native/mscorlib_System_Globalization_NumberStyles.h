@@ -5,7 +5,7 @@
 // System.Globalization.NumberStyles
 #include "mscorlib_System_Globalization_NumberStyles.h"
 // System.Globalization.NumberStyles
-struct  NumberStyles_t1674 
+struct  NumberStyles_t1676 
 {
 	// System.Int32 System.Globalization.NumberStyles::value__
 	int32_t ___value___1;

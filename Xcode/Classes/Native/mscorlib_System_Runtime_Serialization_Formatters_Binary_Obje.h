@@ -7,11 +7,11 @@ struct TypeU5BU5D_t207;
 // System.String[]
 struct StringU5BU5D_t215;
 // System.Reflection.MemberInfo[]
-struct MemberInfoU5BU5D_t1872;
+struct MemberInfoU5BU5D_t1874;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeMetadata
-struct  TypeMetadata_t1873  : public Object_t
+struct  TypeMetadata_t1875  : public Object_t
 {
 	// System.Type System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeMetadata::Type
 	Type_t * ___Type_0;
@@ -20,7 +20,7 @@ struct  TypeMetadata_t1873  : public Object_t
 	// System.String[] System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeMetadata::MemberNames
 	StringU5BU5D_t215* ___MemberNames_2;
 	// System.Reflection.MemberInfo[] System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeMetadata::MemberInfos
-	MemberInfoU5BU5D_t1872* ___MemberInfos_3;
+	MemberInfoU5BU5D_t1874* ___MemberInfos_3;
 	// System.Int32 System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeMetadata::FieldCount
 	int32_t ___FieldCount_4;
 	// System.Boolean System.Runtime.Serialization.Formatters.Binary.ObjectReader/TypeMetadata::NeedsSerializationInfo

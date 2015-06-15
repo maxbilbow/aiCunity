@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.PlayMode
-struct PlayMode_t762;
+struct PlayMode_t764;
 

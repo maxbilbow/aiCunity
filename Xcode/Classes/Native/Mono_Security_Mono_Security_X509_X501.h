@@ -1,42 +1,42 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t720;
+struct ByteU5BU5D_t722;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.X509.X501
-struct  X501_t1343  : public Object_t
+struct  X501_t1345  : public Object_t
 {
 };
-struct X501_t1343_StaticFields{
+struct X501_t1345_StaticFields{
 	// System.Byte[] Mono.Security.X509.X501::countryName
-	ByteU5BU5D_t720* ___countryName_0;
+	ByteU5BU5D_t722* ___countryName_0;
 	// System.Byte[] Mono.Security.X509.X501::organizationName
-	ByteU5BU5D_t720* ___organizationName_1;
+	ByteU5BU5D_t722* ___organizationName_1;
 	// System.Byte[] Mono.Security.X509.X501::organizationalUnitName
-	ByteU5BU5D_t720* ___organizationalUnitName_2;
+	ByteU5BU5D_t722* ___organizationalUnitName_2;
 	// System.Byte[] Mono.Security.X509.X501::commonName
-	ByteU5BU5D_t720* ___commonName_3;
+	ByteU5BU5D_t722* ___commonName_3;
 	// System.Byte[] Mono.Security.X509.X501::localityName
-	ByteU5BU5D_t720* ___localityName_4;
+	ByteU5BU5D_t722* ___localityName_4;
 	// System.Byte[] Mono.Security.X509.X501::stateOrProvinceName
-	ByteU5BU5D_t720* ___stateOrProvinceName_5;
+	ByteU5BU5D_t722* ___stateOrProvinceName_5;
 	// System.Byte[] Mono.Security.X509.X501::streetAddress
-	ByteU5BU5D_t720* ___streetAddress_6;
+	ByteU5BU5D_t722* ___streetAddress_6;
 	// System.Byte[] Mono.Security.X509.X501::domainComponent
-	ByteU5BU5D_t720* ___domainComponent_7;
+	ByteU5BU5D_t722* ___domainComponent_7;
 	// System.Byte[] Mono.Security.X509.X501::userid
-	ByteU5BU5D_t720* ___userid_8;
+	ByteU5BU5D_t722* ___userid_8;
 	// System.Byte[] Mono.Security.X509.X501::email
-	ByteU5BU5D_t720* ___email_9;
+	ByteU5BU5D_t722* ___email_9;
 	// System.Byte[] Mono.Security.X509.X501::dnQualifier
-	ByteU5BU5D_t720* ___dnQualifier_10;
+	ByteU5BU5D_t722* ___dnQualifier_10;
 	// System.Byte[] Mono.Security.X509.X501::title
-	ByteU5BU5D_t720* ___title_11;
+	ByteU5BU5D_t722* ___title_11;
 	// System.Byte[] Mono.Security.X509.X501::surname
-	ByteU5BU5D_t720* ___surname_12;
+	ByteU5BU5D_t722* ___surname_12;
 	// System.Byte[] Mono.Security.X509.X501::givenName
-	ByteU5BU5D_t720* ___givenName_13;
+	ByteU5BU5D_t722* ___givenName_13;
 	// System.Byte[] Mono.Security.X509.X501::initial
-	ByteU5BU5D_t720* ___initial_14;
+	ByteU5BU5D_t722* ___initial_14;
 };

@@ -1,13 +1,13 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.GUIStyle
-struct GUIStyle_t684;
+struct GUIStyle_t686;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Rect
 #include "UnityEngine_UnityEngine_Rect.h"
 // UnityEngine.GUILayoutEntry
-struct  GUILayoutEntry_t692  : public Object_t
+struct  GUILayoutEntry_t694  : public Object_t
 {
 	// System.Single UnityEngine.GUILayoutEntry::minWidth
 	float ___minWidth_0;
@@ -24,9 +24,9 @@ struct  GUILayoutEntry_t692  : public Object_t
 	// System.Int32 UnityEngine.GUILayoutEntry::stretchHeight
 	int32_t ___stretchHeight_6;
 	// UnityEngine.GUIStyle UnityEngine.GUILayoutEntry::m_Style
-	GUIStyle_t684 * ___m_Style_7;
+	GUIStyle_t686 * ___m_Style_7;
 };
-struct GUILayoutEntry_t692_StaticFields{
+struct GUILayoutEntry_t694_StaticFields{
 	// UnityEngine.Rect UnityEngine.GUILayoutEntry::kDummyRect
 	Rect_t260  ___kDummyRect_8;
 	// System.Int32 UnityEngine.GUILayoutEntry::indent

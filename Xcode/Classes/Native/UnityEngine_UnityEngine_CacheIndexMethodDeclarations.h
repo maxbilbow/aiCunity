@@ -5,9 +5,9 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.CacheIndex
-struct CacheIndex_t724;
-struct CacheIndex_t724_marshaled;
+struct CacheIndex_t726;
+struct CacheIndex_t726_marshaled;
 
-void CacheIndex_t724_marshal(const CacheIndex_t724& unmarshaled, CacheIndex_t724_marshaled& marshaled);
-void CacheIndex_t724_marshal_back(const CacheIndex_t724_marshaled& marshaled, CacheIndex_t724& unmarshaled);
-void CacheIndex_t724_marshal_cleanup(CacheIndex_t724_marshaled& marshaled);
+void CacheIndex_t726_marshal(const CacheIndex_t726& unmarshaled, CacheIndex_t726_marshaled& marshaled);
+void CacheIndex_t726_marshal_back(const CacheIndex_t726_marshaled& marshaled, CacheIndex_t726& unmarshaled);
+void CacheIndex_t726_marshal_cleanup(CacheIndex_t726_marshaled& marshaled);

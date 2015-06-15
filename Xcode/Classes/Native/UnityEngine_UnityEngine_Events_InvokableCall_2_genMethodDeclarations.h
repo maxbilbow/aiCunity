@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Events.InvokableCall`2<System.Object,System.Object>
-struct InvokableCall_2_t3607;
+struct InvokableCall_2_t3609;
 // System.Object
 struct Object_t;
 // System.Reflection.MethodInfo
@@ -14,11 +14,11 @@ struct MethodInfo_t;
 struct ObjectU5BU5D_t194;
 
 // System.Void UnityEngine.Events.InvokableCall`2<System.Object,System.Object>::.ctor(System.Object,System.Reflection.MethodInfo)
-extern "C" void InvokableCall_2__ctor_m22378_gshared (InvokableCall_2_t3607 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, MethodInfo* method);
-#define InvokableCall_2__ctor_m22378(__this, ___target, ___theFunction, method) (( void (*) (InvokableCall_2_t3607 *, Object_t *, MethodInfo_t *, MethodInfo*))InvokableCall_2__ctor_m22378_gshared)(__this, ___target, ___theFunction, method)
+extern "C" void InvokableCall_2__ctor_m22389_gshared (InvokableCall_2_t3609 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, MethodInfo* method);
+#define InvokableCall_2__ctor_m22389(__this, ___target, ___theFunction, method) (( void (*) (InvokableCall_2_t3609 *, Object_t *, MethodInfo_t *, MethodInfo*))InvokableCall_2__ctor_m22389_gshared)(__this, ___target, ___theFunction, method)
 // System.Void UnityEngine.Events.InvokableCall`2<System.Object,System.Object>::Invoke(System.Object[])
-extern "C" void InvokableCall_2_Invoke_m22379_gshared (InvokableCall_2_t3607 * __this, ObjectU5BU5D_t194* ___args, MethodInfo* method);
-#define InvokableCall_2_Invoke_m22379(__this, ___args, method) (( void (*) (InvokableCall_2_t3607 *, ObjectU5BU5D_t194*, MethodInfo*))InvokableCall_2_Invoke_m22379_gshared)(__this, ___args, method)
+extern "C" void InvokableCall_2_Invoke_m22390_gshared (InvokableCall_2_t3609 * __this, ObjectU5BU5D_t194* ___args, MethodInfo* method);
+#define InvokableCall_2_Invoke_m22390(__this, ___args, method) (( void (*) (InvokableCall_2_t3609 *, ObjectU5BU5D_t194*, MethodInfo*))InvokableCall_2_Invoke_m22390_gshared)(__this, ___args, method)
 // System.Boolean UnityEngine.Events.InvokableCall`2<System.Object,System.Object>::Find(System.Object,System.Reflection.MethodInfo)
-extern "C" bool InvokableCall_2_Find_m22380_gshared (InvokableCall_2_t3607 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, MethodInfo* method);
-#define InvokableCall_2_Find_m22380(__this, ___targetObj, ___method, method) (( bool (*) (InvokableCall_2_t3607 *, Object_t *, MethodInfo_t *, MethodInfo*))InvokableCall_2_Find_m22380_gshared)(__this, ___targetObj, ___method, method)
+extern "C" bool InvokableCall_2_Find_m22391_gshared (InvokableCall_2_t3609 * __this, Object_t * ___targetObj, MethodInfo_t * ___method, MethodInfo* method);
+#define InvokableCall_2_Find_m22391(__this, ___targetObj, ___method, method) (( bool (*) (InvokableCall_2_t3609 *, Object_t *, MethodInfo_t *, MethodInfo*))InvokableCall_2_Find_m22391_gshared)(__this, ___targetObj, ___method, method)

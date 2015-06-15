@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Array/InternalEnumerator`1<System.Collections.Generic.Link>
-struct InternalEnumerator_1_t2630;
+struct InternalEnumerator_1_t2632;
 // System.Object
 struct Object_t;
 // System.Array
@@ -14,17 +14,17 @@ struct Array_t;
 #include "mscorlib_System_Collections_Generic_Link.h"
 
 // System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.Link>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m12733_gshared (InternalEnumerator_1_t2630 * __this, Array_t * ___array, MethodInfo* method);
-#define InternalEnumerator_1__ctor_m12733(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2630 *, Array_t *, MethodInfo*))InternalEnumerator_1__ctor_m12733_gshared)(__this, ___array, method)
+extern "C" void InternalEnumerator_1__ctor_m12744_gshared (InternalEnumerator_1_t2632 * __this, Array_t * ___array, MethodInfo* method);
+#define InternalEnumerator_1__ctor_m12744(__this, ___array, method) (( void (*) (InternalEnumerator_1_t2632 *, Array_t *, MethodInfo*))InternalEnumerator_1__ctor_m12744_gshared)(__this, ___array, method)
 // System.Object System.Array/InternalEnumerator`1<System.Collections.Generic.Link>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m12734_gshared (InternalEnumerator_1_t2630 * __this, MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m12734(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2630 *, MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m12734_gshared)(__this, method)
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m12745_gshared (InternalEnumerator_1_t2632 * __this, MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m12745(__this, method) (( Object_t * (*) (InternalEnumerator_1_t2632 *, MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m12745_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<System.Collections.Generic.Link>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m12735_gshared (InternalEnumerator_1_t2630 * __this, MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m12735(__this, method) (( void (*) (InternalEnumerator_1_t2630 *, MethodInfo*))InternalEnumerator_1_Dispose_m12735_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_Dispose_m12746_gshared (InternalEnumerator_1_t2632 * __this, MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m12746(__this, method) (( void (*) (InternalEnumerator_1_t2632 *, MethodInfo*))InternalEnumerator_1_Dispose_m12746_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<System.Collections.Generic.Link>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m12736_gshared (InternalEnumerator_1_t2630 * __this, MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m12736(__this, method) (( bool (*) (InternalEnumerator_1_t2630 *, MethodInfo*))InternalEnumerator_1_MoveNext_m12736_gshared)(__this, method)
+extern "C" bool InternalEnumerator_1_MoveNext_m12747_gshared (InternalEnumerator_1_t2632 * __this, MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m12747(__this, method) (( bool (*) (InternalEnumerator_1_t2632 *, MethodInfo*))InternalEnumerator_1_MoveNext_m12747_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<System.Collections.Generic.Link>::get_Current()
-extern "C" Link_t1634  InternalEnumerator_1_get_Current_m12737_gshared (InternalEnumerator_1_t2630 * __this, MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m12737(__this, method) (( Link_t1634  (*) (InternalEnumerator_1_t2630 *, MethodInfo*))InternalEnumerator_1_get_Current_m12737_gshared)(__this, method)
+extern "C" Link_t1636  InternalEnumerator_1_get_Current_m12748_gshared (InternalEnumerator_1_t2632 * __this, MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m12748(__this, method) (( Link_t1636  (*) (InternalEnumerator_1_t2632 *, MethodInfo*))InternalEnumerator_1_get_Current_m12748_gshared)(__this, method)

@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Reflection.MonoPropertyInfo
-struct MonoPropertyInfo_t1753;
+struct MonoPropertyInfo_t1755;
 // System.Reflection.MonoProperty
 struct MonoProperty_t;
 // System.Type[]
@@ -16,6 +16,6 @@ struct TypeU5BU5D_t207;
 #include "mscorlib_System_Reflection_PInfo.h"
 
 // System.Void System.Reflection.MonoPropertyInfo::get_property_info(System.Reflection.MonoProperty,System.Reflection.MonoPropertyInfo&,System.Reflection.PInfo)
-extern "C" void MonoPropertyInfo_get_property_info_m9664 (Object_t * __this /* static, unused */, MonoProperty_t * ___prop, MonoPropertyInfo_t1753 * ___info, int32_t ___req_info, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MonoPropertyInfo_get_property_info_m9675 (Object_t * __this /* static, unused */, MonoProperty_t * ___prop, MonoPropertyInfo_t1755 * ___info, int32_t ___req_info, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type[] System.Reflection.MonoPropertyInfo::GetTypeModifiers(System.Reflection.MonoProperty,System.Boolean)
-extern "C" TypeU5BU5D_t207* MonoPropertyInfo_GetTypeModifiers_m9665 (Object_t * __this /* static, unused */, MonoProperty_t * ___prop, bool ___optional, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TypeU5BU5D_t207* MonoPropertyInfo_GetTypeModifiers_m9676 (Object_t * __this /* static, unused */, MonoProperty_t * ___prop, bool ___optional, MethodInfo* method) IL2CPP_METHOD_ATTR;

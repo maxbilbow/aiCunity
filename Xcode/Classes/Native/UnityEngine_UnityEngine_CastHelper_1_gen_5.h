@@ -7,7 +7,7 @@ struct ThirdPersonCharacter_t40;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.CastHelper`1<UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter>
-struct  CastHelper_1_t2607 
+struct  CastHelper_1_t2609 
 {
 	// T UnityEngine.CastHelper`1<UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter>::t
 	ThirdPersonCharacter_t40 * ___t_0;

@@ -8,12 +8,12 @@ struct  AxisTouchButtonU5BU5D_t199  : public Array_t
 };
 // UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis[]
 // UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualAxis[]
-struct  VirtualAxisU5BU5D_t2615  : public Array_t
+struct  VirtualAxisU5BU5D_t2617  : public Array_t
 {
 };
 // UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton[]
 // UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager/VirtualButton[]
-struct  VirtualButtonU5BU5D_t2667  : public Array_t
+struct  VirtualButtonU5BU5D_t2669  : public Array_t
 {
 };
 // UnityStandardAssets.Utility.AutoMobileShaderSwitch/ReplacementDefinition[]

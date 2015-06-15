@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.CastHelper`1<UnityEngine.Skybox>
-struct CastHelper_1_t2765;
+struct CastHelper_1_t2767;
 

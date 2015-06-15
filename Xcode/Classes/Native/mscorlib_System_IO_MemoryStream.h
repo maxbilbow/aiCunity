@@ -1,11 +1,11 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t720;
+struct ByteU5BU5D_t722;
 // System.IO.Stream
 #include "mscorlib_System_IO_Stream.h"
 // System.IO.MemoryStream
-struct  MemoryStream_t912  : public Stream_t1446
+struct  MemoryStream_t914  : public Stream_t1448
 {
 	// System.Boolean System.IO.MemoryStream::canWrite
 	bool ___canWrite_1;
@@ -16,7 +16,7 @@ struct  MemoryStream_t912  : public Stream_t1446
 	// System.Int32 System.IO.MemoryStream::length
 	int32_t ___length_4;
 	// System.Byte[] System.IO.MemoryStream::internalBuffer
-	ByteU5BU5D_t720* ___internalBuffer_5;
+	ByteU5BU5D_t722* ___internalBuffer_5;
 	// System.Int32 System.IO.MemoryStream::initialIndex
 	int32_t ___initialIndex_6;
 	// System.Boolean System.IO.MemoryStream::expandable

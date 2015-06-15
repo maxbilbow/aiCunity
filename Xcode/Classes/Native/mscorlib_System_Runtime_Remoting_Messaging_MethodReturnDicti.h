@@ -5,10 +5,10 @@ struct StringU5BU5D_t215;
 // System.Runtime.Remoting.Messaging.MethodDictionary
 #include "mscorlib_System_Runtime_Remoting_Messaging_MethodDictionary.h"
 // System.Runtime.Remoting.Messaging.MethodReturnDictionary
-struct  MethodReturnDictionary_t1830  : public MethodDictionary_t1821
+struct  MethodReturnDictionary_t1832  : public MethodDictionary_t1823
 {
 };
-struct MethodReturnDictionary_t1830_StaticFields{
+struct MethodReturnDictionary_t1832_StaticFields{
 	// System.String[] System.Runtime.Remoting.Messaging.MethodReturnDictionary::InternalReturnKeys
 	StringU5BU5D_t215* ___InternalReturnKeys_6;
 	// System.String[] System.Runtime.Remoting.Messaging.MethodReturnDictionary::InternalExceptionKeys

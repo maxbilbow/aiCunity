@@ -1,22 +1,22 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Collections.CaseInsensitiveHashCodeProvider
-struct CaseInsensitiveHashCodeProvider_t1329;
+struct CaseInsensitiveHashCodeProvider_t1331;
 // System.Object
 struct Object_t;
 // System.Globalization.TextInfo
-struct TextInfo_t1582;
+struct TextInfo_t1584;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Collections.CaseInsensitiveHashCodeProvider
-struct  CaseInsensitiveHashCodeProvider_t1329  : public Object_t
+struct  CaseInsensitiveHashCodeProvider_t1331  : public Object_t
 {
 	// System.Globalization.TextInfo System.Collections.CaseInsensitiveHashCodeProvider::m_text
-	TextInfo_t1582 * ___m_text_2;
+	TextInfo_t1584 * ___m_text_2;
 };
-struct CaseInsensitiveHashCodeProvider_t1329_StaticFields{
+struct CaseInsensitiveHashCodeProvider_t1331_StaticFields{
 	// System.Collections.CaseInsensitiveHashCodeProvider System.Collections.CaseInsensitiveHashCodeProvider::singletonInvariant
-	CaseInsensitiveHashCodeProvider_t1329 * ___singletonInvariant_0;
+	CaseInsensitiveHashCodeProvider_t1331 * ___singletonInvariant_0;
 	// System.Object System.Collections.CaseInsensitiveHashCodeProvider::sync
 	Object_t * ___sync_1;
 };

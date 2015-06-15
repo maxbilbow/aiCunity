@@ -5,7 +5,7 @@
 // UnityEngine.Events.PersistentListenerMode
 #include "UnityEngine_UnityEngine_Events_PersistentListenerMode.h"
 // UnityEngine.Events.PersistentListenerMode
-struct  PersistentListenerMode_t878 
+struct  PersistentListenerMode_t880 
 {
 	// System.Int32 UnityEngine.Events.PersistentListenerMode::value__
 	int32_t ___value___1;

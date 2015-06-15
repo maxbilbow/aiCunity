@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Uri
-struct Uri_t802;
+struct Uri_t804;
 // System.Object
 struct Object_t;
 // System.Object
@@ -9,10 +9,10 @@ struct Object_t;
 // System.DateTime
 #include "mscorlib_System_DateTime.h"
 // System.Net.ServicePoint
-struct  ServicePoint_t1170  : public Object_t
+struct  ServicePoint_t1172  : public Object_t
 {
 	// System.Uri System.Net.ServicePoint::uri
-	Uri_t802 * ___uri_0;
+	Uri_t804 * ___uri_0;
 	// System.Int32 System.Net.ServicePoint::connectionLimit
 	int32_t ___connectionLimit_1;
 	// System.Int32 System.Net.ServicePoint::maxIdleTime
@@ -20,7 +20,7 @@ struct  ServicePoint_t1170  : public Object_t
 	// System.Int32 System.Net.ServicePoint::currentConnections
 	int32_t ___currentConnections_3;
 	// System.DateTime System.Net.ServicePoint::idleSince
-	DateTime_t683  ___idleSince_4;
+	DateTime_t685  ___idleSince_4;
 	// System.Boolean System.Net.ServicePoint::usesProxy
 	bool ___usesProxy_5;
 	// System.Boolean System.Net.ServicePoint::sendContinue

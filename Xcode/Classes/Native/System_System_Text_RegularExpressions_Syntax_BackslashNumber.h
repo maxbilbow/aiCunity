@@ -5,7 +5,7 @@ struct String_t;
 // System.Text.RegularExpressions.Syntax.Reference
 #include "System_System_Text_RegularExpressions_Syntax_Reference.h"
 // System.Text.RegularExpressions.Syntax.BackslashNumber
-struct  BackslashNumber_t1313  : public Reference_t1312
+struct  BackslashNumber_t1315  : public Reference_t1314
 {
 	// System.String System.Text.RegularExpressions.Syntax.BackslashNumber::literal
 	String_t* ___literal_2;

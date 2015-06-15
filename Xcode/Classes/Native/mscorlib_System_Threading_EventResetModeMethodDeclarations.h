@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Threading.EventResetMode
-struct EventResetMode_t1976;
+struct EventResetMode_t1978;
 

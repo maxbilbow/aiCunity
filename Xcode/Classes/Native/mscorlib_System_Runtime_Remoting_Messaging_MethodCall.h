@@ -7,17 +7,17 @@ struct ObjectU5BU5D_t194;
 // System.Type[]
 struct TypeU5BU5D_t207;
 // System.Reflection.MethodBase
-struct MethodBase_t935;
+struct MethodBase_t937;
 // System.Runtime.Remoting.Messaging.LogicalCallContext
-struct LogicalCallContext_t1825;
+struct LogicalCallContext_t1827;
 // System.Collections.IDictionary
-struct IDictionary_t1150;
+struct IDictionary_t1152;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
-struct Dictionary_2_t270;
+struct Dictionary_2_t272;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Runtime.Remoting.Messaging.MethodCall
-struct  MethodCall_t1819  : public Object_t
+struct  MethodCall_t1821  : public Object_t
 {
 	// System.String System.Runtime.Remoting.Messaging.MethodCall::_uri
 	String_t* ____uri_0;
@@ -30,9 +30,9 @@ struct  MethodCall_t1819  : public Object_t
 	// System.Type[] System.Runtime.Remoting.Messaging.MethodCall::_methodSignature
 	TypeU5BU5D_t207* ____methodSignature_4;
 	// System.Reflection.MethodBase System.Runtime.Remoting.Messaging.MethodCall::_methodBase
-	MethodBase_t935 * ____methodBase_5;
+	MethodBase_t937 * ____methodBase_5;
 	// System.Runtime.Remoting.Messaging.LogicalCallContext System.Runtime.Remoting.Messaging.MethodCall::_callContext
-	LogicalCallContext_t1825 * ____callContext_6;
+	LogicalCallContext_t1827 * ____callContext_6;
 	// System.Type[] System.Runtime.Remoting.Messaging.MethodCall::_genericArguments
 	TypeU5BU5D_t207* ____genericArguments_7;
 	// System.Collections.IDictionary System.Runtime.Remoting.Messaging.MethodCall::ExternalProperties
@@ -40,7 +40,7 @@ struct  MethodCall_t1819  : public Object_t
 	// System.Collections.IDictionary System.Runtime.Remoting.Messaging.MethodCall::InternalProperties
 	Object_t * ___InternalProperties_9;
 };
-struct MethodCall_t1819_StaticFields{
+struct MethodCall_t1821_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> System.Runtime.Remoting.Messaging.MethodCall::<>f__switch$map1F
-	Dictionary_2_t270 * ___U3CU3Ef__switch$map1F_10;
+	Dictionary_2_t272 * ___U3CU3Ef__switch$map1F_10;
 };

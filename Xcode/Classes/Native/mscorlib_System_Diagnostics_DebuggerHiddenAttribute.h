@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // System.Diagnostics.DebuggerHiddenAttribute
-struct  DebuggerHiddenAttribute_t247  : public Attribute_t714
+struct  DebuggerHiddenAttribute_t247  : public Attribute_t716
 {
 };

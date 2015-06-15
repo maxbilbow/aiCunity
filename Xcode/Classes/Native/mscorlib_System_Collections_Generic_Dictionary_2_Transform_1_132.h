@@ -1,12 +1,12 @@
 ﻿#pragma once
 #include <stdint.h>
 // UnityEngine.Event
-struct Event_t436;
-struct Event_t436_marshaled;
+struct Event_t438;
+struct Event_t438_marshaled;
 // System.IAsyncResult
-struct IAsyncResult_t423;
+struct IAsyncResult_t425;
 // System.AsyncCallback
-struct AsyncCallback_t424;
+struct AsyncCallback_t426;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
@@ -15,8 +15,8 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_TextEditor_TextEditOp.h"
 // System.MulticastDelegate
 #include "mscorlib_System_MulticastDelegate.h"
-extern TypeInfo TextEditOp_t876_il2cpp_TypeInfo;
+extern TypeInfo TextEditOp_t878_il2cpp_TypeInfo;
 // System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp,System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>>
-struct  Transform_1_t3599  : public MulticastDelegate_t427
+struct  Transform_1_t3601  : public MulticastDelegate_t429
 {
 };

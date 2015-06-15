@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Byte[]
-struct ByteU5BU5D_t720;
+struct ByteU5BU5D_t722;
 // Mono.Security.Cryptography.RC4
 #include "Mono_Security_Mono_Security_Cryptography_RC4.h"
 // Mono.Security.Cryptography.ARC4Managed
-struct  ARC4Managed_t1400  : public RC4_t1401
+struct  ARC4Managed_t1402  : public RC4_t1403
 {
 	// System.Byte[] Mono.Security.Cryptography.ARC4Managed::key
-	ByteU5BU5D_t720* ___key_12;
+	ByteU5BU5D_t722* ___key_12;
 	// System.Byte[] Mono.Security.Cryptography.ARC4Managed::state
-	ByteU5BU5D_t720* ___state_13;
+	ByteU5BU5D_t722* ___state_13;
 	// System.Byte Mono.Security.Cryptography.ARC4Managed::x
 	uint8_t ___x_14;
 	// System.Byte Mono.Security.Cryptography.ARC4Managed::y

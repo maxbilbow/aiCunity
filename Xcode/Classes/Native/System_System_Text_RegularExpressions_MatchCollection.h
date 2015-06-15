@@ -1,16 +1,16 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Text.RegularExpressions.Match
-struct Match_t1249;
+struct Match_t1251;
 // System.Collections.ArrayList
-struct ArrayList_t1159;
+struct ArrayList_t1161;
 // System.Object
 #include "mscorlib_System_Object.h"
 // System.Text.RegularExpressions.MatchCollection
-struct  MatchCollection_t1260  : public Object_t
+struct  MatchCollection_t1262  : public Object_t
 {
 	// System.Text.RegularExpressions.Match System.Text.RegularExpressions.MatchCollection::current
-	Match_t1249 * ___current_0;
+	Match_t1251 * ___current_0;
 	// System.Collections.ArrayList System.Text.RegularExpressions.MatchCollection::list
-	ArrayList_t1159 * ___list_1;
+	ArrayList_t1161 * ___list_1;
 };

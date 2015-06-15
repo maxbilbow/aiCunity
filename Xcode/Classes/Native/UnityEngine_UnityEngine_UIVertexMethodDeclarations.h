@@ -5,7 +5,7 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.UIVertex
-struct UIVertex_t414;
+struct UIVertex_t416;
 
 // System.Void UnityEngine.UIVertex::.cctor()
-extern "C" void UIVertex__cctor_m4099 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UIVertex__cctor_m4110 (Object_t * __this /* static, unused */, MethodInfo* method) IL2CPP_METHOD_ATTR;

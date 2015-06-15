@@ -5,11 +5,11 @@
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.YieldInstruction
-struct YieldInstruction_t643;
-struct YieldInstruction_t643_marshaled;
+struct YieldInstruction_t645;
+struct YieldInstruction_t645_marshaled;
 
 // System.Void UnityEngine.YieldInstruction::.ctor()
-extern "C" void YieldInstruction__ctor_m3899 (YieldInstruction_t643 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
-void YieldInstruction_t643_marshal(const YieldInstruction_t643& unmarshaled, YieldInstruction_t643_marshaled& marshaled);
-void YieldInstruction_t643_marshal_back(const YieldInstruction_t643_marshaled& marshaled, YieldInstruction_t643& unmarshaled);
-void YieldInstruction_t643_marshal_cleanup(YieldInstruction_t643_marshaled& marshaled);
+extern "C" void YieldInstruction__ctor_m3910 (YieldInstruction_t645 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+void YieldInstruction_t645_marshal(const YieldInstruction_t645& unmarshaled, YieldInstruction_t645_marshaled& marshaled);
+void YieldInstruction_t645_marshal_back(const YieldInstruction_t645_marshaled& marshaled, YieldInstruction_t645& unmarshaled);
+void YieldInstruction_t645_marshal_cleanup(YieldInstruction_t645_marshaled& marshaled);

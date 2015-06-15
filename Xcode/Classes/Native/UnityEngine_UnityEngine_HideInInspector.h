@@ -3,6 +3,6 @@
 // System.Attribute
 #include "mscorlib_System_Attribute.h"
 // UnityEngine.HideInInspector
-struct  HideInInspector_t238  : public Attribute_t714
+struct  HideInInspector_t238  : public Attribute_t716
 {
 };

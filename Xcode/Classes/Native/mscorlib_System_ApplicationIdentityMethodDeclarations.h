@@ -5,15 +5,15 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.ApplicationIdentity
-struct ApplicationIdentity_t1992;
+struct ApplicationIdentity_t1994;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t871;
+struct SerializationInfo_t873;
 // System.String
 struct String_t;
 // System.Runtime.Serialization.StreamingContext
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"
 
 // System.Void System.ApplicationIdentity::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-extern "C" void ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m10850 (ApplicationIdentity_t1992 * __this, SerializationInfo_t871 * ___info, StreamingContext_t872  ___context, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ApplicationIdentity_System_Runtime_Serialization_ISerializable_GetObjectData_m10861 (ApplicationIdentity_t1994 * __this, SerializationInfo_t873 * ___info, StreamingContext_t874  ___context, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.ApplicationIdentity::ToString()
-extern "C" String_t* ApplicationIdentity_ToString_m10851 (ApplicationIdentity_t1992 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* ApplicationIdentity_ToString_m10862 (ApplicationIdentity_t1994 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

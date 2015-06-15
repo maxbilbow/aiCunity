@@ -3,6 +3,6 @@
 // UnityEngine.Object
 #include "UnityEngine_UnityEngine_Object.h"
 // UnityEngine.QualitySettings
-struct  QualitySettings_t668  : public Object_t91
+struct  QualitySettings_t670  : public Object_t91
 {
 };

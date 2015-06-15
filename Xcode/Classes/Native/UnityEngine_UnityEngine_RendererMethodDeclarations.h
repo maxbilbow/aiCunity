@@ -30,6 +30,6 @@ extern "C" MaterialU5BU5D_t216* Renderer_get_sharedMaterials_m924 (Renderer_t156
 // UnityEngine.Bounds UnityEngine.Renderer::get_bounds()
 extern "C" Bounds_t190  Renderer_get_bounds_m656 (Renderer_t156 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Renderer::get_sortingLayerID()
-extern "C" int32_t Renderer_get_sortingLayerID_m2667 (Renderer_t156 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Renderer_get_sortingLayerID_m2678 (Renderer_t156 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Renderer::get_sortingOrder()
-extern "C" int32_t Renderer_get_sortingOrder_m2668 (Renderer_t156 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t Renderer_get_sortingOrder_m2679 (Renderer_t156 * __this, MethodInfo* method) IL2CPP_METHOD_ATTR;

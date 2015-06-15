@@ -5,7 +5,7 @@
 // UnityEngine.RenderingPath
 #include "UnityEngine_UnityEngine_RenderingPath.h"
 // UnityEngine.RenderingPath
-struct  RenderingPath_t728 
+struct  RenderingPath_t730 
 {
 	// System.Int32 UnityEngine.RenderingPath::value__
 	int32_t ___value___1;

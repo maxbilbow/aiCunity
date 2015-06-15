@@ -5,13 +5,13 @@ struct PointerEventData_t46;
 // System.Object
 struct Object_t;
 // UnityEngine.UI.Scrollbar
-struct Scrollbar_t446;
+struct Scrollbar_t448;
 // System.Object
 #include "mscorlib_System_Object.h"
 // UnityEngine.Vector2
 #include "UnityEngine_UnityEngine_Vector2.h"
 // UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4
-struct  U3CClickRepeatU3Ec__Iterator4_t447  : public Object_t
+struct  U3CClickRepeatU3Ec__Iterator4_t449  : public Object_t
 {
 	// UnityEngine.EventSystems.PointerEventData UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::eventData
 	PointerEventData_t46 * ___eventData_0;
@@ -26,5 +26,5 @@ struct  U3CClickRepeatU3Ec__Iterator4_t447  : public Object_t
 	// UnityEngine.EventSystems.PointerEventData UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::<$>eventData
 	PointerEventData_t46 * ___U3C$U3EeventData_5;
 	// UnityEngine.UI.Scrollbar UnityEngine.UI.Scrollbar/<ClickRepeat>c__Iterator4::<>f__this
-	Scrollbar_t446 * ___U3CU3Ef__this_6;
+	Scrollbar_t448 * ___U3CU3Ef__this_6;
 };

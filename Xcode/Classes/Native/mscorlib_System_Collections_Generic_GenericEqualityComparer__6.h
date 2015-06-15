@@ -3,6 +3,6 @@
 // System.Collections.Generic.EqualityComparer`1<System.Boolean>
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_5.h"
 // System.Collections.Generic.GenericEqualityComparer`1<System.Boolean>
-struct  GenericEqualityComparer_1_t2752  : public EqualityComparer_1_t2751
+struct  GenericEqualityComparer_1_t2754  : public EqualityComparer_1_t2753
 {
 };

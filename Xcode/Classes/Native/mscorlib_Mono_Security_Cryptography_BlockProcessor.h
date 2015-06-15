@@ -1,18 +1,18 @@
 ﻿#pragma once
 #include <stdint.h>
 // System.Security.Cryptography.ICryptoTransform
-struct ICryptoTransform_t1402;
+struct ICryptoTransform_t1404;
 // System.Byte[]
-struct ByteU5BU5D_t720;
+struct ByteU5BU5D_t722;
 // System.Object
 #include "mscorlib_System_Object.h"
 // Mono.Security.Cryptography.BlockProcessor
-struct  BlockProcessor_t1597  : public Object_t
+struct  BlockProcessor_t1599  : public Object_t
 {
 	// System.Security.Cryptography.ICryptoTransform Mono.Security.Cryptography.BlockProcessor::transform
 	Object_t * ___transform_0;
 	// System.Byte[] Mono.Security.Cryptography.BlockProcessor::block
-	ByteU5BU5D_t720* ___block_1;
+	ByteU5BU5D_t722* ___block_1;
 	// System.Int32 Mono.Security.Cryptography.BlockProcessor::blockSize
 	int32_t ___blockSize_2;
 	// System.Int32 Mono.Security.Cryptography.BlockProcessor::blockCount

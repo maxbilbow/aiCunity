@@ -11,7 +11,7 @@ struct Image_t64;
 // UnityEngine.Matrix4x4
 #include "UnityEngine_UnityEngine_Matrix4x4.h"
 // ScrollDetailTexture
-struct  ScrollDetailTexture_t283  : public MonoBehaviour_t5
+struct  ScrollDetailTexture_t285  : public MonoBehaviour_t5
 {
 	// System.Boolean ScrollDetailTexture::uniqueMaterial
 	bool ___uniqueMaterial_2;

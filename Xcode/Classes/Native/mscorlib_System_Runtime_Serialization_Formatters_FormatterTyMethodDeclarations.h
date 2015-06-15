@@ -5,5 +5,5 @@
 #include "codegen/il2cpp-codegen.h"
 
 // System.Runtime.Serialization.Formatters.FormatterTypeStyle
-struct FormatterTypeStyle_t1878;
+struct FormatterTypeStyle_t1880;
 

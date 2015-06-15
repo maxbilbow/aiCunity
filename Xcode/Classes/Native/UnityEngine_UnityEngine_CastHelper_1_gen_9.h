@@ -7,7 +7,7 @@ struct Camera_t19;
 // System.IntPtr
 #include "mscorlib_System_IntPtr.h"
 // UnityEngine.CastHelper`1<UnityEngine.Camera>
-struct  CastHelper_1_t2754 
+struct  CastHelper_1_t2756 
 {
 	// T UnityEngine.CastHelper`1<UnityEngine.Camera>::t
 	Camera_t19 * ___t_0;
