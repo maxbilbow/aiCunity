@@ -32,7 +32,6 @@
 #include "Unity/GlesHelper.h"
 #include "PluginBase/AppDelegateListener.h"
 
-
 bool	_ios42orNewer			= false;
 bool	_ios43orNewer			= false;
 bool	_ios50orNewer			= false;

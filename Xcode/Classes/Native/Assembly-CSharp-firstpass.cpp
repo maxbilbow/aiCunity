@@ -1,0 +1,293 @@
+﻿#include "il2cpp-config.h"
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#ifndef _MSC_VER
+#include <alloca.h>
+#else
+#include <malloc.h>
+#endif
+#include <cmath>
+#include <limits>
+#include <assert.h>
+#include "stringLiterals.h"
+
+extern TypeInfo U3CModuleU3E_t0_il2cpp_TypeInfo;
+extern TypeInfo UpdateType_t1_il2cpp_TypeInfo;
+extern TypeInfo AbstractTargetFollower_t4_il2cpp_TypeInfo;
+extern TypeInfo AutoCam_t6_il2cpp_TypeInfo;
+extern TypeInfo FreeLookCam_t9_il2cpp_TypeInfo;
+extern TypeInfo HandHeldCam_t11_il2cpp_TypeInfo;
+extern TypeInfo LookatTarget_t12_il2cpp_TypeInfo;
+extern TypeInfo PivotBasedCameraRig_t7_il2cpp_TypeInfo;
+extern TypeInfo RayHitComparer_t14_il2cpp_TypeInfo;
+extern TypeInfo ProtectCameraFromWallClip_t17_il2cpp_TypeInfo;
+extern TypeInfo TargetFieldOfView_t20_il2cpp_TypeInfo;
+extern TypeInfo FirstPersonController_t29_il2cpp_TypeInfo;
+extern TypeInfo HeadBob_t32_il2cpp_TypeInfo;
+extern TypeInfo MouseLook_t21_il2cpp_TypeInfo;
+extern TypeInfo MovementSettings_t34_il2cpp_TypeInfo;
+extern TypeInfo AdvancedSettings_t35_il2cpp_TypeInfo;
+extern TypeInfo RigidbodyFirstPersonController_t31_il2cpp_TypeInfo;
+extern TypeInfo Ball_t37_il2cpp_TypeInfo;
+extern TypeInfo BallUserControl_t38_il2cpp_TypeInfo;
+extern TypeInfo AICharacterControl_t41_il2cpp_TypeInfo;
+extern TypeInfo ThirdPersonCharacter_t40_il2cpp_TypeInfo;
+extern TypeInfo ThirdPersonUserControl_t43_il2cpp_TypeInfo;
+extern TypeInfo AxisTouchButton_t44_il2cpp_TypeInfo;
+extern TypeInfo ButtonHandler_t47_il2cpp_TypeInfo;
+extern TypeInfo ActiveInputMethod_t48_il2cpp_TypeInfo;
+extern TypeInfo VirtualAxis_t45_il2cpp_TypeInfo;
+extern TypeInfo VirtualButton_t49_il2cpp_TypeInfo;
+extern TypeInfo CrossPlatformInputManager_t51_il2cpp_TypeInfo;
+extern TypeInfo InputAxisScrollbar_t52_il2cpp_TypeInfo;
+extern TypeInfo AxisOption_t53_il2cpp_TypeInfo;
+extern TypeInfo Joystick_t54_il2cpp_TypeInfo;
+extern TypeInfo MobileControlRig_t55_il2cpp_TypeInfo;
+extern TypeInfo MobileInput_t56_il2cpp_TypeInfo;
+extern TypeInfo StandaloneInput_t57_il2cpp_TypeInfo;
+extern TypeInfo AxisOptions_t58_il2cpp_TypeInfo;
+extern TypeInfo MappingType_t59_il2cpp_TypeInfo;
+extern TypeInfo AxisMapping_t60_il2cpp_TypeInfo;
+extern TypeInfo TiltInput_t61_il2cpp_TypeInfo;
+extern TypeInfo AxisOption_t62_il2cpp_TypeInfo;
+extern TypeInfo ControlStyle_t63_il2cpp_TypeInfo;
+extern TypeInfo TouchPad_t65_il2cpp_TypeInfo;
+extern TypeInfo VirtualInput_t50_il2cpp_TypeInfo;
+extern TypeInfo WaterBasic_t69_il2cpp_TypeInfo;
+extern TypeInfo Displace_t70_il2cpp_TypeInfo;
+extern TypeInfo GerstnerDisplace_t71_il2cpp_TypeInfo;
+extern TypeInfo MeshContainer_t74_il2cpp_TypeInfo;
+extern TypeInfo PlanarReflection_t77_il2cpp_TypeInfo;
+extern TypeInfo SpecularLighting_t84_il2cpp_TypeInfo;
+extern TypeInfo WaterMode_t85_il2cpp_TypeInfo;
+extern TypeInfo Water_t87_il2cpp_TypeInfo;
+extern TypeInfo WaterQuality_t88_il2cpp_TypeInfo;
+extern TypeInfo WaterBase_t83_il2cpp_TypeInfo;
+extern TypeInfo WaterTile_t89_il2cpp_TypeInfo;
+extern TypeInfo Mode_t90_il2cpp_TypeInfo;
+extern TypeInfo ActivateTrigger_t93_il2cpp_TypeInfo;
+extern TypeInfo ReplacementDefinition_t96_il2cpp_TypeInfo;
+extern TypeInfo ReplacementList_t98_il2cpp_TypeInfo;
+extern TypeInfo AutoMobileShaderSwitch_t99_il2cpp_TypeInfo;
+extern TypeInfo Vector3andSpace_t100_il2cpp_TypeInfo;
+extern TypeInfo AutoMoveAndRotate_t101_il2cpp_TypeInfo;
+extern TypeInfo CameraRefocus_t102_il2cpp_TypeInfo;
+extern TypeInfo CurveControlledBob_t23_il2cpp_TypeInfo;
+extern TypeInfo U3CDragObjectU3Ec__Iterator0_t104_il2cpp_TypeInfo;
+extern TypeInfo DragRigidbody_t103_il2cpp_TypeInfo;
+extern TypeInfo DynamicShadowSettings_t108_il2cpp_TypeInfo;
+extern TypeInfo U3CFOVKickUpU3Ec__Iterator1_t109_il2cpp_TypeInfo;
+extern TypeInfo U3CFOVKickDownU3Ec__Iterator2_t110_il2cpp_TypeInfo;
+extern TypeInfo FOVKick_t22_il2cpp_TypeInfo;
+extern TypeInfo FPSCounter_t112_il2cpp_TypeInfo;
+extern TypeInfo FollowTarget_t113_il2cpp_TypeInfo;
+extern TypeInfo ForcedReset_t114_il2cpp_TypeInfo;
+extern TypeInfo U3CDoBobCycleU3Ec__Iterator3_t115_il2cpp_TypeInfo;
+extern TypeInfo LerpControlledBob_t24_il2cpp_TypeInfo;
+extern TypeInfo U3CResetCoroutineU3Ec__Iterator4_t118_il2cpp_TypeInfo;
+extern TypeInfo ObjectResetter_t117_il2cpp_TypeInfo;
+extern TypeInfo U3CStartU3Ec__Iterator5_t123_il2cpp_TypeInfo;
+extern TypeInfo ParticleSystemDestroyer_t122_il2cpp_TypeInfo;
+extern TypeInfo BuildTargetGroup_t124_il2cpp_TypeInfo;
+extern TypeInfo PlatformSpecificContent_t127_il2cpp_TypeInfo;
+extern TypeInfo SimpleActivatorMenu_t128_il2cpp_TypeInfo;
+extern TypeInfo SimpleMouseRotator_t129_il2cpp_TypeInfo;
+extern TypeInfo SmoothFollow_t130_il2cpp_TypeInfo;
+extern TypeInfo Action_t131_il2cpp_TypeInfo;
+extern TypeInfo Entry_t132_il2cpp_TypeInfo;
+extern TypeInfo Entries_t134_il2cpp_TypeInfo;
+extern TypeInfo U3CActivateU3Ec__Iterator6_t135_il2cpp_TypeInfo;
+extern TypeInfo U3CDeactivateU3Ec__Iterator7_t136_il2cpp_TypeInfo;
+extern TypeInfo U3CReloadLevelU3Ec__Iterator8_t137_il2cpp_TypeInfo;
+extern TypeInfo TimedObjectActivator_t138_il2cpp_TypeInfo;
+extern TypeInfo TimedObjectDestructor_t139_il2cpp_TypeInfo;
+extern TypeInfo WaypointList_t141_il2cpp_TypeInfo;
+extern TypeInfo RoutePoint_t142_il2cpp_TypeInfo;
+extern TypeInfo WaypointCircuit_t140_il2cpp_TypeInfo;
+extern TypeInfo ProgressStyle_t144_il2cpp_TypeInfo;
+extern TypeInfo WaypointProgressTracker_t145_il2cpp_TypeInfo;
+extern TypeInfo AeroplaneAiControl_t147_il2cpp_TypeInfo;
+extern TypeInfo AdvancedSetttings_t148_il2cpp_TypeInfo;
+extern TypeInfo AeroplaneAudio_t149_il2cpp_TypeInfo;
+extern TypeInfo Type_t150_il2cpp_TypeInfo;
+extern TypeInfo ControlSurface_t151_il2cpp_TypeInfo;
+extern TypeInfo AeroplaneControlSurfaceAnimator_t153_il2cpp_TypeInfo;
+extern TypeInfo AeroplaneController_t146_il2cpp_TypeInfo;
+extern TypeInfo AeroplanePropellerAnimator_t157_il2cpp_TypeInfo;
+extern TypeInfo AeroplaneUserControl2Axis_t158_il2cpp_TypeInfo;
+extern TypeInfo AeroplaneUserControl4Axis_t159_il2cpp_TypeInfo;
+extern TypeInfo JetParticleEffect_t160_il2cpp_TypeInfo;
+extern TypeInfo GearState_t161_il2cpp_TypeInfo;
+extern TypeInfo LandingGear_t162_il2cpp_TypeInfo;
+extern TypeInfo BrakeLight_t164_il2cpp_TypeInfo;
+extern TypeInfo BrakeCondition_t165_il2cpp_TypeInfo;
+extern TypeInfo CarAIControl_t166_il2cpp_TypeInfo;
+extern TypeInfo EngineAudioOptions_t168_il2cpp_TypeInfo;
+extern TypeInfo CarAudio_t169_il2cpp_TypeInfo;
+extern TypeInfo CarDriveType_t170_il2cpp_TypeInfo;
+extern TypeInfo SpeedType_t171_il2cpp_TypeInfo;
+extern TypeInfo CarController_t163_il2cpp_TypeInfo;
+extern TypeInfo CarSelfRighting_t174_il2cpp_TypeInfo;
+extern TypeInfo CarUserControl_t175_il2cpp_TypeInfo;
+extern TypeInfo Mudguard_t176_il2cpp_TypeInfo;
+extern TypeInfo U3CStartU3Ec__Iterator9_t178_il2cpp_TypeInfo;
+extern TypeInfo SkidTrail_t177_il2cpp_TypeInfo;
+extern TypeInfo Suspension_t179_il2cpp_TypeInfo;
+extern TypeInfo U3CStartSkidTrailU3Ec__IteratorA_t181_il2cpp_TypeInfo;
+extern TypeInfo WheelEffects_t180_il2cpp_TypeInfo;
+#include "utils/RegisterRuntimeInitializeAndCleanup.h"
+#include <map>
+struct TypeInfo;
+struct MethodInfo;
+TypeInfo* g_AssemblyU2DCSharpU2Dfirstpass_Assembly_Types[125] = 
+{
+	&U3CModuleU3E_t0_il2cpp_TypeInfo,
+	&UpdateType_t1_il2cpp_TypeInfo,
+	&AbstractTargetFollower_t4_il2cpp_TypeInfo,
+	&AutoCam_t6_il2cpp_TypeInfo,
+	&FreeLookCam_t9_il2cpp_TypeInfo,
+	&HandHeldCam_t11_il2cpp_TypeInfo,
+	&LookatTarget_t12_il2cpp_TypeInfo,
+	&PivotBasedCameraRig_t7_il2cpp_TypeInfo,
+	&RayHitComparer_t14_il2cpp_TypeInfo,
+	&ProtectCameraFromWallClip_t17_il2cpp_TypeInfo,
+	&TargetFieldOfView_t20_il2cpp_TypeInfo,
+	&FirstPersonController_t29_il2cpp_TypeInfo,
+	&HeadBob_t32_il2cpp_TypeInfo,
+	&MouseLook_t21_il2cpp_TypeInfo,
+	&MovementSettings_t34_il2cpp_TypeInfo,
+	&AdvancedSettings_t35_il2cpp_TypeInfo,
+	&RigidbodyFirstPersonController_t31_il2cpp_TypeInfo,
+	&Ball_t37_il2cpp_TypeInfo,
+	&BallUserControl_t38_il2cpp_TypeInfo,
+	&AICharacterControl_t41_il2cpp_TypeInfo,
+	&ThirdPersonCharacter_t40_il2cpp_TypeInfo,
+	&ThirdPersonUserControl_t43_il2cpp_TypeInfo,
+	&AxisTouchButton_t44_il2cpp_TypeInfo,
+	&ButtonHandler_t47_il2cpp_TypeInfo,
+	&ActiveInputMethod_t48_il2cpp_TypeInfo,
+	&VirtualAxis_t45_il2cpp_TypeInfo,
+	&VirtualButton_t49_il2cpp_TypeInfo,
+	&CrossPlatformInputManager_t51_il2cpp_TypeInfo,
+	&InputAxisScrollbar_t52_il2cpp_TypeInfo,
+	&AxisOption_t53_il2cpp_TypeInfo,
+	&Joystick_t54_il2cpp_TypeInfo,
+	&MobileControlRig_t55_il2cpp_TypeInfo,
+	&MobileInput_t56_il2cpp_TypeInfo,
+	&StandaloneInput_t57_il2cpp_TypeInfo,
+	&AxisOptions_t58_il2cpp_TypeInfo,
+	&MappingType_t59_il2cpp_TypeInfo,
+	&AxisMapping_t60_il2cpp_TypeInfo,
+	&TiltInput_t61_il2cpp_TypeInfo,
+	&AxisOption_t62_il2cpp_TypeInfo,
+	&ControlStyle_t63_il2cpp_TypeInfo,
+	&TouchPad_t65_il2cpp_TypeInfo,
+	&VirtualInput_t50_il2cpp_TypeInfo,
+	&WaterBasic_t69_il2cpp_TypeInfo,
+	&Displace_t70_il2cpp_TypeInfo,
+	&GerstnerDisplace_t71_il2cpp_TypeInfo,
+	&MeshContainer_t74_il2cpp_TypeInfo,
+	&PlanarReflection_t77_il2cpp_TypeInfo,
+	&SpecularLighting_t84_il2cpp_TypeInfo,
+	&WaterMode_t85_il2cpp_TypeInfo,
+	&Water_t87_il2cpp_TypeInfo,
+	&WaterQuality_t88_il2cpp_TypeInfo,
+	&WaterBase_t83_il2cpp_TypeInfo,
+	&WaterTile_t89_il2cpp_TypeInfo,
+	&Mode_t90_il2cpp_TypeInfo,
+	&ActivateTrigger_t93_il2cpp_TypeInfo,
+	&ReplacementDefinition_t96_il2cpp_TypeInfo,
+	&ReplacementList_t98_il2cpp_TypeInfo,
+	&AutoMobileShaderSwitch_t99_il2cpp_TypeInfo,
+	&Vector3andSpace_t100_il2cpp_TypeInfo,
+	&AutoMoveAndRotate_t101_il2cpp_TypeInfo,
+	&CameraRefocus_t102_il2cpp_TypeInfo,
+	&CurveControlledBob_t23_il2cpp_TypeInfo,
+	&U3CDragObjectU3Ec__Iterator0_t104_il2cpp_TypeInfo,
+	&DragRigidbody_t103_il2cpp_TypeInfo,
+	&DynamicShadowSettings_t108_il2cpp_TypeInfo,
+	&U3CFOVKickUpU3Ec__Iterator1_t109_il2cpp_TypeInfo,
+	&U3CFOVKickDownU3Ec__Iterator2_t110_il2cpp_TypeInfo,
+	&FOVKick_t22_il2cpp_TypeInfo,
+	&FPSCounter_t112_il2cpp_TypeInfo,
+	&FollowTarget_t113_il2cpp_TypeInfo,
+	&ForcedReset_t114_il2cpp_TypeInfo,
+	&U3CDoBobCycleU3Ec__Iterator3_t115_il2cpp_TypeInfo,
+	&LerpControlledBob_t24_il2cpp_TypeInfo,
+	&U3CResetCoroutineU3Ec__Iterator4_t118_il2cpp_TypeInfo,
+	&ObjectResetter_t117_il2cpp_TypeInfo,
+	&U3CStartU3Ec__Iterator5_t123_il2cpp_TypeInfo,
+	&ParticleSystemDestroyer_t122_il2cpp_TypeInfo,
+	&BuildTargetGroup_t124_il2cpp_TypeInfo,
+	&PlatformSpecificContent_t127_il2cpp_TypeInfo,
+	&SimpleActivatorMenu_t128_il2cpp_TypeInfo,
+	&SimpleMouseRotator_t129_il2cpp_TypeInfo,
+	&SmoothFollow_t130_il2cpp_TypeInfo,
+	&Action_t131_il2cpp_TypeInfo,
+	&Entry_t132_il2cpp_TypeInfo,
+	&Entries_t134_il2cpp_TypeInfo,
+	&U3CActivateU3Ec__Iterator6_t135_il2cpp_TypeInfo,
+	&U3CDeactivateU3Ec__Iterator7_t136_il2cpp_TypeInfo,
+	&U3CReloadLevelU3Ec__Iterator8_t137_il2cpp_TypeInfo,
+	&TimedObjectActivator_t138_il2cpp_TypeInfo,
+	&TimedObjectDestructor_t139_il2cpp_TypeInfo,
+	&WaypointList_t141_il2cpp_TypeInfo,
+	&RoutePoint_t142_il2cpp_TypeInfo,
+	&WaypointCircuit_t140_il2cpp_TypeInfo,
+	&ProgressStyle_t144_il2cpp_TypeInfo,
+	&WaypointProgressTracker_t145_il2cpp_TypeInfo,
+	&AeroplaneAiControl_t147_il2cpp_TypeInfo,
+	&AdvancedSetttings_t148_il2cpp_TypeInfo,
+	&AeroplaneAudio_t149_il2cpp_TypeInfo,
+	&Type_t150_il2cpp_TypeInfo,
+	&ControlSurface_t151_il2cpp_TypeInfo,
+	&AeroplaneControlSurfaceAnimator_t153_il2cpp_TypeInfo,
+	&AeroplaneController_t146_il2cpp_TypeInfo,
+	&AeroplanePropellerAnimator_t157_il2cpp_TypeInfo,
+	&AeroplaneUserControl2Axis_t158_il2cpp_TypeInfo,
+	&AeroplaneUserControl4Axis_t159_il2cpp_TypeInfo,
+	&JetParticleEffect_t160_il2cpp_TypeInfo,
+	&GearState_t161_il2cpp_TypeInfo,
+	&LandingGear_t162_il2cpp_TypeInfo,
+	&BrakeLight_t164_il2cpp_TypeInfo,
+	&BrakeCondition_t165_il2cpp_TypeInfo,
+	&CarAIControl_t166_il2cpp_TypeInfo,
+	&EngineAudioOptions_t168_il2cpp_TypeInfo,
+	&CarAudio_t169_il2cpp_TypeInfo,
+	&CarDriveType_t170_il2cpp_TypeInfo,
+	&SpeedType_t171_il2cpp_TypeInfo,
+	&CarController_t163_il2cpp_TypeInfo,
+	&CarSelfRighting_t174_il2cpp_TypeInfo,
+	&CarUserControl_t175_il2cpp_TypeInfo,
+	&Mudguard_t176_il2cpp_TypeInfo,
+	&U3CStartU3Ec__Iterator9_t178_il2cpp_TypeInfo,
+	&SkidTrail_t177_il2cpp_TypeInfo,
+	&Suspension_t179_il2cpp_TypeInfo,
+	&U3CStartSkidTrailU3Ec__IteratorA_t181_il2cpp_TypeInfo,
+	&WheelEffects_t180_il2cpp_TypeInfo,
+	NULL,
+};
+extern Il2CppImage g_AssemblyU2DCSharpU2Dfirstpass_dll_Image;
+extern CustomAttributesCache g_AssemblyU2DCSharpU2Dfirstpass_Assembly__CustomAttributeCache;
+Il2CppAssembly g_AssemblyU2DCSharpU2Dfirstpass_Assembly = 
+{
+	{ "Assembly-CSharp-firstpass", 0, 0, 0, { 0 }, 32772, 0, 0, 0, 0, 0, 0 },
+	&g_AssemblyU2DCSharpU2Dfirstpass_dll_Image,
+	&g_AssemblyU2DCSharpU2Dfirstpass_Assembly__CustomAttributeCache,
+};
+Il2CppImage g_AssemblyU2DCSharpU2Dfirstpass_dll_Image = 
+{
+	 "Assembly-CSharp-firstpass.dll" ,
+	&g_AssemblyU2DCSharpU2Dfirstpass_Assembly,
+	g_AssemblyU2DCSharpU2Dfirstpass_Assembly_Types,
+	124,
+	NULL,
+};
+static void s_AssemblyU2DCSharpU2DfirstpassRegistration()
+{
+	RegisterAssembly (&g_AssemblyU2DCSharpU2Dfirstpass_Assembly);
+}
+static il2cpp::utils::RegisterRuntimeInitializeAndCleanup s_AssemblyU2DCSharpU2DfirstpassRegistrationVariable(&s_AssemblyU2DCSharpU2DfirstpassRegistration, NULL);

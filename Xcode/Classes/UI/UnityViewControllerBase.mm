@@ -1,6 +1,7 @@
 
 #include "UnityViewControllerBase.h"
 #include "OrientationSupport.h"
+#include "Keyboard.h"
 #include "UnityView.h"
 #include "iAD.h"
 #include "PluginBase/UnityViewControllerListener.h"
@@ -142,10 +143,11 @@ extern "C" void UnityNotifyAutoOrientationChange()
 static void WillRotateToInterfaceOrientation_DefaultImpl(id self_, SEL _cmd, UIInterfaceOrientation toInterfaceOrientation, NSTimeInterval duration)
 {
 	[UIView setAnimationsEnabled:UnityUseAnimatedAutorotation()?YES:NO];
-
 	[GetAppController() interfaceWillChangeOrientationTo:toInterfaceOrientation];
-	AppController_SendUnityViewControllerNotification(kUnityInterfaceWillChangeOrientation);
 
+	[KeyboardDelegate StartReorientation];
+
+	AppController_SendUnityViewControllerNotification(kUnityInterfaceWillChangeOrientation);
 	UNITY_OBJC_FORWARD_TO_SUPER(self_, [UIViewController class], @selector(willRotateToInterfaceOrientation:duration:), WillRotateToInterfaceOrientationSendFunc, toInterfaceOrientation, duration);
 }
 static void DidRotateFromInterfaceOrientation_DefaultImpl(id self_, SEL _cmd, UIInterfaceOrientation fromInterfaceOrientation)
@@ -154,10 +156,11 @@ static void DidRotateFromInterfaceOrientation_DefaultImpl(id self_, SEL _cmd, UI
 
 	[self.view layoutSubviews];
 	[GetAppController() interfaceDidChangeOrientationFrom:fromInterfaceOrientation];
-	AppController_SendUnityViewControllerNotification(kUnityInterfaceDidChangeOrientation);
 
+	[KeyboardDelegate FinishReorientation];
 	[UIView setAnimationsEnabled:YES];
 
+	AppController_SendUnityViewControllerNotification(kUnityInterfaceDidChangeOrientation);
 	UNITY_OBJC_FORWARD_TO_SUPER(self_, [UIViewController class], @selector(didRotateFromInterfaceOrientation:), DidRotateFromInterfaceOrientationSendFunc, fromInterfaceOrientation);
 }
 static void ViewWillTransitionToSize_DefaultImpl(id self_, SEL _cmd, CGSize size, id<UIViewControllerTransitionCoordinator> coordinator)
@@ -169,6 +172,8 @@ static void ViewWillTransitionToSize_DefaultImpl(id self_, SEL _cmd, CGSize size
 	ScreenOrientation newOrient = OrientationAfterTransform(curOrient, [coordinator targetTransform]);
 
 	[UIView setAnimationsEnabled:UnityUseAnimatedAutorotation()?YES:NO];
+	[KeyboardDelegate StartReorientation];
+
 	[GetAppController() interfaceWillChangeOrientationTo:ConvertToIosScreenOrientation(newOrient)];
 
 	[coordinator
@@ -179,6 +184,8 @@ static void ViewWillTransitionToSize_DefaultImpl(id self_, SEL _cmd, CGSize size
 		{
 			[self.view layoutSubviews];
 			[GetAppController() interfaceDidChangeOrientationFrom:ConvertToIosScreenOrientation(curOrient)];
+
+			[KeyboardDelegate FinishReorientation];
 			[UIView setAnimationsEnabled:YES];
 		}
 	];
