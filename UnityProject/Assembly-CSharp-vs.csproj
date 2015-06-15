@@ -53,6 +53,7 @@
      <Compile Include="Assets\CNControls\Scripts\CNThrowableTouchpad.cs" />
      <Compile Include="Assets\CNControls\Scripts\CNTouchpad.cs" />
      <Compile Include="Assets\Max Scripts\RMXJoystick.cs" />
+     <Compile Include="Assets\Max Scripts\RMXLookAround.cs" />
      <Compile Include="Assets\Max Scripts\RMXSimpleMouse.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\ActiveStateToggler.cs" />
