@@ -28,9 +28,6 @@ namespace UnityStandardAssets.CrossPlatformInput
 		
 		void OnEnable()
 		{
-			print (transform.localPosition);
-			print (transform.position);
-			print (transform);
 			m_StartPos = transform.localPosition;//new Vector3(200,150,0);// transform.position;
 			origin = transform.localPosition;
 			CreateVirtualAxes();
@@ -70,8 +67,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 				CrossPlatformInputManager.RegisterVirtualAxis(m_VerticalVirtualAxis);
 			}
 		}
-		
-		
+
 		public void OnDrag(PointerEventData data)
 		{
 			Vector3 newPos = Vector3.zero;
