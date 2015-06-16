@@ -32,15 +32,24 @@ public class RMXBallControl : MonoBehaviour
 			// we use world-relative controls in this case, which may not be what the user wants, but hey, we warned them!
 		}
 	}
-	
-	
+
+	private float h = 0;
+	private float v = 0;
+
+	void roll(Vector3 direction) {
+		h = direction.x;
+		v = direction.z;
+	}
+
+
 	private void Update()
 	{
 		// Get the axis and jump input.
 		
-		float h = CrossPlatformInputManager.GetAxis("Horizontal");
-		float v = CrossPlatformInputManager.GetAxis("Vertical");
-		jump = CrossPlatformInputManager.GetButton("Jump");
+//		float h = CrossPlatformInputManager.GetAxis("Horizontal");
+//		float v = CrossPlatformInputManager.GetAxis("Vertical");
+//		jump = CrossPlatformInputManager.GetButton("Jump");
+
 		
 		// calculate move direction
 		if (cam != null)
@@ -63,4 +72,4 @@ public class RMXBallControl : MonoBehaviour
 		ball.Move(move, jump);
 		jump = false;
 	}
-	}
+}

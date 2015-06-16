@@ -16,7 +16,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 			OnlyHorizontal, // Only horizontal
 			OnlyVertical // Only vertical
 		}
-		public string cameraName = "headcam";
+		public string cameraName = "Head";
 		public int MovementRange = 100;
 //		public AxisOption axesToUse = AxisOption.Both; // The options for the axes that the still will use
 		public string axisName = "mouse 0"; // The name given to the horizontal axis for the cross platform input

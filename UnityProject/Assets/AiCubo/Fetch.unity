@@ -361,8 +361,8 @@ GameObject:
   - 23: {fileID: 69791659}
   - 114: {fileID: 69791662}
   m_Layer: 0
-  m_Name: headcam
-  m_TagString: MainCamera
+  m_Name: Head
+  m_TagString: POV
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -449,7 +449,6 @@ GameObject:
   - 222: {fileID: 158716710}
   - 114: {fileID: 158716709}
   - 114: {fileID: 158716708}
-  - 114: {fileID: 158716712}
   - 114: {fileID: 158716707}
   m_Layer: 5
   m_Name: dPad
@@ -559,23 +558,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 158716705}
---- !u!114 &158716712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 158716705}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1caf40fc8bebb6b43b2550c05ca791d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axesToUse: 0
-  controlStyle: 1
-  horizontalAxisName: Horizontal
-  verticalAxisName: Vertical
-  Xsensitivity: 1
-  Ysensitivity: 1
 --- !u!1 &208604824
 GameObject:
   m_ObjectHideFlags: 0
@@ -1926,7 +1908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  cameraName: headcam
+  cameraName: Head
   MovementRange: 100
   axisName: mouse 0
   rotationSpeed: .200000003
@@ -2967,15 +2949,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1561676518}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1951d4d8f94dd4961918b65bcc0e2dd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nameOfMaster: BobbleMan
-  target: {fileID: 0}
-  distance: 10
-  height: 5
   rotationDamping: 0
   heightDamping: 0
 --- !u!1 &1821669053
@@ -3396,12 +3375,12 @@ GameObject:
   m_Component:
   - 4: {fileID: 1952156142}
   - 33: {fileID: 1952156141}
-  - 135: {fileID: 1952156140}
+  - 65: {fileID: 1952156140}
   - 23: {fileID: 1952156139}
   - 114: {fileID: 1952156138}
   m_Layer: 0
   m_Name: Head
-  m_TagString: MainCamera
+  m_TagString: Ai
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3429,7 +3408,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 7f9f7053a98bd4e1b8d59b72295a0a4e, type: 2}
+  - {fileID: 2100000, guid: 4b4d7870f891f421b94a872559d10a51, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -3443,8 +3422,8 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!135 &1952156140
-SphereCollider:
+--- !u!65 &1952156140
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -3453,7 +3432,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: .5
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1952156141
 MeshFilter:
@@ -3461,7 +3440,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1952156137}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1952156142
 Transform:
   m_ObjectHideFlags: 0
