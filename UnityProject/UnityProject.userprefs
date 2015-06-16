@@ -1,10 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Max Scripts/RMXAiPoppy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Max Scripts/RMXPlayerActions.cs">
     <Files>
-      <File FileName="Assets/Max Scripts/RMXBallControl.cs" Line="20" Column="61" />
-      <File FileName="Assets/Max Scripts/RMXAiPoppy.cs" Line="60" Column="49" />
+      <File FileName="Assets/Max Scripts/RMXAiPoppy.cs" Line="16" Column="14" />
+      <File FileName="Assets/NewBehaviourScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Max Scripts/RMXLookAround.cs" Line="1" Column="1" />
+      <File FileName="Assets/Max Scripts/RMXJoystick.cs" Line="1" Column="1" />
       <File FileName="Assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" Line="22" Column="41" />
+      <File FileName="Assets/Max Scripts/RMXBallController.cs" Line="4" Column="1" />
+      <File FileName="Assets/Max Scripts/RMXPlayerActions.cs" Line="24" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
