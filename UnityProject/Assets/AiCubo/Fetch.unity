@@ -290,7 +290,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 7f9f7053a98bd4e1b8d59b72295a0a4e, type: 2}
     - target: {fileID: 100000, guid: 753ea9ccf9eee6c42a0954ec8663b992, type: 2}
       propertyPath: m_Name
-      value: rollerBall
+      value: body
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 753ea9ccf9eee6c42a0954ec8663b992, type: 2}
       propertyPath: m_LocalScale.x
@@ -1834,7 +1834,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: 7f9f7053a98bd4e1b8d59b72295a0a4e, type: 2}
     - target: {fileID: 100000, guid: 753ea9ccf9eee6c42a0954ec8663b992, type: 2}
       propertyPath: m_Name
-      value: rollerBall
+      value: body
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 753ea9ccf9eee6c42a0954ec8663b992, type: 2}
       propertyPath: m_LocalScale.x
@@ -2939,6 +2939,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1561676519}
+  - 114: {fileID: 1561676520}
   m_Layer: 0
   m_Name: BobbleManPoppy
   m_TagString: Untagged
@@ -2953,13 +2954,30 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1561676518}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.088686, y: 1.40433753, z: 13.3654346}
+  m_LocalPosition: {x: 22.088686, y: 1.40433753, z: 19.6119995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1952156142}
   - {fileID: 1072686323}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &1561676520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1561676518}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1951d4d8f94dd4961918b65bcc0e2dd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameOfMaster: BobbleMan
+  target: {fileID: 0}
+  distance: 10
+  height: 5
+  rotationDamping: 0
+  heightDamping: 0
 --- !u!1 &1821669053
 GameObject:
   m_ObjectHideFlags: 0
