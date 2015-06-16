@@ -43,9 +43,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 		bool willRotate = false;
 	    void Update() {
 			if (willRotate) {
-				rotateActiveCameraRig (rig);
-				print (" Input: " + Input.mousePosition);
-				print (" Delta: " + delta);
+//				rotateActiveCameraRig (rig);
 			}
 //			UpdateVirtualAxes (Input.mousePosition);
 
@@ -73,6 +71,7 @@ namespace UnityStandardAssets.CrossPlatformInput
    
 		public void OnDrag(PointerEventData data)
 		{
+			rotateActiveCameraRig (rig);
 //			Vector3 newPos = Vector3.zero;
 //				int deltaX = (int)(data.position.x - m_StartPos.x);
 //				deltaX = Mathf.Clamp(deltaX, - MovementRange, MovementRange);
@@ -94,6 +93,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 		
 		
 		public void OnPointerDown(PointerEventData data) {
+//			print (data.lastPress.transform.position);
 			m_StartPos = data.pressPosition;
 			willRotate = true;
 		}
