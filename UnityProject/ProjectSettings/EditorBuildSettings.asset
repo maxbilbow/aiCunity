@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Widgets.unity
   - enabled: 1
     path: Assets/Basic.unity
+  - enabled: 1
+    path: Assets/AiCubo/Fetch.unity
