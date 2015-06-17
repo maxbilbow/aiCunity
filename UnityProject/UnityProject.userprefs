@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Max Scripts/RMXInitiate.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/NewBehaviourScript.cs">
     <Files>
-      <File FileName="Assets/NewBehaviourScript.cs" Line="22" Column="4" />
-      <File FileName="Assets/Max Scripts/RMXInitiate.cs" Line="18" Column="7" />
+      <File FileName="Assets/NewBehaviourScript.cs" Line="4" Column="1" />
+      <File FileName="Assets/Max Scripts/RMXMasterControl.cs" Line="19" Column="17" />
+      <File FileName="Assets/Max Scripts/RMXLookAround.cs" Line="72" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
