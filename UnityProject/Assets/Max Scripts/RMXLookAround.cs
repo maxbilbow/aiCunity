@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 
 namespace UnityStandardAssets.CrossPlatformInput
 {
-	public class RMXLookAround : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
+	public class RMXLookAround : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler, IScrollHandler
     {
 //        public string axis
 		public float speed = 1;
@@ -68,7 +68,13 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 
 
-   
+   		public void OnScroll(PointerEventData data) {
+			Vector3 scrollDelta = new Vector3 (data.scrollDelta.y, data.scrollDelta.x, 0);
+			rig.transform.eulerAngles += scrollDelta;
+//			rotateActiveCameraRig (rig);
+
+		}
+
 		public void OnDrag(PointerEventData data)
 		{
 			rotateActiveCameraRig (rig);
