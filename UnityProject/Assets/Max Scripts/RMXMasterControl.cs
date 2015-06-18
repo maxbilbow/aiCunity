@@ -3,16 +3,23 @@ using System.Collections;
 using UnityStandardAssets.CrossPlatformInput;
 
 
-public class RMXMasterControl : MonoBehaviour {
+public class RMXMasterControl : RMXGameObject {
 	private Camera[] cameras;
 	private int current = 0;
-	
 
+	public Camera GetActiveCamera() {
+		return this.cameras [this.current];
+	}
+	
+	public GameObject GetActiveCameraMount() {
+		return GetActiveCamera ().GetComponent<RMXCameraListener> ().Parent ();
+	}
 
 
 	//	private int total = Camera.GetAllCameras.count;
 	// Use this for initialization
-	void Start () {
+	protected override void Awake () {
+		base.Awake();
 		this.cameras = new Camera [Camera.allCamerasCount];
 		Camera.GetAllCameras(this.cameras);
 		this.nextCamera ();
@@ -37,8 +44,25 @@ public class RMXMasterControl : MonoBehaviour {
 			this.current = 0;
 		}
 		for (int i = 0; i < this.cameras.Length; ++i) {
-			this.cameras[i].enabled = i == this.current;
+			if (i == current ) {
+				try {
+					this.cameras[i].SendMessage("Activate");
+					this.cameras[i].enabled = true;
+				} catch {
+					this.cameras[i].enabled = true;
+				}
+//				this.cameras [current].SendMessage ("activate");
+			} else {
+				try {
+					this.cameras[i].SendMessage("Deactivate");
+					this.cameras[i].enabled = false;
+				} catch {
+					this.cameras[i].enabled = false;
+				}
+			}
 		}
+
+
 	}
 	
 	

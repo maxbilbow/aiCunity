@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RMXPlayerActions : MonoBehaviour {
+public class RMXPlayerActions : RMXGameObject {
 
 	UnityStandardAssets.Vehicles.Ball.Ball body;
 	bool willJump = false;
 	// Use this for initialization
-	private void Awake () {
+	protected override void Awake () {
+		base.Awake ();
 		body = GameObject.Find (name + "/body").GetComponent<UnityStandardAssets.Vehicles.Ball.Ball> ();
 	}
 
