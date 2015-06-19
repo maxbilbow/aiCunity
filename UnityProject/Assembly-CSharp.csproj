@@ -65,6 +65,7 @@
      <Compile Include="Assets\Max Scripts\RMXJoystick.cs" />
      <Compile Include="Assets\Max Scripts\RMXLookAround.cs" />
      <Compile Include="Assets\Max Scripts\RMXMasterControl.cs" />
+     <Compile Include="Assets\Max Scripts\RMXPawn.cs" />
      <Compile Include="Assets\Max Scripts\RMXPlayerActions.cs" />
      <Compile Include="Assets\Max Scripts\RMXSimpleMouse.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />

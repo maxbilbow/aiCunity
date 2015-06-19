@@ -1,9 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RMX : MonoBehaviour {
 
-	public static Color RandomColor() {
-		return new Color ();
+	public class RMX {
+
+		public static Color RandomColor() {
+			var color = new Color ();
+			color.a = 1f;
+			color.b = Random.value;
+			color.g = Random.value;
+			color.r = Random.value;
+			return color;
+		}
 	}
-}

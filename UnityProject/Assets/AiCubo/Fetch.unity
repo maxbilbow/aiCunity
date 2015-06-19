@@ -11735,6 +11735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1951d4d8f94dd4961918b65bcc0e2dd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rmx: {fileID: 0}
   nameOfMaster: BobbleMan
   rotationDamping: 0
   heightDamping: 0

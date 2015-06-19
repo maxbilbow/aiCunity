@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RMXAiPoppy : MonoBehaviour, RMXAiDelegate {
+public class RMXAiPoppy : RMXGameObject, RMXAiDelegate {
 
 	// Use this for initialization
 	public string nameOfMaster;

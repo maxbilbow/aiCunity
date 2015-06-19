@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace UnityStandardAssets.Utility
 {
-	public class FollowTarget : MonoBehaviour
+	public class RMXFollowTarget : MonoBehaviour
 	{
 		public bool negateRotation = true;
 		public Transform target;
