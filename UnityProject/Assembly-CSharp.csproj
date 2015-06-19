@@ -75,6 +75,10 @@
      <Compile Include="Assets\Scripts\DragPanel.cs" />
      <Compile Include="Assets\Scripts\DropMe.cs" />
      <Compile Include="Assets\Scripts\PanelManager.cs" />
+     <Compile Include="Assets\Scripts\RMX.cs" />
+     <Compile Include="Assets\Scripts\RMXGameState.cs" />
+     <Compile Include="Assets\Scripts\RMXTeam.cs" />
+     <Compile Include="Assets\Scripts\RMXTeamGame.cs" />
      <Compile Include="Assets\Scripts\ResizePanel.cs" />
      <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
      <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
