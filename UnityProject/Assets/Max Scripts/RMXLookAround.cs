@@ -65,11 +65,12 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		public void OnDrag(PointerEventData data)
 		{
-			if (data.pointerDrag == this.targetArea && data.IsPointerMoving()) {
-				Vector3 delta = data.delta;
-				print (delta);
+			if (data.IsPointerMoving()) {
+				Vector2 touchDelta = Input.touchCount > 0 ? Input.GetTouch (Input.touchCount - 1).deltaPosition : data.delta;
+//				print (delta);
 //				delta = Input.mousePosition - m_lastPos;
 //				m_lastPos = Input.mousePosition;
+				Vector3 delta = new Vector3(touchDelta.x,touchDelta.y,0);
 				delta.x *= rotationSpeed;
 				delta.y *= rotationSpeed;
 				var rig = rmx.activeCameraRig;
@@ -107,10 +108,8 @@ namespace UnityStandardAssets.CrossPlatformInput
 			}
 		}
 		
-		
+//		Vector3 m_LastPos;
 		public void OnPointerDown(PointerEventData data) {
-//			print (data.lastPress.transform.position);
-			if (data.pointerEnter == this.targetArea) {
 				print(data.pointerEnter.name);
 //				m_lastPos = m_StartPos = data.pressPosition;
 //				if (!rig) {
@@ -119,8 +118,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 				if (listener != null) {
 					isCamOnRig = listener.isOnRig;
 				}
-//				}
-			}
+//			
 		}
 		
 		void OnDisable()
