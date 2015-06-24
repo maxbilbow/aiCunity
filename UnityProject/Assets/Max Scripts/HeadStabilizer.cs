@@ -5,6 +5,7 @@ public class HeadStabilizer : MonoBehaviour {
 
 	public float xMin = 35f;
 	public float xMax = 360f - 35f;
+
 	// Use this for initialization
 	void Start () {
 //		xMin = 
