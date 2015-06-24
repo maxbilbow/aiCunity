@@ -13,14 +13,14 @@ public class HeadStabilizer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		var angles = transform.eulerAngles;
+		var angles = transform.localEulerAngles;
 		angles.z = 0;
 		if (angles.x > xMin && angles.x < 180) {
 			angles.x = xMin;
 		} else if (angles.x < xMax && angles.x > 180) {
 			angles.x = xMax;
 		}
-		transform.eulerAngles = angles;
+		transform.localEulerAngles = angles;
 	}
 	
 }

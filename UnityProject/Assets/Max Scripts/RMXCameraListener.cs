@@ -7,6 +7,13 @@ public class RMXCameraListener : RMXGameObject, RMXBehaviour {
 //	public MonoBehaviour behaviour;
 	public GameObject activeBehaviour;
 	public GameObject inactiveBehaviour;
+	public bool isOnRig = true;
+	protected GameObject rig;
+	public GameObject Rig {
+		get {
+			return rig;
+		}
+	}
 	Camera attachedCamera;
 	AudioListener audioListener;
 
@@ -15,7 +22,9 @@ public class RMXCameraListener : RMXGameObject, RMXBehaviour {
 		base.Awake ();
 		this.attachedCamera = gameObject.GetComponent<Camera> ();
 		this.audioListener = gameObject.GetComponent<AudioListener> ();
-
+		if (!rig || !isOnRig) {
+			this.rig = isOnRig? parent: this.gameObject;
+		}
 	}
 	// Use this for initialization
  	void Start () {

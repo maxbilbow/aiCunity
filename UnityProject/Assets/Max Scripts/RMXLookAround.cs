@@ -36,7 +36,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 //		Vector3 lastMousePosition;
 		Vector3 delta = new Vector3(0,0,0);
-		bool willRotate = false;
+		bool isCamOnRig = false;
 	   
 
 		public float rotationSpeed = 0.2f;
@@ -59,7 +59,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 					return;
 				}
 			} 
-			rmx.activeCamera.transform.eulerAngles += new Vector3 (-delta.y, delta.x, 0);
+			rmx.activeCamera.transform.localEulerAngles += new Vector3 (-delta.y, delta.x, 0);
 
 //			rig.transform.Rotate (new Vector3(-delta.y,delta.x,0));
 		}
@@ -67,18 +67,15 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 
    		public void OnScroll(PointerEventData data) {
+#if !MOBILE_INPUT
 			Vector3 delta = new Vector3 (data.scrollDelta.x, data.scrollDelta.y, 0);
-			rig = rmx.GetActiveCameraMount ();
-			if (rig != null) {
-//				ConstantForce force = rig.GetComponent<ConstantForce> ();
-//				if (force != null) {
-//					force.relativeTorque = new Vector3 (delta.y, delta.x, 0);
-//					return;
-//				}
-				rig.transform.eulerAngles += new Vector3 (delta.y, delta.x, 0);
+			var rig = rmx.activeCameraRig;//listener = rmx.activeCamera.GetComponent<RMXCameraListener>();
+			if (rig != null) { //(listener != null && listener.isOnRig) {
+				rmx.activeCameraRig.transform.localEulerAngles += new Vector3 (delta.y, delta.x, 0);
 			} else {
-				rmx.activeCamera.transform.eulerAngles += new Vector3 (delta.y, delta.x, 0);
+				rmx.activeCamera.transform.localEulerAngles += new Vector3 (delta.y, delta.x, 0);
 			}
+#endif
 		}
 
 		public void OnDrag(PointerEventData data)
@@ -92,7 +89,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 		public void OnPointerUp(PointerEventData data)
 		{
 			if (rig != null) {
-				willRotate = false;
+				isCamOnRig = false;
 				ConstantForce force = rig.GetComponent<ConstantForce> ();
 				if (force != null) {
 					force.relativeTorque = Vector3.zero;
@@ -107,10 +104,13 @@ namespace UnityStandardAssets.CrossPlatformInput
 			if (data.pointerEnter == this.targetArea) {
 				print(data.pointerEnter.name);
 				m_StartPos = data.pressPosition;
-				willRotate = true;
-				if (!rig) {
-					rig = rmx.GetActiveCameraMount ();
+//				if (!rig) {
+				rig = rmx.GetActiveCameraMount ();
+				var listener = rig.GetComponent<RMXCameraListener>();
+				if (listener != null) {
+					isCamOnRig = listener.isOnRig;
 				}
+//				}
 			}
 		}
 		
