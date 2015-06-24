@@ -19,7 +19,11 @@ public class RMXMasterControl : RMXGameObject {
 	}
 	
 	public GameObject GetActiveCameraMount() {
-		return activeCamera.GetComponent<RMXCameraListener> ().Parent ();
+		try {
+			return activeCamera.GetComponent<RMXCameraListener> ().Parent ();
+		} catch {
+			return null;
+		}
 	}
 
 

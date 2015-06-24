@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 
 namespace UnityStandardAssets.CrossPlatformInput
 {
-	public class RMXLookAround : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler, IScrollHandler
+	public class RMXLookAround : RMXGameObject, IPointerDownHandler, IPointerUpHandler, IDragHandler, IScrollHandler
     {
 //        public string axis
 		public float speed = 1;
@@ -16,7 +16,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 			OnlyHorizontal, // Only horizontal
 			OnlyVertical // Only vertical
 		}
-		public string cameraName = "Head";
+//		public string cameraName = "Head";
 		public int MovementRange = 100;
 //		public AxisOption axesToUse = AxisOption.Both; // The options for the axes that the still will use
 		public string axisName = "mouse 0"; // The name given to the horizontal axis for the cross platform input
@@ -30,9 +30,9 @@ namespace UnityStandardAssets.CrossPlatformInput
 		
 		void OnEnable()
 		{
-			print ("OnEnable...");
+//			print ("OnEnable...");
 //			Cursor.lockState = CursorLockMode.Locked;
-			rig = GameObject.Find (cameraName);
+//			rig = GameObject.Find (cameraName);
 //			m_StartPos = Input.mousePosition;
 //			lastMousePosition = Input.mousePosition;
 //			CreateVirtualAxes();
@@ -56,13 +56,21 @@ namespace UnityStandardAssets.CrossPlatformInput
 		private Vector3 m_FollowVelocity;
 		private Quaternion m_OriginalRotation;
 
-		void rotateActiveCameraRig(GameObject rig) {
+		void rotateActiveCameraRig() {
 
 			delta = Input.mousePosition - m_StartPos;
 			m_StartPos = Input.mousePosition;
 			delta.x *= rotationSpeed;
 			delta.y *= rotationSpeed;
-			rig.transform.eulerAngles += new Vector3 (-delta.y, delta.x, 0);
+			if (rig != null) {
+				ConstantForce force = rig.GetComponent<ConstantForce>();
+				if (force != null) {
+					force.torque = new Vector3(-delta.y,delta.x,0);
+					return;
+				}
+			} 
+			rmx.activeCamera.transform.eulerAngles += new Vector3 (-delta.y, delta.x, 0);
+
 //			rig.transform.Rotate (new Vector3(-delta.y,delta.x,0));
 		}
 
@@ -77,7 +85,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		public void OnDrag(PointerEventData data)
 		{
-			rotateActiveCameraRig (rig);
+			rotateActiveCameraRig ();
 //			Vector3 newPos = Vector3.zero;
 //				int deltaX = (int)(data.position.x - m_StartPos.x);
 //				deltaX = Mathf.Clamp(deltaX, - MovementRange, MovementRange);
@@ -95,6 +103,11 @@ namespace UnityStandardAssets.CrossPlatformInput
 		public void OnPointerUp(PointerEventData data)
 		{
 			willRotate = false;
+			ConstantForce force = rig.GetComponent<ConstantForce>();
+			if (force != null) {
+				force.torque = Vector3.zero;
+			} 
+			rig = null;
 		}
 		
 		
@@ -102,6 +115,9 @@ namespace UnityStandardAssets.CrossPlatformInput
 //			print (data.lastPress.transform.position);
 			m_StartPos = data.pressPosition;
 			willRotate = true;
+			if (!rig) {
+				rig = rmx.GetActiveCameraMount();
+			}
 		}
 		
 		void OnDisable()

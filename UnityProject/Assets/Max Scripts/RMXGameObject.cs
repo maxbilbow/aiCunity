@@ -7,6 +7,7 @@ public class RMXGameObject : MonoBehaviour {
 	public RMXMasterControl rmx;
 	public bool deactivateOnLaunch = false;
 	public bool disableOnLaunch = false;
+
 	protected GameObject parent;
 	// Use this for initialization
 	protected virtual void Awake () {
