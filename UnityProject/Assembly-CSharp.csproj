@@ -55,6 +55,7 @@
      <Compile Include="Assets\Max Scripts\HeadStabilizer.cs" />
      <Compile Include="Assets\Max Scripts\RMXAiDelegate.cs" />
      <Compile Include="Assets\Max Scripts\RMXAiPoppy.cs" />
+     <Compile Include="Assets\Max Scripts\RMXAirPlaneController.cs" />
      <Compile Include="Assets\Max Scripts\RMXBallControl.cs" />
      <Compile Include="Assets\Max Scripts\RMXBallController.cs" />
      <Compile Include="Assets\Max Scripts\RMXBallUserControl.cs" />

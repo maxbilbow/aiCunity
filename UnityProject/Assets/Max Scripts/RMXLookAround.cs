@@ -19,7 +19,8 @@ namespace UnityStandardAssets.CrossPlatformInput
 //		public string cameraName = "Head";
 		public int MovementRange = 100;
 
-		Vector3 m_StartPos;
+//		Vector3 m_StartPos;
+//		Vector3 m_lastPos;
 
 		//UnityStandardAssets.CrossPlatformInput.CrossPlatformInputManager.VirtualAxis axis; // Reference to the joystick in the cross platform input
 //		CrossPlatformInputManager.VirtualAxis m_VerticalVirtualAxis; // Reference to the joystick in the cross platform input
@@ -35,8 +36,8 @@ namespace UnityStandardAssets.CrossPlatformInput
 		}
 
 //		Vector3 lastMousePosition;
-		Vector3 delta = new Vector3(0,0,0);
-		bool isCamOnRig = false;
+//		Vector3 delta = new Vector3(0,0,0);
+		protected bool isCamOnRig = false;
 	   
 
 		public float rotationSpeed = 0.2f;
@@ -46,23 +47,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 		private Vector3 m_FollowVelocity;
 		private Quaternion m_OriginalRotation;
 
-		void rotateActiveCameraRig() {
 
-			delta = Input.mousePosition - m_StartPos;
-			m_StartPos = Input.mousePosition;
-			delta.x *= rotationSpeed;
-			delta.y *= rotationSpeed;
-			if (rig != null) {
-				ConstantForce force = rig.GetComponent<ConstantForce>();
-				if (force != null) {
-					force.relativeTorque = new Vector3(-delta.y,delta.x,0);
-					return;
-				}
-			} 
-			rmx.activeCamera.transform.localEulerAngles += new Vector3 (-delta.y, delta.x, 0);
-
-//			rig.transform.Rotate (new Vector3(-delta.y,delta.x,0));
-		}
 
 
 
@@ -80,8 +65,32 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		public void OnDrag(PointerEventData data)
 		{
-			if (data.pointerDrag == this.targetArea) {
-				rotateActiveCameraRig ();
+			if (data.pointerDrag == this.targetArea && data.IsPointerMoving()) {
+				Vector3 delta = data.delta;
+				print (delta);
+//				delta = Input.mousePosition - m_lastPos;
+//				m_lastPos = Input.mousePosition;
+				delta.x *= rotationSpeed;
+				delta.y *= rotationSpeed;
+				var rig = rmx.activeCameraRig;
+				try {
+					rig.GetComponent<ConstantForce>().relativeTorque = new Vector3(-delta.y,delta.x,0);
+				} catch {
+					if (rig != null) {
+						rig.transform.localEulerAngles += new Vector3 (-delta.y, delta.x, 0);
+					} else {
+						rmx.activeCamera.transform.localEulerAngles += new Vector3 (-delta.y, delta.x, 0);
+					}
+				}
+//				if (rig != null) {
+//					ConstantForce force = rig.GetComponent<ConstantForce>().relativeTorque = new Vector3(-delta.y,delta.x,0);
+//					if (force != null) {
+//						force.relativeTorque = new Vector3(-delta.y,delta.x,0);
+//						return;
+//					}
+//				} 
+//				rmx.activeCamera.transform.localEulerAngles += new Vector3 (-delta.y, delta.x, 0);
+//
 			}
 		}
 		
@@ -103,7 +112,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 //			print (data.lastPress.transform.position);
 			if (data.pointerEnter == this.targetArea) {
 				print(data.pointerEnter.name);
-				m_StartPos = data.pressPosition;
+//				m_lastPos = m_StartPos = data.pressPosition;
 //				if (!rig) {
 				rig = rmx.GetActiveCameraMount ();
 				var listener = rig.GetComponent<RMXCameraListener>();
