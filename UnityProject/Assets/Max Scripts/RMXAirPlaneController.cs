@@ -29,7 +29,7 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 		{
 			// Read input for the pitch, yaw, roll and throttle of the aeroplane.
 			float roll = CrossPlatformInputManager.GetAxis("Horizontal");
-			float pitch = CrossPlatformInputManager.GetAxis("Verticle");
+			float pitch = CrossPlatformInputManager.GetAxis("Vertical");
 			m_AirBrakes = CrossPlatformInputManager.GetButton("Fire1");
 			m_Yaw = CrossPlatformInputManager.GetAxis("Horizontal");
 			m_Throttle = CrossPlatformInputManager.GetAxis("Jump");
