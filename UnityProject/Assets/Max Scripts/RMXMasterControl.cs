@@ -74,6 +74,21 @@ public class RMXMasterControl : RMXGameObject {
 
 	}
 
+	public void SetButtonDown(string button) {
+		CrossPlatformInputManager.SetButtonDown (button);
+	}
+
+	public void SetButtonUp(string button){
+		CrossPlatformInputManager.SetButtonUp (button);
+	}
+
+	public void ToggleButtonState(string button) {
+		if (CrossPlatformInputManager.GetButtonUp(button)) {
+			CrossPlatformInputManager.SetButtonDown (button);
+		} else {
+			CrossPlatformInputManager.SetButtonDown (button);
+		}
+	}
 	void Start() {
 		int i = 0;
 		foreach (Camera cam in this.cameras) {
