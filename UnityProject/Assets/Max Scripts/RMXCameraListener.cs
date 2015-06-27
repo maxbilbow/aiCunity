@@ -23,7 +23,7 @@ public class RMXCameraListener : RMXGameObject, RMXBehaviour {
 		this.attachedCamera = gameObject.GetComponent<Camera> ();
 		this.audioListener = gameObject.GetComponent<AudioListener> ();
 		if (!rig || !isOnRig) {
-			this.rig = isOnRig? parent: this.gameObject;
+			this.rig = isOnRig ? parent : this.gameObject;
 		}
 	}
 	// Use this for initialization
@@ -42,7 +42,7 @@ public class RMXCameraListener : RMXGameObject, RMXBehaviour {
 	}
 
 	public override void Enable() {
-		print("Activating " + name);
+//		print("Activating " + name);
 		try {
 			attachedCamera.enabled = true; 
 		} catch {
@@ -59,7 +59,7 @@ public class RMXCameraListener : RMXGameObject, RMXBehaviour {
 	}
 
 	public override void Disable() {
-		print("deactivating " + name);
+//		print("deactivating " + name);
 		try {
 			attachedCamera.enabled = false; 
 		} catch {
@@ -99,7 +99,7 @@ public class RMXCameraListener : RMXGameObject, RMXBehaviour {
 			var activeCamera = init ? rmx.mainCamera : rmx.activeCamera;
 			init = false;
 			bool result = !this.isRootObject && activeCamera.transform.parent.gameObject != null && this.transform.parent.gameObject == activeCamera.transform.parent.gameObject;
-			print (name + " is part of rig: " + result);
+//			print (name + " is part of rig: " + result);
 			return result;
 		}
 	}

@@ -75,7 +75,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 				delta.y *= rotationSpeed;
 				var rig = rmx.activeCameraRig;
 				try {
-					rig.GetComponent<ConstantForce>().relativeTorque = new Vector3(-delta.y,delta.x,0);
+					rig.gameObject.GetComponent<ConstantForce>().relativeTorque = new Vector3(-delta.y,delta.x,0);
 				} catch {
 					if (rig != null) {
 						rig.transform.localEulerAngles += new Vector3 (-delta.y, delta.x, 0);

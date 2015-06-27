@@ -12,6 +12,7 @@ public class RMXMasterControl : RMXGameObject {
 
 	public string nextCameraButton = "switchCamera";
 	public Camera mainCamera;
+
 	public Camera activeCamera {
 		get {
 			return this.cameras [this.current];
@@ -30,7 +31,7 @@ public class RMXMasterControl : RMXGameObject {
 	}
 	public GameObject GetActiveCameraMount() {
 		try {
-			return activeCamera.GetComponent<RMXCameraListener> ().Parent ();
+			return activeCamera.GetComponent<RMXCameraListener> ().Parent;
 		} catch {
 			return null;
 		}
@@ -67,10 +68,56 @@ public class RMXMasterControl : RMXGameObject {
 
 		this.cameras = new Camera [Camera.allCamerasCount];
 		Camera.GetAllCameras(this.cameras);
-		
+		sortCameras ();
+
 		if (!mainCamera) {
 			mainCamera = Camera.current;
 		}
+
+	}
+
+	private void sortCameras() {
+		int mountCount = 0;
+		GameObject[] mounts = new GameObject[Camera.allCamerasCount];
+		foreach (Camera cam in Camera.allCameras) {
+			bool addToMount = true;
+			foreach (GameObject mount in mounts) {
+				try {
+					if (cam.transform.parent.gameObject == mount) {
+						addToMount = false;
+						break;
+					}
+				} catch {
+					addToMount = false;
+					break;
+				}
+			}
+			if (addToMount) {
+				mounts[mountCount++] = cam.transform.parent.gameObject;
+			}
+		}
+		print ("there are " + mountCount + " rigs");
+		int j = 0;
+		for (int i = 0; i < mountCount; ++i) {
+			GameObject mount = mounts[i];
+			print ("rig " + i + ": " + mount.name + " has:");
+
+			foreach (Camera cam in Camera.allCameras) {
+				try {
+					if (cam.transform.parent.gameObject == mount) {
+						this.cameras[j] = cam;
+						++j;
+						print ("        " + cam.name);
+					} else {
+						
+					}
+				} catch {
+					print ("Error " + cam.name + " does not have a listener or rig");
+				}
+			}
+//			print (j + " cameras added to " + mounts[i].name);
+		}
+
 
 	}
 

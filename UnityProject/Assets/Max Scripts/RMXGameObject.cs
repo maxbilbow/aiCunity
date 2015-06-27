@@ -2,15 +2,20 @@
 using System.Collections;
 
 public class RMXGameObject : MonoBehaviour {
-	
+	public static int COUNT;
 	protected bool isRootObject;
 	public RMXMasterControl rmx;
 	public bool deactivateOnLaunch = false;
 	public bool disableOnLaunch = false;
+	private int _rmxID;
+	public int rmxID {
+		get { return _rmxID; }
+	}
 
 	protected GameObject parent;
 	// Use this for initialization
 	protected virtual void Awake () {
+		_rmxID = RMXGameObject.COUNT++;
 		rmx = GameObject.Find ("MasterControl").GetComponent<RMXMasterControl> ();
 		try {
 			parent = transform.parent.gameObject;//GameObject.Find (transform.parent.name);
@@ -75,12 +80,12 @@ public class RMXGameObject : MonoBehaviour {
 		}
 	}
 	
-	public GameObject Parent() {
-		return parent;
+	public GameObject Parent {
+		get { return parent; }
 	}
 	
 	public bool hasSameParentAs(RMXGameObject rmxObject) {
-		return rmxObject.Parent () == this.Parent();
+		return rmxObject.Parent == this.Parent;
 	}
 	
 	public virtual void Reset() {}

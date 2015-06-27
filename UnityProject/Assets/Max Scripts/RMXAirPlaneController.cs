@@ -16,7 +16,7 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 		private float m_Throttle;
 		private bool m_AirBrakes;
 		private float m_Yaw;
-		
+		public float maxThrottle = 1;
 		
 		private void Awake()
 		{
@@ -32,7 +32,13 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 			float pitch = CrossPlatformInputManager.GetAxis("Vertical");
 			m_AirBrakes = CrossPlatformInputManager.GetButton("Fire1");
 			m_Yaw = CrossPlatformInputManager.GetAxis("Horizontal");
-			m_Throttle = CrossPlatformInputManager.GetAxis("Jump");
+			m_AirBrakes = !CrossPlatformInputManager.GetButton ("Jump");
+			if (!m_AirBrakes && m_Throttle <= maxThrottle) {
+				m_Throttle += 0.1f;
+			} else if (m_Throttle > 0){
+				m_Throttle -= 0.2f;
+			}
+
 			#if MOBILE_INPUT
 			AdjustInputForMobileControls(ref roll, ref pitch, ref m_Throttle);
 			#endif
