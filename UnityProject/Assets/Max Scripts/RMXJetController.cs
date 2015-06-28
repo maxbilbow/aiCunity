@@ -25,17 +25,23 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 		private void FixedUpdate()
 		{
 			// Read input for the pitch, yaw, roll and throttle of the aeroplane.
-			float roll = CrossPlatformInputManager.GetAxis("Horizontal");
-			float pitch = CrossPlatformInputManager.GetAxis("Vertical");
-			bool airBrakes = CrossPlatformInputManager.GetButton("Fire1");
-			
+			float roll = CrossPlatformInputManager.GetAxis ("Horizontal");
+			float pitch = CrossPlatformInputManager.GetAxis ("Vertical");
+			bool airBrakes = CrossPlatformInputManager.GetButton ("Jump");
+		
 			// auto throttle up, or down if braking.
-			float throttle = airBrakes ? -1 : 1;
+			float throttle = airBrakes ? 1 : -1;
+			if (!airBrakes && throttle <= 1) {
+				throttle += 0.1f;
+			} else if (throttle > -1){
+				throttle -= 0.2f;
+			}
 			#if MOBILE_INPUT
-			AdjustInputForMobileControls(ref roll, ref pitch, ref throttle);
+		AdjustInputForMobileControls(ref roll, ref pitch, ref throttle);
 			#endif
 			// Pass the input to the aeroplane
-			m_Aeroplane.Move(roll, pitch, 0, throttle, airBrakes);
+			m_Aeroplane.Move (roll, pitch, 0, throttle, airBrakes);
+
 		}
 		
 		
@@ -48,7 +54,6 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 			// this means on mobile, the input represents the *desired* roll angle of the aeroplane,
 			// and the roll input is calculated to achieve that.
 			// whereas on non-mobile, the input directly controls the roll of the aeroplane.
-			
 			float intendedRollAngle = roll*maxRollAngle*Mathf.Deg2Rad;
 			float intendedPitchAngle = pitch*maxPitchAngle*Mathf.Deg2Rad;
 			roll = Mathf.Clamp((intendedRollAngle - m_Aeroplane.RollAngle), -1, 1);
@@ -61,12 +66,11 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 
 		public void enableScript() {
 			enabled = true;
-//			isActive = true;
 		}
 		
 		public void disableScript() {
 			enabled = false;
-//			isActive = false;
+//			print ("disabled " + name);
 		}
 	}
 }
