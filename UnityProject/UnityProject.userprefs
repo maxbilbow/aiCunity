@@ -1,12 +1,4 @@
 ﻿<Properties>
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Max Scripts/RMXCameraListener.cs">
-    <Files>
-      <File FileName="Assets/Max Scripts/RMXAiPoppy.cs" Line="44" Column="3" />
-      <File FileName="Assets/Max Scripts/RMXMasterControl.cs" Line="16" Column="22" />
-      <File FileName="Assets/Max Scripts/RMXCameraListener.cs" Line="53" Column="4" />
-=======
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Max Scripts/RMXMasterControl.cs">
     <Files>
@@ -19,7 +11,6 @@
       <File FileName="Assets/Max Scripts/RMXGameObject.cs" Line="88" Column="41" />
       <File FileName="Assets/Max Scripts/RMXCameraListener.cs" Line="102" Column="50" />
       <File FileName="Assets/Max Scripts/RMXLookAround.cs" Line="78" Column="20" />
->>>>>>> origin/master
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

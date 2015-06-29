@@ -7,24 +7,16 @@ public class RMXMasterControl : RMXGameObject {
 	private Camera[] cameras;
 	private int current = 0;
 
-<<<<<<< HEAD
-=======
 	public GameObject mobileInput;
 	public GameObject desktopInput;
 
 	public string nextCameraButton = "switchCamera";
 	public Camera mainCamera;
 
->>>>>>> origin/master
 	public Camera activeCamera {
 		get {
 			return this.cameras [this.current];
 		}
-<<<<<<< HEAD
-	}
-	public GameObject GetActiveCameraMount() {
-		return activeCamera.GetComponent<RMXCameraListener> ().Parent ();
-=======
 	}
 
 
@@ -43,7 +35,6 @@ public class RMXMasterControl : RMXGameObject {
 		} catch {
 			return null;
 		}
->>>>>>> origin/master
 	}
 
 
