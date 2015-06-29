@@ -11,6 +11,7 @@ public class RMXMasterControl : RMXGameObject {
 	public GameObject desktopInput;
 
 	public string nextCameraButton = "switchCamera";
+	public string switchMountButton = "switchMount";
 	public Camera mainCamera;
 
 	public Camera activeCamera {
@@ -121,6 +122,11 @@ public class RMXMasterControl : RMXGameObject {
 
 	}
 
+//	public void PressButtonOnce(string button) {
+//		CrossPlatformInputManager.SetButtonDown (button);
+//		CrossPlatformInputManager.SetButtonUp (button);
+//	}
+
 	public void SetButtonDown(string button) {
 		CrossPlatformInputManager.SetButtonDown (button);
 	}
@@ -150,62 +156,19 @@ public class RMXMasterControl : RMXGameObject {
 	
 	// Update is called once per frame
 	void Update () {
-		if (CrossPlatformInputManager.GetButtonUp (nextCameraButton)) {
-			this.nextCamera();
-		}
+//		if (CrossPlatformInputManager.GetButtonUp (nextCameraButton)) {
+//			this.nextCamera();
+//		}
 	}
-	
+	/*
 	public void nextCamera() {
+		return;
 		activeCamera.SendMessage("Disable");
 		if (++this.current >= this.cameras.Length) {
 			this.current = 0;
 		}
 		activeCamera.SendMessage("Enable");
-//
-//
-//		int i = 0;
-//		foreach (Camera cam in this.cameras) {
-//			if (i++ == current ) {
-//				try {
-//					cam.SendMessage("Enable");
-//					print(cam.name + " with #" + (i - 1) + " was enabled." );
-//				} catch {
-//					print("error activating camera " + cam.name + (i - 1));
-//				}
-////				this.cameras [current].SendMessage ("activate");
-//			} else {
-//				try {
-//					cam.SendMessage("Disable");
-//				} catch {
-//					print("error deactivating camera " + cam.name + (i - 1));
-//				}
-//			}
-//		}
-
 
 	}
-	
-	
-//	public void move(string direction) {
-//		int x = 0;
-//		int y = 0;
-//		switch (direction) {
-//		case "w":
-//			y = 1;
-//			break;
-//		case "s":
-//			y = -1;
-//			break;
-//		case "a":
-//			x = -1;
-//			break;
-//		case "d":
-//			x = 1;
-//			break;
-//		}	
-//		int speed = 10;
-//		UnityEngine.EventSystems.AxisEventData.ReferenceEquals (x * speed, y * speed);
-//		UnityEngine.EventSystems.AxisEventData.Equals(x * speed ,y * speed);
-//		UnityEngine.Event.KeyboardEvent (direction);
-//	}
+	*/
 }

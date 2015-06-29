@@ -17,6 +17,18 @@ public class RMXCameraListener : RMXGameObject, RMXBehaviour {
 	Camera attachedCamera;
 	AudioListener audioListener;
 
+	public bool scriptEnabled {
+		get {
+			var script = activeBehaviour.GetComponent<RMXBehaviour>();
+			if (script != null ) {
+				return script.scriptEnabled;
+			} else {
+				return false;
+			}
+		}
+	}
+
+	
 	protected override void Awake ()
 	{
 		base.Awake ();

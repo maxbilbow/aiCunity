@@ -13,7 +13,13 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 		
 		// reference to the aeroplane that we're controlling
 		private AeroplaneController m_Aeroplane;
-		
+
+		public bool scriptEnabled {
+			get {
+				return _scriptEnabled;
+			}
+		}
+		private bool _scriptEnabled = false;
 		
 		private void Awake()
 		{
@@ -21,21 +27,27 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 			m_Aeroplane = GetComponent<AeroplaneController>();
 		}
 		
-		
+		private float throttle = 0;
 		private void FixedUpdate()
 		{
 			// Read input for the pitch, yaw, roll and throttle of the aeroplane.
-			float roll = CrossPlatformInputManager.GetAxis ("Horizontal");
-			float pitch = CrossPlatformInputManager.GetAxis ("Vertical");
-			bool airBrakes = CrossPlatformInputManager.GetButton ("Jump");
-		
+			float roll = 0;
+			float pitch = 0;
+			bool airBrakes = true;
+			if (scriptEnabled) {
+				roll = CrossPlatformInputManager.GetAxis ("Horizontal");
+				pitch = CrossPlatformInputManager.GetAxis ("Vertical");
+				airBrakes = !CrossPlatformInputManager.GetButton ("Jump");
+
+			}
+
 			// auto throttle up, or down if braking.
-			float throttle = airBrakes ? 1 : -1;
 			if (!airBrakes && throttle <= 1) {
 				throttle += 0.1f;
-			} else if (throttle > -1){
+			} else if (throttle > -1) {
 				throttle -= 0.2f;
 			}
+
 			#if MOBILE_INPUT
 		AdjustInputForMobileControls(ref roll, ref pitch, ref throttle);
 			#endif
@@ -65,11 +77,11 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 		}
 
 		public void enableScript() {
-			enabled = true;
+			_scriptEnabled = true;
 		}
 		
 		public void disableScript() {
-			enabled = false;
+			_scriptEnabled = false;
 //			print ("disabled " + name);
 		}
 	}

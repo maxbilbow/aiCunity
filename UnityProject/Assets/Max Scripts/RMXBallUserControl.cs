@@ -7,6 +7,13 @@ namespace UnityStandardAssets.Vehicles.Ball
 	public class RMXBallUserControl : RMXGameObject, RMXBehaviour
 	{
 
+		public bool scriptEnabled {
+			get {
+				return _scriptEnabled;
+			}
+		}
+		private bool _scriptEnabled = false;
+
 		private Ball ball; // Reference to the ball controller.
 		
 		private Vector3 move;
@@ -39,21 +46,22 @@ namespace UnityStandardAssets.Vehicles.Ball
 
 		private void Update()
 		{
-			// Get the axis and jump input.
-			float h = CrossPlatformInputManager.GetAxis ("Horizontal");
-			float v = CrossPlatformInputManager.GetAxis ("Vertical");
-			jump = CrossPlatformInputManager.GetButton ("Jump");
+			if (scriptEnabled) {
+				// Get the axis and jump input.
+				float h = CrossPlatformInputManager.GetAxis ("Horizontal");
+				float v = CrossPlatformInputManager.GetAxis ("Vertical");
+				jump = CrossPlatformInputManager.GetButton ("Jump");
 		
-			// calculate move direction
-			if (cam != null) {
-				// calculate camera relative direction to move:
-				camForward = Vector3.Scale (cam.forward, new Vector3 (1, 0, 1)).normalized;
-				move = (v * camForward + h * cam.right).normalized;
-			} else {
-				// we use world-relative directions in the case of no main camera
-				move = (v * Vector3.forward + h * Vector3.right).normalized;
+				// calculate move direction
+				if (cam != null) {
+					// calculate camera relative direction to move:
+					camForward = Vector3.Scale (cam.forward, new Vector3 (1, 0, 1)).normalized;
+					move = (v * camForward + h * cam.right).normalized;
+				} else {
+					// we use world-relative directions in the case of no main camera
+					move = (v * Vector3.forward + h * Vector3.right).normalized;
+				}
 			}
-
 		}
 		
 		
@@ -66,11 +74,11 @@ namespace UnityStandardAssets.Vehicles.Ball
 		}
 
 		public void enableScript() {
-			enabled = true;
+			_scriptEnabled = true;
 		}
 
 		public void disableScript() {
-			enabled = false;
+			_scriptEnabled = false;
 		}
 	}
 }

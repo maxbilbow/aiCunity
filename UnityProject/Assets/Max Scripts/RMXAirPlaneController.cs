@@ -17,6 +17,12 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 		private bool m_AirBrakes;
 		private float m_Yaw;
 		public float maxThrottle = 1;
+		public bool scriptEnabled {
+			get {
+				return _scriptEnabled;
+			}
+		}
+		private bool _scriptEnabled = false;
 		
 		private void Awake()
 		{
@@ -27,12 +33,19 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 		
 		private void FixedUpdate()
 		{
-			// Read input for the pitch, yaw, roll and throttle of the aeroplane.
-			float roll = CrossPlatformInputManager.GetAxis("Horizontal");
-			float pitch = CrossPlatformInputManager.GetAxis("Vertical");
-			m_AirBrakes = CrossPlatformInputManager.GetButton("Fire1");
-			m_Yaw = CrossPlatformInputManager.GetAxis("Horizontal");
-			m_AirBrakes = !CrossPlatformInputManager.GetButton ("Jump");
+			float roll = 0;
+			float pitch = 0;
+			if (scriptEnabled) {
+				// Read input for the pitch, yaw, roll and throttle of the aeroplane.
+			 	roll = CrossPlatformInputManager.GetAxis ("Horizontal");
+				pitch = CrossPlatformInputManager.GetAxis ("Vertical");
+//				m_AirBrakes = CrossPlatformInputManager.GetButton ("Fire1");
+				m_Yaw = CrossPlatformInputManager.GetAxis ("Horizontal");
+				m_AirBrakes = !CrossPlatformInputManager.GetButton ("Jump");
+			} else {
+				m_AirBrakes = true;
+				m_Yaw = 0;
+			}
 			if (!m_AirBrakes && m_Throttle <= maxThrottle) {
 				m_Throttle += 0.1f;
 			} else if (m_Throttle > 0){
@@ -64,11 +77,11 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 		}
 
 		public void enableScript() {
-			enabled = true;
+			_scriptEnabled = true;
 		}
 
 		public void disableScript() {
-			enabled = false;
+			_scriptEnabled = false;
 		}
 	}
 }
