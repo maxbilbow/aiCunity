@@ -8,20 +8,23 @@ public class RMXMasterControl : RMXGameObject {
 	private int current = 0;
 
 <<<<<<< HEAD
-	public Camera GetActiveCamera() {
-		return this.cameras [this.current];
 =======
 	public GameObject mobileInput;
 	public GameObject desktopInput;
 
 	public string nextCameraButton = "switchCamera";
-	public string switchMountButton = "switchMount";
 	public Camera mainCamera;
 
+>>>>>>> origin/master
 	public Camera activeCamera {
 		get {
 			return this.cameras [this.current];
 		}
+<<<<<<< HEAD
+	}
+	public GameObject GetActiveCameraMount() {
+		return activeCamera.GetComponent<RMXCameraListener> ().Parent ();
+=======
 	}
 
 
@@ -33,13 +36,8 @@ public class RMXMasterControl : RMXGameObject {
 				return null;
 			}
 		}
->>>>>>> origin/master
 	}
-	
 	public GameObject GetActiveCameraMount() {
-<<<<<<< HEAD
-		return GetActiveCamera ().GetComponent<RMXCameraListener> ().Parent ();
-=======
 		try {
 			return activeCamera.GetComponent<RMXCameraListener> ().Parent;
 		} catch {
@@ -53,24 +51,40 @@ public class RMXMasterControl : RMXGameObject {
 	// Use this for initialization
 	protected override void Awake () {
 		base.Awake();
+		if (!desktopInput) {
+			try {
+				desktopInput = GameObject.Find ("DesktopInput");
+			} catch {
+				print ("Desktop input not found");
+			}
+		}
+		if (!mobileInput) {
+			try {
+				mobileInput = GameObject.Find ("MobileInput");
+			} catch {
+				print ("Mobile input not found");
+			}
+		}
+		#if MOBILE_INPUT
+		if (desktopInput) {
+			desktopInput.SetActive(false);
+		}
+		#else
+		if (mobileInput) {
+			mobileInput.SetActive(false);
+		}
+		#endif
+
 		this.cameras = new Camera [Camera.allCamerasCount];
 		Camera.GetAllCameras(this.cameras);
-		this.nextCamera ();
-#if MOBILE_INPUT
-		GameObject.Find ("DesktopInput").SetActive(false);
-#else
-		GameObject.Find ("MobileInput").SetActive (false);
-#endif
+		sortCameras ();
+
+		if (!mainCamera) {
+			mainCamera = Camera.current;
+		}
+
 	}
 
-<<<<<<< HEAD
-	
-	// Update is called once per frame
-	void Update () {
-		if (CrossPlatformInputManager.GetButtonUp ("switchCamera")) {
-			this.nextCamera();
-		}
-=======
 	private void sortCameras() {
 		int mountCount = 0;
 		GameObject[] mounts = new GameObject[Camera.allCamerasCount];
@@ -116,11 +130,6 @@ public class RMXMasterControl : RMXGameObject {
 
 	}
 
-//	public void PressButtonOnce(string button) {
-//		CrossPlatformInputManager.SetButtonDown (button);
-//		CrossPlatformInputManager.SetButtonUp (button);
-//	}
-
 	public void SetButtonDown(string button) {
 		CrossPlatformInputManager.SetButtonDown (button);
 	}
@@ -150,46 +159,62 @@ public class RMXMasterControl : RMXGameObject {
 	
 	// Update is called once per frame
 	void Update () {
-//		if (CrossPlatformInputManager.GetButtonUp (nextCameraButton)) {
-//			this.nextCamera();
-//		}
->>>>>>> origin/master
+		if (CrossPlatformInputManager.GetButtonUp (nextCameraButton)) {
+			this.nextCamera();
+		}
 	}
-	/*
+	
 	public void nextCamera() {
-<<<<<<< HEAD
-		
-		if (++this.current >= this.cameras.Length) {
-			this.current = 0;
-		}
-		for (int i = 0; i < this.cameras.Length; ++i) {
-			if (i == current ) {
-				try {
-					this.cameras[i].SendMessage("Activate");
-					this.cameras[i].enabled = true;
-				} catch {
-					this.cameras[i].enabled = true;
-				}
-//				this.cameras [current].SendMessage ("activate");
-			} else {
-				try {
-					this.cameras[i].SendMessage("Deactivate");
-					this.cameras[i].enabled = false;
-				} catch {
-					this.cameras[i].enabled = false;
-				}
-			}
-		}
-
-=======
-		return;
 		activeCamera.SendMessage("Disable");
 		if (++this.current >= this.cameras.Length) {
 			this.current = 0;
 		}
 		activeCamera.SendMessage("Enable");
->>>>>>> origin/master
+//
+//
+//		int i = 0;
+//		foreach (Camera cam in this.cameras) {
+//			if (i++ == current ) {
+//				try {
+//					cam.SendMessage("Enable");
+//					print(cam.name + " with #" + (i - 1) + " was enabled." );
+//				} catch {
+//					print("error activating camera " + cam.name + (i - 1));
+//				}
+////				this.cameras [current].SendMessage ("activate");
+//			} else {
+//				try {
+//					cam.SendMessage("Disable");
+//				} catch {
+//					print("error deactivating camera " + cam.name + (i - 1));
+//				}
+//			}
+//		}
+
 
 	}
-	*/
+	
+	
+//	public void move(string direction) {
+//		int x = 0;
+//		int y = 0;
+//		switch (direction) {
+//		case "w":
+//			y = 1;
+//			break;
+//		case "s":
+//			y = -1;
+//			break;
+//		case "a":
+//			x = -1;
+//			break;
+//		case "d":
+//			x = 1;
+//			break;
+//		}	
+//		int speed = 10;
+//		UnityEngine.EventSystems.AxisEventData.ReferenceEquals (x * speed, y * speed);
+//		UnityEngine.EventSystems.AxisEventData.Equals(x * speed ,y * speed);
+//		UnityEngine.Event.KeyboardEvent (direction);
+//	}
 }

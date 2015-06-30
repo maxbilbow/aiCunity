@@ -1,33 +1,24 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 <<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Max Scripts/RMXAiDelegate.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Max Scripts/RMXCameraListener.cs">
     <Files>
-      <File FileName="Assets/Max Scripts/RMXCameraListener.cs" Line="29" Column="68" />
-      <File FileName="Assets/Scripts/RMXTeam.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/RMXTeamGame.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/RMX.cs" Line="1" Column="1" />
-      <File FileName="Assets/Max Scripts/RMXPawn.cs" Line="1" Column="1" />
-      <File FileName="Assets/Max Scripts/RMXLookAround.cs" Line="1" Column="1" />
-      <File FileName="Assets/Max Scripts/RMXAiDelegate.cs" Line="8" Column="1" />
-      <File FileName="Assets/Max Scripts/RMXAiPoppy.cs" Line="1" Column="1" />
-      <File FileName="Assets/Max Scripts/RMXGameObject.cs" Line="1" Column="1" />
-      <File FileName="Assets/Max Scripts/RMXJetController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Max Scripts/RMXFollowTarget.cs" Line="1" Column="1" />
-      <File FileName="Assets/Max Scripts/RMXJoystick.cs" Line="1" Column="1" />
-      <File FileName="Assets/Max Scripts/RMXMasterControl.cs" Line="36" Column="64" />
-      <File FileName="Assets/Max Scripts/RMXBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets/Max Scripts/RMXAiPoppy.cs" Line="44" Column="3" />
+      <File FileName="Assets/Max Scripts/RMXMasterControl.cs" Line="16" Column="22" />
+      <File FileName="Assets/Max Scripts/RMXCameraListener.cs" Line="53" Column="4" />
 =======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Max Scripts/RMXCarController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Max Scripts/RMXMasterControl.cs">
     <Files>
-      <File FileName="Assets/Max Scripts/RMXCameraMount.cs" Line="4" Column="45" />
-      <File FileName="Assets/Max Scripts/RMXCameraRig.cs" Line="69" Column="29" />
-      <File FileName="Assets/Max Scripts/RMXAirPlaneController.cs" Line="85" Column="4" />
-      <File FileName="Assets/Max Scripts/RMXBallUserControl.cs" Line="16" Column="3" />
+      <File FileName="Assets/Max Scripts/RMXAirPlaneController.cs" Line="11" Column="34" />
+      <File FileName="Assets/Max Scripts/RMXMasterControl.cs" Line="86" Column="41" />
+      <File FileName="Assets/Max Scripts/RMXPlayerActions.cs" Line="1" Column="1" />
+      <File FileName="Assets/Max Scripts/RMXBallUserControl.cs" Line="7" Column="56" />
+      <File FileName="Assets/Max Scripts/RMXAiPoppy.cs" Line="1" Column="1" />
       <File FileName="Assets/Max Scripts/RMXJetController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Max Scripts/RMXMutableCamera.cs" Line="116" Column="21" />
-      <File FileName="Assets/Max Scripts/RMXLookAround.cs" Line="1" Column="1" />
-      <File FileName="Assets/Max Scripts/RMXCarController.cs" Line="46" Column="29" />
+      <File FileName="Assets/Max Scripts/RMXGameObject.cs" Line="88" Column="41" />
+      <File FileName="Assets/Max Scripts/RMXCameraListener.cs" Line="102" Column="50" />
+      <File FileName="Assets/Max Scripts/RMXLookAround.cs" Line="78" Column="20" />
 >>>>>>> origin/master
     </Files>
   </MonoDevelop.Ide.Workbench>

@@ -16,9 +16,9 @@ public class RMXPlayerActions : RMXGameObject {
 	}
 	// Update is called once per frame
 	void Update () {
-		/*if (willJump) {
+		if (willJump) {
 			body.Move(new Vector3(), willJump);
 			willJump = false;
-		}*/
+		}
 	}
 }
