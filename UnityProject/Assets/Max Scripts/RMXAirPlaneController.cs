@@ -5,7 +5,7 @@ using UnityStandardAssets.CrossPlatformInput;
 namespace UnityStandardAssets.Vehicles.Aeroplane
 {
 	[RequireComponent(typeof (AeroplaneController))]
-	public class RMXJetController : MonoBehaviour, RMXBehaviour
+	public class RMXAirPlaneController : MonoBehaviour, RMXBehaviour
 	{
 		// these max angles are only used on mobile, due to the way pitch and roll input are handled
 		public float maxRollAngle = 80;
@@ -13,7 +13,10 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 		
 		// reference to the aeroplane that we're controlling
 		private AeroplaneController m_Aeroplane;
-
+		private float m_Throttle;
+		private bool m_AirBrakes;
+		private float m_Yaw;
+		public float maxThrottle = 1;
 		public bool scriptEnabled {
 			get {
 				return _scriptEnabled;
@@ -27,41 +30,33 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 			m_Aeroplane = GetComponent<AeroplaneController>();
 		}
 		
-		private float throttle = 0;
+		
 		private void FixedUpdate()
 		{
-			// Read input for the pitch, yaw, roll and throttle of the aeroplane.
-<<<<<<< HEAD
-			float roll = CrossPlatformInputManager.GetAxis("Horizontal");
-			float pitch = CrossPlatformInputManager.GetAxis("Vertical");
-			bool airBrakes = CrossPlatformInputManager.GetButton("Fire1");
-			
-			// auto throttle up, or down if braking.
-			float throttle = airBrakes ? -1 : 1;
-=======
 			float roll = 0;
 			float pitch = 0;
-			bool airBrakes = true;
 			if (scriptEnabled) {
-				roll = CrossPlatformInputManager.GetAxis ("Horizontal");
+				// Read input for the pitch, yaw, roll and throttle of the aeroplane.
+			 	roll = CrossPlatformInputManager.GetAxis ("Horizontal");
 				pitch = CrossPlatformInputManager.GetAxis ("Vertical");
-				airBrakes = !CrossPlatformInputManager.GetButton ("Jump");
-
+//				m_AirBrakes = CrossPlatformInputManager.GetButton ("Fire1");
+				m_Yaw = CrossPlatformInputManager.GetAxis ("Horizontal");
+				m_AirBrakes = !CrossPlatformInputManager.GetButton ("Jump");
+			} else {
+				m_AirBrakes = true;
+				m_Yaw = 0;
+			}
+			if (!m_AirBrakes && m_Throttle <= maxThrottle) {
+				m_Throttle += 0.1f;
+			} else if (m_Throttle > 0){
+				m_Throttle -= 0.2f;
 			}
 
-			// auto throttle up, or down if braking.
-			if (!airBrakes && throttle <= 1) {
-				throttle += 0.1f;
-			} else if (throttle > -1) {
-				throttle -= 0.2f;
-			}
-
->>>>>>> origin/master
 			#if MOBILE_INPUT
-			AdjustInputForMobileControls(ref roll, ref pitch, ref throttle);
+			AdjustInputForMobileControls(ref roll, ref pitch, ref m_Throttle);
 			#endif
 			// Pass the input to the aeroplane
-			m_Aeroplane.Move(roll, pitch, 0, throttle, airBrakes);
+			m_Aeroplane.Move(roll, pitch, m_Yaw, m_Throttle, m_AirBrakes);
 		}
 		
 		
@@ -79,29 +74,14 @@ namespace UnityStandardAssets.Vehicles.Aeroplane
 			float intendedPitchAngle = pitch*maxPitchAngle*Mathf.Deg2Rad;
 			roll = Mathf.Clamp((intendedRollAngle - m_Aeroplane.RollAngle), -1, 1);
 			pitch = Mathf.Clamp((intendedPitchAngle - m_Aeroplane.PitchAngle), -1, 1);
-			
-			// similarly, the throttle axis input is considered to be the desired absolute value, not a relative change to current throttle.
-			float intendedThrottle = throttle*0.5f + 0.5f;
-			throttle = Mathf.Clamp(intendedThrottle - m_Aeroplane.Throttle, -1, 1);
 		}
 
 		public void enableScript() {
-<<<<<<< HEAD
-			enabled = true;
-//			isActive = true;
-		}
-		
-		public void disableScript() {
-			enabled = false;
-//			isActive = false;
-=======
 			_scriptEnabled = true;
 		}
-		
+
 		public void disableScript() {
 			_scriptEnabled = false;
-//			print ("disabled " + name);
->>>>>>> origin/master
 		}
 	}
 }

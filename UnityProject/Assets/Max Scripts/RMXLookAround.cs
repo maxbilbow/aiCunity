@@ -77,11 +77,44 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		public void OnDrag(PointerEventData data)
 		{
+<<<<<<< HEAD
 			rotateActiveCameraRig (rig);
 //			Vector3 newPos = Vector3.zero;
 //				int deltaX = (int)(data.position.x - m_StartPos.x);
 //				deltaX = Mathf.Clamp(deltaX, - MovementRange, MovementRange);
 //				newPos.x = deltaX;
+=======
+			if (data.IsPointerMoving()) {
+				Vector2 touchDelta = Input.touchCount > 0 ? Input.GetTouch (Input.touchCount - 1).deltaPosition : data.delta;
+//				print (delta);
+//				delta = Input.mousePosition - m_lastPos;
+//				m_lastPos = Input.mousePosition;
+				Vector3 delta = new Vector3(touchDelta.x,touchDelta.y,0);
+				delta.x *= rotationSpeed;
+				delta.y *= rotationSpeed;
+				var rig = rmx.activeCameraRig;
+				try {
+					if (rig.GetComponent<Rigidbody>().isKinematic) {
+						rig.transform.localEulerAngles += new Vector3 (-delta.y, delta.x, 0);
+					} else {
+						rig.gameObject.GetComponent<ConstantForce>().relativeTorque = new Vector3(-delta.y,delta.x,0);
+					}
+				} catch {
+					if (rig != null) {
+						rig.transform.localEulerAngles += new Vector3 (-delta.y, delta.x, 0);
+					} else {
+						rmx.activeCamera.transform.localEulerAngles += new Vector3 (-delta.y, delta.x, 0);
+					}
+				}
+//				if (rig != null) {
+//					ConstantForce force = rig.GetComponent<ConstantForce>().relativeTorque = new Vector3(-delta.y,delta.x,0);
+//					if (force != null) {
+//						force.relativeTorque = new Vector3(-delta.y,delta.x,0);
+//						return;
+//					}
+//				} 
+//				rmx.activeCamera.transform.localEulerAngles += new Vector3 (-delta.y, delta.x, 0);
+>>>>>>> origin/master
 //
 //				int deltaY = (int)(data.position.y - m_StartPos.y);
 //				deltaY = Mathf.Clamp(deltaY, -MovementRange, MovementRange);

@@ -11,5 +11,14 @@ EditorBuildSettings:
     path: Assets/Basic.unity
   - enabled: 0
     path: Assets/AiCubo/Fetch.unity
+<<<<<<< HEAD
   - enabled: 1
     path: Assets/AiCubo/Fetch.unity
+=======
+  - enabled: 0
+    path: Assets/AiCubo/Fetch.unity
+  - enabled: 0
+    path: Assets/AiCubo/20150627Fetch.unity
+  - enabled: 1
+    path: Assets/20150628MutableHeads.unity
+>>>>>>> origin/master

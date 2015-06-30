@@ -7,6 +7,13 @@ namespace UnityStandardAssets.Vehicles.Ball
 	public class RMXBallUserControl : RMXGameObject, RMXBehaviour
 	{
 
+		public bool scriptEnabled {
+			get {
+				return _scriptEnabled;
+			}
+		}
+		private bool _scriptEnabled = false;
+
 		private Ball ball; // Reference to the ball controller.
 		
 		private Vector3 move;
@@ -40,12 +47,21 @@ namespace UnityStandardAssets.Vehicles.Ball
 
 		private void Update()
 		{
+<<<<<<< HEAD
 			// Get the axis and jump input.
 //			if (isActive) {
 				float h = CrossPlatformInputManager.GetAxis ("Horizontal");
 				float v = CrossPlatformInputManager.GetAxis ("Vertical");
 				jump = CrossPlatformInputManager.GetButton ("Jump");
 			
+=======
+			if (scriptEnabled) {
+				// Get the axis and jump input.
+				float h = CrossPlatformInputManager.GetAxis ("Horizontal");
+				float v = CrossPlatformInputManager.GetAxis ("Vertical");
+				jump = CrossPlatformInputManager.GetButton ("Jump");
+		
+>>>>>>> origin/master
 				// calculate move direction
 				if (cam != null) {
 					// calculate camera relative direction to move:
@@ -55,7 +71,11 @@ namespace UnityStandardAssets.Vehicles.Ball
 					// we use world-relative directions in the case of no main camera
 					move = (v * Vector3.forward + h * Vector3.right).normalized;
 				}
+<<<<<<< HEAD
 //			}
+=======
+			}
+>>>>>>> origin/master
 		}
 		
 		
@@ -67,6 +87,7 @@ namespace UnityStandardAssets.Vehicles.Ball
 		}
 
 		public void enableScript() {
+<<<<<<< HEAD
 			enabled = true;
 //			isActive = true;
 		}
@@ -74,6 +95,13 @@ namespace UnityStandardAssets.Vehicles.Ball
 		public void disableScript() {
 			enabled = false;
 //			isActive = false;
+=======
+			_scriptEnabled = true;
+		}
+
+		public void disableScript() {
+			_scriptEnabled = false;
+>>>>>>> origin/master
 		}
 	}
 }

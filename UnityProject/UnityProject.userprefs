@@ -1,5 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Max Scripts/RMXAiDelegate.cs">
     <Files>
       <File FileName="Assets/Max Scripts/RMXCameraListener.cs" Line="29" Column="68" />
@@ -16,6 +17,18 @@
       <File FileName="Assets/Max Scripts/RMXJoystick.cs" Line="1" Column="1" />
       <File FileName="Assets/Max Scripts/RMXMasterControl.cs" Line="36" Column="64" />
       <File FileName="Assets/Max Scripts/RMXBehaviour.cs" Line="1" Column="1" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Max Scripts/RMXCarController.cs">
+    <Files>
+      <File FileName="Assets/Max Scripts/RMXCameraMount.cs" Line="4" Column="45" />
+      <File FileName="Assets/Max Scripts/RMXCameraRig.cs" Line="69" Column="29" />
+      <File FileName="Assets/Max Scripts/RMXAirPlaneController.cs" Line="85" Column="4" />
+      <File FileName="Assets/Max Scripts/RMXBallUserControl.cs" Line="16" Column="3" />
+      <File FileName="Assets/Max Scripts/RMXJetController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Max Scripts/RMXMutableCamera.cs" Line="116" Column="21" />
+      <File FileName="Assets/Max Scripts/RMXLookAround.cs" Line="1" Column="1" />
+      <File FileName="Assets/Max Scripts/RMXCarController.cs" Line="46" Column="29" />
+>>>>>>> origin/master
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
