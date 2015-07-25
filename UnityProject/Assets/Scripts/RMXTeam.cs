@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using AiCubo;
 //typealias ScoreCard = (kills: Int, deaths: Int, points: Int)
 //	typealias TeamStats = (score: ScoreCard, players: Int, livePlayers: Int)
 
@@ -137,7 +137,8 @@ using System.Collections;
 			case "4":
 				return Color.blue;
 			default:
-				return RMX.RandomColor();
+				return Art.RandomColor();
+
 			}
 		}
 				

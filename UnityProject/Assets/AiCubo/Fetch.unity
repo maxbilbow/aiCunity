@@ -11484,6 +11484,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1116983008}
   - 114: {fileID: 1116983007}
+  - 114: {fileID: 1116983009}
   m_Layer: 0
   m_Name: MasterControl
   m_TagString: Untagged
@@ -11502,9 +11503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 692f47c43ba4a43389ed6a54b49c364c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rmx: {fileID: 0}
-  deactivateOnLaunch: 0
-  disableOnLaunch: 0
+  defaultGravity: {x: 0, y: -9.81000042}
   mobileInput: {fileID: 268694115}
   desktopInput: {fileID: 353647240}
   nextCameraButton: switchCamera
@@ -11521,6 +11520,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &1116983009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1116983006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c658efff293b44f58a9304a5855ce244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugMisc: 1
+  DebugGameCenter: 1
+  DebugAchievements: 1
+  DebugExceptions: 1
+  DebugSingletons: 1
+  DebugGameDataLists: 1
+  DebugDatabase: 1
+  DebugPatches: 1
+  DebugEvents: 1
+  ClearAchievementsOnLoad: 0
+  _maxDisplayTime: 5
+  _printToScreen: 1
 --- !u!1 &1137474885
 GameObject:
   m_ObjectHideFlags: 0
@@ -14060,6 +14082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxRollAngle: 80
   maxPitchAngle: 80
+  maxThrottle: 1
 --- !u!114 &1469333312
 MonoBehaviour:
   m_ObjectHideFlags: 0
