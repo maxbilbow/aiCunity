@@ -13,5 +13,7 @@ EditorBuildSettings:
     path: Assets/AiCubo/Fetch.unity
   - enabled: 0
     path: Assets/AiCubo/Fetch.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/AiCubo/20150627Fetch.unity
+  - enabled: 1
+    path: Assets/AiCubo/Fetch.unity
