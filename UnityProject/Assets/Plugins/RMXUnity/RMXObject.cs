@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 
 namespace RMX {
 
@@ -8,41 +9,88 @@ namespace RMX {
 		void OnValueForKeyWillChange(string key, object value);
 		void OnValueForKeyDidChange(string key, object value);
 	}
-	public class RMXObject : MonoBehaviour, KeyValueObserver, EventListener {
+
+	
+	public interface IRMXObject : KeyValueObserver, EventListener {
+		bool isListening { get; }
+	
+	}
+	public class RMXObject : MonoBehaviour, IRMXObject {
 
 	 	Dictionary<string, object> values = new Dictionary<string, object> ();
 		List<KeyValueObserver> observers = new List<KeyValueObserver> ();
 
-		protected void WillBeginEvent(IEvent theEvent){
-			Notifications.EventWillStart (theEvent);
+
+		/// <summary>
+		/// Gets a value indicating whether this <see cref="RMX.ASingleton`1"/> add to global listeners.
+		/// </summary>
+		/// <value><c>true</c> if add to global listeners; otherwise, <c>false</c>.</value>
+		private bool AddToGlobalListeners { 
+			get {
+				System.Type classType = this.GetType();
+				foreach (string vMethod in ListenerMethods) {
+					MethodInfo method = classType.GetMethod (vMethod);
+					if (method.DeclaringType != typeof(RMXObject)) 
+						return true;
+				}
+				return false;
+			}
 		}
 
-		protected void DidUpdateEvent(IEvent theEvent) {
-			Notifications.EventWillStart (theEvent);
+		bool _isListening = false;
+
+		public bool isListening {
+			get {
+				return _isListening;
+			}
 		}
 
-		protected void DidFinishEvent(IEvent theEvent){
-			Notifications.EventDidEnd (theEvent);
+		protected virtual void Awake() {
+			if (AddToGlobalListeners) {
+				NotificationCenter.AddListener (this);
+				_isListening = true;
+			}
 		}
 
-		protected void DidCauseEvent(IEvent theEvent){
-			Notifications.EventDidOccur (theEvent);
+		protected void StopListening(){
+			NotificationCenter.RemoveListener (this);
+			_isListening = false;
 		}
 
-		protected void WillBeginEvent(IEvent theEvent, object info){
-			Notifications.EventWillStart (theEvent, info);
+//		protected virtual void OnDestroy() {
+//			Notifications.RemoveListener (this);
+//		}
+
+		protected void WillBeginEvent(System.Enum theEvent){
+			NotificationCenter.EventWillStart (theEvent);
+		}
+
+		protected void DidUpdateEvent(System.Enum theEvent) {
+			NotificationCenter.EventWillStart (theEvent);
+		}
+
+		protected void DidFinishEvent(System.Enum theEvent){
+			NotificationCenter.EventDidEnd (theEvent);
+		}
+
+		protected void DidCauseEvent(System.Enum theEvent){
+			NotificationCenter.EventDidOccur (theEvent);
+		}
+
+		protected void WillBeginEvent(System.Enum theEvent, object info){
+			NotificationCenter.EventWillStart (theEvent, info);
 		}
 		
-		protected void DidUpdateEvent(IEvent theEvent, object info) {
-			Notifications.EventWillStart (theEvent, info);
+		protected void DidUpdateEvent(System.Enum theEvent, object info) {
+			NotificationCenter.EventWillStart (theEvent, info);
 		}
 		
-		protected void DidFinishEvent(IEvent theEvent, object info){
-			Notifications.EventDidEnd (theEvent, info);
+		protected void DidFinishEvent(System.Enum theEvent, object info){
+			NotificationCenter.EventDidEnd (theEvent, info);
 		}
 
-		protected void DidCauseEvent(IEvent theEvent, object info){
-			Notifications.EventDidOccur (theEvent, info);
+		protected void DidCauseEvent(System.Enum theEvent, object info){
+			NotificationCenter.EventDidOccur (theEvent, info);
 		}
 
 		protected void WillChangeValueForKey(string key){
@@ -89,10 +137,15 @@ namespace RMX {
 			"OnEventDidEnd"
 		};
 
-		public virtual void OnEvent(IEvent theEvent, object args) {}
+		public virtual void OnEvent(System.Enum theEvent, object args) {}
 		
-		public virtual void OnEventDidStart(IEvent theEvent, object args){}
+		public virtual void OnEventDidStart(System.Enum theEvent, object args){}
 		
-		public virtual void OnEventDidEnd(IEvent theEvent, object args){}
+		public virtual void OnEventDidEnd(System.Enum theEvent, object args){}
+		public static bool OneIn10 {
+			get {
+				return Random.Range(0,10) == 1;
+			}
+		}
 	}
 }

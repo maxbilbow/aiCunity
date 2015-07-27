@@ -8,8 +8,6 @@ public class RMXMasterControl : AGameController<RMXMasterControl> {
 	private int current = 0;
 
 
-	public GameObject mobileInput;
-	public GameObject desktopInput;
 
 	public string nextCameraButton = "switchCamera";
 	public Camera mainCamera;
@@ -53,31 +51,21 @@ public class RMXMasterControl : AGameController<RMXMasterControl> {
 
 	protected override void StartDesktop ()
 	{
-		if (!desktopInput) {
-			try {
-				desktopInput = GameObject.Find ("DesktopInput");
-			} catch {
-				print ("Desktop input not found");
-			}
 
+		try {
+			//GameObject.Find ("MobileInput").SetActive(false);
+		} catch {
+			print ("Desktop input not found");
 		}
-		if (mobileInput) {
-			mobileInput.SetActive(false);
-		}
+
 	}
 
 	protected override void StartMobile ()
 	{
-		if (!mobileInput) {
-			try {
-				mobileInput = GameObject.Find ("MobileInput");
-			} catch {
-				print ("Mobile input not found");
-			}
-
-		}
-		if (desktopInput) {
-			desktopInput.SetActive(false);
+		try {
+			 GameObject.Find ("DesktopInput").SetActive(false);
+		} catch {
+			print ("Mobile input not found");
 		}
 	}
 	//	private int total = Camera.GetAllCameras.count;

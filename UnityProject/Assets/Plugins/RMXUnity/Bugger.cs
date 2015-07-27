@@ -11,32 +11,39 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using System;
+using System.Runtime;
+using System.Runtime.CompilerServices;
 
 namespace RMX
 {
 
-	public class Testing {
+//	public class Testing {
+//		
+//		public static string Misc = "Misc";
+//		public static string GameCenter = "GameCenter";
+//		public static string Achievements = "Achievements";
+//		public static string Exceptions = "Exceptions";
+//		
+//		public static string Singletons = "Singletons";
+//		public static string Patches = "Patches";
+//		public static string Database = "Database";
+//		public static string EventCenter = "EventCenter";
+//		public static string EarlyInits = "DebugInits";
+//	}
+
+	public enum RMXTests {
 		
-		public static string Misc = "Misc";
-		public static string GameCenter = "GameCenter";
-		public static string Achievements = "Achievements";
-		public static string Exceptions = "Exceptions";
-		
-		public static string Singletons = "Singletons";
-		public static string Patches = "Patches";
-		public static string Database = "Database";
-		public static string EventCenter = "EventCenter";
+		Misc, GameCenter, Achievements, Exceptions, Singletons ,Patches,Database ,EventCenter, EarlyInits
 	}
 
-
-	public class Bugger : Singletons.ASingleton<Bugger>
+	public static class Bugger //: Singletons.ASingleton<Bugger>
 	{
-		public struct Log {
-			public Log(string feature, string message) {
+		struct Log {
+			public Log(System.Enum feature, string message) {
 				this.feature = feature;
 				this.message = message;
 			}
-			public string feature;
+			public System.Enum feature;
 			public string message;
 
 			public bool isEmpty {
@@ -53,11 +60,11 @@ namespace RMX
 
 			private string color {
 				get {
-					if (this.feature == Testing.Exceptions)
+					if (this.feature.Equals(RMXTests.Exceptions))
 						return "red";
-					else if (this.feature == Testing.GameCenter)
+					else if (this.feature.Equals( RMXTests.GameCenter))
 						return "yellow";
-					else if (this.feature == Testing.Patches)
+					else if (this.feature.Equals( RMXTests.Patches))
 						return "green";
 					else
 						return "blue";
@@ -70,31 +77,32 @@ namespace RMX
 			{
 				string header = "<color=" + color + ">" + this.feature + ": </color>\n";
 				var result = TextFormatter.Format( header + this.message);
-				if (Singletons.SettingsInitialized && Singletons.Settings.PrintToScreen)
-					Bugger.current.Queue.Add(result);
+				if (Singletons.GameControllerInitialized && Singletons.GameController.DebugHUD)
+					Bugger.Queue.Add(result);
 				return result;
 			}
 		}
 
-		public List<string> Queue = new List<string>();
+		public static List<string> Queue = new List<string>();
 		private static List<Log> _lateLogs = new List<Log> ();
-	
-		bool _setupComplete = false;
-		protected override bool SetupComplete {
-			get {
-				return _setupComplete;
-			}
+	 	static List<ISingleton> singletons = new List<ISingleton>();
+		static List<IRMXObject> watchList = new List<IRMXObject> ();
+
+		public static void AddToWatchList(IRMXObject o) {
+			if (Singletons.GameController.BuildForRelease)
+				return;
+			else if (o is ISingleton)
+				singletons.Add (o as ISingleton);
+			else
+				watchList.Add (o);
 		}
 
 
-		void Start() {
-			if (!Singletons.SettingsInitialized)
-				Debug.LogError ("Setting MUST be initialized before Bugger");
-			_setupComplete = true;
-
+		static void LateLogs() {
+			if (Singletons.GameController.IsDebugging(RMXTests.EarlyInits))
 			foreach (Log log in _lateLogs) {
 				try {
-					if (settings.IsDebugging(log.feature)) {
+					if (Singletons.GameController.IsDebugging(log.feature)) {
 						var message = TextFormatter.Format(  ": _LATE_ " + log.message);
 						Debug.Log(new Log(log.feature, message));
 					}
@@ -104,26 +112,22 @@ namespace RMX
 			}
 			_lateLogs.Clear ();
 			_lateLogs = null;
-
 		}
 
 
 
 
-		Log _log;
+		static Log _log = new Log(RMXTests.Exceptions,"");
 		public static string Last {
 			get {
-				if (IsInitialized)
-					if (!current._log.isEmpty)
-						return current._log.ToString();
+				if (!_log.isEmpty)
+						return _log.ToString();
 					else
 						throw new NullReferenceException ("_log should not be null!");
-				else
-					throw new Exception ("Bugger must be initialized before accessing Last log.");
 			}
 		}
 
-		 static void AddLateLog(string feature, string message) {
+		 static void AddLateLog(System.Enum feature, string message) {
 			if (_lateLogs == null)
 				throw new Exception ("Late Log Was Added too Late! - " + feature + "\n " + message);
 			else		
@@ -131,24 +135,29 @@ namespace RMX
 
 		}
 
-		public static Log StartNewLog(string feature) {
-			return StartNewLog (feature, "");
-		}
-
-		public static Log StartNewLog(string feature, string message) {
-			if (IsInitialized) {
-				return new Log (feature, message);
-			} else
-				throw new Exception ("Bugger must be initialized before StartNewLog(string feature, string message). Log is: \n" + feature + ": " + message);
-
-		}
+//		static Log StartNewLog(string feature) {
+//			return StartNewLog (feature, "");
+//		}
+//
+//	 	static Log StartNewLog(string feature, string message) {
+//			if (IsInitialized) {
+//				return new Log (feature, message);
+//			} else
+//				throw new Exception ("Bugger must be initialized before StartNewLog(string feature, string message). Log is: \n" + feature + ": " + message);
+//
+//		}
 	
+		private static string Stack(string message, int skip = 2) {
+			var sf = new System.Diagnostics.StackTrace(skip).GetFrame(0);
+			var file = sf.GetFileName(); var member = sf.GetMethod().Name; var line = sf.GetFileLineNumber();
+			return message + string.Format("\n<color=red> => {0}_{1}, line: {2} </color>", file, member, line);
+		}
 
-
-		public static bool WillLog(string feature, string message) {
-			if (IsInitialized && Singletons.Settings != null) {
-				if (Singletons.Settings.IsDebugging (feature)) {
-					current._log = new Log (feature, message);
+		public static bool WillLog(System.Enum feature, string message) {
+			message = Stack (message);
+			if (Singletons.GameControllerInitialized) {
+				if (Singletons.GameController.IsDebugging (feature)) {
+					_log = new Log (feature, message);
 					return true;
 				} else {
 					return false;
@@ -161,27 +170,23 @@ namespace RMX
 
 
 
-		private bool timesUp {
+		private static bool timesUp {
 			get{ 
-				return settings != null && settings.PrintToScreen && Queue.Count > 0 && Time.fixedTime - _startedAt > settings.MaxDisplayTime;
+				return Singletons.GameControllerInitialized && Singletons.GameController.DebugHUD && Queue.Count > 0 && Time.fixedTime - _startedAt > Singletons.GameController.MaxDisplayTime;
 			}
 		}
 
-		private int timeRemaining {
+		private static int timeRemaining {
 			get {
-				return settings != null ? (int) (settings.MaxDisplayTime - (Time.fixedTime - _startedAt)) : 1;
+				return Singletons.GameControllerInitialized ? (int) (Singletons.GameController.MaxDisplayTime - (Time.fixedTime - _startedAt)) : 1;
 			}
 		}
 
-		void Update() {
-			if (timesUp) {
-				Queue.RemoveAt(0);
-				_startedAt = Time.fixedTime;
-			}
-		}
-		private float _startedAt = 0;
 
-		public void AddToQueue(string log) {
+
+		private static float _startedAt = 0;
+
+		static void AddToQueue(string log) {
 			if (Queue.Count == 0)
 				_startedAt = Time.fixedTime;
 			if (!Queue.Exists( val =>  {
@@ -190,21 +195,112 @@ namespace RMX
 				Queue.Add (log);
 		}
 
-		void OnGUI () {
-			if (settings != null && settings.PrintToScreen && Queue.Count > 0) {
-				var text = timeRemaining + " – " + Queue[0];
-				GUIStyle style = new GUIStyle ();
-//				style.fontSize = 50;
-				style.richText = true;
-				style.wordWrap = true;
-				style.alignment = TextAnchor.LowerLeft;
-				style.padding.left = style.padding.right = style.padding.top = style.padding.bottom = 20;
-//				style.border
-				GUI.Label (new Rect (0, 0, Screen.width, Screen.height), text, style);
+		public static void Initialize() {
+			HUD.Initialize ();
+		}
+
+		class HUD : Singletons.ASingleton<HUD> {
+
+			protected override Init WillInitialize
+			{
+				get {
+					if (Singletons.GameController.BuildForRelease || !Singletons.GameController.DebugHUD) {
+						NotificationCenter.RemoveListener(this);
+						return Init.DestroyCompletely;
+					} else {
+						return Init.Continue;
+					}
+				}
+			}
+
+			void Update() {
+				if (timesUp) {
+					Queue.RemoveAt(0);
+					_startedAt = Time.fixedTime;
+				}
+			}
+
+			void OnGUI () {
+				if (Singletons.GameController != null && Singletons.GameController.DebugHUD && Queue.Count > 0) {
+					var text = timeRemaining + " – " + Queue[0];
+					GUIStyle style = new GUIStyle ();
+	//				style.fontSize = 50;
+					style.richText = true;
+					style.wordWrap = true;
+					style.alignment = TextAnchor.LowerLeft;
+					style.padding.left = style.padding.right = style.padding.top = style.padding.bottom = 20;
+	//				style.border
+					GUI.Label (new Rect (0, 0, Screen.width, Screen.height), Time.timeScale == 0 ? text : "<color=white>" + text + "</color>", style);
+				}
 			}
 		}
 
+		public abstract class DebugHUD : Singletons.ASingleton<DebugHUD> , Singletons.IDebugHUD {
+			public GameObject showButton;
+			public GameObject hideButton;
+			
+			protected override Init WillInitialize
+			{
+				get {
+					if (Singletons.GameController.BuildForRelease || !Singletons.GameController.DebugHUD) {
+						NotificationCenter.RemoveListener(this);
+						return Init.DestroyCompletely;
+					} else {
+						return Init.Continue;
+					}
+				}
+			}
+			// Use this for initialization
+			void Start () {
+				Hide ();
+				if (!Singletons.GameController.DebugHUD) {
+					showButton.SetActive(false);
+				}
+			}
+			
+			bool _show = false;
+			public void Show() {
+				_show = true;
+				showButton.SetActive (false);
+				hideButton.SetActive (true);
+				//			debugPanel.transform.position = new Vector3 (-slideX, 0, 0);
+				//			info.text = "Width: " + Camera.main.pixelWidth.ToString();
+			}
+			
+			public void Hide() {
+				_show = false;
+				showButton.SetActive (true);
+				hideButton.SetActive (false);
+				//			debugPanel.transform.position = new Vector3 (slideX, 0, 0);
+				//			info.text = "Width: " + Camera.main.pixelWidth.ToString();
+			}
 
+
+			protected abstract string DebugData { get; }
+
+			protected bool listSingletons = true; 
+			protected bool listObjects = false; 
+			
+			// Update is called once per frame
+			void OnGUI() {
+				if (_show) {
+					var text = DebugData;
+					GUIStyle style = new GUIStyle ();
+					//				
+					foreach (ISingleton s in singletons) {
+						text += "\n" + s.name + ", isListening: " + s.isListening;
+					}
+					style.richText = true;
+					style.wordWrap = true;
+					style.alignment = TextAnchor.UpperRight;
+					style.padding.left = style.padding.right = style.padding.top = style.padding.bottom = 20;
+					//				style.border
+					GUI.Label (new Rect (0, 0, Screen.width, Screen.height), TextFormatter.Format(text,Time.timeScale == 0 ? "black" : "white"), style);
+					
+				}
+			}
+
+		}
 	}
 
 
