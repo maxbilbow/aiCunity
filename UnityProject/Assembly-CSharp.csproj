@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AiCubo\Max Scripts\DebugHUD.cs" />
      <Compile Include="Assets\AiCubo\Max Scripts\HeadStabilizer.cs" />
      <Compile Include="Assets\AiCubo\Max Scripts\RMXAiDelegate.cs" />
      <Compile Include="Assets\AiCubo\Max Scripts\RMXAiPoppy.cs" />

@@ -53,7 +53,7 @@ public class RMXMasterControl : AGameController<RMXMasterControl> {
 	{
 
 		try {
-			//GameObject.Find ("MobileInput").SetActive(false);
+			GameObject.Find ("MobileInput").SetActive(false);
 		} catch {
 			print ("Desktop input not found");
 		}
