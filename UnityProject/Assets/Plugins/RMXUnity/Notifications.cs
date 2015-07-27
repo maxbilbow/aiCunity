@@ -58,11 +58,20 @@ namespace RMX {
 			return StatusOf (theEvent) == EventStatus.Active;
 		}
 
-		public static void EventDidOccur(System.Enum e) {
+		/// <summary>
+		/// Depricated
+		/// </summary>
+		/// <param name="e">E.</param>
+		 static void EventDidOccur(System.Enum e) {
 			EventDidOccur (e, null);
 		}
 
-		public static void EventDidOccur(System.Enum theEvent, object o) {
+		/// <summary>
+		/// Depricated
+		/// </summary>
+		/// <param name="theEvent">The event.</param>
+		/// <param name="o">O.</param>
+		 static void EventDidOccur(System.Enum theEvent, object o) {
 			Events [theEvent] = o is EventStatus ? (EventStatus) o : EventStatus.Completed;
 			foreach (EventListener listener in Listeners) {
 				listener.OnEvent(theEvent,o);

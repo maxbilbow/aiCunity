@@ -50,6 +50,7 @@ namespace RMX {
 				NotificationCenter.AddListener (this);
 				_isListening = true;
 			}
+			Bugger.AddToWatchList(this);
 		}
 
 		protected void StopListening(){
@@ -57,9 +58,11 @@ namespace RMX {
 			_isListening = false;
 		}
 
-//		protected virtual void OnDestroy() {
-//			Notifications.RemoveListener (this);
-//		}
+		protected virtual void OnDestroy() {
+			NotificationCenter.RemoveListener (this);
+			_isListening = false;
+			Bugger.RemoveFromWatchList (this);
+		}
 
 		protected void WillBeginEvent(System.Enum theEvent){
 			NotificationCenter.EventWillStart (theEvent);
@@ -73,8 +76,12 @@ namespace RMX {
 			NotificationCenter.EventDidEnd (theEvent);
 		}
 
-		protected void DidCauseEvent(System.Enum theEvent){
-			NotificationCenter.EventDidOccur (theEvent);
+		/// <summary>
+		/// depricated
+		/// </summary>
+		/// <param name="theEvent">The event.</param>
+		 void DidCauseEvent(System.Enum theEvent){
+//			NotificationCenter.EventDidOccur (theEvent);
 		}
 
 		protected void WillBeginEvent(System.Enum theEvent, object info){
@@ -89,8 +96,13 @@ namespace RMX {
 			NotificationCenter.EventDidEnd (theEvent, info);
 		}
 
-		protected void DidCauseEvent(System.Enum theEvent, object info){
-			NotificationCenter.EventDidOccur (theEvent, info);
+		/// <summary>
+		/// depricated
+		/// </summary>
+		/// <param name="theEvent">The event.</param>
+		/// <param name="info">Info.</param>
+		 void DidCauseEvent(System.Enum theEvent, object info){
+//			NotificationCenter.EventDidOccur (theEvent, info);
 		}
 
 		protected void WillChangeValueForKey(string key){

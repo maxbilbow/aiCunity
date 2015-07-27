@@ -1,22 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/RMXUnity/Bugger.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../ADHDSimulator/Pro-Crastinate/Assets/Pro-Crastinate/Scripts/GameController.cs">
     <Files>
-      <File FileName="Assets/AiCubo/Max Scripts/RMXMasterControl.cs" Line="56" Column="51" />
-      <File FileName="../../ADHDSimulator/Pro-Crastinate/Assets/Plugins/RMXUnity/ASingleton.cs" Line="1" Column="1" />
-      <File FileName="../../ADHDSimulator/Pro-Crastinate/Assets/Pro-Crastinate/Scripts/DragRigidbody.cs" Line="1" Column="1" />
-      <File FileName="../../ADHDSimulator/Pro-Crastinate/Assets/Plugins/RMXUnity/SavedData.cs" Line="1" Column="1" />
-      <File FileName="../../ADHDSimulator/Pro-Crastinate/Assets/Pro-Crastinate/Scripts/Version.cs" Line="1" Column="1" />
-      <File FileName="../../ADHDSimulator/Pro-Crastinate/Assets/Pro-Crastinate/Scripts/GameData.cs" Line="1" Column="1" />
-      <File FileName="../../ADHDSimulator/Pro-Crastinate/Assets/Plugins/RMXUnity/Bugger.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PanelManager.cs" Line="97" Column="115" />
-      <File FileName="Assets/Scripts/RMXTeam.cs" Line="15" Column="17" />
-      <File FileName="Assets/AiCubo/Max Scripts/RMXCameraListener.cs" Line="1" Column="1" />
-      <File FileName="Assets/AiCubo/Max Scripts/RMXJoystick.cs" Line="1" Column="1" />
-      <File FileName="Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs" Line="37" Column="1" />
-      <File FileName="Assets/AiCubo/Max Scripts/DebugHUD.cs" Line="10" Column="18" />
-      <File FileName="Assets/Plugins/RMXUnity/Bugger.cs" Line="253" Column="1" />
-      <File FileName="Assets/Plugins/RMXUnity/ASingleton.cs" Line="142" Column="1" />
+      <File FileName="../../ADHDSimulator/Pro-Crastinate/Assets/Pro-Crastinate/Scripts/GameController.cs" Line="133" Column="3" />
+      <File FileName="../../ADHDSimulator/Pro-Crastinate/Assets/Pro-Crastinate/Scripts/GameCenter.cs" Line="196" Column="30" />
+      <File FileName="../../ADHDSimulator/Pro-Crastinate/Assets/Plugins/RMXUnity/RMXObject.cs" Line="100" Column="17" />
+      <File FileName="../../ADHDSimulator/Pro-Crastinate/Assets/Pro-Crastinate/Scripts/DragRigidbody.cs" Line="177" Column="24" />
+      <File FileName="../../ADHDSimulator/Pro-Crastinate/Assets/Pro-Crastinate/Scripts/ClockSpawner.cs" Line="43" Column="72" />
+      <File FileName="../../ADHDSimulator/Pro-Crastinate/Assets/Pro-Crastinate/Scripts/ClockBehaviour.cs" Line="30" Column="61" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

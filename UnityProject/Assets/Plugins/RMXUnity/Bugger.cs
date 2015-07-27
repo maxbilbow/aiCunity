@@ -85,16 +85,21 @@ namespace RMX
 
 		public static List<string> Queue = new List<string>();
 		private static List<Log> _lateLogs = new List<Log> ();
-	 	static List<ISingleton> singletons = new List<ISingleton>();
+//	 	static List<ISingleton> singletons = new List<ISingleton> ();
 		static List<IRMXObject> watchList = new List<IRMXObject> ();
 
 		public static void AddToWatchList(IRMXObject o) {
-			if (!Singletons.GameControllerInitialized || !Singletons.GameController.BuildForRelease) {
-				if (o is ISingleton)
-					singletons.Add (o as ISingleton);
-				else
-					watchList.Add (o);
-			} 
+//			if (Singletons.GameControllerInitialized && Singletons.GameController.BuildForRelease) 
+//				return;
+//			else
+//			if (o is ISingleton)
+//				singletons.Add (o as ISingleton);
+//			else
+				watchList.Add (o);
+		}
+
+		public static void RemoveFromWatchList(IRMXObject o) {
+			watchList.Remove(o);
 		}
 
 
@@ -135,22 +140,16 @@ namespace RMX
 
 		}
 
-//		static Log StartNewLog(string feature) {
-//			return StartNewLog (feature, "");
-//		}
-//
-//	 	static Log StartNewLog(string feature, string message) {
-//			if (IsInitialized) {
-//				return new Log (feature, message);
-//			} else
-//				throw new Exception ("Bugger must be initialized before StartNewLog(string feature, string message). Log is: \n" + feature + ": " + message);
-//
-//		}
+
 	
 		private static string Stack(string message, int skip = 2) {
-			var sf = new System.Diagnostics.StackTrace(skip).GetFrame(0);
-			var file = sf.GetFileName(); var member = sf.GetMethod().Name; var line = sf.GetFileLineNumber();
-			return message + string.Format("\n<color=red> => {0}_{1}, line: {2} </color>", file, member, line);
+			try {
+				var sf = new System.Diagnostics.StackTrace(skip).GetFrame(0);
+				var file = sf.GetFileName(); var member = sf.GetMethod().Name; var line = sf.GetFileLineNumber();
+				return message + string.Format("\n<color=red> => {0}_{1}, line: {2} </color>", file, member, line);
+			} catch (Exception e){
+				return "STACK FAIL! " + e.Message + "\n" + message;
+			}
 		}
 
 		public static bool WillLog(System.Enum feature, string message) {
@@ -289,18 +288,26 @@ namespace RMX
 
 			protected abstract string DebugData { get; }
 
-			protected bool listSingletons = true; 
-			protected bool listObjects = false; 
-			
+			public bool listSingletons = true; 
+			public bool listBehaviours = false; 
+
+
 			// Update is called once per frame
 			void OnGUI() {
 				if (_show) {
 					var text = DebugData;
 					GUIStyle style = new GUIStyle ();
-					//				
-					foreach (ISingleton s in singletons) {
-						text += "\n" + s.name + ", isListening: " + s.isListening;
+					//		
+					foreach (IRMXObject o in watchList) {
+						if (!(o is ISingleton) && o is Behaviour)
+							text += "\n" + o.GetType().Name + ",     enabled: " + (o as Behaviour).enabled;
 					}
+
+					foreach (IRMXObject o in watchList) {
+						if (listSingletons && o is ISingleton)
+							text += "\n" + o.GetType().Name + ", isListening: " + (o as ISingleton).isListening;
+					}
+
 					style.richText = true;
 					style.wordWrap = true;
 					style.alignment = TextAnchor.UpperRight;

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class RMXGameObject : MonoBehaviour {
+public class RMXGameObject : RMX.RMXObject {
 	public static int COUNT;
 	protected bool isRootObject;
 	public RMXMasterControl rmx;
@@ -14,7 +14,8 @@ public class RMXGameObject : MonoBehaviour {
 
 	protected GameObject parent;
 	// Use this for initialization
-	protected virtual void Awake () {
+	protected override void Awake () {
+		base.Awake ();
 		_rmxID = RMXGameObject.COUNT++;
 		rmx = GameObject.Find ("MasterControl").GetComponent<RMXMasterControl> ();
 		try {
